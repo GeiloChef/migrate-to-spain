@@ -15,7 +15,13 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxtjs/i18n'
   ],
-  css: ['~/assets/css/main.css'],
+  css: ['~/app/assets/css/main.css'],
+  
+  // Enable auto-imports for components
+  components: {
+    dirs: ['~/app/components']
+  },
+  
   i18n: {
     locales: [
       {
