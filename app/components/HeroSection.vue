@@ -23,19 +23,20 @@
       </p>
       
       <div class="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay-2">
+      <UButton 
+          size="lg" 
+          variant="outline" 
+          class="border-2 border-spain-yellow text-spain-yellow font-semibold px-8 py-4 text-lg bg-spain-yellow/10 backdrop-blur-sm hover:bg-spain-yellow hover:text-spain-navy hover:scale-105 transition-all duration-300 shadow-spain-yellow cursor-pointer"
+        >
+          {{ $t('hero.buttons.secondary') }}
+        </UButton>
+        
         <UButton 
           size="lg" 
           variant="solid"
           class="bg-spain-red hover:bg-spain-red-dark text-white font-semibold px-8 py-4 text-lg hover:scale-105 transition-all duration-300 shadow-spain-red cursor-pointer border-0"
         >
           {{ $t('hero.buttons.primary') }}
-        </UButton>
-        <UButton 
-          size="lg" 
-          variant="outline" 
-          class="border-2 border-spain-yellow text-spain-yellow font-semibold px-8 py-4 text-lg bg-spain-yellow/10 backdrop-blur-sm hover:bg-spain-yellow hover:text-spain-navy hover:scale-105 transition-all duration-300 shadow-spain-yellow cursor-pointer"
-        >
-          {{ $t('hero.buttons.secondary') }}
         </UButton>
       </div>
     </div>
