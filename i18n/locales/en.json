@@ -25,9 +25,14 @@
         }
       },
       "step2": {
-        "title": "Planning Phase",
-        "date": "Coming Soon",
-        "description": "Next step will be added soon"
+        "title": "First Research & Feasibility",
+        "date": "Spring 2022",
+        "description": "First info gathering: residence rights, taxes, cost of living. Notes & rough plan: \"What would I need to do to actually emigrate?\"",
+        "preview": {
+          "point1": "First info gathering: residence rights, taxes, cost of living",
+          "point2": "Notes & rough plan: \"What would I need to do to actually emigrate?\"",
+          "point3": "First research on feasibility"
+        }
       },
       "step3": {
         "title": "Implementation",
@@ -35,13 +40,13 @@
         "description": "Next step will be added soon"
       },
       "step4": {
-        "title": "First Steps: Learning Spanish",
-        "date": "Spring 2022",
-        "description": "Motivation, first courses/apps, maybe anecdotes (how hard or funny it was).",
+        "title": "Discovering Spain",
+        "date": "Summer 2022",
+        "description": "First trips, exploring different regions, gathering impressions. Making contacts, first personal experiences with the people and culture.",
         "preview": {
-          "point1": "Motivation for learning Spanish",
-          "point2": "First courses and apps",
-          "point3": "Funny anecdotes and challenges"
+          "point1": "First trips, exploring different regions, gathering impressions",
+          "point2": "Making contacts, first personal experiences with the people and culture",
+          "point3": "Discovery of Spanish lifestyle and traditions"
         }
       },
       "step5": {

@@ -18,226 +18,85 @@
         <!-- Timeline Steps with Horizontal Scroll - Added padding and adjusted container -->
         <div class="relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto pb-12 px-8 scrollbar-hide">
           <!-- Step 1: Der Traum von Spanien -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-red rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-red rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-navy">{{ $t('story.timeline.step1.date') }}</span>
-            </div>
-            
-            <!-- Story Card -->
-            <div class="w-80 transform group-hover:scale-105 transition-all duration-500">
-              <StoryCard 
-                :step-number="1"
-                :title="$t('story.timeline.step1.title')"
-                :description="$t('story.timeline.step1.description')"
-                :preview-points="[
-                  $t('story.timeline.step1.preview.point1'),
-                  $t('story.timeline.step1.preview.point2'),
-                  $t('story.timeline.step1.preview.point3')
-                ]"
-              />
-            </div>
-          </div>
+          <TimelineStep :step-number="1" :date="$t('story.timeline.step1.date')">
+            <StoryCard 
+              :step-number="1"
+              :title="$t('story.timeline.step1.title')"
+              :description="$t('story.timeline.step1.description')"
+              :preview-points="[
+                $t('story.timeline.step1.preview.point1'),
+                $t('story.timeline.step1.preview.point2'),
+                $t('story.timeline.step1.preview.point3')
+              ]"
+            />
+          </TimelineStep>
           
-          <!-- Step 2: Planning Phase -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-yellow rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-yellow rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-gray-dark">{{ $t('story.timeline.step2.date') }}</span>
-            </div>
-            
-            <!-- Placeholder Card -->
-            <div class="w-80 h-64 bg-white/50 rounded-2xl border-2 border-dashed border-spain-gray-light flex items-center justify-center">
-              <div class="text-center text-spain-gray-dark">
-                <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                </svg>
-                <p class="font-semibold">{{ $t('story.placeholder.title') }}</p>
-                <p class="text-sm">{{ $t('story.placeholder.description') }}</p>
-              </div>
-            </div>
-          </div>
+          <!-- Step 2: Erste Recherchen & Machbarkeit -->
+          <TimelineStep :step-number="2" :date="$t('story.timeline.step2.date')">
+            <StoryCard 
+              :step-number="2"
+              :title="$t('story.timeline.step2.title')"
+              :description="$t('story.timeline.step2.description')"
+              :preview-points="[
+                $t('story.timeline.step2.preview.point1'),
+                $t('story.timeline.step2.preview.point2'),
+                $t('story.timeline.step2.preview.point3')
+              ]"
+            />
+          </TimelineStep>
           
           <!-- Step 3: Erste Schritte - Spanisch lernen -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-orange rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-orange rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-navy">{{ $t('story.timeline.step4.date') }}</span>
-            </div>
-            
-            <!-- Story Card -->
-            <div class="w-80 transform group-hover:scale-105 transition-all duration-500">
-              <StoryCard 
-                :step-number="3"
-                :title="$t('story.timeline.step4.title')"
-                :description="$t('story.timeline.step4.description')"
-                :preview-points="[
-                  $t('story.timeline.step4.preview.point1'),
-                  $t('story.timeline.step4.preview.point2'),
-                  $t('story.timeline.step4.preview.point3')
-                ]"
-              />
-            </div>
-          </div>
+          <TimelineStep :step-number="3" :date="$t('story.timeline.step3.date')">
+            <StoryCard 
+              :step-number="3"
+              :title="$t('story.timeline.step3.title')"
+              :description="$t('story.timeline.step4.description')"
+              :preview-points="[
+                $t('story.timeline.step3.preview.point1'),
+                $t('story.timeline.step3.preview.point2'),
+                $t('story.timeline.step3.preview.point3')
+              ]"
+            />
+          </TimelineStep>
           
-          <!-- Step 4: Implementation -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-red rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-red rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-gray-dark">{{ $t('story.timeline.step3.date') }}</span>
-            </div>
-            
-            <!-- Placeholder Card -->
-            <div class="w-80 h-64 bg-white/50 rounded-2xl border-2 border-dashed border-spain-gray-light flex items-center justify-center">
-              <div class="text-center text-spain-gray-dark">
-                <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                </svg>
-                <p class="font-semibold">{{ $t('story.placeholder.title') }}</p>
-                <p class="text-sm">{{ $t('story.placeholder.description') }}</p>
-              </div>
-            </div>
-          </div>
+          <!-- Step 4: Spanien entdecken -->
+          <TimelineStep :step-number="4" :date="$t('story.timeline.step4.date')">
+            <StoryCard 
+              :step-number="4"
+              :title="$t('story.timeline.step4.title')"
+              :description="$t('story.timeline.step4.description')"
+              :preview-points="[
+                $t('story.timeline.step4.preview.point1'),
+                $t('story.timeline.step4.preview.point2'),
+                $t('story.timeline.step4.preview.point3')
+              ]"
+            />
+          </TimelineStep>
           
           <!-- Step 5: Adaptation -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-yellow rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-yellow rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-gray-dark">{{ $t('story.timeline.step5.date') }}</span>
-            </div>
-            
-            <!-- Placeholder Card -->
-            <div class="w-80 h-64 bg-white/50 rounded-2xl border-2 border-dashed border-spain-gray-light flex items-center justify-center">
-              <div class="text-center text-spain-gray-dark">
-                <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                </svg>
-                <p class="font-semibold">{{ $t('story.placeholder.title') }}</p>
-                <p class="text-sm">{{ $t('story.placeholder.description') }}</p>
-              </div>
-            </div>
-          </div>
+          <TimelineStep :step-number="5" :date="$t('story.timeline.step5.date')">
+            <TimelinePlaceholder />
+          </TimelineStep>
           
           <!-- Step 6: Integration -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-orange rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-orange rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-gray-dark">{{ $t('story.timeline.step6.date') }}</span>
-            </div>
-            
-            <!-- Placeholder Card -->
-            <div class="w-80 h-64 bg-white/50 rounded-2xl border-2 border-dashed border-spain-gray-light flex items-center justify-center">
-              <div class="text-center text-spain-gray-dark">
-                <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                </svg>
-                <p class="font-semibold">{{ $t('story.placeholder.title') }}</p>
-                <p class="text-sm">{{ $t('story.placeholder.description') }}</p>
-              </div>
-            </div>
-          </div>
+          <TimelineStep :step-number="6" :date="$t('story.timeline.step6.date')">
+            <TimelinePlaceholder />
+          </TimelineStep>
           
           <!-- Step 7: New Life -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-red rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-red rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-gray-dark">{{ $t('story.timeline.step7.date') }}</span>
-            </div>
-            
-            <!-- Placeholder Card -->
-            <div class="w-80 h-64 bg-white/50 rounded-2xl border-2 border-dashed border-spain-gray-light flex items-center justify-center">
-              <div class="text-center text-spain-gray-dark">
-                <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                </svg>
-                <p class="font-semibold">{{ $t('story.placeholder.title') }}</p>
-                <p class="text-sm">{{ $t('story.placeholder.description') }}</p>
-              </div>
-            </div>
-          </div>
+          <TimelineStep :step-number="7" :date="$t('story.timeline.step7.date')">
+            <TimelinePlaceholder />
+          </TimelineStep>
           
           <!-- Step 8: Future -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-yellow rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-yellow rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-gray-dark">{{ $t('story.timeline.step8.date') }}</span>
-            </div>
-            
-            <!-- Placeholder Card -->
-            <div class="w-80 h-64 bg-white/50 rounded-2xl border-2 border-dashed border-spain-gray-light flex items-center justify-center">
-              <div class="text-center text-spain-gray-dark">
-                <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                </svg>
-                <p class="font-semibold">{{ $t('story.placeholder.title') }}</p>
-                <p class="text-sm">{{ $t('story.placeholder.description') }}</p>
-              </div>
-            </div>
-          </div>
+          <TimelineStep :step-number="8" :date="$t('story.timeline.step8.date')">
+            <TimelinePlaceholder />
+          </TimelineStep>
           
           <!-- Step 9: Reflection -->
-          <div class="flex flex-col items-center group flex-shrink-0">
-            <!-- Timeline Dot -->
-            <div class="w-8 h-8 bg-spain-orange rounded-full border-4 border-white shadow-lg mb-4 group-hover:scale-125 transition-transform duration-300 relative">
-              <div class="absolute inset-0 bg-spain-orange rounded-full animate-ping opacity-20"></div>
-            </div>
-            
-            <!-- Date Badge -->
-            <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-              <span class="text-sm font-semibold text-spain-gray-dark">{{ $t('story.timeline.step9.date') }}</span>
-            </div>
-            
-            <!-- Placeholder Card -->
-            <div class="w-80 h-64 bg-white/50 rounded-2xl border-2 border-dashed border-spain-gray-light flex items-center justify-center">
-              <div class="text-center text-spain-gray-dark">
-                <svg class="w-16 h-16 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                </svg>
-                <p class="font-semibold">{{ $t('story.placeholder.title') }}</p>
-                <p class="text-sm">{{ $t('story.placeholder.description') }}</p>
-              </div>
-            </div>
-          </div>
+          <TimelineStep :step-number="9" :date="$t('story.timeline.step9.date')">
+            <TimelinePlaceholder />
+          </TimelineStep>
         </div>
         
         <!-- Scroll Indicator -->
@@ -261,34 +120,13 @@
 </template>
 
 <script setup>
-// Import the StoryCard component
+// Import components
 import StoryCard from './StoryCard.vue'
+import TimelineStep from './TimelineStep.vue'
+import TimelinePlaceholder from './TimelinePlaceholder.vue'
 </script>
 
 <style scoped>
-/* Custom animations for timeline */
-@keyframes slideInFromBottom {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInScale {
-  from {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 /* Hide scrollbar but keep functionality */
 .scrollbar-hide {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -302,34 +140,5 @@ import StoryCard from './StoryCard.vue'
 /* Smooth scrolling */
 .overflow-x-auto {
   scroll-behavior: smooth;
-}
-
-/* Apply animations to timeline elements */
-.timeline-step {
-  animation: slideInFromBottom 0.6s ease-out forwards;
-}
-
-.timeline-step:nth-child(1) { animation-delay: 0.1s; }
-.timeline-step:nth-child(2) { animation-delay: 0.2s; }
-.timeline-step:nth-child(3) { animation-delay: 0.3s; }
-.timeline-step:nth-child(4) { animation-delay: 0.4s; }
-.timeline-step:nth-child(5) { animation-delay: 0.5s; }
-.timeline-step:nth-child(6) { animation-delay: 0.6s; }
-.timeline-step:nth-child(7) { animation-delay: 0.7s; }
-.timeline-step:nth-child(8) { animation-delay: 0.8s; }
-.timeline-step:nth-child(9) { animation-delay: 0.9s; }
-
-/* Hover effects for timeline dots */
-.timeline-dot:hover {
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
 }
 </style>

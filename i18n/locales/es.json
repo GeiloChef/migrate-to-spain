@@ -25,9 +25,14 @@
         }
       },
       "step2": {
-        "title": "Fase de Planificación",
-        "date": "Próximamente",
-        "description": "El siguiente paso se agregará pronto"
+        "title": "Primeras Investigaciones y Viabilidad",
+        "date": "Primavera de 2022",
+        "description": "Primera recopilación de información: derechos de residencia, impuestos, costos de vida. Notas y plan aproximado: \"¿Qué tendría que hacer para emigrar realmente?\"",
+        "preview": {
+          "point1": "Primera recopilación de información: derechos de residencia, impuestos, costos de vida",
+          "point2": "Notas y plan aproximado: \"¿Qué tendría que hacer para emigrar realmente?\"",
+          "point3": "Primeras investigaciones sobre viabilidad"
+        }
       },
       "step3": {
         "title": "Implementación",
@@ -35,13 +40,13 @@
         "description": "El siguiente paso se agregará pronto"
       },
       "step4": {
-        "title": "Primeros Pasos: Aprender Español",
-        "date": "Primavera de 2022",
-        "description": "Motivación, primeros cursos/aplicaciones, tal vez anécdotas (qué difícil o divertido fue).",
+        "title": "Descubriendo España",
+        "date": "Verano de 2022",
+        "description": "Primeros viajes, explorar diferentes regiones, recopilar impresiones. Hacer contactos, primeras experiencias personales con la gente y la cultura.",
         "preview": {
-          "point1": "Motivación para aprender español",
-          "point2": "Primeros cursos y aplicaciones",
-          "point3": "Anécdotas divertidas y desafíos"
+          "point1": "Primeros viajes, explorar diferentes regiones, recopilar impresiones",
+          "point2": "Hacer contactos, primeras experiencias personales con la gente y la cultura",
+          "point3": "Descubrimiento del estilo de vida español y tradiciones"
         }
       },
       "step5": {

@@ -25,9 +25,14 @@
         }
       },
       "step2": {
-        "title": "Planungsphase",
-        "date": "Coming Soon",
-        "description": "Nächster Schritt wird bald hinzugefügt"
+        "title": "Erste Recherchen & Machbarkeit",
+        "date": "Frühjahr 2022",
+        "description": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten. Notizen & grober Plan: „Was müsste ich tun, um wirklich auszuwandern?\"",
+        "preview": {
+          "point1": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten",
+          "point2": "Notizen & grober Plan: „Was müsste ich tun, um wirklich auszuwandern?\"",
+          "point3": "Erste Recherchen zur Machbarkeit"
+        }
       },
       "step3": {
         "title": "Umsetzung",
@@ -35,13 +40,13 @@
         "description": "Nächster Schritt wird bald hinzugefügt"
       },
       "step4": {
-        "title": "Erste Schritte: Spanisch lernen",
-        "date": "Frühjahr 2022",
-        "description": "Motivation, erste Kurse/Apps, vielleicht Anekdoten (wie schwer oder lustig es war).",
+        "title": "Spanien entdecken",
+        "date": "Sommer 2022",
+        "description": "Erste Reisen, verschiedene Regionen anschauen, Eindrücke sammeln. Kontakte knüpfen, erste persönliche Erfahrungen mit den Leuten und der Kultur.",
         "preview": {
-          "point1": "Motivation fürs Spanisch lernen",
-          "point2": "Erste Kurse und Apps",
-          "point3": "Lustige Anekdoten und Herausforderungen"
+          "point1": "Erste Reisen, verschiedene Regionen anschauen, Eindrücke sammeln",
+          "point2": "Kontakte knüpfen, erste persönliche Erfahrungen mit den Leuten und der Kultur",
+          "point3": "Entdeckung der spanischen Lebensweise und Traditionen"
         }
       },
       "step5": {
