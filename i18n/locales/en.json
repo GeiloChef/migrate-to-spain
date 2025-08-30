@@ -10,19 +10,52 @@
       "secondary": "Learn More"
     }
   },
-  "features": {
-    "title": "Everything You Need to Know",
+  "story": {
+    "title": "My Migration Story",
+    "subtitle": "Follow my personal journey from planning to settling in Spain. Learn from my experiences, challenges, and the steps that made it all possible.",
+    "step1": {
+      "title": "The Decision",
+      "description": "After years of dreaming about living in Spain, I finally made the decision to take the leap and start planning my migration."
+    },
+    "step2": {
+      "title": "Research & Planning",
+      "description": "Months of research went into understanding visa requirements, finding the right city, and preparing all necessary documents."
+    },
+    "step3": {
+      "title": "Making It Happen",
+      "description": "From submitting applications to finding housing and settling into my new Spanish life, every step was a learning experience."
+    },
+    "personal": {
+      "title": "Personal Experience",
+      "description": "I've been through the entire process and I'm here to share my insights, tips, and lessons learned along the way.",
+      "badge": "Real Experience"
+    }
+  },
+  "guide": {
+    "title": "Your Complete Guide",
+    "subtitle": "Everything you need to know to successfully migrate to Spain. From legal requirements to practical tips for daily life.",
     "visa": {
-      "title": "Visa & Residency",
-      "description": "Complete guides on all visa types, requirements, and the application process."
+      "title": "Visa & Legal",
+      "description": "Navigate the complex world of Spanish immigration with our comprehensive visa guides and legal requirements.",
+      "checklist1": "Visa type selection",
+      "checklist2": "Document preparation"
     },
-    "cities": {
-      "title": "Cities & Regions",
-      "description": "Explore the best places to live, from vibrant cities to peaceful coastal towns."
+    "housing": {
+      "title": "Housing & Accommodation",
+      "description": "Find your perfect home in Spain with tips on neighborhoods, rental processes, and housing costs.",
+      "checklist1": "Neighborhood research",
+      "checklist2": "Rental process guide"
     },
-    "cost": {
-      "title": "Cost of Living",
-      "description": "Detailed breakdowns of expenses, housing costs, and budgeting tips."
+    "daily": {
+      "title": "Daily Life",
+      "description": "Get practical advice on banking, healthcare, transportation, and integrating into Spanish culture.",
+      "checklist1": "Banking setup",
+      "checklist2": "Healthcare registration"
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "description": "Join thousands of others who have successfully made Spain their new home with our proven guidance.",
+      "button": "Get Started Today"
     }
   }
 }

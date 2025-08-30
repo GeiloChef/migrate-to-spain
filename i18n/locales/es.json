@@ -10,19 +10,52 @@
       "secondary": "Saber Más"
     }
   },
-  "features": {
-    "title": "Todo lo que Necesitas Saber",
+  "story": {
+    "title": "Mi Historia de Migración",
+    "subtitle": "Sigue mi viaje personal desde la planificación hasta establecerme en España. Aprende de mis experiencias, desafíos y los pasos que hicieron todo posible.",
+    "step1": {
+      "title": "La Decisión",
+      "description": "Después de años soñando con vivir en España, finalmente tomé la decisión de dar el salto y comenzar a planificar mi migración."
+    },
+    "step2": {
+      "title": "Investigación y Planificación",
+      "description": "Meses de investigación se dedicaron a entender los requisitos de visa, encontrar la ciudad correcta y preparar todos los documentos necesarios."
+    },
+    "step3": {
+      "title": "Haciéndolo Realidad",
+      "description": "Desde presentar solicitudes hasta encontrar vivienda y establecerme en mi nueva vida española, cada paso fue una experiencia de aprendizaje."
+    },
+    "personal": {
+      "title": "Experiencia Personal",
+      "description": "He pasado por todo el proceso y estoy aquí para compartir mis conocimientos, consejos y lecciones aprendidas en el camino.",
+      "badge": "Experiencia Real"
+    }
+  },
+  "guide": {
+    "title": "Tu Guía Completa",
+    "subtitle": "Todo lo que necesitas saber para migrar exitosamente a España. Desde requisitos legales hasta consejos prácticos para la vida diaria.",
     "visa": {
-      "title": "Visa y Residencia",
-      "description": "Guías completas sobre todos los tipos de visa, requisitos y el proceso de solicitud."
+      "title": "Visa y Legal",
+      "description": "Navega por el complejo mundo de la inmigración española con nuestras guías completas de visa y requisitos legales.",
+      "checklist1": "Selección de tipo de visa",
+      "checklist2": "Preparación de documentos"
     },
-    "cities": {
-      "title": "Ciudades y Regiones",
-      "description": "Explora los mejores lugares para vivir, desde ciudades vibrantes hasta pueblos costeros tranquilos."
+    "housing": {
+      "title": "Vivienda y Alojamiento",
+      "description": "Encuentra tu hogar perfecto en España con consejos sobre barrios, procesos de alquiler y costos de vivienda.",
+      "checklist1": "Investigación de barrios",
+      "checklist2": "Guía del proceso de alquiler"
     },
-    "cost": {
-      "title": "Costo de Vida",
-      "description": "Desgloses detallados de gastos, costos de vivienda y consejos de presupuesto."
+    "daily": {
+      "title": "Vida Diaria",
+      "description": "Obtén consejos prácticos sobre banca, atención médica, transporte e integración en la cultura española.",
+      "checklist1": "Configuración bancaria",
+      "checklist2": "Registro de atención médica"
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar tu Viaje?",
+      "description": "Únete a miles de otros que han hecho de España su nuevo hogar exitosamente con nuestra guía probada.",
+      "button": "Comenzar Hoy"
     }
   }
 }

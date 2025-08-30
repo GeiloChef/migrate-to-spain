@@ -10,19 +10,52 @@
       "secondary": "Mehr erfahren"
     }
   },
-  "features": {
-    "title": "Alles was du wissen musst",
+  "story": {
+    "title": "Meine Migrationsgeschichte",
+    "subtitle": "Folge meiner persönlichen Reise von der Planung bis zur Ansiedlung in Spanien. Lerne aus meinen Erfahrungen, Herausforderungen und den Schritten, die alles möglich gemacht haben.",
+    "step1": {
+      "title": "Die Entscheidung",
+      "description": "Nach Jahren des Träumens vom Leben in Spanien habe ich endlich die Entscheidung getroffen, den Sprung zu wagen und mit der Planung meiner Migration zu beginnen."
+    },
+    "step2": {
+      "title": "Recherche & Planung",
+      "description": "Monate der Recherche gingen in das Verständnis der Visum-Anforderungen, die Suche nach der richtigen Stadt und die Vorbereitung aller notwendigen Dokumente."
+    },
+    "step3": {
+      "title": "Umsetzung",
+      "description": "Vom Einreichen der Bewerbungen bis zum Finden von Wohnraum und der Eingewöhnung in mein neues spanisches Leben war jeder Schritt eine Lernerfahrung."
+    },
+    "personal": {
+      "title": "Persönliche Erfahrung",
+      "description": "Ich habe den gesamten Prozess durchlaufen und bin hier, um meine Erkenntnisse, Tipps und gelernten Lektionen zu teilen.",
+      "badge": "Echte Erfahrung"
+    }
+  },
+  "guide": {
+    "title": "Dein vollständiger Leitfaden",
+    "subtitle": "Alles, was du wissen musst, um erfolgreich nach Spanien zu migrieren. Von rechtlichen Anforderungen bis hin zu praktischen Tipps für den Alltag.",
     "visa": {
-      "title": "Visa & Aufenthaltserlaubnis",
-      "description": "Vollständige Anleitungen zu allen Visatypen, Anforderungen und dem Bewerbungsprozess."
+      "title": "Visa & Rechtliches",
+      "description": "Navigiere durch die komplexe Welt der spanischen Einwanderung mit unseren umfassenden Visum-Leitfäden und rechtlichen Anforderungen.",
+      "checklist1": "Visum-Typ Auswahl",
+      "checklist2": "Dokumenten-Vorbereitung"
     },
-    "cities": {
-      "title": "Städte & Regionen",
-      "description": "Entdecke die besten Orte zum Leben, von lebendigen Städten bis hin zu friedlichen Küstenorten."
+    "housing": {
+      "title": "Wohnen & Unterkunft",
+      "description": "Finde dein perfektes Zuhause in Spanien mit Tipps zu Stadtteilen, Mietprozessen und Wohnkosten.",
+      "checklist1": "Stadtteil-Recherche",
+      "checklist2": "Mietprozess-Anleitung"
     },
-    "cost": {
-      "title": "Lebenshaltungskosten",
-      "description": "Detaillierte Aufschlüsselungen der Ausgaben, Wohnkosten und Budget-Tipps."
+    "daily": {
+      "title": "Alltag",
+      "description": "Erhalte praktische Ratschläge zu Bankwesen, Gesundheitsversorgung, Transport und der Integration in die spanische Kultur.",
+      "checklist1": "Bankkonto einrichten",
+      "checklist2": "Gesundheitsversorgung registrieren"
+    },
+    "cta": {
+      "title": "Bereit für deine Reise?",
+      "description": "Schließe dich Tausenden anderen an, die Spanien mit unserer bewährten Anleitung erfolgreich zu ihrem neuen Zuhause gemacht haben.",
+      "button": "Heute starten"
     }
   }
 }
