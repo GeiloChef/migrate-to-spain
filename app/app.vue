@@ -1,6 +1,45 @@
 <template>
   <UApp>
     <div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <!-- Language Switcher -->
+      <div class="absolute top-6 right-6 z-20">
+        <div class="flex space-x-2">
+          <button 
+            @click="$i18n.setLocale('en')" 
+            :class="[
+              'px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200',
+              $i18n.locale === 'en' 
+                ? 'bg-white text-gray-900 shadow-lg' 
+                : 'bg-white/20 text-white hover:bg-white/30'
+            ]"
+          >
+            EN
+          </button>
+          <button 
+            @click="$i18n.setLocale('de')" 
+            :class="[
+              'px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200',
+              $i18n.locale === 'de' 
+                ? 'bg-white text-gray-900 shadow-lg' 
+                : 'bg-white/20 text-white hover:bg-white/30'
+            ]"
+          >
+            DE
+          </button>
+          <button 
+            @click="$i18n.setLocale('es')" 
+            :class="[
+              'px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200',
+              $i18n.locale === 'es' 
+                ? 'bg-white text-gray-900 shadow-lg' 
+                : 'bg-white/20 text-white hover:bg-white/30'
+            ]"
+          >
+            ES
+          </button>
+        </div>
+      </div>
+
       <!-- Hero Section -->
       <section class="relative h-screen flex items-center justify-center overflow-hidden">
         <!-- Background Image with Overlay -->
@@ -16,13 +55,12 @@
         <!-- Animated Content -->
         <div class="relative z-10 text-center text-white px-12 md:px-20 lg:px-32 max-w-6xl mx-auto">
           <h1 class="!text-8xl md:!text-9xl lg:!text-10xl font-black !mb-16 animate-fade-in-up tracking-tight">
-            <span class="block animate-slide-in-left">Migrate</span>
-            <span class="block animate-slide-in-right">to Spain</span>
+            <span class="block animate-slide-in-left">{{ $t('hero.title.line1') }}</span>
+            <span class="block animate-slide-in-right">{{ $t('hero.title.line2') }}</span>
           </h1>
           
           <p class="text-xl md:text-2xl !mb-16 animate-fade-in-up-delay max-w-4xl mx-auto leading-relaxed">
-            Your complete guide to making Spain your new home. From visas and residency to finding the perfect city, 
-            discover everything you need to know about starting your Spanish adventure.
+            {{ $t('hero.subtitle') }}
           </p>
           
           <div class="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay-2">
@@ -32,14 +70,14 @@
               variant="solid"
               class="text-gray-900 font-semibold px-8 py-4 text-lg bg-white hover:bg-gray-100 hover:scale-105 transition-all duration-300 shadow-lg cursor-pointer"
             >
-              Start Your Journey
+              {{ $t('hero.buttons.primary') }}
             </UButton>
             <UButton 
               size="lg" 
               variant="outline" 
               class="border-2 border-white text-white font-semibold px-8 py-4 text-lg bg-white/10 backdrop-blur-sm hover:bg-white hover:text-gray-900 hover:scale-105 transition-all duration-300 shadow-lg cursor-pointer"
             >
-              Learn More
+              {{ $t('hero.buttons.secondary') }}
             </UButton>
           </div>
         </div>
@@ -56,7 +94,7 @@
       <section class="py-20 px-6 bg-white">
         <div class="max-w-6xl mx-auto">
           <h2 class="!text-4xl font-bold text-center text-gray-900 mb-16">
-            Everything You Need to Know
+            {{ $t('features.title') }}
           </h2>
           
           <div class="grid md:grid-cols-3 gap-8">
@@ -66,8 +104,8 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                 </svg>
               </div>
-              <h3 class="!text-xl font-semibold text-gray-900 mb-3">Visa & Residency</h3>
-              <p class="text-gray-600">Complete guides on all visa types, requirements, and the application process.</p>
+              <h3 class="!text-xl font-semibold text-gray-900 mb-3">{{ $t('features.visa.title') }}</h3>
+              <p class="text-gray-600">{{ $t('features.visa.description') }}</p>
             </div>
             
             <div class="text-center group">
@@ -77,8 +115,8 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
               </div>
-              <h3 class="!text-xl font-semibold text-gray-900 mb-3">Cities & Regions</h3>
-              <p class="text-gray-600">Explore the best places to live, from vibrant cities to peaceful coastal towns.</p>
+              <h3 class="!text-xl font-semibold text-gray-900 mb-3">{{ $t('features.cities.title') }}</h3>
+              <p class="text-gray-600">{{ $t('features.cities.description') }}</p>
             </div>
             
             <div class="text-center group">
@@ -87,8 +125,8 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
                 </svg>
               </div>
-              <h3 class="!text-xl font-semibold text-gray-900 mb-3">Cost of Living</h3>
-              <p class="text-gray-600">Detailed breakdowns of expenses, housing costs, and budgeting tips.</p>
+              <h3 class="!text-xl font-semibold text-gray-900 mb-3">{{ $t('features.cost.title') }}</h3>
+              <p class="text-gray-600">{{ $t('features.cost.description') }}</p>
             </div>
           </div>
         </div>

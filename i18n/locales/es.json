@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": {
+      "line1": "Migrar",
+      "line2": "a España"
+    },
+    "subtitle": "Tu guía completa para hacer de España tu nuevo hogar. Desde visas y residencia hasta encontrar la ciudad perfecta, descubre todo lo que necesitas saber para comenzar tu aventura española.",
+    "buttons": {
+      "primary": "Comienza tu Viaje",
+      "secondary": "Saber Más"
+    }
+  },
+  "features": {
+    "title": "Todo lo que Necesitas Saber",
+    "visa": {
+      "title": "Visa y Residencia",
+      "description": "Guías completas sobre todos los tipos de visa, requisitos y el proceso de solicitud."
+    },
+    "cities": {
+      "title": "Ciudades y Regiones",
+      "description": "Explora los mejores lugares para vivir, desde ciudades vibrantes hasta pueblos costeros tranquilos."
+    },
+    "cost": {
+      "title": "Costo de Vida",
+      "description": "Desgloses detallados de gastos, costos de vivienda y consejos de presupuesto."
+    }
+  }
+}

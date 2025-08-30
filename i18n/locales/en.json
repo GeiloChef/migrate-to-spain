@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": {
+      "line1": "Migrate",
+      "line2": "to Spain"
+    },
+    "subtitle": "Your complete guide to making Spain your new home. From visas and residency to finding the perfect city, discover everything you need to know about starting your Spanish adventure.",
+    "buttons": {
+      "primary": "Start Your Journey",
+      "secondary": "Learn More"
+    }
+  },
+  "features": {
+    "title": "Everything You Need to Know",
+    "visa": {
+      "title": "Visa & Residency",
+      "description": "Complete guides on all visa types, requirements, and the application process."
+    },
+    "cities": {
+      "title": "Cities & Regions",
+      "description": "Explore the best places to live, from vibrant cities to peaceful coastal towns."
+    },
+    "cost": {
+      "title": "Cost of Living",
+      "description": "Detailed breakdowns of expenses, housing costs, and budgeting tips."
+    }
+  }
+}
