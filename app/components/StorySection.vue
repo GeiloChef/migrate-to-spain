@@ -61,9 +61,14 @@
               </div>
               <h4 class="!text-2xl font-bold text-gray-900 mb-4">{{ $t('story.personal.title') }}</h4>
               <p class="text-gray-700 mb-6 leading-relaxed">{{ $t('story.personal.description') }}</p>
-              <div class="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-full text-sm font-semibold shadow-md hover:bg-blue-600 transition-colors duration-300">
-                {{ $t('story.personal.badge') }}
-              </div>
+                             <UButton 
+                 size="lg" 
+                 color="blue" 
+                 variant="solid"
+                 class="cursor-pointer font-semibold shadow-md hover:shadow-lg transition-all duration-300"
+               >
+                 {{ $t('story.personal.badge') }}
+               </UButton>
             </div>
           </div>
         </div>
