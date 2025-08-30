@@ -50,29 +50,84 @@
         }
       },
       "step5": {
-        "title": "Anpassung",
-        "date": "Coming Soon",
-        "description": "Nächster Schritt wird bald hinzugefügt"
+        "title": "Die Entscheidung für eine Region",
+        "date": "Herbst 2022",
+        "description": "Mehrere Urlaube in der Favoritengegend. Abwägen: passt Klima, Stadtgröße, Preise, Alltag?",
+        "preview": {
+          "point1": "Mehrere Urlaube in der Favoritengegend",
+          "point2": "Abwägen: passt Klima, Stadtgröße, Preise, Alltag?",
+          "point3": "Entscheidung für die perfekte Region"
+        }
       },
       "step6": {
-        "title": "Integration",
-        "date": "Coming Soon",
-        "description": "Nächster Schritt wird bald hinzugefügt"
+        "title": "Der konkrete Plan: Wohnung kaufen",
+        "date": "Winter 2022/23",
+        "description": "Welche Infos man braucht (NIE, Bankkonto, Steuern). Erste Recherchen auf Immobilienseiten und bei Maklern. Termine mit Händlern vereinbaren, Nachbarschaften checken.",
+        "preview": {
+          "point1": "Welche Infos man braucht (NIE, Bankkonto, Steuern)",
+          "point2": "Erste Recherchen auf Immobilienseiten und bei Maklern",
+          "point3": "Termine mit Händlern vereinbaren, Nachbarschaften checken"
+        }
       },
       "step7": {
-        "title": "Neues Leben",
-        "date": "Coming Soon",
-        "description": "Nächster Schritt wird bald hinzugefügt"
+        "title": "Bürokratie & Formalitäten",
+        "date": "Frühjahr 2023",
+        "description": "Beantragung der NIE. Spanisches Bankkonto eröffnen. Finanzierungsmöglichkeiten prüfen (deutsche vs. spanische Banken).",
+        "preview": {
+          "point1": "Beantragung der NIE",
+          "point2": "Spanisches Bankkonto eröffnen",
+          "point3": "Finanzierungsmöglichkeiten prüfen (deutsche vs. spanische Banken)"
+        }
       },
       "step8": {
-        "title": "Zukunft",
-        "date": "Coming Soon",
-        "description": "Nächster Schritt wird bald hinzugefügt"
+        "title": "Der Immobilienkauf",
+        "date": "Sommer 2023",
+        "description": "Deine persönliche Erfahrung mit Besichtigungen, Arras-Vertrag, Notar. Worauf du geachtet hast (Nachbarschaft, Bauqualität, Preis, etc.). Schwierigkeiten und Learnings.",
+        "preview": {
+          "point1": "Deine persönliche Erfahrung mit Besichtigungen, Arras-Vertrag, Notar",
+          "point2": "Worauf du geachtet hast (Nachbarschaft, Bauqualität, Preis, etc.)",
+          "point3": "Schwierigkeiten und Learnings"
+        }
       },
       "step9": {
-        "title": "Reflexion",
-        "date": "Coming Soon",
-        "description": "Nächster Schritt wird bald hinzugefügt"
+        "title": "Gestoría – Hilfe im Behördendschungel",
+        "date": "Herbst 2023",
+        "description": "Warum du dich dafür entschieden hast. Was sie dir abgenommen haben (Steuern, Anmeldung, Utilities).",
+        "preview": {
+          "point1": "Warum du dich dafür entschieden hast",
+          "point2": "Was sie dir abgenommen haben (Steuern, Anmeldung, Utilities)",
+          "point3": "Erfahrungen mit der spanischen Bürokratie"
+        }
+      },
+      "step10": {
+        "title": "Sicherheiten & Versicherungen",
+        "date": "Winter 2023/24",
+        "description": "Abschluss von Seguro de Hogar. Deine Überlegung, warum welche Versicherung sinnvoll war.",
+        "preview": {
+          "point1": "Abschluss von Seguro de Hogar",
+          "point2": "Deine Überlegung, warum welche Versicherung sinnvoll war",
+          "point3": "Vollständiger Versicherungsschutz für dein neues Zuhause"
+        }
+      },
+      "step11": {
+        "title": "Der erste Aufenthalt in der eigenen Wohnung",
+        "date": "Frühjahr 2024",
+        "description": "Gefühl, endlich in Spanien 'anzukommen'. Erste Erfahrungen mit Alltag: Strom, Internet, Einkäufe, Nachbarn.",
+        "preview": {
+          "point1": "Gefühl, endlich in Spanien 'anzukommen'",
+          "point2": "Erste Erfahrungen mit Alltag: Strom, Internet, Einkäufe, Nachbarn",
+          "point3": "Das neue Leben beginnt in der eigenen Wohnung"
+        }
+      },
+      "step12": {
+        "title": "Ausblick: Die endgültige Migration",
+        "date": "Sommer 2024",
+        "description": "Welche Schritte noch fehlen (Residencia, Sozialversicherung, Steuern). Deine Ziele für die Zukunft in Spanien.",
+        "preview": {
+          "point1": "Welche Schritte noch fehlen (Residencia, Sozialversicherung, Steuern)",
+          "point2": "Deine Ziele für die Zukunft in Spanien",
+          "point3": "Vollständige Integration und langfristige Perspektiven"
+        }
       }
     },
     "card": {

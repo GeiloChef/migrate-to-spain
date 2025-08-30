@@ -52,7 +52,10 @@ const dotColorClass = computed(() => {
     'bg-spain-orange',   // Step 6
     'bg-spain-red',      // Step 7
     'bg-spain-yellow',   // Step 8
-    'bg-spain-orange'    // Step 9
+    'bg-spain-orange',   // Step 9
+    'bg-spain-red',      // Step 10
+    'bg-spain-yellow',   // Step 11
+    'bg-spain-orange'    // Step 12
   ]
   
   return colors[(props.stepNumber - 1) % colors.length] || 'bg-spain-gray-dark'

@@ -50,29 +50,84 @@
         }
       },
       "step5": {
-        "title": "Adaptación",
-        "date": "Próximamente",
-        "description": "El siguiente paso se agregará pronto"
+        "title": "Decidir una Región",
+        "date": "Otoño de 2022",
+        "description": "Múltiples vacaciones en el área favorita. Evaluar: ¿encaja el clima, tamaño de ciudad, precios, vida cotidiana?",
+        "preview": {
+          "point1": "Múltiples vacaciones en el área favorita",
+          "point2": "Evaluar: ¿encaja el clima, tamaño de ciudad, precios, vida cotidiana?",
+          "point3": "Decisión para la región perfecta"
+        }
       },
       "step6": {
-        "title": "Integración",
-        "date": "Próximamente",
-        "description": "El siguiente paso se agregará pronto"
+        "title": "El Plan Concreto: Comprar un Apartamento",
+        "date": "Invierno 2022/23",
+        "description": "Qué información necesitas (NIE, cuenta bancaria, impuestos). Primeras investigaciones en sitios inmobiliarios y con agentes. Programar citas con vendedores, revisar vecindarios.",
+        "preview": {
+          "point1": "Qué información necesitas (NIE, cuenta bancaria, impuestos)",
+          "point2": "Primeras investigaciones en sitios inmobiliarios y con agentes",
+          "point3": "Programar citas con vendedores, revisar vecindarios"
+        }
       },
       "step7": {
-        "title": "Nueva Vida",
-        "date": "Próximamente",
-        "description": "El siguiente paso se agregará pronto"
+        "title": "Burocracia y Formalidades",
+        "date": "Primavera de 2023",
+        "description": "Solicitud de NIE. Abrir cuenta bancaria española. Verificar opciones de financiamiento (bancos alemanes vs. españoles).",
+        "preview": {
+          "point1": "Solicitud de NIE",
+          "point2": "Abrir cuenta bancaria española",
+          "point3": "Verificar opciones de financiamiento (bancos alemanes vs. españoles)"
+        }
       },
       "step8": {
-        "title": "Futuro",
-        "date": "Próximamente",
-        "description": "El siguiente paso se agregará pronto"
+        "title": "La Compra Inmobiliaria",
+        "date": "Verano de 2023",
+        "description": "Tu experiencia personal con visitas, contrato de Arras, notario. A qué prestaste atención (vecindario, calidad de construcción, precio, etc.). Dificultades y aprendizajes.",
+        "preview": {
+          "point1": "Tu experiencia personal con visitas, contrato de Arras, notario",
+          "point2": "A qué prestaste atención (vecindario, calidad de construcción, precio, etc.)",
+          "point3": "Dificultades y aprendizajes"
+        }
       },
       "step9": {
-        "title": "Reflexión",
-        "date": "Próximamente",
-        "description": "El siguiente paso se agregará pronto"
+        "title": "Gestoría – Ayuda en la Jungla Burocrática",
+        "date": "Otoño de 2023",
+        "description": "Por qué decidiste hacerlo. Qué se encargaron por ti (impuestos, registro, servicios públicos).",
+        "preview": {
+          "point1": "Por qué decidiste hacerlo",
+          "point2": "Qué se encargaron por ti (impuestos, registro, servicios públicos)",
+          "point3": "Experiencias con la burocracia española"
+        }
+      },
+      "step10": {
+        "title": "Seguridad y Seguros",
+        "date": "Invierno 2023/24",
+        "description": "Contratar Seguro de Hogar. Tus consideraciones sobre por qué qué seguro tenía sentido.",
+        "preview": {
+          "point1": "Contratar Seguro de Hogar",
+          "point2": "Tus consideraciones sobre por qué qué seguro tenía sentido",
+          "point3": "Cobertura de seguro completa para tu nuevo hogar"
+        }
+      },
+      "step11": {
+        "title": "La Primera Estancia en tu Propio Apartamento",
+        "date": "Primavera de 2024",
+        "description": "Sensación de finalmente \"llegar\" a España. Primeras experiencias con la vida cotidiana: electricidad, internet, compras, vecinos.",
+        "preview": {
+          "point1": "Sensación de finalmente \"llegar\" a España",
+          "point2": "Primeras experiencias con la vida cotidiana: electricidad, internet, compras, vecinos",
+          "point3": "La nueva vida comienza en tu propio apartamento"
+        }
+      },
+      "step12": {
+        "title": "Perspectiva: La Migración Final",
+        "date": "Verano de 2024",
+        "description": "Qué pasos aún faltan (Residencia, seguro social, impuestos). Tus objetivos para el futuro en España.",
+        "preview": {
+          "point1": "Qué pasos aún faltan (Residencia, seguro social, impuestos)",
+          "point2": "Tus objetivos para el futuro en España",
+          "point3": "Integración completa y perspectivas a largo plazo"
+        }
       }
     },
     "card": {

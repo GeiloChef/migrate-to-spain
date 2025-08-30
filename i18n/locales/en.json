@@ -50,29 +50,84 @@
         }
       },
       "step5": {
-        "title": "Adaptation",
-        "date": "Coming Soon",
-        "description": "Next step will be added soon"
+        "title": "Deciding on a Region",
+        "date": "Fall 2022",
+        "description": "Multiple vacations in the favorite area. Weighing: does climate, city size, prices, everyday life fit?",
+        "preview": {
+          "point1": "Multiple vacations in the favorite area",
+          "point2": "Weighing: does climate, city size, prices, everyday life fit?",
+          "point3": "Decision for the perfect region"
+        }
       },
       "step6": {
-        "title": "Integration",
-        "date": "Coming Soon",
-        "description": "Next step will be added soon"
+        "title": "The Concrete Plan: Buying an Apartment",
+        "date": "Winter 2022/23",
+        "description": "What information you need (NIE, bank account, taxes). First research on real estate sites and with agents. Scheduling appointments with dealers, checking neighborhoods.",
+        "preview": {
+          "point1": "What information you need (NIE, bank account, taxes)",
+          "point2": "First research on real estate sites and with agents",
+          "point3": "Scheduling appointments with dealers, checking neighborhoods"
+        }
       },
       "step7": {
-        "title": "New Life",
-        "date": "Coming Soon",
-        "description": "Next step will be added soon"
+        "title": "Bureaucracy & Formalities",
+        "date": "Spring 2023",
+        "description": "Applying for NIE. Opening Spanish bank account. Checking financing options (German vs. Spanish banks).",
+        "preview": {
+          "point1": "Applying for NIE",
+          "point2": "Opening Spanish bank account",
+          "point3": "Checking financing options (German vs. Spanish banks)"
+        }
       },
       "step8": {
-        "title": "Future",
-        "date": "Coming Soon",
-        "description": "Next step will be added soon"
+        "title": "The Real Estate Purchase",
+        "date": "Summer 2023",
+        "description": "Your personal experience with viewings, Arras contract, notary. What you paid attention to (neighborhood, construction quality, price, etc.). Difficulties and learnings.",
+        "preview": {
+          "point1": "Your personal experience with viewings, Arras contract, notary",
+          "point2": "What you paid attention to (neighborhood, construction quality, price, etc.)",
+          "point3": "Difficulties and learnings"
+        }
       },
       "step9": {
-        "title": "Reflection",
-        "date": "Coming Soon",
-        "description": "Next step will be added soon"
+        "title": "Gestoría – Help in the Bureaucratic Jungle",
+        "date": "Fall 2023",
+        "description": "Why you decided to do this. What they took care of for you (taxes, registration, utilities).",
+        "preview": {
+          "point1": "Why you decided to do this",
+          "point2": "What they took care of for you (taxes, registration, utilities)",
+          "point3": "Experiences with Spanish bureaucracy"
+        }
+      },
+      "step10": {
+        "title": "Security & Insurance",
+        "date": "Winter 2023/24",
+        "description": "Taking out Seguro de Hogar. Your considerations on why which insurance made sense.",
+        "preview": {
+          "point1": "Taking out Seguro de Hogar",
+          "point2": "Your considerations on why which insurance made sense",
+          "point3": "Complete insurance coverage for your new home"
+        }
+      },
+      "step11": {
+        "title": "First Stay in Your Own Apartment",
+        "date": "Spring 2024",
+        "description": "Feeling of finally \"arriving\" in Spain. First experiences with everyday life: electricity, internet, shopping, neighbors.",
+        "preview": {
+          "point1": "Feeling of finally \"arriving\" in Spain",
+          "point2": "First experiences with everyday life: electricity, internet, shopping, neighbors",
+          "point3": "New life begins in your own apartment"
+        }
+      },
+      "step12": {
+        "title": "Outlook: The Final Migration",
+        "date": "Summer 2024",
+        "description": "What steps are still missing (Residencia, social insurance, taxes). Your goals for the future in Spain.",
+        "preview": {
+          "point1": "What steps are still missing (Residencia, social insurance, taxes)",
+          "point2": "Your goals for the future in Spain",
+          "point3": "Complete integration and long-term perspectives"
+        }
       }
     },
     "card": {

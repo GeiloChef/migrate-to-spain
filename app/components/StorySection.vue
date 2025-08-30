@@ -73,29 +73,116 @@
             />
           </TimelineStep>
           
-          <!-- Step 5: Adaptation -->
+          <!-- Step 5: Die Entscheidung für eine Region -->
           <TimelineStep :step-number="5" :date="$t('story.timeline.step5.date')">
-            <TimelinePlaceholder />
+            <StoryCard 
+              :step-number="5"
+              :title="$t('story.timeline.step5.title')"
+              :description="$t('story.timeline.step5.description')"
+              :preview-points="[
+                $t('story.timeline.step5.preview.point1'),
+                $t('story.timeline.step5.preview.point2'),
+                $t('story.timeline.step5.preview.point3')
+              ]"
+            />
           </TimelineStep>
           
-          <!-- Step 6: Integration -->
+          <!-- Step 6: Der konkrete Plan: Wohnung kaufen -->
           <TimelineStep :step-number="6" :date="$t('story.timeline.step6.date')">
-            <TimelinePlaceholder />
+            <StoryCard 
+              :step-number="6"
+              :title="$t('story.timeline.step6.title')"
+              :description="$t('story.timeline.step6.description')"
+              :preview-points="[
+                $t('story.timeline.step6.preview.point1'),
+                $t('story.timeline.step6.preview.point2'),
+                $t('story.timeline.step6.preview.point3')
+              ]"
+            />
           </TimelineStep>
           
-          <!-- Step 7: New Life -->
+          <!-- Step 7: Bürokratie & Formalitäten -->
           <TimelineStep :step-number="7" :date="$t('story.timeline.step7.date')">
-            <TimelinePlaceholder />
+            <StoryCard 
+              :step-number="7"
+              :title="$t('story.timeline.step7.title')"
+              :description="$t('story.timeline.step7.description')"
+              :preview-points="[
+                $t('story.timeline.step7.preview.point1'),
+                $t('story.timeline.step7.preview.point2'),
+                $t('story.timeline.step7.preview.point3')
+              ]"
+            />
           </TimelineStep>
           
-          <!-- Step 8: Future -->
+          <!-- Step 8: Der Immobilienkauf -->
           <TimelineStep :step-number="8" :date="$t('story.timeline.step8.date')">
-            <TimelinePlaceholder />
+            <StoryCard 
+              :step-number="8"
+              :title="$t('story.timeline.step8.title')"
+              :description="$t('story.timeline.step8.description')"
+              :preview-points="[
+                $t('story.timeline.step8.preview.point1'),
+                $t('story.timeline.step8.preview.point2'),
+                $t('story.timeline.step8.preview.point3')
+              ]"
+            />
           </TimelineStep>
           
-          <!-- Step 9: Reflection -->
+          <!-- Step 9: Gestoría – Hilfe im Behördendschungel -->
           <TimelineStep :step-number="9" :date="$t('story.timeline.step9.date')">
-            <TimelinePlaceholder />
+            <StoryCard 
+              :step-number="9"
+              :title="$t('story.timeline.step9.title')"
+              :description="$t('story.timeline.step9.description')"
+              :preview-points="[
+                $t('story.timeline.step9.preview.point1'),
+                $t('story.timeline.step9.preview.point2'),
+                $t('story.timeline.step9.preview.point3')
+              ]"
+            />
+          </TimelineStep>
+          
+          <!-- Step 10: Sicherheiten & Versicherungen -->
+          <TimelineStep :step-number="10" :date="$t('story.timeline.step10.date')">
+            <StoryCard 
+              :step-number="10"
+              :title="$t('story.timeline.step10.title')"
+              :description="$t('story.timeline.step10.description')"
+              :preview-points="[
+                $t('story.timeline.step10.preview.point1'),
+                $t('story.timeline.step10.preview.point2'),
+                $t('story.timeline.step10.preview.point3')
+              ]"
+            />
+          </TimelineStep>
+          
+          <!-- Step 11: Der erste Aufenthalt in der eigenen Wohnung -->
+          <TimelineStep :step-number="11" :date="$t('story.timeline.step11.date')">
+            <StoryCard 
+              :step-number="11"
+              :title="$t('story.timeline.step11.title')"
+              :description="$t('story.timeline.step11.description')"
+              :preview-points="[
+                $t('story.timeline.step11.preview.point1'),
+                $t('story.timeline.step11.preview.point2'),
+                $t('story.timeline.step11.preview.point3')
+              ]"
+            />
+          </TimelineStep>
+          
+          <!-- Step 12: Ausblick: Die endgültige Migration -->
+          <TimelineStep :step-number="12" :date="$t('story.timeline.step12.date')">
+            <StoryCard 
+              :step-number="12"
+              :title="$t('story.timeline.step12.title')"
+              :description="$t('story.timeline.step12.description')"
+              :preview-points="[
+                $t('story.timeline.step12.preview.point1'),
+                $t('story.timeline.step12.preview.point2'),
+                $t('story.timeline.step12.preview.point3')
+              ]"
+            />
           </TimelineStep>
         </div>
         
