@@ -7,6 +7,27 @@
 @source "./content/**/*";
 
 @theme {
+  /* Spanish Flag Colors */
+  --color-spain-red: #AA151B;
+  --color-spain-yellow: #F1BF00;
+  
+  /* Extended Spanish Color Palette */
+  --color-spain-red-light: #C41E3A;
+  --color-spain-red-dark: #8B0000;
+  --color-spain-yellow-light: #FFD700;
+  --color-spain-yellow-dark: #DAA520;
+  
+  /* Complementary Colors */
+  --color-spain-orange: #FF6B35;
+  --color-spain-cream: #FFF8DC;
+  --color-spain-navy: #1B365D;
+  --color-spain-olive: #6B8E23;
+  
+  /* Neutral Colors */
+  --color-spain-gray-light: #F5F5F5;
+  --color-spain-gray: #8B8B8B;
+  --color-spain-gray-dark: #2F2F2F;
+  
   --text-8xl: 6rem;   /* 96px */
   --text-9xl: 8rem;   /* 128px */
   --text-10xl: 10rem; /* 160px */
@@ -43,3 +64,52 @@
       list-style: none;
     }
   }
+
+@layer utilities {
+  /* Spanish Theme Color Classes */
+  .text-spain-red { color: var(--color-spain-red); }
+  .text-spain-yellow { color: var(--color-spain-yellow); }
+  .text-spain-orange { color: var(--color-spain-orange); }
+  .text-spain-navy { color: var(--color-spain-navy); }
+  .text-spain-cream { color: var(--color-spain-cream); }
+  .text-spain-gray-dark { color: var(--color-spain-gray-dark); }
+  .text-spain-yellow-dark { color: var(--color-spain-yellow-dark); }
+  .text-spain-red-dark { color: var(--color-spain-red-dark); }
+  
+  .bg-spain-red { background-color: var(--color-spain-red); }
+  .bg-spain-yellow { background-color: var(--color-spain-yellow); }
+  .bg-spain-orange { background-color: var(--color-spain-orange); }
+  .bg-spain-navy { background-color: var(--color-spain-navy); }
+  .bg-spain-cream { background-color: var(--color-spain-cream); }
+  .bg-spain-red-dark { background-color: var(--color-spain-red-dark); }
+  .bg-spain-yellow-dark { background-color: var(--color-spain-yellow-dark); }
+  
+  .border-spain-red { border-color: var(--color-spain-red); }
+  .border-spain-yellow { border-color: var(--color-spain-yellow); }
+  .border-spain-orange { border-color: var(--color-spain-orange); }
+  .border-spain-navy { border-color: var(--color-spain-navy); }
+  
+  /* Spanish Theme Gradients */
+  .bg-gradient-spain {
+    background: linear-gradient(135deg, var(--color-spain-red) 0%, var(--color-spain-yellow) 100%);
+  }
+  
+  .bg-gradient-spain-horizontal {
+    background: linear-gradient(90deg, var(--color-spain-red) 0%, var(--color-spain-yellow) 100%);
+  }
+  
+  /* Spanish Theme Shadows */
+  .shadow-spain-red {
+    box-shadow: 0 10px 25px -3px rgba(170, 21, 27, 0.3);
+  }
+  
+  .shadow-spain-yellow {
+    box-shadow: 0 10px 25px -3px rgba(241, 191, 0, 0.3);
+  }
+  
+  /* Hover Effects */
+  .hover-bg-spain-red:hover { background-color: var(--color-spain-red); }
+  .hover-bg-spain-yellow:hover { background-color: var(--color-spain-yellow); }
+  .hover-text-spain-red:hover { color: var(--color-spain-red); }
+  .hover-text-spain-yellow:hover { color: var(--color-spain-yellow); }
+}
