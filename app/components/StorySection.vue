@@ -17,6 +17,7 @@
         
         <!-- Timeline Steps with Horizontal Scroll - No y-axis padding, only horizontal -->
         <div class="relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto px-8 scrollbar-hide">
+          
           <!-- Step 1: Der Traum von Spanien -->
           <TimelineStep :step-number="1" :date="$t('story.timeline.step1.date')">
             <StoryCard 
