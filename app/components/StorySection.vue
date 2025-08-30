@@ -1,6 +1,6 @@
 <template>
   <section class="py-20 px-6 bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-    <div class="max-w-7xl mx-auto">
+    <div>
       <div class="text-center mb-16">
         <h2 class="!text-4xl font-bold text-spain-navy mb-4">
           {{ $t('story.title') }}
@@ -15,8 +15,8 @@
         <!-- Timeline Line -->
         <div class="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-spain-red via-spain-yellow to-spain-red transform -translate-y-1/2 z-0"></div>
         
-        <!-- Timeline Steps with Horizontal Scroll - Added padding and adjusted container -->
-        <div class="relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto pb-12 px-8 scrollbar-hide">
+        <!-- Timeline Steps with Horizontal Scroll - No y-axis padding, only horizontal -->
+        <div class="relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto px-8 scrollbar-hide">
           <!-- Step 1: Der Traum von Spanien -->
           <TimelineStep :step-number="1" :date="$t('story.timeline.step1.date')">
             <StoryCard 
@@ -192,16 +192,7 @@
         </div>
       </div>
       
-      <!-- Call to Action -->
-      <div class="text-center mt-20">
-        <div class="bg-gradient-spain rounded-2xl p-8 shadow-spain-red border border-spain-yellow/50 max-w-2xl mx-auto">
-          <h3 class="!text-2xl font-bold text-white mb-4">{{ $t('story.cta.title') }}</h3>
-          <p class="text-spain-cream mb-6">{{ $t('story.cta.description') }}</p>
-          <button class="bg-white hover:bg-spain-cream text-spain-red font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
-            {{ $t('story.cta.button') }}
-          </button>
-        </div>
-      </div>
+
     </div>
   </section>
 </template>
