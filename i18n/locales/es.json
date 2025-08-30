@@ -11,24 +11,76 @@
     }
   },
   "story": {
-    "title": "Mi Historia de Migración",
-    "subtitle": "Sigue mi viaje personal desde la planificación hasta establecerme en España. Aprende de mis experiencias, desafíos y los pasos que hicieron todo posible.",
-    "step1": {
-      "title": "La Decisión",
-      "description": "Después de años soñando con vivir en España, finalmente tomé la decisión de dar el salto y comenzar a planificar mi migración."
+    "title": "Mi Historia",
+    "subtitle": "El camino desde la primera idea hasta la implementación - paso a paso",
+    "timeline": {
+      "step1": {
+        "title": "El Sueño de España",
+        "date": "Principios de 2022",
+        "description": "¿De dónde vino la idea? ¿Por qué España? Primeras ideas, deseos, miedos.",
+        "preview": {
+          "point1": "Los primeros pensamientos sobre España",
+          "point2": "¿Por qué este país específicamente?",
+          "point3": "Miedos y dudas"
+        }
+      },
+      "step2": {
+        "title": "Fase de Planificación",
+        "date": "Próximamente",
+        "description": "El siguiente paso se agregará pronto"
+      },
+      "step3": {
+        "title": "Implementación",
+        "date": "Próximamente",
+        "description": "El siguiente paso se agregará pronto"
+      },
+      "step4": {
+        "title": "Primeros Pasos: Aprender Español",
+        "date": "Primavera de 2022",
+        "description": "Motivación, primeros cursos/aplicaciones, tal vez anécdotas (qué difícil o divertido fue).",
+        "preview": {
+          "point1": "Motivación para aprender español",
+          "point2": "Primeros cursos y aplicaciones",
+          "point3": "Anécdotas divertidas y desafíos"
+        }
+      },
+      "step5": {
+        "title": "Adaptación",
+        "date": "Próximamente",
+        "description": "El siguiente paso se agregará pronto"
+      },
+      "step6": {
+        "title": "Integración",
+        "date": "Próximamente",
+        "description": "El siguiente paso se agregará pronto"
+      },
+      "step7": {
+        "title": "Nueva Vida",
+        "date": "Próximamente",
+        "description": "El siguiente paso se agregará pronto"
+      },
+      "step8": {
+        "title": "Futuro",
+        "date": "Próximamente",
+        "description": "El siguiente paso se agregará pronto"
+      },
+      "step9": {
+        "title": "Reflexión",
+        "date": "Próximamente",
+        "description": "El siguiente paso se agregará pronto"
+      }
     },
-    "step2": {
-      "title": "Investigación y Planificación",
-      "description": "Meses de investigación se dedicaron a entender los requisitos de visa, encontrar la ciudad correcta y preparar todos los documentos necesarios."
+    "card": {
+      "readMore": "Leer más"
     },
-    "step3": {
-      "title": "Haciéndolo Realidad",
-      "description": "Desde presentar solicitudes hasta encontrar vivienda y establecerme en mi nueva vida española, cada paso fue una experiencia de aprendizaje."
+    "cta": {
+      "title": "Sigue Mi Viaje",
+      "description": "Aprende más sobre cada paso e inspírate",
+      "button": "Ver Todos los Pasos"
     },
-    "personal": {
-      "title": "Experiencia Personal",
-      "description": "He pasado por todo el proceso y estoy aquí para compartir mis conocimientos, consejos y lecciones aprendidas en el camino.",
-      "badge": "Experiencia Real"
+    "placeholder": {
+      "title": "Siguiente Paso",
+      "description": "Se agregará pronto"
     }
   },
   "guide": {

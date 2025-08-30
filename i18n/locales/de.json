@@ -11,24 +11,76 @@
     }
   },
   "story": {
-    "title": "Meine Migrationsgeschichte",
-    "subtitle": "Folge meiner persönlichen Reise von der Planung bis zur Ansiedlung in Spanien. Lerne aus meinen Erfahrungen, Herausforderungen und den Schritten, die alles möglich gemacht haben.",
-    "step1": {
-      "title": "Die Entscheidung",
-      "description": "Nach Jahren des Träumens vom Leben in Spanien habe ich endlich die Entscheidung getroffen, den Sprung zu wagen und mit der Planung meiner Migration zu beginnen."
+    "title": "Meine Geschichte",
+    "subtitle": "Der Weg von der ersten Idee bis zur Umsetzung - Schritt für Schritt",
+    "timeline": {
+      "step1": {
+        "title": "Der Traum von Spanien",
+        "date": "Anfang 2022",
+        "description": "Woher kam die Idee? Warum Spanien? Erste Vorstellungen, Wünsche, Ängste.",
+        "preview": {
+          "point1": "Die ersten Gedanken an Spanien",
+          "point2": "Warum gerade dieses Land?",
+          "point3": "Ängste und Zweifel"
+        }
+      },
+      "step2": {
+        "title": "Planungsphase",
+        "date": "Coming Soon",
+        "description": "Nächster Schritt wird bald hinzugefügt"
+      },
+      "step3": {
+        "title": "Umsetzung",
+        "date": "Coming Soon",
+        "description": "Nächster Schritt wird bald hinzugefügt"
+      },
+      "step4": {
+        "title": "Erste Schritte: Spanisch lernen",
+        "date": "Frühjahr 2022",
+        "description": "Motivation, erste Kurse/Apps, vielleicht Anekdoten (wie schwer oder lustig es war).",
+        "preview": {
+          "point1": "Motivation fürs Spanisch lernen",
+          "point2": "Erste Kurse und Apps",
+          "point3": "Lustige Anekdoten und Herausforderungen"
+        }
+      },
+      "step5": {
+        "title": "Anpassung",
+        "date": "Coming Soon",
+        "description": "Nächster Schritt wird bald hinzugefügt"
+      },
+      "step6": {
+        "title": "Integration",
+        "date": "Coming Soon",
+        "description": "Nächster Schritt wird bald hinzugefügt"
+      },
+      "step7": {
+        "title": "Neues Leben",
+        "date": "Coming Soon",
+        "description": "Nächster Schritt wird bald hinzugefügt"
+      },
+      "step8": {
+        "title": "Zukunft",
+        "date": "Coming Soon",
+        "description": "Nächster Schritt wird bald hinzugefügt"
+      },
+      "step9": {
+        "title": "Reflexion",
+        "date": "Coming Soon",
+        "description": "Nächster Schritt wird bald hinzugefügt"
+      }
     },
-    "step2": {
-      "title": "Recherche & Planung",
-      "description": "Monate der Recherche gingen in das Verständnis der Visum-Anforderungen, die Suche nach der richtigen Stadt und die Vorbereitung aller notwendigen Dokumente."
+    "card": {
+      "readMore": "Mehr lesen"
     },
-    "step3": {
-      "title": "Umsetzung",
-      "description": "Vom Einreichen der Bewerbungen bis zum Finden von Wohnraum und der Eingewöhnung in mein neues spanisches Leben war jeder Schritt eine Lernerfahrung."
+    "cta": {
+      "title": "Folge meiner Reise",
+      "description": "Erfahre mehr über jeden Schritt und lass dich inspirieren",
+      "button": "Alle Schritte anzeigen"
     },
-    "personal": {
-      "title": "Persönliche Erfahrung",
-      "description": "Ich habe den gesamten Prozess durchlaufen und bin hier, um meine Erkenntnisse, Tipps und gelernten Lektionen zu teilen.",
-      "badge": "Echte Erfahrung"
+    "placeholder": {
+      "title": "Nächster Schritt",
+      "description": "Wird bald hinzugefügt"
     }
   },
   "guide": {
@@ -48,7 +100,7 @@
     },
     "daily": {
       "title": "Alltag",
-      "description": "Erhalte praktische Ratschläge zu Bankwesen, Gesundheitsversorgung, Transport und der Integration in die spanische Kultur.",
+      "description": "Erhalte praktische Ratschläge zu Bankwesen, Gesundheitsversorgung, Transport und der Integration in die spanischen Kultur.",
       "checklist1": "Bankkonto einrichten",
       "checklist2": "Gesundheitsversorgung registrieren"
     },

@@ -11,24 +11,76 @@
     }
   },
   "story": {
-    "title": "My Migration Story",
-    "subtitle": "Follow my personal journey from planning to settling in Spain. Learn from my experiences, challenges, and the steps that made it all possible.",
-    "step1": {
-      "title": "The Decision",
-      "description": "After years of dreaming about living in Spain, I finally made the decision to take the leap and start planning my migration."
+    "title": "My Story",
+    "subtitle": "The journey from the first idea to implementation - step by step",
+    "timeline": {
+      "step1": {
+        "title": "The Dream of Spain",
+        "date": "Early 2022",
+        "description": "Where did the idea come from? Why Spain? First thoughts, wishes, fears.",
+        "preview": {
+          "point1": "First thoughts about Spain",
+          "point2": "Why this country specifically?",
+          "point3": "Fears and doubts"
+        }
+      },
+      "step2": {
+        "title": "Planning Phase",
+        "date": "Coming Soon",
+        "description": "Next step will be added soon"
+      },
+      "step3": {
+        "title": "Implementation",
+        "date": "Coming Soon",
+        "description": "Next step will be added soon"
+      },
+      "step4": {
+        "title": "First Steps: Learning Spanish",
+        "date": "Spring 2022",
+        "description": "Motivation, first courses/apps, maybe anecdotes (how hard or funny it was).",
+        "preview": {
+          "point1": "Motivation for learning Spanish",
+          "point2": "First courses and apps",
+          "point3": "Funny anecdotes and challenges"
+        }
+      },
+      "step5": {
+        "title": "Adaptation",
+        "date": "Coming Soon",
+        "description": "Next step will be added soon"
+      },
+      "step6": {
+        "title": "Integration",
+        "date": "Coming Soon",
+        "description": "Next step will be added soon"
+      },
+      "step7": {
+        "title": "New Life",
+        "date": "Coming Soon",
+        "description": "Next step will be added soon"
+      },
+      "step8": {
+        "title": "Future",
+        "date": "Coming Soon",
+        "description": "Next step will be added soon"
+      },
+      "step9": {
+        "title": "Reflection",
+        "date": "Coming Soon",
+        "description": "Next step will be added soon"
+      }
     },
-    "step2": {
-      "title": "Research & Planning",
-      "description": "Months of research went into understanding visa requirements, finding the right city, and preparing all necessary documents."
+    "card": {
+      "readMore": "Read more"
     },
-    "step3": {
-      "title": "Making It Happen",
-      "description": "From submitting applications to finding housing and settling into my new Spanish life, every step was a learning experience."
+    "cta": {
+      "title": "Follow My Journey",
+      "description": "Learn more about each step and get inspired",
+      "button": "View All Steps"
     },
-    "personal": {
-      "title": "Personal Experience",
-      "description": "I've been through the entire process and I'm here to share my insights, tips, and lessons learned along the way.",
-      "badge": "Real Experience"
+    "placeholder": {
+      "title": "Next Step",
+      "description": "Will be added soon"
     }
   },
   "guide": {
