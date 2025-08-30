@@ -13,33 +13,39 @@
       <div class="grid lg:grid-cols-2 gap-16 items-start">
         <!-- Left side - Story steps -->
         <div class="space-y-8">
-          <div class="flex items-start space-x-5">
-            <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-              <span class="!text-xl font-bold text-blue-600">1</span>
-            </div>
-            <div class="flex-1">
-              <h3 class="!text-xl font-semibold text-gray-900 mb-3">{{ $t('story.step1.title') }}</h3>
-              <p class="text-gray-600 leading-relaxed">{{ $t('story.step1.description') }}</p>
-            </div>
-          </div>
-          
-          <div class="flex items-start space-x-5">
-            <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-              <span class="!text-xl font-bold text-green-600">2</span>
-            </div>
-            <div class="flex-1">
-              <h3 class="!text-xl font-semibold text-gray-900 mb-3">{{ $t('story.step2.title') }}</h3>
-              <p class="text-gray-600 leading-relaxed">{{ $t('story.step2.description') }}</p>
+          <div class="relative">
+            <div class="flex items-start">
+              <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0 mr-6 shadow-lg">
+                <span class="!text-2xl font-bold text-white">1</span>
+              </div>
+              <div class="flex-1 pt-2">
+                <h3 class="!text-2xl font-bold text-gray-900 mb-3">{{ $t('story.step1.title') }}</h3>
+                <p class="text-gray-600 leading-relaxed text-lg">{{ $t('story.step1.description') }}</p>
+              </div>
             </div>
           </div>
           
-          <div class="flex items-start space-x-5">
-            <div class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-              <span class="!text-xl font-bold text-purple-600">3</span>
+          <div class="relative">
+            <div class="flex items-start">
+              <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mr-6 shadow-lg">
+                <span class="!text-2xl font-bold text-white">2</span>
+              </div>
+              <div class="flex-1 pt-2">
+                <h3 class="!text-2xl font-bold text-gray-900 mb-3">{{ $t('story.step2.title') }}</h3>
+                <p class="text-gray-600 leading-relaxed text-lg">{{ $t('story.step2.description') }}</p>
+              </div>
             </div>
-            <div class="flex-1">
-              <h3 class="!text-xl font-semibold text-gray-900 mb-3">{{ $t('story.step3.title') }}</h3>
-              <p class="text-gray-600 leading-relaxed">{{ $t('story.step3.description') }}</p>
+          </div>
+          
+          <div class="relative">
+            <div class="flex items-start">
+              <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mr-6 shadow-lg">
+                <span class="!text-2xl font-bold text-white">3</span>
+              </div>
+              <div class="flex-1 pt-2">
+                <h3 class="!text-2xl font-bold text-gray-900 mb-3">{{ $t('story.step3.title') }}</h3>
+                <p class="text-gray-600 leading-relaxed text-lg">{{ $t('story.step3.description') }}</p>
+              </div>
             </div>
           </div>
         </div>
