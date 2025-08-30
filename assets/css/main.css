@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Let Tailwind v4 scan your files */
+@source "./app.vue";
+@source "./components/**/*";
+@source "./pages/**/*";
+@source "./content/**/*";
+
+/* Nuxt UI styles */
+@import "@nuxt/ui";
