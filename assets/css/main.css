@@ -1,10 +1,45 @@
+/* Nuxt UI styles */
 @import "tailwindcss";
-
 /* Let Tailwind v4 scan your files */
 @source "./app.vue";
 @source "./components/**/*";
 @source "./pages/**/*";
 @source "./content/**/*";
 
-/* Nuxt UI styles */
+@theme {
+  --text-8xl: 6rem;   /* 96px */
+  --text-9xl: 8rem;   /* 128px */
+  --text-10xl: 10rem; /* 160px */
+  
+  /* Spacing values for margins and padding */
+  --spacing-1: 0.25rem;   /* 4px */
+  --spacing-2: 0.5rem;    /* 8px */
+  --spacing-3: 0.75rem;   /* 12px */
+  --spacing-4: 1rem;      /* 16px */
+  --spacing-5: 1.25rem;   /* 20px */
+  --spacing-6: 1.5rem;    /* 24px */
+  --spacing-8: 2rem;      /* 32px */
+  --spacing-10: 2.5rem;   /* 40px */
+  --spacing-12: 3rem;     /* 48px */
+  --spacing-16: 4rem;     /* 64px */
+  --spacing-20: 5rem;     /* 80px */
+  --spacing-24: 6rem;     /* 96px */
+  --spacing-32: 8rem;     /* 128px */
+}
+
+
 @import "@nuxt/ui";
+
+@layer base {
+    :where(h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote,figure) {
+      all: unset;             /* setzt ALLE Browser- & NuxtUI-Defaults zurück */
+      display: revert;        /* Standard-Display wiederherstellen (z. B. block) */
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      font-weight: inherit;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  }
