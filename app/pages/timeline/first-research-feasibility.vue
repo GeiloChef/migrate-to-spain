@@ -48,11 +48,12 @@
       <!-- Section 4: Steuern -->
       <TaxComparisonSection />
 
-      <!-- Section 5: Glutenfreies Essen -->
-      <GlutenFreeFoodSection />
 
       <!-- Section 6: Lebenshaltungskosten -->
       <LivingCostsSection />
+
+      <!-- Section 5: Glutenfreies Essen -->
+      <GlutenFreeFoodSection />
 
 
 
