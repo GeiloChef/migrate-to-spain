@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-6 bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+  <section>
     <div>
       <div class="text-center mb-16">
         <h2 class="!text-4xl font-bold text-spain-navy mb-4">

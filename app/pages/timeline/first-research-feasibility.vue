@@ -6,7 +6,7 @@
     :next-step="'/timeline/discovering-spain'"
   >
     <!-- Hero Section -->
-    <div class="relative -mx-6 -mt-12 mb-16">
+    <div class="relative">
       <!-- Background Image -->
       <div class="w-full h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
@@ -37,28 +37,53 @@
     <!-- Main Content -->
     <div class="prose prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Section 1: Einführung -->
-      <IntroductionSection />
+      <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div class="px-6 py-16">
+          <IntroductionSection />
+        </div>
+      </div>
 
       <!-- Section 2: Aufenthaltsrecht -->
-      <ResidenceRightsSection />
+      <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div class="px-6 py-16">
+          <ResidenceRightsSection />
+        </div>
+      </div>
 
       <!-- Section 3: Arbeit -->
-      <WorkSection />
+      <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div class="px-6 py-16">
+          <WorkSection />
+        </div>
+      </div>
 
       <!-- Section 4: Steuern -->
-      <TaxComparisonSection />
-
+      <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div class="px-6 py-16">
+          <TaxComparisonSection />
+        </div>
+      </div>
 
       <!-- Section 6: Lebenshaltungskosten -->
-      <LivingCostsSection />
+      <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div class="px-6 py-16">
+          <LivingCostsSection />
+        </div>
+      </div>
 
       <!-- Section 5: Glutenfreies Essen -->
-      <GlutenFreeFoodSection />
-
-
+      <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div class="px-6 py-16">
+          <GlutenFreeFoodSection />
+        </div>
+      </div>
 
       <!-- Section 7: Fazit -->
-      <ConclusionSection />
+      <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div class="px-6 py-16">
+          <ConclusionSection />
+        </div>
+      </div>
     </div>
   </TimelineLayout>
 </template>
