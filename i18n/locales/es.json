@@ -221,24 +221,21 @@
               "title": "Una Ventaja Inesperada",
               "description": "Como alguien con enfermedad celíaca, esto fue un verdadero cambio de juego para mí. No había esperado que España estuviera tan bien equipada en esta área que Alemania."
             },
-            "supermarkets": {
-              "title": "Cadenas de supermercados con gran selección sin gluten",
-              "description": "La selección es impresionante – desde tortillas hasta pan, galletas y pasteles. Mucho más que en supermercados alemanes.",
-              "list": [
-                "Mercadona",
-                "Carrefour",
-                "El Corte Inglés",
-                "Lidl",
-                "Aldi"
-              ]
+            "positiveSurprise": {
+              "title": "Sorpresa Positiva en España",
+              "description1": "En España, honestamente fui positivamente sorprendido. Ya durante mis primeras estancias, noté que la conciencia sobre la nutrición sin gluten (\"sin gluten\") es mucho más pronunciada aquí. Casi cada supermercado más grande tiene estantes enteros con productos sin gluten.",
+              "description2": "Incluso al comer fuera, a menudo se ve más relajado en España. Muchos restaurantes y cafés marcan claramente sus menús con símbolos \"sin gluten\", y hay cadenas como 100 Montaditos o VIPS que explícitamente ofrecen opciones sin gluten."
             },
-            "restaurants": {
-              "title": "Restaurantes y Gastronomía",
-              "description": "Muchos restaurantes españoles están preparados para personas con enfermedad celíaca y ofrecen opciones seguras sin gluten."
+            "supermarkets": {
+              "title": "Cadenas de supermercados con gran selección sin gluten:",
+              "mercadona": "Mercadona – probablemente el mejor primer punto de contacto",
+              "carrefour": "Carrefour – amplia selección de productos de marca",
+              "alcampo": "Alcampo – grandes hipermercados con buena cobertura",
+              "lidl": "Lidl España – algunos productos de marca propia sin gluten"
             },
             "conclusion": {
-              "title": "Conclusión",
-              "description": "La comida sin gluten es significativamente más fácil y variada en España que en Alemania, tanto en supermercados como en restaurantes."
+              "title": "Mi Conclusión",
+              "description": "España es un país realmente bueno para personas con enfermedad celíaca. La combinación de gran selección de productos en supermercados, cocina natural diversa y creciente conciencia en gastronomía hace que la vida cotidiana aquí sea mucho más fácil para mí."
             }
           }
         }

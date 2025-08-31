@@ -311,24 +311,21 @@
               "title": "An Unexpected Advantage",
               "description": "As someone with celiac disease, this was a real game-changer for me. I hadn't expected Spain to be so much better equipped in this area than Germany."
             },
-            "supermarkets": {
-              "title": "Supermarket chains with large gluten-free selection",
-              "description": "The selection is impressive – from tortillas to bread to cookies and cakes. Much more than in German supermarkets.",
-              "list": [
-                "Mercadona",
-                "Carrefour",
-                "El Corte Inglés",
-                "Lidl",
-                "Aldi"
-              ]
+            "positiveSurprise": {
+              "title": "Positive Surprise in Spain",
+              "description1": "In Spain, I was honestly positively surprised. Even during my first stays, I noticed that awareness of gluten-free nutrition (\"sin gluten\") is much more pronounced here. Almost every larger supermarket has entire shelves with gluten-free products.",
+              "description2": "Even when eating out, it often looks more relaxed in Spain. Many restaurants and cafés clearly mark their menus with \"sin gluten\" symbols, and there are chains like 100 Montaditos or VIPS that explicitly offer gluten-free options."
             },
-            "restaurants": {
-              "title": "Restaurants and Gastronomy",
-              "description": "Many Spanish restaurants are set up for people with celiac disease and offer safe gluten-free options."
+            "supermarkets": {
+              "title": "Supermarket chains with large gluten-free selection:",
+              "mercadona": "Mercadona – probably the best first point of contact",
+              "carrefour": "Carrefour – wide selection of brand products",
+              "alcampo": "Alcampo – large hypermarkets with good coverage",
+              "lidl": "Lidl Spain – some gluten-free own-brand products"
             },
             "conclusion": {
-              "title": "Conclusion",
-              "description": "Gluten-free food is significantly easier and more varied in Spain than in Germany, both in supermarkets and restaurants."
+              "title": "My Conclusion",
+              "description": "Spain is a really good country for people with celiac disease. The combination of large product selection in supermarkets, diverse natural cuisine, and growing awareness in gastronomy makes everyday life here much easier for me."
             }
           }
         }

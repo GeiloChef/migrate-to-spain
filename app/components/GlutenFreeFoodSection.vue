@@ -92,5 +92,67 @@
 </template>
 
 <script setup>
-// No props or logic needed for this component
+import { computed, ref, onMounted } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t, locale } = useI18n()
+
+// Positive surprise info with fallback
+const positiveSurpriseInfo = computed(() => {
+  try {
+    const title = t('story.timeline.step2.sections.glutenFree.positiveSurprise.title')
+    const description1 = t('story.timeline.step2.sections.glutenFree.positiveSurprise.description1')
+    const description2 = t('story.timeline.step2.sections.glutenFree.positiveSurprise.description2')
+    console.log('Positive surprise info from i18n:', { title, description1, description2 })
+    return { title, description1, description2 }
+  } catch (error) {
+    console.error('Error getting positive surprise info:', error)
+    return { title: '', description1: '', description2: '' }
+  }
+})
+
+// Supermarkets info with fallback
+const supermarketsInfo = computed(() => {
+  try {
+    const title = t('story.timeline.step2.sections.glutenFree.supermarkets.title')
+    const mercadona = t('story.timeline.step2.sections.glutenFree.supermarkets.mercadona')
+    const carrefour = t('story.timeline.step2.sections.glutenFree.supermarkets.carrefour')
+    const alcampo = t('story.timeline.step2.sections.glutenFree.supermarkets.alcampo')
+    const lidl = t('story.timeline.step2.sections.glutenFree.supermarkets.lidl')
+    console.log('Supermarkets info from i18n:', { title, mercadona, carrefour, alcampo, lidl })
+    return { title, mercadona, carrefour, alcampo, lidl }
+  } catch (error) {
+    console.error('Error getting supermarkets info:', error)
+    return { title: '', mercadona: '', carrefour: '', alcampo: '', lidl: '' }
+  }
+})
+
+// Fallback data for positive surprise
+const fallbackPositiveSurprise = {
+  title: "Positive Überraschung in Spanien",
+  description1: "In Spanien war ich ehrlich gesagt positiv überrascht. Schon bei meinen ersten Aufenthalten habe ich gemerkt, dass das Bewusstsein für glutenfreie Ernährung ('sin gluten') hier viel stärker ausgeprägt ist. In fast jedem größeren Supermarkt gibt es ganze Regale mit glutenfreien Produkten.",
+  description2: "Auch beim Essengehen sieht es in Spanien oft entspannter aus. Viele Restaurants und Cafés kennzeichnen ihre Speisekarten klar mit 'sin gluten'-Symbolen, und es gibt Ketten wie 100 Montaditos oder VIPS, die explizit glutenfreie Optionen anbieten."
+}
+
+// Fallback data for supermarkets
+const fallbackSupermarkets = {
+  title: "Supermarktketten mit großer glutenfreier Auswahl:",
+  mercadona: "Mercadona – wahrscheinlich die beste Anlaufstelle",
+  carrefour: "Carrefour – breite Auswahl an Markenprodukten",
+  alcampo: "Alcampo – große Hypermärkte mit guter Abdeckung",
+  lidl: "Lidl Spanien – einige glutenfreie Eigenmarkenprodukte"
+}
+
+// Display data with fallback logic
+const displayPositiveSurprise = computed(() => {
+  return positiveSurpriseInfo.value.title && positiveSurpriseInfo.value.description1 && positiveSurpriseInfo.value.description2
+    ? positiveSurpriseInfo.value 
+    : fallbackPositiveSurprise
+})
+
+const displaySupermarkets = computed(() => {
+  return supermarketsInfo.value.title && supermarketsInfo.value.mercadona && supermarketsInfo.value.carrefour && supermarketsInfo.value.alcampo && supermarketsInfo.value.lidl
+    ? supermarketsInfo.value 
+    : fallbackSupermarkets
+})
 </script>

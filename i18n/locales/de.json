@@ -271,24 +271,21 @@
               "title": "Ein unerwarteter Vorteil",
               "description": "Als jemand mit Zöliakie war das für mich ein echter Gamechanger. Ich hatte nicht damit gerechnet, dass Spanien in diesem Bereich so viel besser aufgestellt ist als Deutschland."
             },
-            "supermarkets": {
-              "title": "Supermarktketten mit großer glutenfreier Auswahl",
-              "description": "Die Auswahl ist beeindruckend – von Tortillas über Brot bis hin zu Keksen und Kuchen. Viel mehr als in deutschen Supermärkten.",
-              "list": [
-                "Mercadona",
-                "Carrefour",
-                "El Corte Inglés",
-                "Lidl",
-                "Aldi"
-              ]
+            "positiveSurprise": {
+              "title": "Positive Überraschung in Spanien",
+              "description1": "In Spanien war ich ehrlich gesagt positiv überrascht. Schon bei meinen ersten Aufenthalten habe ich gemerkt, dass das Bewusstsein für glutenfreie Ernährung ('sin gluten') hier viel stärker ausgeprägt ist. In fast jedem größeren Supermarkt gibt es ganze Regale mit glutenfreien Produkten.",
+              "description2": "Auch beim Essengehen sieht es in Spanien oft entspannter aus. Viele Restaurants und Cafés kennzeichnen ihre Speisekarten klar mit 'sin gluten'-Symbolen, und es gibt Ketten wie 100 Montaditos oder VIPS, die explizit glutenfreie Optionen anbieten."
             },
-            "restaurants": {
-              "title": "Restaurants und Gastronomie",
-              "description": "Viele spanische Restaurants sind auf Menschen mit Zöliakie eingestellt und bieten sichere glutenfreie Optionen an."
+            "supermarkets": {
+              "title": "Supermarktketten mit großer glutenfreier Auswahl:",
+              "mercadona": "Mercadona – wahrscheinlich die beste Anlaufstelle",
+              "carrefour": "Carrefour – breite Auswahl an Markenprodukten",
+              "alcampo": "Alcampo – große Hypermärkte mit guter Abdeckung",
+              "lidl": "Lidl Spanien – einige glutenfreie Eigenmarkenprodukte"
             },
             "conclusion": {
-              "title": "Fazit",
-              "description": "Glutenfreies Essen ist in Spanien deutlich einfacher und auswahlreicher als in Deutschland, sowohl in Supermärkten als auch in Restaurants."
+              "title": "Mein Fazit",
+              "description": "Spanien ist ein wirklich gutes Land für Menschen mit Zöliakie. Die Kombination aus großer Produktauswahl im Supermarkt, einer vielfältigen naturnahen Küche und einem steigenden Bewusstsein in der Gastronomie macht mir den Alltag hier wesentlich leichter."
             }
           }
         }
