@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-16" id="arbeit">
+  <div id="arbeit">
     <!-- Header Section -->
     <div class="flex items-center gap-4 mb-10">
       <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">

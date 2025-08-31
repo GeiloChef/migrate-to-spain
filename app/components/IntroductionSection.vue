@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-16">
+  <div>
     <h3 class="!text-3xl font-bold text-gray-900 mb-8">
       {{ $t('introduction.title') }}
     </h3>

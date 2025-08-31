@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-16">
+  <div>
     <div class="flex items-center gap-4 mb-8">
       <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
         <span class="text-indigo-600 font-bold text-xl">✓</span>
