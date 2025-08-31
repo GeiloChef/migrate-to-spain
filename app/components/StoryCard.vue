@@ -1,5 +1,6 @@
 <template>
-  <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-spain-red transition-all duration-300 border border-spain-yellow/30 hover:border-spain-red/50 cursor-pointer transform hover:scale-105">
+  <NuxtLink :to="timelineUrl" class="block">
+    <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-spain-red transition-all duration-300 border border-spain-yellow/30 hover:border-spain-red/50 cursor-pointer transform hover:scale-105">
     <!-- Step Number Badge -->
     <div class="absolute -top-4 -right-4 w-12 h-12 bg-spain-red rounded-full flex items-center justify-center shadow-lg">
       <span class="text-white font-bold text-lg">{{ stepNumber }}</span>
@@ -42,6 +43,7 @@
     <!-- Hover Effect Overlay -->
     <div class="absolute inset-0 bg-gradient-to-br from-spain-red/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
   </div>
+    </NuxtLink>
 </template>
 
 <script setup>
@@ -63,6 +65,25 @@ const props = defineProps({
     type: Array,
     required: true
   }
+})
+
+// Generate timeline URL based on step number
+const timelineUrl = computed(() => {
+  const stepUrls = {
+    1: '/timeline/the-dream-of-spain',
+    2: '/timeline/first-research-feasibility',
+    3: '/timeline/learning-spanish',
+    4: '/timeline/discovering-spain',
+    5: '/timeline/deciding-on-region',
+    6: '/timeline/buying-apartment',
+    7: '/timeline/bureaucracy-formalities',
+    8: '/timeline/real-estate-purchase',
+    9: '/timeline/gestoria-help',
+    10: '/timeline/security-insurance',
+    11: '/timeline/first-stay-apartment',
+    12: '/timeline/final-migration'
+  }
+  return stepUrls[props.stepNumber] || '/timeline'
 })
 </script>
 
