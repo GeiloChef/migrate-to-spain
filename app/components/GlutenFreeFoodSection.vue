@@ -1,61 +1,90 @@
 <template>
-  <div class="mb-16">
-    <div class="flex items-center gap-4 mb-8">
-      <div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
-        <svg class="w-6 h-6 text-yellow-600" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-        </svg>
+  <div class="mb-16" id="glutenfreies-essen">
+    <!-- Header Section -->
+    <div class="flex items-center gap-4 mb-10">
+      <div class="w-14 h-14 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center shadow-lg">
+        <span class="text-white font-bold text-2xl">5</span>
       </div>
-      <h3 class="!text-3xl font-bold text-gray-900">
-        Glutenfreies Essen
+      <h3 class="!text-4xl font-bold text-gray-900">
+        {{ $t('story.timeline.step2.sections.glutenFree.title') }}
       </h3>
     </div>
-    <div class="space-y-6 text-gray-700 leading-relaxed">
-      <p>
-        Ein Thema, das für mich persönlich von Anfang an extrem wichtig war, war das Essen – genauer gesagt: glutenfreies Essen. Seit bei mir Zöliakie diagnostiziert wurde, ist es keine kleine Lifestyle-Entscheidung, sondern eine absolute Notwendigkeit, auf Gluten zu verzichten.
-      </p>
+    
+    <div class="space-y-8 text-gray-700 leading-relaxed">
+      <!-- Introduction -->
+      <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-6 border border-yellow-200">
+        <p class="text-lg leading-relaxed">
+          {{ $t('story.timeline.step2.sections.glutenFree.intro') }}
+        </p>
+      </div>
       
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="space-y-4">
-          <p>
-            In Spanien war ich ehrlich gesagt positiv überrascht. Schon bei meinen ersten Aufenthalten habe ich gemerkt, dass das Bewusstsein für glutenfreie Ernährung („sin gluten") hier viel stärker ausgeprägt ist. In fast jedem größeren Supermarkt gibt es ganze Regale mit glutenfreien Produkten.
-          </p>
-          <p>
-            Auch beim Essengehen sieht es in Spanien oft entspannter aus. Viele Restaurants und Cafés kennzeichnen ihre Speisekarten klar mit „sin gluten"-Symbolen, und es gibt Ketten wie 100 Montaditos oder VIPS, die explizit glutenfreie Optionen anbieten.
-          </p>
+      <!-- Main Content Grid -->
+      <div class="grid lg:grid-cols-2 gap-8">
+        <!-- Left Column: Text Content -->
+        <div class="space-y-6">
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+            <h4 class="font-semibold text-gray-900 mb-4 text-lg flex items-center gap-2">
+              <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
+              {{ $t('story.timeline.step2.sections.glutenFree.positiveSurprise.title') }}
+            </h4>
+            <div class="space-y-4 text-gray-700">
+              <p>
+                {{ $t('story.timeline.step2.sections.glutenFree.positiveSurprise.description1') }}
+              </p>
+              <p>
+                {{ $t('story.timeline.step2.sections.glutenFree.positiveSurprise.description2') }}
+              </p>
+            </div>
+          </div>
         </div>
         
-        <div class="bg-green-50 rounded-xl p-6 border border-green-200">
-          <h4 class="font-semibold text-gray-900 mb-4 text-lg">Supermarktketten mit großer glutenfreier Auswahl:</h4>
-          <div class="space-y-3">
-            <div class="flex items-center gap-3">
-              <div class="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span class="text-sm font-medium">Mercadona</span>
-              <span class="text-xs text-gray-600">– wahrscheinlich die beste Anlaufstelle</span>
+        <!-- Right Column: Supermarket Info -->
+        <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-200 shadow-lg">
+          <h4 class="font-semibold text-gray-900 mb-5 text-lg flex items-center gap-2">
+            <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+            {{ $t('story.timeline.step2.sections.glutenFree.supermarkets.title') }}
+          </h4>
+          <div class="space-y-4">
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-green-100">
+              <div class="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+              <div>
+                <span class="text-sm font-semibold text-gray-900">{{ $t('story.timeline.step2.sections.glutenFree.supermarkets.mercadona') }}</span>
+              </div>
             </div>
-            <div class="flex items-center gap-3">
-              <div class="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span class="text-sm font-medium">Carrefour</span>
-              <span class="text-xs text-gray-600">– breite Auswahl an Markenprodukten</span>
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-green-100">
+              <div class="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+              <div>
+                <span class="text-sm font-semibold text-gray-900">{{ $t('story.timeline.step2.sections.glutenFree.supermarkets.carrefour') }}</span>
+              </div>
             </div>
-            <div class="flex items-center gap-3">
-              <div class="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span class="text-sm font-medium">Alcampo</span>
-              <span class="text-xs text-gray-600">– große Hypermärkte mit guter Abdeckung</span>
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-green-100">
+              <div class="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+              <div>
+                <span class="text-sm font-semibold text-gray-900">{{ $t('story.timeline.step2.sections.glutenFree.supermarkets.alcampo') }}</span>
+              </div>
             </div>
-            <div class="flex items-center gap-3">
-              <div class="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span class="text-sm font-medium">Lidl Spanien</span>
-              <span class="text-xs text-gray-600">– einige glutenfreie Eigenmarkenprodukte</span>
+            <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-green-100">
+              <div class="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+              <div>
+                <span class="text-sm font-semibold text-gray-900">{{ $t('story.timeline.step2.sections.glutenFree.supermarkets.lidl') }}</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
       
-      <div class="bg-gradient-to-r from-green-50 to-blue-50 border-l-4 border-green-400 p-6 rounded-r-lg">
-        <p class="font-medium text-gray-900 mb-2 text-lg">Mein Fazit:</p>
-        <p class="text-green-700 font-medium">
-          Spanien ist ein wirklich gutes Land für Menschen mit Zöliakie. Die Kombination aus großer Produktauswahl im Supermarkt, einer vielfältigen naturnahen Küche und einem steigenden Bewusstsein in der Gastronomie macht mir den Alltag hier wesentlich leichter.
+      <!-- Conclusion Box -->
+      <div class="bg-gradient-to-r from-green-100 to-blue-100 rounded-2xl border border-green-300 p-6 shadow-lg">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <h4 class="font-bold text-gray-900 text-lg">{{ $t('story.timeline.step2.sections.glutenFree.conclusion.title') }}</h4>
+        </div>
+        <p class="text-green-800 font-medium leading-relaxed">
+          {{ $t('story.timeline.step2.sections.glutenFree.conclusion.description') }}
         </p>
       </div>
     </div>

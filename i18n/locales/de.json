@@ -89,6 +89,147 @@
           "point1": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten",
           "point2": "Notizen & grober Plan: „Was müsste ich tun, um wirklich auszuwandern?\"",
           "point3": "Erste Recherchen zur Machbarkeit"
+        },
+        "sections": {
+          "residenceRights": {
+            "title": "Aufenthaltsrecht",
+            "intro": {
+              "title": "Das Wichtigste zuerst",
+              "question": "Darf ich als Deutscher überhaupt so einfach in Spanien leben?",
+              "answer": "Die kurze Antwort: Ja. Als EU-Bürger habe ich das Recht, mich in jedem EU-Mitgliedsstaat niederzulassen, dort zu wohnen und zu arbeiten – ganz ohne Visum oder Aufenthaltstitel. Dieses Recht nennt sich Freizügigkeit und ist in der EU-Verordnung geregelt.",
+              "note": "Klingt erstmal easy. Aber in der Praxis gibt es natürlich Details:"
+            },
+            "registration": {
+              "title": "Registrierungspflicht ab 3 Monaten",
+              "points": [
+                "Wer länger als 3 Monate bleibt, muss sich bei der Ausländerbehörde (Extranjería) registrieren",
+                "Man erhält das sogenannte „Certificado de registro como residente comunitario\"",
+                "Dazu braucht man Einkommen, Arbeitsvertrag oder Nachweis über ausreichende finanzielle Mittel"
+              ]
+            },
+            "taxRule": {
+              "title": "Die 183-Tage-Regel",
+              "over183": {
+                "title": "Über 183 Tage in Spanien:",
+                "description": "Automatisch steuerlich ansässig in Spanien"
+              },
+              "under183": {
+                "title": "Unter 183 Tage in Spanien:",
+                "description": "Bleibst in Deutschland steuerlich ansässig"
+              },
+              "conclusion": "Ab 183 Tagen greift die steuerliche Ansässigkeit in Spanien."
+            }
+          },
+          "work": {
+            "title": "Arbeit",
+            "intro": "Natürlich war Arbeit für mich ein zentrales Thema. Schließlich bin ich wie die meisten von meinem Einkommen abhängig. Meine Recherche zeigte mir schnell: Im Prinzip gibt es für mich zwei Optionen.",
+            "options": {
+              "remote": {
+                "title": "Option 1: Remote Work aus Deutschland",
+                "points": [
+                  "Höheres deutsches Gehaltsniveau",
+                  "Sicherheit, weil man beim deutschen Arbeitgeber bleibt",
+                  "Sozialversicherungssystem bleibt gleich",
+                  "Flexibilität: man kann reisen, ohne sofort in Spanien alle Systeme umzustellen"
+                ],
+                "warning": "183-Tage-Regel → sobald ich zu lange in Spanien bleibe, wird es steuerlich kompliziert"
+              },
+              "spain": {
+                "title": "Option 2: Arbeiten direkt in Spanien",
+                "points": [
+                  "Leichter, sich vor Ort zu integrieren",
+                  "Steuerlich einfacher (ein Land, ein System)",
+                  "Lokale Netzwerke und Jobmöglichkeiten"
+                ],
+                "disadvantage": "Gehälter in Spanien liegen im Schnitt deutlich unter deutschen. 2025: Spanien ~28.000€ vs. Deutschland ~46.000€"
+              }
+            },
+            "decision": {
+              "title": "Remote-Work als Übergangslösung",
+              "description": "Als Übergang starte ich mit Remote-Work. Das half mir ungemein – ich konnte vor Ort alles regeln (Bankkonto, Gestoría, Wohnung etc.), ohne jedes Mal Urlaub nehmen zu müssen. Und ja, es sparte mir eine Menge Geld für Flüge.",
+              "reminder": "Wer Remote aus Spanien arbeitet, sollte die 183-Tage-Regel im Auge behalten"
+            }
+          },
+          "taxes": {
+            "title": "Steuern & Gehaltsabrechnung",
+            "intro": "Steuern waren das nächste dicke Thema – immerhin will man ja nicht in eine Falle tappen. Hier zeige ich dir eine detaillierte Gehaltsabrechnung für 2.500€ Brutto im Vergleich Deutschland vs. Spanien.",
+            "comparison": {
+              "germany": {
+                "title": "Deutschland",
+                "year": "2025",
+                "gross": "2.500,00€",
+                "grossLabel": "Bruttogehalt",
+                "deductions": {
+                  "title": "Abzüge:",
+                  "incomeTax": "Lohnsteuer (ca. 15%)",
+                  "churchTax": "Kirchensteuer (9% von LSt)",
+                  "healthInsurance": "Krankenversicherung (7,3%)",
+                  "nursingInsurance": "Pflegeversicherung (1,525%)",
+                  "pensionInsurance": "Rentenversicherung (9,6%)",
+                  "unemploymentInsurance": "Arbeitslosenversicherung (1,2%)",
+                  "solidarityTax": "Solidaritätszuschlag (5,5%)"
+                },
+                "totalDeductions": "Gesamte Abzüge:",
+                "netIncome": "1.580,99€",
+                "netLabel": "Nettogehalt",
+                "deductionPercentage": "Abzüge: 36,8% vom Brutto"
+              },
+              "spain": {
+                "title": "Spanien",
+                "year": "2025",
+                "gross": "2.500,00€",
+                "grossLabel": "Bruttogehalt",
+                "deductions": {
+                  "title": "Abzüge:",
+                  "irpf": "IRPF (ca. 12%)",
+                  "healthInsurance": "Krankenversicherung (6,35%)",
+                  "pensionInsurance": "Rentenversicherung (6,35%)",
+                  "unemploymentInsurance": "Arbeitslosenversicherung (1,55%)",
+                  "vocationalTraining": "Berufsausbildung (0,6%)",
+                  "accidentInsurance": "Unfallversicherung (0,2%)",
+                  "solidarityTax": "Solidaritätszuschlag"
+                },
+                "totalDeductions": "Gesamte Abzüge:",
+                "netIncome": "1.823,75€",
+                "netLabel": "Nettogehalt",
+                "deductionPercentage": "Abzüge: 27,1% vom Brutto"
+              }
+            },
+            "summary": {
+              "title": "Zusammenfassung",
+              "germanyNet": "Deutschland Netto",
+              "spainNet": "Spanien Netto",
+              "difference": "Differenz (Spanien)",
+              "conclusion": "Bei 2.500€ Brutto bleibt in Spanien etwa 15% mehr Netto übrig als in Deutschland. Die Abzüge sind in Deutschland deutlich höher (36,8% vs. 27,1% vom Brutto).",
+              "importantNote": "In Spanien ist es deutlich schwieriger, ein Gehalt von 2.500€ Brutto zu erreichen. Das Durchschnittsgehalt liegt bei etwa 1.800€ Brutto, während es in Deutschland bei etwa 3.200€ liegt.",
+              "disclaimer": "Diese Berechnung ist ein Beispiel. Die tatsächlichen Abzüge hängen von vielen Faktoren ab. Beratung durch einen Steuerberater ist empfehlenswert."
+            }
+          },
+          "livingCosts": {
+            "title": "Lebenshaltungskosten",
+            "intro": "Jeder, der in Spanien Urlaub macht, sagt erstmal: „Wow, hier ist ja alles so günstig!\" Aber das ist nur die halbe Wahrheit. Ja, eine Tapa für 2,50 € und ein Café con leche für 1,20 € wirken auf uns Deutsche spottbillig. Aber das Gefühl entsteht vor allem, weil wir deutsche Gehälter im Kopf haben.",
+            "comparison": "Vergleich Lebenshaltungskosten (2025):"
+          },
+          "glutenFree": {
+            "title": "Glutenfreies Essen",
+            "intro": "Ein Thema, das für mich persönlich von Anfang an extrem wichtig war, war das Essen – genauer gesagt: glutenfreies Essen. Seit bei mir Zöliakie diagnostiziert wurde, ist es keine kleine Lifestyle-Entscheidung, sondern eine absolute Notwendigkeit, auf Gluten zu verzichten.",
+            "positiveSurprise": {
+              "title": "Positive Überraschung in Spanien",
+              "description1": "In Spanien war ich ehrlich gesagt positiv überrascht. Schon bei meinen ersten Aufenthalten habe ich gemerkt, dass das Bewusstsein für glutenfreie Ernährung („sin gluten\") hier viel stärker ausgeprägt ist. In fast jedem größeren Supermarkt gibt es ganze Regale mit glutenfreien Produkten.",
+              "description2": "Auch beim Essengehen sieht es in Spanien oft entspannter aus. Viele Restaurants und Cafés kennzeichnen ihre Speisekarten klar mit „sin gluten\"-Symbolen, und es gibt Ketten wie 100 Montaditos oder VIPS, die explizit glutenfreie Optionen anbieten."
+            },
+            "supermarkets": {
+              "title": "Supermarktketten mit großer glutenfreier Auswahl",
+              "mercadona": "Mercadona – wahrscheinlich die beste Anlaufstelle",
+              "carrefour": "Carrefour – breite Auswahl an Markenprodukten",
+              "alcampo": "Alcampo – große Hypermärkte mit guter Abdeckung",
+              "lidl": "Lidl Spanien – einige glutenfreie Eigenmarkenprodukte"
+            },
+            "conclusion": {
+              "title": "Mein Fazit",
+              "description": "Spanien ist ein wirklich gutes Land für Menschen mit Zöliakie. Die Kombination aus großer Produktauswahl im Supermarkt, einer vielfältigen naturnahen Küche und einem steigenden Bewusstsein in der Gastronomie macht mir den Alltag hier wesentlich leichter."
+            }
+          }
         }
       },
       "step3": {

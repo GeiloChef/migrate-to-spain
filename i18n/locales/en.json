@@ -129,6 +129,147 @@
           "point1": "First info gathering: residence rights, taxes, cost of living",
           "point2": "Notes & rough plan: \"What would I need to do to actually emigrate?\"",
           "point3": "First research on feasibility"
+        },
+        "sections": {
+          "residenceRights": {
+            "title": "Residence Rights",
+            "intro": {
+              "title": "The Most Important Thing First",
+              "question": "Can I as a German really live in Spain so easily?",
+              "answer": "The short answer: Yes. As an EU citizen, I have the right to settle, live and work in any EU member state – without any visa or residence permit. This right is called freedom of movement and is regulated in EU regulations.",
+              "note": "Sounds easy at first. But in practice there are naturally details:"
+            },
+            "registration": {
+              "title": "Registration Requirement from 3 Months",
+              "points": [
+                "Anyone staying longer than 3 months must register with the immigration office (Extranjería)",
+                "You receive the so-called \"Certificado de registro como residente comunitario\"",
+                "For this you need income, employment contract or proof of sufficient financial means"
+              ]
+            },
+            "taxRule": {
+              "title": "The 183-Day Rule",
+              "over183": {
+                "title": "Over 183 days in Spain:",
+                "description": "Automatically tax resident in Spain"
+              },
+              "under183": {
+                "title": "Under 183 days in Spain:",
+                "description": "Remain tax resident in Germany"
+              },
+              "conclusion": "From 183 days onwards, tax residency in Spain applies."
+            }
+          },
+          "work": {
+            "title": "Work",
+            "intro": "Of course, work was a central topic for me. After all, like most people, I depend on my income. My research quickly showed me: In principle, there are two options for me.",
+            "options": {
+              "remote": {
+                "title": "Option 1: Remote Work from Germany",
+                "points": [
+                  "Higher German salary level",
+                  "Security because you stay with the German employer",
+                  "Social security system remains the same",
+                  "Flexibility: you can travel without immediately changing all systems in Spain"
+                ],
+                "warning": "183-day rule → as soon as I stay too long in Spain, it becomes tax complicated"
+              },
+              "spain": {
+                "title": "Option 2: Working directly in Spain",
+                "points": [
+                  "Easier to integrate on site",
+                  "Tax-wise simpler (one country, one system)",
+                  "Local networks and job opportunities"
+                ],
+                "disadvantage": "Salaries in Spain are on average significantly lower than German ones. 2025: Spain ~28,000€ vs. Germany ~46,000€"
+              }
+            },
+            "decision": {
+              "title": "Remote Work as a Transition Solution",
+              "description": "As a transition, I'm starting with remote work. This helped me immensely – I could arrange everything on site (bank account, Gestoría, apartment, etc.) without having to take vacation each time. And yes, it saved me a lot of money for flights.",
+              "reminder": "Anyone working remotely from Spain should keep an eye on the 183-day rule"
+            }
+          },
+          "taxes": {
+            "title": "Taxes & Salary Calculation",
+            "intro": "Taxes were the next big topic – after all, you don't want to fall into a trap. Here I show you a detailed salary calculation for €2,500 gross comparing Germany vs. Spain.",
+            "comparison": {
+              "germany": {
+                "title": "Germany",
+                "year": "2025",
+                "gross": "2,500.00€",
+                "grossLabel": "Gross Salary",
+                "deductions": {
+                  "title": "Deductions:",
+                  "incomeTax": "Income Tax (approx. 15%)",
+                  "churchTax": "Church Tax (9% of IT)",
+                  "healthInsurance": "Health Insurance (7.3%)",
+                  "nursingInsurance": "Nursing Care Insurance (1.525%)",
+                  "pensionInsurance": "Pension Insurance (9.6%)",
+                  "unemploymentInsurance": "Unemployment Insurance (1.2%)",
+                  "solidarityTax": "Solidarity Surcharge (5.5%)"
+                },
+                "totalDeductions": "Total Deductions:",
+                "netIncome": "1,580.99€",
+                "netLabel": "Net Salary",
+                "deductionPercentage": "Deductions: 36.8% of gross"
+              },
+              "spain": {
+                "title": "Spain",
+                "year": "2025",
+                "gross": "2,500.00€",
+                "grossLabel": "Gross Salary",
+                "deductions": {
+                  "title": "Deductions:",
+                  "irpf": "IRPF (approx. 12%)",
+                  "healthInsurance": "Health Insurance (6.35%)",
+                  "pensionInsurance": "Pension Insurance (6.35%)",
+                  "unemploymentInsurance": "Unemployment Insurance (1.55%)",
+                  "vocationalTraining": "Vocational Training (0.6%)",
+                  "accidentInsurance": "Accident Insurance (0.2%)",
+                  "solidarityTax": "Solidarity Surcharge"
+                },
+                "totalDeductions": "Total Deductions:",
+                "netIncome": "1,823.75€",
+                "netLabel": "Net Salary",
+                "deductionPercentage": "Deductions: 27.1% of gross"
+              }
+            },
+            "summary": {
+              "title": "Summary",
+              "germanyNet": "Germany Net",
+              "spainNet": "Spain Net",
+              "difference": "Difference (Spain)",
+              "conclusion": "With €2,500 gross, about 15% more net remains in Spain than in Germany. Deductions are significantly higher in Germany (36.8% vs. 27.1% of gross).",
+              "importantNote": "In Spain, it is significantly more difficult to achieve a salary of €2,500 gross. The average salary is around €1,800 gross, while in Germany it's around €3,200.",
+              "disclaimer": "This calculation is an example. Actual deductions depend on many factors. Consultation with a tax advisor is recommended."
+            }
+          },
+          "livingCosts": {
+            "title": "Cost of Living",
+            "intro": "Everyone who goes on vacation in Spain says at first: \"Wow, everything here is so cheap!\" But that's only half the truth. Yes, a tapa for €2.50 and a café con leche for €1.20 seem ridiculously cheap to us Germans. But the feeling arises mainly because we have German salaries in mind.",
+            "comparison": "Cost of Living Comparison (2025):"
+          },
+          "glutenFree": {
+            "title": "Gluten-Free Food",
+            "intro": "A topic that was extremely important to me personally from the beginning was food – more specifically: gluten-free food. Since I was diagnosed with celiac disease, it's not a small lifestyle decision, but an absolute necessity to avoid gluten.",
+            "positiveSurprise": {
+              "title": "Positive Surprise in Spain",
+              "description1": "In Spain, I was honestly positively surprised. Even during my first stays, I noticed that awareness of gluten-free nutrition (\"sin gluten\") is much more pronounced here. Almost every larger supermarket has entire shelves with gluten-free products.",
+              "description2": "Even when eating out, it often looks more relaxed in Spain. Many restaurants and cafés clearly mark their menus with \"sin gluten\" symbols, and there are chains like 100 Montaditos or VIPS that explicitly offer gluten-free options."
+            },
+            "supermarkets": {
+              "title": "Supermarket Chains with Large Gluten-Free Selection",
+              "mercadona": "Mercadona – probably the best first point of contact",
+              "carrefour": "Carrefour – wide selection of brand products",
+              "alcampo": "Alcampo – large hypermarkets with good coverage",
+              "lidl": "Lidl Spain – some gluten-free own-brand products"
+            },
+            "conclusion": {
+              "title": "My Conclusion",
+              "description": "Spain is a really good country for people with celiac disease. The combination of large product selection in supermarkets, diverse natural cuisine, and growing awareness in gastronomy makes everyday life here much easier for me."
+            }
+          }
         }
       },
       "step3": {

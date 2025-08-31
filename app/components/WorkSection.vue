@@ -1,75 +1,65 @@
 <template>
   <div class="mb-16" id="arbeit">
-    <div class="flex items-center gap-4 mb-8">
-      <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-        <span class="text-green-600 font-bold text-xl">2</span>
+    <!-- Header Section -->
+    <div class="flex items-center gap-4 mb-10">
+      <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
+        <span class="text-white font-bold text-2xl">2</span>
       </div>
-      <h3 class="!text-3xl font-bold text-gray-900">
-        Arbeit
+      <h3 class="!text-4xl font-bold text-gray-900">
+        {{ $t('story.timeline.step2.sections.work.title') }}
       </h3>
     </div>
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
-        Natürlich war Arbeit für mich ein zentrales Thema. Schließlich bin ich wie die meisten von meinem Einkommen abhängig. Meine Recherche zeigte mir schnell: Im Prinzip gibt es für mich zwei Optionen.
+        {{ $t('story.timeline.step2.sections.work.intro') }}
       </p>
       
-      <!-- Hero Image für den Arbeitsbereich -->
-      <div class="w-full h-64 rounded-xl overflow-hidden mb-8 shadow-lg">
-        <img 
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Team working remotely and in office - work options"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col">
-          <h4 class="font-semibold text-gray-900 mb-4 text-lg">Option 1: Remote Work aus Deutschland</h4>
-          <div class="space-y-3 flex-grow">
-            <div class="flex items-start gap-3">
-              <div class="w-2 h-2 bg-gray-600 rounded-full mt-2 flex-shrink-0"></div>
-              <span class="text-sm text-gray-700">Höheres deutsches Gehaltsniveau</span>
-            </div>
-            <div class="flex items-start gap-3">
-              <div class="w-2 h-2 bg-gray-600 rounded-full mt-2 flex-shrink-0"></div>
-              <span class="text-sm text-gray-700">Sicherheit, weil man beim deutschen Arbeitgeber bleibt</span>
-            </div>
-            <div class="flex items-start gap-3">
-              <div class="w-2 h-2 bg-gray-600 rounded-full mt-2 flex-shrink-0"></div>
-              <span class="text-sm text-gray-700">Sozialversicherungssystem bleibt gleich</span>
-            </div>
-            <div class="flex items-start gap-3">
-              <div class="w-2 h-2 bg-gray-600 rounded-full mt-2 flex-shrink-0"></div>
-              <span class="text-sm text-gray-700">Flexibilität: man kann reisen, ohne sofort in Spanien alle Systeme umzustellen</span>
-            </div>
-          </div>
-          <div class="mt-4 p-3 bg-amber-50 rounded-lg border border-amber-200">
-            <p class="text-sm text-amber-800">
-              <strong>Achtung:</strong> 183-Tage-Regel → sobald ich zu lange in Spanien bleibe, wird es steuerlich kompliziert
-            </p>
-          </div>
+      <!-- Unified Work Options Card -->
+      <div class="bg-white rounded-2xl border border-gray-200 shadow-lg overflow-hidden">
+        <!-- Hero Image at the top -->
+        <div class="w-full h-64 overflow-hidden">
+          <img 
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+            alt="Team working remotely and in office - work options"
+            class="w-full h-full object-cover"
+          />
         </div>
         
-        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col">
-          <h4 class="font-semibold text-gray-900 mb-4 text-lg">Option 2: Arbeiten direkt in Spanien</h4>
-          <div class="space-y-3 flex-grow">
-            <div class="flex items-start gap-3">
-              <div class="w-2 h-2 bg-gray-600 rounded-full mt-2 flex-shrink-0"></div>
-              <span class="text-sm text-gray-700">Leichter, sich vor Ort zu integrieren</span>
+        <!-- Two Options Below -->
+        <div class="grid md:grid-cols-2 gap-0 relative">
+          <!-- Option 1: Remote Work -->
+          <div class="p-6">
+            <h4 class="font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.work.options.remote.title') }}</h4>
+            <div class="space-y-3 mb-4">
+              <div class="flex items-start gap-3" v-for="(point, index) in displayRemotePoints" :key="index">
+                <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-sm text-gray-700">{{ point }}</span>
+              </div>
             </div>
-            <div class="flex items-start gap-3">
-              <div class="w-2 h-2 bg-gray-600 rounded-full mt-2 flex-shrink-0"></div>
-              <span class="text-sm text-gray-700">Steuerlich einfacher (ein Land, ein System)</span>
-            </div>
-            <div class="flex items-start gap-3">
-              <div class="w-2 h-2 bg-gray-600 rounded-full mt-2 flex-shrink-0"></div>
-              <span class="text-sm text-gray-700">Lokale Netzwerke und Jobmöglichkeiten</span>
+            <div class="p-3 bg-amber-50 rounded-lg border border-amber-200">
+              <p class="text-sm text-amber-800">
+                <strong>Achtung:</strong> {{ $t('story.timeline.step2.sections.work.options.remote.warning') }}
+              </p>
             </div>
           </div>
-          <div class="mt-4 p-3 bg-red-50 rounded-lg border border-red-200">
-            <p class="text-sm text-red-800">
-              <strong>Nachteil:</strong> Gehälter in Spanien liegen im Schnitt deutlich unter deutschen. 2025: Spanien ~28.000€ vs. Deutschland ~46.000€
-            </p>
+          
+          <!-- Divider -->
+          <div class="absolute left-1/2 top-[15%] bottom-[15%] w-px bg-gray-200 transform -translate-x-1/2"></div>
+          
+          <!-- Option 2: Work in Spain -->
+          <div class="p-6">
+            <h4 class="font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.work.options.spain.title') }}</h4>
+            <div class="space-y-3 mb-4">
+              <div class="flex items-start gap-3" v-for="(point, index) in displaySpainPoints" :key="index">
+                <div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-sm text-gray-700">{{ point }}</span>
+              </div>
+            </div>
+            <div class="p-3 bg-red-50 rounded-lg border border-red-200">
+              <p class="text-sm text-red-800">
+                <strong>Nachteil:</strong> {{ $t('story.timeline.step2.sections.work.options.spain.disadvantage') }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -92,15 +82,15 @@
             </svg>
             Meine Entscheidung
           </div>
-          <h4 class="font-bold text-gray-900 mb-3 text-xl">Remote-Work als Übergangslösung</h4>
+          <h4 class="font-bold text-gray-900 mb-3 text-xl">{{ $t('story.timeline.step2.sections.work.decision.title') }}</h4>
           <p class="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
-            Als Übergang starte ich mit Remote-Work. Das half mir ungemein – ich konnte vor Ort alles regeln (Bankkonto, Gestoría, Wohnung etc.), ohne jedes Mal Urlaub nehmen zu müssen. Und ja, es sparte mir eine Menge Geld für Flüge.
+            {{ $t('story.timeline.step2.sections.work.decision.description') }}
           </p>
           <div class="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-blue-50/80 rounded-lg text-blue-700 text-sm">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" clip-rule="evenodd" />
             </svg>
-            Reminder: Wer Remote aus Spanien arbeitet, sollte die 183-Tage-Regel im Auge behalten
+            {{ $t('story.timeline.step2.sections.work.decision.reminder') }}
           </div>
         </div>
       </div>
@@ -109,5 +99,56 @@
 </template>
 
 <script setup>
-// No props or logic needed for this component
+import { computed, ref, onMounted } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t, locale } = useI18n()
+
+// Remote work points with fallback
+const remoteWorkPoints = computed(() => {
+  try {
+    const points = t('story.timeline.step2.sections.work.options.remote.points')
+    console.log('Remote work points from i18n:', points)
+    return Array.isArray(points) ? points : []
+  } catch (error) {
+    console.error('Error getting remote work points:', error)
+    return []
+  }
+})
+
+// Work in Spain points with fallback
+const workInSpainPoints = computed(() => {
+  try {
+    const points = t('story.timeline.step2.sections.work.options.spain.points')
+    console.log('Work in Spain points from i18n:', points)
+    return Array.isArray(points) ? points : []
+  } catch (error) {
+    console.error('Error getting work in Spain points:', error)
+    return []
+  }
+})
+
+// Fallback points for remote work
+const fallbackRemotePoints = [
+  "Höheres deutsches Gehaltsniveau",
+  "Sicherheit, weil man beim deutschen Arbeitgeber bleibt",
+  "Sozialversicherungssystem bleibt gleich",
+  "Flexibilität: man kann reisen, ohne sofort in Spanien alle Systeme umzustellen"
+]
+
+// Fallback points for work in Spain
+const fallbackSpainPoints = [
+  "Leichter, sich vor Ort zu integrieren",
+  "Steuerlich einfacher (ein Land, ein System)",
+  "Lokale Netzwerke und Jobmöglichkeiten"
+]
+
+// Display points with fallback logic
+const displayRemotePoints = computed(() => {
+  return remoteWorkPoints.value.length > 0 ? remoteWorkPoints.value : fallbackRemotePoints
+})
+
+const displaySpainPoints = computed(() => {
+  return workInSpainPoints.value.length > 0 ? workInSpainPoints.value : fallbackSpainPoints
+})
 </script>

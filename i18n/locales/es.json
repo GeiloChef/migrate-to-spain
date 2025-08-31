@@ -89,6 +89,147 @@
           "point1": "Primera recopilación de información: derechos de residencia, impuestos, costos de vida",
           "point2": "Notas y plan aproximado: \"¿Qué tendría que hacer para emigrar realmente?\"",
           "point3": "Primeras investigaciones sobre viabilidad"
+        },
+        "sections": {
+          "residenceRights": {
+            "title": "Derechos de Residencia",
+            "intro": {
+              "title": "Lo Más Importante Primero",
+              "question": "¿Puedo como alemán realmente vivir en España tan fácilmente?",
+              "answer": "La respuesta corta: Sí. Como ciudadano de la UE, tengo el derecho de establecerme, vivir y trabajar en cualquier estado miembro de la UE – sin ningún visado o permiso de residencia. Este derecho se llama libertad de circulación y está regulado en las regulaciones de la UE.",
+              "note": "Suena fácil al principio. Pero en la práctica hay naturalmente detalles:"
+            },
+            "registration": {
+              "title": "Requisito de Registro desde 3 Meses",
+              "points": [
+                "Cualquiera que se quede más de 3 meses debe registrarse en la oficina de inmigración (Extranjería)",
+                "Recibes el llamado \"Certificado de registro como residente comunitario\"",
+                "Para esto necesitas ingresos, contrato de empleo o prueba de medios financieros suficientes"
+              ]
+            },
+            "taxRule": {
+              "title": "La Regla de 183 Días",
+              "over183": {
+                "title": "Más de 183 días en España:",
+                "description": "Automáticamente residente fiscal en España"
+              },
+              "under183": {
+                "title": "Menos de 183 días en España:",
+                "description": "Permaneces residente fiscal en Alemania"
+              },
+              "conclusion": "A partir de 183 días se aplica la residencia fiscal en España."
+            }
+          },
+          "work": {
+            "title": "Trabajo",
+            "intro": "Por supuesto, el trabajo era un tema central para mí. Después de todo, como la mayoría de las personas, dependo de mis ingresos. Mi investigación me mostró rápidamente: En principio, hay dos opciones para mí.",
+            "options": {
+              "remote": {
+                "title": "Opción 1: Trabajo Remoto desde Alemania",
+                "points": [
+                  "Nivel salarial alemán más alto",
+                  "Seguridad porque te quedas con el empleador alemán",
+                  "El sistema de seguridad social permanece igual",
+                  "Flexibilidad: puedes viajar sin cambiar inmediatamente todos los sistemas en España"
+                ],
+                "warning": "Regla de 183 días → tan pronto como me quede demasiado tiempo en España, se vuelve fiscalmente complicado"
+              },
+              "spain": {
+                "title": "Opción 2: Trabajar directamente en España",
+                "points": [
+                  "Más fácil integrarse en el lugar",
+                  "Fiscalmente más simple (un país, un sistema)",
+                  "Redes locales y oportunidades de trabajo"
+                ],
+                "disadvantage": "Los salarios en España están en promedio significativamente más bajos que los alemanes. 2025: España ~28.000€ vs. Alemania ~46.000€"
+              }
+            },
+            "decision": {
+              "title": "Trabajo Remoto como Solución de Transición",
+              "description": "Como transición, estoy comenzando con trabajo remoto. Esto me ayudó inmensamente – pude arreglar todo en el lugar (cuenta bancaria, Gestoría, apartamento, etc.) sin tener que tomar vacaciones cada vez. Y sí, me ahorró mucho dinero para vuelos.",
+              "reminder": "Cualquiera que trabaje remotamente desde España debe mantener un ojo en la regla de 183 días"
+            }
+          },
+          "taxes": {
+            "title": "Impuestos y Cálculo Salarial",
+            "intro": "Los impuestos eran el siguiente tema grueso – después de todo, no quieres caer en una trampa. Aquí te muestro un cálculo salarial detallado para 2.500€ brutos comparando Alemania vs. España.",
+            "comparison": {
+              "germany": {
+                "title": "Alemania",
+                "year": "2025",
+                "gross": "2.500,00€",
+                "grossLabel": "Salario Bruto",
+                "deductions": {
+                  "title": "Deducciones:",
+                  "incomeTax": "Impuesto sobre la Renta (aprox. 15%)",
+                  "churchTax": "Impuesto Eclesiástico (9% del IR)",
+                  "healthInsurance": "Seguro de Salud (7,3%)",
+                  "nursingInsurance": "Seguro de Cuidado (1,525%)",
+                  "pensionInsurance": "Seguro de Pensión (9,6%)",
+                  "unemploymentInsurance": "Seguro de Desempleo (1,2%)",
+                  "solidarityTax": "Recargo de Solidaridad (5,5%)"
+                },
+                "totalDeductions": "Deducciones Totales:",
+                "netIncome": "1.580,99€",
+                "netLabel": "Salario Neto",
+                "deductionPercentage": "Deducciones: 36,8% del bruto"
+              },
+              "spain": {
+                "title": "España",
+                "year": "2025",
+                "gross": "2.500,00€",
+                "grossLabel": "Salario Bruto",
+                "deductions": {
+                  "title": "Deducciones:",
+                  "irpf": "IRPF (aprox. 12%)",
+                  "healthInsurance": "Seguro de Salud (6,35%)",
+                  "pensionInsurance": "Seguro de Pensión (6,35%)",
+                  "unemploymentInsurance": "Seguro de Desempleo (1,55%)",
+                  "vocationalTraining": "Formación Profesional (0,6%)",
+                  "accidentInsurance": "Seguro de Accidentes (0,2%)",
+                  "solidarityTax": "Recargo de Solidaridad"
+                },
+                "totalDeductions": "Deducciones Totales:",
+                "netIncome": "1.823,75€",
+                "netLabel": "Salario Neto",
+                "deductionPercentage": "Deducciones: 27,1% del bruto"
+              }
+            },
+            "summary": {
+              "title": "Resumen",
+              "germanyNet": "Alemania Neto",
+              "spainNet": "España Neto",
+              "difference": "Diferencia (España)",
+              "conclusion": "Con 2.500€ brutos, aproximadamente 15% más neto permanece en España que en Alemania. Las deducciones son significativamente más altas en Alemania (36,8% vs. 27,1% del bruto).",
+              "importantNote": "En España, es significativamente más difícil lograr un salario de 2.500€ brutos. El salario promedio está alrededor de 1.800€ brutos, mientras que en Alemania está alrededor de 3.200€.",
+              "disclaimer": "Este cálculo es un ejemplo. Las deducciones reales dependen de muchos factores. La consulta con un asesor fiscal es recomendable."
+            }
+          },
+          "livingCosts": {
+            "title": "Costos de Vida",
+            "intro": "Todos los que van de vacaciones a España dicen al principio: \"¡Vaya, aquí todo es tan barato!\" Pero eso es solo la mitad de la verdad. Sí, una tapa por 2,50€ y un café con leche por 1,20€ nos parecen ridículamente baratos a nosotros los alemanes. Pero la sensación surge principalmente porque tenemos salarios alemanes en mente.",
+            "comparison": "Comparación de Costos de Vida (2025):"
+          },
+          "glutenFree": {
+            "title": "Comida Sin Gluten",
+            "intro": "Un tema que era extremadamente importante para mí personalmente desde el principio era la comida – más específicamente: comida sin gluten. Desde que me diagnosticaron enfermedad celíaca, no es una pequeña decisión de estilo de vida, sino una necesidad absoluta evitar el gluten.",
+            "positiveSurprise": {
+              "title": "Sorpresa Positiva en España",
+              "description1": "En España, honestamente fui positivamente sorprendido. Ya durante mis primeras estancias, noté que la conciencia sobre la nutrición sin gluten (\"sin gluten\") es mucho más pronunciada aquí. Casi cada supermercado más grande tiene estantes enteros con productos sin gluten.",
+              "description2": "Incluso al comer fuera, a menudo se ve más relajado en España. Muchos restaurantes y cafés marcan claramente sus menús con símbolos \"sin gluten\", y hay cadenas como 100 Montaditos o VIPS que explícitamente ofrecen opciones sin gluten."
+            },
+            "supermarkets": {
+              "title": "Cadenas de Supermercados con Gran Selección Sin Gluten",
+              "mercadona": "Mercadona – probablemente el mejor primer punto de contacto",
+              "carrefour": "Carrefour – amplia selección de productos de marca",
+              "alcampo": "Alcampo – grandes hipermercados con buena cobertura",
+              "lidl": "Lidl España – algunos productos de marca propia sin gluten"
+            },
+            "conclusion": {
+              "title": "Mi Conclusión",
+              "description": "España es un país realmente bueno para personas con enfermedad celíaca. La combinación de gran selección de productos en supermercados, cocina natural diversa y creciente conciencia en gastronomía hace que la vida cotidiana aquí sea mucho más fácil para mí."
+            }
+          }
         }
       },
       "step3": {

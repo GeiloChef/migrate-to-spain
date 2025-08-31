@@ -1,21 +1,22 @@
 <template>
   <div class="mb-16" id="lebenshaltungskosten">
-    <div class="flex items-center gap-4 mb-8">
-      <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-        <span class="text-orange-600 font-bold text-xl">4</span>
+    <!-- Header Section -->
+    <div class="flex items-center gap-4 mb-10">
+      <div class="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
+        <span class="text-white font-bold text-2xl">4</span>
       </div>
-      <h3 class="!text-3xl font-bold text-gray-900">
-        Lebenshaltungskosten
+      <h3 class="!text-4xl font-bold text-gray-900">
+        {{ $t('story.timeline.step2.sections.livingCosts.title') }}
       </h3>
     </div>
     
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
-        Jeder, der in Spanien Urlaub macht, sagt erstmal: „Wow, hier ist ja alles so günstig!" Aber das ist nur die halbe Wahrheit. Ja, eine Tapa für 2,50 € und ein Café con leche für 1,20 € wirken auf uns Deutsche spottbillig. Aber das Gefühl entsteht vor allem, weil wir deutsche Gehälter im Kopf haben.
+        {{ $t('story.timeline.step2.sections.livingCosts.intro') }}
       </p>
       
       <div class="space-y-6">
-        <h4 class="font-semibold text-gray-900 text-lg mb-6">Vergleich Lebenshaltungskosten (2025):</h4>
+        <h4 class="font-semibold text-gray-900 text-lg mb-6">{{ $t('story.timeline.step2.sections.livingCosts.comparison') }}</h4>
         
         <div class="space-y-6">
           <!-- Wohnkosten -->
