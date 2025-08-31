@@ -23,19 +23,17 @@
             :step-number="1" 
             :date="$t('story.timeline.step1.date')"
           >
-            <div class="relative group">
-              <StoryCard 
-                :step-number="1"
-                :title="$t('story.timeline.step1.title')"
-                :description="$t('story.timeline.step1.description')"
-                :preview-points="[
-                  $t('story.timeline.step1.preview.point1'),
-                  $t('story.timeline.step1.preview.point2'),
-                  $t('story.timeline.step1.preview.point3')
-                ]"
-                background-image="/images/timeline/dream-of-spain.png"
-              />
-            </div>
+            <StoryCard
+              :step-number="1"
+              :title="$t('story.timeline.step1.title')"
+              :description="$t('story.timeline.step1.description')"
+              :preview-points="[
+                $t('story.timeline.step1.preview.point1'),
+                $t('story.timeline.step1.preview.point2'),
+                $t('story.timeline.step1.preview.point3')
+              ]"
+              background-image="/images/timeline/dream-of-spain.png"
+            />
           </TimelineStep>
           
           <!-- Step 2: Erste Recherchen & Machbarkeit -->

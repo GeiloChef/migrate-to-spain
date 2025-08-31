@@ -1,6 +1,7 @@
 <template>
+  <div class="group">
   <NuxtLink :to="timelineUrl" class="block">
-        <div class="group relative bg-white rounded-2xl p-8 shadow-lg group-hover:shadow-spain-red transition-all duration-300 border border-spain-yellow/10 group-hover:border-spain-red/50 cursor-pointer transform group-hover:scale-105">
+        <div class="group relative bg-white rounded-2xl p-8 shadow-lg group-hover:shadow-spain-red transition-all duration-300 border border-transparent group-hover:border-spain-red/50 cursor-pointer transform group-hover:scale-105">
       <!-- Background Image Wrapper -->
       <div 
         v-if="backgroundImage"
@@ -57,6 +58,7 @@
     <div class="absolute inset-0 bg-gradient-to-br from-spain-red/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-5"></div>
   </div>
     </NuxtLink>
+    </div>
 </template>
 
 <script setup>

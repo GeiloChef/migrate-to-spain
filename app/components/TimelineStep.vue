@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center group flex-shrink-0 pt-4">
+  <div class="flex flex-col items-center flex-shrink-0 pt-4">
     <!-- Timeline Dot -->
     <div class="relative mb-6">
       <div 
