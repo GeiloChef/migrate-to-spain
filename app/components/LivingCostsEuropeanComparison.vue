@@ -26,9 +26,9 @@
         <!-- Horizontale Linie -->
         <div class="w-full h-4 bg-gradient-to-r from-green-400 via-yellow-400 to-red-500 rounded-full relative">
           <!-- Alle Länder mittig auf der Linie verteilt -->
-          <div class="absolute -top-8 left-0 w-full">
+          <div class="absolute -top-2 left-0 w-full">
             <!-- Rumänien - ~450€ (ganz links) -->
-            <div class="absolute left-[4%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(450) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇷🇴</span>
               </div>
@@ -38,7 +38,7 @@
             </div>
             
             <!-- Polen - ~550€ (links) -->
-            <div class="absolute left-[12%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(550) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇵🇱</span>
               </div>
@@ -48,7 +48,7 @@
             </div>
             
             <!-- Ungarn - ~650€ (links-mitte) -->
-            <div class="absolute left-[20%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(650) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇭🇺</span>
               </div>
@@ -58,7 +58,7 @@
             </div>
             
             <!-- Portugal - ~750€ (mitte-links) -->
-            <div class="absolute left-[28%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(750) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇵🇹</span>
               </div>
@@ -68,7 +68,7 @@
             </div>
             
             <!-- Spanien - ~850€ (mitte) -->
-            <div class="absolute left-[36%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(850) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇪🇸</span>
               </div>
@@ -78,7 +78,7 @@
             </div>
             
             <!-- Italien - ~950€ (mitte-rechts) -->
-            <div class="absolute left-[44%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(950) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇮🇹</span>
               </div>
@@ -88,7 +88,7 @@
             </div>
             
             <!-- Deutschland - ~1300€ (rechts) -->
-            <div class="absolute left-[52%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(1300) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇩🇪</span>
               </div>
@@ -98,7 +98,7 @@
             </div>
             
             <!-- Österreich - ~1400€ (rechts) -->
-            <div class="absolute left-[60%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(1400) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇦🇹</span>
               </div>
@@ -108,7 +108,7 @@
             </div>
             
             <!-- Norwegen - ~1800€ (rechts) -->
-            <div class="absolute left-[68%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(1800) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇳🇴</span>
               </div>
@@ -118,7 +118,7 @@
             </div>
             
             <!-- Schweiz - ~2000€ (ganz rechts) -->
-            <div class="absolute left-[76%] transform -translate-x-1/2 group">
+            <div class="absolute transform -translate-x-1/2 group" :style="{ left: getPosition(2000) + '%' }">
               <div class="w-8 h-8 bg-white rounded-full border-2 border-gray-300 flex items-center justify-center shadow-md cursor-pointer hover:scale-110 transition-transform">
                 <span class="text-xs font-bold text-gray-700">🇨🇭</span>
               </div>
@@ -142,5 +142,18 @@
 </template>
 
 <script setup lang="ts">
-// Component logic can be added here if needed
+// Calculate position based on cost value
+const getPosition = (cost: number): number => {
+  const minCost = 450; // Romania
+  const maxCost = 2000; // Switzerland
+  const range = maxCost - minCost;
+  
+  // Calculate percentage position (0% = left, 100% = right)
+  const percentage = ((cost - minCost) / range) * 100;
+  
+  // Add some padding from edges (5% from left and right)
+  const paddedPercentage = 5 + (percentage * 0.9);
+  
+  return Math.max(0, Math.min(100, paddedPercentage));
+};
 </script>
