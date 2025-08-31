@@ -32,7 +32,7 @@
       <div class="absolute top-1/2 -right-24 w-1.5 h-1.5 bg-spain-orange/40 rounded-full animate-scale" style="animation-delay: 1s"></div>
       <div class="absolute top-1/2 -right-28 w-1 h-1 bg-spain-red/45 rounded-full animate-scale" style="animation-delay: 0.1s"></div>
       <div class="absolute top-1/2 -right-32 w-1.5 h-1.5 bg-spain-yellow/35 rounded-full animate-scale" style="animation-delay: 0.3s"></div>
-      <div class="absolute top-1/2 -right-36 w-1 h-1 bg-spain-orange/50 rounded-full animate-scale" style="animation-delay: 0.5s"></div>
+      <div class="absolute top-1/2 -right-36 w-1.5 h-1.5 bg-spain-orange/50 rounded-full animate-scale" style="animation-delay: 0.5s"></div>
       <div class="absolute top-1/2 -right-40 w-1.5 h-1.5 bg-spain-red/40 rounded-full animate-scale" style="animation-delay: 0.7s"></div>
       <div class="absolute top-1/2 -right-44 w-1 h-1 bg-spain-yellow/45 rounded-full animate-scale" style="animation-delay: 0.9s"></div>
       <div class="absolute top-1/2 -right-48 w-1.5 h-1.5 bg-spain-orange/35 rounded-full animate-scale" style="animation-delay: 0.2s"></div>
@@ -40,7 +40,7 @@
       <!-- Left side connecting dots to previous timeline step (extended to actually connect) -->
       <div v-if="stepNumber > 1" class="absolute top-1/2 -left-4 w-1 h-1 bg-spain-orange/50 rounded-full animate-scale"></div>
       <div v-if="stepNumber > 1" class="absolute top-1/2 -left-8 w-1.5 h-1.5 bg-spain-red/40 rounded-full animate-scale" style="animation-delay: 0.4s"></div>
-      <div v-if="stepNumber > 1" class="absolute top-1/2 -left-12 w-1 h-1 bg-spain-yellow/45 rounded-full animate-scale" style="animation-delay: 0.6s"></div>
+      <div v-if="stepNumber > 1" class="absolute top-1/2 -left-12 w-1.5 h-1.5 bg-spain-yellow/45 rounded-full animate-scale" style="animation-delay: 0.6s"></div>
       <div v-if="stepNumber > 1" class="absolute top-1/2 -left-16 w-1.5 h-1.5 bg-spain-orange/35 rounded-full animate-scale" style="animation-delay: 0.8s"></div>
       <div v-if="stepNumber > 1" class="absolute top-1/2 -left-20 w-1 h-1 bg-spain-red/50 rounded-full animate-scale" style="animation-delay: 1s"></div>
       <div v-if="stepNumber > 1" class="absolute top-1/2 -left-24 w-1.5 h-1.5 bg-spain-yellow/40 rounded-full animate-scale" style="animation-delay: 0.1s"></div>
@@ -98,6 +98,8 @@ const dotColorClass = computed(() => {
   
   return colors[(props.stepNumber - 1) % colors.length] || 'bg-spain-gray-dark'
 })
+
+
 </script>
 
 <style scoped>
