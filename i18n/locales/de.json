@@ -8,6 +8,61 @@
     "buttons": {
       "primary": "Starte deine Reise",
       "secondary": "Mehr erfahren"
+    },
+    "researchPhase": {
+      "badge": "Recherche-Phase",
+      "title": "Erste Recherchen & Machbarkeit",
+      "subtitle": "Nachdem ich den grundlegenden Gedanken gefasst hatte – Spanien könnte wirklich mein neues Zuhause werden – war es an der Zeit, einen echten Plan zu schmieden. Der Traum allein reicht eben nicht."
+    }
+  },
+  "introduction": {
+    "title": "Der Weg zur Umsetzung",
+    "paragraph1": "Nachdem ich also den grundlegenden Gedanken gefasst hatte – Spanien könnte wirklich mein neues Zuhause werden – und die Vorteile, die ich darin sah, meine anfänglichen Ängste überstiegen, war es an der Zeit, einen echten Plan zu schmieden. Der Traum allein reicht eben nicht. Ich wollte verstehen: Ist das Ganze überhaupt machbar? Welche Voraussetzungen muss ich erfüllen? Und wie könnte ein realistischer zeitlicher Ablauf aussehen?",
+    "paragraph2": "Zum Glück ist das Internet voll mit Infos – und klar, ich bin ja nicht der erste Deutsche, der sich überlegt, nach Spanien auszuwandern. Ein echter Dauerbegleiter meiner Recherche wurde Idealista. Für die, die es nicht kennen: Idealista ist nicht nur die größte Immobilienplattform in Spanien (vergleichbar mit Immoscout24 in Deutschland), sondern auch eine wahre Fundgrube an Infos.",
+    "paragraph3": "Ganz am Anfang kristallisierten sich für mich vier Hauptthemen heraus:",
+    "topics": {
+      "residenceRights": {
+        "title": "1. Aufenthaltsrecht",
+        "description": "Rechtliche Grundlagen für den Umzug"
+      },
+      "work": {
+        "title": "2. Arbeit",
+        "description": "Arbeitsmöglichkeiten und Remote-Work"
+      },
+      "taxes": {
+        "title": "3. Steuern",
+        "description": "Steuerliche Aspekte und Beratung"
+      },
+      "livingCosts": {
+        "title": "4. Lebenshaltungskosten",
+        "description": "Kostenvergleich und Budgetplanung"
+      }
+    }
+  },
+  "conclusion": {
+    "title": "Fazit meiner Recherchen",
+    "intro": "Am Ende meiner Recherchen war ich schlauer – und ehrlich gesagt auch motivierter. Ich wusste:",
+    "topics": {
+      "residenceRights": {
+        "title": "✅ Aufenthaltsrecht",
+        "description": "Als Deutscher relativ unkompliziert, aber mit Pflichten ab 3 Monaten bzw. 183 Tagen."
+      },
+      "work": {
+        "title": "✅ Arbeit",
+        "description": "Remote aus Deutschland = finanziell attraktiver, aber mit steuerlichen Fallstricken."
+      },
+      "taxes": {
+        "title": "✅ Steuern",
+        "description": "Komplex, regional unterschiedlich, man braucht gute Beratung."
+      },
+      "livingCosts": {
+        "title": "✅ Lebenshaltungskosten",
+        "description": "Auf den ersten Blick günstig, realistisch betrachtet aber nur in Relation zu spanischen Gehältern."
+      }
+    },
+    "bonus": {
+      "title": "Bonus: Glutenfreies Essen",
+      "description": "Offensichtlich einfacher und auswahlreicher als in Deutschland, sowohl in Supermärkten als auch in Restaurants."
     }
   },
   "story": {
@@ -212,22 +267,28 @@
           },
           "glutenFree": {
             "title": "Glutenfreies Essen",
-            "intro": "Ein Thema, das für mich persönlich von Anfang an extrem wichtig war, war das Essen – genauer gesagt: glutenfreies Essen. Seit bei mir Zöliakie diagnostiziert wurde, ist es keine kleine Lifestyle-Entscheidung, sondern eine absolute Notwendigkeit, auf Gluten zu verzichten.",
-            "positiveSurprise": {
-              "title": "Positive Überraschung in Spanien",
-              "description1": "In Spanien war ich ehrlich gesagt positiv überrascht. Schon bei meinen ersten Aufenthalten habe ich gemerkt, dass das Bewusstsein für glutenfreie Ernährung („sin gluten\") hier viel stärker ausgeprägt ist. In fast jedem größeren Supermarkt gibt es ganze Regale mit glutenfreien Produkten.",
-              "description2": "Auch beim Essengehen sieht es in Spanien oft entspannter aus. Viele Restaurants und Cafés kennzeichnen ihre Speisekarten klar mit „sin gluten\"-Symbolen, und es gibt Ketten wie 100 Montaditos oder VIPS, die explizit glutenfreie Optionen anbieten."
+            "intro": {
+              "title": "Ein unerwarteter Vorteil",
+              "description": "Als jemand mit Zöliakie war das für mich ein echter Gamechanger. Ich hatte nicht damit gerechnet, dass Spanien in diesem Bereich so viel besser aufgestellt ist als Deutschland."
             },
             "supermarkets": {
               "title": "Supermarktketten mit großer glutenfreier Auswahl",
-              "mercadona": "Mercadona – wahrscheinlich die beste Anlaufstelle",
-              "carrefour": "Carrefour – breite Auswahl an Markenprodukten",
-              "alcampo": "Alcampo – große Hypermärkte mit guter Abdeckung",
-              "lidl": "Lidl Spanien – einige glutenfreie Eigenmarkenprodukte"
+              "description": "Die Auswahl ist beeindruckend – von Tortillas über Brot bis hin zu Keksen und Kuchen. Viel mehr als in deutschen Supermärkten.",
+              "list": [
+                "Mercadona",
+                "Carrefour",
+                "El Corte Inglés",
+                "Lidl",
+                "Aldi"
+              ]
+            },
+            "restaurants": {
+              "title": "Restaurants und Gastronomie",
+              "description": "Viele spanische Restaurants sind auf Menschen mit Zöliakie eingestellt und bieten sichere glutenfreie Optionen an."
             },
             "conclusion": {
-              "title": "Mein Fazit",
-              "description": "Spanien ist ein wirklich gutes Land für Menschen mit Zöliakie. Die Kombination aus großer Produktauswahl im Supermarkt, einer vielfältigen naturnahen Küche und einem steigenden Bewusstsein in der Gastronomie macht mir den Alltag hier wesentlich leichter."
+              "title": "Fazit",
+              "description": "Glutenfreies Essen ist in Spanien deutlich einfacher und auswahlreicher als in Deutschland, sowohl in Supermärkten als auch in Restaurants."
             }
           }
         }

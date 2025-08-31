@@ -8,6 +8,11 @@
     "buttons": {
       "primary": "Comienza tu Viaje",
       "secondary": "Saber Más"
+    },
+    "researchPhase": {
+      "badge": "Fase de Investigación",
+      "title": "Primeras Investigaciones y Viabilidad",
+      "subtitle": "Después de que tuve la idea básica – España realmente podría convertirse en mi nuevo hogar – era hora de hacer un plan real. El sueño solo no es suficiente."
     }
   },
   "story": {
@@ -212,22 +217,28 @@
           },
           "glutenFree": {
             "title": "Comida Sin Gluten",
-            "intro": "Un tema que era extremadamente importante para mí personalmente desde el principio era la comida – más específicamente: comida sin gluten. Desde que me diagnosticaron enfermedad celíaca, no es una pequeña decisión de estilo de vida, sino una necesidad absoluta evitar el gluten.",
-            "positiveSurprise": {
-              "title": "Sorpresa Positiva en España",
-              "description1": "En España, honestamente fui positivamente sorprendido. Ya durante mis primeras estancias, noté que la conciencia sobre la nutrición sin gluten (\"sin gluten\") es mucho más pronunciada aquí. Casi cada supermercado más grande tiene estantes enteros con productos sin gluten.",
-              "description2": "Incluso al comer fuera, a menudo se ve más relajado en España. Muchos restaurantes y cafés marcan claramente sus menús con símbolos \"sin gluten\", y hay cadenas como 100 Montaditos o VIPS que explícitamente ofrecen opciones sin gluten."
+            "intro": {
+              "title": "Una Ventaja Inesperada",
+              "description": "Como alguien con enfermedad celíaca, esto fue un verdadero cambio de juego para mí. No había esperado que España estuviera tan bien equipada en esta área que Alemania."
             },
             "supermarkets": {
-              "title": "Cadenas de Supermercados con Gran Selección Sin Gluten",
-              "mercadona": "Mercadona – probablemente el mejor primer punto de contacto",
-              "carrefour": "Carrefour – amplia selección de productos de marca",
-              "alcampo": "Alcampo – grandes hipermercados con buena cobertura",
-              "lidl": "Lidl España – algunos productos de marca propia sin gluten"
+              "title": "Cadenas de supermercados con gran selección sin gluten",
+              "description": "La selección es impresionante – desde tortillas hasta pan, galletas y pasteles. Mucho más que en supermercados alemanes.",
+              "list": [
+                "Mercadona",
+                "Carrefour",
+                "El Corte Inglés",
+                "Lidl",
+                "Aldi"
+              ]
+            },
+            "restaurants": {
+              "title": "Restaurantes y Gastronomía",
+              "description": "Muchos restaurantes españoles están preparados para personas con enfermedad celíaca y ofrecen opciones seguras sin gluten."
             },
             "conclusion": {
-              "title": "Mi Conclusión",
-              "description": "España es un país realmente bueno para personas con enfermedad celíaca. La combinación de gran selección de productos en supermercados, cocina natural diversa y creciente conciencia en gastronomía hace que la vida cotidiana aquí sea mucho más fácil para mí."
+              "title": "Conclusión",
+              "description": "La comida sin gluten es significativamente más fácil y variada en España que en Alemania, tanto en supermercados como en restaurantes."
             }
           }
         }
@@ -370,6 +381,56 @@
       "title": "¿Listo para Comenzar tu Viaje?",
       "description": "Únete a miles de otros que han hecho de España su nuevo hogar exitosamente con nuestra guía probada.",
       "button": "Comenzar Hoy"
+    }
+  },
+  "introduction": {
+    "title": "El Camino hacia la Implementación",
+    "paragraph1": "Así que después de que tuve la idea básica – España realmente podría convertirse en mi nuevo hogar – y las ventajas que vi en ello superaron mis miedos iniciales, era hora de hacer un plan real. El sueño solo no es suficiente. Quería entender: ¿Es todo esto incluso factible? ¿Qué requisitos debo cumplir? ¿Y cómo podría verse una línea de tiempo realista?",
+    "paragraph2": "Afortunadamente, internet está lleno de información – y por supuesto, no soy el primer alemán que considera emigrar a España. Un verdadero compañero constante de mi investigación se convirtió en Idealista. Para los que no lo conocen: Idealista no es solo la plataforma inmobiliaria más grande de España (comparable a Immoscout24 en Alemania), sino también un verdadero tesoro de información.",
+    "paragraph3": "Justo al principio, se cristalizaron para mí cuatro temas principales:",
+    "topics": {
+      "residenceRights": {
+        "title": "1. Derechos de Residencia",
+        "description": "Fundamentos legales para la mudanza"
+      },
+      "work": {
+        "title": "2. Trabajo",
+        "description": "Oportunidades de trabajo y trabajo remoto"
+      },
+      "taxes": {
+        "title": "3. Impuestos",
+        "description": "Aspectos fiscales y asesoramiento"
+      },
+      "livingCosts": {
+        "title": "4. Costo de Vida",
+        "description": "Comparación de costos y planificación presupuestaria"
+      }
+    }
+  },
+  "conclusion": {
+    "title": "Conclusión de Mi Investigación",
+    "intro": "Al final de mi investigación, era más sabio – y honestamente más motivado también. Sabía:",
+    "topics": {
+      "residenceRights": {
+        "title": "✅ Derechos de Residencia",
+        "description": "Como alemán, relativamente sin complicaciones, pero con obligaciones desde 3 meses o 183 días respectivamente."
+      },
+      "work": {
+        "title": "✅ Trabajo",
+        "description": "Remoto desde Alemania = financieramente más atractivo, pero con trampas fiscales."
+      },
+      "taxes": {
+        "title": "✅ Impuestos",
+        "description": "Complejo, regionalmente diferente, necesitas buen asesoramiento."
+      },
+      "livingCosts": {
+        "title": "✅ Costo de Vida",
+        "description": "A primera vista barato, pero realistamente solo en relación a salarios españoles."
+      }
+    },
+    "bonus": {
+      "title": "Bonus: Comida Sin Gluten",
+      "description": "Obviamente más fácil y variada que en Alemania, tanto en supermercados como en restaurantes."
     }
   }
 }

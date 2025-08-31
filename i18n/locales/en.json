@@ -8,6 +8,61 @@
     "buttons": {
       "primary": "Start Your Journey",
       "secondary": "Learn More"
+    },
+    "researchPhase": {
+      "badge": "Research Phase",
+      "title": "First Research & Feasibility",
+      "subtitle": "After I had grasped the basic idea – Spain could really become my new home – it was time to make a real plan. The dream alone is not enough."
+    }
+  },
+  "introduction": {
+    "title": "The Path to Implementation",
+    "paragraph1": "So after I had grasped the basic idea – Spain could really become my new home – and the advantages I saw in it outweighed my initial fears, it was time to make a real plan. The dream alone is not enough. I wanted to understand: Is this whole thing even feasible? What requirements do I have to meet? And what could a realistic timeline look like?",
+    "paragraph2": "Fortunately, the internet is full of information – and of course, I'm not the first German to consider emigrating to Spain. A real constant companion of my research became Idealista. For those who don't know: Idealista is not only the largest real estate platform in Spain (comparable to Immoscout24 in Germany), but also a real treasure trove of information.",
+    "paragraph3": "Right at the beginning, four main topics crystallized for me:",
+    "topics": {
+      "residenceRights": {
+        "title": "1. Residence Rights",
+        "description": "Legal foundations for the move"
+      },
+      "work": {
+        "title": "2. Work",
+        "description": "Work opportunities and remote work"
+      },
+      "taxes": {
+        "title": "3. Taxes",
+        "description": "Tax aspects and advice"
+      },
+      "livingCosts": {
+        "title": "4. Cost of Living",
+        "description": "Cost comparison and budget planning"
+      }
+    }
+  },
+  "conclusion": {
+    "title": "Conclusion of My Research",
+    "intro": "At the end of my research, I was wiser – and honestly more motivated too. I knew:",
+    "topics": {
+      "residenceRights": {
+        "title": "✅ Residence Rights",
+        "description": "As a German, relatively uncomplicated, but with obligations from 3 months or 183 days respectively."
+      },
+      "work": {
+        "title": "✅ Work",
+        "description": "Remote from Germany = financially more attractive, but with tax pitfalls."
+      },
+      "taxes": {
+        "title": "✅ Taxes",
+        "description": "Complex, regionally different, you need good advice."
+      },
+      "livingCosts": {
+        "title": "✅ Cost of Living",
+        "description": "At first glance cheap, but realistically only in relation to Spanish salaries."
+      }
+    },
+    "bonus": {
+      "title": "Bonus: Gluten-Free Food",
+      "description": "Obviously easier and more varied than in Germany, both in supermarkets and restaurants."
     }
   },
   "story": {
@@ -252,22 +307,28 @@
           },
           "glutenFree": {
             "title": "Gluten-Free Food",
-            "intro": "A topic that was extremely important to me personally from the beginning was food – more specifically: gluten-free food. Since I was diagnosed with celiac disease, it's not a small lifestyle decision, but an absolute necessity to avoid gluten.",
-            "positiveSurprise": {
-              "title": "Positive Surprise in Spain",
-              "description1": "In Spain, I was honestly positively surprised. Even during my first stays, I noticed that awareness of gluten-free nutrition (\"sin gluten\") is much more pronounced here. Almost every larger supermarket has entire shelves with gluten-free products.",
-              "description2": "Even when eating out, it often looks more relaxed in Spain. Many restaurants and cafés clearly mark their menus with \"sin gluten\" symbols, and there are chains like 100 Montaditos or VIPS that explicitly offer gluten-free options."
+            "intro": {
+              "title": "An Unexpected Advantage",
+              "description": "As someone with celiac disease, this was a real game-changer for me. I hadn't expected Spain to be so much better equipped in this area than Germany."
             },
             "supermarkets": {
-              "title": "Supermarket Chains with Large Gluten-Free Selection",
-              "mercadona": "Mercadona – probably the best first point of contact",
-              "carrefour": "Carrefour – wide selection of brand products",
-              "alcampo": "Alcampo – large hypermarkets with good coverage",
-              "lidl": "Lidl Spain – some gluten-free own-brand products"
+              "title": "Supermarket chains with large gluten-free selection",
+              "description": "The selection is impressive – from tortillas to bread to cookies and cakes. Much more than in German supermarkets.",
+              "list": [
+                "Mercadona",
+                "Carrefour",
+                "El Corte Inglés",
+                "Lidl",
+                "Aldi"
+              ]
+            },
+            "restaurants": {
+              "title": "Restaurants and Gastronomy",
+              "description": "Many Spanish restaurants are set up for people with celiac disease and offer safe gluten-free options."
             },
             "conclusion": {
-              "title": "My Conclusion",
-              "description": "Spain is a really good country for people with celiac disease. The combination of large product selection in supermarkets, diverse natural cuisine, and growing awareness in gastronomy makes everyday life here much easier for me."
+              "title": "Conclusion",
+              "description": "Gluten-free food is significantly easier and more varied in Spain than in Germany, both in supermarkets and restaurants."
             }
           }
         }

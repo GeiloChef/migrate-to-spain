@@ -22,13 +22,13 @@
       <div class="absolute inset-0 flex items-end p-8 md:p-12">
         <div class="text-white max-w-4xl">
           <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-sm font-medium mb-6 border border-white/30">
-            Recherche-Phase
+            {{ $t('hero.researchPhase.badge') }}
           </div>
           <h2 class="!text-4xl md:!text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
-            Erste Recherchen & Machbarkeit
+            {{ $t('hero.researchPhase.title') }}
           </h2>
           <p class="!text-lg md:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
-            Nachdem ich den grundlegenden Gedanken gefasst hatte – Spanien könnte wirklich mein neues Zuhause werden – war es an der Zeit, einen echten Plan zu schmieden. Der Traum allein reicht eben nicht.
+            {{ $t('hero.researchPhase.subtitle') }}
           </p>
         </div>
       </div>
