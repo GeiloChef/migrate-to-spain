@@ -4,7 +4,7 @@
     <TimelineHeader class="mb-12" :title="title" :date="date" />
 
     <!-- Content Section -->
-    <div class="max-w-4xl mx-auto py-12 rounded-b-3xl shadow-2xl">
+    <div class="max-w-4xl mx-auto rounded-b-3xl shadow-2xl">
       <slot />
       
       <!-- Navigation -->
