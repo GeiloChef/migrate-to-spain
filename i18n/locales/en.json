@@ -18,6 +18,46 @@
         "title": "The Dream of Spain",
         "date": "Early 2022",
         "description": "Where did the idea come from? Why Spain? First thoughts, wishes, fears.",
+        "intro": {
+          "title": "The Beginning of a Dream",
+          "description": "Every journey begins with a single thought. For me, it was the idea of living in Spain - a country that had always fascinated me with its culture, climate, and way of life."
+        },
+        "sections": {
+          "dream": {
+            "title": "The Dream",
+            "description": "The dream of Spain started with simple thoughts during vacations - watching the sunset, feeling the warm breeze, and wondering what it would be like to call this place home.",
+            "points": [
+              "Warm climate and endless sunshine",
+              "Rich culture and welcoming people",
+              "Beautiful landscapes from beaches to mountains",
+              "Slower, more relaxed pace of life"
+            ]
+          },
+          "whySpain": {
+            "title": "Why Spain?",
+            "description": "Spain offered everything I was looking for in a new home - from practical benefits to emotional connections that made the decision feel right.",
+            "points": [
+              "Excellent healthcare system",
+              "Affordable cost of living compared to other European countries",
+              "Strong infrastructure and modern cities",
+              "Rich history and diverse regions to explore"
+            ]
+          },
+          "fears": {
+            "title": "Fears and Doubts",
+            "description": "Despite the excitement, there were real concerns that needed to be addressed before taking such a life-changing step.",
+            "points": [
+              "Language barriers and communication challenges",
+              "Leaving family and friends behind",
+              "Navigating bureaucracy in a foreign country",
+              "Financial uncertainty and starting over"
+            ]
+          },
+          "conclusion": {
+            "title": "The Decision",
+            "description": "After weighing all the pros and cons, the dream of Spain felt worth pursuing. The fears were real, but the potential rewards seemed even greater."
+          }
+        },
         "preview": {
           "point1": "First thoughts about Spain",
           "point2": "Why this country specifically?",
