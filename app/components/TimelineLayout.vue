@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-spain-cream pb-12">
     <!-- Header Section -->
-    <TimelineHeader class="mb-12" :title="title" :date="date" />
+    <TimelineHeader class="mb-12" />
 
     <!-- Content Section -->
     <div class="max-w-4xl mx-auto rounded-b-3xl shadow-2xl">
@@ -18,14 +18,6 @@
 
 <script setup>
 defineProps({
-  title: {
-    type: String,
-    required: true
-  },
-  date: {
-    type: String,
-    required: true
-  },
   previousStep: {
     type: String,
     required: false

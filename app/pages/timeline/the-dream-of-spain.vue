@@ -1,7 +1,5 @@
 <template>
   <TimelineLayout 
-    :title="$t('story.timeline.step1.title')"
-    :date="$t('story.timeline.step1.date')"
     :next-step="'/timeline/first-research-feasibility'"
   >
     <!-- Hero Section with Full-Size Image -->

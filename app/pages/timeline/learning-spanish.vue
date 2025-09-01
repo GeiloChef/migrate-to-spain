@@ -1,9 +1,6 @@
 <template>
   <TimelineLayout
-    :title="$t('story.timeline.step3.title')"
-    :date="$t('story.timeline.step3.date')"
     :previous-step="'/timeline/first-research-feasibility'"
-    :next-step="'/timeline/spanien-entdecken'"
   >
     <!-- Hero Section -->
     <LearningSpanishHeroSection />
