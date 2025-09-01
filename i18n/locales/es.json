@@ -241,9 +241,79 @@
         }
       },
       "step3": {
-        "title": "Implementación",
-        "date": "Próximamente",
-        "description": "El siguiente paso se agregará pronto"
+        "title": "Primeros Pasos: Aprender Español",
+        "date": "Verano de 2022",
+        "description": "Por qué aprender español es tan importante y cómo lo abordé - desde Duolingo hasta libros y tarjetas de memoria.",
+        "preview": {
+          "point1": "Por qué aprender español es tan importante",
+          "point2": "Mis experiencias con Duolingo y libros",
+          "point3": "Mi sistema de tarjetas de memoria y aprendizaje en línea"
+        },
+        "hero": {
+          "badge": "Aprendizaje de Idiomas",
+          "title": "Sin español no funciona",
+          "subtitle": "A través de la investigación en el paso anterior, aprendí mucho – por ejemplo, que puede ser interesante desde una perspectiva fiscal trabajar en España, o que hay una variedad mucho mayor de alternativas sin gluten allí de lo que habría pensado. Pero una idea era aún más importante: Sin español no funciona."
+        },
+        "sections": {
+          "introduction": {
+            "title": "Por qué aprender español es tan importante",
+            "paragraph1": "Por supuesto, puedes arreglártelas con inglés o incluso alemán en España en algunos lugares. En regiones turísticas clásicas como la Costa Blanca o Mallorca, a menudo hay incluso supermercados o restaurantes alemanes, y en ciudades grandes como Madrid o Barcelona, muchos hablan al menos un poco de inglés.",
+            "paragraph2": "Pero tan pronto como conoces la \"España real\" – ciudades más pequeñas, oficinas, visitas al médico, conversaciones de vecindario – te das cuenta rápidamente de que estás perdido sin español. No quería ser uno de esos \"emigrantes\" que han estado viviendo en España durante años pero aún apenas pueden formar una oración en español. Así que estaba claro para mí: Tengo que aprender español."
+          },
+          "duolingo": {
+            "title": "Mi comienzo con Duolingo",
+            "paragraph1": "Primero, recurrí a Duolingo en ese entonces. Me gustó la idea de \"aprender jugando\": Una lección durante la pausa del café, otra justo antes de dormir – eso era perfecto para integrar en mi vida cotidiana. Incluso tomé la versión premium porque esperaba lograr resultados más rápido con ella.",
+            "paragraph2": "Y sí, al principio funcionó: Podía practicar tanto como quisiera y veía progreso rápido. Pero con el tiempo, noté que algo faltaba. Las lecciones son entretenidas, pero permanecen muy superficiales. Es más como memorización mecánica que comprensión real.",
+            "paragraph3": "No tenía visión general de la gramática, ninguna estructura clara para las conjugaciones verbales, y los pronombres solo se trataban de pasada. Después de 2-3 meses, perdí el interés – y cambié al método clásico: libros, notas, tarjetas de memoria."
+          },
+          "books": {
+            "title": "Mis recomendaciones de libros",
+            "intro": "Aquí están los tres libros que más me ayudaron:",
+            "book1": {
+              "title": "Español – Gramática Conciso y Claro",
+              "author": "por Daniela Wakonigg",
+              "isbn": "ISBN 978-3949604104",
+              "description": "Un libro de principiantes claramente estructurado que comienza desde cero y enseña los conceptos básicos paso a paso. Cada capítulo primero cubre la teoría (por ejemplo, tiempos, pronombres, estructura de oraciones) y luego ofrece ejercicios y listas de vocabulario. Además, hay material en línea para tareas de comprensión auditiva.",
+              "review": "Súper útil para el comienzo inicial en español. El libro te acerca paso a paso a tus primeras oraciones propias. Me gustó particularmente la combinación de teoría, ejercicios y vocabulario – me recuerda mucho a las lecciones de la escuela, solo que más compacto. Con las tareas de comprensión auditiva en línea, también podía entrenar directamente el habla y la comprensión. En general, exactamente lo que necesitas para poder comunicarte un poco en la vida cotidiana."
+            },
+            "book2": {
+              "title": "Historias Españolas para Principiantes: 100 Historias Simples para Aprender Español – con Vocabulario y Ejercicios",
+              "author": "por Christian Stahl",
+              "isbn": "ISBN 978-3949604715",
+              "description": "Este libro consiste en historias cortas y claramente escritas que están específicamente diseñadas para principiantes. Cada historia es lo suficientemente simple para ser entendida sin mucho esfuerzo, y sin embargo constantemente aprendes nuevas palabras y estructuras de oraciones.",
+              "review": "De vez en cuando quería verificar cómo estaban mis habilidades en español – y para eso, el libro es genial. Rápidamente notas que tienes pequeños éxitos, y a través de los archivos de audio puedes entrenar adicionalmente tu comprensión auditiva."
+            },
+            "book3": {
+              "title": "Español – Historias de 5 Minutos A1/A2 con Audio",
+              "author": "PONS",
+              "isbn": "ISBN 978-3125621756",
+              "description": "Este libro ofrece historias cortas y simples que están adaptadas al nivel principiante (A1-A2). Cada historia se puede leer en solo unos minutos y es perfecta para pequeñas unidades de aprendizaje en el medio.",
+              "review": "Para mí, fue una gran manera de hacer pequeños progresos de aprendizaje incluso en la vida cotidiana. El vocabulario marcado hacía la lectura fácil, los mapas mentales me ayudaban a recordar palabras más rápido, y con el audio podía entrenar adicionalmente mi comprensión auditiva. Esto hacía que se sintiera como un \"mini curso de idiomas\" en forma de historias – ligero, motivador y efectivo."
+            }
+          },
+          "flashcards": {
+            "title": "Mi sistema de tarjetas de memoria",
+            "intro": "Para el aprendizaje de vocabulario, me construí una caja de 6 etapas usando el sistema Leitner. En resumen:",
+            "steps": [
+              "El nuevo vocabulario comienza en el compartimento 1 y se repite diariamente.",
+              "Cada vez que las tienes correctas, se mueven un nivel hacia atrás – y aparecen con menos frecuencia.",
+              "El vocabulario incorrecto va de vuelta al frente.",
+              "Después de algunas semanas, las palabras aterrizan en el compartimento 6 – y se consideran \"aprendidas\"."
+            ],
+            "conclusion": "El sistema suena simple, pero es increíblemente efectivo porque no desperdicias tu tiempo con vocabulario que ya conoces de todos modos."
+          },
+          "lingolia": {
+            "title": "Aprendizaje en línea con Lingolia",
+            "paragraph1": "Después de mis libros, también quería algo interactivo. Como antes en la escuela durante las lecciones de inglés, solo que para español. Después de una búsqueda más larga, me encontré con Lingolia.",
+            "paragraph2": "Allí encontrarás textos de teoría completos, muchos ejercicios (algunos gratis, otros detrás de un pequeño muro de pago), y no hay suscripciones molestas. Para mí, el complemento perfecto para consolidar gramática y teoría."
+          },
+          "currentStatus": {
+            "title": "Mi estado actual",
+            "paragraph1": "Realísticamente hablando: Todavía estoy aprendiendo español. Incluso ahora, a mediados/finales de 2025, practico diariamente – solo que ahora en la vida cotidiana. Mientras compro, en conversación con mi novia, con vecinos, o simplemente a través de la televisión española.",
+            "paragraph2": "No aprendes un idioma en unas pocas semanas, sino pieza por pieza. Pero el español es relativamente fácil, y rápidamente tienes experiencias de éxito.",
+            "tip": "Mi consejo para cualquiera que esté pensando en mudarse a España: Encuentra el camino que sea divertido para ti. Ya sea aplicación, libros, tarjetas de memoria o series con subtítulos – lo importante es solo que te mantengas firme. Porque con cada palabra de vocabulario y cada oración, te sientes un poco más en casa en España."
+          }
+        }
       },
       "step4": {
         "title": "Descubriendo España",

@@ -139,10 +139,10 @@
       "step2": {
         "title": "Erste Recherchen & Machbarkeit",
         "date": "Frühjahr 2022",
-        "description": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten. Notizen & grober Plan: „Was müsste ich tun, um wirklich auszuwandern?\"",
+        "description": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten. Notizen & grober Plan: \"Was müsste ich tun, um wirklich auszuwandern?\"",
         "preview": {
           "point1": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten",
-          "point2": "Notizen & grober Plan: „Was müsste ich tun, um wirklich auszuwandern?\"",
+          "point2": "Notizen & grober Plan: \"Was müsste ich tun, um wirklich auszuwandern?\"",
           "point3": "Erste Recherchen zur Machbarkeit"
         },
         "sections": {
@@ -158,7 +158,7 @@
               "title": "Registrierungspflicht ab 3 Monaten",
               "points": [
                 "Wer länger als 3 Monate bleibt, muss sich bei der Ausländerbehörde (Extranjería) registrieren",
-                "Man erhält das sogenannte „Certificado de registro como residente comunitario\"",
+                "Man erhält das sogenannte \"Certificado de registro como residente comunitario\"",
                 "Dazu braucht man Einkommen, Arbeitsvertrag oder Nachweis über ausreichende finanzielle Mittel"
               ]
             },
@@ -262,7 +262,7 @@
           },
           "livingCosts": {
             "title": "Lebenshaltungskosten",
-            "intro": "Jeder, der in Spanien Urlaub macht, sagt erstmal: „Wow, hier ist ja alles so günstig!\" Aber das ist nur die halbe Wahrheit. Ja, eine Tapa für 2,50 € und ein Café con leche für 1,20 € wirken auf uns Deutsche spottbillig. Aber das Gefühl entsteht vor allem, weil wir deutsche Gehälter im Kopf haben.",
+            "intro": "Jeder, der in Spanien Urlaub macht, sagt erstmal: \"Wow, hier ist ja alles so günstig!\" Aber das ist nur die halbe Wahrheit. Ja, eine Tapa für 2,50 € und ein Café con leche für 1,20 € wirken auf uns Deutsche spottbillig. Aber das Gefühl entsteht vor allem, weil wir deutsche Gehälter im Kopf haben.",
             "comparison": "Vergleich Lebenshaltungskosten (2025):"
           },
           "glutenFree": {
@@ -291,9 +291,79 @@
         }
       },
       "step3": {
-        "title": "Umsetzung",
-        "date": "Coming Soon",
-        "description": "Nächster Schritt wird bald hinzugefügt"
+        "title": "Erste Schritte: Spanisch lernen",
+        "date": "Sommer 2022",
+        "description": "Warum Spanisch lernen so wichtig ist und wie ich es angegangen bin - von Duolingo bis zu Büchern und Karteikarten.",
+        "preview": {
+          "point1": "Warum Spanisch lernen so wichtig ist",
+          "point2": "Meine Erfahrungen mit Duolingo und Büchern",
+          "point3": "Mein Karteikarten-System und Online-Lernen"
+        },
+        "hero": {
+          "badge": "Sprachlernen",
+          "title": "Ohne Spanisch geht es nicht",
+          "subtitle": "Durch die Recherche im vorherigen Schritt habe ich viel gelernt – etwa, dass es steuerlich interessant sein kann, in Spanien zu arbeiten, oder dass es dort eine deutlich größere Vielfalt an glutenfreien Alternativen gibt als ich gedacht hätte. Aber eine Erkenntnis war noch wichtiger: Ohne Spanisch geht es nicht."
+        },
+        "sections": {
+          "introduction": {
+            "title": "Warum Spanisch lernen so wichtig ist",
+            "paragraph1": "Natürlich kommt man mit Englisch oder sogar Deutsch in Spanien stellenweise durch. In klassischen Touristenregionen wie an der Costa Blanca oder auf Mallorca gibt es oft sogar deutsche Supermärkte oder Restaurants, und in großen Städten wie Madrid oder Barcelona sprechen viele zumindest ein wenig Englisch.",
+            "paragraph2": "Aber sobald man das \"echte Spanien\" kennenlernt – kleinere Städte, Ämter, Arztbesuche, Nachbarschaftsgespräche – merkt man schnell, dass man ohne Spanisch verloren ist. Ich wollte nicht zu den \"Auswanderern\" gehören, die seit Jahren in Spanien leben, aber noch immer kaum einen Satz Spanisch zustande bringen. Also stand für mich fest: Ich muss Spanisch lernen."
+          },
+          "duolingo": {
+            "title": "Mein Start mit Duolingo",
+            "paragraph1": "Als erstes habe ich damals zu Duolingo gegriffen. Mir gefiel die Idee, \"spielend zu lernen\": Eine Lektion in der Kaffeepause, eine weitere kurz vorm Einschlafen – das war perfekt in meinen Alltag einzubauen. Ich habe sogar die Premium-Version genommen, weil ich hoffte, damit schneller Ergebnisse zu erzielen.",
+            "paragraph2": "Und ja, am Anfang funktionierte das auch: ich konnte üben, so viel ich wollte, und sah schnelle Fortschritte. Doch mit der Zeit merkte ich, dass mir etwas fehlte. Die Lektionen sind zwar unterhaltsam, aber sie bleiben sehr oberflächlich. Es ist eher stupides Auswendiglernen als wirkliches Verstehen.",
+            "paragraph3": "Ich hatte keine Übersicht über die Grammatik, keine klare Struktur für die Verbkonjugationen, und auch die Pronomen wurden nur beiläufig behandelt. Nach 2–3 Monaten verlor ich die Lust – und wechselte auf die klassische Methode: Bücher, Notizen, Karteikarten."
+          },
+          "books": {
+            "title": "Meine Bücher-Empfehlungen",
+            "intro": "Hier sind die drei Bücher, die mir am meisten geholfen haben:",
+            "book1": {
+              "title": "Spanisch – Grammatik kurz & bündig",
+              "author": "von Daniela Wakonigg",
+              "isbn": "ISBN 978-3949604104",
+              "description": "Ein klar strukturiertes Einsteigerbuch, das bei null anfängt und Schritt für Schritt die Grundlagen vermittelt. Jedes Kapitel behandelt zunächst die Theorie (z. B. Zeiten, Pronomen, Satzbau) und bietet anschließend Übungen sowie Vokabellisten. Zusätzlich gibt es Online-Material für Hörverständnis-Aufgaben.",
+              "review": "Super hilfreich für den initialen Start in die spanische Sprache. Das Buch bringt einen Stück für Stück näher zu den ersten eigenen Sätzen. Besonders positiv fand ich die Kombination aus Theorie, Übungen und Vokabeln – es erinnert stark an den Unterricht in der Schule, nur eben kompakter. Mit den Online-Hörverstehensaufgaben konnte ich außerdem direkt das Sprechen und Verstehen trainieren. Alles in allem genau das, was man braucht, um sich im Alltag schon mal ein wenig verständigen zu können."
+            },
+            "book2": {
+              "title": "Spanische Geschichten für Anfänger: 100 einfache Geschichten zum Spanisch Lernen – mit Vokabeln und Übungen",
+              "author": "von Christian Stahl",
+              "isbn": "ISBN 978-3949604715",
+              "description": "Dieses Buch besteht aus kurzen, klar geschriebenen Geschichten, die speziell für Anfänger gedacht sind. Jede Geschichte ist einfach genug, um ohne große Mühe verstanden zu werden, und trotzdem lernt man ständig neue Wörter und Satzstrukturen.",
+              "review": "Hin und wieder wollte ich überprüfen, wie es denn um meine Spanischkenntnisse steht – und dafür ist das Buch klasse. Man merkt schnell, dass man kleine Erfolge hat, und durch die Audiodateien kann man zusätzlich das Hörverstehen trainieren."
+            },
+            "book3": {
+              "title": "Spanisch – 5-Minuten-Geschichten A1/A2 mit Audios",
+              "author": "PONS",
+              "isbn": "ISBN 978-3125621756",
+              "description": "Dieses Buch bietet kurze, einfache Geschichten, die auf Anfänger-Niveau (A1–A2) zugeschnitten sind. Jede Geschichte lässt sich in nur wenigen Minuten lesen und eignet sich perfekt für kleine Lerneinheiten zwischendurch.",
+              "review": "Für mich war es eine tolle Möglichkeit, auch im Alltag kleine Lernfortschritte zu machen. Die markierten Vokabeln machten das Lesen einfach, die Mindmaps halfen mir, Wörter schneller im Gedächtnis zu behalten, und mit den Audios konnte ich zusätzlich mein Hörverstehen trainieren. Dadurch fühlte es sich an wie ein \"Mini-Sprachkurs\" in Form von Geschichten – leicht, motivierend und effektiv."
+            }
+          },
+          "flashcards": {
+            "title": "Mein Karteikarten-System",
+            "intro": "Für das Vokabellernen habe ich mir selbst eine 6-stufige Box nach dem Leitner-System gebaut. Kurz gesagt:",
+            "steps": [
+              "Neue Vokabeln starten in Fach 1 und werden täglich wiederholt.",
+              "Jedes Mal, wenn man sie richtig kann, wandern sie eine Stufe nach hinten – und kommen seltener dran.",
+              "Fehlerhafte Vokabeln gehen wieder ganz nach vorne.",
+              "Nach einigen Wochen landen die Wörter in Fach 6 – und gelten als \"gelernt\"."
+            ],
+            "conclusion": "Das System klingt simpel, ist aber unglaublich effektiv, weil man seine Zeit nicht mit Vokabeln verschwendet, die man ohnehin schon kann."
+          },
+          "lingolia": {
+            "title": "Online-Lernen mit Lingolia",
+            "paragraph1": "Nach meinen Büchern wollte ich zusätzlich etwas Interaktives. So wie früher in der Schule beim Englischunterricht, nur eben für Spanisch. Nach längerer Suche bin ich auf Lingolia gestoßen.",
+            "paragraph2": "Dort gibt es ausführliche Theorietexte, viele Übungen (einige gratis, andere hinter einer kleinen Bezahlschranke), und keine nervigen Abos. Für mich die perfekte Ergänzung, um Grammatik und Theorie zu festigen."
+          },
+          "currentStatus": {
+            "title": "Mein heutiger Stand",
+            "paragraph1": "Realistisch betrachtet: Ich lerne immer noch Spanisch. Auch jetzt, Mitte/Ende 2025, übe ich täglich – nur inzwischen eben im Alltag. Beim Einkaufen, im Gespräch mit meiner Freundin, mit Nachbarn oder einfach durch spanisches Fernsehen.",
+            "paragraph2": "Eine Sprache lernt man nicht in ein paar Wochen, sondern Stück für Stück. Aber Spanisch ist vergleichsweise einfach, und man hat schnell Erfolgserlebnisse.",
+            "tip": "Mein Tipp für jeden, der mit dem Gedanken spielt, nach Spanien zu ziehen: Finde den Weg, der dir Spaß macht. Ob App, Bücher, Karteikarten oder Serien mit Untertiteln – wichtig ist nur, dass du dranbleibst. Denn mit jeder Vokabel und jedem Satz fühlt man sich ein Stück mehr zuhause in Spanien."
+          }
+        }
       },
       "step4": {
         "title": "Spanien entdecken",
