@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden bg-gradient-to-br from-gray-50 to-blue-50 py-20">
+  <div class="relative overflow-hidden bg-gradient-to-br from-blue-100 to-indigo-200 py-20">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-5">
       <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25% 25%, #6b7280 2px, transparent 2px), radial-gradient(circle at 75% 75%, #3b82f6 2px, transparent 2px); background-size: 60px 60px;"></div>

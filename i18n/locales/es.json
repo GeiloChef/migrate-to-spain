@@ -262,7 +262,7 @@
           },
           "books": {
             "title": "Mis recomendaciones de libros",
-            "intro": "Aquí están los tres libros que más me ayudaron:",
+            "intro": "Después de mi experiencia con Duolingo, descubrí que el aprendizaje tradicional con libros era más fácil para mí. Las explicaciones estructuradas de la gramática me ayudaron a internalizar mejor las reglas y construir una base sólida. Especialmente los elementos visuales en los libros – ya sea a través de tablas, diagramas o marcaciones de colores – me ayudaron a recordar las reglas más fácilmente. Basándome en mi experiencia de aprendizaje, puedo por tanto recomendar los siguientes libros:",
             "book1": {
               "title": "Español – Gramática Conciso y Claro",
               "author": "por Daniela Wakonigg",
@@ -287,7 +287,7 @@
           },
           "flashcards": {
             "title": "Mi sistema de tarjetas de memoria",
-            "intro": "Para el aprendizaje de vocabulario, me construí una caja de 6 etapas usando el sistema Leitner. En resumen:",
+            "intro": "Para el aprendizaje de vocabulario, me construí una caja de 6 etapas usando el sistema Leitner. Escribir las palabras de vocabulario en tarjetas de memoria me ayudó tremendamente a memorizarlas mejor. A través del acto físico de escribirlas, las palabras se graban mucho más profundamente que solo leyendo. Además, el sistema me ayudó a mantenerme en el camino – siempre tenía una estructura clara y sabía exactamente qué vocabulario tenía que repetir en qué día. Esto me ayudó a mantenerme continuamente comprometido y rastrear mi progreso de aprendizaje. En resumen:",
             "systemTitle": "El sistema de caja de tarjetas funciona así:",
             "systemDescription": "Tienes una caja con 6 compartimentos. El nuevo vocabulario siempre comienza en el primer compartimento. Cuando sabes una palabra de vocabulario durante la prueba, se mueve un compartimento más hacia atrás. Si no la sabes, vuelve al frente en el primer compartimento. Cuanto más atrás esté el vocabulario, menos veces se prueba. De esta manera repites vocabulario difícil a menudo y vocabulario fácil solo raramente – hasta que finalmente aterrizan en el último compartimento y se consideran \"casi aprendidas\".",
             "sixStageSystem": "El Sistema de 6 Etapas",

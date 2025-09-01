@@ -346,7 +346,7 @@
           },
           "books": {
             "title": "My book recommendations",
-            "intro": "Here are the three books that helped me the most:",
+            "intro": "After my experience with Duolingo, I found that traditional learning with books was easiest for me. The structured explanations of grammar helped me internalize the rules better and build a solid foundation. Especially the visual elements in books – whether through tables, diagrams, or colored markings – helped me remember the rules more easily. Based on my learning experience, I can therefore recommend the following books:",
             "book1": {
               "title": "Spanish – Grammar Concise & Clear",
               "author": "by Daniela Wakonigg",
@@ -371,7 +371,7 @@
           },
           "flashcards": {
             "title": "My flashcard system",
-            "intro": "For vocabulary learning, I built myself a 6-stage box using the Leitner system. In short:",
+            "intro": "For vocabulary learning, I built myself a 6-stage box using the Leitner system. Writing the vocabulary words on flashcards helped me tremendously in memorizing them better. Through the physical act of writing them down, the words become much more deeply ingrained than through mere reading. Additionally, the system helped me stay on track – I always had a clear structure and knew exactly which vocabulary I had to repeat on which day. This helped me stay continuously engaged and track my learning progress. In short:",
             "systemTitle": "The flashcard box system works like this:",
             "systemDescription": "You have a box with 6 compartments. New vocabulary always starts in the first compartment. When you know a vocabulary word during testing, it moves one compartment further back. If you don't know it, it goes back to the very front in the first compartment. The further back the vocabulary is, the less often it gets tested. This way you repeat difficult vocabulary often and easy vocabulary only rarely – until they finally land in the last compartment and are considered \"almost learned\".",
             "sixStageSystem": "The 6-Stage System",
