@@ -109,50 +109,30 @@
               <!-- Step Cards -->
               <div class="space-y-3">
                 <!-- Step 1 -->
-                <div class="bg-gray-50 rounded-lg p-4 border border-gray-100 group">
-                  <div class="flex items-start gap-3">
-                    <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                      1
-                    </div>
-                    <div class="flex-1">
-                      <p class="text-gray-700 leading-relaxed text-sm group-hover:text-gray-900 transition-colors duration-300">{{ $t('story.timeline.step3.sections.flashcards.step1') }}</p>
-                    </div>
+                <div class="bg-gray-50 rounded-lg p-3 border border-gray-100 group">
+                  <div class="flex-1">
+                    <p class="text-gray-700 leading-relaxed text-sm group-hover:text-gray-900 transition-colors duration-300">{{ $t('story.timeline.step3.sections.flashcards.step1') }}</p>
                   </div>
                 </div>
                 
                 <!-- Step 2 -->
-                <div class="bg-gray-50 rounded-lg p-4 border border-gray-100 group">
-                  <div class="flex items-start gap-3">
-                    <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                      2
-                    </div>
-                    <div class="flex-1">
-                      <p class="text-gray-700 leading-relaxed text-sm group-hover:text-gray-900 transition-colors duration-300">{{ $t('story.timeline.step3.sections.flashcards.step2') }}</p>
-                    </div>
+                <div class="bg-gray-50 rounded-lg p-3 border border-gray-100 group">
+                  <div class="flex-1">
+                    <p class="text-gray-700 leading-relaxed text-sm group-hover:text-gray-900 transition-colors duration-300">{{ $t('story.timeline.step3.sections.flashcards.step2') }}</p>
                   </div>
                 </div>
                 
                 <!-- Step 3 -->
-                <div class="bg-gray-50 rounded-lg p-4 border border-gray-100 group">
-                  <div class="flex items-start gap-3">
-                    <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                      3
-                    </div>
-                    <div class="flex-1">
-                      <p class="text-gray-700 leading-relaxed text-sm group-hover:text-gray-900 transition-colors duration-300">{{ $t('story.timeline.step3.sections.flashcards.step3') }}</p>
-                    </div>
+                <div class="bg-gray-50 rounded-lg p-3 border border-gray-100 group">
+                  <div class="flex-1">
+                    <p class="text-gray-700 leading-relaxed text-sm group-hover:text-gray-900 transition-colors duration-300">{{ $t('story.timeline.step3.sections.flashcards.step3') }}</p>
                   </div>
                 </div>
                 
                 <!-- Step 4 -->
-                <div class="bg-gray-50 rounded-lg p-4 border border-gray-100 group">
-                  <div class="flex items-start gap-3">
-                    <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-sm font-bold flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                      4
-                    </div>
-                    <div class="flex-1">
-                      <p class="text-gray-700 leading-relaxed text-sm group-hover:text-gray-900 transition-colors duration-300">{{ $t('story.timeline.step3.sections.flashcards.step4') }}</p>
-                    </div>
+                <div class="bg-gray-50 rounded-lg p-3 border border-gray-100 group">
+                  <div class="flex-1">
+                    <p class="text-gray-700 leading-relaxed text-sm group-hover:text-gray-900 transition-colors duration-300">{{ $t('story.timeline.step3.sections.flashcards.step4') }}</p>
                   </div>
                 </div>
               </div>
@@ -161,7 +141,7 @@
               <div class="mt-8 pt-6 border-t border-gray-200">
                 <h4 class="!text-lg font-semibold text-gray-800 text-center mb-4">{{ $t('story.timeline.step3.sections.flashcards.whyItWorks') }}</h4>
                 <div class="bg-green-50 rounded-lg p-4 border border-green-100">
-                  <div class="flex items-start gap-3">
+                  <div class="flex items-center gap-3">
                     <div class="w-8 h-8 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white text-sm flex-shrink-0">
                       <Icon name="heroicons:light-bulb" class="w-4 h-4" />
                     </div>
