@@ -1,6 +1,6 @@
 <template>
   <TimelineLayout
-    :previous-step="'/timeline/first-research-feasibility'"
+  :previous-step="'/timeline/first-research-feasibility'"
   >
     <!-- Hero Section -->
     <LearningSpanishHeroSection />

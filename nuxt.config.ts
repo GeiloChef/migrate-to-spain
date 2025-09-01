@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxtjs/i18n'
   ],
-  css: ['~/app/assets/css/main.css'],
+  css: ['~/app/assets/css/main.css', 'flag-icons/css/flag-icons.min.css'],
   
   // Enable auto-imports for components
   components: {

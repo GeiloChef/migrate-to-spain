@@ -1,69 +1,108 @@
 <template>
-  <div class="flex space-x-2">
+  <div class="flex space-x-1.5">
     <!-- German -->
     <button 
       @click="setLanguage('de')" 
       :class="[
-        'relative px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 overflow-hidden group',
+        'relative w-9 h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer',
         currentLocale === 'de' 
-          ? 'bg-spain-yellow text-gray-900 shadow-lg scale-105 ring-2 ring-spain-yellow/50' 
-          : 'bg-gray-100 text-gray-700 hover:bg-spain-yellow/20 hover:scale-105'
+          ? 'ring-2 ring-spain-yellow/50 shadow-lg scale-105' 
+          : 'hover:scale-105'
       ]"
     >
       <!-- Flag Background -->
       <div 
-        class="absolute inset-0 transition-opacity duration-300"
-        :class="currentLocale === 'de' ? 'opacity-40' : 'opacity-25 group-hover:opacity-35'"
+        class="w-full h-full transition-opacity duration-300"
+        :class="currentLocale === 'de' ? 'opacity-100' : 'opacity-50 group-hover:opacity-70'"
       >
-        <div class="w-full h-full bg-gradient-to-b from-black via-red-600 to-yellow-400"></div>
+        <span class="fi fi-de w-full h-full block"></span>
       </div>
       
-      <!-- Text -->
-      <span class="relative z-10">DE</span>
+      <!-- Language Abbreviation -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <span 
+          class="text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
+          :class="currentLocale === 'de' ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'"
+        >
+          DE
+        </span>
+      </div>
+      
+      <!-- Selection Indicator -->
+      <div 
+        v-if="currentLocale === 'de'"
+        class="absolute top-0.5 right-0.5 w-1 h-1 bg-spain-yellow rounded-full shadow-sm"
+      ></div>
     </button>
 
     <!-- English -->
     <button 
       @click="setLanguage('en')" 
       :class="[
-        'relative px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 overflow-hidden group',
+        'relative w-9 h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer',
         currentLocale === 'en' 
-          ? 'bg-spain-yellow text-gray-900 shadow-lg scale-105 ring-2 ring-spain-yellow/50' 
-          : 'bg-gray-100 text-gray-700 hover:bg-spain-yellow/20 hover:scale-105'
+          ? 'ring-2 ring-spain-yellow/50 shadow-lg scale-105' 
+          : 'hover:scale-105'
       ]"
     >
       <!-- Flag Background -->
       <div 
-        class="absolute inset-0 transition-opacity duration-300"
-        :class="currentLocale === 'en' ? 'opacity-40' : 'opacity-25 group-hover:opacity-35'"
+        class="w-full h-full transition-opacity duration-300"
+        :class="currentLocale === 'en' ? 'opacity-100' : 'opacity-50 group-hover:opacity-70'"
       >
-        <div class="w-full h-full bg-gradient-to-b from-blue-600 via-white to-red-600"></div>
+        <span class="fi fi-gb w-full h-full block"></span>
       </div>
       
-      <!-- Text -->
-      <span class="relative z-10">EN</span>
+      <!-- Language Abbreviation -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <span 
+          class="text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
+          :class="currentLocale === 'en' ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'"
+        >
+          EN
+        </span>
+      </div>
+      
+      <!-- Selection Indicator -->
+      <div 
+        v-if="currentLocale === 'en'"
+        class="absolute top-0.5 right-0.5 w-1 h-1 bg-spain-yellow rounded-full shadow-sm"
+      ></div>
     </button>
 
     <!-- Spanish -->
     <button 
       @click="setLanguage('es')" 
       :class="[
-        'relative px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 overflow-hidden group',
+        'relative w-9 h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer',
         currentLocale === 'es' 
-          ? 'bg-spain-yellow text-gray-900 shadow-lg scale-105 ring-2 ring-spain-yellow/50' 
-          : 'bg-gray-100 text-gray-700 hover:bg-spain-yellow/20 hover:scale-105'
+          ? 'ring-2 ring-spain-yellow/50 shadow-lg scale-105' 
+          : 'hover:scale-105'
       ]"
     >
       <!-- Flag Background -->
       <div 
-        class="absolute inset-0 transition-opacity duration-300"
-        :class="currentLocale === 'es' ? 'opacity-40' : 'opacity-25 group-hover:opacity-35'"
+        class="w-full h-full transition-opacity duration-300"
+        :class="currentLocale === 'es' ? 'opacity-100' : 'opacity-50 group-hover:opacity-70'"
       >
-        <div class="w-full h-full bg-gradient-to-b from-red-600 via-yellow-400 to-red-600"></div>
+        <span class="fi fi-es w-full h-full block"></span>
       </div>
       
-      <!-- Text -->
-      <span class="relative z-10">ES</span>
+      <!-- Language Abbreviation -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <span 
+          class="text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
+          :class="currentLocale === 'es' ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'"
+        >
+          ES
+        </span>
+      </div>
+      
+      <!-- Selection Indicator -->
+      <div 
+        v-if="currentLocale === 'es'"
+        class="absolute top-0.5 right-0.5 w-1 h-1 bg-spain-yellow rounded-full shadow-sm"
+      ></div>
     </button>
   </div>
 </template>
@@ -100,16 +139,37 @@ const setLanguage = (language) => {
 </script>
 
 <style scoped>
-/* Custom flag gradients for better representation */
-.bg-gradient-to-b.from-black.via-red-600.to-yellow-400 {
-  background: linear-gradient(to bottom, #000000 0%, #dc2626 50%, #fbbf24 100%);
+/* Ensure flags are properly sized and positioned */
+.fi {
+  width: 100% !important;
+  height: 100% !important;
+  background-size: cover !important;
+  background-position: center !important;
+  display: block !important;
 }
 
-.bg-gradient-to-b.from-blue-600.via-white.to-red-600 {
-  background: linear-gradient(to bottom, #2563eb 0%, #ffffff 50%, #dc2626 100%);
+/* Remove any default margins/padding from flag icons */
+.fi::before {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.bg-gradient-to-b.from-red-600.via-yellow-400.to-red-600 {
-  background: linear-gradient(to bottom, #dc2626 0%, #fbbf24 50%, #dc2626 100%);
+/* Override any default background colors */
+.fi {
+  background-color: transparent !important;
+}
+
+/* Force flag icons to fill the entire container */
+.fi {
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.fi::before {
+  font-size: 1.5rem !important;
+  line-height: 1 !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
 }
 </style>

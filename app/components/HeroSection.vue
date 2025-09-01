@@ -11,6 +11,11 @@
       <div class="absolute inset-0 bg-spain-navy/60"></div>
     </div>
     
+    <!-- Language Switcher - Top Right -->
+    <div class="absolute top-6 right-6 z-20">
+      <LanguageSwitcher />
+    </div>
+    
     <!-- Animated Content -->
     <div class="relative z-10 text-center text-white px-12 md:px-20 lg:px-32 max-w-6xl mx-auto">
       <h1 class="!text-6xl md:!text-7xl lg:!text-8xl font-black !mb-16 animate-fade-in-up tracking-tight">
