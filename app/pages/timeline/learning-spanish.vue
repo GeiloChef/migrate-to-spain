@@ -25,6 +25,9 @@
       <!-- Lingolia Section -->
       <LearningSpanishLingoliaSection />
 
+      <!-- Speaking Section -->
+      <LearningSpanishSpeakingSection />
+
       <!-- Current Status Section -->
       <LearningSpanishCurrentStatusSection />
     </div>
