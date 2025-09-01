@@ -48,9 +48,17 @@
           <h4 class="font-bold text-gray-900 text-xl">{{ $t('story.timeline.step2.sections.residenceRights.registration.title') }}</h4>
         </div>
         <ul class="space-y-3 text-gray-700">
-          <li class="flex items-start gap-3" v-for="(point, index) in displayPoints" :key="index">
+          <li class="flex items-start gap-3">
             <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-            <span>{{ point }}</span>
+            <span>{{ $t('story.timeline.step2.sections.residenceRights.registration.point1') }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+            <span>{{ $t('story.timeline.step2.sections.residenceRights.registration.point2') }}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+            <span>{{ $t('story.timeline.step2.sections.residenceRights.registration.point3') }}</span>
           </li>
         </ul>
       </div>
@@ -101,26 +109,5 @@ import { useI18n } from 'vue-i18n'
 
 const { t, locale } = useI18n()
 
-const registrationPoints = computed(() => {
-  try {
-    const points = t('story.timeline.step2.sections.residenceRights.registration.points')
-    console.log('Current locale:', locale.value)
-    console.log('Points from i18n:', points)
-    return Array.isArray(points) ? points : []
-  } catch (error) {
-    console.error('Error getting registration points:', error)
-    return []
-  }
-})
-
-// Fallback points in case i18n fails
-const fallbackPoints = [
-  "Wer länger als 3 Monate bleibt, muss sich bei der Ausländerbehörde (Extranjería) registrieren",
-  "Man erhält das sogenannte „Certificado de registro como residente comunitario\"",
-  "Dazu braucht man Einkommen, Arbeitsvertrag oder Nachweis über ausreichende finanzielle Mittel"
-]
-
-const displayPoints = computed(() => {
-  return registrationPoints.value.length > 0 ? registrationPoints.value : fallbackPoints
-})
+// No computed properties needed - using direct $t() calls in template
 </script>

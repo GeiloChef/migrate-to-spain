@@ -106,11 +106,9 @@
             },
             "registration": {
               "title": "Requisito de Registro desde 3 Meses",
-              "points": [
-                "Cualquiera que se quede más de 3 meses debe registrarse en la oficina de inmigración (Extranjería)",
-                "Recibes el llamado \"Certificado de registro como residente comunitario\"",
-                "Para esto necesitas ingresos, contrato de empleo o prueba de medios financieros suficientes"
-              ]
+              "point1": "Cualquiera que se quede más de 3 meses debe registrarse en la oficina de inmigración (Extranjería)",
+              "point2": "Recibes el llamado \"Certificado de registro como residente comunitario\"",
+              "point3": "Para esto necesitas ingresos, contrato de empleo o prueba de medios financieros suficientes"
             },
             "taxRule": {
               "title": "La Regla de 183 Días",
@@ -131,21 +129,17 @@
             "options": {
               "remote": {
                 "title": "Opción 1: Trabajo Remoto desde Alemania",
-                "points": [
-                  "Nivel salarial alemán más alto",
-                  "Seguridad porque te quedas con el empleador alemán",
-                  "El sistema de seguridad social permanece igual",
-                  "Flexibilidad: puedes viajar sin cambiar inmediatamente todos los sistemas en España"
-                ],
+                "point1": "Nivel salarial alemán más alto",
+                "point2": "Seguridad porque te quedas con el empleador alemán",
+                "point3": "El sistema de seguridad social permanece igual",
+                "point4": "Flexibilidad: puedes viajar sin cambiar inmediatamente todos los sistemas en España",
                 "warning": "Regla de 183 días → tan pronto como me quede demasiado tiempo en España, se vuelve fiscalmente complicado"
               },
               "spain": {
                 "title": "Opción 2: Trabajar directamente en España",
-                "points": [
-                  "Más fácil integrarse en el lugar",
-                  "Fiscalmente más simple (un país, un sistema)",
-                  "Redes locales y oportunidades de trabajo"
-                ],
+                "point1": "Más fácil integrarse en el lugar",
+                "point2": "Fiscalmente más simple (un país, un sistema)",
+                "point3": "Redes locales y oportunidades de trabajo",
                 "disadvantage": "Los salarios en España están en promedio significativamente más bajos que los alemanes. 2025: España ~28.000€ vs. Alemania ~46.000€"
               }
             },
@@ -294,12 +288,45 @@
           "flashcards": {
             "title": "Mi sistema de tarjetas de memoria",
             "intro": "Para el aprendizaje de vocabulario, me construí una caja de 6 etapas usando el sistema Leitner. En resumen:",
-            "steps": [
-              "El nuevo vocabulario comienza en el compartimento 1 y se repite diariamente.",
-              "Cada vez que las tienes correctas, se mueven un nivel hacia atrás – y aparecen con menos frecuencia.",
-              "El vocabulario incorrecto va de vuelta al frente.",
-              "Después de algunas semanas, las palabras aterrizan en el compartimento 6 – y se consideran \"aprendidas\"."
-            ],
+            "systemTitle": "El sistema de caja de tarjetas funciona así:",
+            "systemDescription": "Tienes una caja con 6 compartimentos. El nuevo vocabulario siempre comienza en el primer compartimento. Cuando sabes una palabra de vocabulario durante la prueba, se mueve un compartimento más hacia atrás. Si no la sabes, vuelve al frente en el primer compartimento. Cuanto más atrás esté el vocabulario, menos veces se prueba. De esta manera repites vocabulario difícil a menudo y vocabulario fácil solo raramente – hasta que finalmente aterrizan en el último compartimento y se consideran \"casi aprendidas\".",
+            "sixStageSystem": "El Sistema de 6 Etapas",
+            "howItWorks": "¿Cómo funciona?",
+            "whyItWorks": "¿Por qué funciona?",
+            "stage1": {
+              "label": "Etapa 1",
+              "frequency": "Diariamente",
+              "description": "El nuevo vocabulario se repite diariamente"
+            },
+            "stage2": {
+              "label": "Etapa 2",
+              "frequency": "Cada 2 días",
+              "description": "Los primeros éxitos aparecen con menos frecuencia"
+            },
+            "stage3": {
+              "label": "Etapa 3",
+              "frequency": "Semanalmente",
+              "description": "Consolidación a través de repetición semanal"
+            },
+            "stage4": {
+              "label": "Etapa 4",
+              "frequency": "Cada 2 semanas",
+              "description": "Profundización a través de repetición rara"
+            },
+            "stage5": {
+              "label": "Etapa 5",
+              "frequency": "Mensualmente",
+              "description": "Repetición a través de control mensual"
+            },
+            "stage6": {
+              "label": "Etapa 6",
+              "frequency": "Cada 2-3 meses",
+              "description": "Control raro - ¡la palabra está firmemente establecida!"
+            },
+            "step1": "El nuevo vocabulario comienza en el compartimento 1 y se repite diariamente.",
+            "step2": "Cada vez que las tienes correctas, se mueven un nivel hacia atrás – y aparecen con menos frecuencia.",
+            "step3": "El vocabulario incorrecto va de vuelta al frente.",
+            "step4": "Después de algunas semanas, las palabras aterrizan en el compartimento 6 – y se consideran \"aprendidas\".",
             "conclusion": "El sistema suena simple, pero es increíblemente efectivo porque no desperdicias tu tiempo con vocabulario que ya conoces de todos modos."
           },
           "lingolia": {

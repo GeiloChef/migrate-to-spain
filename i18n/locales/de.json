@@ -156,11 +156,9 @@
             },
             "registration": {
               "title": "Registrierungspflicht ab 3 Monaten",
-              "points": [
-                "Wer länger als 3 Monate bleibt, muss sich bei der Ausländerbehörde (Extranjería) registrieren",
-                "Man erhält das sogenannte \"Certificado de registro como residente comunitario\"",
-                "Dazu braucht man Einkommen, Arbeitsvertrag oder Nachweis über ausreichende finanzielle Mittel"
-              ]
+              "point1": "Wer länger als 3 Monate bleibt, muss sich bei der Ausländerbehörde (Extranjería) registrieren",
+              "point2": "Man erhält das sogenannte \"Certificado de registro como residente comunitario\"",
+              "point3": "Dazu braucht man Einkommen, Arbeitsvertrag oder Nachweis über ausreichende finanzielle Mittel"
             },
             "taxRule": {
               "title": "Die 183-Tage-Regel",
@@ -181,21 +179,17 @@
             "options": {
               "remote": {
                 "title": "Option 1: Remote Work aus Deutschland",
-                "points": [
-                  "Höheres deutsches Gehaltsniveau",
-                  "Sicherheit, weil man beim deutschen Arbeitgeber bleibt",
-                  "Sozialversicherungssystem bleibt gleich",
-                  "Flexibilität: man kann reisen, ohne sofort in Spanien alle Systeme umzustellen"
-                ],
+                "point1": "Höheres deutsches Gehaltsniveau",
+                "point2": "Sicherheit, weil man beim deutschen Arbeitgeber bleibt",
+                "point3": "Sozialversicherungssystem bleibt gleich",
+                "point4": "Flexibilität: man kann reisen, ohne sofort in Spanien alle Systeme umzustellen",
                 "warning": "183-Tage-Regel → sobald ich zu lange in Spanien bleibe, wird es steuerlich kompliziert"
               },
               "spain": {
                 "title": "Option 2: Arbeiten direkt in Spanien",
-                "points": [
-                  "Leichter, sich vor Ort zu integrieren",
-                  "Steuerlich einfacher (ein Land, ein System)",
-                  "Lokale Netzwerke und Jobmöglichkeiten"
-                ],
+                "point1": "Leichter, sich vor Ort zu integrieren",
+                "point2": "Steuerlich einfacher (ein Land, ein System)",
+                "point3": "Lokale Netzwerke und Jobmöglichkeiten",
                 "disadvantage": "Gehälter in Spanien liegen im Schnitt deutlich unter deutschen. 2025: Spanien ~28.000€ vs. Deutschland ~46.000€"
               }
             },
@@ -344,12 +338,45 @@
           "flashcards": {
             "title": "Mein Karteikarten-System",
             "intro": "Für das Vokabellernen habe ich mir selbst eine 6-stufige Box nach dem Leitner-System gebaut. Kurz gesagt:",
-            "steps": [
-              "Neue Vokabeln starten in Fach 1 und werden täglich wiederholt.",
-              "Jedes Mal, wenn man sie richtig kann, wandern sie eine Stufe nach hinten – und kommen seltener dran.",
-              "Fehlerhafte Vokabeln gehen wieder ganz nach vorne.",
-              "Nach einigen Wochen landen die Wörter in Fach 6 – und gelten als \"gelernt\"."
-            ],
+            "systemTitle": "Das Karteikasten-System funktioniert so:",
+            "systemDescription": "Man hat eine Box mit 6 Fächern. Neue Vokabeln beginnen immer im ersten Fach. Wenn man eine Vokabel beim Abfragen richtig weiß, rückt sie ein Fach weiter nach hinten. Weiß man sie nicht, kommt sie wieder ganz nach vorne ins erste Fach. Je weiter hinten die Vokabel liegt, desto seltener wird sie abgefragt. Auf diese Weise wiederholt man schwierige Vokabeln oft und leichte Vokabeln nur noch selten – bis sie schließlich im letzten Fach landen und als \"fast gelernt\" gelten.",
+            "sixStageSystem": "Das 6-Stufen-System",
+            "howItWorks": "Wie funktioniert es?",
+            "whyItWorks": "Warum funktioniert es?",
+            "stage1": {
+              "label": "Stufe 1",
+              "frequency": "Täglich",
+              "description": "Neue Vokabeln werden täglich wiederholt"
+            },
+            "stage2": {
+              "label": "Stufe 2",
+              "frequency": "Alle 2 Tage",
+              "description": "Erste Erfolge kommen seltener dran"
+            },
+            "stage3": {
+              "label": "Stufe 3",
+              "frequency": "Wöchentlich",
+              "description": "Festigung durch wöchentliche Wiederholung"
+            },
+            "stage4": {
+              "label": "Stufe 4",
+              "frequency": "Alle 2 Wochen",
+              "description": "Vertiefung durch seltene Wiederholung"
+            },
+            "stage5": {
+              "label": "Stufe 5",
+              "frequency": "Monatlich",
+              "description": "Wiederholung durch monatliche Kontrolle"
+            },
+            "stage6": {
+              "label": "Stufe 6",
+              "frequency": "Alle 2-3 Monate",
+              "description": "Seltene Kontrolle - das Wort sitzt fest!"
+            },
+            "step1": "Neue Vokabeln starten in Fach 1 und werden täglich wiederholt.",
+            "step2": "Jedes Mal, wenn man sie richtig kann, wandern sie eine Stufe nach hinten – und kommen seltener dran.",
+            "step3": "Fehlerhafte Vokabeln gehen wieder ganz nach vorne.",
+            "step4": "Nach einigen Wochen landen die Wörter in Fach 6 – und gelten als \"gelernt\".",
             "conclusion": "Das System klingt simpel, ist aber unglaublich effektiv, weil man seine Zeit nicht mit Vokabeln verschwendet, die man ohnehin schon kann."
           },
           "lingolia": {

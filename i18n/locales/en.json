@@ -81,32 +81,26 @@
           "dream": {
             "title": "The Dream",
             "description": "The dream of Spain started with simple thoughts during vacations - watching the sunset, feeling the warm breeze, and wondering what it would be like to call this place home.",
-            "points": [
-              "Warm climate and endless sunshine",
-              "Rich culture and welcoming people",
-              "Beautiful landscapes from beaches to mountains",
-              "Slower, more relaxed pace of life"
-            ]
+            "point1": "Warm climate and endless sunshine",
+            "point2": "Rich culture and welcoming people",
+            "point3": "Beautiful landscapes from beaches to mountains",
+            "point4": "Slower, more relaxed pace of life"
           },
           "whySpain": {
             "title": "Why Spain?",
             "description": "Spain offered everything I was looking for in a new home - from practical benefits to emotional connections that made the decision feel right.",
-            "points": [
-              "Excellent healthcare system",
-              "Affordable cost of living compared to other European countries",
-              "Strong infrastructure and modern cities",
-              "Rich history and diverse regions to explore"
-            ]
+            "point1": "Excellent healthcare system",
+            "point2": "Affordable cost of living compared to other European countries",
+            "point3": "Strong infrastructure and modern cities",
+            "point4": "Rich history and diverse regions to explore"
           },
           "fears": {
             "title": "Fears and Doubts",
             "description": "Despite the excitement, there were real concerns that needed to be addressed before taking such a life-changing step.",
-            "points": [
-              "Language barriers and communication challenges",
-              "Leaving family and friends behind",
-              "Navigating bureaucracy in a foreign country",
-              "Financial uncertainty and starting over"
-            ]
+            "point1": "Language barriers and communication challenges",
+            "point2": "Leaving family and friends behind",
+            "point3": "Navigating bureaucracy in a foreign country",
+            "point4": "Financial uncertainty and starting over"
           },
           "conclusion": {
             "title": "The Decision",
@@ -196,11 +190,9 @@
             },
             "registration": {
               "title": "Registration Requirement from 3 Months",
-              "points": [
-                "Anyone staying longer than 3 months must register with the immigration office (Extranjería)",
-                "You receive the so-called \"Certificado de registro como residente comunitario\"",
-                "For this you need income, employment contract or proof of sufficient financial means"
-              ]
+              "point1": "Anyone staying longer than 3 months must register with the immigration office (Extranjería)",
+              "point2": "You receive the so-called \"Certificado de registro como residente comunitario\"",
+              "point3": "For this you need income, employment contract or proof of sufficient financial means"
             },
             "taxRule": {
               "title": "The 183-Day Rule",
@@ -221,21 +213,17 @@
             "options": {
               "remote": {
                 "title": "Option 1: Remote Work from Germany",
-                "points": [
-                  "Higher German salary level",
-                  "Security because you stay with the German employer",
-                  "Social security system remains the same",
-                  "Flexibility: you can travel without immediately changing all systems in Spain"
-                ],
+                "point1": "Higher German salary level",
+                "point2": "Security because you stay with the German employer",
+                "point3": "Social security system remains the same",
+                "point4": "Flexibility: you can travel without immediately changing all systems in Spain",
                 "warning": "183-day rule → as soon as I stay too long in Spain, it becomes tax complicated"
               },
               "spain": {
                 "title": "Option 2: Working directly in Spain",
-                "points": [
-                  "Easier to integrate on site",
-                  "Tax-wise simpler (one country, one system)",
-                  "Local networks and job opportunities"
-                ],
+                "point1": "Easier to integrate on site",
+                "point2": "Tax-wise simpler (one country, one system)",
+                "point3": "Local networks and job opportunities",
                 "disadvantage": "Salaries in Spain are on average significantly lower than German ones. 2025: Spain ~28,000€ vs. Germany ~46,000€"
               }
             },
@@ -384,12 +372,45 @@
           "flashcards": {
             "title": "My flashcard system",
             "intro": "For vocabulary learning, I built myself a 6-stage box using the Leitner system. In short:",
-            "steps": [
-              "New vocabulary starts in compartment 1 and is repeated daily.",
-              "Every time you get them right, they move one level back – and come up less often.",
-              "Incorrect vocabulary goes back to the very front.",
-              "After a few weeks, the words land in compartment 6 – and are considered \"learned\"."
-            ],
+            "systemTitle": "The flashcard box system works like this:",
+            "systemDescription": "You have a box with 6 compartments. New vocabulary always starts in the first compartment. When you know a vocabulary word during testing, it moves one compartment further back. If you don't know it, it goes back to the very front in the first compartment. The further back the vocabulary is, the less often it gets tested. This way you repeat difficult vocabulary often and easy vocabulary only rarely – until they finally land in the last compartment and are considered \"almost learned\".",
+            "sixStageSystem": "The 6-Stage System",
+            "howItWorks": "How does it work?",
+            "whyItWorks": "Why does it work?",
+            "stage1": {
+              "label": "Stage 1",
+              "frequency": "Daily",
+              "description": "New vocabulary is repeated daily"
+            },
+            "stage2": {
+              "label": "Stage 2",
+              "frequency": "Every 2 days",
+              "description": "First successes come up less often"
+            },
+            "stage3": {
+              "label": "Stage 3",
+              "frequency": "Weekly",
+              "description": "Consolidation through weekly repetition"
+            },
+            "stage4": {
+              "label": "Stage 4",
+              "frequency": "Every 2 weeks",
+              "description": "Deepening through rare repetition"
+            },
+            "stage5": {
+              "label": "Stage 5",
+              "frequency": "Monthly",
+              "description": "Repetition through monthly control"
+            },
+            "stage6": {
+              "label": "Stage 6",
+              "frequency": "Every 2-3 months",
+              "description": "Rare control - the word is firmly established!"
+            },
+            "step1": "New vocabulary starts in compartment 1 and is repeated daily.",
+            "step2": "Every time you get them right, they move one level back – and come up less often.",
+            "step3": "Incorrect vocabulary goes back to the very front.",
+            "step4": "After a few weeks, the words land in compartment 6 – and are considered \"learned\".",
             "conclusion": "The system sounds simple, but it's incredibly effective because you don't waste your time with vocabulary you already know anyway."
           },
           "lingolia": {

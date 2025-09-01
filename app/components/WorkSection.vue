@@ -31,9 +31,21 @@
           <div class="p-6">
             <h4 class="font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.work.options.remote.title') }}</h4>
             <div class="space-y-3 mb-4">
-              <div class="flex items-start gap-3" v-for="(point, index) in displayRemotePoints" :key="index">
+              <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ point }}</span>
+                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point1') }}</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point2') }}</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point3') }}</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point4') }}</span>
               </div>
             </div>
             <div class="p-3 bg-amber-50 rounded-lg border border-amber-200">
@@ -50,9 +62,17 @@
           <div class="p-6">
             <h4 class="font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.work.options.spain.title') }}</h4>
             <div class="space-y-3 mb-4">
-              <div class="flex items-start gap-3" v-for="(point, index) in displaySpainPoints" :key="index">
+              <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ point }}</span>
+                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point1') }}</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point2') }}</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point3') }}</span>
               </div>
             </div>
             <div class="p-3 bg-red-50 rounded-lg border border-red-200">
@@ -104,51 +124,5 @@ import { useI18n } from 'vue-i18n'
 
 const { t, locale } = useI18n()
 
-// Remote work points with fallback
-const remoteWorkPoints = computed(() => {
-  try {
-    const points = t('story.timeline.step2.sections.work.options.remote.points')
-    console.log('Remote work points from i18n:', points)
-    return Array.isArray(points) ? points : []
-  } catch (error) {
-    console.error('Error getting remote work points:', error)
-    return []
-  }
-})
-
-// Work in Spain points with fallback
-const workInSpainPoints = computed(() => {
-  try {
-    const points = t('story.timeline.step2.sections.work.options.spain.points')
-    console.log('Work in Spain points from i18n:', points)
-    return Array.isArray(points) ? points : []
-  } catch (error) {
-    console.error('Error getting work in Spain points:', error)
-    return []
-  }
-})
-
-// Fallback points for remote work
-const fallbackRemotePoints = [
-  "Höheres deutsches Gehaltsniveau",
-  "Sicherheit, weil man beim deutschen Arbeitgeber bleibt",
-  "Sozialversicherungssystem bleibt gleich",
-  "Flexibilität: man kann reisen, ohne sofort in Spanien alle Systeme umzustellen"
-]
-
-// Fallback points for work in Spain
-const fallbackSpainPoints = [
-  "Leichter, sich vor Ort zu integrieren",
-  "Steuerlich einfacher (ein Land, ein System)",
-  "Lokale Netzwerke und Jobmöglichkeiten"
-]
-
-// Display points with fallback logic
-const displayRemotePoints = computed(() => {
-  return remoteWorkPoints.value.length > 0 ? remoteWorkPoints.value : fallbackRemotePoints
-})
-
-const displaySpainPoints = computed(() => {
-  return workInSpainPoints.value.length > 0 ? workInSpainPoints.value : fallbackSpainPoints
-})
+// No computed properties needed - using direct $t() calls in template
 </script>
