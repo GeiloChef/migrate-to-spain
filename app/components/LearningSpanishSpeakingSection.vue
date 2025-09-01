@@ -3,11 +3,10 @@
     <div class="px-6 py-16">
       <div class="max-w-4xl mx-auto">
         <!-- Header -->
-        <div class="text-center mb-12">
-          <div class="inline-flex items-center gap-3 bg-gradient-to-r from-orange-600 to-red-600 px-6 py-3 rounded-full text-white font-semibold shadow-lg mb-6">
-            <Icon name="heroicons:chat-bubble-left-right" class="w-6 h-6" />
-            <span class="text-lg">{{ $t('story.timeline.step3.sections.speaking.title') }}</span>
-          </div>
+        <div class="text-left mb-12">
+          <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+            {{ $t('story.timeline.step3.sections.speaking.title') }}
+          </h3>
         </div>
 
         <!-- Content -->

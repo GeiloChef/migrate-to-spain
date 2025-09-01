@@ -12,8 +12,8 @@
 
     <div class="relative px-6 max-w-7xl mx-auto">
       <!-- Simple Title Section -->
-      <div class="text-center mb-16">
-        <h3 class="!text-4xl md:!text-5xl font-bold text-gray-900 mb-6">
+      <div class="text-left mb-6">
+        <h3 class="!text-2xl font-bold text-gray-900 mb-6">
           {{ $t('story.timeline.step3.sections.duolingo.title') }}
         </h3>
       </div>

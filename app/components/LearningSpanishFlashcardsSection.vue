@@ -2,18 +2,18 @@
   <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
     <div class="px-6 py-16">
       <!-- Header -->
-      <div class="text-center mb-12">
-        <div class="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 rounded-full text-white font-semibold shadow-lg mb-6">
-          <Icon name="heroicons:academic-cap" class="w-6 h-6" />
-          <span class="text-lg">{{ $t('story.timeline.step3.sections.flashcards.title') }}</span>
-        </div>
+      <div class="text-left mb-12">
+        <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+          {{ $t('story.timeline.step3.sections.flashcards.title') }}
+        </h3>
+      </div>
         
-        <!-- Intro Text -->
-        <div class="max-w-4xl mx-auto text-left mb-8">
-          <p class="text-lg text-gray-700 leading-relaxed">
-            {{ $t('story.timeline.step3.sections.flashcards.intro') }}
-          </p>
-        </div>
+      <!-- Intro Text -->
+      <div class="max-w-4xl mx-auto text-left mb-8">
+        <p class="text-lg text-gray-700 leading-relaxed">
+          {{ $t('story.timeline.step3.sections.flashcards.intro') }}
+        </p>
+      </div>
         
         <!-- Unified System Box -->
         <div class="max-w-4xl mx-auto text-left bg-white rounded-xl p-8 shadow-md border border-gray-200">
@@ -156,7 +156,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script setup>
