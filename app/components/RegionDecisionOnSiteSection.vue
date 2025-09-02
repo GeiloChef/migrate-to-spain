@@ -3,25 +3,13 @@
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('hero.regionDecision.onSite.title') }}
     </h3>
-    
-    <!-- Text auf voller Breite -->
-    <div class="w-full mb-8">
-      <div class="space-y-4 text-gray-700 leading-relaxed">
-        <p class="mb-4">
-          {{ $t('hero.regionDecision.onSite.paragraph1') }}
-        </p>
-        <p>
-          {{ $t('hero.regionDecision.onSite.paragraph2') }}
-        </p>
-      </div>
-    </div>
-
     <!-- Bildercarousel für Murcia -->
     <div class="w-full mb-8 flex flex-col justify-center">
       <div class="pb-4">
         <UCarousel
           :items="murciaImages"
           loop
+          autoplay
           :ui="{ 
             container: 'w-full relative',
             wrapper: 'w-full',
@@ -34,7 +22,7 @@
             
           }"
           class="w-full"
-          dots
+          :dots="false"
         >
           <template #default="{ item }">
             <div class="h-72 rounded-xl overflow-hidden shadow-lg">
@@ -46,6 +34,18 @@
             </div>
           </template>
         </UCarousel>
+      </div>
+    </div>
+    
+    <!-- Text auf voller Breite -->
+    <div class="w-full mb-8">
+      <div class="space-y-4 text-gray-700 leading-relaxed">
+        <p class="mb-4">
+          {{ $t('hero.regionDecision.onSite.paragraph1') }}
+        </p>
+        <p>
+          {{ $t('hero.regionDecision.onSite.paragraph2') }}
+        </p>
       </div>
     </div>
 
