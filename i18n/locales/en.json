@@ -21,7 +21,13 @@
     "discoveringSpain": {
       "badge": "First Trips",
       "title": "Discovering Spain",
-      "subtitle": "First trips to Spain: exploring Madrid, testing gluten-free life, experiencing quality of life and making first contacts."
+      "subtitle": "First trips to Spain: exploring Madrid, testing gluten-free life, experiencing quality of life and making first contacts.",
+      "introduction": {
+        "title": "Trading Theory for Reality",
+        "paragraph1": "The first rough planning phase was complete, my basic Spanish skills were in place, and eventually the moment had to come: trading theory for reality. So I packed my suitcase and flew to Spain. Not for a classic vacation – even though it sometimes felt like it – but to find out if my ideas really matched Spanish reality.",
+        "paragraph2": "I wanted to test whether gluten-free living there would work as easily as the internet promised. I wanted to see how far I could get with my Spanish. And I wanted to experience what it felt like to master everyday life there – from eating to shopping to first conversations with locals.",
+        "highlight": "I was aware that I wouldn't directly arrive and put down roots on my first trip. But making small contacts, developing a feeling for the country – that was the plan."
+      }
     }
   },
   "introduction": {

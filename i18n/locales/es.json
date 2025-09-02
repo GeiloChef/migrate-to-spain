@@ -21,7 +21,13 @@
     "discoveringSpain": {
       "badge": "Primeros Viajes",
       "title": "Descubrir España",
-      "subtitle": "Primeros viajes a España: explorar Madrid, probar la vida sin gluten, experimentar la calidad de vida y hacer primeros contactos."
+      "subtitle": "Primeros viajes a España: explorar Madrid, probar la vida sin gluten, experimentar la calidad de vida y hacer primeros contactos.",
+      "introduction": {
+        "title": "Cambiar Teoría por Realidad",
+        "paragraph1": "La primera fase de planificación aproximada estaba completa, mis conocimientos básicos de español estaban en su lugar, y eventualmente tenía que llegar el momento: cambiar teoría por realidad. Así que empaqué mi maleta y volé a España. No para unas vacaciones clásicas – aunque a veces se sintiera así – sino para descubrir si mis ideas realmente coincidían con la realidad española.",
+        "paragraph2": "Quería probar si la vida sin gluten funcionaría tan fácilmente como prometía internet. Quería ver hasta dónde podía llegar con mi español. Y quería experimentar cómo se sentía dominar la vida cotidiana allí – desde comer hasta comprar hasta las primeras conversaciones con locales.",
+        "highlight": "Era consciente de que en mi primer viaje no llegaría directamente y echaría raíces. Pero hacer pequeños contactos, desarrollar un sentimiento por el país – ese era el plan."
+      }
     }
   },
   "story": {

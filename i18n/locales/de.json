@@ -21,7 +21,13 @@
     "discoveringSpain": {
       "badge": "Erste Reisen",
       "title": "Spanien entdecken",
-      "subtitle": "Erste Reisen nach Spanien: Madrid erkunden, glutenfreies Leben testen, Lebensqualität erleben und erste Kontakte knüpfen."
+      "subtitle": "Erste Reisen nach Spanien: Madrid erkunden, glutenfreies Leben testen, Lebensqualität erleben und erste Kontakte knüpfen.",
+      "introduction": {
+        "title": "Theorie gegen Realität eintauschen",
+        "paragraph1": "Die erste grobe Planungsphase war geschafft, meine Grundkenntnisse in Spanisch standen, und irgendwann musste der Moment kommen: Theorie gegen Realität eintauschen. Also packte ich meinen Koffer und flog nach Spanien. Nicht für klassischen Urlaub – auch wenn es sich stellenweise so angefühlt hat – sondern um herauszufinden, ob meine Vorstellungen wirklich mit der spanischen Realität zusammenpassen.",
+        "paragraph2": "Ich wollte testen, ob das glutenfreie Leben dort so einfach funktioniert, wie das Internet es versprach. Ich wollte sehen, wie weit ich mit meinem Spanisch komme. Und ich wollte erleben, wie es sich anfühlt, den Alltag dort zu meistern – vom Essen über Einkaufen bis hin zu den ersten Gesprächen mit Einheimischen.",
+        "highlight": "Mir war bewusst, dass ich bei meiner ersten Reise nicht direkt ankommen und Wurzeln schlagen würde. Aber kleine Kontakte knüpfen, ein Gefühl für das Land entwickeln – das war der Plan."
+      }
     }
   },
   "introduction": {
