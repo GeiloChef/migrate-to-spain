@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      Glutenfreies Leben in Spanien
+      {{ $t('hero.discoveringSpain.glutenFree.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          Für jemanden mit Zöliakie (und Laktoseintoleranz on top) ist Madrid ein kleines Paradies. Viele Restaurants kennzeichnen Allergene auf der Karte, und es gibt sogar dedizierte glutenfreie Lokale. Mein Highlight: "Grosso Napoletano – Senza Glutine" – die beste glutenfreie Pizza, die ich je gegessen habe.
+          {{ $t('hero.discoveringSpain.glutenFree.paragraph1') }}
         </p>
         <p>
-          Auch die Supermärkte sind top ausgestattet: Brot, Nudeln, Wraps, Kekse, Chips – alles glutenfrei verfügbar und dazu meist klar mit "Gluten Free" gekennzeichnet. Das machte das Einkaufen unheimlich entspannt. In Deutschland fühlt es sich oft wie eine Schatzsuche an – in Spanien hingegen wie normales Einkaufen.
+          {{ $t('hero.discoveringSpain.glutenFree.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -23,20 +23,30 @@
     
     <div class="mt-8 grid md:grid-cols-2 gap-6">
       <div class="bg-green-50 rounded-xl p-6 border border-green-200">
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Restaurants
-        </h4>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
+            <Icon name="heroicons:building-storefront" class="w-5 h-5 text-white" />
+          </div>
+          <h4 class="font-semibold text-gray-900 text-lg">
+            {{ $t('hero.discoveringSpain.glutenFree.restaurants.title') }}
+          </h4>
+        </div>
         <p class="text-gray-700">
-          Viele Restaurants kennzeichnen Allergene auf der Karte, dedizierte glutenfreie Lokale verfügbar
+          {{ $t('hero.discoveringSpain.glutenFree.restaurants.description') }}
         </p>
       </div>
       
       <div class="bg-blue-50 rounded-xl p-6 border border-blue-200">
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Supermärkte
-        </h4>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center">
+            <Icon name="heroicons:shopping-cart" class="w-5 h-5 text-white" />
+          </div>
+          <h4 class="font-semibold text-gray-900 text-lg">
+            {{ $t('hero.discoveringSpain.glutenFree.supermarkets.title') }}
+          </h4>
+        </div>
         <p class="text-gray-700">
-          Große Auswahl an glutenfreien Produkten, klare Kennzeichnung, entspanntes Einkaufen
+          {{ $t('hero.discoveringSpain.glutenFree.supermarkets.description') }}
         </p>
       </div>
     </div>

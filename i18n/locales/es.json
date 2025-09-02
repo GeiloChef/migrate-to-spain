@@ -33,6 +33,19 @@
         "paragraph1": "Para empezar, no quería ir directamente a un pueblo pequeño o una ciudad costera turística. Necesitaba un lugar donde pudiera defenderme con un poco de inglés en caso de emergencia y donde probablemente sería más fácil encontrar comida sin gluten. Mi elección recayó en Madrid.",
         "paragraph2": "En febrero de 2024, en pleno invierno en Alemania, llegué a la capital española. Dos semanas para marcar mis tareas pendientes – y para sentir si España realmente podría convertirse en mi país.",
         "highlight": "Por cierto, el inglés no me ayudó mucho allí, esa fue una realización importante. Pero mi español roto era suficiente para manejar lo esencial. Y cada vez que me atrevía a usarlo, notaba cuánto más amigablemente reaccionaba la gente inmediatamente."
+      },
+      "glutenFree": {
+        "title": "Vida Sin Gluten en España",
+        "paragraph1": "Para alguien con enfermedad celíaca (e intolerancia a la lactosa además), Madrid es un pequeño paraíso. Muchos restaurantes etiquetan los alérgenos en el menú, y hay incluso establecimientos dedicados sin gluten. Mi destacado: \"Grosso Napoletano – Senza Glutine\" – la mejor pizza sin gluten que he comido.",
+        "paragraph2": "Los supermercados también están muy bien equipados: pan, pasta, wraps, galletas, chips – todo disponible sin gluten y la mayoría claramente etiquetado con \"Gluten Free\". Esto hizo que las compras fueran increíblemente relajadas. En Alemania a menudo se siente como una búsqueda del tesoro – en España, sin embargo, como compras normales.",
+        "restaurants": {
+          "title": "Restaurantes",
+          "description": "Muchos restaurantes etiquetan alérgenos en el menú, establecimientos dedicados sin gluten disponibles"
+        },
+        "supermarkets": {
+          "title": "Supermercados",
+          "description": "Gran selección de productos sin gluten, etiquetado claro, compras relajadas"
+        }
       }
     }
   },

@@ -33,6 +33,19 @@
         "paragraph1": "Für den Anfang wollte ich nicht direkt in ein kleines Dorf oder eine touristische Küstenstadt. Ich brauchte einen Ort, wo ich mich im Notfall auch mit ein bisschen Englisch durchschlagen konnte und wo es wahrscheinlich einfacher sein würde, glutenfreies Essen zu finden. Meine Wahl fiel auf Madrid.",
         "paragraph2": "Im Februar 2024, mitten im Winter in Deutschland, kam ich in der spanischen Hauptstadt an. Zwei Wochen Zeit, um meine To-dos abzuhaken – und um zu spüren, ob Spanien wirklich mein Land werden könnte.",
         "highlight": "Englisch half mir dort übrigens kaum weiter, das war eine wichtige Erkenntnis. Aber mein gebrochenes Spanisch reichte, um das Nötigste zu regeln. Und jedes Mal, wenn ich den Mut fasste, es zu benutzen, merkte ich, wie viel freundlicher die Menschen sofort reagierten."
+      },
+      "glutenFree": {
+        "title": "Glutenfreies Leben in Spanien",
+        "paragraph1": "Für jemanden mit Zöliakie (und Laktoseintoleranz on top) ist Madrid ein kleines Paradies. Viele Restaurants kennzeichnen Allergene auf der Karte, und es gibt sogar dedizierte glutenfreie Lokale. Mein Highlight: \"Grosso Napoletano – Senza Glutine\" – die beste glutenfreie Pizza, die ich je gegessen habe.",
+        "paragraph2": "Auch die Supermärkte sind top ausgestattet: Brot, Nudeln, Wraps, Kekse, Chips – alles glutenfrei verfügbar und dazu meist klar mit \"Gluten Free\" gekennzeichnet. Das machte das Einkaufen unheimlich entspannt. In Deutschland fühlt es sich oft wie eine Schatzsuche an – in Spanien hingegen wie normales Einkaufen.",
+        "restaurants": {
+          "title": "Restaurants",
+          "description": "Viele Restaurants kennzeichnen Allergene auf der Karte, dedizierte glutenfreie Lokale verfügbar"
+        },
+        "supermarkets": {
+          "title": "Supermärkte",
+          "description": "Große Auswahl an glutenfreien Produkten, klare Kennzeichnung, entspanntes Einkaufen"
+        }
       }
     }
   },
