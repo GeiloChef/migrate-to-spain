@@ -18,8 +18,7 @@
 
     <!-- Bildercarousel für Murcia -->
     <div class="w-full mb-8 flex flex-col justify-center">
-      <h4 class="!text-xl font-semibold text-gray-800 mb-4">Bilder aus Murcia</h4>
-      <div>
+      <div class="pb-4">
         <UCarousel
           :items="murciaImages"
           loop
@@ -27,10 +26,12 @@
             container: 'w-full relative',
             wrapper: 'w-full',
             item: 'basis-1/2 h-72 flex-shrink-0',
+            dot: 'bg-spain-yellow data-[state=active]:bg-spain-red',
             arrows: {
               wrapper: 'absolute inset-y-0 left-0 right-0 flex items-center justify-between pointer-events-none',
               base: 'pointer-events-auto'
             }
+            
           }"
           class="w-full"
           dots
