@@ -95,6 +95,27 @@
           "title": "Práctica de Idioma",
           "description": "Emely como hablante nativa - perfecta para practicar y aprender sobre todos los desafíos"
         }
+      },
+      "conclusion": {
+        "title": "Conclusión de los Primeros Viajes",
+        "paragraph1": "Mis primeros viajes a España me mostraron: Puedo construir una vida feliz aquí. La comida sin gluten era manejable, mi español era suficiente para defenderme, y la gente era más abierta de lo que había esperado.",
+        "paragraph2": "Madrid en sí no era adecuada para mí como residencia a largo plazo – demasiado grande, demasiado agitada. Pero ese era exactamente el objetivo: probar cosas, recoger impresiones, ver qué encaja y qué no.",
+        "nextStep": {
+          "title": "Así que el siguiente paso estaba claro:",
+          "description": "Encontrar una región que se ajuste a mi estilo de vida – cálida, pero no superpoblada, animada, pero no invadida por turistas."
+        },
+        "glutenFree": {
+          "title": "Vida Sin Gluten",
+          "description": "Manejable y relajada - restaurantes y supermercados están muy bien equipados"
+        },
+        "spanish": {
+          "title": "Español",
+          "description": "Suficiente para defenderse - la gente reacciona amablemente a los esfuerzos"
+        },
+        "people": {
+          "title": "Gente",
+          "description": "Más abierta de lo esperado - primeros contactos e incluso un encuentro especial"
+        }
       }
     }
   },

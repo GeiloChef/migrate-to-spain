@@ -1,23 +1,23 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      Fazit der ersten Trips
+      {{ $t('hero.discoveringSpain.conclusion.title') }}
     </h3>
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
-        Meine ersten Reisen nach Spanien haben mir gezeigt: Ich kann mir hier ein glückliches Leben aufbauen. Das glutenfreie Essen war machbar, mein Spanisch reichte aus, um zurechtzukommen, und die Menschen waren offener, als ich erwartet hatte.
+        {{ $t('hero.discoveringSpain.conclusion.paragraph1') }}
       </p>
       <p>
-        Madrid selbst kam für mich als langfristiger Wohnort zwar nicht in Frage – zu groß, zu hektisch. Aber genau das war ja das Ziel: auszuprobieren, Eindrücke zu sammeln, zu merken, was passt und was nicht.
+        {{ $t('hero.discoveringSpain.conclusion.paragraph2') }}
       </p>
     </div>
     
     <div class="mt-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
       <h4 class="font-semibold text-gray-900 mb-4 text-xl">
-        Der nächste Schritt war also klar:
+        {{ $t('hero.discoveringSpain.conclusion.nextStep.title') }}
       </h4>
       <p class="text-gray-700 text-lg">
-        Eine Region zu finden, die zu meinem Lebensstil passt – warm, aber nicht überfüllt, lebendig, aber nicht überlaufen von Touristen.
+        {{ $t('hero.discoveringSpain.conclusion.nextStep.description') }}
       </p>
     </div>
     
@@ -27,10 +27,10 @@
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-green-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Glutenfreies Leben
+          {{ $t('hero.discoveringSpain.conclusion.glutenFree.title') }}
         </h4>
         <p class="text-gray-700">
-          Machbar und entspannt - Restaurants und Supermärkte sind top ausgestattet
+          {{ $t('hero.discoveringSpain.conclusion.glutenFree.description') }}
         </p>
       </div>
       
@@ -39,10 +39,10 @@
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-blue-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Spanisch
+          {{ $t('hero.discoveringSpain.conclusion.spanish.title') }}
         </h4>
         <p class="text-gray-700">
-          Reicht aus, um zurechtzukommen - Menschen reagieren freundlich auf Bemühungen
+          {{ $t('hero.discoveringSpain.conclusion.spanish.description') }}
         </p>
       </div>
       
@@ -51,10 +51,10 @@
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-purple-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Menschen
+          {{ $t('hero.discoveringSpain.conclusion.people.title') }}
         </h4>
         <p class="text-gray-700">
-          Offener als erwartet - erste Kontakte und sogar eine besondere Begegnung
+          {{ $t('hero.discoveringSpain.conclusion.people.description') }}
         </p>
       </div>
     </div>

@@ -95,6 +95,27 @@
           "title": "Sprachpraxis",
           "description": "Emely als Muttersprachlerin - perfekt zum Üben und Lernen über alle Herausforderungen"
         }
+      },
+      "conclusion": {
+        "title": "Fazit der ersten Trips",
+        "paragraph1": "Meine ersten Reisen nach Spanien haben mir gezeigt: Ich kann mir hier ein glückliches Leben aufbauen. Das glutenfreie Essen war machbar, mein Spanisch reichte aus, um zurechtzukommen, und die Menschen waren offener, als ich erwartet hatte.",
+        "paragraph2": "Madrid selbst kam für mich als langfristiger Wohnort zwar nicht in Frage – zu groß, zu hektisch. Aber genau das war ja das Ziel: auszuprobieren, Eindrücke zu sammeln, zu merken, was passt und was nicht.",
+        "nextStep": {
+          "title": "Der nächste Schritt war also klar:",
+          "description": "Eine Region zu finden, die zu meinem Lebensstil passt – warm, aber nicht überfüllt, lebendig, aber nicht überlaufen von Touristen."
+        },
+        "glutenFree": {
+          "title": "Glutenfreies Leben",
+          "description": "Machbar und entspannt - Restaurants und Supermärkte sind top ausgestattet"
+        },
+        "spanish": {
+          "title": "Spanisch",
+          "description": "Reicht aus, um zurechtzukommen - Menschen reagieren freundlich auf Bemühungen"
+        },
+        "people": {
+          "title": "Menschen",
+          "description": "Offener als erwartet - erste Kontakte und sogar eine besondere Begegnung"
+        }
       }
     }
   },

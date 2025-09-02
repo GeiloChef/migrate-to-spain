@@ -95,6 +95,27 @@
           "title": "Language Practice",
           "description": "Emely as a native speaker - perfect for practicing and learning about all challenges"
         }
+      },
+      "conclusion": {
+        "title": "Conclusion of the First Trips",
+        "paragraph1": "My first trips to Spain showed me: I can build a happy life here. The gluten-free food was manageable, my Spanish was sufficient to get by, and the people were more open than I had expected.",
+        "paragraph2": "Madrid itself wasn't suitable for me as a long-term residence – too big, too hectic. But that was exactly the goal: to try things out, gather impressions, to see what fits and what doesn't.",
+        "nextStep": {
+          "title": "So the next step was clear:",
+          "description": "To find a region that fits my lifestyle – warm, but not overcrowded, lively, but not overrun by tourists."
+        },
+        "glutenFree": {
+          "title": "Gluten-Free Living",
+          "description": "Manageable and relaxed - restaurants and supermarkets are top-equipped"
+        },
+        "spanish": {
+          "title": "Spanish",
+          "description": "Sufficient to get by - people react friendly to efforts"
+        },
+        "people": {
+          "title": "People",
+          "description": "More open than expected - first contacts and even a special encounter"
+        }
       }
     }
   },
