@@ -1,17 +1,17 @@
 <template>
   <TimelineLayout 
-    :previous-step="'/timeline/learning-spanish'"
-    :previous-step-name="$t('story.timeline.step3.title')"
-    :next-step="'/timeline/region-decision'"
-    :next-step-name="$t('story.timeline.step5.title')"
+    :previous-step="'/timeline/discovering-spain'"
+    :previous-step-name="$t('story.timeline.step4.title')"
+    :next-step="'/timeline/first-research-feasibility'"
+    :next-step-name="$t('story.timeline.step6.title')"
   >
     <!-- Hero Section -->
     <div class="relative">
       <!-- Background Image -->
       <div class="w-full h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
-          src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Madrid cityscape with modern architecture and blue sky"
+          src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          alt="Spanish landscape with mountains and Mediterranean coast"
           class="w-full h-full object-cover"
         />
         <!-- Dark Overlay for Better Text Readability -->
@@ -22,13 +22,13 @@
       <div class="absolute inset-0 flex items-end p-8 md:p-12">
         <div class="text-white max-w-4xl">
           <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-sm font-medium mb-6 border border-white/30">
-            {{ $t('hero.discoveringSpain.badge') }}
+            {{ $t('hero.regionDecision.badge') }}
           </div>
           <h2 class="!text-4xl md:!text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
-            {{ $t('hero.discoveringSpain.title') }}
+            {{ $t('hero.regionDecision.title') }}
           </h2>
           <p class="!text-lg md:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
-            {{ $t('hero.discoveringSpain.subtitle') }}
+            {{ $t('hero.regionDecision.subtitle') }}
           </p>
         </div>
       </div>
@@ -39,49 +39,49 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <DiscoveringSpainIntroductionSection />
+          <RegionDecisionIntroductionSection />
         </div>
       </div>
 
-      <!-- Section 2: Madrid als erster Stopp -->
+      <!-- Section 2: Bevölkerungsverteilung -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
-          <DiscoveringSpainMadridSection />
+          <RegionDecisionPopulationSection />
         </div>
       </div>
 
-      <!-- Section 3: Glutenfreies Leben -->
+      <!-- Section 3: Favoritenliste -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <DiscoveringSpainGlutenFreeSection />
+          <RegionDecisionFavoritesSection />
         </div>
       </div>
 
-      <!-- Section 4: Lebensqualität -->
+      <!-- Section 4: Murcia Stadt und Region -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
-          <DiscoveringSpainQualityOfLifeSection />
+          <RegionDecisionMurciaSection />
         </div>
       </div>
 
-      <!-- Section 5: Kultur & Menschen -->
+      <!-- Section 5: Eindruck vor Ort -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <DiscoveringSpainCultureSection />
+          <RegionDecisionOnSiteSection />
         </div>
       </div>
 
-      <!-- Section 6: Erste Kontakte -->
+      <!-- Section 6: Zwischen Stadt und Land -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
-          <DiscoveringSpainContactsSection />
+          <RegionDecisionCityCountrySection />
         </div>
       </div>
 
       <!-- Section 7: Fazit -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <DiscoveringSpainConclusionSection />
+          <RegionDecisionConclusionSection />
         </div>
       </div>
     </div>
@@ -90,9 +90,9 @@
 
 <script setup>
 useHead({
-  title: 'Spanien entdecken - Erste Reisen, Eindrücke und Begegnungen',
+  title: 'Die Entscheidung für eine Region - Von der Theorie zur Praxis',
   meta: [
-    { name: 'description', content: 'Erste Reisen nach Spanien: Madrid erkunden, glutenfreies Leben testen, Lebensqualität erleben und erste Kontakte knüpfen.' }
+    { name: 'description', content: 'Wie ich nach intensiver Recherche und Testreisen die Region Murcia als meine neue Heimat ausgewählt habe.' }
   ]
 })
 </script>
