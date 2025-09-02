@@ -44,7 +44,7 @@
       <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-6 border border-cyan-200/50 shadow-lg">
         <div class="flex items-start gap-4 mb-4">
           <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full flex items-center justify-center">
-            <Icon name="heroicons:beach" class="w-6 h-6 text-white" />
+            <Icon name="heroicons:sparkles" class="w-6 h-6 text-white" />
           </div>
           <div>
             <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.favorites.costaBlanca.title') }}</h4>
