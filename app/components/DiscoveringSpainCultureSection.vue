@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      Kultur & Menschen
+      {{ $t('hero.discoveringSpain.culture.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          Madrid lebt – und zwar vor allem nachts. Während in Deutschland nach 20 Uhr vieles ruhiger wird, geht in Spanien das Leben erst los. Restaurants füllen sich spät, und auch unter der Woche sitzen die Menschen noch um Mitternacht draußen bei einem Bier. Für mich als Informatiker, der eh selten früh ins Bett kommt, passte das perfekt.
+          {{ $t('hero.discoveringSpain.culture.paragraph1') }}
         </p>
         <p>
-          Besonders hängen geblieben ist aber die Offenheit: Schon ein paar Worte Spanisch reichten, um Eis zu brechen. Ich habe gemerkt, dass man mit Freundlichkeit und etwas Mühe, die Sprache zu sprechen, sehr schnell positive Reaktionen bekommt.
+          {{ $t('hero.discoveringSpain.culture.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -23,20 +23,30 @@
     
     <div class="mt-8 grid md:grid-cols-2 gap-6">
       <div class="bg-purple-50 rounded-xl p-6 border border-purple-200">
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Nachtleben
-        </h4>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-purple-500 to-violet-600 rounded-full flex items-center justify-center">
+            <Icon name="heroicons:moon" class="w-5 h-5 text-white" />
+          </div>
+          <h4 class="font-semibold text-gray-900 text-lg">
+            {{ $t('hero.discoveringSpain.culture.nightlife.title') }}
+          </h4>
+        </div>
         <p class="text-gray-700">
-          Madrid lebt nachts - Restaurants füllen sich spät, Menschen sitzen noch um Mitternacht draußen
+          {{ $t('hero.discoveringSpain.culture.nightlife.description') }}
         </p>
       </div>
       
       <div class="bg-pink-50 rounded-xl p-6 border border-pink-200">
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Offenheit
-        </h4>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-pink-500 to-rose-600 rounded-full flex items-center justify-center">
+            <Icon name="heroicons:heart" class="w-5 h-5 text-white" />
+          </div>
+          <h4 class="font-semibold text-gray-900 text-lg">
+            {{ $t('hero.discoveringSpain.culture.openness.title') }}
+          </h4>
+        </div>
         <p class="text-gray-700">
-          Schon wenige Worte Spanisch reichen, um Eis zu brechen. Freundlichkeit wird sofort belohnt.
+          {{ $t('hero.discoveringSpain.culture.openness.description') }}
         </p>
       </div>
     </div>

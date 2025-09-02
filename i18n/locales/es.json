@@ -64,6 +64,19 @@
         },
         "conclusion": "En general, me sentí más libre y \"ligero\" en poco tiempo de lo que a menudo me siento en Alemania. Fue impresionante experimentar cuánto la forma de vida española y el clima pueden influir en el bienestar general. La combinación de una vida cotidiana más relajada, temperaturas agradables y precios asequibles crea una atmósfera donde simplemente te sientes bien.",
         "conclusionTitle": "Conclusión de la Calidad de Vida"
+      },
+      "culture": {
+        "title": "Cultura y Gente",
+        "paragraph1": "Madrid vive – y especialmente por la noche. Mientras que en Alemania las cosas se ponen más tranquilas después de las 8 PM, en España la vida apenas comienza. Los restaurantes se llenan tarde, y incluso durante la semana la gente sigue sentada afuera a medianoche tomando una cerveza. Para mí como profesional de TI que raramente se acuesta temprano de todos modos, esto era perfecto.",
+        "paragraph2": "Lo que particularmente se me quedó grabado, sin embargo, fue la apertura: Solo unas pocas palabras en español eran suficientes para romper el hielo. Noté que con amabilidad y un poco de esfuerzo para hablar el idioma, obtienes reacciones positivas muy rápidamente.",
+        "nightlife": {
+          "title": "Vida Nocturna",
+          "description": "Madrid vive por la noche - los restaurantes se llenan tarde, la gente sigue sentada afuera a medianoche"
+        },
+        "openness": {
+          "title": "Apertura",
+          "description": "Solo unas pocas palabras en español son suficientes para romper el hielo. La amabilidad es recompensada inmediatamente."
+        }
       }
     }
   },

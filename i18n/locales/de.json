@@ -64,6 +64,19 @@
         },
         "conclusion": "Unterm Strich habe ich mich in kurzer Zeit freier und \"leichter\" gefühlt, als ich es in Deutschland oft tue. Es war beeindruckend zu erleben, wie sehr die spanische Lebensweise und das Klima das allgemeine Wohlbefinden beeinflussen können. Die Kombination aus entspannterem Alltag, angenehmen Temperaturen und erschwinglichen Preisen schafft eine Atmosphäre, in der man sich einfach wohlfühlt.",
         "conclusionTitle": "Fazit der Lebensqualität"
+      },
+      "culture": {
+        "title": "Kultur & Menschen",
+        "paragraph1": "Madrid lebt – und zwar vor allem nachts. Während in Deutschland nach 20 Uhr vieles ruhiger wird, geht in Spanien das Leben erst los. Restaurants füllen sich spät, und auch unter der Woche sitzen die Menschen noch um Mitternacht draußen bei einem Bier. Für mich als Informatiker, der eh selten früh ins Bett kommt, passte das perfekt.",
+        "paragraph2": "Besonders hängen geblieben ist aber die Offenheit: Schon ein paar Worte Spanisch reichten, um Eis zu brechen. Ich habe gemerkt, dass man mit Freundlichkeit und etwas Mühe, die Sprache zu sprechen, sehr schnell positive Reaktionen bekommt.",
+        "nightlife": {
+          "title": "Nachtleben",
+          "description": "Madrid lebt nachts - Restaurants füllen sich spät, Menschen sitzen noch um Mitternacht draußen"
+        },
+        "openness": {
+          "title": "Offenheit",
+          "description": "Schon wenige Worte Spanisch reichen, um Eis zu brechen. Freundlichkeit wird sofort belohnt."
+        }
       }
     }
   },

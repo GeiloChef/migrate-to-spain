@@ -64,6 +64,19 @@
         },
         "conclusion": "All in all, I felt freer and \"lighter\" in a short time than I often do in Germany. It was impressive to experience how much the Spanish way of life and climate can influence general well-being. The combination of more relaxed everyday life, pleasant temperatures, and affordable prices creates an atmosphere where you simply feel good.",
         "conclusionTitle": "Quality of Life Conclusion"
+      },
+      "culture": {
+        "title": "Culture & People",
+        "paragraph1": "Madrid lives – and especially at night. While in Germany things get quieter after 8 PM, in Spain life just begins. Restaurants fill up late, and even during the week people still sit outside at midnight having a beer. For me as an IT professional who rarely goes to bed early anyway, this was perfect.",
+        "paragraph2": "What particularly stuck with me, however, was the openness: Just a few words of Spanish were enough to break the ice. I noticed that with friendliness and a bit of effort to speak the language, you get positive reactions very quickly.",
+        "nightlife": {
+          "title": "Nightlife",
+          "description": "Madrid lives at night - restaurants fill up late, people still sit outside at midnight"
+        },
+        "openness": {
+          "title": "Openness",
+          "description": "Just a few words of Spanish are enough to break the ice. Friendliness is immediately rewarded."
+        }
       }
     }
   },
