@@ -543,6 +543,11 @@
     "navigation": {
       "nextStep": "Next Step",
       "previousStep": "Previous Step"
+    },
+    "steps": {
+      "step1": "The Dream of Spain",
+      "step2": "First Research & Feasibility",
+      "step3": "Learning Spanish"
     }
   },
   "guide": {

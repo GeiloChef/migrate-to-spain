@@ -2,6 +2,8 @@
   <TimelineLayout 
     :previous-step="'/timeline/the-dream-of-spain'"
     :next-step="'/timeline/learning-spanish'"
+    :previous-step-name="$t('story.timeline.step1.title')"
+    :next-step-name="$t('story.timeline.step3.title')"
   >
     <!-- Hero Section -->
     <div class="relative">

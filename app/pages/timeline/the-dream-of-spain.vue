@@ -1,6 +1,7 @@
 <template>
   <TimelineLayout 
     :next-step="'/timeline/first-research-feasibility'"
+    :next-step-name="$t('story.timeline.step2.title')"
   >
     <!-- Hero Section with Full-Size Image -->
     <div class="relative -mt-12">

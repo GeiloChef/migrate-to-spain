@@ -10,7 +10,9 @@
       <!-- Navigation -->
       <TimelineNavigation 
         :previous-step="previousStep" 
-        :next-step="nextStep" 
+        :next-step="nextStep"
+        :previous-step-name="previousStepName"
+        :next-step-name="nextStepName"
       />
     </div>
   </div>
@@ -23,6 +25,14 @@ defineProps({
     required: false
   },
   nextStep: {
+    type: String,
+    required: false
+  },
+  previousStepName: {
+    type: String,
+    required: false
+  },
+  nextStepName: {
     type: String,
     required: false
   }

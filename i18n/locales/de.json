@@ -509,6 +509,11 @@
     "navigation": {
       "nextStep": "Nächster Schritt",
       "previousStep": "Vorheriger Schritt"
+    },
+    "steps": {
+      "step1": "Der Traum von Spanien",
+      "step2": "Erste Recherchen & Machbarkeit",
+      "step3": "Spanisch lernen"
     }
   },
   "guide": {

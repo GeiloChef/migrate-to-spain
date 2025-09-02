@@ -3,20 +3,22 @@
     <NuxtLink 
       v-if="previousStep"
       :to="previousStep" 
-      class="inline-flex items-center gap-2 px-6 py-3 text-gray-600 hover:text-gray-900 transition-colors"
+      class="inline-flex items-center gap-2 px-6 py-3 text-gray-600 hover:text-gray-900 transition-colors group"
     >
-      <Icon name="heroicons:arrow-left" class="w-4 h-4" />
-      {{ $t('timeline.navigation.previousStep') }}
+      <Icon name="heroicons:arrow-left" class="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+      <span class="hidden sm:inline">{{ $t('story.navigation.previousStep') }}:</span>
+      <span class="font-semibold">{{ previousStepName }}</span>
     </NuxtLink>
     <div v-else></div>
     
     <NuxtLink 
       v-if="nextStep"
       :to="nextStep" 
-      class="inline-flex items-center gap-2 px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors shadow-sm"
+      class="inline-flex items-center gap-2 px-6 py-3 bg-spain-yellow text-gray-900 rounded-lg hover:bg-spain-yellow/90 transition-colors shadow-sm font-semibold group"
     >
-      {{ $t('timeline.navigation.nextStep') }}
-      <Icon name="heroicons:arrow-right" class="w-4 h-4" />
+      <span class="font-semibold">{{ nextStepName }}</span>
+      <span class="hidden sm:inline">: {{ $t('story.navigation.nextStep') }}</span>
+      <Icon name="heroicons:arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform" />
     </NuxtLink>
   </div>
 </template>
@@ -28,6 +30,14 @@ defineProps({
     required: false
   },
   nextStep: {
+    type: String,
+    required: false
+  },
+  previousStepName: {
+    type: String,
+    required: false
+  },
+  nextStepName: {
     type: String,
     required: false
   }

@@ -459,6 +459,11 @@
     "navigation": {
       "nextStep": "Siguiente Paso",
       "previousStep": "Paso Anterior"
+    },
+    "steps": {
+      "step1": "El Sueño de España",
+      "step2": "Primeras Investigaciones y Viabilidad",
+      "step3": "Aprender Español"
     }
   },
   "guide": {
