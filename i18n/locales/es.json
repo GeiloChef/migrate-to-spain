@@ -77,6 +77,24 @@
           "title": "Apertura",
           "description": "Solo unas pocas palabras en español son suficientes para romper el hielo. La amabilidad es recompensada inmediatamente."
         }
+      },
+      "contacts": {
+        "title": "Primeros Contactos – y un Encuentro Especial",
+        "paragraph1": "Mis primeros contactos fueron poco espectaculares pero importantes: un empleado en el café que me reconoció de nuevo después de solo dos días; una cajera en el supermercado que me ayudó a encontrar un producto específico sin gluten la primera vez. No eran amistades, pero pequeños momentos que me dieron la sensación: \"No eres invisible aquí.\"",
+        "emely": {
+          "title": "Emely - Un Encuentro Especial",
+          "paragraph1": "Una joven mujer de Perú a quien conocí durante mi tiempo en Madrid. Ella tenía planes similares a los míos: emigrar a España, comenzar una nueva vida.",
+          "paragraph2": "Que ella hablara español como su lengua materna era naturalmente de oro para mí. Con ella podía practicar, aprender y hablar sobre todo lo que encontraba en este proceso.",
+          "paragraph3": "Nos llevamos bien inmediatamente – y de un encuentro casual se desarrolló una relación con el tiempo. Hoy ella me acompaña no solo como amiga sino también como pareja en mi viaje a España."
+        },
+        "smallMoments": {
+          "title": "Pequeños Momentos",
+          "description": "Empleado del café me reconoce de nuevo, cajera ayuda con productos sin gluten - la sensación de no ser invisible"
+        },
+        "languagePractice": {
+          "title": "Práctica de Idioma",
+          "description": "Emely como hablante nativa - perfecta para practicar y aprender sobre todos los desafíos"
+        }
       }
     }
   },

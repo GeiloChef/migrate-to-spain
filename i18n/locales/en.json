@@ -77,6 +77,24 @@
           "title": "Openness",
           "description": "Just a few words of Spanish are enough to break the ice. Friendliness is immediately rewarded."
         }
+      },
+      "contacts": {
+        "title": "First Contacts – and a Special Encounter",
+        "paragraph1": "My first contacts were unspectacular but important: an employee at the café who recognized me again after just two days; a cashier at the supermarket who helped me find a specific gluten-free product the first time. They weren't friendships, but small moments that gave me the feeling: \"You're not invisible here.\"",
+        "emely": {
+          "title": "Emely - A Special Encounter",
+          "paragraph1": "A young woman from Peru whom I met during my time in Madrid. She had similar plans to me: emigrating to Spain, starting a new life.",
+          "paragraph2": "That she spoke Spanish as her native language was naturally gold worth to me. With her, I could practice, learn, and talk about everything I encountered in this process.",
+          "paragraph3": "We got along immediately well – and from a chance encounter, a relationship developed over time. Today she accompanies me not only as a friend but also as a partner on my journey to Spain."
+        },
+        "smallMoments": {
+          "title": "Small Moments",
+          "description": "Café employee recognizes me again, cashier helps with gluten-free products - the feeling of not being invisible"
+        },
+        "languagePractice": {
+          "title": "Language Practice",
+          "description": "Emely as a native speaker - perfect for practicing and learning about all challenges"
+        }
       }
     }
   },

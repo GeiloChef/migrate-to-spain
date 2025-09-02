@@ -1,11 +1,11 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      Erste Kontakte – und eine besondere Begegnung
+      {{ $t('hero.discoveringSpain.contacts.title') }}
     </h3>
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
-        Meine ersten Kontakte waren unspektakulär, aber wichtig: ein Angestellter im Café, der mich nach zwei Tagen schon wiedererkannte; eine Kassiererin im Supermarkt, die mir beim ersten Mal half, ein bestimmtes glutenfreies Produkt zu finden. Es waren keine Freundschaften, aber kleine Momente, die mir das Gefühl gaben: "Du bist hier nicht unsichtbar."
+        {{ $t('hero.discoveringSpain.contacts.paragraph1') }}
       </p>
     </div>
     
@@ -13,16 +13,16 @@
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <h4 class="font-semibold text-gray-900 mb-4 text-xl">
-            Emely - Eine besondere Begegnung
+            {{ $t('hero.discoveringSpain.contacts.emely.title') }}
           </h4>
           <p class="text-gray-700 mb-4">
-            Eine junge Frau aus Peru, die ich während meiner Zeit in Madrid kennenlernte. Sie hatte ähnliche Pläne wie ich: nach Spanien auszuwandern, ein neues Leben zu beginnen.
+            {{ $t('hero.discoveringSpain.contacts.emely.paragraph1') }}
           </p>
           <p class="text-gray-700 mb-4">
-            Dass sie Spanisch als Muttersprache sprach, war für mich natürlich Gold wert. Mit ihr konnte ich üben, lernen und über alles reden, was mir in diesem Prozess begegnete.
+            {{ $t('hero.discoveringSpain.contacts.emely.paragraph2') }}
           </p>
           <p class="text-gray-700 font-medium">
-            Wir verstanden uns sofort gut – und aus einer zufälligen Begegnung wurde über die Zeit eine Beziehung. Heute begleitet sie mich nicht nur als Freundin, sondern auch als Partnerin auf meinem Weg nach Spanien.
+            {{ $t('hero.discoveringSpain.contacts.emely.paragraph3') }}
           </p>
         </div>
         <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -37,20 +37,30 @@
     
     <div class="mt-8 grid md:grid-cols-2 gap-6">
       <div class="bg-blue-50 rounded-xl p-6 border border-blue-200">
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Kleine Momente
-        </h4>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center">
+            <Icon name="heroicons:sparkles" class="w-5 h-5 text-white" />
+          </div>
+          <h4 class="font-semibold text-gray-900 text-lg">
+            {{ $t('hero.discoveringSpain.contacts.smallMoments.title') }}
+          </h4>
+        </div>
         <p class="text-gray-700">
-          Café-Angestellter erkennt mich wieder, Kassiererin hilft bei glutenfreien Produkten - das Gefühl, nicht unsichtbar zu sein
+          {{ $t('hero.discoveringSpain.contacts.smallMoments.description') }}
         </p>
       </div>
       
       <div class="bg-green-50 rounded-xl p-6 border border-green-200">
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Sprachpraxis
-        </h4>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
+            <Icon name="heroicons:academic-cap" class="w-5 h-5 text-white" />
+          </div>
+          <h4 class="font-semibold text-gray-900 text-lg">
+            {{ $t('hero.discoveringSpain.contacts.languagePractice.title') }}
+          </h4>
+        </div>
         <p class="text-gray-700">
-          Emely als Muttersprachlerin - perfekt zum Üben und Lernen über alle Herausforderungen
+          {{ $t('hero.discoveringSpain.contacts.languagePractice.description') }}
         </p>
       </div>
     </div>

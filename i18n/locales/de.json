@@ -77,6 +77,24 @@
           "title": "Offenheit",
           "description": "Schon wenige Worte Spanisch reichen, um Eis zu brechen. Freundlichkeit wird sofort belohnt."
         }
+      },
+      "contacts": {
+        "title": "Erste Kontakte – und eine besondere Begegnung",
+        "paragraph1": "Meine ersten Kontakte waren unspektakulär, aber wichtig: ein Angestellter im Café, der mich nach zwei Tagen schon wiedererkannte; eine Kassiererin im Supermarkt, die mir beim ersten Mal half, ein bestimmtes glutenfreies Produkt zu finden. Es waren keine Freundschaften, aber kleine Momente, die mir das Gefühl gaben: \"Du bist hier nicht unsichtbar.\"",
+        "emely": {
+          "title": "Emely - Eine besondere Begegnung",
+          "paragraph1": "Eine junge Frau aus Peru, die ich während meiner Zeit in Madrid kennenlernte. Sie hatte ähnliche Pläne wie ich: nach Spanien auszuwandern, ein neues Leben zu beginnen.",
+          "paragraph2": "Dass sie Spanisch als Muttersprache sprach, war für mich natürlich Gold wert. Mit ihr konnte ich üben, lernen und über alles reden, was mir in diesem Prozess begegnete.",
+          "paragraph3": "Wir verstanden uns sofort gut – und aus einer zufälligen Begegnung wurde über die Zeit eine Beziehung. Heute begleitet sie mich nicht nur als Freundin, sondern auch als Partnerin auf meinem Weg nach Spanien."
+        },
+        "smallMoments": {
+          "title": "Kleine Momente",
+          "description": "Café-Angestellter erkennt mich wieder, Kassiererin hilft bei glutenfreien Produkten - das Gefühl, nicht unsichtbar zu sein"
+        },
+        "languagePractice": {
+          "title": "Sprachpraxis",
+          "description": "Emely als Muttersprachlerin - perfekt zum Üben und Lernen über alle Herausforderungen"
+        }
       }
     }
   },
