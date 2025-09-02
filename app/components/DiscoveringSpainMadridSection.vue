@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      Madrid als erster Stopp
+      {{ $t('hero.discoveringSpain.madrid.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          Für den Anfang wollte ich nicht direkt in ein kleines Dorf oder eine touristische Küstenstadt. Ich brauchte einen Ort, wo ich mich im Notfall auch mit ein bisschen Englisch durchschlagen konnte und wo es wahrscheinlich einfacher sein würde, glutenfreies Essen zu finden. Meine Wahl fiel auf Madrid.
+          {{ $t('hero.discoveringSpain.madrid.paragraph1') }}
         </p>
         <p>
-          Im Februar 2024, mitten im Winter in Deutschland, kam ich in der spanischen Hauptstadt an. Zwei Wochen Zeit, um meine To-dos abzuhaken – und um zu spüren, ob Spanien wirklich mein Land werden könnte.
+          {{ $t('hero.discoveringSpain.madrid.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -21,10 +21,17 @@
       </div>
     </div>
     
-    <div class="mt-8 bg-orange-50 border-l-4 border-orange-400 p-6 rounded-r-lg">
-      <p class="font-medium text-gray-900 mb-2 text-lg">
-        Englisch half mir dort übrigens kaum weiter, das war eine wichtige Erkenntnis. Aber mein gebrochenes Spanisch reichte, um das Nötigste zu regeln. Und jedes Mal, wenn ich den Mut fasste, es zu benutzen, merkte ich, wie viel freundlicher die Menschen sofort reagierten.
-      </p>
+    <div class="mt-8 bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-8 border border-orange-200/50 shadow-lg">
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-full flex items-center justify-center">
+          <Icon name="heroicons:chat-bubble-left-right" class="w-6 h-6 text-white" />
+        </div>
+        <div class="flex-1">
+          <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+            {{ $t('hero.discoveringSpain.madrid.highlight') }}
+          </h4>
+        </div>
+      </div>
     </div>
   </div>
 </template>
