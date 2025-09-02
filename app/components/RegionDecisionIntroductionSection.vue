@@ -20,18 +20,5 @@
         />
       </div>
     </div>
-    
-    <div class="mt-8 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200/50 shadow-lg">
-      <div class="flex items-start gap-4">
-        <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center">
-          <Icon name="heroicons:map" class="w-6 h-6 text-white" />
-        </div>
-        <div class="flex-1">
-          <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-            {{ $t('hero.regionDecision.introduction.highlight') }}
-          </h4>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
