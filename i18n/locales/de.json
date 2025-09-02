@@ -17,6 +17,11 @@
       "badge": "Recherche-Phase",
       "title": "Erste Recherchen & Machbarkeit",
       "subtitle": "Nachdem ich den grundlegenden Gedanken gefasst hatte – Spanien könnte wirklich mein neues Zuhause werden – war es an der Zeit, einen echten Plan zu schmieden. Der Traum allein reicht eben nicht."
+    },
+    "discoveringSpain": {
+      "badge": "Erste Reisen",
+      "title": "Spanien entdecken",
+      "subtitle": "Erste Reisen nach Spanien: Madrid erkunden, glutenfreies Leben testen, Lebensqualität erleben und erste Kontakte knüpfen."
     }
   },
   "introduction": {
@@ -403,17 +408,17 @@
           }
         }
       },
-      "step4": {
+      "step5": {
         "title": "Spanien entdecken",
-        "date": "Sommer 2022",
-        "description": "Erste Reisen, verschiedene Regionen anschauen, Eindrücke sammeln. Kontakte knüpfen, erste persönliche Erfahrungen mit den Leuten und der Kultur.",
+        "date": "Februar 2024",
+        "description": "Erste Reisen nach Spanien: Madrid erkunden, glutenfreies Leben testen, Lebensqualität erleben und erste Kontakte knüpfen.",
         "preview": {
-          "point1": "Erste Reisen, verschiedene Regionen anschauen, Eindrücke sammeln",
-          "point2": "Kontakte knüpfen, erste persönliche Erfahrungen mit den Leuten und der Kultur",
-          "point3": "Entdeckung der spanischen Lebensweise und Traditionen"
+          "point1": "Erste Reisen nach Madrid, glutenfreies Leben testen",
+          "point2": "Lebensqualität erleben, Kultur und Menschen kennenlernen",
+          "point3": "Erste Kontakte knüpfen und besondere Begegnungen"
         }
       },
-      "step5": {
+      "step6": {
         "title": "Die Entscheidung für eine Region",
         "date": "Herbst 2022",
         "description": "Mehrere Urlaube in der Favoritengegend. Abwägen: passt Klima, Stadtgröße, Preise, Alltag?",
@@ -423,7 +428,7 @@
           "point3": "Entscheidung für die perfekte Region"
         }
       },
-      "step6": {
+      "step7": {
         "title": "Der konkrete Plan: Wohnung kaufen",
         "date": "Winter 2022/23",
         "description": "Welche Infos man braucht (NIE, Bankkonto, Steuern). Erste Recherchen auf Immobilienseiten und bei Maklern. Termine mit Händlern vereinbaren, Nachbarschaften checken.",
@@ -433,7 +438,7 @@
           "point3": "Termine mit Händlern vereinbaren, Nachbarschaften checken"
         }
       },
-      "step7": {
+      "step8": {
         "title": "Bürokratie & Formalitäten",
         "date": "Frühjahr 2023",
         "description": "Beantragung der NIE. Spanisches Bankkonto eröffnen. Finanzierungsmöglichkeiten prüfen (deutsche vs. spanische Banken).",
@@ -443,7 +448,7 @@
           "point3": "Finanzierungsmöglichkeiten prüfen (deutsche vs. spanische Banken)"
         }
       },
-      "step8": {
+      "step9": {
         "title": "Der Immobilienkauf",
         "date": "Sommer 2023",
         "description": "Deine persönliche Erfahrung mit Besichtigungen, Arras-Vertrag, Notar. Worauf du geachtet hast (Nachbarschaft, Bauqualität, Preis, etc.). Schwierigkeiten und Learnings.",
@@ -453,7 +458,7 @@
           "point3": "Schwierigkeiten und Learnings"
         }
       },
-      "step9": {
+      "step10": {
         "title": "Gestoría – Hilfe im Behördendschungel",
         "date": "Herbst 2023",
         "description": "Warum du dich dafür entschieden hast. Was sie dir abgenommen haben (Steuern, Anmeldung, Utilities).",
@@ -463,7 +468,7 @@
           "point3": "Erfahrungen mit der spanischen Bürokratie"
         }
       },
-      "step10": {
+      "step11": {
         "title": "Sicherheiten & Versicherungen",
         "date": "Winter 2023/24",
         "description": "Abschluss von Seguro de Hogar. Deine Überlegung, warum welche Versicherung sinnvoll war.",
@@ -473,7 +478,7 @@
           "point3": "Vollständiger Versicherungsschutz für dein neues Zuhause"
         }
       },
-      "step11": {
+      "step12": {
         "title": "Der erste Aufenthalt in der eigenen Wohnung",
         "date": "Frühjahr 2024",
         "description": "Gefühl, endlich in Spanien 'anzukommen'. Erste Erfahrungen mit Alltag: Strom, Internet, Einkäufe, Nachbarn.",
@@ -483,7 +488,7 @@
           "point3": "Das neue Leben beginnt in der eigenen Wohnung"
         }
       },
-      "step12": {
+      "step13": {
         "title": "Ausblick: Die endgültige Migration",
         "date": "Sommer 2024",
         "description": "Welche Schritte noch fehlen (Residencia, Sozialversicherung, Steuern). Deine Ziele für die Zukunft in Spanien.",
@@ -513,7 +518,8 @@
     "steps": {
       "step1": "Der Traum von Spanien",
       "step2": "Erste Recherchen & Machbarkeit",
-      "step3": "Spanisch lernen"
+      "step3": "Spanisch lernen",
+      "step4": "Spanien entdecken"
     }
   },
   "guide": {
