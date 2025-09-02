@@ -3,7 +3,9 @@
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('hero.regionDecision.onSite.title') }}
     </h3>
-    <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
+    
+    <!-- Text auf voller Breite -->
+    <div class="w-full mb-8">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
           {{ $t('hero.regionDecision.onSite.paragraph1') }}
@@ -12,13 +14,26 @@
           {{ $t('hero.regionDecision.onSite.paragraph2') }}
         </p>
       </div>
-      <div class="h-64 rounded-xl overflow-hidden shadow-md">
-        <img 
-          src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Murcia traditional streets and architecture"
-          class="w-full h-full object-cover"
-        />
-      </div>
+    </div>
+
+    <!-- Bildercarousel für Murcia -->
+    <div class="w-full mb-8">
+      <h4 class="!text-xl font-semibold text-gray-800 mb-4">Bilder aus Murcia</h4>
+      <UCarousel
+        :items="murciaImages"
+        :ui="{ container: 'w-full', item: 'flex-shrink-0 w-96 h-72' }"
+        class="w-full"
+      >
+        <template #item="{ item }">
+          <div class="w-96 h-72 rounded-xl overflow-hidden shadow-lg">
+            <img 
+              :src="item.src" 
+              :alt="item.alt"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </template>
+      </UCarousel>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6">
@@ -65,3 +80,24 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const murciaImages = [
+  {
+    src: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    alt: 'Murcia traditionelle Straßen und Architektur'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1555992336-03a23c7b20ee?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    alt: 'Murcia Kathedrale und historisches Zentrum'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    alt: 'Murcia Plaza und öffentliche Plätze'
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1555992336-03a23c7b20ee?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    alt: 'Murcia Umgebung und Landschaft'
+  }
+]
+</script>
