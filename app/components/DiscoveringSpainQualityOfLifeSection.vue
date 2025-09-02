@@ -1,10 +1,20 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      Lebensqualität: Spanien vs. Deutschland
+      {{ $t('hero.discoveringSpain.qualityOfLife.title') }}
     </h3>
+    
+    <!-- Hero Image -->
+    <div class="mb-8 h-64 rounded-xl overflow-hidden shadow-md">
+      <img 
+        src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+        alt="Mediterranean lifestyle and quality of life in Spain"
+        class="w-full h-full object-cover"
+      />
+    </div>
+    
     <p class="text-lg mb-8 text-gray-700">
-      Was mich wirklich beeindruckt hat: die Lebensqualität. Schon beim ersten Aufenthalt war klar, dass vieles entspannter läuft.
+      {{ $t('hero.discoveringSpain.qualityOfLife.intro') }}
     </p>
     
     <div class="grid md:grid-cols-3 gap-6 mb-8">
@@ -13,10 +23,10 @@
           <Icon name="heroicons:clock" class="w-6 h-6 text-yellow-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Alltag
+          {{ $t('hero.discoveringSpain.qualityOfLife.everyday.title') }}
         </h4>
         <p class="text-gray-700 leading-relaxed">
-          In Spanien scheinen die Menschen weniger gehetzt, Zeit spielt eine andere Rolle. Mittagessen dauert auch mal zwei Stunden, und niemand schaut dabei ständig auf die Uhr.
+          {{ $t('hero.discoveringSpain.qualityOfLife.everyday.description') }}
         </p>
       </div>
       
@@ -25,10 +35,10 @@
           <Icon name="heroicons:sun" class="w-6 h-6 text-blue-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Klima
+          {{ $t('hero.discoveringSpain.qualityOfLife.climate.title') }}
         </h4>
         <p class="text-gray-700 leading-relaxed">
-          Selbst Ende Februar war es tagsüber mild und sonnig. Das allein fühlte sich schon wie ein Lebensqualitäts-Boost an, wenn man den deutschen Winter gewohnt ist.
+          {{ $t('hero.discoveringSpain.qualityOfLife.climate.description') }}
         </p>
       </div>
       
@@ -37,17 +47,20 @@
           <Icon name="heroicons:currency-euro" class="w-6 h-6 text-green-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          Kosten
+          {{ $t('hero.discoveringSpain.qualityOfLife.costs.title') }}
         </h4>
         <p class="text-gray-700 leading-relaxed">
-          Essen gehen ist in Spanien oft günstiger, auch wenn Madrid natürlich nicht die billigste Stadt ist.
+          {{ $t('hero.discoveringSpain.qualityOfLife.costs.description') }}
         </p>
       </div>
     </div>
     
-    <div class="bg-green-50 border-l-4 border-green-400 p-6 rounded-r-lg">
-      <p class="font-medium text-gray-900 mb-2 text-lg">
-        Unterm Strich habe ich mich in kurzer Zeit freier und "leichter" gefühlt, als ich es in Deutschland oft tue.
+    <div class="space-y-4 text-gray-700 leading-relaxed">
+      <h4 class="!text-xl font-semibold text-gray-900">
+        {{ $t('hero.discoveringSpain.qualityOfLife.conclusionTitle') }}
+      </h4>
+      <p class="text-lg">
+        {{ $t('hero.discoveringSpain.qualityOfLife.conclusion') }}
       </p>
     </div>
   </div>

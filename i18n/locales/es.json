@@ -46,6 +46,24 @@
           "title": "Supermercados",
           "description": "Gran selección de productos sin gluten, etiquetado claro, compras relajadas"
         }
+      },
+      "qualityOfLife": {
+        "title": "Calidad de Vida: España vs. Alemania",
+        "intro": "Lo que realmente me impresionó: la calidad de vida. Ya en mi primera estancia estaba claro que muchas cosas funcionan de manera más relajada.",
+        "everyday": {
+          "title": "Vida Cotidiana",
+          "description": "En España, la gente parece menos apresurada, el tiempo juega un papel diferente. El almuerzo puede durar dos horas, y nadie mira constantemente el reloj."
+        },
+        "climate": {
+          "title": "Clima",
+          "description": "Incluso a finales de febrero, era suave y soleado durante el día. Solo eso ya se sentía como un impulso en la calidad de vida cuando estás acostumbrado al invierno alemán."
+        },
+        "costs": {
+          "title": "Costos",
+          "description": "Comer fuera es a menudo más barato en España, aunque Madrid naturalmente no es la ciudad más barata."
+        },
+        "conclusion": "En general, me sentí más libre y \"ligero\" en poco tiempo de lo que a menudo me siento en Alemania. Fue impresionante experimentar cuánto la forma de vida española y el clima pueden influir en el bienestar general. La combinación de una vida cotidiana más relajada, temperaturas agradables y precios asequibles crea una atmósfera donde simplemente te sientes bien.",
+        "conclusionTitle": "Conclusión de la Calidad de Vida"
       }
     }
   },

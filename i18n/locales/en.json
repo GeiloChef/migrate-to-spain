@@ -46,6 +46,24 @@
           "title": "Supermarkets",
           "description": "Large selection of gluten-free products, clear labeling, relaxed shopping"
         }
+      },
+      "qualityOfLife": {
+        "title": "Quality of Life: Spain vs. Germany",
+        "intro": "What really impressed me: the quality of life. Even on my first stay, it was clear that many things run more relaxed.",
+        "everyday": {
+          "title": "Everyday Life",
+          "description": "In Spain, people seem less rushed, time plays a different role. Lunch can take two hours, and no one constantly looks at the clock."
+        },
+        "climate": {
+          "title": "Climate",
+          "description": "Even at the end of February, it was mild and sunny during the day. That alone felt like a quality of life boost when you're used to German winter."
+        },
+        "costs": {
+          "title": "Costs",
+          "description": "Eating out is often cheaper in Spain, even though Madrid is naturally not the cheapest city."
+        },
+        "conclusion": "All in all, I felt freer and \"lighter\" in a short time than I often do in Germany. It was impressive to experience how much the Spanish way of life and climate can influence general well-being. The combination of more relaxed everyday life, pleasant temperatures, and affordable prices creates an atmosphere where you simply feel good.",
+        "conclusionTitle": "Quality of Life Conclusion"
       }
     }
   },
