@@ -8,6 +8,9 @@
         <p class="mb-4">
           {{ $t('hero.regionDecision.murcia.intro') }}
         </p>
+        <p>
+          {{ $t('hero.regionDecision.murcia.introExtended') }}
+        </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
         <img 
