@@ -9,7 +9,7 @@
       </h3>
     </div>
     
-    <div class="grid md:grid-cols-2 gap-8 items-start">
+    <div class="grid md:grid-cols-2 gap-8 items-start mb-6">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
           {{ $t('bureaucracy.bankAccount.paragraph1') }}
@@ -20,11 +20,6 @@
         <p class="mb-4">
           {{ $t('bureaucracy.bankAccount.paragraph3') }}
         </p>
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
-          <p class="text-yellow-800 font-medium">
-            {{ $t('bureaucracy.bankAccount.tip') }}
-          </p>
-        </div>
       </div>
       <div class="space-y-4">
         <div class="h-48 rounded-xl overflow-hidden shadow-md">
@@ -43,6 +38,13 @@
           </ul>
         </div>
       </div>
+    </div>
+    
+    <!-- Tipp-Box - Full Width -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
+      <p class="text-yellow-800 font-medium">
+        {{ $t('bureaucracy.bankAccount.tip') }}
+      </p>
     </div>
   </div>
 </template>
