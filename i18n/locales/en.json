@@ -677,6 +677,63 @@
       "button": "Get Started Today"
     }
   },
+  "apartmentSearch": {
+    "badge": "Property Search",
+    "title": "The Concrete Plan: Finding an Apartment",
+    "subtitle": "From decision to action: How I found my dream apartment in Murcia.",
+    "introduction": {
+      "title": "From Decision to Action",
+      "paragraph1": "After I had finally decided on the Murcia region, it was clear to me: From now on, it was no longer about dreaming, but about acting. I no longer wanted to just walk through the streets and imagine what my everyday life could look like – I wanted to see real options. The next logical step: searching for a suitable apartment.",
+      "paragraph2": "But before you even start browsing listings, you should know the basics. One of the most important prerequisites is the NIE (Número de Identificación de Extranjero). This is basically the Spanish tax number for foreigners, without which you can neither open a bank account nor buy a property. Speaking of bank accounts: Although a good gestoría can help you work around a lot, in the end there's almost no way around opening a Spanish account.",
+      "highlight": "Without NIE and Spanish bank account, you cannot buy a property – but you don't need them for searching yet."
+    },
+    "firstResearch": {
+      "title": "First Research",
+      "intro": "So how do you start searching for your dream property? For me, there were two ways:",
+      "onlinePlatforms": {
+        "title": "Online Platforms",
+        "description": "Platforms like Idealista or Fotocasa – with detailed search filters, email notifications and new offers daily. This way you stay automatically up to date without having to search constantly yourself."
+      },
+      "localAgents": {
+        "title": "Local Real Estate Agencies",
+        "description": "They often have a display window with selected offers, and sometimes you can find real bargains here. However, many agents also list on the major platforms anyway."
+      },
+      "tip": "Anyone who is really serious about searching should combine both – research online, but also visit agents on site."
+    },
+    "onSite": {
+      "title": "On Site in Murcia",
+      "paragraph1": "After my online research, the next logical step was another stay in Murcia – this time with a clear mission. I had picked out my favorites, contacted agents and arranged appointments. Here it's worth planning at least a few weeks – better one to two months – time.",
+      "paragraph2": "The market is incredibly fast-paced: New offers appear every day, while others disappear because they're already reserved. I attended several viewings, partly through platforms, partly directly through real estate agencies.",
+      "market": {
+        "title": "Fast-Paced Market",
+        "description": "New offers appear every day, while others disappear because they're already reserved."
+      },
+      "viewings": {
+        "title": "Viewings",
+        "description": "I would actually advise against private purchases – Spanish property law is not without its complications, and an agent provides at least some security in the process."
+      },
+      "process": {
+        "title": "The Viewing Process",
+        "description": "First a brief exchange about agent fees (yes, in Spain the buyer often pays these), then a small signature that you accept these fees in case of a purchase."
+      },
+      "highlight": "And honestly, I usually knew within the first 30 to 40 seconds whether it could work or not. This gut feeling rarely deceived me."
+    },
+    "success": {
+      "title": "Got Lucky",
+      "description": "At the end of my stay, I actually got lucky – and was able to reserve my dream apartment."
+    },
+    "advice": {
+      "title": "My Advice",
+      "paragraph1": "Even though I found something right away, I would advise everyone: Better plan several stays and take your time. The pressure to 'buy something right now' is rarely a good advisor.",
+      "paragraph2": "Spain won't run away from you – and the right apartment usually waits for the one who is willing to bring a little patience."
+    },
+    "nextSteps": {
+      "title": "What's Next?",
+      "paragraph1": "But before we really get into the nitty-gritty – meaning all the contractual terms, cost traps and small hurdles that await you when buying property in Spain – it's worth taking a short break.",
+      "paragraph2": "Because without the necessary prerequisites and a minimum of bureaucracy, you won't get far here. Many underestimate this part at the beginning, already dream of the key handover, but then quickly realize that they can't even sign the purchase contract without NIE, bank account and a few important official procedures.",
+      "highlight": "In the next section, we'll look at the basics – the bureaucracy and prerequisites that you need for the actual purchase."
+    }
+  },
   "regionDecision": {
     "badge": "Region Decision",
     "title": "From Theory to Practice",
