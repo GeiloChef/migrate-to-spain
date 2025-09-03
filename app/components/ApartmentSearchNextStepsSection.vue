@@ -42,24 +42,24 @@
         <div class="w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
           <Icon name="heroicons:identification" class="w-6 h-6 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-2">NIE</h4>
-        <p class="text-gray-700 text-sm">Spanische Steuernummer für Ausländer</p>
+        <h4 class="font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.nie.title') }}</h4>
+        <p class="text-gray-700 text-sm">{{ $t('apartmentSearch.nextSteps.prerequisites.nie.description') }}</p>
       </div>
 
       <div class="bg-white rounded-xl p-6 shadow-md border border-gray-200/50 text-center">
         <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
           <Icon name="heroicons:credit-card" class="w-6 h-6 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-2">Bankkonto</h4>
-        <p class="text-gray-700 text-sm">Spanisches Konto für Transaktionen</p>
+        <h4 class="font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.bankAccount.title') }}</h4>
+        <p class="text-gray-700 text-sm">{{ $t('apartmentSearch.nextSteps.prerequisites.bankAccount.description') }}</p>
       </div>
 
       <div class="bg-white rounded-xl p-6 shadow-md border border-gray-200/50 text-center">
         <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
           <Icon name="heroicons:document-text" class="w-6 h-6 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-2">Behördengänge</h4>
-        <p class="text-gray-700 text-sm">Wichtige offizielle Verfahren</p>
+        <h4 class="font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.bureaucracy.title') }}</h4>
+        <p class="text-gray-700 text-sm">{{ $t('apartmentSearch.nextSteps.prerequisites.bureaucracy.description') }}</p>
       </div>
     </div>
   </div>

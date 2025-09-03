@@ -300,7 +300,21 @@
       "title": "Wie gehts nun weiter?",
       "paragraph1": "Bevor es nun aber wirklich ins Eingemachte geht – also in all die vertraglichen Bestimmungen, die Kostenfallen und die kleinen Hürden, die beim Immobilienkauf in Spanien auf einen warten – lohnt sich ein kurzer Stopp.",
       "paragraph2": "Denn ohne die nötigen Voraussetzungen und ein Mindestmaß an Bürokratie kommt man hier nicht weit. Viele unterschätzen diesen Teil am Anfang, träumen schon von der Schlüsselübergabe, merken dann aber schnell, dass sie ohne NIE, Bankkonto und ein paar wichtige Behördengänge gar nicht erst den Kaufvertrag unterschreiben dürfen.",
-      "highlight": "Im nächsten Abschnitt schauen wir uns die Grundlagen an – die Bürokratie und Voraussetzungen, die man für den tatsächlichen Kauf braucht."
+      "highlight": "Im nächsten Abschnitt schauen wir uns die Grundlagen an – die Bürokratie und Voraussetzungen, die man für den tatsächlichen Kauf braucht.",
+      "prerequisites": {
+        "nie": {
+          "title": "NIE",
+          "description": "Spanische Steuernummer für Ausländer"
+        },
+        "bankAccount": {
+          "title": "Bankkonto",
+          "description": "Spanisches Konto für Transaktionen"
+        },
+        "bureaucracy": {
+          "title": "Behördengänge",
+          "description": "Wichtige offizielle Verfahren"
+        }
+      }
     }
   },
   "introduction": {
