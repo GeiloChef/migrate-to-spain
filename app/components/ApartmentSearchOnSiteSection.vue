@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-8">
+    <h3 class="!text-2xl font-bold text-gray-900 mb-4 px-8">
       {{ $t('apartmentSearch.onSite.title') }}
     </h3>
     
