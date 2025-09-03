@@ -728,8 +728,17 @@
     },
     "advice": {
       "title": "My Advice",
+      "success": "At the end of my stay, I actually got lucky – and was able to reserve my dream apartment.",
       "paragraph1": "Even though I found something right away, I would advise everyone: Better plan several stays and take your time. The pressure to 'buy something right now' is rarely a good advisor.",
-      "paragraph2": "Spain won't run away from you – and the right apartment usually waits for the one who is willing to bring a little patience."
+      "paragraph2": "Spain won't run away from you – and the right apartment usually waits for the one who is willing to bring a little patience.",
+      "patience": {
+        "title": "Patience is the key",
+        "description": "Plan several stays and take your time. The pressure to 'buy something right now' is rarely a good advisor."
+      },
+      "spain": {
+        "title": "Spain won't run away from you",
+        "description": "The right apartment usually waits for the one who is willing to bring a little patience."
+      }
     },
     "nextSteps": {
       "title": "What's Next?",

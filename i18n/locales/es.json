@@ -694,8 +694,17 @@
     },
     "advice": {
       "title": "Mi Consejo",
+      "success": "Al final de mi estancia, en realidad tuve suerte – y pude reservar mi apartamento soñado.",
       "paragraph1": "Aunque encontré algo de inmediato, aconsejaría a todos: Mejor planificar varias estancias y tomarse el tiempo. La presión de 'comprar algo ahora mismo' raramente es un buen consejero.",
-      "paragraph2": "España no se escapará de ti – y el apartamento correcto generalmente espera al que está dispuesto a traer un poco de paciencia."
+      "paragraph2": "España no se escapará de ti – y el apartamento correcto generalmente espera al que está dispuesto a traer un poco de paciencia.",
+      "patience": {
+        "title": "La paciencia es la clave",
+        "description": "Planificar varias estancias y tomarse el tiempo. La presión de 'comprar algo ahora mismo' raramente es un buen consejero."
+      },
+      "spain": {
+        "title": "España no se escapará de ti",
+        "description": "El apartamento correcto generalmente espera al que está dispuesto a traer un poco de paciencia."
+      }
     },
     "nextSteps": {
       "title": "¿Qué Sigue?",

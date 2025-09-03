@@ -7,13 +7,13 @@
     <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('apartmentSearch.advice.paragraph1') }}
+          {{ $t('apartmentSearch.advice.success') }} {{ $t('apartmentSearch.advice.paragraph1') }}
         </p>
         <p>
           {{ $t('apartmentSearch.advice.paragraph2') }}
         </p>
       </div>
-      <div class="h-64 rounded-xl overflow-hidden shadow-md">
+      <div class="h-full rounded-xl overflow-hidden shadow-md">
         <img 
           src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Taking time to make the right decision"
@@ -31,11 +31,11 @@
             <Icon name="heroicons:clock" class="w-5 h-5 text-white" />
           </div>
           <h4 class="font-semibold text-gray-900">
-            Geduld ist der Schlüssel
+            {{ $t('apartmentSearch.advice.patience.title') }}
           </h4>
         </div>
         <p class="text-gray-700 leading-relaxed">
-          Mehrere Aufenthalte einplanen und sich Zeit lassen. Der Druck, "jetzt sofort etwas zu kaufen", ist selten ein guter Ratgeber.
+          {{ $t('apartmentSearch.advice.patience.description') }}
         </p>
       </div>
 
@@ -46,11 +46,11 @@
             <Icon name="heroicons:map-pin" class="w-5 h-5 text-white" />
           </div>
           <h4 class="font-semibold text-gray-900">
-            Spanien läuft einem nicht davon
+            {{ $t('apartmentSearch.advice.spain.title') }}
           </h4>
         </div>
         <p class="text-gray-700 leading-relaxed">
-          Die richtige Wohnung wartet meistens auf den, der bereit ist, ein bisschen Geduld mitzubringen.
+          {{ $t('apartmentSearch.advice.spain.description') }}
         </p>
       </div>
     </div>

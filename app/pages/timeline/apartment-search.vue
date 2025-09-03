@@ -57,14 +57,9 @@
         </div>
       </div>
 
-      <!-- Section 4: Erfolg -->
-      <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
-          <ApartmentSearchSuccessSection />
-        </div>
-      </div>
 
-      <!-- Section 5: Mein Rat -->
+
+      <!-- Section 4: Mein Rat -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
           <ApartmentSearchAdviceSection />

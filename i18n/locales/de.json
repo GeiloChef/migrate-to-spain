@@ -284,8 +284,17 @@
     },
     "advice": {
       "title": "Mein Rat",
+      "success": "Am Ende meines Aufenthalts hatte ich dann tatsächlich Glück – und konnte mir meine Traumwohnung reservieren.",
       "paragraph1": "Auch wenn ich auf Anhieb fündig wurde, würde ich jedem raten: Lieber mehrere Aufenthalte einplanen und sich Zeit lassen. Der Druck, 'jetzt sofort etwas zu kaufen', ist selten ein guter Ratgeber.",
-      "paragraph2": "Spanien läuft einem nicht davon – und die richtige Wohnung wartet meistens auf den, der bereit ist, ein bisschen Geduld mitzubringen."
+      "paragraph2": "Spanien läuft einem nicht davon – und die richtige Wohnung wartet meistens auf den, der bereit ist, ein bisschen Geduld mitzubringen.",
+      "patience": {
+        "title": "Geduld ist der Schlüssel",
+        "description": "Mehrere Aufenthalte einplanen und sich Zeit lassen. Der Druck, 'jetzt sofort etwas zu kaufen', ist selten ein guter Ratgeber."
+      },
+      "spain": {
+        "title": "Spanien läuft einem nicht davon",
+        "description": "Die richtige Wohnung wartet meistens auf den, der bereit ist, ein bisschen Geduld mitzubringen."
+      }
     },
     "nextSteps": {
       "title": "Wie gehts nun weiter?",
