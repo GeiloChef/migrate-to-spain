@@ -966,10 +966,18 @@
       "paragraph3": "Since I didn't have the opportunity to constantly lurk for free appointments in Spain, I commissioned a service provider: Spanieninfo (spanieninfo.biz). They handle the application for you if you sign a power of attorney at a German notary and make it valid for Spain with an apostille.",
       "tip": "My tip: Take care of it in time, preferably before you find your dream apartment. Without NIE, you can't even take the first step in the purchase.",
       "process": {
-        "title": "Application Process",
-        "step1": "Sign power of attorney at German notary",
-        "step2": "Apply for apostille for Spain",
-        "step3": "Send documents by registered mail to Spain"
+        "onSite": {
+          "title": "Application On-Site",
+          "step1": "Book appointment online with Policía Nacional",
+          "step2": "Go to the authority in person",
+          "step3": "Pick up NIE after a few weeks"
+        },
+        "company": {
+          "title": "Application via Company",
+          "step1": "Sign power of attorney at German notary",
+          "step2": "Apply for apostille for Spain",
+          "step3": "Send documents by registered mail to Spain"
+        }
       }
     },
     "bankAccount": {

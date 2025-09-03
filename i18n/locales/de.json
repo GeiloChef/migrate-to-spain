@@ -886,10 +886,18 @@
       "paragraph3": "Da ich nicht die Möglichkeit hatte, ständig in Spanien auf freie Termine zu lauern, habe ich einen Dienstleister beauftragt: Spanieninfo (spanieninfo.biz). Die übernehmen die Beantragung für dich, wenn du in Deutschland beim Notar eine Vollmacht unterschreibst und diese per Apostille für Spanien gültig machst.",
       "tip": "Mein Tipp: Kümmere dich rechtzeitig darum, am besten noch bevor du deine Traumwohnung gefunden hast. Ohne NIE kannst du beim Kauf nicht mal den ersten Schritt machen.",
       "process": {
-        "title": "Beantragungsprozess",
-        "step1": "Vollmacht beim deutschen Notar unterschreiben",
-        "step2": "Apostille für Spanien beantragen",
-        "step3": "Unterlagen per Einschreiben nach Spanien senden"
+        "onSite": {
+          "title": "Beantragung vor Ort",
+          "step1": "Termin online bei der Policía Nacional buchen",
+          "step2": "Persönlich zur Behörde gehen",
+          "step3": "NIE nach einigen Wochen abholen"
+        },
+        "company": {
+          "title": "Beantragung über Firma",
+          "step1": "Vollmacht beim deutschen Notar unterschreiben",
+          "step2": "Apostille für Spanien beantragen",
+          "step3": "Unterlagen per Einschreiben nach Spanien senden"
+        }
       }
     },
     "bankAccount": {

@@ -932,10 +932,18 @@
       "paragraph3": "Como no tuve la oportunidad de estar constantemente acechando citas libres en España, contraté un proveedor de servicios: Spanieninfo (spanieninfo.biz). Ellos manejan la solicitud por ti si firmas un poder notarial en un notario alemán y lo haces válido para España con una apostilla.",
       "tip": "Mi consejo: Cuida de ello a tiempo, preferiblemente antes de que encuentres tu apartamento soñado. Sin NIE, ni siquiera puedes dar el primer paso en la compra.",
       "process": {
-        "title": "Proceso de Solicitud",
-        "step1": "Firmar poder notarial en notario alemán",
-        "step2": "Solicitar apostilla para España",
-        "step3": "Enviar documentos por correo certificado a España"
+        "onSite": {
+          "title": "Solicitud en Persona",
+          "step1": "Reservar cita online con la Policía Nacional",
+          "step2": "Ir personalmente a la autoridad",
+          "step3": "Recoger NIE después de unas semanas"
+        },
+        "company": {
+          "title": "Solicitud vía Empresa",
+          "step1": "Firmar poder notarial en notario alemán",
+          "step2": "Solicitar apostilla para España",
+          "step3": "Enviar documentos por correo certificado a España"
+        }
       }
     },
     "bankAccount": {
