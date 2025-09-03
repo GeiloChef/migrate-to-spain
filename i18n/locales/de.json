@@ -844,5 +844,118 @@
       "description": "Schließe dich Tausenden anderen an, die Spanien mit unserer bewährten Anleitung erfolgreich zu ihrem neuen Zuhause gemacht haben.",
       "button": "Heute starten"
     }
+  },
+  "bureaucracy": {
+    "badge": "Bürokratie & Formalitäten",
+    "title": "Bürokratie & Formalitäten",
+    "subtitle": "Jetzt wurde es ernst! Urlaubsträume und sonnige Vorstellungen sind das eine, doch beim Immobilienkauf in Spanien kommt man um den Papierkram einfach nicht herum.",
+    "navigation": {
+      "title": "Übersicht der wichtigsten Schritte",
+      "subtitle": "Klicke auf einen der Bereiche, um direkt zu den Details zu springen",
+      "nie": {
+        "title": "NIE-Nummer",
+        "description": "Dein Eintrittsticket für Spanien"
+      },
+      "bankAccount": {
+        "title": "Bankkonto",
+        "description": "Unverzichtbar für alle Transaktionen"
+      },
+      "financing": {
+        "title": "Finanzierung",
+        "description": "Deutsche vs. spanische Banken"
+      },
+      "gestoria": {
+        "title": "Gestoría",
+        "description": "Professionelle Hilfe im Papierchaos"
+      },
+      "additionalFormalities": {
+        "title": "Weitere Formalitäten",
+        "description": "Kleinere aber wichtige Details"
+      }
+    },
+    "introduction": {
+      "title": "Einleitung",
+      "paragraph1": "Jetzt wurde es ernst! Urlaubsträume und sonnige Vorstellungen sind das eine, doch beim Immobilienkauf in Spanien kommt man um den Papierkram einfach nicht herum – auch wenn mittlerweile vieles digital läuft. Und ehrlich gesagt: ich hatte mehr als nur Respekt vor der Bürokratie, die da auf mich zukam.",
+      "paragraph2": "Spanische Ämter, fremde Sprache, endlose Dokumente – das klang erstmal nach Stress. Aber Fakt ist: Ohne diesen Schritt bleibt der Traum vom eigenen Zuhause in Spanien nur ein Traum.",
+      "tip": "Ein kleiner Hinweis: Ich hatte manche Unterlagen nicht rechtzeitig parat und musste dadurch einiges nachholen. Damit dir das nicht passiert, gebe ich dir hier einen Überblick über alles, was ich während meines Kaufprozesses wirklich gebraucht habe."
+    },
+    "nie": {
+      "title": "Die NIE-Nummer – mein Eintrittsticket",
+      "paragraph1": "Das Wichtigste zuerst: die NIE-Nummer (Número de Identificación de Extranjeros). Ohne sie geht gar nichts – weder Bankkonto, noch Stromvertrag, noch Kaufvertrag. Sie ist sozusagen dein offizieller Fingerabdruck in Spanien.",
+      "paragraph2": "Die Beantragung läuft über die Policía Nacional. Termine gibt's online, manchmal auch spontan vor Ort – mit viel Glück. Realistisch muss man aber mit Wartezeiten von mehreren Wochen rechnen.",
+      "paragraph3": "Da ich nicht die Möglichkeit hatte, ständig in Spanien auf freie Termine zu lauern, habe ich einen Dienstleister beauftragt: Spanieninfo (spanieninfo.biz). Die übernehmen die Beantragung für dich, wenn du in Deutschland beim Notar eine Vollmacht unterschreibst und diese per Apostille für Spanien gültig machst.",
+      "tip": "Mein Tipp: Kümmere dich rechtzeitig darum, am besten noch bevor du deine Traumwohnung gefunden hast. Ohne NIE kannst du beim Kauf nicht mal den ersten Schritt machen.",
+      "process": {
+        "title": "Beantragungsprozess",
+        "step1": "Vollmacht beim deutschen Notar unterschreiben",
+        "step2": "Apostille für Spanien beantragen",
+        "step3": "Unterlagen per Einschreiben nach Spanien senden"
+      }
+    },
+    "bankAccount": {
+      "title": "Ein spanisches Bankkonto – ohne das geht gar nichts",
+      "paragraph1": "Der nächste unvermeidbare Schritt war das spanische Bankkonto. Egal ob Hypothek, Notarhonorar, Grunderwerbsteuer oder die monatlichen Nebenkosten – ohne Konto in Spanien läuft nichts.",
+      "paragraph2": "Die Qual der Wahl ist groß: von Santander über CaixaBank bis Bankinter bieten viele Banken spezielle Konten für Ausländer an. Was du brauchst, ist relativ klar: deine NIE, den Reisepass und – falls du sofort Eigenkapital einzahlen willst – Nachweise über die Herkunft des Geldes.",
+      "paragraph3": "Ich selbst habe mich für ein Konto als Nicht-Resident entschieden. Das kostet zwar ein bisschen mehr, ist aber für alle, die nicht dauerhaft in Spanien leben, die einfachste Lösung.",
+      "tip": "Mein Konto habe ich übrigens recht spät mit Hilfe meiner Gestoría eröffnet – es ging gerade noch rechtzeitig gut, aber empfehlen würde ich, das deutlich früher zu erledigen.",
+      "requirements": {
+        "title": "Benötigte Unterlagen",
+        "item1": "NIE-Nummer (Número de Identificación de Extranjeros)",
+        "item2": "Reisepass oder Personalausweis",
+        "item3": "Nachweise über Geldherkunft (bei größeren Beträgen)"
+      }
+    },
+    "financing": {
+      "title": "Finanzierungsmöglichkeiten – deutsche vs. spanische Banken",
+      "paragraph1": "Die Frage nach der Finanzierung ist ein echter Knackpunkt. Deutsche Banken winken ab, wenn es um spanische Immobilien geht – außer, man hat Sicherheiten in Deutschland (z. B. eine eigene Immobilie, die man dort belasten kann).",
+      "paragraph2": "Bleiben also die spanischen Banken: Santander, Bankinter, CaixaBank und viele andere. Die Konditionen sind für Nicht-Residenten allerdings strenger: meist maximal 70 % Finanzierung, strengere Bonitätsprüfungen und höhere Zinsen.",
+      "paragraph3": "In meinem Fall bot mir meine Immobilienagentur einen Partner an, der den gesamten Finanzierungsprozess begleiten sollte – allerdings für satte 4.000 € Honorar. Das habe ich abgelehnt und stattdessen selbst recherchiert.",
+      "tip": "Sehr empfehlen kann ich Idealista/Hipotecas: dort bekommst du Angebote verschiedener Banken im Vergleich, kannst den Service auch auf Englisch nutzen und sogar per WhatsApp kommunizieren – kostenlos!",
+      "comparison": {
+        "title": "Bankenvergleich",
+        "german": "Deutsche Banken",
+        "germanResult": "Meist nicht möglich",
+        "spanish": "Spanische Banken",
+        "spanishResult": "Bis 70% Finanzierung"
+      }
+    },
+    "gestoria": {
+      "title": "Gestoría oder Anwalt – meine Rettung im Papierchaos",
+      "paragraph1": "Und hier kommt mein persönlicher Geheimtipp: eine Gestoría. Von allen Kosten im Kaufprozess waren die für meine Gestoría die einzigen, bei denen ich nicht mal gezuckt habe. Rückblickend war es die beste Entscheidung nach dem Kauf der Wohnung selbst.",
+      "paragraph2": "Die Wochen zwischen Vorvertrag und Notartermin waren mit Abstand die stressigste Zeit meines Lebens. Da steckst du schon ordentlich Geld im Projekt – und weißt, dass du es verlieren kannst, wenn du eine Frist verpasst oder ein Dokument fehlt.",
+      "paragraph3": "Ich bin eher zufällig bei der Gestoría Carrasco & Fischer in Orihuela Costa gelandet – und wurde dort von Tag eins an top betreut. Sie haben mir den Contrato de Arras erklärt, die Verträge übersetzt, die Kommunikation mit der Bank übernommen und mich beim Notar begleitet.",
+      "tip": "Kurz gesagt: ohne sie hätte ich vermutlich den Verstand verloren. Eine Gestoría ist ein Büro, das dich in Spanien durch die ganze Bürokratie lotst – von Steuern über Verträge bis hin zur Ummeldung von Strom und Wasser.",
+      "services": {
+        "title": "Leistungen einer Gestoría",
+        "item1": "Erklärung von Verträgen und Dokumenten",
+        "item2": "Übersetzung wichtiger Unterlagen",
+        "item3": "Kommunikation mit Banken und Behörden",
+        "item4": "Begleitung bei Notarterminen"
+      }
+    },
+    "additionalFormalities": {
+      "title": "Weitere Formalitäten & Tipps, die man leicht vergisst",
+      "intro": "Was ich anfangs nicht wusste: es gibt noch ein paar kleinere Dinge, die man schnell übersieht – die aber entscheidend sind.",
+      "nie": {
+        "title": "NIE vs. NIF",
+        "description": "Die NIE ist die Identifikationsnummer, die NIF wird dann relevant, sobald du steuerlich in Spanien aktiv bist."
+      },
+      "digitalCert": {
+        "title": "Zertificado Digital",
+        "description": "Eine Art digitaler Ausweis für Behördengänge online. Spart Zeit und Nerven – ich habe es bis heute noch nicht, aber es steht auf meiner Liste."
+      },
+      "insurance": {
+        "title": "Versicherung",
+        "description": "Viele Banken bestehen auf einer Hausrat- oder Gebäudeversicherung, bevor sie den Kredit auszahlen. Also rechtzeitig kümmern."
+      },
+      "notary": {
+        "title": "Notarwahl",
+        "description": "Den Notar darfst du als Käufer selbst bestimmen. Unterschiede gibt es sowohl beim Preis als auch bei den Sprachkenntnissen."
+      },
+      "conclusion": {
+        "title": "Fazit",
+        "text": "Das sind aus meiner Sicht die wichtigsten Punkte, die man erledigt haben sollte, bevor es wirklich ans Eingemachte mit Verträgen und Notarterminen geht. Vor allem eine gute Gestoría frühzeitig an der Seite zu haben, kann einem enorm viel Stress ersparen."
+      }
+    }
   }
 }
