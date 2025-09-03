@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.regionDecision.onSite.title') }}
+      {{ $t('regionDecision.onSite.title') }}
     </h3>
     <!-- Bildercarousel für Murcia -->
     <div class="w-full mb-8 flex flex-col justify-center">
@@ -41,10 +41,10 @@
     <div class="w-full mb-8">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('hero.regionDecision.onSite.paragraph1') }}
+          {{ $t('regionDecision.onSite.paragraph1') }}
         </p>
         <p>
-          {{ $t('hero.regionDecision.onSite.paragraph2') }}
+          {{ $t('regionDecision.onSite.paragraph2') }}
         </p>
       </div>
     </div>
@@ -57,11 +57,11 @@
             <Icon name="heroicons:heart" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.onSite.glutenFree.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.onSite.glutenFree.subtitle') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.onSite.glutenFree.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.onSite.glutenFree.subtitle') }}</p>
           </div>
         </div>
-        <p class="text-gray-700">{{ $t('hero.regionDecision.onSite.glutenFree.description') }}</p>
+        <p class="text-gray-700">{{ $t('regionDecision.onSite.glutenFree.description') }}</p>
       </div>
 
       <!-- Umland erkunden -->
@@ -71,11 +71,11 @@
             <Icon name="heroicons:map" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.onSite.exploration.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.onSite.exploration.subtitle') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.onSite.exploration.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.onSite.exploration.subtitle') }}</p>
           </div>
         </div>
-        <p class="text-gray-700">{{ $t('hero.regionDecision.onSite.exploration.description') }}</p>
+        <p class="text-gray-700">{{ $t('regionDecision.onSite.exploration.description') }}</p>
       </div>
     </div>
   </div>

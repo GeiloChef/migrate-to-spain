@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.regionDecision.murcia.title') }}
+      {{ $t('regionDecision.murcia.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('hero.regionDecision.murcia.intro') }}
+          {{ $t('regionDecision.murcia.intro') }}
         </p>
         <p>
-          {{ $t('hero.regionDecision.murcia.introExtended') }}
+          {{ $t('regionDecision.murcia.introExtended') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -29,13 +29,13 @@
             <Icon name="heroicons:building-office" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.murcia.city.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.murcia.city.population') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.murcia.city.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.murcia.city.population') }}</p>
           </div>
         </div>
-        <p class="text-gray-700 mb-3">{{ $t('hero.regionDecision.murcia.city.location') }}</p>
-        <p class="text-gray-700 mb-3">{{ $t('hero.regionDecision.murcia.city.atmosphere') }}</p>
-        <p class="text-gray-700">{{ $t('hero.regionDecision.murcia.city.modern') }}</p>
+        <p class="text-gray-700 mb-3">{{ $t('regionDecision.murcia.city.location') }}</p>
+        <p class="text-gray-700 mb-3">{{ $t('regionDecision.murcia.city.atmosphere') }}</p>
+        <p class="text-gray-700">{{ $t('regionDecision.murcia.city.modern') }}</p>
       </div>
 
       <!-- Region Murcia -->
@@ -45,13 +45,13 @@
             <Icon name="heroicons:map" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.murcia.region.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.murcia.region.subtitle') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.murcia.region.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.murcia.region.subtitle') }}</p>
           </div>
         </div>
-        <p class="text-gray-700 mb-3">{{ $t('hero.regionDecision.murcia.region.landscape') }}</p>
-        <p class="text-gray-700 mb-3">{{ $t('hero.regionDecision.murcia.region.coast') }}</p>
-        <p class="text-gray-700">{{ $t('hero.regionDecision.murcia.region.climate') }}</p>
+        <p class="text-gray-700 mb-3">{{ $t('regionDecision.murcia.region.landscape') }}</p>
+        <p class="text-gray-700 mb-3">{{ $t('regionDecision.murcia.region.coast') }}</p>
+        <p class="text-gray-700">{{ $t('regionDecision.murcia.region.climate') }}</p>
       </div>
     </div>
   </div>

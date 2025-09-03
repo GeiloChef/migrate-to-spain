@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.regionDecision.conclusion.title') }}
+      {{ $t('regionDecision.conclusion.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('hero.regionDecision.conclusion.paragraph1') }}
+          {{ $t('regionDecision.conclusion.paragraph1') }}
         </p>
         <p>
-          {{ $t('hero.regionDecision.conclusion.paragraph2') }}
+          {{ $t('regionDecision.conclusion.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -27,8 +27,8 @@
         <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full mx-auto mb-4">
           <Icon name="heroicons:check-circle" class="w-8 h-8 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('hero.regionDecision.conclusion.decision.title') }}</h4>
-        <p class="text-gray-700 text-sm">{{ $t('hero.regionDecision.conclusion.decision.description') }}</p>
+        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.decision.title') }}</h4>
+        <p class="text-gray-700 text-sm">{{ $t('regionDecision.conclusion.decision.description') }}</p>
       </div>
 
       <!-- Nächste Schritte -->
@@ -36,8 +36,8 @@
         <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-4">
           <Icon name="heroicons:arrow-right" class="w-8 h-8 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('hero.regionDecision.conclusion.nextSteps.title') }}</h4>
-        <p class="text-gray-700 text-sm">{{ $t('hero.regionDecision.conclusion.nextSteps.description') }}</p>
+        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.nextSteps.title') }}</h4>
+        <p class="text-gray-700 text-sm">{{ $t('regionDecision.conclusion.nextSteps.description') }}</p>
       </div>
 
       <!-- Fokus -->
@@ -45,8 +45,8 @@
         <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full mx-auto mb-4">
           <Icon name="heroicons:home" class="w-8 h-8 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('hero.regionDecision.conclusion.focus.title') }}</h4>
-        <p class="text-gray-700 text-sm">{{ $t('hero.regionDecision.conclusion.focus.description') }}</p>
+        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.focus.title') }}</h4>
+        <p class="text-gray-700 text-sm">{{ $t('regionDecision.conclusion.focus.description') }}</p>
       </div>
     </div>
   </div>

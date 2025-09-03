@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.regionDecision.cityCountry.title') }}
+      {{ $t('regionDecision.cityCountry.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('hero.regionDecision.cityCountry.paragraph1') }}
+          {{ $t('regionDecision.cityCountry.paragraph1') }}
         </p>
         <p>
-          {{ $t('hero.regionDecision.cityCountry.paragraph2') }}
+          {{ $t('regionDecision.cityCountry.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -29,11 +29,11 @@
             <Icon name="heroicons:exclamation-triangle" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.cityCountry.parking.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.cityCountry.parking.subtitle') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.cityCountry.parking.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.cityCountry.parking.subtitle') }}</p>
           </div>
         </div>
-        <p class="text-gray-700">{{ $t('hero.regionDecision.cityCountry.parking.description') }}</p>
+        <p class="text-gray-700">{{ $t('regionDecision.cityCountry.parking.description') }}</p>
       </div>
 
       <!-- Immobilienpreise -->
@@ -43,11 +43,11 @@
             <Icon name="heroicons:currency-euro" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.cityCountry.prices.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.cityCountry.prices.subtitle') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.cityCountry.prices.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.cityCountry.prices.subtitle') }}</p>
           </div>
         </div>
-        <p class="text-gray-700">{{ $t('hero.regionDecision.cityCountry.prices.description') }}</p>
+        <p class="text-gray-700">{{ $t('regionDecision.cityCountry.prices.description') }}</p>
       </div>
     </div>
   </div>

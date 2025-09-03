@@ -1,11 +1,11 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.regionDecision.favorites.title') }}
+      {{ $t('regionDecision.favorites.title') }}
     </h3>
     <div class="space-y-6 text-gray-700 leading-relaxed mb-8">
       <p>
-        {{ $t('hero.regionDecision.favorites.intro') }}
+        {{ $t('regionDecision.favorites.intro') }}
       </p>
     </div>
     
@@ -17,12 +17,12 @@
             <Icon name="heroicons:sun" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.favorites.andalusia.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.favorites.andalusia.cities') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.andalusia.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.favorites.andalusia.cities') }}</p>
           </div>
         </div>
-        <p class="text-gray-700 mb-3">{{ $t('hero.regionDecision.favorites.andalusia.pros') }}</p>
-        <p class="text-gray-600 text-sm">{{ $t('hero.regionDecision.favorites.andalusia.cons') }}</p>
+        <p class="text-gray-700 mb-3">{{ $t('regionDecision.favorites.andalusia.pros') }}</p>
+        <p class="text-gray-600 text-sm">{{ $t('regionDecision.favorites.andalusia.cons') }}</p>
       </div>
 
       <!-- Valencia -->
@@ -32,12 +32,12 @@
             <Icon name="heroicons:building-library" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.favorites.valencia.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.favorites.valencia.subtitle') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.valencia.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.favorites.valencia.subtitle') }}</p>
           </div>
         </div>
-        <p class="text-gray-700 mb-3">{{ $t('hero.regionDecision.favorites.valencia.pros') }}</p>
-        <p class="text-gray-600 text-sm">{{ $t('hero.regionDecision.favorites.valencia.cons') }}</p>
+        <p class="text-gray-700 mb-3">{{ $t('regionDecision.favorites.valencia.pros') }}</p>
+        <p class="text-gray-600 text-sm">{{ $t('regionDecision.favorites.valencia.cons') }}</p>
       </div>
 
       <!-- Costa Blanca -->
@@ -47,12 +47,12 @@
             <Icon name="heroicons:sparkles" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.favorites.costaBlanca.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.favorites.costaBlanca.subtitle') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.costaBlanca.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.favorites.costaBlanca.subtitle') }}</p>
           </div>
         </div>
-        <p class="text-gray-700 mb-3">{{ $t('hero.regionDecision.favorites.costaBlanca.pros') }}</p>
-        <p class="text-gray-600 text-sm">{{ $t('hero.regionDecision.favorites.costaBlanca.cons') }}</p>
+        <p class="text-gray-700 mb-3">{{ $t('regionDecision.favorites.costaBlanca.pros') }}</p>
+        <p class="text-gray-600 text-sm">{{ $t('regionDecision.favorites.costaBlanca.cons') }}</p>
       </div>
 
       <!-- Murcia -->
@@ -62,12 +62,12 @@
             <Icon name="heroicons:star" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('hero.regionDecision.favorites.murcia.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('hero.regionDecision.favorites.murcia.subtitle') }}</p>
+            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.murcia.title') }}</h4>
+            <p class="text-sm text-gray-600">{{ $t('regionDecision.favorites.murcia.subtitle') }}</p>
           </div>
         </div>
-        <p class="text-gray-700 mb-3">{{ $t('hero.regionDecision.favorites.murcia.pros') }}</p>
-        <p class="text-gray-600 text-sm">{{ $t('hero.regionDecision.favorites.murcia.cons') }}</p>
+        <p class="text-gray-700 mb-3">{{ $t('regionDecision.favorites.murcia.pros') }}</p>
+        <p class="text-gray-600 text-sm">{{ $t('regionDecision.favorites.murcia.cons') }}</p>
       </div>
     </div>
   </div>

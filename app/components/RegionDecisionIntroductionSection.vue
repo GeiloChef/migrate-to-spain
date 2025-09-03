@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.regionDecision.introduction.title') }}
+      {{ $t('regionDecision.introduction.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('hero.regionDecision.introduction.paragraph1') }}
+          {{ $t('regionDecision.introduction.paragraph1') }}
         </p>
         <p>
-          {{ $t('hero.regionDecision.introduction.paragraph2') }}
+          {{ $t('regionDecision.introduction.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">

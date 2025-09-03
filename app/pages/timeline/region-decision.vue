@@ -22,13 +22,13 @@
       <div class="absolute inset-0 flex items-end p-8 md:p-12">
         <div class="text-white max-w-4xl">
           <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-sm font-medium mb-6 border border-white/30">
-            {{ $t('hero.regionDecision.badge') }}
+            {{ $t('regionDecision.badge') }}
           </div>
           <h2 class="!text-4xl md:!text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
-            {{ $t('hero.regionDecision.title') }}
+            {{ $t('regionDecision.title') }}
           </h2>
           <p class="!text-lg md:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
-            {{ $t('hero.regionDecision.subtitle') }}
+            {{ $t('regionDecision.subtitle') }}
           </p>
         </div>
       </div>

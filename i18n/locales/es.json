@@ -589,7 +589,7 @@
     },
     "cta": {
       "title": "¿Listo para Comenzar tu Viaje?",
-      "description": "Únete a miles de otros que han hecho de España su nuevo hogar exitosamente con nuestra guía probada.",
+      "description": "Únete a miles de otros que han hecho de España su nuevo hogar con nuestra guía probada.",
       "button": "Comenzar Hoy"
     }
   },
@@ -641,6 +641,115 @@
     "bonus": {
       "title": "Bonus: Comida Sin Gluten",
       "description": "Obviamente más fácil y variada que en Alemania, tanto en supermercados como en restaurantes."
+    }
+  },
+  "regionDecision": {
+    "badge": "Decisión de Región",
+    "title": "De la Teoría a la Práctica",
+    "subtitle": "Cómo seleccioné la región de Murcia como mi nuevo hogar después de una investigación intensiva y viajes de prueba.",
+    "introduction": {
+      "title": "De la Teoría a la Práctica",
+      "paragraph1": "Después de una investigación intensiva y innumerables horas de planificación, finalmente era hora de poner la teoría en práctica. Había reunido toda la información, analizado las diferentes regiones, y ahora necesitaba experimentar España de primera mano para tomar mi decisión final.",
+      "paragraph2": "La elección de la región determinaría no solo dónde viviría, sino también mi calidad de vida, costos y oportunidades de integración. Era una decisión que daría forma a toda mi aventura española."
+    },
+    "population": {
+      "title": "Distribución de Población",
+      "paragraph1": "La población de España está muy desigualmente distribuida. Mientras que Madrid y Barcelona están reventando por las costuras, muchas áreas rurales están experimentando una despoblación significativa. Esto crea oportunidades interesantes para aquellos que buscan una vida más tranquila.",
+      "paragraph2": "Las regiones costeras son particularmente populares entre los expatriados, pero esto también significa precios más altos y más turismo. Las regiones del interior a menudo ofrecen mejor relación calidad-precio y una vida española más auténtica."
+    },
+    "favorites": {
+      "title": "Mi Lista de Favoritos",
+      "intro": "Después de una investigación extensiva, había reducido mis opciones a cuatro regiones que parecían más prometedoras para mis necesidades y preferencias.",
+      "andalusia": {
+        "title": "Andalucía",
+        "cities": "Sevilla, Málaga o Granada",
+        "pros": "Para muchos, la clásica \"España de expatriados\". Mucho sol, mucha cultura, mar y montañas juntos.",
+        "cons": "Pero para mí, a menudo ya muy turístico y no tan atractivo en términos de precio."
+      },
+      "valencia": {
+        "title": "Valencia",
+        "subtitle": "Una gran mezcla de gran ciudad, mar e infraestructura moderna.",
+        "pros": "Metrópolis moderna con buena infraestructura y acceso al mar.",
+        "cons": "Pero la región metropolitana es enorme y muy orientada internacionalmente – yo quería algo más español y un poco más tranquilo."
+      },
+      "costaBlanca": {
+        "title": "Alicante y Costa Blanca",
+        "subtitle": "Muchos no españoles, playas de ensueño, buena infraestructura.",
+        "pros": "Playas de ensueño y buena infraestructura para expatriados.",
+        "cons": "Pero ese era exactamente el problema: demasiados turistas, demasiadas panaderías alemanas. Yo quería más autenticidad."
+      },
+      "murcia": {
+        "title": "Murcia",
+        "subtitle": "Una región que a menudo se pasa por alto.",
+        "pros": "Tradicional, soleada, más barata que muchas regiones vecinas, mientras tiene buen acceso al mar.",
+        "cons": "Incluso en papel, Murcia parecía ofrecer la mezcla perfecta."
+      }
+    },
+    "murcia": {
+      "title": "Murcia – Ciudad y Región",
+      "intro": "Murcia es una región en el sureste de España que está un poco subestimada. Muchos expatriados son atraídos por Andalucía, Valencia o Cataluña – pero Murcia a menudo se queda bajo el radar. Eso es exactamente lo que la hizo emocionante para mí.",
+      "introExtended": "Lo que hace especial a Murcia es la combinación de vida urbana y proximidad a la naturaleza. En minutos, puedes ir del centro de la ciudad animado a las montañas tranquilas o al mar. Esta variedad, combinada con el clima mediterráneo cálido y la atmósfera acogedora, hace de Murcia un lugar donde inmediatamente te sientes en casa.",
+      "city": {
+        "title": "La Ciudad de Murcia",
+        "population": "Con alrededor de 450,000 habitantes",
+        "location": "No está directamente en el mar, sino en el fértil Valle del Segura, lo que le da una atmósfera muy especial.",
+        "atmosphere": "Cualquiera que visite Murcia experimenta callejones estrechos con bares tradicionales, una catedral imponente en el centro, muchos festivales y un ambiente muy tradicional y español.",
+        "modern": "Al mismo tiempo, hay distritos modernos, grandes centros comerciales, universidades y todo lo que necesitas para la vida cotidiana."
+      },
+      "region": {
+        "title": "La Región de Murcia",
+        "subtitle": "Ofrece aún más",
+        "landscape": "Llanuras extensas con naranjales y limoneros, pequeños pueblos, montañas en el sur.",
+        "coast": "Y no olvidar el Mar Menor y la costa mediterránea, a los que puedes llegar en coche en menos de una hora.",
+        "climate": "El clima es seco y soleado – casi desértico – lo que personalmente me venía muy bien."
+      }
+    },
+    "onSite": {
+      "title": "Mi Impresión In Situ",
+      "paragraph1": "Cuando finalmente viajé a Murcia, supe inmediatamente: Esto podría funcionar. La ciudad me encantó de inmediato. Todo se sentía muy tradicionalmente español – exactamente lo que estaba buscando. Además, la gran sorpresa: Para mi enfermedad celíaca, encontré aquí una selección realmente buena de comida sin gluten.",
+      "paragraph2": "Usé el tiempo no solo para explorar la ciudad, sino también para conocer el área circundante. Las montañas en el sur me dieron puestas de sol inolvidables, y cuando tenía ganas de ir al mar, la costa estaba a solo 50 minutos en coche. En total, pasé más de dos meses en Murcia – suficiente tiempo para llevarme no solo sentimientos de vacaciones, sino momentos reales de la vida cotidiana.",
+      "glutenFree": {
+        "title": "Comida Sin Gluten",
+        "subtitle": "Una sorpresa positiva",
+        "description": "Tanto en supermercados como en restaurantes, la selección era significativamente mayor de lo que habría esperado. Esto me quitó gran parte de mi preocupación inicial."
+      },
+      "exploration": {
+        "title": "Explorar los Alrededores",
+        "subtitle": "Montañas y mar al alcance",
+        "description": "Las montañas en el sur me dieron puestas de sol inolvidables, y la costa está a solo 50 minutos en coche."
+      }
+    },
+    "cityCountry": {
+      "title": "Entre Ciudad y Campo",
+      "paragraph1": "Pero a pesar de todas las impresiones positivas, me di cuenta: El centro de la ciudad de Murcia no era del todo ideal para mí. Sobre todo, la situación de estacionamiento era caótica – como alguien que viene del campo, me resultaba difícil buscar constantemente un lugar de estacionamiento en calles abarrotadas.",
+      "paragraph2": "También, los precios de las propiedades en el centro parecían menos atractivos en comparación con el área circundante cuando se pesaban precio y calidad de vida entre sí.",
+      "parking": {
+        "title": "Problema de Estacionamiento",
+        "subtitle": "Situación de estacionamiento caótica",
+        "description": "Como alguien que viene del campo, me resultaba difícil buscar constantemente un lugar de estacionamiento en calles abarrotadas."
+      },
+      "prices": {
+        "title": "Precios de Propiedades",
+        "subtitle": "Centro vs. alrededores",
+        "description": "Los precios de las propiedades en el centro parecían menos atractivos en comparación con el área circundante cuando se pesaban precio y calidad de vida entre sí."
+      }
+    },
+    "conclusion": {
+      "title": "La Decisión Está Tomada",
+      "paragraph1": "Así que estaba claro para mí: Será la región de Murcia – pero no la ciudad misma. La decisión estaba tomada. En mis próximos viajes, ya no debería ser solo sobre explorar, sino sobre la búsqueda concreta de propiedades.",
+      "paragraph2": "Había encontrado una región que cumplía con todos mis criterios: cálida, auténtica, habitable y con buena infraestructura. Ahora se trataba de encontrar el lugar perfecto dentro de esta región.",
+      "decision": {
+        "title": "Decisión Tomada",
+        "description": "Región de Murcia seleccionada como nuevo hogar – cálida, auténtica y habitable."
+      },
+      "nextSteps": {
+        "title": "Próximos Pasos",
+        "description": "Búsqueda concreta de propiedades en la región de Murcia, ya no solo exploración."
+      },
+      "focus": {
+        "title": "Enfoque Cambiado",
+        "description": "De la selección de región a la búsqueda concreta de lugar y propiedades."
+      }
     }
   }
 }
