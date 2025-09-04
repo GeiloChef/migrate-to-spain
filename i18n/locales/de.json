@@ -925,6 +925,13 @@
         "germanResult": "Meist nicht möglich",
         "spanish": "Spanische Banken",
         "spanishResult": "Bis 70% Finanzierung"
+      },
+      "expectations": {
+        "title": "Was du bei spanischen Banken erwarten musst",
+        "item1": "Höhere Zinsen als bei deutschen Banken",
+        "item2": "Mehr Eigenkapital erforderlich (mindestens 30%)",
+        "item3": "Strengere Bonitätsprüfungen",
+        "item4": "Längere Bearbeitungszeiten (mindestens 1 Monat)"
       }
     },
     "gestoria": {

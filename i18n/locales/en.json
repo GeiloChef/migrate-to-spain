@@ -1005,6 +1005,13 @@
         "germanResult": "Usually not possible",
         "spanish": "Spanish Banks",
         "spanishResult": "Up to 70% financing"
+      },
+      "expectations": {
+        "title": "What to expect from Spanish banks",
+        "item1": "Higher interest rates than German banks",
+        "item2": "More equity required (at least 30%)",
+        "item3": "Stricter credit checks",
+        "item4": "Longer processing times (at least 1 month)"
       }
     },
     "gestoria": {

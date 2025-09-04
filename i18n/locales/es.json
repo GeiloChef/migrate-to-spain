@@ -971,6 +971,13 @@
         "germanResult": "Generalmente no es posible",
         "spanish": "Bancos Españoles",
         "spanishResult": "Hasta 70% de financiación"
+      },
+      "expectations": {
+        "title": "Qué esperar de los bancos españoles",
+        "item1": "Tasas de interés más altas que los bancos alemanes",
+        "item2": "Más capital propio requerido (al menos 30%)",
+        "item3": "Verificaciones de crédito más estrictas",
+        "item4": "Tiempos de procesamiento más largos (al menos 1 mes)"
       }
     },
     "gestoria": {
