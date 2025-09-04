@@ -1,12 +1,23 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('propertyPurchase.whatToLookFor.title') }}
-    </h3>
-    <div class="space-y-8 text-gray-700 leading-relaxed">
-      <p class="mb-8">
+    <div class="flex items-center gap-3 mb-8">
+      <div class="w-12 h-12 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-xl flex items-center justify-center">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <h3 class="!text-2xl font-bold text-gray-900">
+        {{ $t('propertyPurchase.whatToLookFor.title') }}
+      </h3>
+    </div>
+    
+    <div class="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-2xl p-6 mb-8 border border-indigo-100">
+      <p class="text-indigo-800 text-lg leading-relaxed">
         {{ $t('propertyPurchase.whatToLookFor.content') }}
       </p>
+    </div>
+    
+    <div class="space-y-8 text-gray-700 leading-relaxed">
 
       <!-- Haus vs. Wohnung -->
       <div class="space-y-4">
