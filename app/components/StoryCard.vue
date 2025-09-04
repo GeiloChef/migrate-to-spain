@@ -94,13 +94,13 @@ const timelineUrl = computed(() => {
     3: '/timeline/learning-spanish',
     4: '/timeline/discovering-spain',
     5: '/timeline/region-decision',
-    6: '/timeline/first-research-feasibility',
-    7: '/timeline/first-research-feasibility',
-    8: '/timeline/first-research-feasibility',
-    9: '/timeline/first-research-feasibility',
-    10: '/timeline/first-research-feasibility',
-    11: '/timeline/first-research-feasibility',
-    12: '/timeline/first-research-feasibility'
+    6: '/timeline/apartment-search',
+    7: '/timeline/bureaucracy-prerequisites',
+    8: '/timeline/property-purchase',
+    9: '/timeline/bureaucracy-prerequisites',
+    10: '/timeline/bureaucracy-prerequisites',
+    11: '/timeline/bureaucracy-prerequisites',
+    12: '/timeline/bureaucracy-prerequisites'
   }
   return stepUrls[props.stepNumber] || '/timeline'
 })
