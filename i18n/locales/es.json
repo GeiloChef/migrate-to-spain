@@ -985,13 +985,21 @@
       "paragraph1": "Y aquí viene mi consejo secreto personal: una gestoría. De todos los costos en el proceso de compra, los de mi gestoría fueron los únicos en los que ni siquiera me estremecí. En retrospectiva, fue la mejor decisión después de comprar el apartamento mismo.",
       "paragraph2": "Las semanas entre el contrato preliminar y la cita notarial fueron de lejos el momento más estresante de mi vida. Ya tienes mucho dinero en el proyecto – y sabes que puedes perderlo si pierdes una fecha límite o falta un documento.",
       "paragraph3": "Terminé bastante al azar en Gestoría Carrasco & Fischer en Orihuela Costa – y fui atendido de primera desde el primer día. Me explicaron el Contrato de Arras, tradujeron los contratos, se hicieron cargo de la comunicación con el banco y me acompañaron al notario.",
-      "tip": "En resumen: sin ellos probablemente habría perdido la cabeza. Una gestoría es una oficina que te guía a través de toda la burocracia en España – desde impuestos hasta contratos hasta el re-registro de electricidad y agua.",
+      "paragraph4": "Alternativamente (o adicionalmente), también puedes contratar un abogado especializado en derecho inmobiliario. Ellos principalmente verifican si la propiedad está legalmente limpia: sin disputas legales abiertas, sin construcciones ilegales, sin sorpresas desagradables. Cuesta más, pero da seguridad. Yo mismo me abstuve de hacerlo – también porque ya había firmado el Contrato de Arras precipitadamente.",
+      "tip": "Sin gestoría, probablemente habría perdido la cabeza durante el proceso de compra. Una gestoría es una oficina que te guía a través de toda la burocracia en España – desde impuestos hasta contratos hasta el re-registro de electricidad y agua. La inversión en ayuda profesional fue la mejor decisión para mí después de comprar el apartamento mismo.",
       "services": {
         "title": "Servicios de Gestoría",
         "item1": "Explicación de contratos y documentos",
         "item2": "Traducción de documentos importantes",
         "item3": "Comunicación con bancos y autoridades",
         "item4": "Acompañamiento en citas notariales"
+      },
+      "lawyerServices": {
+        "title": "Servicios de Abogado",
+        "item1": "Examen legal de la propiedad",
+        "item2": "Verificación de disputas legales abiertas",
+        "item3": "Control de construcciones ilegales",
+        "item4": "Revisión de contratos y asesoramiento legal"
       }
     },
     "additionalFormalities": {

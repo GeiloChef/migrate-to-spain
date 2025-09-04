@@ -1019,13 +1019,21 @@
       "paragraph1": "And here comes my personal secret tip: a gestoría. Of all the costs in the purchase process, those for my gestoría were the only ones where I didn't even flinch. In retrospect, it was the best decision after buying the apartment itself.",
       "paragraph2": "The weeks between preliminary contract and notary appointment were by far the most stressful time of my life. You already have a lot of money in the project – and know that you can lose it if you miss a deadline or a document is missing.",
       "paragraph3": "I ended up quite randomly at Gestoría Carrasco & Fischer in Orihuela Costa – and was looked after top from day one. They explained the Contrato de Arras to me, translated the contracts, took over communication with the bank and accompanied me to the notary.",
-      "tip": "In short: without them I would probably have lost my mind. A gestoría is an office that guides you through all the bureaucracy in Spain – from taxes to contracts to re-registration of electricity and water.",
+      "paragraph4": "Alternatively (or additionally), you can also hire a lawyer for real estate law. They mainly check whether the property is legally clean: no open legal disputes, no illegal constructions, no nasty surprises. Costs more, but provides security. I myself refrained from doing so – also because I had already signed the Contrato de Arras in a rush.",
+      "tip": "Without a gestoría, I would probably have lost my mind during the purchase process. A gestoría is an office that guides you through all the bureaucracy in Spain – from taxes to contracts to re-registration of electricity and water. The investment in professional help was the best decision for me after buying the apartment itself.",
       "services": {
         "title": "Gestoría Services",
         "item1": "Explanation of contracts and documents",
         "item2": "Translation of important documents",
         "item3": "Communication with banks and authorities",
         "item4": "Accompaniment at notary appointments"
+      },
+      "lawyerServices": {
+        "title": "Lawyer Services",
+        "item1": "Legal examination of the property",
+        "item2": "Check for open legal disputes",
+        "item3": "Control for illegal constructions",
+        "item4": "Contract review and legal advice"
       }
     },
     "additionalFormalities": {

@@ -939,13 +939,21 @@
       "paragraph1": "Und hier kommt mein persönlicher Geheimtipp: eine Gestoría. Von allen Kosten im Kaufprozess waren die für meine Gestoría die einzigen, bei denen ich nicht mal gezuckt habe. Rückblickend war es die beste Entscheidung nach dem Kauf der Wohnung selbst.",
       "paragraph2": "Die Wochen zwischen Vorvertrag und Notartermin waren mit Abstand die stressigste Zeit meines Lebens. Da steckst du schon ordentlich Geld im Projekt – und weißt, dass du es verlieren kannst, wenn du eine Frist verpasst oder ein Dokument fehlt.",
       "paragraph3": "Ich bin eher zufällig bei der Gestoría Carrasco & Fischer in Orihuela Costa gelandet – und wurde dort von Tag eins an top betreut. Sie haben mir den Contrato de Arras erklärt, die Verträge übersetzt, die Kommunikation mit der Bank übernommen und mich beim Notar begleitet.",
-      "tip": "Kurz gesagt: ohne sie hätte ich vermutlich den Verstand verloren. Eine Gestoría ist ein Büro, das dich in Spanien durch die ganze Bürokratie lotst – von Steuern über Verträge bis hin zur Ummeldung von Strom und Wasser.",
+      "paragraph4": "Alternativ (oder zusätzlich) kann man auch einen Anwalt für Immobilienrecht beauftragen. Der prüft vor allem, ob die Immobilie rechtlich sauber ist: keine offenen Rechtsstreitigkeiten, keine Schwarzbauten, keine bösen Überraschungen. Kostet zwar mehr, aber gibt Sicherheit. Ich selbst habe darauf verzichtet – auch weil ich den Contrato de Arras schon überstürzt unterschrieben hatte.",
+      "tip": "Ohne Gestoría hätte ich im Kaufprozess vermutlich den Verstand verloren. Eine Gestoría ist ein Büro, das dich in Spanien durch die ganze Bürokratie lotst – von Steuern über Verträge bis hin zur Ummeldung von Strom und Wasser. Die Investition in professionelle Hilfe war für mich die beste Entscheidung nach dem Kauf der Wohnung selbst.",
       "services": {
         "title": "Leistungen einer Gestoría",
         "item1": "Erklärung von Verträgen und Dokumenten",
         "item2": "Übersetzung wichtiger Unterlagen",
         "item3": "Kommunikation mit Banken und Behörden",
         "item4": "Begleitung bei Notarterminen"
+      },
+      "lawyerServices": {
+        "title": "Leistungen eines Rechtsanwalts",
+        "item1": "Rechtliche Prüfung der Immobilie",
+        "item2": "Überprüfung auf offene Rechtsstreitigkeiten",
+        "item3": "Kontrolle auf Schwarzbauten",
+        "item4": "Vertragsprüfung und rechtliche Beratung"
       }
     },
     "additionalFormalities": {

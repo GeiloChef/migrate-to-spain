@@ -20,11 +20,9 @@
         <p class="mb-4">
           {{ $t('bureaucracy.gestoria.paragraph3') }}
         </p>
-        <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg">
-          <p class="text-blue-800 font-medium">
-            {{ $t('bureaucracy.gestoria.tip') }}
-          </p>
-        </div>
+        <p class="mb-4">
+          {{ $t('bureaucracy.gestoria.paragraph4') }}
+        </p>
       </div>
       <div class="space-y-4">
         <div class="h-48 rounded-xl overflow-hidden shadow-md">
@@ -34,8 +32,12 @@
             class="w-full h-full object-cover"
           />
         </div>
+        <!-- Gestoría Leistungen -->
         <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.gestoria.services.title') }}</h4>
+          <h4 class="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+            <span class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold">🏢</span>
+            {{ $t('bureaucracy.gestoria.services.title') }}
+          </h4>
           <ul class="text-sm text-gray-600 space-y-1">
             <li>• {{ $t('bureaucracy.gestoria.services.item1') }}</li>
             <li>• {{ $t('bureaucracy.gestoria.services.item2') }}</li>
@@ -43,7 +45,28 @@
             <li>• {{ $t('bureaucracy.gestoria.services.item4') }}</li>
           </ul>
         </div>
+        
+        <!-- Rechtsanwalt Leistungen -->
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <h4 class="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+            <span class="w-6 h-6 bg-purple-500 text-white rounded-full flex items-center justify-center text-xs font-bold">⚖️</span>
+            {{ $t('bureaucracy.gestoria.lawyerServices.title') }}
+          </h4>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• {{ $t('bureaucracy.gestoria.lawyerServices.item1') }}</li>
+            <li>• {{ $t('bureaucracy.gestoria.lawyerServices.item2') }}</li>
+            <li>• {{ $t('bureaucracy.gestoria.lawyerServices.item3') }}</li>
+            <li>• {{ $t('bureaucracy.gestoria.lawyerServices.item4') }}</li>
+          </ul>
+        </div>
       </div>
+    </div>
+    
+    <!-- Tipp-Box - Full Width -->
+    <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg">
+      <p class="text-blue-800 font-medium">
+        {{ $t('bureaucracy.gestoria.tip') }}
+      </p>
     </div>
   </div>
 </template>
