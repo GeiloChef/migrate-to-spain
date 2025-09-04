@@ -32,6 +32,10 @@
             class="w-full h-full object-cover"
           />
         </div>
+        
+        <!-- Finanzierung Überschrift -->
+        <h4 class="font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.financing.financingTitle') }}</h4>
+        
         <div class="bg-gray-50 p-4 rounded-lg">
           <h4 class="font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.financing.comparison.title') }}</h4>
           <div class="space-y-2 text-sm">
