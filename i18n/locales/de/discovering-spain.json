@@ -1,6 +1,5 @@
 {
-  "hero": {
-    "discoveringSpain": {
+  "discoveringSpain": {
     "badge": "Erste Reisen",
     "title": "Spanien entdecken",
     "subtitle": "Erste Reisen nach Spanien: Madrid erkunden, glutenfreies Leben testen, Lebensqualität erleben und erste Kontakte knüpfen.",
@@ -99,6 +98,5 @@
         "description": "Offener als erwartet - erste Kontakte und sogar eine besondere Begegnung"
       }
     }
-  }
   }
 }

@@ -1,11 +1,11 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.discoveringSpain.contacts.title') }}
+      {{ $t('discoveringSpain.contacts.title') }}
     </h3>
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
-        {{ $t('hero.discoveringSpain.contacts.paragraph1') }}
+        {{ $t('discoveringSpain.contacts.paragraph1') }}
       </p>
     </div>
     
@@ -13,16 +13,16 @@
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <h4 class="font-semibold text-gray-900 mb-4 text-xl">
-            {{ $t('hero.discoveringSpain.contacts.emely.title') }}
+            {{ $t('discoveringSpain.contacts.emely.title') }}
           </h4>
           <p class="text-gray-700 mb-4">
-            {{ $t('hero.discoveringSpain.contacts.emely.paragraph1') }}
+            {{ $t('discoveringSpain.contacts.emely.paragraph1') }}
           </p>
           <p class="text-gray-700 mb-4">
-            {{ $t('hero.discoveringSpain.contacts.emely.paragraph2') }}
+            {{ $t('discoveringSpain.contacts.emely.paragraph2') }}
           </p>
           <p class="text-gray-700 font-medium">
-            {{ $t('hero.discoveringSpain.contacts.emely.paragraph3') }}
+            {{ $t('discoveringSpain.contacts.emely.paragraph3') }}
           </p>
         </div>
         <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -42,11 +42,11 @@
             <Icon name="heroicons:sparkles" class="w-5 h-5 text-white" />
           </div>
           <h4 class="font-semibold text-gray-900 text-lg">
-            {{ $t('hero.discoveringSpain.contacts.smallMoments.title') }}
+            {{ $t('discoveringSpain.contacts.smallMoments.title') }}
           </h4>
         </div>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.contacts.smallMoments.description') }}
+          {{ $t('discoveringSpain.contacts.smallMoments.description') }}
         </p>
       </div>
       
@@ -56,11 +56,11 @@
             <Icon name="heroicons:academic-cap" class="w-5 h-5 text-white" />
           </div>
           <h4 class="font-semibold text-gray-900 text-lg">
-            {{ $t('hero.discoveringSpain.contacts.languagePractice.title') }}
+            {{ $t('discoveringSpain.contacts.languagePractice.title') }}
           </h4>
         </div>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.contacts.languagePractice.description') }}
+          {{ $t('discoveringSpain.contacts.languagePractice.description') }}
         </p>
       </div>
     </div>

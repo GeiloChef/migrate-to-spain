@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.discoveringSpain.culture.title') }}
+      {{ $t('discoveringSpain.culture.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('hero.discoveringSpain.culture.paragraph1') }}
+          {{ $t('discoveringSpain.culture.paragraph1') }}
         </p>
         <p>
-          {{ $t('hero.discoveringSpain.culture.paragraph2') }}
+          {{ $t('discoveringSpain.culture.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -28,11 +28,11 @@
             <Icon name="heroicons:moon" class="w-5 h-5 text-white" />
           </div>
           <h4 class="font-semibold text-gray-900 text-lg">
-            {{ $t('hero.discoveringSpain.culture.nightlife.title') }}
+            {{ $t('discoveringSpain.culture.nightlife.title') }}
           </h4>
         </div>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.culture.nightlife.description') }}
+          {{ $t('discoveringSpain.culture.nightlife.description') }}
         </p>
       </div>
       
@@ -42,11 +42,11 @@
             <Icon name="heroicons:heart" class="w-5 h-5 text-white" />
           </div>
           <h4 class="font-semibold text-gray-900 text-lg">
-            {{ $t('hero.discoveringSpain.culture.openness.title') }}
+            {{ $t('discoveringSpain.culture.openness.title') }}
           </h4>
         </div>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.culture.openness.description') }}
+          {{ $t('discoveringSpain.culture.openness.description') }}
         </p>
       </div>
     </div>

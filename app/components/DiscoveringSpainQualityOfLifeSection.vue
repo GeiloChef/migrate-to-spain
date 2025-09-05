@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.discoveringSpain.qualityOfLife.title') }}
+      {{ $t('discoveringSpain.qualityOfLife.title') }}
     </h3>
     
     <!-- Hero Image -->
@@ -14,7 +14,7 @@
     </div>
     
     <p class="text-lg mb-8 text-gray-700">
-      {{ $t('hero.discoveringSpain.qualityOfLife.intro') }}
+      {{ $t('discoveringSpain.qualityOfLife.intro') }}
     </p>
     
     <div class="grid md:grid-cols-3 gap-6 mb-8">
@@ -23,10 +23,10 @@
           <Icon name="heroicons:clock" class="w-6 h-6 text-yellow-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('hero.discoveringSpain.qualityOfLife.everyday.title') }}
+          {{ $t('discoveringSpain.qualityOfLife.everyday.title') }}
         </h4>
         <p class="text-gray-700 leading-relaxed">
-          {{ $t('hero.discoveringSpain.qualityOfLife.everyday.description') }}
+          {{ $t('discoveringSpain.qualityOfLife.everyday.description') }}
         </p>
       </div>
       
@@ -35,10 +35,10 @@
           <Icon name="heroicons:sun" class="w-6 h-6 text-blue-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('hero.discoveringSpain.qualityOfLife.climate.title') }}
+          {{ $t('discoveringSpain.qualityOfLife.climate.title') }}
         </h4>
         <p class="text-gray-700 leading-relaxed">
-          {{ $t('hero.discoveringSpain.qualityOfLife.climate.description') }}
+          {{ $t('discoveringSpain.qualityOfLife.climate.description') }}
         </p>
       </div>
       
@@ -47,20 +47,20 @@
           <Icon name="heroicons:currency-euro" class="w-6 h-6 text-green-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('hero.discoveringSpain.qualityOfLife.costs.title') }}
+          {{ $t('discoveringSpain.qualityOfLife.costs.title') }}
         </h4>
         <p class="text-gray-700 leading-relaxed">
-          {{ $t('hero.discoveringSpain.qualityOfLife.costs.description') }}
+          {{ $t('discoveringSpain.qualityOfLife.costs.description') }}
         </p>
       </div>
     </div>
     
     <div class="space-y-4 text-gray-700 leading-relaxed">
       <h4 class="!text-xl font-semibold text-gray-900">
-        {{ $t('hero.discoveringSpain.qualityOfLife.conclusionTitle') }}
+        {{ $t('discoveringSpain.qualityOfLife.conclusionTitle') }}
       </h4>
       <p class="text-lg">
-        {{ $t('hero.discoveringSpain.qualityOfLife.conclusion') }}
+        {{ $t('discoveringSpain.qualityOfLife.conclusion') }}
       </p>
     </div>
   </div>

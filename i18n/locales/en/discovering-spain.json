@@ -1,6 +1,5 @@
 {
-  "hero": {
-    "discoveringSpain": {
+  "discoveringSpain": {
     "badge": "First Trips",
     "title": "Discovering Spain",
     "subtitle": "First trips to Spain: exploring Madrid, testing gluten-free life, experiencing quality of life and making first contacts.",
@@ -99,6 +98,5 @@
         "description": "More open than expected - first contacts and even a special encounter"
       }
     }
-  }
   }
 }

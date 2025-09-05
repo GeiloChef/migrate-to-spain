@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.discoveringSpain.glutenFree.title') }}
+      {{ $t('discoveringSpain.glutenFree.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('hero.discoveringSpain.glutenFree.paragraph1') }}
+          {{ $t('discoveringSpain.glutenFree.paragraph1') }}
         </p>
         <p>
-          {{ $t('hero.discoveringSpain.glutenFree.paragraph2') }}
+          {{ $t('discoveringSpain.glutenFree.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -28,11 +28,11 @@
             <Icon name="heroicons:building-storefront" class="w-5 h-5 text-white" />
           </div>
           <h4 class="font-semibold text-gray-900 text-lg">
-            {{ $t('hero.discoveringSpain.glutenFree.restaurants.title') }}
+            {{ $t('discoveringSpain.glutenFree.restaurants.title') }}
           </h4>
         </div>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.glutenFree.restaurants.description') }}
+          {{ $t('discoveringSpain.glutenFree.restaurants.description') }}
         </p>
       </div>
       
@@ -42,11 +42,11 @@
             <Icon name="heroicons:shopping-cart" class="w-5 h-5 text-white" />
           </div>
           <h4 class="font-semibold text-gray-900 text-lg">
-            {{ $t('hero.discoveringSpain.glutenFree.supermarkets.title') }}
+            {{ $t('discoveringSpain.glutenFree.supermarkets.title') }}
           </h4>
         </div>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.glutenFree.supermarkets.description') }}
+          {{ $t('discoveringSpain.glutenFree.supermarkets.description') }}
         </p>
       </div>
     </div>

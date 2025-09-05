@@ -1,23 +1,23 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.discoveringSpain.conclusion.title') }}
+      {{ $t('discoveringSpain.conclusion.title') }}
     </h3>
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
-        {{ $t('hero.discoveringSpain.conclusion.paragraph1') }}
+        {{ $t('discoveringSpain.conclusion.paragraph1') }}
       </p>
       <p>
-        {{ $t('hero.discoveringSpain.conclusion.paragraph2') }}
+        {{ $t('discoveringSpain.conclusion.paragraph2') }}
       </p>
     </div>
     
     <div class="mt-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
       <h4 class="font-semibold text-gray-900 mb-4 text-xl">
-        {{ $t('hero.discoveringSpain.conclusion.nextStep.title') }}
+        {{ $t('discoveringSpain.conclusion.nextStep.title') }}
       </h4>
       <p class="text-gray-700 text-lg">
-        {{ $t('hero.discoveringSpain.conclusion.nextStep.description') }}
+        {{ $t('discoveringSpain.conclusion.nextStep.description') }}
       </p>
     </div>
     
@@ -27,10 +27,10 @@
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-green-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('hero.discoveringSpain.conclusion.glutenFree.title') }}
+          {{ $t('discoveringSpain.conclusion.glutenFree.title') }}
         </h4>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.conclusion.glutenFree.description') }}
+          {{ $t('discoveringSpain.conclusion.glutenFree.description') }}
         </p>
       </div>
       
@@ -39,10 +39,10 @@
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-blue-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('hero.discoveringSpain.conclusion.spanish.title') }}
+          {{ $t('discoveringSpain.conclusion.spanish.title') }}
         </h4>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.conclusion.spanish.description') }}
+          {{ $t('discoveringSpain.conclusion.spanish.description') }}
         </p>
       </div>
       
@@ -51,10 +51,10 @@
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-purple-600" />
         </div>
         <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('hero.discoveringSpain.conclusion.people.title') }}
+          {{ $t('discoveringSpain.conclusion.people.title') }}
         </h4>
         <p class="text-gray-700">
-          {{ $t('hero.discoveringSpain.conclusion.people.description') }}
+          {{ $t('discoveringSpain.conclusion.people.description') }}
         </p>
       </div>
     </div>

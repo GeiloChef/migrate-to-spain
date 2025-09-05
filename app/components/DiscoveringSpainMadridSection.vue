@@ -1,15 +1,15 @@
 <template>
   <div>
     <h3 class="!text-2xl font-bold text-gray-900 mb-6">
-      {{ $t('hero.discoveringSpain.madrid.title') }}
+      {{ $t('discoveringSpain.madrid.title') }}
     </h3>
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">
-          {{ $t('hero.discoveringSpain.madrid.paragraph1') }}
+          {{ $t('discoveringSpain.madrid.paragraph1') }}
         </p>
         <p>
-          {{ $t('hero.discoveringSpain.madrid.paragraph2') }}
+          {{ $t('discoveringSpain.madrid.paragraph2') }}
         </p>
       </div>
       <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -28,7 +28,7 @@
         </div>
         <div class="flex-1">
           <h4 class="font-semibold text-gray-900 mb-3 text-lg">
-            {{ $t('hero.discoveringSpain.madrid.highlight') }}
+            {{ $t('discoveringSpain.madrid.highlight') }}
           </h4>
         </div>
       </div>

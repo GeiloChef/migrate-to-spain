@@ -1,6 +1,5 @@
 {
-  "hero": {
-    "discoveringSpain": {
+  "discoveringSpain": {
     "badge": "Primeros Viajes",
     "title": "Descubrir España",
     "subtitle": "Primeros viajes a España: explorar Madrid, probar la vida sin gluten, experimentar la calidad de vida y hacer primeros contactos.",
@@ -99,6 +98,5 @@
         "description": "Más abierta de lo esperado - primeros contactos e incluso un encuentro especial"
       }
     }
-  }
   }
 }
