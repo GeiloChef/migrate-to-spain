@@ -1,0 +1,139 @@
+{
+  "bureaucracy": {
+    "badge": "Bureaucracy & Formalities",
+    "title": "Bureaucracy & Formalities",
+    "subtitle": "Now it got serious! Vacation dreams and sunny visions are one thing, but when buying property in Spain, you simply can't avoid the paperwork.",
+    "navigation": {
+      "title": "Overview of the Most Important Steps",
+      "subtitle": "Click on one of the areas to jump directly to the details",
+      "nie": {
+        "title": "NIE Number",
+        "description": "Your entry ticket to Spain"
+      },
+      "bankAccount": {
+        "title": "Bank Account",
+        "description": "Indispensable for all transactions"
+      },
+      "financing": {
+        "title": "Financing",
+        "description": "German vs. Spanish banks"
+      },
+      "gestoria": {
+        "title": "Gestoría",
+        "description": "Professional help in the paper chaos"
+      },
+      "additionalFormalities": {
+        "title": "Additional Formalities",
+        "description": "Smaller but important details"
+      }
+    },
+    "introduction": {
+      "title": "Introduction",
+      "paragraph1": "Now it got serious! Vacation dreams and sunny visions are one thing, but when buying property in Spain, you simply can't avoid the paperwork – even though much is now digital. And honestly: I had more than just respect for the bureaucracy that was coming my way.",
+      "paragraph2": "Spanish offices, foreign language, endless documents – that sounded like stress at first. But the fact is: Without this step, the dream of your own home in Spain remains just a dream.",
+      "tip": "A small note: I didn't have some documents ready in time and had to catch up on a lot. So that this doesn't happen to you, I'll give you an overview of everything I really needed during my purchase process."
+    },
+    "nie": {
+      "title": "The NIE Number – My Entry Ticket",
+      "paragraph1": "First things first: the NIE number (Número de Identificación de Extranjeros). Without it, nothing works – no bank account, no electricity contract, no purchase contract. It's basically your official fingerprint in Spain.",
+      "paragraph2": "The application is handled by the Policía Nacional. Appointments are available online, sometimes also spontaneously on site – with a lot of luck. Realistically, you have to expect waiting times of several weeks.",
+      "paragraph3": "Since I didn't have the opportunity to constantly lurk for free appointments in Spain, I commissioned a service provider: Spanieninfo (spanieninfo.biz). They handle the application for you if you sign a power of attorney at a German notary and make it valid for Spain with an apostille.",
+      "tip": "My tip: Take care of it in time, preferably before you find your dream apartment. Without NIE, you can't even take the first step in the purchase.",
+      "process": {
+        "onSite": {
+          "title": "Application On-Site",
+          "step1": "Book appointment online with Policía Nacional",
+          "step2": "Go to the authority in person",
+          "step3": "Pick up NIE after a few weeks"
+        },
+        "company": {
+          "title": "Application via Company",
+          "step1": "Sign power of attorney at German notary",
+          "step2": "Apply for apostille for Spain",
+          "step3": "Send documents by registered mail to Spain"
+        }
+      }
+    },
+    "bankAccount": {
+      "title": "A Spanish Bank Account – Nothing Works Without It",
+      "paragraph1": "The next unavoidable step was the Spanish bank account. Whether mortgage, notary fees, property transfer tax or monthly utilities – nothing works without an account in Spain.",
+      "paragraph2": "The choice is great: from Santander to CaixaBank to Bankinter, many banks offer special accounts for foreigners. What you need is relatively clear: your NIE, passport and – if you want to deposit equity immediately – proof of the origin of the money.",
+      "paragraph3": "I myself opted for an account as a non-resident. It costs a bit more, but it's the simplest solution for everyone who doesn't live permanently in Spain.",
+      "tip": "I opened my account quite late with the help of my gestoría – it worked just in time, but I would recommend doing it much earlier.",
+      "requirements": {
+        "title": "Required Documents",
+        "item1": "NIE number (Número de Identificación de Extranjeros)",
+        "item2": "Passport or ID card",
+        "item3": "Proof of money origin (for larger amounts)"
+      }
+    },
+    "financing": {
+      "title": "Financing Options – German vs. Spanish Banks",
+      "paragraph1": "The question of financing is a real sticking point. German banks wave off when it comes to Spanish real estate – unless you have collateral in Germany (e.g., your own property that you can encumber there).",
+      "paragraph2": "So the Spanish banks remain: Santander, Bankinter, CaixaBank and many others. However, the conditions are stricter for non-residents: usually maximum 70% financing, stricter credit checks and higher interest rates.",
+      "paragraph3": "In my case, my real estate agency offered me a partner who was supposed to accompany the entire financing process – but for a hefty 4,000 € fee. I declined and researched myself instead.",
+      "tip": "I can highly recommend Idealista/Hipotecas: there you get offers from various banks in comparison, can use the service in English and even communicate via WhatsApp – for free!",
+      "financingTitle": "Financing",
+      "comparison": {
+        "title": "Bank Comparison",
+        "german": "German Banks",
+        "germanResult": "Usually not possible",
+        "spanish": "Spanish Banks",
+        "spanishResult": "Up to 70% financing"
+      },
+      "expectations": {
+        "title": "What to expect from Spanish banks",
+        "item1": "Higher interest rates than German banks",
+        "item2": "More equity required (at least 30%)",
+        "item3": "Stricter credit checks",
+        "item4": "Longer processing times (at least 1 month)"
+      }
+    },
+    "gestoria": {
+      "title": "Gestoría or Lawyer – My Salvation in the Paper Chaos",
+      "paragraph1": "And here comes my personal secret tip: a gestoría. Of all the costs in the purchase process, those for my gestoría were the only ones where I didn't even flinch. In retrospect, it was the best decision after buying the apartment itself.",
+      "paragraph2": "The weeks between preliminary contract and notary appointment were by far the most stressful time of my life. You already have a lot of money in the project – and know that you can lose it if you miss a deadline or a document is missing.",
+      "paragraph3": "I ended up quite randomly at Gestoría Carrasco & Fischer in Orihuela Costa – and was looked after top from day one. They explained the Contrato de Arras to me, translated the contracts, took over communication with the bank and accompanied me to the notary.",
+      "paragraph4": "Alternatively (or additionally), you can also hire a lawyer for real estate law. They mainly check whether the property is legally clean: no open legal disputes, no illegal constructions, no nasty surprises. Costs more, but provides security. I myself refrained from doing so – also because I had already signed the Contrato de Arras in a rush.",
+      "tip": "Without a gestoría, I would probably have lost my mind during the purchase process. A gestoría is an office that guides you through all the bureaucracy in Spain – from taxes to contracts to re-registration of electricity and water. The investment in professional help was the best decision for me after buying the apartment itself.",
+      "services": {
+        "title": "Gestoría Services",
+        "item1": "Explanation of contracts and documents",
+        "item2": "Translation of important documents",
+        "item3": "Communication with banks and authorities",
+        "item4": "Accompaniment at notary appointments"
+      },
+      "lawyerServices": {
+        "title": "Lawyer Services",
+        "item1": "Legal examination of the property",
+        "item2": "Check for open legal disputes",
+        "item3": "Control for illegal constructions",
+        "item4": "Contract review and legal advice"
+      }
+    },
+    "additionalFormalities": {
+      "title": "Additional Formalities & Tips That Are Easy to Forget",
+      "intro": "What I didn't know at first: there are still a few smaller things that you quickly overlook – but which are crucial.",
+      "nie": {
+        "title": "NIE vs. NIF",
+        "description": "The NIE is the identification number, the NIF becomes relevant as soon as you become tax active in Spain."
+      },
+      "digitalCert": {
+        "title": "Digital Certificate",
+        "description": "A kind of digital ID for online government services. Saves time and nerves – I still don't have it today, but it's on my list."
+      },
+      "insurance": {
+        "title": "Insurance",
+        "description": "Many banks insist on household or building insurance before they pay out the loan. So take care of it in time."
+      },
+      "notary": {
+        "title": "Notary Choice",
+        "description": "As a buyer, you can choose the notary yourself. There are differences both in price and in language skills."
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "text": "These are in my view the most important points that should be completed before it really gets down to business with contracts and notary appointments. Above all, having a good gestoría by your side early on can save you enormous stress."
+      }
+    }
+  }
+}
