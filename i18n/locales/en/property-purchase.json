@@ -1,0 +1,172 @@
+{
+  "propertyPurchase": {
+    "title": "Property Purchase",
+    "subtitle": "My viewings, Arras contract, notary",
+    "description": "Here's the whole journey: from the first viewing, through the signatures, to the key handover at the notary. After that, I'll show you what I paid attention to – and what I would do better next time.",
+    "introduction": {
+      "title": "From \"online in love\" to key handover",
+      "content": "Here's the whole journey: from the first viewing, through the signatures, to the key handover at the notary. After that, I'll show you what I paid attention to – and what I would do better next time."
+    },
+    "fromOnlineToKeys": {
+      "title": "From \"online in love\" to key handover",
+      "content": "Here's the whole journey: from the first viewing, through the signatures, to the key handover at the notary. After that, I'll show you what I paid attention to – and what I would do better next time."
+    },
+    "viewing": {
+      "title": "The Viewing",
+      "content1": "When I first saw the apartment online, I immediately had this gut feeling: \"This could be it.\" The photos showed white marble-effect tiles, a large window front with a view of a plaza, a modern bathroom with a walk-in shower – everything freshly renovated, plus a price that was hard to believe. And all of this right in the pedestrian zone, where everything would be within walking distance. I wrote directly to the agent.",
+      "content2": "At first there was no response. Only after several follow-ups did I learn that the apartment was already reserved. That disappointed me – especially since the listing had only been online for a few days and I had reacted quickly from the start. Still, the apartment wouldn't let me go. After about three weeks, I wrote again – this time it suddenly said: \"You can come by tomorrow.\"",
+      "content3": "Of course I was immediately nervous. I told Emely about it, and we talked about it at length the evening before. She was just as excited as I was, and we went through all the scenarios together: What if it really becomes this apartment? Actually, it was clear to both of us: As long as no serious defects appear during the viewing, this will be our apartment.",
+      "content4": "So the next day we set off. First we had a short appointment in the office of the Redpiso agent. As usual, I was told there that in case of a purchase, the agent's commission of 3% of the purchase price is to be borne by the buyer. That was already known to me from other viewings, so nothing new. Then we walked together to the apartment – just a few minutes on foot.",
+      "content5": "The moment I unlocked the door was decisive for me. The apartment looked even better than in the pictures. The light through the large window front, the well-maintained condition, the new built-in wardrobes – everything fit. No obvious defects, no renovation site in sight. We went systematically through every room, Emely and I were already thinking about how to use the rooms, and I checked off my prepared checklist. In the end, only the most important question remained: \"If I want the apartment – what happens now?\""
+    },
+    "arrasContract": {
+      "title": "The Contrato de Arras",
+      "content1": "The agent explained to me that the next step would be the so-called Contrato de Arras. This is a preliminary contract with which the buyer shows their binding interest through a down payment. At the same time, a deadline is agreed within which the main purchase contract must be signed.",
+      "content2": "Common in Spain is the variant of \"arras penitenciales\": If the buyer backs out without reason, the down payment is lost. If the seller backs out, they must pay back double.",
+      "content3": "In my case, this meant: €3,000 down payment and 30 days deadline to sign the purchase contract. I have to admit: I signed this contract the same evening after the viewing – in retrospect, rushed. The reason: According to the agent, there were already more viewings the next day, and I was only the second interested party. The first had reserved the apartment, but their financing had failed. It was clear to me: If I hesitate, I could lose the chance. So I signed.",
+      "warning": "My advice today: Only take this step if you're really sure and your documents and financing are largely in place."
+    },
+    "purchaseContract": {
+      "title": "The Purchase Contract",
+      "content1": "The actual purchase contract was a much more extensive document. Here all rights and obligations for buyer and seller were detailed. It also gave me 90 days to complete the purchase at the notary. Before signing, I naturally had the contract checked by my gestoría – everything was in order.",
+      "content2": "With the signing of this contract, however, I had to transfer another €11,000. That was no small step, because at the same time my financing was not yet fully secured. So I had to decide: Do I go full risk – or not?",
+      "content3": "For me it was clear: This apartment fit perfectly with my ideas, so I signed."
+    },
+    "betweenContractAndNotary": {
+      "title": "Between Purchase Contract and Notary Appointment",
+      "content1": "After signing, a phase of exactly 90 days began. Actually, I could have been at the notary after about 50 days, but the seller insisted on using the full deadline. That made me suspicious at first – especially since the agent had told me before that he needed the money for another investment.",
+      "content2": "In these weeks, my gestoría practically took care of everything: communication with the seller's side, collecting documents, clarifying electricity and water contracts, opening a Spanish bank account (through which the purchase price and ancillary costs later ran). I had given them a notarial power of attorney for this – a step I recommend to everyone. This way you don't have to travel to Spain yourself for every detail.",
+      "content3": "But it didn't run completely smoothly: some documents came very late or had to be requested multiple times, responses from the agent were often missing. Without gestoría, that would have been hardly manageable for me."
+    },
+    "notaryAppointment": {
+      "title": "The Notary Appointment",
+      "content1": "The notary appointment was originally planned for 18.06.2025. Since the seller insisted on the full 90 days, it became 20.06.2025. Bad luck: The notary we had planned was in court that day, so another one had to be found at short notice.",
+      "content2": "I myself was not on site – the gestoría represented me. On site it was a hectic appointment: many people, lots of paper, discussions with the seller's side, and the bank representative initially came without the right power of attorney to cancel the seller's mortgage. But in the end everything went smoothly.",
+      "success": "👉 \"Felicidades – from now on it belongs to you.\"",
+      "content3": "A moment I won't forget so quickly."
+    },
+    "whatToLookFor": {
+      "title": "What I paid attention to – and what you should check",
+      "content": "Here I'll show you what I paid attention to – and what I would do better next time."
+    },
+    "houseVsApartment": {
+      "title": "House vs. Apartment",
+      "content1": "I actually wanted a house – because of garden, sunsets and so on.",
+      "consTitle": "But against it spoke:",
+      "cons1": "Illegal extensions/conversions are more often an issue with houses.",
+      "cons2": "Not continuously on site: In Spain there's unfortunately the topic of \"Okupas\" (illegal occupations). In an apartment with neighbors, the risk and impact are lower.",
+      "cons3": "Duties: With a house you're responsible for everything (sidewalk, yard, garden). In the apartment, the Comunidad (owners' association) takes care of a lot through the community fees.",
+      "cons4": "Location: A house right in the center is rare – and if so, often without a \"real\" plot.",
+      "content2": "In the end, the condominium in the city center won."
+    },
+    "neighborhood": {
+      "title": "Neighborhood",
+      "content1": "I wanted to reach everything on foot: supermarkets, pharmacy, doctors, parks, bus stops, parking possibilities. Spain has had empty storefronts for years – that's not automatically a red flag. More important to me was: safety in the evening, cleanliness, and no garbage containers directly in front of the window (smell/flies/cockroaches).",
+      "content2": "My tip: Go there multiple times – in the afternoon, around 8 PM and also at midnight. Spain lives in the evening; that's when you see how the area really feels.",
+      "tip": "My tip: Go there multiple times – in the afternoon, around 8 PM and also at midnight. Spain lives in the evening; that's when you see how the area really feels."
+    },
+    "buildingAndApartment": {
+      "title": "Building & Apartment",
+      "subtitle1": "Substance & Condition",
+      "subtitle2": "Equipment & Community",
+      "item1": "Substance & age of the house, maintenance condition, elevator, stairwell",
+      "item2": "Orientation & windows (double glazing is not a given in Spain), insulation, energy certificate",
+      "item3": "Moisture/mold (especially in bathrooms/corners)",
+      "item4": "Community facilities (pool, garden, roof terrace) – nice, but they increase the Comunidad",
+      "item5": "Comunidad itself: How high are the monthly community fees? Are there reserves? Are special assessments pending?",
+      "item6": "Outstanding amounts from the seller are usually deducted directly from the purchase price at the notary",
+      "item7": "Legality of conversions (also in the apartment: glazed balconies etc.)",
+      "item8": "Energy certificate current?"
+    },
+    "priceAndRunningCosts": {
+      "title": "Price & Running Costs",
+      "content1": "Sure, the purchase price has to fit – but definitely look at the running costs: Comunidad, property tax, garbage, possibly garage, as well as electricity/water.",
+      "warning": "A pool in the complex is nice – but if you're not there year-round, you mainly pay for others."
+    },
+    "legalAndOrganization": {
+      "title": "Legal & Organization",
+      "subtitle1": "What the gestoría should check for you:",
+      "item1": "Land register clean? Open mortgages/liens?",
+      "item2": "Legality of conversions (also in the apartment: glazed balconies etc.)",
+      "item3": "Energy certificate current?",
+      "tip": "Short: Let the gestoría check – that's what they're there for."
+    },
+    "personalCriteria": {
+      "title": "Personal Criteria",
+      "content1": "Decide this before searching. You don't buy real estate every year.",
+      "subtitle1": "Floor Plan & Size",
+      "subtitle2": "Equipment & Comfort",
+      "item1": "Size, number of rooms, bathrooms",
+      "item2": "Light, floor plan",
+      "item3": "Balcony/terrace",
+      "item4": "Internet for home office",
+      "item5": "Parking possibilities",
+      "item6": "Noise level",
+      "content2": "You don't buy real estate every year."
+    },
+    "difficulties": {
+      "title": "Difficulties (honestly told)",
+      "subtitle": "What I didn't know at first: there are still a few smaller things that you quickly overlook – but which are crucial.",
+      "contracts": {
+        "title": "Contracts & Bureaucracy (Spanish!)",
+        "content": "I signed the Arras before talking to the gestoría – that cost me two nights' sleep."
+      },
+      "language": {
+        "title": "Language Barrier",
+        "content": "Even with good Spanish, technical terms around land register, powers of attorney & co. are tricky."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "content": "Agents like to show the chocolate side. Without professional eyes, you quickly overlook moisture, pipes, insulation."
+      },
+      "timePressure": {
+        "title": "Time Pressure",
+        "content": "\"As fast as possible, as slow as necessary.\" If you hesitate too long, the apartment is gone – too fast, and you step into risks."
+      },
+      "financing": {
+        "title": "Financing",
+        "content": "Doable in Spain, but paper-heavy – until an offer stands and money flows, time passes."
+      },
+      "community": {
+        "title": "Owners' Association",
+        "content": "Getting to protocols and real numbers is not always easy."
+      },
+      "trust": {
+        "title": "Trust",
+        "content": "Seller wants to sell, agent wants commission – not everyone automatically stands on your side. My only real constant was the gestoría."
+      }
+    },
+    "keyLearnings": {
+      "title": "My Most Important Learnings",
+      "gestoria": {
+        "title": "Without gestoría it's hardly possible",
+        "content": "I quickly realized: Anyone who tries to handle all contracts and documents alone loses nerves and risks mistakes. The costs for a gestoría seem high at first, but pay off multiple times – in time, security and peace."
+      },
+      "multipleViewings": {
+        "title": "One viewing is never enough",
+        "content": "The first euphoria can be deceiving. Go at least two or three times, preferably at different times of day and also on weekends. Only then do you see how the area really lives – and whether you feel safe there at night too."
+      },
+      "community": {
+        "title": "The owners' association is worth its weight in gold",
+        "content": "Ask for protocols of the last meetings. From this you learn whether major renovations or special assessments are pending. This way you avoid nasty surprises and know how stable the Comunidad's finances are."
+      },
+      "price": {
+        "title": "Price is negotiable",
+        "content": "In Spain, almost no one pays the advertised price. A counter-offer is completely normal – even if it's just a small discount, it makes a big difference in the long run."
+      },
+      "patience": {
+        "title": "Patience, patience, patience",
+        "content": "Almost nothing runs as fast as hoped – neither appointments with authorities nor feedback from agents. Those who stay calm save energy. In the end, everything falls into place, just rarely at German \"zack-zack\" speed."
+      },
+      "perfectProperty": {
+        "title": "The perfect apartment doesn't exist",
+        "content": "You have to know what's really indispensable – and what's just \"nice to have\". Those who insist on everything search forever. My motto: Better a 90% apartment that fits me than waiting for the 100% dream that never comes."
+      },
+      "insurance": {
+        "title": "Arrange insurance & contracts early",
+        "content": "Electricity, water, internet and Seguro de Hogar: All of this should ideally be in place before you hold the keys in your hand. Especially with mortgages, household or building insurance is mandatory anyway – and it gives you security from day one."
+      },
+      "conclusion": "If you keep this in mind and stick with it (follow up! Deadlines!), the risk decreases that you fall behind or lose the down payment. For me it was exactly the right decision in the end – and that feeling of unlocking the first own Spanish apartment was worth every annoying email and every form."
+    }
+  }
+}
