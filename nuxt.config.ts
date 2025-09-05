@@ -28,19 +28,19 @@ export default defineNuxtConfig({
         code: 'en',
         iso: 'en-US',
         name: 'English',
-        files: ['en.json', 'en/apartment-search.json', 'en/discovering-spain.json']
+        files: ['en.json', 'en/apartment-search.json', 'en/discovering-spain.json', 'en/region-decision.json']
       },
       {
         code: 'de',
         iso: 'de-DE',
         name: 'Deutsch',
-        files: ['de.json', 'de/apartment-search.json', 'de/discovering-spain.json']
+        files: ['de.json', 'de/apartment-search.json', 'de/discovering-spain.json', 'de/region-decision.json']
       },
       {
         code: 'es',
         iso: 'es-ES',
         name: 'Español',
-        files: ['es.json', 'es/apartment-search.json', 'es/discovering-spain.json']
+        files: ['es.json', 'es/apartment-search.json', 'es/discovering-spain.json', 'es/region-decision.json']
       }
     ],
     defaultLocale: 'en',

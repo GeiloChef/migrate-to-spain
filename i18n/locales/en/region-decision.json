@@ -1,0 +1,111 @@
+{
+  "regionDecision": {
+    "badge": "Region Decision",
+    "title": "From Theory to Practice",
+    "subtitle": "How I selected the Murcia region as my new home after intensive research and test trips.",
+    "introduction": {
+      "title": "From Theory to Practice",
+      "paragraph1": "After intensive research and countless hours of planning, it was finally time to put theory into practice. I had gathered all the information, analyzed the different regions, and now I needed to experience Spain firsthand to make my final decision.",
+      "paragraph2": "The choice of region would determine not only where I would live, but also my quality of life, costs, and integration opportunities. It was a decision that would shape my entire Spanish adventure."
+    },
+    "population": {
+      "title": "Population Distribution",
+      "paragraph1": "Spain's population is very unevenly distributed. While Madrid and Barcelona are bursting at the seams, many rural areas are experiencing significant depopulation. This creates interesting opportunities for those looking for a quieter life.",
+      "paragraph2": "The coastal regions are particularly popular with expats, but this also means higher prices and more tourism. Inland regions often offer better value for money and more authentic Spanish life."
+    },
+    "favorites": {
+      "title": "My Favorites List",
+      "intro": "After extensive research, I had narrowed down my options to four regions that seemed most promising for my needs and preferences.",
+      "andalusia": {
+        "title": "Andalusia",
+        "cities": "Sevilla, Málaga or Granada",
+        "pros": "For many, the classic \"expat Spain\". Lots of sun, lots of culture, sea and mountains right next to each other.",
+        "cons": "But for me, often already very touristy and not quite as attractive in terms of price."
+      },
+      "valencia": {
+        "title": "Valencia",
+        "subtitle": "A great mix of big city, sea and modern infrastructure.",
+        "pros": "Modern metropolis with good infrastructure and access to the sea.",
+        "cons": "But the metropolitan region is huge and very internationally oriented – I wanted it more Spanish and a bit quieter."
+      },
+      "costaBlanca": {
+        "title": "Alicante & Costa Blanca",
+        "subtitle": "Many non-Spaniards, dreamy beaches, good infrastructure.",
+        "pros": "Dreamy beaches and good infrastructure for expats.",
+        "cons": "But that was exactly the problem: too many tourists, too many German bakeries. I wanted more authenticity."
+      },
+      "murcia": {
+        "title": "Murcia",
+        "subtitle": "A region that is often overlooked.",
+        "pros": "Traditional, sunny, cheaper than many neighboring regions, while having good access to the sea.",
+        "cons": "Even on paper, Murcia seemed to offer the perfect mix."
+      }
+    },
+    "murcia": {
+      "title": "Murcia – City and Region",
+      "intro": "Murcia is a region in southeastern Spain that is a bit underestimated. Many expats are drawn to Andalusia, Valencia or Catalonia – but Murcia often stays under the radar. That's exactly what made it exciting for me.",
+      "introExtended": "What makes Murcia special is the combination of urban life and proximity to nature. Within minutes, you can go from the lively city center to the quiet mountains or the sea. This variety, combined with the warm Mediterranean climate and the welcoming atmosphere, makes Murcia a place where you immediately feel at home.",
+      "city": {
+        "title": "The City of Murcia",
+        "population": "With around 450,000 inhabitants",
+        "location": "It's not directly on the sea, but in the fertile Segura Valley, which gives it a very special atmosphere.",
+        "atmosphere": "Anyone visiting Murcia experiences narrow alleys with traditional bars, an imposing cathedral in the center, many festivals and a very traditional, Spanish flair.",
+        "modern": "At the same time, there are modern districts, large shopping centers, universities and everything you need for everyday life."
+      },
+      "region": {
+        "title": "The Murcia Region",
+        "subtitle": "Offers even more",
+        "landscape": "Wide plains with orange and lemon groves, small villages, mountains in the south.",
+        "coast": "And not to forget the Mar Menor and the Mediterranean coast, which you can reach by car in under an hour.",
+        "climate": "The climate is dry and sunny – almost desert-like – which personally suited me very well."
+      }
+    },
+    "onSite": {
+      "title": "My Impression on Site",
+      "paragraph1": "When I finally traveled to Murcia, I knew immediately: This could work. The city enchanted me right away. Everything felt very traditionally Spanish – exactly what I was looking for. Plus the big surprise: For my celiac disease, I found a really good selection of gluten-free food here.",
+      "paragraph2": "I used the time not only to explore the city, but also to get to know the surrounding area. The mountains in the south gave me unforgettable sunsets, and when I felt like going to the sea, the coast was just 50 minutes away by car. In total, I spent over two months in Murcia – enough time to take away not just vacation feelings, but real everyday moments.",
+      "glutenFree": {
+        "title": "Gluten-Free Food",
+        "subtitle": "A positive surprise",
+        "description": "Both in supermarkets and restaurants, the selection was significantly larger than I would have expected. This took away much of my initial concern."
+      },
+      "exploration": {
+        "title": "Explore the Surroundings",
+        "subtitle": "Mountains and sea within reach",
+        "description": "The mountains in the south gave me unforgettable sunsets, and the coast is only 50 minutes away by car."
+      }
+    },
+    "cityCountry": {
+      "title": "Between City and Country",
+      "paragraph1": "But despite all the positive impressions, I realized: The center of the city of Murcia was not quite ideal for me. Above all, the parking situation was chaotic – as someone who comes from the countryside, I found it difficult to constantly search for a parking space in overcrowded streets.",
+      "paragraph2": "Also, the property prices in the center seemed less attractive compared to the surrounding area when weighing price and living quality against each other.",
+      "parking": {
+        "title": "Parking Problem",
+        "subtitle": "Chaotic parking situation",
+        "description": "As someone who comes from the countryside, I found it difficult to constantly search for a parking space in overcrowded streets."
+      },
+      "prices": {
+        "title": "Property Prices",
+        "subtitle": "Center vs. surroundings",
+        "description": "The property prices in the center seemed less attractive compared to the surrounding area when weighing price and living quality against each other."
+      }
+    },
+    "conclusion": {
+      "title": "The Decision is Made",
+      "paragraph1": "So it was clear to me: It will be the Murcia region – but not the city itself. The decision was made. On my next trips, it shouldn't just be about exploring anymore, but about the concrete property search.",
+      "paragraph2": "I had found a region that met all my criteria: warm, authentic, livable and with good infrastructure. Now it was about finding the perfect place within this region.",
+      "decision": {
+        "title": "Decision Made",
+        "description": "Murcia region selected as new home – warm, authentic and livable."
+      },
+      "nextSteps": {
+        "title": "Next Steps",
+        "description": "Concrete property search in the Murcia region, no longer just exploration."
+      },
+      "focus": {
+        "title": "Focus Changed",
+        "description": "From region selection to concrete place and property search."
+      }
+    }
+  }
+}
