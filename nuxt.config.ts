@@ -28,19 +28,19 @@ export default defineNuxtConfig({
         code: 'en',
         iso: 'en-US',
         name: 'English',
-        file: 'en.json'
+        files: ['en.json', 'en/apartment-search.json']
       },
       {
         code: 'de',
         iso: 'de-DE',
         name: 'Deutsch',
-        file: 'de.json'
+        files: ['de.json', 'de/apartment-search.json']
       },
       {
         code: 'es',
         iso: 'es-ES',
         name: 'Español',
-        file: 'es.json'
+        files: ['es.json', 'es/apartment-search.json']
       }
     ],
     defaultLocale: 'en',

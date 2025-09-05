@@ -1,0 +1,86 @@
+{
+  "apartmentSearch": {
+    "badge": "Búsqueda de Propiedades",
+    "title": "El Plan Concreto: Encontrar un Apartamento",
+    "subtitle": "De la decisión a la acción: Cómo encontré mi apartamento soñado en Murcia.",
+    "introduction": {
+      "title": "De la Decisión a la Acción",
+      "paragraph1": "Después de que finalmente me decidí por la región de Murcia, estaba claro para mí: A partir de ahora, ya no se trataba de soñar, sino de actuar. Ya no quería solo pasear por las calles e imaginar cómo podría ser mi vida cotidiana – quería ver opciones reales. El siguiente paso lógico: buscar un apartamento adecuado.",
+      "paragraph2": "Pero antes de empezar a revisar anuncios, debes conocer los conceptos básicos. Uno de los prerrequisitos más importantes es el NIE (Número de Identificación de Extranjero). Básicamente es el número de identificación fiscal español para extranjeros, sin el cual no puedes abrir una cuenta bancaria ni comprar una propiedad. Hablando de cuentas bancarias: Aunque una buena gestoría puede ayudarte a sortear muchas cosas, al final casi no hay forma de evitar abrir una cuenta española.",
+      "highlight": "Sin NIE y cuenta bancaria española, no puedes comprar una propiedad – pero no los necesitas para buscar aún."
+    },
+    "firstResearch": {
+      "title": "Primeras Investigaciones",
+      "intro": "Entonces, ¿cómo empiezas a buscar tu propiedad soñada? Para mí, había dos caminos:",
+      "onlinePlatforms": {
+        "title": "Plataformas en Línea",
+        "description": "Plataformas como Idealista o Fotocasa – con filtros de búsqueda detallados, notificaciones por correo electrónico y nuevas ofertas diarias. De esta manera te mantienes automáticamente al día sin tener que buscar constantemente tú mismo."
+      },
+      "localAgents": {
+        "title": "Agencias Inmobiliarias Locales",
+        "description": "A menudo tienen un escaparate con ofertas seleccionadas, y a veces puedes encontrar verdaderas gangas aquí. Sin embargo, muchos agentes también anuncian en las plataformas principales de todos modos."
+      },
+      "tip": "Cualquiera que realmente esté seriamente buscando debería combinar ambos – investigar en línea, pero también visitar agentes en el lugar."
+    },
+    "onSite": {
+      "title": "En el Lugar en Murcia",
+      "paragraph1": "Después de mi investigación en línea, el siguiente paso lógico fue otra estancia en Murcia – esta vez con una misión clara. Había elegido mis favoritos, contactado agentes y concertado citas. Aquí vale la pena planificar al menos unas semanas – mejor uno o dos meses – de tiempo.",
+      "paragraph2": "El mercado es increíblemente dinámico: Nuevas ofertas aparecen todos los días, mientras que otras desaparecen porque ya están reservadas. Asistí a varias visitas, en parte a través de plataformas, en parte directamente a través de agencias inmobiliarias.",
+      "viewingProcess": {
+        "title": "¿Cómo funciona el proceso de visita?",
+        "description": "Las visitas en sí funcionaron de manera bastante similar: Primero un breve intercambio sobre las comisiones del agente (sí, en España el comprador a menudo paga estas – lo cual es inusual en Alemania), luego una pequeña firma de que aceptas estas comisiones en caso de compra. Luego se iba al apartamento. Al final, no era muy diferente de una visita de alquiler en Alemania: recorrer, hacer preguntas y tratar de imaginar la vida cotidiana allí. Y honestamente, generalmente sabía en los primeros 30 a 40 segundos si podría funcionar o no. Esta intuición raramente me engañó."
+      },
+      "market": {
+        "title": "Mercado Dinámico",
+        "description": "Nuevas ofertas aparecen todos los días, mientras que otras desaparecen porque ya están reservadas."
+      },
+      "viewings": {
+        "title": "Visitas",
+        "description": "En realidad aconsejaría contra compras privadas – la ley de propiedad española no está exenta de complicaciones, y un agente proporciona al menos algo de seguridad en el proceso."
+      },
+      "process": {
+        "title": "El Proceso de Visita",
+        "description": "Primero un breve intercambio sobre las comisiones del agente (sí, en España el comprador a menudo paga estas), luego una pequeña firma de que aceptas estas comisiones en caso de compra."
+      },
+      "highlight": "Y honestamente, generalmente sabía en los primeros 30 a 40 segundos si podría funcionar o no. Esta intuición raramente me engañó."
+    },
+    "success": {
+      "title": "Tuve Suerte",
+      "description": "Al final de mi estancia, en realidad tuve suerte – y pude reservar mi apartamento soñado."
+    },
+    "advice": {
+      "title": "Mi Consejo",
+      "success": "Al final de mi estancia, en realidad tuve suerte – y pude reservar mi apartamento soñado.",
+      "paragraph1": "Aunque encontré algo de inmediato, aconsejaría a todos: Mejor planificar varias estancias y tomarse el tiempo. La presión de 'comprar algo ahora mismo' raramente es un buen consejero.",
+      "paragraph2": "España no se escapará de ti – y el apartamento correcto generalmente espera al que está dispuesto a traer un poco de paciencia.",
+      "patience": {
+        "title": "La paciencia es la clave",
+        "description": "Planificar varias estancias y tomarse el tiempo. La presión de 'comprar algo ahora mismo' raramente es un buen consejero."
+      },
+      "spain": {
+        "title": "España no se escapará de ti",
+        "description": "El apartamento correcto generalmente espera al que está dispuesto a traer un poco de paciencia."
+      }
+    },
+    "nextSteps": {
+      "title": "¿Qué Sigue?",
+      "paragraph1": "Pero antes de que realmente nos metamos en el meollo del asunto – es decir, todos los términos contractuales, trampas de costos y pequeñas barreras que te esperan al comprar una propiedad en España – vale la pena hacer una breve pausa.",
+      "paragraph2": "Porque sin los prerrequisitos necesarios y un mínimo de burocracia, no llegarás lejos aquí. Muchos subestiman esta parte al principio, ya sueñan con la entrega de llaves, pero luego se dan cuenta rápidamente de que ni siquiera pueden firmar el contrato de compra sin NIE, cuenta bancaria y algunos procedimientos oficiales importantes.",
+      "highlight": "En la siguiente sección, veremos los conceptos básicos – la burocracia y prerrequisitos que necesitas para la compra real.",
+      "prerequisites": {
+        "nie": {
+          "title": "NIE",
+          "description": "Número de identificación fiscal español para extranjeros"
+        },
+        "bankAccount": {
+          "title": "Cuenta Bancaria",
+          "description": "Cuenta española para transacciones"
+        },
+        "bureaucracy": {
+          "title": "Procedimientos Oficiales",
+          "description": "Procedimientos oficiales importantes"
+        }
+      }
+    }
+  }
+}
