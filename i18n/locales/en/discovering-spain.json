@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "discoveringSpain": {
+    "badge": "First Trips",
+    "title": "Discovering Spain",
+    "subtitle": "First trips to Spain: exploring Madrid, testing gluten-free life, experiencing quality of life and making first contacts.",
+    "introduction": {
+      "title": "Trading Theory for Reality",
+      "paragraph1": "The first rough planning phase was complete, my basic Spanish skills were in place, and eventually the moment had to come: trading theory for reality. So I packed my suitcase and flew to Spain. Not for a classic vacation – even though it sometimes felt like it – but to find out if my ideas really matched Spanish reality.",
+      "paragraph2": "I wanted to test whether gluten-free living there would work as easily as the internet promised. I wanted to see how far I could get with my Spanish. And I wanted to experience what it felt like to master everyday life there – from eating to shopping to first conversations with locals.",
+      "highlight": "I was aware that I wouldn't directly arrive and put down roots on my first trip. But making small contacts, developing a feeling for the country – that was the plan."
+    },
+    "madrid": {
+      "title": "Madrid as First Stop",
+      "paragraph1": "For the beginning, I didn't want to go directly to a small village or a tourist coastal city. I needed a place where I could get by with a bit of English in an emergency and where it would probably be easier to find gluten-free food. My choice fell on Madrid.",
+      "paragraph2": "In February 2024, in the middle of winter in Germany, I arrived in the Spanish capital. Two weeks to check off my to-dos – and to feel whether Spain could really become my country.",
+      "highlight": "By the way, English didn't help me much there, that was an important realization. But my broken Spanish was enough to handle the essentials. And every time I gathered the courage to use it, I noticed how much friendlier people immediately reacted."
+    },
+    "glutenFree": {
+      "title": "Gluten-Free Living in Spain",
+      "paragraph1": "For someone with celiac disease (and lactose intolerance on top), Madrid is a little paradise. Many restaurants label allergens on the menu, and there are even dedicated gluten-free establishments. My highlight: \"Grosso Napoletano – Senza Glutine\" – the best gluten-free pizza I've ever eaten.",
+      "paragraph2": "The supermarkets are also top-equipped: bread, pasta, wraps, cookies, chips – everything gluten-free available and mostly clearly labeled with \"Gluten Free\". This made shopping incredibly relaxed. In Germany it often feels like a treasure hunt – in Spain, however, like normal shopping.",
+      "restaurants": {
+        "title": "Restaurants",
+        "description": "Many restaurants label allergens on the menu, dedicated gluten-free establishments available"
+      },
+      "supermarkets": {
+        "title": "Supermarkets",
+        "description": "Large selection of gluten-free products, clear labeling, relaxed shopping"
+      }
+    },
+    "qualityOfLife": {
+      "title": "Quality of Life: Spain vs. Germany",
+      "intro": "What really impressed me: the quality of life. Even on my first stay, it was clear that many things run more relaxed.",
+      "everyday": {
+        "title": "Everyday Life",
+        "description": "In Spain, people seem less rushed, time plays a different role. Lunch can take two hours, and no one constantly looks at the clock."
+      },
+      "climate": {
+        "title": "Climate",
+        "description": "Even at the end of February, it was mild and sunny during the day. That alone felt like a quality of life boost when you're used to German winter."
+      },
+      "costs": {
+        "title": "Costs",
+        "description": "Eating out is often cheaper in Spain, even though Madrid is naturally not the cheapest city."
+      },
+      "conclusion": "All in all, I felt freer and \"lighter\" in a short time than I often do in Germany. It was impressive to experience how much the Spanish way of life and climate can influence general well-being. The combination of more relaxed everyday life, pleasant temperatures, and affordable prices creates an atmosphere where you simply feel good.",
+      "conclusionTitle": "Quality of Life Conclusion"
+    },
+    "culture": {
+      "title": "Culture & People",
+      "paragraph1": "Madrid lives – and especially at night. While in Germany things get quieter after 8 PM, in Spain life just begins. Restaurants fill up late, and even during the week people still sit outside at midnight having a beer. For me as an IT professional who rarely goes to bed early anyway, this was perfect.",
+      "paragraph2": "What particularly stuck with me, however, was the openness: Just a few words of Spanish were enough to break the ice. I noticed that with friendliness and a bit of effort to speak the language, you get positive reactions very quickly.",
+      "nightlife": {
+        "title": "Nightlife",
+        "description": "Madrid lives at night - restaurants fill up late, people still sit outside at midnight"
+      },
+      "openness": {
+        "title": "Openness",
+        "description": "Just a few words of Spanish are enough to break the ice. Friendliness is immediately rewarded."
+      }
+    },
+    "contacts": {
+      "title": "First Contacts – and a Special Encounter",
+      "paragraph1": "My first contacts were unspectacular but important: an employee at the café who recognized me again after just two days; a cashier at the supermarket who helped me find a specific gluten-free product the first time. They weren't friendships, but small moments that gave me the feeling: \"You're not invisible here.\"",
+      "emely": {
+        "title": "Emely - A Special Encounter",
+        "paragraph1": "A young woman from Peru whom I met during my time in Madrid. She had similar plans to me: emigrating to Spain, starting a new life.",
+        "paragraph2": "That she spoke Spanish as her native language was naturally gold worth to me. With her, I could practice, learn, and talk about everything I encountered in this process.",
+        "paragraph3": "We got along immediately well – and from a chance encounter, a relationship developed over time. Today she accompanies me not only as a friend but also as a partner on my journey to Spain."
+      },
+      "smallMoments": {
+        "title": "Small Moments",
+        "description": "Café employee recognizes me again, cashier helps with gluten-free products - the feeling of not being invisible"
+      },
+      "languagePractice": {
+        "title": "Language Practice",
+        "description": "Emely as a native speaker - perfect for practicing and learning about all challenges"
+      }
+    },
+    "conclusion": {
+      "title": "Conclusion of the First Trips",
+      "paragraph1": "My first trips to Spain showed me: I can build a happy life here. The gluten-free food was manageable, my Spanish was sufficient to get by, and the people were more open than I had expected.",
+      "paragraph2": "Madrid itself wasn't suitable for me as a long-term residence – too big, too hectic. But that was exactly the goal: to try things out, gather impressions, to see what fits and what doesn't.",
+      "nextStep": {
+        "title": "So the next step was clear:",
+        "description": "To find a region that fits my lifestyle – warm, but not overcrowded, lively, but not overrun by tourists."
+      },
+      "glutenFree": {
+        "title": "Gluten-Free Living",
+        "description": "Manageable and relaxed - restaurants and supermarkets are top-equipped"
+      },
+      "spanish": {
+        "title": "Spanish",
+        "description": "Sufficient to get by - people react friendly to efforts"
+      },
+      "people": {
+        "title": "People",
+        "description": "More open than expected - first contacts and even a special encounter"
+      }
+    }
+  }
+  }
+}

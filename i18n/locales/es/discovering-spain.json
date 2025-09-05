@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "discoveringSpain": {
+    "badge": "Primeros Viajes",
+    "title": "Descubrir España",
+    "subtitle": "Primeros viajes a España: explorar Madrid, probar la vida sin gluten, experimentar la calidad de vida y hacer primeros contactos.",
+    "introduction": {
+      "title": "Cambiar Teoría por Realidad",
+      "paragraph1": "La primera fase de planificación aproximada estaba completa, mis conocimientos básicos de español estaban en su lugar, y eventualmente tenía que llegar el momento: cambiar teoría por realidad. Así que empaqué mi maleta y volé a España. No para unas vacaciones clásicas – aunque a veces se sintiera así – sino para descubrir si mis ideas realmente coincidían con la realidad española.",
+      "paragraph2": "Quería probar si la vida sin gluten funcionaría tan fácilmente como prometía internet. Quería ver hasta dónde podía llegar con mi español. Y quería experimentar cómo se sentía dominar la vida cotidiana allí – desde comer hasta comprar hasta las primeras conversaciones con locales.",
+      "highlight": "Era consciente de que en mi primer viaje no llegaría directamente y echaría raíces. Pero hacer pequeños contactos, desarrollar un sentimiento por el país – ese era el plan."
+    },
+    "madrid": {
+      "title": "Madrid como Primera Parada",
+      "paragraph1": "Para empezar, no quería ir directamente a un pueblo pequeño o una ciudad costera turística. Necesitaba un lugar donde pudiera defenderme con un poco de inglés en caso de emergencia y donde probablemente sería más fácil encontrar comida sin gluten. Mi elección recayó en Madrid.",
+      "paragraph2": "En febrero de 2024, en pleno invierno en Alemania, llegué a la capital española. Dos semanas para marcar mis tareas pendientes – y para sentir si España realmente podría convertirse en mi país.",
+      "highlight": "Por cierto, el inglés no me ayudó mucho allí, esa fue una realización importante. Pero mi español roto era suficiente para manejar lo esencial. Y cada vez que me atrevía a usarlo, notaba cuánto más amigablemente reaccionaba la gente inmediatamente."
+    },
+    "glutenFree": {
+      "title": "Vida Sin Gluten en España",
+      "paragraph1": "Para alguien con enfermedad celíaca (e intolerancia a la lactosa además), Madrid es un pequeño paraíso. Muchos restaurantes etiquetan los alérgenos en el menú, y hay incluso establecimientos dedicados sin gluten. Mi destacado: \"Grosso Napoletano – Senza Glutine\" – la mejor pizza sin gluten que he comido.",
+      "paragraph2": "Los supermercados también están muy bien equipados: pan, pasta, wraps, galletas, chips – todo disponible sin gluten y la mayoría claramente etiquetado con \"Gluten Free\". Esto hizo que las compras fueran increíblemente relajadas. En Alemania a menudo se siente como una búsqueda del tesoro – en España, sin embargo, como compras normales.",
+      "restaurants": {
+        "title": "Restaurantes",
+        "description": "Muchos restaurantes etiquetan alérgenos en el menú, establecimientos dedicados sin gluten disponibles"
+      },
+      "supermarkets": {
+        "title": "Supermercados",
+        "description": "Gran selección de productos sin gluten, etiquetado claro, compras relajadas"
+      }
+    },
+    "qualityOfLife": {
+      "title": "Calidad de Vida: España vs. Alemania",
+      "intro": "Lo que realmente me impresionó: la calidad de vida. Ya en mi primera estancia estaba claro que muchas cosas funcionan de manera más relajada.",
+      "everyday": {
+        "title": "Vida Cotidiana",
+        "description": "En España, la gente parece menos apresurada, el tiempo juega un papel diferente. El almuerzo puede durar dos horas, y nadie mira constantemente el reloj."
+      },
+      "climate": {
+        "title": "Clima",
+        "description": "Incluso a finales de febrero, era suave y soleado durante el día. Solo eso ya se sentía como un impulso en la calidad de vida cuando estás acostumbrado al invierno alemán."
+      },
+      "costs": {
+        "title": "Costos",
+        "description": "Comer fuera es a menudo más barato en España, aunque Madrid naturalmente no es la ciudad más barata."
+      },
+      "conclusion": "En general, me sentí más libre y \"ligero\" en poco tiempo de lo que a menudo me siento en Alemania. Fue impresionante experimentar cuánto la forma de vida española y el clima pueden influir en el bienestar general. La combinación de una vida cotidiana más relajada, temperaturas agradables y precios asequibles crea una atmósfera donde simplemente te sientes bien.",
+      "conclusionTitle": "Conclusión de la Calidad de Vida"
+    },
+    "culture": {
+      "title": "Cultura y Gente",
+      "paragraph1": "Madrid vive – y especialmente por la noche. Mientras que en Alemania las cosas se ponen más tranquilas después de las 8 PM, en España la vida apenas comienza. Los restaurantes se llenan tarde, y incluso durante la semana la gente sigue sentada afuera a medianoche tomando una cerveza. Para mí como profesional de TI que raramente se acuesta temprano de todos modos, esto era perfecto.",
+      "paragraph2": "Lo que particularmente se me quedó grabado, sin embargo, fue la apertura: Solo unas pocas palabras en español eran suficientes para romper el hielo. Noté que con amabilidad y un poco de esfuerzo para hablar el idioma, obtienes reacciones positivas muy rápidamente.",
+      "nightlife": {
+        "title": "Vida Nocturna",
+        "description": "Madrid vive por la noche - los restaurantes se llenan tarde, la gente sigue sentada afuera a medianoche"
+      },
+      "openness": {
+        "title": "Apertura",
+        "description": "Solo unas pocas palabras en español son suficientes para romper el hielo. La amabilidad es recompensada inmediatamente."
+      }
+    },
+    "contacts": {
+      "title": "Primeros Contactos – y un Encuentro Especial",
+      "paragraph1": "Mis primeros contactos fueron poco espectaculares pero importantes: un empleado en el café que me reconoció de nuevo después de solo dos días; una cajera en el supermercado que me ayudó a encontrar un producto específico sin gluten la primera vez. No eran amistades, pero pequeños momentos que me dieron la sensación: \"No eres invisible aquí.\"",
+      "emely": {
+        "title": "Emely - Un Encuentro Especial",
+        "paragraph1": "Una joven mujer de Perú a quien conocí durante mi tiempo en Madrid. Ella tenía planes similares a los míos: emigrar a España, comenzar una nueva vida.",
+        "paragraph2": "Que ella hablara español como su lengua materna era naturalmente de oro para mí. Con ella podía practicar, aprender y hablar sobre todo lo que encontraba en este proceso.",
+        "paragraph3": "Nos llevamos bien inmediatamente – y de un encuentro casual se desarrolló una relación con el tiempo. Hoy ella me acompaña no solo como amiga sino también como pareja en mi viaje a España."
+      },
+      "smallMoments": {
+        "title": "Pequeños Momentos",
+        "description": "Empleado del café me reconoce de nuevo, cajera ayuda con productos sin gluten - la sensación de no ser invisible"
+      },
+      "languagePractice": {
+        "title": "Práctica de Idioma",
+        "description": "Emely como hablante nativa - perfecta para practicar y aprender sobre todos los desafíos"
+      }
+    },
+    "conclusion": {
+      "title": "Conclusión de los Primeros Viajes",
+      "paragraph1": "Mis primeros viajes a España me mostraron: Puedo construir una vida feliz aquí. La comida sin gluten era manejable, mi español era suficiente para defenderme, y la gente era más abierta de lo que había esperado.",
+      "paragraph2": "Madrid en sí no era adecuada para mí como residencia a largo plazo – demasiado grande, demasiado agitada. Pero ese era exactamente el objetivo: probar cosas, recoger impresiones, ver qué encaja y qué no.",
+      "nextStep": {
+        "title": "Así que el siguiente paso estaba claro:",
+        "description": "Encontrar una región que se ajuste a mi estilo de vida – cálida, pero no superpoblada, animada, pero no invadida por turistas."
+      },
+      "glutenFree": {
+        "title": "Vida Sin Gluten",
+        "description": "Manejable y relajada - restaurantes y supermercados están muy bien equipados"
+      },
+      "spanish": {
+        "title": "Español",
+        "description": "Suficiente para defenderse - la gente reacciona amablemente a los esfuerzos"
+      },
+      "people": {
+        "title": "Gente",
+        "description": "Más abierta de lo esperado - primeros contactos e incluso un encuentro especial"
+      }
+    }
+  }
+  }
+}
