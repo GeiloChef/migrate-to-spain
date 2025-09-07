@@ -11,36 +11,36 @@
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-8 mb-12">
-        <!-- Deutschland -->
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
-          <div class="flex items-center mb-6">
-            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mr-4">
-              <UIcon name="i-heroicons-flag" class="w-6 h-6 text-white" />
+      <!-- Vergleich Deutschland vs. Spanien -->
+      <div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-200 mb-12 relative">
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Deutschland -->
+          <div class="text-center">
+            <div class="mb-6">
+              <h3 class="!text-2xl font-bold text-gray-900">
+                {{ $t('insurance.comparison.germany.title') }}
+              </h3>
             </div>
-            <h3 class="!text-2xl font-bold text-blue-900">
-              {{ $t('insurance.comparison.germany.title') }}
-            </h3>
+            <p class="text-gray-700 leading-relaxed text-center">
+              {{ $t('insurance.comparison.germany.description') }}
+            </p>
           </div>
-          <p class="text-gray-700 leading-relaxed">
-            {{ $t('insurance.comparison.germany.description') }}
-          </p>
-        </div>
 
-        <!-- Spanien -->
-        <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-2xl p-8 border-2 border-red-200 shadow-lg">
-          <div class="flex items-center mb-6">
-            <div class="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mr-4">
-              <UIcon name="i-heroicons-flag" class="w-6 h-6 text-white" />
+          <!-- Spanien -->
+          <div class="text-center">
+            <div class="mb-6">
+              <h3 class="!text-2xl font-bold text-gray-900">
+                {{ $t('insurance.comparison.spain.title') }}
+              </h3>
             </div>
-            <h3 class="!text-2xl font-bold text-red-900">
-              {{ $t('insurance.comparison.spain.title') }}
-            </h3>
+            <p class="text-gray-700 leading-relaxed text-center">
+              {{ $t('insurance.comparison.spain.description') }}
+            </p>
           </div>
-          <p class="text-gray-700 leading-relaxed">
-            {{ $t('insurance.comparison.spain.description') }}
-          </p>
         </div>
+        
+        <!-- Trennlinie -->
+        <div class="hidden md:block absolute left-1/2 top-8 bottom-8 w-px bg-gradient-to-b from-transparent via-gray-300 to-transparent transform -translate-x-1/2"></div>
       </div>
 
       <!-- Besonderheiten -->

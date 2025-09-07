@@ -20,11 +20,11 @@
     },
     "special": {
       "title": "Característica especial",
-      "description": "con préstamos, a menudo se agrega un seguro de vida obligatorio, que da seguridad al banco"
+      "description": "Con préstamos, a menudo se requiere un seguro de vida obligatorio, que da seguridad al banco."
     },
     "property": {
       "title": "Apartamento vs. Casa",
-      "description": "con una casa unifamiliar se agregan áreas exteriores, jardín o garaje - un apartamento, sin embargo, se limita a la propiedad especial y a veces áreas comunes proporcionales"
+      "description": "Con una casa unifamiliar se agregan áreas exteriores, jardín o garaje - un apartamento, sin embargo, se limita a la propiedad especial y a veces áreas comunes proporcionales."
     }
   },
   "coverage": {
