@@ -1,17 +1,17 @@
 <template>
   <TimelineLayout 
-    :previous-step="'/timeline/property-purchase'"
-    :previous-step-name="$t('propertyPurchase.title')"
-    :next-step="'/timeline/insurance'"
-    :next-step-name="$t('insurance.title')"
+    :previous-step="'/timeline/gestoria'"
+    :previous-step-name="$t('gestoria.title')"
+    :next-step="'/timeline/bureaucracy-prerequisites'"
+    :next-step-name="$t('story.timeline.step7.title')"
   >
     <!-- Hero Section -->
     <div class="relative">
       <!-- Background Image -->
       <div class="w-full h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
-          src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Gestoría office in Spain"
+          src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          alt="Insurance and security concept"
           class="w-full h-full object-cover"
         />
         <!-- Dark Overlay for Better Text Readability -->
@@ -22,13 +22,13 @@
       <div class="absolute inset-0 flex items-end p-8 md:p-12">
         <div class="text-white max-w-4xl">
           <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-sm font-medium mb-6 border border-white/30">
-            Gestoría
+            Versicherung
           </div>
           <h2 class="!text-4xl md:!text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
-            {{ $t('gestoria.title') }}
+            {{ $t('insurance.title') }}
           </h2>
           <p class="!text-lg md:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
-            {{ $t('gestoria.subtitle') }}
+            {{ $t('insurance.subtitle') }}
           </p>
         </div>
       </div>
@@ -39,35 +39,42 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <GestoriaIntroductionSection />
+          <InsuranceIntroductionSection />
         </div>
       </div>
 
-      <!-- Section 2: Warum Gestoría und nicht Anwalt -->
+      <!-- Section 2: Vergleich -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
-          <GestoriaWhyGestoriaSection />
+          <InsuranceComparisonSection />
         </div>
       </div>
 
-      <!-- Section 3: Was hat die Gestoría gemacht -->
+      <!-- Section 3: Abdeckung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <GestoriaWhatTheyDidSection />
+          <InsuranceCoverageSection />
         </div>
       </div>
 
-      <!-- Section 4: Nach dem Kauf -->
+      <!-- Section 4: Übliche Praktiken -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
-          <GestoriaAfterPurchaseSection />
+          <InsuranceCommonPracticesSection />
         </div>
       </div>
 
-      <!-- Section 5: Fazit -->
+      <!-- Section 5: Auswahl -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <GestoriaConclusionSection />
+          <InsuranceSelectionSection />
+        </div>
+      </div>
+
+      <!-- Section 6: Fazit -->
+      <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div class="px-6 py-16">
+          <InsuranceConclusionSection />
         </div>
       </div>
     </div>
@@ -75,16 +82,8 @@
 </template>
 
 <script setup lang="ts">
-// Meta information
-useHead({
-  title: 'Gestoría – Hilfe im Behördendschungel',
-  meta: [
-    { name: 'description', content: 'Warum ich mich für eine Gestoría entschieden habe und wie sie mir beim Immobilienkauf geholfen hat. Alle Details zu Kosten, Aufgaben und meinen Erfahrungen.' }
-  ]
-})
-
-// Timeline navigation
 definePageMeta({
-  layout: 'timeline'
+  title: 'Hausversicherung',
+  description: 'Alles über Versicherungen beim Immobilienkauf in Spanien'
 })
 </script>

@@ -1,0 +1,74 @@
+{
+  "insurance": {
+    "title": "Security & Insurance",
+    "subtitle": "Property Protection",
+    "description": "Investing in real estate is anything but minor. The thought of damage or even total loss is a horror scenario for every buyer.",
+  "introduction": {
+    "title": "Why insurance is so important",
+    "content": "During the purchase process, it was clear to me that I absolutely wanted to secure my apartment well. With a mortgage in Spain, you are often forced to take out insurance directly through the bank - at least if you want to benefit from lower interest rates. In many cases, the bank even specifies what and how must be insured. After all, it doesn't want to risk losing its capital in an emergency. Since I financed the apartment completely myself, I could freely decide with whom and how to secure myself. Following the motto: Freedom or agony of choice - because the selection of policies is huge."
+  },
+  "comparison": {
+    "title": "Insurance in Spain vs. Germany",
+    "content": "While in Germany you take out household contents, building and often liability insurance separately, in Spain much is bundled in a single package, the Seguro de Hogar. This makes it easier on the one hand, but on the other hand you have to look closely at what is actually included.",
+    "germany": {
+      "title": "Germany",
+      "description": "often separate policies (household contents, building, private liability, legal protection, glass breakage, etc.)"
+    },
+    "spain": {
+      "title": "Spain",
+      "description": "usually an all-round package (Seguro de Hogar) that covers damage to building, inventory and even liability in one contract"
+    },
+    "special": {
+      "title": "Special feature",
+      "description": "with loans, a mandatory life insurance is often added, which gives the bank security"
+    },
+    "property": {
+      "title": "Apartment vs. House",
+      "description": "with a single-family house, outdoor areas, garden or garage are added - an apartment, however, is limited to the special property and sometimes proportional common areas"
+    }
+  },
+  "coverage": {
+    "title": "What the Seguro de Hogar covers",
+    "content": "Spanish household contents and building insurance is surprisingly comprehensive. Typically, you can insure:",
+    "items": {
+      "natural": "Natural hazards: Fire, explosion, lightning, earthquake, storm",
+      "water": "Water damage: Tap water, sewage, pipe burst",
+      "theft": "Burglary and vandalism - important especially for second homes",
+      "liability": "Liability: e.g. when a neighboring apartment is affected by water damage",
+      "glass": "Glass and ceramic protection: e.g. windows, ceramic hob or tiles",
+      "legal": "Legal protection: in legal disputes around the property",
+      "accidents": "\"Accidents & stupidity\": when something falls down or you cause damage yourself"
+    },
+    "absence": "It was particularly important to me that the policy also covers damage during my absence - because I only spend about half the year in Spain."
+  },
+  "practices": {
+    "title": "What is common in Spain",
+    "content": "In addition to the Seguro de Hogar, life insurance is almost automatic in Spain when financing. Banks thus secure themselves that the loan does not fail in case of death. It is also common for many owners to run their policies through the same provider to get discounts (e.g. car + house + legal protection)."
+  },
+  "selection": {
+    "title": "My criteria & selection",
+    "criteria": {
+      "title": "I wanted real all-round protection:",
+      "items": {
+        "theft": "Secure against burglary & occupations",
+        "total_loss": "Total loss (fire, earthquake, extraordinary events)",
+        "water_damage": "Sewage damage, glass and ceramic protection",
+        "legal": "Legal protection and liability",
+        "absence": "also protection during longer absence"
+      }
+    },
+    "language": {
+      "title": "The language barrier",
+      "content": "When choosing a provider, I quickly encountered a problem: the language barrier. Discussing with an insurance company in Spanish in case of damage? For me a nightmare. So I specifically looked for a broker who can advise me in German."
+    },
+    "choice": {
+      "title": "My choice",
+      "content": "After several offers, I finally decided on QS Seguros in Alicante, where I was comprehensively advised. The result: a policy for around 300 € per year that really covers every conceivable type of damage. In fact, this part of the real estate purchase was almost the most uncomplicated. Finding the right offer was the biggest hurdle - the processing afterwards went quickly and smoothly. From the day of the notary appointment, I was secured, come what may."
+    }
+  },
+  "conclusion": {
+    "title": "My conclusion",
+    "content": "Take care of your insurance in time - even if it initially seems like a \"side topic\". The property itself gives you a roof over your head, but the insurance ensures that you can sleep peacefully - whether you are currently in Spain or on the other side of the world. And above all: Don't take the first offer from the bank, but compare thoroughly. This way you ensure that everything you need is really covered."
+    }
+  }
+}

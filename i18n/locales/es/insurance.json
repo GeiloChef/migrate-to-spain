@@ -1,0 +1,74 @@
+{
+  "insurance": {
+    "title": "Seguridad y Seguros",
+    "subtitle": "Protección de la Propiedad",
+    "description": "Invertir en bienes raíces no es nada menor. La idea de daños o incluso pérdida total es un escenario de horror para cada comprador.",
+  "introduction": {
+    "title": "Por qué el seguro es tan importante",
+    "content": "Durante el proceso de compra, me quedó claro que definitivamente quería asegurar bien mi apartamento. Con una hipoteca en España, a menudo se ve obligado a contratar un seguro directamente a través del banco - al menos si quiere beneficiarse de tasas de interés más bajas. En muchos casos, el banco incluso especifica qué y cómo debe estar asegurado. Después de todo, no quiere arriesgarse a perder su capital en una emergencia. Como financié el apartamento completamente yo mismo, pude decidir libremente con quién y cómo asegurarme. Siguiendo el lema: Libertad o agonía de elección - porque la selección de pólizas es enorme."
+  },
+  "comparison": {
+    "title": "Seguros en España vs. Alemania",
+    "content": "Mientras que en Alemania se contrata por separado el seguro de hogar, edificio y a menudo responsabilidad civil, en España mucho se agrupa en un solo paquete, el Seguro de Hogar. Esto lo hace más fácil por un lado, pero por otro lado hay que mirar de cerca qué está realmente incluido.",
+    "germany": {
+      "title": "Alemania",
+      "description": "a menudo pólizas separadas (contenido del hogar, edificio, responsabilidad civil privada, protección legal, rotura de vidrio, etc.)"
+    },
+    "spain": {
+      "title": "España",
+      "description": "usualmente un paquete integral (Seguro de Hogar) que cubre daños al edificio, inventario e incluso responsabilidad civil en un contrato"
+    },
+    "special": {
+      "title": "Característica especial",
+      "description": "con préstamos, a menudo se agrega un seguro de vida obligatorio, que da seguridad al banco"
+    },
+    "property": {
+      "title": "Apartamento vs. Casa",
+      "description": "con una casa unifamiliar se agregan áreas exteriores, jardín o garaje - un apartamento, sin embargo, se limita a la propiedad especial y a veces áreas comunes proporcionales"
+    }
+  },
+  "coverage": {
+    "title": "Qué cubre el Seguro de Hogar",
+    "content": "El seguro de hogar y edificio español es sorprendentemente integral. Típicamente, puedes asegurar:",
+    "items": {
+      "natural": "Peligros naturales: Fuego, explosión, rayo, terremoto, tormenta",
+      "water": "Daños por agua: Agua del grifo, alcantarillado, rotura de tubería",
+      "theft": "Robo y vandalismo - importante especialmente para segundas residencias",
+      "liability": "Responsabilidad civil: ej. cuando un apartamento vecino se ve afectado por daños de agua",
+      "glass": "Protección de vidrio y cerámica: ej. ventanas, placa de cerámica o azulejos",
+      "legal": "Protección legal: en disputas legales alrededor de la propiedad",
+      "accidents": "\"Accidentes y estupidez\": cuando algo se cae o causas daño tú mismo"
+    },
+    "absence": "Fue particularmente importante para mí que la póliza también cubra daños durante mi ausencia - porque solo paso aproximadamente la mitad del año en España."
+  },
+  "practices": {
+    "title": "Qué es común en España",
+    "content": "Además del Seguro de Hogar, el seguro de vida es casi automático en España al financiar. Los bancos así se aseguran de que el préstamo no falle en caso de muerte. También es común que muchos propietarios ejecuten sus pólizas a través del mismo proveedor para obtener descuentos (ej. coche + casa + protección legal)."
+  },
+  "selection": {
+    "title": "Mis criterios y selección",
+    "criteria": {
+      "title": "Quería protección integral real:",
+      "items": {
+        "theft": "Asegurar contra robo y ocupaciones",
+        "total_loss": "Pérdida total (fuego, terremoto, eventos extraordinarios)",
+        "water_damage": "Daños de alcantarillado, protección de vidrio y cerámica",
+        "legal": "Protección legal y responsabilidad civil",
+        "absence": "también protección durante ausencia más larga"
+      }
+    },
+    "language": {
+      "title": "La barrera del idioma",
+      "content": "Al elegir un proveedor, rápidamente me encontré con un problema: la barrera del idioma. ¿Discutir con una compañía de seguros en español en caso de daño? Para mí una pesadilla. Así que busqué específicamente un corredor que pueda asesorarme en alemán."
+    },
+    "choice": {
+      "title": "Mi elección",
+      "content": "Después de varias ofertas, finalmente me decidí por QS Seguros en Alicante, donde fui asesorado de manera integral. El resultado: una póliza por alrededor de 300 € al año que realmente cubre cada tipo de daño concebible. De hecho, esta parte de la compra de bienes raíces fue casi la más sencilla. Encontrar la oferta correcta fue el mayor obstáculo - el procesamiento después fue rápido y sin problemas. Desde el día de la cita notarial, estaba asegurado, pase lo que pase."
+    }
+  },
+  "conclusion": {
+    "title": "Mi conclusión",
+    "content": "Cuida tu seguro a tiempo - incluso si inicialmente parece un \"tema secundario\". La propiedad misma te da un techo sobre tu cabeza, pero el seguro asegura que puedas dormir pacíficamente - ya sea que estés actualmente en España o al otro lado del mundo. Y sobre todo: No tomes la primera oferta del banco, sino compara a fondo. De esta manera te aseguras de que todo lo que necesitas esté realmente cubierto."
+    }
+  }
+}

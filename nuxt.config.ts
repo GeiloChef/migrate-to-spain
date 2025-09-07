@@ -28,19 +28,19 @@ export default defineNuxtConfig({
         code: 'en',
         iso: 'en-US',
         name: 'English',
-        files: ['en.json', 'en/apartment-search.json', 'en/discovering-spain.json', 'en/region-decision.json', 'en/bureaucracy.json', 'en/property-purchase.json', 'en/gestoria.json']
+        files: ['en.json', 'en/apartment-search.json', 'en/discovering-spain.json', 'en/region-decision.json', 'en/bureaucracy.json', 'en/property-purchase.json', 'en/gestoria.json', 'en/insurance.json']
       },
       {
         code: 'de',
         iso: 'de-DE',
         name: 'Deutsch',
-        files: ['de.json', 'de/apartment-search.json', 'de/discovering-spain.json', 'de/region-decision.json', 'de/bureaucracy.json', 'de/property-purchase.json', 'de/gestoria.json']
+        files: ['de.json', 'de/apartment-search.json', 'de/discovering-spain.json', 'de/region-decision.json', 'de/bureaucracy.json', 'de/property-purchase.json', 'de/gestoria.json', 'de/insurance.json']
       },
       {
         code: 'es',
         iso: 'es-ES',
         name: 'Español',
-        files: ['es.json', 'es/apartment-search.json', 'es/discovering-spain.json', 'es/region-decision.json', 'es/bureaucracy.json', 'es/property-purchase.json', 'es/gestoria.json']
+        files: ['es.json', 'es/apartment-search.json', 'es/discovering-spain.json', 'es/region-decision.json', 'es/bureaucracy.json', 'es/property-purchase.json', 'es/gestoria.json', 'es/insurance.json']
       }
     ],
     defaultLocale: 'en',
