@@ -10,32 +10,43 @@
       
       <div class="grid md:grid-cols-2 gap-6">
         <!-- Gestoría Card -->
-        <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm">
-          <h4 class="!text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
-            <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
-            {{ $t('gestoria.whyGestoria.gestoria.title') }}
-          </h4>
-          <p class="text-gray-700">
-            {{ $t('gestoria.whyGestoria.gestoria.description') }}
-          </p>
+        <div class="bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+          <img 
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=200&fit=crop&crop=center" 
+            alt="Gestoría Office" 
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-6">
+            <h4 class="!text-lg font-semibold text-gray-900 mb-3">
+              {{ $t('gestoria.whyGestoria.gestoria.title') }}
+            </h4>
+            <p class="text-gray-700">
+              {{ $t('gestoria.whyGestoria.gestoria.description') }}
+            </p>
+          </div>
         </div>
 
         <!-- Fachanwalt Card -->
-        <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm">
-          <h4 class="!text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
-            <span class="w-2 h-2 bg-red-500 rounded-full"></span>
-            {{ $t('gestoria.whyGestoria.lawyer.title') }}
-          </h4>
-          <p class="text-gray-700">
-            {{ $t('gestoria.whyGestoria.lawyer.description') }}
-          </p>
+        <div class="bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+          <img 
+            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=200&fit=crop&crop=center" 
+            alt="Lawyer Office" 
+            class="w-full h-32 object-cover"
+          />
+          <div class="p-6">
+            <h4 class="!text-lg font-semibold text-gray-900 mb-3">
+              {{ $t('gestoria.whyGestoria.lawyer.title') }}
+            </h4>
+            <p class="text-gray-700">
+              {{ $t('gestoria.whyGestoria.lawyer.description') }}
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- Kosten Vergleich -->
-      <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-6 border border-yellow-200">
-        <h4 class="!text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
-          <span class="text-2xl">💶</span>
+      <div>
+        <h4 class="!text-lg font-semibold text-gray-900 mb-3">
           {{ $t('gestoria.whyGestoria.costs.title') }}
         </h4>
         <p class="text-gray-700">
@@ -43,6 +54,9 @@
         </p>
       </div>
 
+      <h4 class="!text-lg font-semibold text-gray-900 mb-3">
+        Meine Entscheidung
+      </h4>
       <p class="mb-4">
         {{ $t('gestoria.whyGestoria.conclusion') }}
       </p>
