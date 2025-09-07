@@ -31,15 +31,23 @@
     "title": "What the Seguro de Hogar covers",
     "content": "Spanish household contents and building insurance is surprisingly comprehensive. Typically, you can insure:",
     "items": {
-      "natural": "Natural hazards: Fire, explosion, lightning, earthquake, storm",
-      "water": "Water damage: Tap water, sewage, pipe burst",
+      "natural": "Fire, explosion, lightning, earthquake, storm",
+      "water": "Tap water, sewage, pipe burst",
       "theft": "Burglary and vandalism - important especially for second homes",
-      "liability": "Liability: e.g. when a neighboring apartment is affected by water damage",
-      "glass": "Glass and ceramic protection: e.g. windows, ceramic hob or tiles",
-      "legal": "Legal protection: in legal disputes around the property",
-      "accidents": "\"Accidents & stupidity\": when something falls down or you cause damage yourself"
+      "liability": "E.g. when a neighboring apartment is affected by water damage",
+      "glass": "E.g. windows, ceramic hob or tiles",
+      "legal": "In legal disputes around the property",
+      "accidents": "When something falls down or you cause damage yourself"
     },
-    "absence": "It was particularly important to me that the policy also covers damage during my absence - because I only spend about half the year in Spain."
+    "absence": "It was particularly important to me that the policy also covers damage during my absence - because I only spend about half the year in Spain.",
+    "absence_card": {
+      "title": "Absence",
+      "content": "Covered, even if you're not there all year round"
+    },
+    "additional": {
+      "title": "and more...",
+      "content": "Additional components can be individually agreed upon if needed."
+    }
   },
   "practices": {
     "title": "What is common in Spain",

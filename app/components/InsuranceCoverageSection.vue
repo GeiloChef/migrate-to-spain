@@ -30,22 +30,39 @@
             {{ item }}
           </p>
         </div>
+        
+        <!-- Abwesenheit Card -->
+        <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center mr-3 bg-blue-500">
+              <UIcon name="i-heroicons-clock" class="w-5 h-5 text-white" />
+            </div>
+            <h3 class="!text-lg font-semibold text-gray-900">
+              {{ $t('insurance.coverage.absence_card.title') }}
+            </h3>
+          </div>
+          <p class="text-gray-700 text-sm leading-relaxed">
+            {{ $t('insurance.coverage.absence_card.content') }}
+          </p>
+        </div>
+        
+        <!-- Weitere Absicherungen Card -->
+        <div class="bg-gradient-to-br from-green-50 to-emerald-100 rounded-xl p-6 shadow-lg border-2 border-green-200 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full flex items-center justify-center mr-3 bg-green-500">
+              <UIcon name="i-heroicons-plus-circle" class="w-5 h-5 text-white" />
+            </div>
+            <h3 class="!text-lg font-semibold text-green-900">
+              {{ $t('insurance.coverage.additional.title') }}
+            </h3>
+          </div>
+          <p class="text-gray-700 text-sm leading-relaxed">
+            {{ $t('insurance.coverage.additional.content') }}
+          </p>
+        </div>
       </div>
 
-      <!-- Besonderheit Abwesenheit -->
-      <div class="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white shadow-xl">
-        <div class="flex items-center mb-6">
-          <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-4">
-            <UIcon name="i-heroicons-clock" class="w-6 h-6 text-white" />
-          </div>
-          <h3 class="!text-2xl font-bold">
-            Besondere Anforderung
-          </h3>
-        </div>
-        <p class="text-lg leading-relaxed text-blue-100">
-          {{ $t('insurance.coverage.absence') }}
-        </p>
-      </div>
+
     </div>
   </section>
 </template>

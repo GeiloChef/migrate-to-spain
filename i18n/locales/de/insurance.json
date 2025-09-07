@@ -31,15 +31,23 @@
     "title": "Was die Seguro de Hogar abdeckt",
     "content": "Die spanische Hausrat- und Wohngebäudeversicherung ist erstaunlich umfassend. Typischerweise lassen sich absichern:",
     "items": {
-      "natural": "Elementarschäden: Feuer, Explosion, Blitzschlag, Erdbeben, Sturm",
-      "water": "Wasserschäden: Leitungswasser, Abwasser, Rohrbruch",
+      "natural": "Feuer, Explosion, Blitzschlag, Erdbeben, Sturm",
+      "water": "Leitungswasser, Abwasser, Rohrbruch",
       "theft": "Einbruch und Vandalismus – wichtig besonders bei Zweitwohnungen",
-      "liability": "Haftpflicht: wenn z. B. durch einen Wasserschaden die Nachbarswohnung betroffen ist",
-      "glass": "Glas- und Keramikschutz: etwa bei Fenstern, Ceranfeld oder Fliesen",
-      "legal": "Rechtsschutz: bei rechtlichen Auseinandersetzungen rund um die Immobilie",
-      "accidents": "\"Unfälle & Dummheit\": wenn einem etwas herunterfällt oder man selbst einen Schaden verursacht"
+      "liability": "Wenn z. B. durch einen Wasserschaden die Nachbarswohnung betroffen ist",
+      "glass": "Etwa bei Fenstern, Ceranfeld oder Fliesen",
+      "legal": "Bei rechtlichen Auseinandersetzungen rund um die Immobilie",
+      "accidents": "Wenn einem etwas herunterfällt oder man selbst einen Schaden verursacht"
     },
-    "absence": "Besonders wichtig war mir, dass die Police auch Schäden während meiner Abwesenheit abdeckt – denn ich verbringe nur rund die Hälfte des Jahres in Spanien."
+    "absence": "Besonders wichtig war mir, dass die Police auch Schäden während meiner Abwesenheit abdeckt – denn ich verbringe nur rund die Hälfte des Jahres in Spanien.",
+    "absence_card": {
+      "title": "Abwesenheit",
+      "content": "Versichert, auch wenn du nicht das ganze Jahr über da bist"
+    },
+    "additional": {
+      "title": "und mehr...",
+      "content": "Weitere Bestandteile ggfs. individuell vereinbar."
+    }
   },
   "practices": {
     "title": "Was in Spanien üblich ist",

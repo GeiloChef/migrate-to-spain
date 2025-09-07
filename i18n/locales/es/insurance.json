@@ -31,15 +31,23 @@
     "title": "Qué cubre el Seguro de Hogar",
     "content": "El seguro de hogar y edificio español es sorprendentemente integral. Típicamente, puedes asegurar:",
     "items": {
-      "natural": "Peligros naturales: Fuego, explosión, rayo, terremoto, tormenta",
-      "water": "Daños por agua: Agua del grifo, alcantarillado, rotura de tubería",
+      "natural": "Fuego, explosión, rayo, terremoto, tormenta",
+      "water": "Agua del grifo, alcantarillado, rotura de tubería",
       "theft": "Robo y vandalismo - importante especialmente para segundas residencias",
-      "liability": "Responsabilidad civil: ej. cuando un apartamento vecino se ve afectado por daños de agua",
-      "glass": "Protección de vidrio y cerámica: ej. ventanas, placa de cerámica o azulejos",
-      "legal": "Protección legal: en disputas legales alrededor de la propiedad",
-      "accidents": "\"Accidentes y estupidez\": cuando algo se cae o causas daño tú mismo"
+      "liability": "Ej. cuando un apartamento vecino se ve afectado por daños de agua",
+      "glass": "Ej. ventanas, placa de cerámica o azulejos",
+      "legal": "En disputas legales alrededor de la propiedad",
+      "accidents": "Cuando algo se cae o causas daño tú mismo"
     },
-    "absence": "Fue particularmente importante para mí que la póliza también cubra daños durante mi ausencia - porque solo paso aproximadamente la mitad del año en España."
+    "absence": "Fue particularmente importante para mí que la póliza también cubra daños durante mi ausencia - porque solo paso aproximadamente la mitad del año en España.",
+    "absence_card": {
+      "title": "Ausencia",
+      "content": "Cubierto, incluso si no estás allí todo el año"
+    },
+    "additional": {
+      "title": "y más...",
+      "content": "Componentes adicionales pueden acordarse individualmente si es necesario."
+    }
   },
   "practices": {
     "title": "Qué es común en España",
