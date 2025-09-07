@@ -97,7 +97,7 @@ const timelineUrl = computed(() => {
     6: '/timeline/apartment-search',
     7: '/timeline/bureaucracy-prerequisites',
     8: '/timeline/property-purchase',
-    9: '/timeline/bureaucracy-prerequisites',
+    9: '/timeline/gestoria',
     10: '/timeline/bureaucracy-prerequisites',
     11: '/timeline/bureaucracy-prerequisites',
     12: '/timeline/bureaucracy-prerequisites'

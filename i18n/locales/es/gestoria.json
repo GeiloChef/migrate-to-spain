@@ -1,0 +1,109 @@
+{
+  "gestoria": {
+    "title": "Gestoría – Ayuda en la Jungla Burocrática",
+  "subtitle": "Cómo una Gestoría me ayudó con la compra de mi propiedad y por qué fue la mejor opción que un abogado.",
+  "introduction": {
+    "title": "Gestoría – Ayuda en la Jungla Burocrática",
+    "content": "Como ya has leído, la Gestoría se encargó de mucha organización y burocracia por mí. Quiero darte un breve resumen de por qué al final opté por una Gestoría – y no por un abogado especializado en derecho inmobiliario – y exactamente qué hicieron por mí."
+  },
+  "whyGestoria": {
+    "title": "¿Por qué una Gestoría y no un abogado?",
+    "intro": "O por qué no ambos, se preguntarán algunos. De hecho, las tareas de ambas partes solo se superponen parcialmente.",
+    "gestoria": {
+      "title": "Gestoría",
+      "description": "Una Gestoría es básicamente una oficina de administración y tramitación. Se encargan de solicitudes a organismos, impuestos, registros y todos los procesos organizativos relacionados con la compra de una propiedad. Se puede pensar en ellos como una mezcla de asesor fiscal y asistente administrativo que trabajan muy cerca de la práctica."
+    },
+    "lawyer": {
+      "title": "Abogado Especializado en Derecho Inmobiliario",
+      "description": "Un abogado examina principalmente el aspecto legal de la compra – por ejemplo, si todo en el registro de la propiedad está correcto, si el contrato contiene cláusulas que podrían perjudicarte, o si existen pasivos ambientales. En caso de duda, también es responsable de un asesoramiento incorrecto."
+    },
+    "costs": {
+      "title": "💶 Costos",
+      "content": "Mientras que una Gestoría suele costar entre 500–1.500 € por el procesamiento completo, un abogado especializado a menudo cobra 150–250 € por hora o una tarifa fija de 2.000–3.000 €. Ambos juntos es por supuesto la opción más segura, pero rápidamente excede el presupuesto."
+    },
+    "conclusion": "Yo mismo nunca había oído hablar de una Gestoría antes de mi compra y inicialmente solo mantuve un abogado en reserva. Pero no fue hasta que estaba a punto de hundirme en el caos después de firmar el Contrato de Arras (contrato de arras y precontrato) que me topé con la Gestoría Carrasco a través de Google. Y me ayudaron tan bien que ya no necesité al abogado. Los riesgos que discutimos juntos eran manejables, y para mí la relación precio-rendimiento claramente superó todo lo demás."
+  },
+  "whatTheyDid": {
+    "title": "¿Qué hizo la Gestoría por mí?",
+    "intro": "Cronológicamente fue así:"
+  },
+  "chronologicalProcess": {
+    "title": "Proceso Cronológico",
+    "intro": "Aquí tienes un resumen detallado de todos los pasos que la Gestoría realizó por mí:",
+    "steps": {
+      "step1": {
+        "title": "Revisión del Contrato de Arras",
+        "description": "Ya había firmado cuando la Gestoría se incorporó. Afortunadamente, era un contrato estándar de Redpiso que cumplía con todos los requisitos legales y no me perjudicaba."
+      },
+      "step2": {
+        "title": "Resumen de Costos",
+        "description": "Antes de que realmente comenzara, recibí un presupuesto de los costos adicionales (impuestos, notario, registro de la propiedad, etc.) para saber cuánto dinero necesitaba tener listo."
+      },
+      "step3": {
+        "title": "Revisión del Contrato de Compra",
+        "description": "El contrato de compra real fue verificado por corrección y me fue explicado en alemán. También recibí el consejo de exigir un recibo oficial de transferencia por cada pago – ¡muy valioso!"
+      },
+      "step4": {
+        "title": "Poder Notarial General",
+        "description": "Por recomendación de la Gestoría, les otorgué un poder. Así pudieron realizar todos los pasos posteriores en mi nombre sin que yo tuviera que volar constantemente a España. Eso valió su peso en oro."
+      },
+      "step5": {
+        "title": "Apertura de Cuenta Bancaria",
+        "description": "Como las transferencias desde Alemania a menudo no son aceptadas, la Gestoría abrió una cuenta española para mí. El precio de compra, impuestos y costos adicionales corrientes pasaron por esta cuenta."
+      },
+      "step6": {
+        "title": "Recopilación de Documentos",
+        "description": "Solicitaron todos los documentos necesarios al vendedor: declaración de impuestos sobre la propiedad, facturas corrientes de electricidad y agua, certificado energético, comprobante de hipoteca, etc. – sin los cuales no habría cita notarial."
+      },
+      "step7": {
+        "title": "Preparación y Revisión de la Escritura",
+        "description": "La Escritura es la escritura de compra final que se firma en el notario. La Gestoría revisó el documento en detalle, me envió una traducción y pidió mi consentimiento. Incluso cuando el notario originalmente planificado se retiró a corto plazo, encontraron un reemplazo en un día."
+      },
+      "step8": {
+        "title": "Representación en el Notario",
+        "description": "El día de la firma, la Gestoría se sentó por mí en el notario, completó la compra limpiamente, recibió las llaves y las guardó en su oficina hasta que pude recogerlas personalmente."
+      }
+    }
+  },
+  "afterPurchase": {
+    "title": "Después de la Compra",
+    "intro": "Su trabajo no terminó con la entrega de llaves:",
+    "ongoingServices": {
+      "title": "Servicios Continuos",
+      "contracts": "Los contratos de electricidad y agua fueron transferidos a mi nombre",
+      "tax": "El impuesto de transmisiones patrimoniales (ITP) fue transferido",
+      "taxReturn": "Y hasta hoy, la Gestoría maneja la declaración de impuestos anual para no residentes (Impuesto sobre la Renta de no Residentes)."
+    }
+  },
+  "conclusion": {
+    "title": "Conclusión: ¿Valió la pena la Gestoría?",
+    "intro": "Después de pasar por todo el proceso, puedo darte una evaluación clara de si una Gestoría fue la elección correcta para mí.",
+    "pros": {
+      "title": "Ventajas",
+      "items": [
+        "Manejo completo de todos los procesos burocráticos",
+        "Ahorro significativo de tiempo y reducción del estrés",
+        "Experiencia profesional en derecho inmobiliario español",
+        "Costo-efectivo comparado con consultas individuales de abogados",
+        "Persona de contacto personal para todas las preguntas",
+        "Manejo de procedimientos complejos como NIE y cuenta bancaria"
+      ]
+    },
+    "cons": {
+      "title": "Desventajas",
+      "items": [
+        "Costos adicionales (alrededor de €1,200 en mi caso)",
+        "Menos control sobre pasos individuales",
+        "Dependencia del cronograma de la Gestoría",
+        "Posibles barreras de comunicación"
+      ]
+    },
+    "recommendation": {
+      "title": "Mi Recomendación",
+      "content": "Para cualquiera que planee comprar una propiedad en España como extranjero, solo puedo recomendar usar una Gestoría. La tranquilidad y el ahorro de tiempo valen cada euro.",
+      "verdict": "¡Definitivamente recomendado!"
+    }
+  }
+  }
+}
+

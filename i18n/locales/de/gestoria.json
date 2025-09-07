@@ -1,0 +1,109 @@
+{
+  "gestoria": {
+    "title": "Gestoría – Hilfe im Behördendschungel",
+  "subtitle": "Wie eine Gestoría mir bei meinem Immobilienkauf geholfen hat und warum es die bessere Wahl war als ein Anwalt.",
+  "introduction": {
+    "title": "Gestoría – Hilfe im Behördendschungel",
+    "content": "Wie du bereits gelesen hast, hat sich die Gestoría um viel Organisation und Bürokratie für mich gekümmert. Ich möchte dir einen kurzen Überblick geben, warum ich mich letztendlich für eine Gestoría – und nicht für einen Immobilienanwalt – entschieden habe und genau was sie für mich erledigt haben."
+  },
+  "whyGestoria": {
+    "title": "Warum eine Gestoría und kein Anwalt?",
+    "intro": "Oder warum nicht beide, mögen sich manche fragen. Tatsächlich überschneiden sich die Aufgaben beider Parteien nur teilweise.",
+    "gestoria": {
+      "title": "Gestoría",
+      "description": "Eine Gestoría ist im Grunde ein Büro für Verwaltung und Abwicklung. Sie kümmern sich um Anträge bei Behörden, Steuern, Anmeldungen und alle organisatorischen Prozesse rund um den Immobilienkauf. Man kann sie sich als Mischung aus Steuerberater und Verwaltungsassistent vorstellen, die sehr praxisnah arbeiten."
+    },
+    "lawyer": {
+      "title": "Immobilienanwalt",
+      "description": "Ein Anwalt prüft hauptsächlich die rechtliche Seite des Kaufs – z.B. ob alles im Grundbuch korrekt ist, ob der Vertrag Klauseln enthält, die dich benachteiligen könnten, oder ob es Umwelthaftungen gibt. Im Zweifelsfall haften sie auch für falsche Beratung."
+    },
+    "costs": {
+      "title": "💶 Kosten",
+      "content": "Während eine Gestoría für die komplette Abwicklung meist 500–1.500 € kostet, verlangt ein spezialisierter Anwalt oft 150–250 € pro Stunde oder eine Pauschale von 2.000–3.000 €. Beide zusammen ist natürlich die sicherste Option, sprengt aber schnell das Budget."
+    },
+    "conclusion": "Ich selbst hatte vor meinem Kauf noch nie von einer Gestoría gehört und hatte zunächst nur einen Anwalt in Reserve. Aber erst als ich nach der Unterzeichnung des Contrato de Arras (Anzahlungs- und Vorvertrag) im Chaos zu versinken drohte, bin ich über Google auf die Gestoría Carrasco gestoßen. Und sie haben mir so gut geholfen, dass ich den Anwalt nicht mehr brauchte. Die Risiken, die wir gemeinsam besprochen haben, waren überschaubar, und für mich hat das Preis-Leistungs-Verhältnis klar überwogen."
+  },
+  "whatTheyDid": {
+    "title": "Was hat die Gestoría für mich gemacht?",
+    "intro": "Chronologisch ging es so:"
+  },
+  "chronologicalProcess": {
+    "title": "Chronologischer Ablauf",
+    "intro": "Hier ist eine detaillierte Übersicht aller Schritte, die die Gestoría für mich durchgeführt hat:",
+    "steps": {
+      "step1": {
+        "title": "Überprüfung des Contrato de Arras",
+        "description": "Ich hatte bereits unterschrieben, als die Gestoría ins Boot kam. Glücklicherweise war es ein Standardvertrag von Redpiso, der allen rechtlichen Anforderungen entsprach und mir nicht schadete."
+      },
+      "step2": {
+        "title": "Kostenübersicht",
+        "description": "Bevor es richtig losging, bekam ich eine Schätzung der zusätzlichen Kosten (Steuern, Notar, Grundbuch, etc.), damit ich wusste, wie viel Geld ich bereit haben musste."
+      },
+      "step3": {
+        "title": "Überprüfung des Kaufvertrags",
+        "description": "Der eigentliche Kaufvertrag wurde auf Richtigkeit geprüft und mir auf Deutsch erklärt. Ich bekam auch den Tipp, für jede Zahlung eine offizielle Überweisungsquittung zu verlangen – sehr wertvoll!"
+      },
+      "step4": {
+        "title": "Vollmacht beim Notar",
+        "description": "Auf Empfehlung der Gestoría habe ich ihnen eine Vollmacht erteilt. So konnten sie alle weiteren Schritte in meinem Namen durchführen, ohne dass ich ständig nach Spanien fliegen musste. Das war sein Gewicht in Gold wert."
+      },
+      "step5": {
+        "title": "Bankkonto-Eröffnung",
+        "description": "Da Überweisungen aus Deutschland oft nicht akzeptiert werden, hat die Gestoría ein spanisches Konto für mich eröffnet. Kaufpreis, Steuern und laufende Nebenkosten liefen alle über dieses Konto."
+      },
+      "step6": {
+        "title": "Dokumentensammlung",
+        "description": "Sie haben alle notwendigen Dokumente vom Verkäufer angefordert: Grundsteuerbescheid, laufende Strom- und Wasserrechnungen, Energieausweis, Hypothekennachweis, etc. – ohne die es keinen Notartermin gegeben hätte."
+      },
+      "step7": {
+        "title": "Vorbereitung und Überprüfung der Escritura",
+        "description": "Die Escritura ist die finale Kaufurkunde, die beim Notar unterschrieben wird. Die Gestoría hat das Dokument detailliert geprüft, mir eine Übersetzung geschickt und um meine Zustimmung gebeten. Selbst als der ursprünglich geplante Notar kurzfristig ausfiel, haben sie innerhalb eines Tages Ersatz gefunden."
+      },
+      "step8": {
+        "title": "Vertretung beim Notar",
+        "description": "Am Tag der Unterzeichnung saß die Gestoría für mich beim Notar, vollzog den Kauf sauber, nahm die Schlüssel entgegen und verwahrte sie in ihrem Büro, bis ich sie persönlich abholen konnte."
+      }
+    }
+  },
+  "afterPurchase": {
+    "title": "Nach dem Kauf",
+    "intro": "Ihre Arbeit endete nicht mit der Schlüsselübergabe:",
+    "ongoingServices": {
+      "title": "Laufende Services",
+      "contracts": "Strom- und Wasserverträge wurden auf meinen Namen übertragen",
+      "tax": "Die Grunderwerbsteuer (ITP) wurde übertragen",
+      "taxReturn": "Und bis heute kümmert sich die Gestoría um die jährliche Steuererklärung für Nichtansässige (Impuesto sobre la Renta de no Residentes)."
+    }
+  },
+  "conclusion": {
+    "title": "Fazit: War die Gestoría es wert?",
+    "intro": "Nachdem ich den gesamten Prozess durchlaufen habe, kann ich dir eine klare Einschätzung geben, ob eine Gestoría die richtige Wahl für mich war.",
+    "pros": {
+      "title": "Vorteile",
+      "items": [
+        "Komplette Abwicklung aller bürokratischen Prozesse",
+        "Deutliche Zeitersparnis und Stressreduktion",
+        "Professionelle Expertise im spanischen Immobilienrecht",
+        "Kosteneffektiv im Vergleich zu einzelnen Anwaltsberatungen",
+        "Persönlicher Ansprechpartner für alle Fragen",
+        "Abwicklung komplexer Verfahren wie NIE und Bankkonto"
+      ]
+    },
+    "cons": {
+      "title": "Nachteile",
+      "items": [
+        "Zusätzliche Kosten (rund 1.200€ in meinem Fall)",
+        "Weniger Kontrolle über einzelne Schritte",
+        "Abhängigkeit vom Zeitplan der Gestoría",
+        "Mögliche Kommunikationsbarrieren"
+      ]
+    },
+    "recommendation": {
+      "title": "Meine Empfehlung",
+      "content": "Für jeden, der als Ausländer eine Immobilie in Spanien kaufen möchte, kann ich nur empfehlen, eine Gestoría zu nutzen. Die Ruhe und Zeitersparnis sind jeden Euro wert.",
+      "verdict": "Definitiv empfehlenswert!"
+    }
+  }
+  }
+}
+

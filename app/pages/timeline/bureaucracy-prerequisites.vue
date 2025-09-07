@@ -1,7 +1,7 @@
 <template>
   <TimelineLayout 
-    :previous-step="'/timeline/property-purchase'"
-    :previous-step-name="$t('propertyPurchase.title')"
+    :previous-step="'/timeline/gestoria'"
+    :previous-step-name="$t('gestoria.title')"
     :next-step="null"
     :next-step-name="null"
   >
