@@ -80,23 +80,19 @@
     "intro": "Nachdem ich den gesamten Prozess durchlaufen habe, kann ich dir eine klare Einschätzung geben, ob eine Gestoría die richtige Wahl für mich war.",
     "pros": {
       "title": "Vorteile",
-      "items": [
-        "Komplette Abwicklung aller bürokratischen Prozesse",
-        "Deutliche Zeitersparnis und Stressreduktion",
-        "Professionelle Expertise im spanischen Immobilienrecht",
-        "Kosteneffektiv im Vergleich zu einzelnen Anwaltsberatungen",
-        "Persönlicher Ansprechpartner für alle Fragen",
-        "Abwicklung komplexer Verfahren wie NIE und Bankkonto"
-      ]
+      "item1": "Komplette Abwicklung aller bürokratischen Prozesse",
+      "item2": "Deutliche Zeitersparnis und Stressreduktion",
+      "item3": "Professionelle Expertise im spanischen Immobilienrecht",
+      "item4": "Kosteneffektiv im Vergleich zu einzelnen Anwaltsberatungen",
+      "item5": "Persönlicher Ansprechpartner für alle Fragen",
+      "item6": "Abwicklung komplexer Verfahren wie NIE und Bankkonto"
     },
     "cons": {
       "title": "Nachteile",
-      "items": [
-        "Zusätzliche Kosten (rund 1.200€ in meinem Fall)",
-        "Weniger Kontrolle über einzelne Schritte",
-        "Abhängigkeit vom Zeitplan der Gestoría",
-        "Mögliche Kommunikationsbarrieren"
-      ]
+      "item1": "Zusätzliche Kosten (rund 1.200€ in meinem Fall)",
+      "item2": "Weniger Kontrolle über einzelne Schritte",
+      "item3": "Abhängigkeit vom Zeitplan der Gestoría",
+      "item4": "Mögliche Kommunikationsbarrieren"
     },
     "recommendation": {
       "title": "Meine Empfehlung",

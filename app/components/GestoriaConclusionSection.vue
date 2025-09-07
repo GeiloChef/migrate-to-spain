@@ -23,9 +23,29 @@
           </h3>
         </div>
         <ul class="space-y-4">
-          <li v-for="(pro, index) in $t('gestoria.conclusion.pros.items')" :key="index" class="flex items-start">
+          <li class="flex items-start">
             <div class="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-            <span class="text-gray-700">{{ pro }}</span>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.pros.item1') }}</span>
+          </li>
+          <li class="flex items-start">
+            <div class="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.pros.item2') }}</span>
+          </li>
+          <li class="flex items-start">
+            <div class="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.pros.item3') }}</span>
+          </li>
+          <li class="flex items-start">
+            <div class="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.pros.item4') }}</span>
+          </li>
+          <li class="flex items-start">
+            <div class="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.pros.item5') }}</span>
+          </li>
+          <li class="flex items-start">
+            <div class="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.pros.item6') }}</span>
           </li>
         </ul>
       </div>
@@ -43,9 +63,21 @@
           </h3>
         </div>
         <ul class="space-y-4">
-          <li v-for="(con, index) in $t('gestoria.conclusion.cons.items')" :key="index" class="flex items-start">
+          <li class="flex items-start">
             <div class="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-            <span class="text-gray-700">{{ con }}</span>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.cons.item1') }}</span>
+          </li>
+          <li class="flex items-start">
+            <div class="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.cons.item2') }}</span>
+          </li>
+          <li class="flex items-start">
+            <div class="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.cons.item3') }}</span>
+          </li>
+          <li class="flex items-start">
+            <div class="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+            <span class="text-gray-700">{{ $t('gestoria.conclusion.cons.item4') }}</span>
           </li>
         </ul>
       </div>

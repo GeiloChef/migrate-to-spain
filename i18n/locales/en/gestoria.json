@@ -80,23 +80,19 @@
     "intro": "After going through the entire process, I can give you a clear assessment of whether a Gestoría was the right choice for me.",
     "pros": {
       "title": "Advantages",
-      "items": [
-        "Complete handling of all bureaucratic processes",
-        "Significant time savings and stress reduction",
-        "Professional expertise in Spanish real estate law",
-        "Cost-effective compared to individual lawyer consultations",
-        "Personal contact person for all questions",
-        "Handling of complex procedures like NIE and bank account"
-      ]
+      "item1": "Complete handling of all bureaucratic processes",
+      "item2": "Significant time savings and stress reduction",
+      "item3": "Professional expertise in Spanish real estate law",
+      "item4": "Cost-effective compared to individual lawyer consultations",
+      "item5": "Personal contact person for all questions",
+      "item6": "Handling of complex procedures like NIE and bank account"
     },
     "cons": {
       "title": "Disadvantages",
-      "items": [
-        "Additional costs (around €1,200 in my case)",
-        "Less control over individual steps",
-        "Dependency on the Gestoría's timeline",
-        "Potential communication barriers"
-      ]
+      "item1": "Additional costs (around €1,200 in my case)",
+      "item2": "Less control over individual steps",
+      "item3": "Dependency on the Gestoría's timeline",
+      "item4": "Potential communication barriers"
     },
     "recommendation": {
       "title": "My Recommendation",

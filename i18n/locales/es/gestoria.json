@@ -80,23 +80,19 @@
     "intro": "Después de pasar por todo el proceso, puedo darte una evaluación clara de si una Gestoría fue la elección correcta para mí.",
     "pros": {
       "title": "Ventajas",
-      "items": [
-        "Manejo completo de todos los procesos burocráticos",
-        "Ahorro significativo de tiempo y reducción del estrés",
-        "Experiencia profesional en derecho inmobiliario español",
-        "Costo-efectivo comparado con consultas individuales de abogados",
-        "Persona de contacto personal para todas las preguntas",
-        "Manejo de procedimientos complejos como NIE y cuenta bancaria"
-      ]
+      "item1": "Manejo completo de todos los procesos burocráticos",
+      "item2": "Ahorro significativo de tiempo y reducción del estrés",
+      "item3": "Experiencia profesional en derecho inmobiliario español",
+      "item4": "Costo-efectivo comparado con consultas individuales de abogados",
+      "item5": "Persona de contacto personal para todas las preguntas",
+      "item6": "Manejo de procedimientos complejos como NIE y cuenta bancaria"
     },
     "cons": {
       "title": "Desventajas",
-      "items": [
-        "Costos adicionales (alrededor de €1,200 en mi caso)",
-        "Menos control sobre pasos individuales",
-        "Dependencia del cronograma de la Gestoría",
-        "Posibles barreras de comunicación"
-      ]
+      "item1": "Costos adicionales (alrededor de €1,200 en mi caso)",
+      "item2": "Menos control sobre pasos individuales",
+      "item3": "Dependencia del cronograma de la Gestoría",
+      "item4": "Posibles barreras de comunicación"
     },
     "recommendation": {
       "title": "Mi Recomendación",
