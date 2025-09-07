@@ -62,7 +62,8 @@
         "total_loss": "Total loss (fire, earthquake, extraordinary events)",
         "water_damage": "Sewage damage, glass and ceramic protection",
         "legal": "Legal protection and liability",
-        "absence": "also protection during longer absence"
+        "absence": "also protection during longer absence",
+        "german_contact": "German contact person"
       }
     },
     "language": {

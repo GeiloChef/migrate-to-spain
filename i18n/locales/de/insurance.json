@@ -62,7 +62,8 @@
         "total_loss": "Komplettverlust (Feuer, Erdbeben, außergewöhnliche Ereignisse)",
         "water_damage": "Abwasserschäden, Glas- und Keramikschutz",
         "legal": "Rechtsschutz und Haftpflicht",
-        "absence": "auch Schutz bei längerer Abwesenheit"
+        "absence": "auch Schutz bei längerer Abwesenheit",
+        "german_contact": "Deutscher Ansprechpartner"
       }
     },
     "language": {

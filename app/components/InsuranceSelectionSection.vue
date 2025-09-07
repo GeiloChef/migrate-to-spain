@@ -8,72 +8,40 @@
         <div class="w-24 h-1 bg-gradient-to-r from-yellow-400 to-red-500 mx-auto rounded-full"></div>
       </div>
 
-      <!-- Kriterien -->
+      <!-- Fließtext -->
       <div class="mb-12">
-        <div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-200 mb-8">
-          <h3 class="!text-2xl font-bold text-gray-900 mb-6 text-center">
-            {{ $t('insurance.selection.criteria.title') }}
-          </h3>
-          <div class="grid md:grid-cols-2 gap-4">
-            <div 
-              v-for="(item, key) in criteriaItems" 
-              :key="key"
-              class="flex items-center bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200"
-            >
-              <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                <UIcon name="i-heroicons-check" class="w-4 h-4 text-white" />
-              </div>
-              <span class="text-gray-800 font-medium">{{ item }}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Sprachbarriere -->
-      <div class="mb-12">
-        <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-2xl p-8 border-2 border-red-200 shadow-xl">
-          <div class="flex items-center mb-6">
-            <div class="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mr-6">
-              <UIcon name="i-heroicons-language" class="w-8 h-8 text-white" />
-            </div>
-            <div>
-              <h3 class="!text-2xl font-bold text-red-900 mb-2">
-                {{ $t('insurance.selection.language.title') }}
-              </h3>
-            </div>
-          </div>
-          <p class="text-xl text-gray-700 leading-relaxed">
+        <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+          <p class="text-xl mb-6">
             {{ $t('insurance.selection.language.content') }}
           </p>
+          <p class="text-xl mb-6">
+            {{ $t('insurance.selection.choice.content') }}
+          </p>
+          <div class="bg-gray-100 rounded-xl p-6 text-center">
+            <div class="flex items-center justify-center">
+              <UIcon name="i-heroicons-banknotes" class="w-6 h-6 text-green-600 mr-3" />
+              <span class="text-lg font-semibold text-gray-900">Jährliche Kosten: </span>
+              <span class="text-2xl font-bold text-green-600">~300 €</span>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Meine Wahl -->
-      <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 border-2 border-green-200 shadow-xl">
-        <div class="flex items-center mb-6">
-          <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mr-6">
-            <UIcon name="i-heroicons-check-circle" class="w-8 h-8 text-white" />
-          </div>
-          <div>
-            <h3 class="!text-2xl font-bold text-green-900 mb-2">
-              {{ $t('insurance.selection.choice.title') }}
-            </h3>
-          </div>
-        </div>
-        
-        <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed mb-6">
-          <p class="text-xl">
-            {{ $t('insurance.selection.choice.content') }}
-          </p>
-        </div>
-
-        <div class="bg-white bg-opacity-60 rounded-xl p-6 border border-green-200">
-          <div class="flex items-center justify-between">
-            <div class="flex items-center">
-              <UIcon name="i-heroicons-banknotes" class="w-6 h-6 text-green-600 mr-3" />
-              <span class="text-lg font-semibold text-gray-900">Jährliche Kosten:</span>
+      <!-- Kriterien -->
+      <div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-200">
+        <h3 class="!text-2xl font-bold text-gray-900 mb-6 text-center">
+          {{ $t('insurance.selection.criteria.title') }}
+        </h3>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div 
+            v-for="(item, key) in criteriaItems" 
+            :key="key"
+            class="flex items-center bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200"
+          >
+            <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+              <UIcon name="i-heroicons-check" class="w-4 h-4 text-white" />
             </div>
-            <span class="text-2xl font-bold text-green-600">~300 €</span>
+            <span class="text-gray-800 font-medium">{{ item }}</span>
           </div>
         </div>
       </div>
@@ -87,6 +55,7 @@ const criteriaItems = computed(() => ({
   total_loss: useI18n().t('insurance.selection.criteria.items.total_loss'),
   water_damage: useI18n().t('insurance.selection.criteria.items.water_damage'),
   legal: useI18n().t('insurance.selection.criteria.items.legal'),
-  absence: useI18n().t('insurance.selection.criteria.items.absence')
+  absence: useI18n().t('insurance.selection.criteria.items.absence'),
+  german_contact: useI18n().t('insurance.selection.criteria.items.german_contact')
 }))
 </script>

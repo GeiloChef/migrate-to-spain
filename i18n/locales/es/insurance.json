@@ -62,7 +62,8 @@
         "total_loss": "Pérdida total (fuego, terremoto, eventos extraordinarios)",
         "water_damage": "Daños de alcantarillado, protección de vidrio y cerámica",
         "legal": "Protección legal y responsabilidad civil",
-        "absence": "también protección durante ausencia más larga"
+        "absence": "también protección durante ausencia más larga",
+        "german_contact": "Persona de contacto alemana"
       }
     },
     "language": {
