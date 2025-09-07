@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 bg-gradient-to-br from-blue-50 to-indigo-100">
+  <section class="py-16">
     <div class="max-w-4xl mx-auto px-6">
       <div class="text-center mb-12">
         <h2 class="!text-4xl font-bold text-gray-900 mb-6">
@@ -8,7 +8,7 @@
         <div class="w-24 h-1 bg-gradient-to-r from-yellow-400 to-red-500 mx-auto rounded-full"></div>
       </div>
       
-      <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+      <div class="bg-white bg-opacity-80 rounded-2xl shadow-xl p-8 border border-gray-200 backdrop-blur-sm">
         <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
           <p class="text-xl mb-6 text-gray-800">
             {{ $t('insurance.introduction.content') }}

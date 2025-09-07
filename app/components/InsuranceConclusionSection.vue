@@ -1,14 +1,14 @@
 <template>
-  <section class="py-16 bg-gradient-to-br from-blue-600 to-purple-700">
+  <section class="py-16">
     <div class="max-w-4xl mx-auto px-6">
       <div class="text-center mb-12">
-        <h2 class="!text-4xl font-bold text-white mb-6">
+        <h2 class="!text-4xl font-bold text-gray-900 mb-6">
           {{ $t('insurance.conclusion.title') }}
         </h2>
         <div class="w-24 h-1 bg-gradient-to-r from-yellow-400 to-red-500 mx-auto rounded-full"></div>
       </div>
       
-      <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 border border-white border-opacity-20 shadow-2xl">
+      <div class="bg-gradient-to-br from-blue-600 to-purple-700 rounded-2xl p-8 shadow-2xl">
         <div class="prose prose-lg max-w-none text-white leading-relaxed">
           <p class="text-xl mb-6 text-blue-100">
             {{ $t('insurance.conclusion.content') }}

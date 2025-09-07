@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 bg-gradient-to-br from-gray-50 to-gray-100">
+  <section class="py-16">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-12">
         <h2 class="!text-4xl font-bold text-gray-900 mb-6">
