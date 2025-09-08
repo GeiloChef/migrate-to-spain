@@ -1,0 +1,18 @@
+<template>
+  <div>
+    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+      {{ $t('firstApartmentStay.waterDamage.title') }}
+    </h3>
+    <div class="space-y-4 text-gray-700 leading-relaxed">
+      <p class="mb-4">
+        {{ $t('firstApartmentStay.waterDamage.content1') }}
+      </p>
+      <p class="mb-4">
+        {{ $t('firstApartmentStay.waterDamage.content2') }}
+      </p>
+      <p class="mb-4">
+        {{ $t('firstApartmentStay.waterDamage.content3') }}
+      </p>
+    </div>
+  </div>
+</template>

@@ -1,17 +1,17 @@
 <template>
   <TimelineLayout 
-    :previous-step="'/timeline/gestoria'"
-    :previous-step-name="$t('gestoria.title')"
-    :next-step="'/timeline/first-apartment-stay'"
-    :next-step-name="$t('firstApartmentStay.title')"
+    :previous-step="'/timeline/insurance'"
+    :previous-step-name="$t('insurance.title')"
+    :next-step="'/timeline/bureaucracy-prerequisites'"
+    :next-step-name="$t('story.timeline.step12.title')"
   >
     <!-- Hero Section -->
     <div class="relative">
       <!-- Background Image -->
       <div class="w-full h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
-          src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Insurance and security concept"
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          alt="First stay in my own apartment in Spain"
           class="w-full h-full object-cover"
         />
         <!-- Dark Overlay for Better Text Readability -->
@@ -22,13 +22,13 @@
       <div class="absolute inset-0 flex items-end p-8 md:p-12">
         <div class="text-white max-w-4xl">
           <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-sm font-medium mb-6 border border-white/30">
-            Versicherung
+            Erster Aufenthalt
           </div>
           <h2 class="!text-4xl md:!text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
-            {{ $t('insurance.title') }}
+            {{ $t('firstApartmentStay.title') }}
           </h2>
           <p class="!text-lg md:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
-            {{ $t('insurance.subtitle') }}
+            {{ $t('firstApartmentStay.subtitle') }}
           </p>
         </div>
       </div>
@@ -39,42 +39,49 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <InsuranceIntroductionSection />
+          <FirstApartmentStayIntroductionSection />
         </div>
       </div>
 
-      <!-- Section 2: Vergleich -->
+      <!-- Section 2: Ankunft und erster Tag -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
-          <InsuranceComparisonSection />
+          <FirstApartmentStayArrivalSection />
         </div>
       </div>
 
-      <!-- Section 3: Abdeckung -->
+      <!-- Section 3: Erste Eindrücke -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <InsuranceCoverageSection />
+          <FirstApartmentStayFirstImpressionsSection />
         </div>
       </div>
 
-      <!-- Section 4: Übliche Praktiken -->
+      <!-- Section 4: Der Wasserschaden -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
-          <InsuranceCommonPracticesSection />
+          <FirstApartmentStayWaterDamageSection />
         </div>
       </div>
 
-      <!-- Section 5: Auswahl -->
+      <!-- Section 5: Die Reparaturen -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
-          <InsuranceSelectionSection />
+          <FirstApartmentStayRepairsSection />
         </div>
       </div>
 
-      <!-- Section 6: Fazit -->
+      <!-- Section 6: Learnings -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
-          <InsuranceConclusionSection />
+          <FirstApartmentStayKeyLearningsSection />
+        </div>
+      </div>
+
+      <!-- Section 7: Positive Aspekte -->
+      <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div class="px-6 py-16">
+          <FirstApartmentStayPositiveAspectsSection />
         </div>
       </div>
     </div>
@@ -82,8 +89,16 @@
 </template>
 
 <script setup lang="ts">
+// Meta information
+useHead({
+  title: 'Erster Aufenthalt - Meine Erfahrungen',
+  meta: [
+    { name: 'description', content: 'Mein erster Aufenthalt in meiner eigenen Wohnung in Spanien - von der Vorfreude bis zum Wasserschaden und den Learnings daraus.' }
+  ]
+})
+
+// Timeline navigation
 definePageMeta({
-  title: 'Hausversicherung',
-  description: 'Alles über Versicherungen beim Immobilienkauf in Spanien'
+  layout: 'timeline'
 })
 </script>

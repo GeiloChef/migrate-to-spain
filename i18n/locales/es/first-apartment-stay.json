@@ -1,0 +1,63 @@
+{
+  "firstApartmentStay": {
+    "title": "La Primera Estancia en Mi Propio Apartamento",
+    "subtitle": "De la anticipación al daño por agua - mis primeras experiencias",
+    "description": "Mi primera estancia en mi propio apartamento en España - de la anticipación al daño por agua y los aprendizajes de ello.",
+    "introduction": {
+      "title": "Todo estaba hecho ahora",
+      "content": "Todo estaba hecho ahora – al menos eso pensé. El apartamento me pertenecía, todos los seguros estaban concluidos y tenía la sensación tranquilizadora de que nada importante podría salir mal. Con esta mezcla de anticipación y alivio, reservé mi primer viaje a Molina de Segura. Inicialmente planificado era solo una semana, para organizar las cosas más importantes, aclarar los primeros procesos y simplemente llegar a mi nuevo hogar."
+    },
+    "arrival": {
+      "title": "Llegada y Primer Día",
+      "content1": "Como mi vuelo a Alicante solo aterrizó tarde en la noche y la gestoría solo abría por la mañana, pasé una última noche en un Airbnb. A la mañana siguiente fui directamente a la oficina de mi gestoría, y después de otra firma sostuve la llave de mi propio apartamento en mi mano por primera vez. Un momento que se sintió tanto irreal como completamente real al mismo tiempo.",
+      "content2": "Solo una hora después estaba a 34 grados bajo el sol del mediodía frente a mi puerta, abrí – y entré a mi apartamento por primera vez. Por supuesto estaba solo, Emely desafortunadamente no pudo estar ahí para esta estancia. Pero el apartamento no estaba vacío: Los propietarios anteriores habían, como acordado, dejado algunos muebles.",
+      "content3": "Una cama, una cocina casi nueva, una sala de estar con sofá, lavadora y secadora, incluso una mesa de comedor. No muebles de diseñador, pero más que suficiente para poder vivir ahí inmediatamente sin tener que hacer grandes inversiones de inmediato."
+    },
+    "firstImpressions": {
+      "title": "Primeras Impresiones y Vida Cotidiana",
+      "content1": "Apenas había ordenado este pensamiento cuando comenzó el primer pequeño momento de estrés: El técnico de Vodafone, a quien en realidad había pedido para más tarde, llegó significativamente muy temprano y ya esperaba impacientemente en mi puerta. Mientras él se dedicaba a configurar el internet y así allanar el camino para videollamadas fluidas en la oficina en casa, aproveché la oportunidad para inspeccionar cada habitación una vez más cuidadosamente.",
+      "content2": "Y de hecho: Sin defectos serios, sin sorpresas desagradables. Por el momento me sentí aliviado. Cuando finalmente el internet funcionaba, hice mi primera compra. Solo a ocho minutos caminando había un centro comercial con Mercadona. No una experiencia espectacular, pero sin embargo un paso importante, porque por primera vez estaba comprando para mi propio hogar en España.",
+      "content3": "Más tarde paseé por las calles y dejé que el momento se asentara: Ya no era solo una visita, estaba en casa. Por primera vez se sintió como si realmente hubiera llegado."
+    },
+    "waterDamage": {
+      "title": "El Daño por Agua",
+      "content1": "Pero esta euforia no duró mucho. Cuando quería limpiar a fondo el apartamento al día siguiente, estaba llenando un balde con agua cuando de repente hubo golpes frenéticos en mi puerta. Mi vecino de abajo estaba ahí y solo dijo: \"El agua está corriendo del techo en mi apartamento.\" Una frase que inmediatamente me hizo subir el pulso.",
+      "content2": "Juntos bajamos – y de hecho, el agua goteaba incesantemente de su techo. De vuelta en mi apartamento encontré que mi pared también estaba mojada. Poco después vino el presidente de la comunidad de propietarios. Su diagnóstico: una tubería de alcantarillado defectuosa. Suerte en la desgracia – era \"solo\" agua residual de cocina y no de los inodoros. Pero eso no cambió el hecho de que de un momento a otro estaba en medio de mi primer daño por agua.",
+      "content3": "Lo que siguió fue una mezcla agotadora de llamadas telefónicas interminables, barreras del idioma y demasiado trabajo de fregado. Durante cuatro días tuve que secar regularmente el suelo, a veces cada media hora, para mantener los charcos bajo control. Como el daño estaba en una tubería comunitaria, el seguro de la comunidad de propietarios era responsable. Pero hasta que todo tomó su curso, se arrastró."
+    },
+    "repairs": {
+      "title": "Las Reparaciones",
+      "content1": "Tuve que volar de vuelta a Alemania en el medio, pero inmediatamente reservé un nuevo vuelo para verificar personalmente. En retrospectiva esa fue una muy buena decisión, porque cuando regresé, el daño ya había empeorado: el moho se estaba extendiendo en la pared, y el olor del agua residual de cocina era casi insoportable.",
+      "content2": "En las semanas siguientes todo parecía moverse solo a paso de caracol. Los artesanos solo vinieron porque seguí presionando. La pared fue enlucida provisionalmente, los puntos húmedos tratados inadecuadamente y mucho no se terminó. Para colmo, eventualmente salieron cucarachas del agujero en la pared – y no las pequeñas, sino las grandes americanas.",
+      "content3": "A más tardar entonces finalmente perdí la paciencia. Solo cuando amenacé con consecuencias la administración del edificio realmente reaccionó. Hasta el día de hoy, sin embargo, las reparaciones aún no están completamente terminadas. Algunos puntos han sido retrabajados, pero las grietas, manchas de agua y olor siguen apareciendo de nuevo. Tan pronto como todo esté realmente arreglado, agregaré aquí cómo terminó la historia – en este momento no está terminada. Pero a pesar de todo esto, esta primera fase fue muy útil."
+    },
+    "keyLearnings": {
+      "title": "Lo que he aprendido hasta ahora",
+      "insurance": {
+        "title": "Las compañías de seguros tampoco son tu amigo en España",
+        "content": "No puedes confiar en que todo funcione automáticamente. Sin seguimiento constante, hacer preguntas y presión, simplemente no pasa nada."
+      },
+      "neighbors": {
+        "title": "Los vecinos no tienen precio",
+        "content": "Ya con el primer problema noté lo importante que es construir una buena relación con la gente en el edificio. A menudo son el primer punto de contacto cuando las cosas necesitan ser rápidas."
+      },
+      "patience": {
+        "title": "Todo toma más tiempo de lo que piensas",
+        "content": "Las citas se posponen, los artesanos llegan más tarde, e incluso las cosas simples se arrastran. Pero con paciencia usualmente llegas al final."
+      },
+      "spanish": {
+        "title": "El español es indispensable",
+        "content": "Sin habilidades del idioma me habría perdido en muchas situaciones. Me di cuenta aquí de cuánto vale la pena tomar cada palabra de vocabulario contigo."
+      },
+      "cockroaches": {
+        "title": "Las cucarachas pertenecen al sur",
+        "content": "No es agradable, pero es la realidad. No solo aparecen en apartamentos, sino que también vienen por la ventana. Es mejor tener siempre gel o trampas listas."
+      }
+    },
+    "positiveAspects": {
+      "title": "Y sin embargo lo positivo permanece",
+      "content1": "Y sin embargo, a pesar de toda la molestia y las muchas llamadas telefónicas, lo positivo permanece: Fui inmediatamente atraído a la comunidad del edificio, conocí vecinos y construí contacto directo con el presidente. Todos fueron abiertos, útiles y amigables – exactamente como había experimentado a los españoles en mis viajes. A pesar de los problemas, se sintió bien ser parte de esta comunidad.",
+      "content2": "Después de mi primera estancia más larga de más de siete semanas, ya me había sentido en casa ahí, y honestamente, despedirme de vuelta a Alemania fue difícil para mí."
+    }
+  }
+}

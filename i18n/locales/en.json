@@ -81,6 +81,17 @@
           "title": "The Beginning of a Dream",
           "description": "Every journey begins with a single thought. For me, it was the idea of living in Spain - a country that had always fascinated me with its culture, climate, and way of life."
         },
+        "preview": {
+          "point1": "First thoughts about Spain",
+          "point2": "Why this country specifically?",
+          "point3": "Fears and doubts"
+        },
+        "hero": {
+          "badge": "The Beginning",
+          "title": "Where Did the Idea Come From?",
+          "subtitle": "If you've landed here, you probably know this impulse: You're sitting on vacation in Spain, looking at the sea, and thinking: 'Why don't I just stay here?'",
+          "imagePlaceholder": "Sunset at the beach / typical Spain feeling"
+        },
         "sections": {
           "dream": {
             "title": "The Dream",
@@ -171,6 +182,18 @@
               "title": "Digital Learning",
               "description": "Using language apps and online resources for flexible, mobile learning that fits into any schedule."
             }
+          },
+          "fears": {
+            "title": "Fears and Doubts",
+            "description": "Despite the excitement, there were real concerns that needed to be addressed before taking such a life-changing step.",
+            "point1": "Language barriers and communication challenges",
+            "point2": "Leaving family and friends behind",
+            "point3": "Navigating bureaucracy in a foreign country",
+            "point4": "Financial uncertainty and starting over"
+          },
+          "conclusion": {
+            "title": "The Decision",
+            "description": "After weighing all the pros and cons, the dream of Spain felt worth pursuing. The fears were real, but the potential rewards seemed even greater."
           }
         }
       },
@@ -508,13 +531,13 @@
         }
       },
       "step11": {
-        "title": "First Stay in Your Own Apartment",
+        "title": "The First Stay in My Own Apartment",
         "date": "Spring 2024",
-        "description": "Feeling of finally \"arriving\" in Spain. First experiences with everyday life: electricity, internet, shopping, neighbors.",
+        "description": "From anticipation to water damage - my first experiences in my own apartment.",
         "preview": {
-          "point1": "Feeling of finally \"arriving\" in Spain",
-          "point2": "First experiences with everyday life: electricity, internet, shopping, neighbors",
-          "point3": "New life begins in your own apartment"
+          "point1": "Arrival and first day in my own apartment",
+          "point2": "The water damage and repairs",
+          "point3": "Important learnings for life in Spain"
         }
       },
       "step12": {
