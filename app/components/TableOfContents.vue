@@ -14,24 +14,29 @@
         <div v-if="headings.length === 0" class="text-xs text-gray-500 px-2 py-1">
           {{ $t('ui.tableOfContents.noHeadings') }}
         </div>
-        <button
-          v-for="(heading, index) in headings"
-          :key="index"
-          @click="scrollToHeading(heading.id)"
-          :class="[
-            'block w-full text-left px-2 py-1.5 rounded text-xs transition-all duration-200 cursor-pointer',
-            activeHeading === heading.id
-              ? 'bg-yellow-100 text-yellow-800'
-              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-800'
-          ]"
-        >
-          <span 
-            class="block truncate" 
-            :class="getHeadingIndent(heading.level)"
-          >
-            {{ heading.text }}
-          </span>
-        </button>
+               <button
+                 v-for="(heading, index) in headings"
+                 :key="index"
+                 :data-heading-id="heading.id"
+                 @click="scrollToHeading(heading.id)"
+                 :class="[
+                   'block w-full text-left px-2 py-1.5 rounded text-xs transition-all duration-200 cursor-pointer',
+                   activeHeading === heading.id
+                     ? heading.level <= 3 
+                       ? 'bg-yellow-200 text-yellow-900 border-l-2 border-yellow-500' // Extra highlight for main headings
+                       : 'bg-yellow-100 text-yellow-800'
+                     : 'text-gray-600 hover:bg-gray-50 hover:text-gray-800',
+                   // Highlight main headings (H1, H2, H3)
+                   heading.level <= 3 ? 'font-semibold' : 'font-normal'
+                 ]"
+               >
+                 <span 
+                   class="block truncate" 
+                   :class="getHeadingIndent(heading.level)"
+                 >
+                   {{ heading.text }}
+                 </span>
+               </button>
       </nav>
 
       <!-- Progress Indicator -->
@@ -161,15 +166,59 @@ const scrollToHeading = (headingId) => {
 
 // Track which heading is currently in view
 const updateActiveHeading = () => {
-  const scrollPosition = window.scrollY + 150 // Offset for better UX
+  const scrollPosition = window.scrollY + 200 // Offset for better UX
   
-  for (let i = headings.value.length - 1; i >= 0; i--) {
+  let currentHeading = null
+  
+  for (let i = 0; i < headings.value.length; i++) {
     const element = document.getElementById(headings.value[i].id)
-    if (element && element.offsetTop <= scrollPosition) {
-      activeHeading.value = headings.value[i].id
-      break
+    if (element) {
+      const rect = element.getBoundingClientRect()
+      const elementTop = rect.top + window.scrollY
+      
+      // Check if this heading is in the viewport
+      if (elementTop <= scrollPosition) {
+        currentHeading = headings.value[i].id
+      } else {
+        // If we've passed this heading, stop looking
+        break
+      }
     }
   }
+  
+  if (currentHeading) {
+    activeHeading.value = currentHeading
+    console.log(`Active heading: ${currentHeading}`)
+    
+    // Scroll the active heading into view in the TOC
+    scrollActiveHeadingIntoView(currentHeading)
+  }
+}
+
+// Scroll active heading into view in the TOC
+const scrollActiveHeadingIntoView = (headingId) => {
+  nextTick(() => {
+    const tocContainer = document.querySelector('.max-h-80.overflow-y-auto')
+    const activeButton = tocContainer?.querySelector(`button[data-heading-id="${headingId}"]`)
+    
+    if (tocContainer && activeButton) {
+      const containerRect = tocContainer.getBoundingClientRect()
+      const buttonRect = activeButton.getBoundingClientRect()
+      
+      // Calculate if the button is outside the visible area
+      const isAbove = buttonRect.top < containerRect.top
+      const isBelow = buttonRect.bottom > containerRect.bottom
+      
+      if (isAbove || isBelow) {
+        // Scroll to center the button in the container
+        const scrollTop = activeButton.offsetTop - (tocContainer.clientHeight / 2) + (activeButton.clientHeight / 2)
+        tocContainer.scrollTo({
+          top: scrollTop,
+          behavior: 'smooth'
+        })
+      }
+    }
+  })
 }
 
 // Calculate reading progress
