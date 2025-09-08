@@ -546,5 +546,10 @@
       "description": "Schließe dich Tausenden anderen an, die Spanien mit unserer bewährten Anleitung erfolgreich zu ihrem neuen Zuhause gemacht haben.",
       "button": "Heute starten"
     }
+  },
+  "ui": {
+    "backToTop": {
+      "ariaLabel": "Nach oben scrollen"
+    }
   }
 }

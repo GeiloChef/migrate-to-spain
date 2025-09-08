@@ -15,6 +15,9 @@
         :next-step-name="nextStepName"
       />
     </div>
+
+    <!-- Back to Top Button -->
+    <BackToTop />
   </div>
 </template>
 

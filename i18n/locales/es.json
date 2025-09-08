@@ -493,6 +493,11 @@
       "button": "Comenzar Hoy"
     }
   },
+  "ui": {
+    "backToTop": {
+      "ariaLabel": "Desplazarse hacia arriba"
+    }
+  },
   "introduction": {
     "title": "El Camino hacia la Implementación",
     "paragraph1": "Así que después de que tuve la idea básica – España realmente podría convertirse en mi nuevo hogar – y las ventajas que vi en ello superaron mis miedos iniciales, era hora de hacer un plan real. El sueño solo no es suficiente. Quería entender: ¿Es todo esto incluso factible? ¿Qué requisitos debo cumplir? ¿Y cómo podría verse una línea de tiempo realista?",

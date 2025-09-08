@@ -600,6 +600,11 @@
       "button": "Get Started Today"
     }
   },
+  "ui": {
+    "backToTop": {
+      "ariaLabel": "Scroll to top"
+    }
+  },
   "gestoria": {
     "title": "Gestoría – Help in the Bureaucratic Jungle",
     "subtitle": "How a Gestoría helped me with my property purchase and why it was the better choice than a lawyer.",
