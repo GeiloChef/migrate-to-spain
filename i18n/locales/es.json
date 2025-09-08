@@ -496,6 +496,11 @@
   "ui": {
     "backToTop": {
       "ariaLabel": "Desplazarse hacia arriba"
+    },
+    "tableOfContents": {
+      "title": "Tabla de Contenidos",
+      "progress": "Progreso",
+      "noHeadings": "No se encontraron encabezados"
     }
   },
   "introduction": {

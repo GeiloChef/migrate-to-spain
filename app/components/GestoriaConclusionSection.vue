@@ -18,9 +18,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
             </svg>
           </div>
-          <h3 class="!text-xl font-bold text-gray-900">
+          <h4 class="!text-xl font-bold text-gray-900">
             {{ $t('gestoria.conclusion.pros.title') }}
-          </h3>
+          </h4>
         </div>
         <ul class="space-y-4">
           <li class="flex items-start">
@@ -58,9 +58,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           </div>
-          <h3 class="!text-xl font-bold text-gray-900">
+          <h4 class="!text-xl font-bold text-gray-900">
             {{ $t('gestoria.conclusion.cons.title') }}
-          </h3>
+          </h4>
         </div>
         <ul class="space-y-4">
           <li class="flex items-start">
@@ -86,9 +86,9 @@
     <!-- Final Recommendation -->
     <div class="bg-gradient-to-r from-spain-yellow/10 to-spain-red/10 rounded-2xl p-8 border border-spain-yellow/30">
       <div class="text-center">
-        <h3 class="!text-2xl font-bold text-gray-900 mb-4">
+        <h4 class="!text-2xl font-bold text-gray-900 mb-4">
           {{ $t('gestoria.conclusion.recommendation.title') }}
-        </h3>
+        </h4>
         <p class="!text-lg text-gray-700 leading-relaxed mb-6">
           {{ $t('gestoria.conclusion.recommendation.content') }}
         </p>

@@ -550,6 +550,11 @@
   "ui": {
     "backToTop": {
       "ariaLabel": "Nach oben scrollen"
+    },
+    "tableOfContents": {
+      "title": "Inhaltsverzeichnis",
+      "progress": "Fortschritt",
+      "noHeadings": "Keine Überschriften gefunden"
     }
   }
 }

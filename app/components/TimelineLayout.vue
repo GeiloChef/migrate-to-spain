@@ -3,6 +3,9 @@
     <!-- Header Section -->
     <TimelineHeader class="mb-12" />
 
+    <!-- Table of Contents -->
+    <TableOfContents />
+
     <!-- Content Section -->
     <div class="max-w-4xl mx-auto rounded-b-3xl shadow-2xl">
       <slot />

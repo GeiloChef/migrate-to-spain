@@ -603,6 +603,11 @@
   "ui": {
     "backToTop": {
       "ariaLabel": "Scroll to top"
+    },
+    "tableOfContents": {
+      "title": "Table of Contents",
+      "progress": "Progress",
+      "noHeadings": "No headings found"
     }
   },
   "gestoria": {
