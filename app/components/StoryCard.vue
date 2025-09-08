@@ -100,7 +100,7 @@ const timelineUrl = computed(() => {
     9: '/timeline/gestoria',
     10: '/timeline/insurance',
     11: '/timeline/first-apartment-stay',
-    12: '/timeline/bureaucracy-prerequisites'
+    12: '/timeline/final-migration'
   }
   return stepUrls[props.stepNumber] || '/timeline'
 })
