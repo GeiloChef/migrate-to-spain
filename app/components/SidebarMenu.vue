@@ -100,11 +100,11 @@
                     :key="key"
                     :to="`/timeline/${key}`"
                     @click="closeSidebar"
-                    class="flex items-center p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-md hover:scale-[1.01] border border-transparent hover:border-spain-yellow/40"
-                    :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50': $route.path === `/timeline/${key}` }"
+                    class="flex items-center p-3 transition-all duration-300 group"
+                    :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50 rounded-xl': $route.path === `/timeline/${key}` }"
                   >
                     <div class="flex-1 min-w-0">
-                      <div class="!text-sm font-medium text-spain-navy truncate group-hover:text-spain-navy transition-colors">{{ step.title }}</div>
+                      <div class="!text-sm font-medium text-spain-navy/60 truncate group-hover:text-spain-navy group-hover:font-bold transition-all duration-300">{{ step.title }}</div>
                     </div>
                   </NuxtLink>
                 </div>
