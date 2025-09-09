@@ -3,10 +3,10 @@
     <!-- Hamburger Button -->
     <button
       @click="toggleSidebar"
-      class="p-2 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 group hover:shadow-lg hover:scale-105"
+      class="w-8 h-8 flex items-center justify-center rounded-xl hover:bg-spain-yellow/20 transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
       :aria-label="t('ui.sidebar.toggleMenu')"
     >
-      <Icon name="heroicons:bars-3" class="w-5 h-5 text-gray-700 group-hover:text-spain-navy transition-colors" />
+      <Icon name="heroicons:bars-3" class="w-4 h-4 text-spain-navy hover:text-spain-navy/70 transition-colors" />
     </button>
 
     <!-- Sidebar Overlay and Drawer -->
@@ -96,15 +96,20 @@
               >
                 <div v-if="isStorySectionOpen" class="space-y-1 ml-6 pl-4 border-l-2 border-spain-yellow/50">
                   <NuxtLink
-                    v-for="(step, key) in storySteps"
-                    :key="key"
-                    :to="`/timeline/${key}`"
+                    v-for="step in storySteps"
+                    :key="step.key"
+                    :to="`/timeline/${step.key}`"
                     @click="closeSidebar"
                     class="flex items-center p-3 transition-all duration-300 group"
-                    :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50 rounded-xl': $route.path === `/timeline/${key}` }"
                   >
                     <div class="flex-1 min-w-0">
-                      <div class="!text-sm font-medium text-spain-navy/60 truncate group-hover:text-spain-navy group-hover:font-bold transition-all duration-300">{{ step.title }}</div>
+                      <div 
+                        class="!text-sm font-medium truncate group-hover:font-bold transition-all duration-300"
+                        :class="{
+                          'text-spain-red font-semibold': $route.path.includes(step.key),
+                          'text-spain-navy/60 group-hover:text-spain-navy': !$route.path.includes(step.key)
+                        }"
+                      >{{ step.title }}</div>
                     </div>
                   </NuxtLink>
                 </div>
@@ -133,6 +138,21 @@
 <script setup>
 const isOpen = ref(false)
 const isStorySectionOpen = ref(false)
+
+// Check if we're on a timeline page and auto-open story section
+const route = useRoute()
+
+// Auto-open story section when on timeline page
+const checkAndOpenStorySection = () => {
+  if (route.path.includes('/timeline/')) {
+    isStorySectionOpen.value = true
+  }
+}
+
+// Watch route changes
+watch(() => route.path, () => {
+  checkAndOpenStorySection()
+})
 
 // Story steps configuration
 const { t } = useI18n()
@@ -176,6 +196,7 @@ const handleEscape = (event) => {
 // Add event listeners
 onMounted(() => {
   document.addEventListener('keydown', handleEscape)
+  checkAndOpenStorySection() // Check on mount
 })
 
 onUnmounted(() => {
