@@ -555,6 +555,16 @@
       "title": "Inhaltsverzeichnis",
       "progress": "Fortschritt",
       "noHeadings": "Keine Überschriften gefunden"
+    },
+    "sidebar": {
+      "title": "Navigation",
+      "toggleMenu": "Navigationsmenü umschalten",
+      "closeMenu": "Navigationsmenü schließen",
+      "home": "Startseite",
+      "storySteps": "Geschichtsschritte",
+      "language": "Sprache",
+      "menu": "Menü",
+      "navigation": "Navigation"
     }
   }
 }

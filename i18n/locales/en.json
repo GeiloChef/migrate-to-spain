@@ -608,6 +608,16 @@
       "title": "Table of Contents",
       "progress": "Progress",
       "noHeadings": "No headings found"
+    },
+    "sidebar": {
+      "title": "Navigation",
+      "toggleMenu": "Toggle navigation menu",
+      "closeMenu": "Close navigation menu",
+      "home": "Home",
+      "storySteps": "Story Steps",
+      "language": "Language",
+      "menu": "Menu",
+      "navigation": "Navigation"
     }
   },
   "gestoria": {

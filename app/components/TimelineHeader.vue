@@ -4,13 +4,8 @@
       <div class="flex items-center justify-between">
         <!-- Left side: Navigation and Title -->
         <div class="flex items-center gap-6">
-          <!-- Navigation Button -->
-          <button 
-            @click="navigateBack"
-            class="text-gray-700 hover:text-gray-900 transition-colors p-2 rounded-lg hover:bg-spain-yellow/20 group"
-          >
-            <Icon name="heroicons:arrow-left" class="w-5 h-5 group-hover:scale-110 transition-transform" />
-          </button>
+          <!-- Hamburger Menu Button -->
+          <SidebarMenu />
           
           <!-- Title -->
           <div>

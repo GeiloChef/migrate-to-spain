@@ -1,0 +1,193 @@
+<template>
+  <div>
+    <!-- Hamburger Button -->
+    <button
+      @click="toggleSidebar"
+      class="p-2 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 group hover:shadow-lg hover:scale-105"
+      :aria-label="t('ui.sidebar.toggleMenu')"
+    >
+      <Icon name="heroicons:bars-3" class="w-5 h-5 text-gray-700 group-hover:text-spain-navy transition-colors" />
+    </button>
+
+    <!-- Sidebar Overlay and Drawer -->
+    <Teleport to="body">
+      <!-- Overlay -->
+      <Transition
+        enter-active-class="transition-opacity duration-200 ease-out"
+        enter-from-class="opacity-0"
+        enter-to-class="opacity-100"
+        leave-active-class="transition-opacity duration-200 ease-in"
+        leave-from-class="opacity-100"
+        leave-to-class="opacity-0"
+      >
+        <div
+          v-if="isOpen"
+          class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50"
+          @click="closeSidebar"
+        ></div>
+      </Transition>
+
+      <!-- Drawer -->
+      <Transition
+        enter-active-class="transition-transform duration-200 ease-out"
+        enter-from-class="-translate-x-full"
+        enter-to-class="translate-x-0"
+        leave-active-class="transition-transform duration-200 ease-in"
+        leave-from-class="translate-x-0"
+        leave-to-class="-translate-x-full"
+      >
+        <div
+          v-if="isOpen"
+          class="fixed top-0 left-0 h-screen w-[30%] bg-gradient-to-br from-spain-cream via-white to-spain-cream shadow-2xl z-50 flex flex-col border-r border-spain-yellow/30"
+        >
+          <!-- Sidebar Header - Fixed Top -->
+          <div class="flex-shrink-0 p-6 border-b border-spain-yellow/30 bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-spain-yellow to-spain-yellow/80 flex items-center justify-center shadow-lg">
+                  <Icon name="heroicons:book-open" class="w-6 h-6 text-white" />
+                </div>
+                <h2 class="!text-xl font-bold text-spain-navy">
+                  {{ t('ui.sidebar.title') }}
+                </h2>
+              </div>
+              <button
+                @click="closeSidebar"
+                class="p-3 rounded-xl hover:bg-spain-yellow/20 transition-all duration-200 hover:scale-105 hover:shadow-lg"
+                :aria-label="t('ui.sidebar.closeMenu')"
+              >
+                <Icon name="heroicons:x-mark" class="w-5 h-5 text-spain-navy hover:text-spain-navy/70 transition-colors" />
+              </button>
+            </div>
+          </div>
+
+          <!-- Navigation Content - Scrollable Middle -->
+          <div class="flex-1 overflow-y-auto p-4 space-y-2">
+            <!-- Home -->
+            <NuxtLink
+              to="/"
+              @click="closeSidebar"
+              class="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40"
+              :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50': $route.path === '/' }"
+            >
+              <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-spain-yellow/30 to-spain-yellow/40 flex items-center justify-center group-hover:from-spain-yellow/40 group-hover:to-spain-yellow/50 transition-all duration-300 shadow-md">
+                <Icon name="heroicons:home" class="w-4 h-4 text-white group-hover:text-white transition-colors" />
+              </div>
+              <span class="!text-sm font-semibold text-spain-navy group-hover:text-spain-navy transition-colors">{{ t('ui.sidebar.home') }}</span>
+            </NuxtLink>
+
+            <!-- Meine Geschichte - Collapsible Section -->
+            <div class="space-y-1">
+              <button
+                @click="toggleStorySection"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40 w-full text-left"
+              >
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-spain-yellow/30 to-spain-yellow/40 flex items-center justify-center group-hover:from-spain-yellow/40 group-hover:to-spain-yellow/50 transition-all duration-300 shadow-md">
+                  <Icon name="heroicons:book-open" class="w-4 h-4 text-white group-hover:text-white transition-colors" />
+                </div>
+                <span class="!text-sm font-semibold text-spain-navy group-hover:text-spain-navy transition-colors flex-1">Meine Geschichte</span>
+                <Icon 
+                  :name="isStorySectionOpen ? 'heroicons:chevron-down' : 'heroicons:chevron-right'" 
+                  class="w-4 h-4 text-spain-navy/70 group-hover:text-spain-navy transition-all duration-300"
+                  :class="{ 'rotate-90': isStorySectionOpen }"
+                />
+              </button>
+              
+              <!-- Story Steps - Collapsible Content -->
+              <Transition
+                enter-active-class="transition-all duration-300 ease-out"
+                enter-from-class="opacity-0 max-h-0"
+                enter-to-class="opacity-100 max-h-none"
+                leave-active-class="transition-all duration-300 ease-in"
+                leave-from-class="opacity-100 max-h-none"
+                leave-to-class="opacity-0 max-h-0"
+              >
+                <div v-if="isStorySectionOpen" class="space-y-1 ml-6 pl-4 border-l-2 border-spain-yellow/50">
+                  <NuxtLink
+                    v-for="(step, key) in storySteps"
+                    :key="key"
+                    :to="`/timeline/${key}`"
+                    @click="closeSidebar"
+                    class="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-md hover:scale-[1.01] border border-transparent hover:border-spain-yellow/40"
+                    :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50': $route.path === `/timeline/${key}` }"
+                  >
+                    <div class="flex-1 min-w-0">
+                      <div class="!text-sm font-medium text-spain-navy truncate group-hover:text-spain-navy transition-colors">{{ step.title }}</div>
+                    </div>
+                    <Icon name="heroicons:chevron-right" class="w-3 h-3 text-spain-navy/60 group-hover:text-spain-navy transition-colors opacity-0 group-hover:opacity-100" />
+                  </NuxtLink>
+                </div>
+              </Transition>
+            </div>
+          </div>
+
+          <!-- Language Switcher - Fixed Bottom -->
+          <div class="flex-shrink-0 p-4 border-t border-spain-yellow/30 bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-1 h-6 bg-gradient-to-b from-spain-yellow to-spain-yellow/80 rounded-full"></div>
+                <h3 class="!text-sm font-bold text-spain-navy uppercase tracking-wider">
+                  {{ t('ui.sidebar.language') }}
+                </h3>
+              </div>
+              <LanguageSwitcher />
+            </div>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
+  </div>
+</template>
+
+<script setup>
+const isOpen = ref(false)
+const isStorySectionOpen = ref(false)
+
+// Story steps configuration
+const { t } = useI18n()
+const storySteps = computed(() => [
+  { number: 1, title: t('story.timeline.step1.title'), date: t('story.timeline.step1.date'), key: 'the-dream-of-spain' },
+  { number: 2, title: t('story.timeline.step2.title'), date: t('story.timeline.step2.date'), key: 'first-research-feasibility' },
+  { number: 3, title: t('story.timeline.step3.title'), date: t('story.timeline.step3.date'), key: 'learning-spanish' },
+  { number: 4, title: t('story.timeline.step4.title'), date: t('story.timeline.step4.date'), key: 'discovering-spain' },
+  { number: 5, title: t('story.timeline.step5.title'), date: t('story.timeline.step5.date'), key: 'region-decision' },
+  { number: 6, title: t('story.timeline.step6.title'), date: t('story.timeline.step6.date'), key: 'apartment-search' },
+  { number: 7, title: t('story.timeline.step7.title'), date: t('story.timeline.step7.date'), key: 'bureaucracy-prerequisites' },
+  { number: 8, title: t('story.timeline.step8.title'), date: t('story.timeline.step8.date'), key: 'property-purchase' },
+  { number: 9, title: t('story.timeline.step9.title'), date: t('story.timeline.step9.date'), key: 'gestoria' },
+  { number: 10, title: t('story.timeline.step10.title'), date: t('story.timeline.step10.date'), key: 'insurance' },
+  { number: 11, title: t('story.timeline.step11.title'), date: t('story.timeline.step11.date'), key: 'first-apartment-stay' },
+  { number: 12, title: t('story.timeline.step12.title'), date: t('story.timeline.step12.date'), key: 'final-migration' }
+])
+
+// Toggle sidebar
+const toggleSidebar = () => {
+  isOpen.value = !isOpen.value
+}
+
+// Toggle story section
+const toggleStorySection = () => {
+  isStorySectionOpen.value = !isStorySectionOpen.value
+}
+
+// Close sidebar
+const closeSidebar = () => {
+  isOpen.value = false
+}
+
+// Close sidebar on escape key
+const handleEscape = (event) => {
+  if (event.key === 'Escape' && isOpen.value) {
+    closeSidebar()
+  }
+}
+
+// Add event listeners
+onMounted(() => {
+  document.addEventListener('keydown', handleEscape)
+})
+
+onUnmounted(() => {
+  document.removeEventListener('keydown', handleEscape)
+})
+</script>

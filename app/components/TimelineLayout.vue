@@ -6,6 +6,9 @@
     <!-- Table of Contents -->
     <TableOfContents />
 
+    <!-- Sidebar Menu -->
+    <SidebarMenu />
+
     <!-- Content Section -->
     <div class="max-w-4xl mx-auto rounded-b-3xl shadow-2xl">
       <slot />

@@ -501,6 +501,16 @@
       "title": "Tabla de Contenidos",
       "progress": "Progreso",
       "noHeadings": "No se encontraron encabezados"
+    },
+    "sidebar": {
+      "title": "Navegación",
+      "toggleMenu": "Alternar menú de navegación",
+      "closeMenu": "Cerrar menú de navegación",
+      "home": "Inicio",
+      "storySteps": "Pasos de la Historia",
+      "language": "Idioma",
+      "menu": "Menú",
+      "navigation": "Navegación"
     }
   },
   "introduction": {
