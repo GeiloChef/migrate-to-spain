@@ -38,25 +38,22 @@
       >
         <div
           v-if="isOpen"
-          class="fixed top-0 left-0 h-screen w-[30%] bg-gradient-to-br from-spain-cream via-white to-spain-cream shadow-2xl z-50 flex flex-col border-r border-spain-yellow/30"
+          class="fixed top-0 left-0 h-screen w-[25%] bg-gradient-to-br from-spain-cream via-white to-spain-cream shadow-2xl z-50 flex flex-col border-r border-spain-yellow/30"
         >
           <!-- Sidebar Header - Fixed Top -->
           <div class="flex-shrink-0 p-6 border-b border-spain-yellow/30 bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10">
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-spain-yellow to-spain-yellow/80 flex items-center justify-center shadow-lg">
-                  <Icon name="heroicons:book-open" class="w-6 h-6 text-white" />
-                </div>
                 <h2 class="!text-xl font-bold text-spain-navy">
-                  {{ t('ui.sidebar.title') }}
+                  Menü
                 </h2>
               </div>
               <button
                 @click="closeSidebar"
-                class="p-3 rounded-xl hover:bg-spain-yellow/20 transition-all duration-200 hover:scale-105 hover:shadow-lg"
+                class="w-8 h-8 flex items-center justify-center rounded-xl hover:bg-spain-yellow/20 transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
                 :aria-label="t('ui.sidebar.closeMenu')"
               >
-                <Icon name="heroicons:x-mark" class="w-5 h-5 text-spain-navy hover:text-spain-navy/70 transition-colors" />
+                <Icon name="heroicons:x-mark" class="w-4 h-4 text-spain-navy hover:text-spain-navy/70 transition-colors" />
               </button>
             </div>
           </div>
@@ -67,12 +64,9 @@
             <NuxtLink
               to="/"
               @click="closeSidebar"
-              class="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40"
+              class="flex items-center p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40"
               :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50': $route.path === '/' }"
             >
-              <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-spain-yellow/30 to-spain-yellow/40 flex items-center justify-center group-hover:from-spain-yellow/40 group-hover:to-spain-yellow/50 transition-all duration-300 shadow-md">
-                <Icon name="heroicons:home" class="w-4 h-4 text-white group-hover:text-white transition-colors" />
-              </div>
               <span class="!text-sm font-semibold text-spain-navy group-hover:text-spain-navy transition-colors">{{ t('ui.sidebar.home') }}</span>
             </NuxtLink>
 
@@ -80,14 +74,12 @@
             <div class="space-y-1">
               <button
                 @click="toggleStorySection"
-                class="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40 w-full text-left"
+                class="flex items-center justify-between p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40 w-full text-left cursor-pointer"
+                :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50': isStorySectionOpen }"
               >
-                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-spain-yellow/30 to-spain-yellow/40 flex items-center justify-center group-hover:from-spain-yellow/40 group-hover:to-spain-yellow/50 transition-all duration-300 shadow-md">
-                  <Icon name="heroicons:book-open" class="w-4 h-4 text-white group-hover:text-white transition-colors" />
-                </div>
-                <span class="!text-sm font-semibold text-spain-navy group-hover:text-spain-navy transition-colors flex-1">Meine Geschichte</span>
+                <span class="!text-sm font-semibold text-spain-navy group-hover:text-spain-navy transition-colors">Meine Geschichte</span>
                 <Icon 
-                  :name="isStorySectionOpen ? 'heroicons:chevron-down' : 'heroicons:chevron-right'" 
+                  name="heroicons:chevron-right" 
                   class="w-4 h-4 text-spain-navy/70 group-hover:text-spain-navy transition-all duration-300"
                   :class="{ 'rotate-90': isStorySectionOpen }"
                 />
@@ -108,13 +100,12 @@
                     :key="key"
                     :to="`/timeline/${key}`"
                     @click="closeSidebar"
-                    class="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-md hover:scale-[1.01] border border-transparent hover:border-spain-yellow/40"
+                    class="flex items-center p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-md hover:scale-[1.01] border border-transparent hover:border-spain-yellow/40"
                     :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50': $route.path === `/timeline/${key}` }"
                   >
                     <div class="flex-1 min-w-0">
                       <div class="!text-sm font-medium text-spain-navy truncate group-hover:text-spain-navy transition-colors">{{ step.title }}</div>
                     </div>
-                    <Icon name="heroicons:chevron-right" class="w-3 h-3 text-spain-navy/60 group-hover:text-spain-navy transition-colors opacity-0 group-hover:opacity-100" />
                   </NuxtLink>
                 </div>
               </Transition>
