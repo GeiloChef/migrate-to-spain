@@ -27,9 +27,9 @@
                   ⚡
                 </div>
                 <div class="flex-1">
-                  <h5 class="!text-base font-semibold text-gray-900 mb-2">
+                  <h4 class="!text-base font-semibold text-gray-900 mb-2">
                     Verträge
-                  </h5>
+                  </h4>
                   <p class="text-gray-700">
                     {{ $t('gestoria.afterPurchase.ongoingServices.contracts') }}
                   </p>
@@ -43,9 +43,9 @@
                   📋
                 </div>
                 <div class="flex-1">
-                  <h5 class="!text-base font-semibold text-gray-900 mb-2">
+                  <h4 class="!text-base font-semibold text-gray-900 mb-2">
                     Steuern
-                  </h5>
+                  </h4>
                   <p class="text-gray-700">
                     {{ $t('gestoria.afterPurchase.ongoingServices.tax') }}
                   </p>
@@ -59,9 +59,9 @@
                   📊
                 </div>
                 <div class="flex-1">
-                  <h5 class="!text-base font-semibold text-gray-900 mb-2">
+                  <h4 class="!text-base font-semibold text-gray-900 mb-2">
                     Steuererklärung
-                  </h5>
+                  </h4>
                   <p class="text-gray-700">
                     {{ $t('gestoria.afterPurchase.ongoingServices.taxReturn') }}
                   </p>

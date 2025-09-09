@@ -11,7 +11,7 @@
           <Icon name="heroicons:arrow-left" class="w-5 h-5 text-spain-yellow/80 group-hover:text-spain-yellow transition-colors" />
         </div>
         <div class="text-left">
-          <div class="text-sm text-gray-500 group-hover:text-gray-600 transition-colors">{{ $t('story.navigation.previousStep') }}</div>
+          <div class="!text-sm text-gray-500 group-hover:text-gray-600 transition-colors">{{ $t('story.navigation.previousStep') }}</div>
           <div class="font-semibold text-gray-800 group-hover:text-gray-900 transition-colors">{{ previousStepName }}</div>
         </div>
       </NuxtLink>
@@ -26,7 +26,7 @@
         class="group flex-1 sm:flex-none inline-flex items-center justify-center sm:justify-end gap-3 px-6 py-4 text-gray-700 hover:text-gray-900 transition-all duration-300 hover:bg-white/80 rounded-2xl border-2 border-red-500/60 hover:border-red-500/80 hover:shadow-lg hover:-translate-y-0.5 backdrop-blur-sm"
       >
         <div class="text-right">
-          <div class="text-sm text-gray-500 group-hover:text-gray-600 transition-colors">{{ $t('story.navigation.nextStep') }}</div>
+          <div class="!text-sm text-gray-500 group-hover:text-gray-600 transition-colors">{{ $t('story.navigation.nextStep') }}</div>
           <div class="font-semibold text-gray-800 group-hover:text-gray-900 transition-colors">{{ nextStepName }}</div>
         </div>
         <div class="flex items-center justify-center w-10 h-10 rounded-full bg-red-500/20 group-hover:bg-red-500/30 transition-colors duration-300">

@@ -18,12 +18,12 @@
       <div class="grid md:grid-cols-2 gap-8">
         <!-- Deutschland Berechnung -->
         <div class="flex flex-col h-full">
-          <h4 class="font-semibold text-gray-800 mb-4 text-lg border-b border-gray-200 pb-2">Deutschland - Monatsberechnung</h4>
+          <h3 class="!text-lg font-semibold text-gray-800 mb-4 text-lg border-b border-gray-200 pb-2">Deutschland - Monatsberechnung</h3>
           
           <!-- Verbrauchsannahmen -->
           <div class="mb-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
-            <h5 class="font-medium text-gray-700 mb-2 text-sm">Verbrauchsannahmen (2-Personen-Haushalt):</h5>
-            <ul class="text-xs text-gray-600 space-y-1">
+            <h4 class="font-medium text-gray-700 mb-2 text-sm">Verbrauchsannahmen (2-Personen-Haushalt):</h4>
+            <ul class="!text-xs text-gray-600 space-y-1">
               <li>• Monatlicher Verbrauch: 250 kWh</li>
               <li>• Durchschnittspreis: 0,40€/kWh</li>
               <li>• Grundgebühr: 15€/Monat</li>
@@ -35,30 +35,30 @@
           <!-- Berechnung -->
           <div class="space-y-3 flex-grow">
             <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200">
-              <div class="text-sm text-gray-700">Stromverbrauch (250 kWh × 0,40€)</div>
-              <div class="text-lg font-bold text-red-600">100,00€</div>
+              <div class="!text-sm text-gray-700">Stromverbrauch (250 kWh × 0,40€)</div>
+              <div class="!text-lg font-bold text-red-600">100,00€</div>
             </div>
             <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200">
-              <div class="text-sm text-gray-700">Grundgebühr</div>
-              <div class="text-lg font-bold text-red-600">15,00€</div>
+              <div class="!text-sm text-gray-700">Grundgebühr</div>
+              <div class="!text-lg font-bold text-red-600">15,00€</div>
             </div>
             <!-- Spacer to align with Spain's 4 rows -->
             <div class="h-[60px]"></div>
             <div class="flex items-center justify-between p-3 bg-red-50 rounded-lg border border-red-200">
-              <div class="text-sm font-medium text-gray-700">Gesamtkosten pro Monat</div>
-              <div class="text-xl font-bold text-red-600">115,00€</div>
+              <div class="!text-sm font-medium text-gray-700">Gesamtkosten pro Monat</div>
+              <div class="!text-xl font-bold text-red-600">115,00€</div>
             </div>
           </div>
         </div>
 
         <!-- Spanien Berechnung -->
         <div class="flex flex-col h-full">
-          <h4 class="font-semibold text-gray-800 mb-4 text-lg border-b border-gray-200 pb-2">Spanien - Monatsberechnung</h4>
+          <h3 class="!text-lg font-semibold text-gray-800 mb-4 text-lg border-b border-gray-200 pb-2">Spanien - Monatsberechnung</h3>
           
           <!-- Verbrauchsannahmen -->
           <div class="mb-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
-            <h5 class="font-medium text-gray-700 mb-2 text-sm">Verbrauchsannahmen (2-Personen-Haushalt):</h5>
-            <ul class="text-xs text-gray-600 space-y-1">
+            <h4 class="font-medium text-gray-700 mb-2 text-sm">Verbrauchsannahmen (2-Personen-Haushalt):</h4>
+            <ul class="!text-xs text-gray-600 space-y-1">
               <li>• Monatlicher Verbrauch: 250 kWh</li>
               <li>• Tagstrom: 0,30€/kWh (70% des Verbrauchs)</li>
               <li>• Nachtstrom: 0,20€/kWh (30% des Verbrauchs)</li>
@@ -69,20 +69,20 @@
           <!-- Berechnung -->
           <div class="space-y-3 flex-grow">
             <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200">
-              <div class="text-sm text-gray-700">Tagstrom (175 kWh × 0,30€)</div>
-              <div class="text-lg font-bold text-blue-600">52,50€</div>
+              <div class="!text-sm text-gray-700">Tagstrom (175 kWh × 0,30€)</div>
+              <div class="!text-lg font-bold text-blue-600">52,50€</div>
             </div>
             <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200">
-              <div class="text-sm text-gray-700">Nachtstrom (75 kWh × 0,20€)</div>
-              <div class="text-lg font-bold text-blue-600">15,00€</div>
+              <div class="!text-sm text-gray-700">Nachtstrom (75 kWh × 0,20€)</div>
+              <div class="!text-lg font-bold text-blue-600">15,00€</div>
             </div>
             <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200">
-              <div class="text-sm text-gray-700">Potencia (3,5 kW × 5€)</div>
-              <div class="text-lg font-bold text-blue-600">17,50€</div>
+              <div class="!text-sm text-gray-700">Potencia (3,5 kW × 5€)</div>
+              <div class="!text-lg font-bold text-blue-600">17,50€</div>
             </div>
             <div class="flex items-center justify-between p-3 bg-green-50 rounded-lg border border-green-200">
-              <div class="text-sm font-medium text-gray-700">Gesamtkosten pro Monat</div>
-              <div class="text-xl font-bold text-green-600">85,00€</div>
+              <div class="!text-sm font-medium text-gray-700">Gesamtkosten pro Monat</div>
+              <div class="!text-xl font-bold text-green-600">85,00€</div>
             </div>
           </div>
         </div>
@@ -97,8 +97,8 @@
             </svg>
           </div>
           <div>
-            <p class="text-sm text-amber-800 font-medium mb-1">Wichtiger Hinweis</p>
-            <p class="text-xs text-amber-700">
+            <p class="!text-sm text-amber-800 font-medium mb-1">Wichtiger Hinweis</p>
+            <p class="!text-xs text-amber-700">
               Dies ist ein rein rechnerisches Beispiel für einen durchschnittlichen 2-Personen-Haushalt. 
               Die tatsächlichen Kosten können je nach Verbrauchsverhalten, Anbieter, Region und Jahreszeit stark abweichen. 
               In Spanien können die Kosten durch optimale Nutzung der Nachtstromzeiten weiter reduziert werden.

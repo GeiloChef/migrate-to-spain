@@ -15,9 +15,9 @@
           <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:computer-desktop" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
             {{ $t('apartmentSearch.firstResearch.onlinePlatforms.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700 leading-relaxed">
           {{ $t('apartmentSearch.firstResearch.onlinePlatforms.description') }}
@@ -30,9 +30,9 @@
           <div class="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:building-office" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
             {{ $t('apartmentSearch.firstResearch.localAgents.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700 leading-relaxed">
           {{ $t('apartmentSearch.firstResearch.localAgents.description') }}
@@ -47,9 +47,9 @@
           <Icon name="heroicons:light-bulb" class="w-6 h-6 text-white" />
         </div>
         <div class="flex-1">
-          <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
             {{ $t('apartmentSearch.firstResearch.tip') }}
-          </h4>
+          </h3>
         </div>
       </div>
     </div>

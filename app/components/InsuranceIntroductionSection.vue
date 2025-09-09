@@ -10,7 +10,7 @@
       
       <div class="bg-white bg-opacity-80 rounded-2xl shadow-xl p-8 border border-gray-200 backdrop-blur-sm">
         <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
-          <p class="text-xl mb-6 text-gray-800">
+          <p class="!text-xl mb-6 text-gray-800">
             {{ $t('insurance.introduction.content') }}
           </p>
         </div>

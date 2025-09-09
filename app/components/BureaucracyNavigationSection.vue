@@ -19,10 +19,10 @@
           <div class="w-12 h-12 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4 group-hover:bg-red-600 transition-colors">
             1
           </div>
-          <h4 class="font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
             {{ $t('bureaucracy.navigation.nie.title') }}
-          </h4>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
             {{ $t('bureaucracy.navigation.nie.description') }}
           </p>
         </div>
@@ -37,10 +37,10 @@
           <div class="w-12 h-12 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4 group-hover:bg-red-600 transition-colors">
             2
           </div>
-          <h4 class="font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
             {{ $t('bureaucracy.navigation.bankAccount.title') }}
-          </h4>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
             {{ $t('bureaucracy.navigation.bankAccount.description') }}
           </p>
         </div>
@@ -55,10 +55,10 @@
           <div class="w-12 h-12 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4 group-hover:bg-red-600 transition-colors">
             3
           </div>
-          <h4 class="font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
             {{ $t('bureaucracy.navigation.financing.title') }}
-          </h4>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
             {{ $t('bureaucracy.navigation.financing.description') }}
           </p>
         </div>
@@ -73,10 +73,10 @@
           <div class="w-12 h-12 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4 group-hover:bg-red-600 transition-colors">
             4
           </div>
-          <h4 class="font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
             {{ $t('bureaucracy.navigation.gestoria.title') }}
-          </h4>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
             {{ $t('bureaucracy.navigation.gestoria.description') }}
           </p>
         </div>
@@ -91,10 +91,10 @@
           <div class="w-12 h-12 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4 group-hover:bg-red-600 transition-colors">
             5
           </div>
-          <h4 class="font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2 group-hover:text-red-600 transition-colors">
             {{ $t('bureaucracy.navigation.additionalFormalities.title') }}
-          </h4>
-          <p class="text-sm text-gray-600 leading-relaxed">
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
             {{ $t('bureaucracy.navigation.additionalFormalities.description') }}
           </p>
         </div>

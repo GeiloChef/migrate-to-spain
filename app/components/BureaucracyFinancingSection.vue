@@ -34,10 +34,10 @@
         </div>
         
         <!-- Finanzierung Überschrift -->
-        <h4 class="font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.financing.financingTitle') }}</h4>
+        <h3 class="!text-lg font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.financing.financingTitle') }}</h3>
         
         <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.financing.comparison.title') }}</h4>
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.financing.comparison.title') }}</h3>
           <div class="space-y-2 text-sm">
             <div class="flex justify-between">
               <span class="text-gray-600">{{ $t('bureaucracy.financing.comparison.german') }}</span>
@@ -52,8 +52,8 @@
         
         <!-- Erwartungen bei spanischen Banken -->
         <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.financing.expectations.title') }}</h4>
-          <ul class="text-sm text-gray-600 space-y-1">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.financing.expectations.title') }}</h3>
+          <ul class="!text-sm text-gray-600 space-y-1">
             <li>• {{ $t('bureaucracy.financing.expectations.item1') }}</li>
             <li>• {{ $t('bureaucracy.financing.expectations.item2') }}</li>
             <li>• {{ $t('bureaucracy.financing.expectations.item3') }}</li>

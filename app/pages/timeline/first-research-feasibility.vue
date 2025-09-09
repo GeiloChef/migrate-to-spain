@@ -24,9 +24,9 @@
           <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-sm font-medium mb-6 border border-white/30">
             {{ $t('hero.researchPhase.badge') }}
           </div>
-          <h2 class="!text-4xl md:!text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
+          <h1 class="!text-4xl md:!text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
             {{ $t('hero.researchPhase.title') }}
-          </h2>
+          </h1>
           <p class="!text-lg md:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
             {{ $t('hero.researchPhase.subtitle') }}
           </p>

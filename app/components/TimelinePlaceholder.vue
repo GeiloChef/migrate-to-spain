@@ -5,7 +5,7 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
       </svg>
       <p class="font-semibold">{{ $t('story.placeholder.title') }}</p>
-      <p class="text-sm">{{ $t('story.placeholder.description') }}</p>
+      <p class="!text-sm">{{ $t('story.placeholder.description') }}</p>
     </div>
   </div>
 </template>

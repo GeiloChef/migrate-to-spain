@@ -34,11 +34,11 @@
         </div>
         <!-- Gestoría Leistungen -->
         <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2 flex items-center gap-2">
             <span class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold">🏢</span>
             {{ $t('bureaucracy.gestoria.services.title') }}
-          </h4>
-          <ul class="text-sm text-gray-600 space-y-1">
+          </h3>
+          <ul class="!text-sm text-gray-600 space-y-1">
             <li>• {{ $t('bureaucracy.gestoria.services.item1') }}</li>
             <li>• {{ $t('bureaucracy.gestoria.services.item2') }}</li>
             <li>• {{ $t('bureaucracy.gestoria.services.item3') }}</li>
@@ -48,11 +48,11 @@
         
         <!-- Rechtsanwalt Leistungen -->
         <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2 flex items-center gap-2">
             <span class="w-6 h-6 bg-purple-500 text-white rounded-full flex items-center justify-center text-xs font-bold">⚖️</span>
             {{ $t('bureaucracy.gestoria.lawyerServices.title') }}
-          </h4>
-          <ul class="text-sm text-gray-600 space-y-1">
+          </h3>
+          <ul class="!text-sm text-gray-600 space-y-1">
             <li>• {{ $t('bureaucracy.gestoria.lawyerServices.item1') }}</li>
             <li>• {{ $t('bureaucracy.gestoria.lawyerServices.item2') }}</li>
             <li>• {{ $t('bureaucracy.gestoria.lawyerServices.item3') }}</li>

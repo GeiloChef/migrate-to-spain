@@ -17,9 +17,9 @@
               {{ index + 1 }}
             </div>
             <div class="flex-1">
-              <h4 class="!text-lg font-semibold text-gray-900 mb-2">
+              <h3 class="!text-lg font-semibold text-gray-900 mb-2">
                 {{ $t(`gestoria.chronologicalProcess.steps.step${index + 1}.title`) }}
-              </h4>
+              </h3>
               <p class="text-gray-700">
                 {{ $t(`gestoria.chronologicalProcess.steps.step${index + 1}.description`) }}
               </p>

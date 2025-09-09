@@ -21,7 +21,7 @@
       <!-- Language Abbreviation -->
       <div class="absolute inset-0 flex items-center justify-center">
         <span 
-          class="text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
+          class="!text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
           :class="currentLocale === 'de' ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'"
         >
           DE
@@ -56,7 +56,7 @@
       <!-- Language Abbreviation -->
       <div class="absolute inset-0 flex items-center justify-center">
         <span 
-          class="text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
+          class="!text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
           :class="currentLocale === 'en' ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'"
         >
           EN
@@ -91,7 +91,7 @@
       <!-- Language Abbreviation -->
       <div class="absolute inset-0 flex items-center justify-center">
         <span 
-          class="text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
+          class="!text-xs font-bold text-white drop-shadow-lg transition-opacity duration-300"
           :class="currentLocale === 'es' ? 'opacity-100' : 'opacity-60 group-hover:opacity-80'"
         >
           ES

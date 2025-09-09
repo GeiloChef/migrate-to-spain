@@ -29,9 +29,9 @@
           <Icon name="heroicons:arrow-right" class="w-6 h-6 text-white" />
         </div>
         <div class="flex-1">
-          <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
             {{ $t('apartmentSearch.nextSteps.highlight') }}
-          </h4>
+          </h3>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
         <div class="w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
           <Icon name="heroicons:identification" class="w-6 h-6 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.nie.title') }}</h4>
+        <h3 class="!text-lg font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.nie.title') }}</h3>
         <p class="text-gray-700 text-sm">{{ $t('apartmentSearch.nextSteps.prerequisites.nie.description') }}</p>
       </div>
 
@@ -50,7 +50,7 @@
         <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
           <Icon name="heroicons:credit-card" class="w-6 h-6 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.bankAccount.title') }}</h4>
+        <h3 class="!text-lg font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.bankAccount.title') }}</h3>
         <p class="text-gray-700 text-sm">{{ $t('apartmentSearch.nextSteps.prerequisites.bankAccount.description') }}</p>
       </div>
 
@@ -58,7 +58,7 @@
         <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
           <Icon name="heroicons:document-text" class="w-6 h-6 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.bureaucracy.title') }}</h4>
+        <h3 class="!text-lg font-semibold text-gray-900 mb-2">{{ $t('apartmentSearch.nextSteps.prerequisites.bureaucracy.title') }}</h3>
         <p class="text-gray-700 text-sm">{{ $t('apartmentSearch.nextSteps.prerequisites.bureaucracy.description') }}</p>
       </div>
     </div>

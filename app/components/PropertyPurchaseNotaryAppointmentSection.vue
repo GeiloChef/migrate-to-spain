@@ -52,8 +52,8 @@
           
           <!-- Lock Screen Content -->
           <div class="relative z-10 px-4 py-6 text-center text-white">
-            <div class="text-4xl font-thin mb-1">9:41</div>
-            <div class="text-sm opacity-90">Montag, 20. Juni</div>
+            <div class="!text-4xl font-thin mb-1">9:41</div>
+            <div class="!text-sm opacity-90">Montag, 20. Juni</div>
           </div>
           
           <!-- Push Notification -->
@@ -67,7 +67,7 @@
                 </div>
                 <div>
                   <div class="font-semibold text-gray-900 text-xs">Gestoría</div>
-                  <div class="text-xs text-gray-500">vor 2 Min</div>
+                  <div class="!text-xs text-gray-500">vor 2 Min</div>
                 </div>
               </div>
               <p class="text-gray-800 text-xs leading-relaxed">

@@ -18,9 +18,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
             </svg>
           </div>
-          <h4 class="!text-xl font-bold text-gray-900">
+          <h3 class="!text-xl font-bold text-gray-900">
             {{ $t('gestoria.conclusion.pros.title') }}
-          </h4>
+          </h3>
         </div>
         <ul class="space-y-4">
           <li class="flex items-start">
@@ -58,9 +58,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           </div>
-          <h4 class="!text-xl font-bold text-gray-900">
+          <h3 class="!text-xl font-bold text-gray-900">
             {{ $t('gestoria.conclusion.cons.title') }}
-          </h4>
+          </h3>
         </div>
         <ul class="space-y-4">
           <li class="flex items-start">

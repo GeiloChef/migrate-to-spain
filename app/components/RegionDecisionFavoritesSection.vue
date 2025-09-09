@@ -17,8 +17,8 @@
             <Icon name="heroicons:sun" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.andalusia.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.favorites.andalusia.cities') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.andalusia.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.favorites.andalusia.cities') }}</p>
           </div>
         </div>
         <p class="text-gray-700 mb-3">{{ $t('regionDecision.favorites.andalusia.pros') }}</p>
@@ -32,8 +32,8 @@
             <Icon name="heroicons:building-library" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.valencia.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.favorites.valencia.subtitle') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.valencia.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.favorites.valencia.subtitle') }}</p>
           </div>
         </div>
         <p class="text-gray-700 mb-3">{{ $t('regionDecision.favorites.valencia.pros') }}</p>
@@ -47,8 +47,8 @@
             <Icon name="heroicons:sparkles" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.costaBlanca.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.favorites.costaBlanca.subtitle') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.costaBlanca.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.favorites.costaBlanca.subtitle') }}</p>
           </div>
         </div>
         <p class="text-gray-700 mb-3">{{ $t('regionDecision.favorites.costaBlanca.pros') }}</p>
@@ -62,8 +62,8 @@
             <Icon name="heroicons:star" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.murcia.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.favorites.murcia.subtitle') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.favorites.murcia.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.favorites.murcia.subtitle') }}</p>
           </div>
         </div>
         <p class="text-gray-700 mb-3">{{ $t('regionDecision.favorites.murcia.pros') }}</p>

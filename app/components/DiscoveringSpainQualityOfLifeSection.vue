@@ -13,7 +13,7 @@
       />
     </div>
     
-    <p class="text-lg mb-8 text-gray-700">
+    <p class="!text-lg mb-8 text-gray-700">
       {{ $t('discoveringSpain.qualityOfLife.intro') }}
     </p>
     
@@ -22,9 +22,9 @@
         <div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
           <Icon name="heroicons:clock" class="w-6 h-6 text-yellow-600" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
           {{ $t('discoveringSpain.qualityOfLife.everyday.title') }}
-        </h4>
+        </h3>
         <p class="text-gray-700 leading-relaxed">
           {{ $t('discoveringSpain.qualityOfLife.everyday.description') }}
         </p>
@@ -34,9 +34,9 @@
         <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
           <Icon name="heroicons:sun" class="w-6 h-6 text-blue-600" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
           {{ $t('discoveringSpain.qualityOfLife.climate.title') }}
-        </h4>
+        </h3>
         <p class="text-gray-700 leading-relaxed">
           {{ $t('discoveringSpain.qualityOfLife.climate.description') }}
         </p>
@@ -46,9 +46,9 @@
         <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
           <Icon name="heroicons:currency-euro" class="w-6 h-6 text-green-600" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
           {{ $t('discoveringSpain.qualityOfLife.costs.title') }}
-        </h4>
+        </h3>
         <p class="text-gray-700 leading-relaxed">
           {{ $t('discoveringSpain.qualityOfLife.costs.description') }}
         </p>
@@ -56,10 +56,10 @@
     </div>
     
     <div class="space-y-4 text-gray-700 leading-relaxed">
-      <h4 class="!text-xl font-semibold text-gray-900">
+      <h3 class="!text-xl font-semibold text-gray-900">
         {{ $t('discoveringSpain.qualityOfLife.conclusionTitle') }}
-      </h4>
-      <p class="text-lg">
+      </h3>
+      <p class="!text-lg">
         {{ $t('discoveringSpain.qualityOfLife.conclusion') }}
       </p>
     </div>

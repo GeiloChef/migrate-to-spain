@@ -30,8 +30,8 @@
           />
         </div>
         <div class="bg-gray-50 p-4 rounded-lg">
-          <h4 class="font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.bankAccount.requirements.title') }}</h4>
-          <ul class="text-sm text-gray-600 space-y-1">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-2">{{ $t('bureaucracy.bankAccount.requirements.title') }}</h3>
+          <ul class="!text-sm text-gray-600 space-y-1">
             <li>• {{ $t('bureaucracy.bankAccount.requirements.item1') }}</li>
             <li>• {{ $t('bureaucracy.bankAccount.requirements.item2') }}</li>
             <li>• {{ $t('bureaucracy.bankAccount.requirements.item3') }}</li>

@@ -27,9 +27,9 @@
           <Icon name="heroicons:light-bulb" class="w-6 h-6 text-white" />
         </div>
         <div class="flex-1">
-          <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
             {{ $t('discoveringSpain.introduction.highlight') }}
-          </h4>
+          </h3>
         </div>
       </div>
     </div>

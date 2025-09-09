@@ -30,9 +30,9 @@
           <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:clock" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900">
+          <h3 class="!text-lg font-semibold text-gray-900">
             {{ $t('apartmentSearch.advice.patience.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700 leading-relaxed">
           {{ $t('apartmentSearch.advice.patience.description') }}
@@ -45,9 +45,9 @@
           <div class="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:map-pin" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900">
+          <h3 class="!text-lg font-semibold text-gray-900">
             {{ $t('apartmentSearch.advice.spain.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700 leading-relaxed">
           {{ $t('apartmentSearch.advice.spain.description') }}

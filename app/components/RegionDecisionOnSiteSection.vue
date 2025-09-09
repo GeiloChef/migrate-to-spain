@@ -57,8 +57,8 @@
             <Icon name="heroicons:heart" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.onSite.glutenFree.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.onSite.glutenFree.subtitle') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.onSite.glutenFree.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.onSite.glutenFree.subtitle') }}</p>
           </div>
         </div>
         <p class="text-gray-700">{{ $t('regionDecision.onSite.glutenFree.description') }}</p>
@@ -71,8 +71,8 @@
             <Icon name="heroicons:map" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.onSite.exploration.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.onSite.exploration.subtitle') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.onSite.exploration.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.onSite.exploration.subtitle') }}</p>
           </div>
         </div>
         <p class="text-gray-700">{{ $t('regionDecision.onSite.exploration.description') }}</p>

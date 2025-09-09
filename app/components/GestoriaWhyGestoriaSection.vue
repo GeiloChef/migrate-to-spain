@@ -17,9 +17,9 @@
             class="w-full h-32 object-cover"
           />
           <div class="p-6">
-            <h4 class="!text-lg font-semibold text-gray-900 mb-3">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-3">
               {{ $t('gestoria.whyGestoria.gestoria.title') }}
-            </h4>
+            </h3>
             <p class="text-gray-700">
               {{ $t('gestoria.whyGestoria.gestoria.description') }}
             </p>
@@ -34,9 +34,9 @@
             class="w-full h-32 object-cover"
           />
           <div class="p-6">
-            <h4 class="!text-lg font-semibold text-gray-900 mb-3">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-3">
               {{ $t('gestoria.whyGestoria.lawyer.title') }}
-            </h4>
+            </h3>
             <p class="text-gray-700">
               {{ $t('gestoria.whyGestoria.lawyer.description') }}
             </p>
@@ -46,17 +46,17 @@
 
       <!-- Kosten Vergleich -->
       <div>
-        <h4 class="!text-lg font-semibold text-gray-900 mb-3">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3">
           {{ $t('gestoria.whyGestoria.costs.title') }}
-        </h4>
+        </h3>
         <p class="text-gray-700">
           {{ $t('gestoria.whyGestoria.costs.content') }}
         </p>
       </div>
 
-      <h4 class="!text-lg font-semibold text-gray-900 mb-3">
+      <h3 class="!text-lg font-semibold text-gray-900 mb-3">
         Meine Entscheidung
-      </h4>
+      </h3>
       <p class="mb-4">
         {{ $t('gestoria.whyGestoria.conclusion') }}
       </p>

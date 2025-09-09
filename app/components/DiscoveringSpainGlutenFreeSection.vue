@@ -27,9 +27,9 @@
           <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:building-storefront" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
             {{ $t('discoveringSpain.glutenFree.restaurants.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.glutenFree.restaurants.description') }}
@@ -41,9 +41,9 @@
           <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:shopping-cart" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
             {{ $t('discoveringSpain.glutenFree.supermarkets.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.glutenFree.supermarkets.description') }}

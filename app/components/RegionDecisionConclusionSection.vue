@@ -27,7 +27,7 @@
         <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full mx-auto mb-4">
           <Icon name="heroicons:check-circle" class="w-8 h-8 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.decision.title') }}</h4>
+        <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.decision.title') }}</h3>
         <p class="text-gray-700 text-sm">{{ $t('regionDecision.conclusion.decision.description') }}</p>
       </div>
 
@@ -36,7 +36,7 @@
         <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-4">
           <Icon name="heroicons:arrow-right" class="w-8 h-8 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.nextSteps.title') }}</h4>
+        <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.nextSteps.title') }}</h3>
         <p class="text-gray-700 text-sm">{{ $t('regionDecision.conclusion.nextSteps.description') }}</p>
       </div>
 
@@ -45,7 +45,7 @@
         <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full mx-auto mb-4">
           <Icon name="heroicons:home" class="w-8 h-8 text-white" />
         </div>
-        <h4 class="font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.focus.title') }}</h4>
+        <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-2">{{ $t('regionDecision.conclusion.focus.title') }}</h3>
         <p class="text-gray-700 text-sm">{{ $t('regionDecision.conclusion.focus.description') }}</p>
       </div>
     </div>

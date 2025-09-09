@@ -6,7 +6,7 @@
           {{ $t('insurance.coverage.title') }}
         </h2>
         <div class="w-24 h-1 bg-gradient-to-r from-yellow-400 to-red-500 mx-auto rounded-full mb-6"></div>
-        <p class="text-xl text-gray-700 max-w-3xl mx-auto">
+        <p class="!text-xl text-gray-700 max-w-3xl mx-auto">
           {{ $t('insurance.coverage.content') }}
         </p>
       </div>

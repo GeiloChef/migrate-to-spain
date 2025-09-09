@@ -27,9 +27,9 @@
           <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-purple-500 to-violet-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:moon" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
             {{ $t('discoveringSpain.culture.nightlife.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.culture.nightlife.description') }}
@@ -41,9 +41,9 @@
           <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-pink-500 to-rose-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:heart" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
             {{ $t('discoveringSpain.culture.openness.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.culture.openness.description') }}

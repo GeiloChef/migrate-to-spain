@@ -226,7 +226,7 @@
         
         <!-- Scroll Indicator -->
         <div class="text-center mt-8 text-spain-gray-dark">
-          <p class="text-sm">← Scroll horizontal um alle Schritte zu sehen →</p>
+          <p class="!text-sm">← Scroll horizontal um alle Schritte zu sehen →</p>
         </div>
       </div>
       

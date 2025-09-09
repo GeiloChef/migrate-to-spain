@@ -12,9 +12,9 @@
     <div class="mt-8 bg-gradient-to-br from-pink-50 to-red-50 rounded-xl p-8 border border-pink-200">
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <h4 class="font-semibold text-gray-900 mb-4 text-xl">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-xl">
             {{ $t('discoveringSpain.contacts.emely.title') }}
-          </h4>
+          </h3>
           <p class="text-gray-700 mb-4">
             {{ $t('discoveringSpain.contacts.emely.paragraph1') }}
           </p>
@@ -41,9 +41,9 @@
           <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:sparkles" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
             {{ $t('discoveringSpain.contacts.smallMoments.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.contacts.smallMoments.description') }}
@@ -55,9 +55,9 @@
           <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
             <Icon name="heroicons:academic-cap" class="w-5 h-5 text-white" />
           </div>
-          <h4 class="font-semibold text-gray-900 text-lg">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
             {{ $t('discoveringSpain.contacts.languagePractice.title') }}
-          </h4>
+          </h3>
         </div>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.contacts.languagePractice.description') }}

@@ -11,17 +11,17 @@
       <!-- Fließtext -->
       <div class="mb-12">
         <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
-          <p class="text-xl mb-6">
+          <p class="!text-xl mb-6">
             {{ $t('insurance.selection.language.content') }}
           </p>
-          <p class="text-xl mb-6">
+          <p class="!text-xl mb-6">
             {{ $t('insurance.selection.choice.content') }}
           </p>
           <div class="bg-gray-100 rounded-xl p-6 text-center">
             <div class="flex items-center justify-center">
               <UIcon name="i-heroicons-banknotes" class="w-6 h-6 text-green-600 mr-3" />
-              <span class="text-lg font-semibold text-gray-900">Jährliche Kosten: </span>
-              <span class="text-2xl font-bold text-green-600">~300 €</span>
+              <span class="!text-lg font-semibold text-gray-900">Jährliche Kosten: </span>
+              <span class="!text-2xl font-bold text-green-600">~300 €</span>
             </div>
           </div>
         </div>

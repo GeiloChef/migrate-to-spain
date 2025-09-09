@@ -35,11 +35,11 @@
         <div class="space-y-4">
           <!-- Prozess vor Ort -->
           <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
-            <h4 class="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
               <span class="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold">📍</span>
               {{ $t('bureaucracy.nie.process.onSite.title') }}
-            </h4>
-            <ul class="text-sm text-gray-600 space-y-1">
+            </h3>
+            <ul class="!text-sm text-gray-600 space-y-1">
               <li>• {{ $t('bureaucracy.nie.process.onSite.step1') }}</li>
               <li>• {{ $t('bureaucracy.nie.process.onSite.step2') }}</li>
               <li>• {{ $t('bureaucracy.nie.process.onSite.step3') }}</li>
@@ -48,11 +48,11 @@
           
           <!-- Prozess über Firma -->
           <div class="bg-green-50 p-4 rounded-lg border border-green-200">
-            <h4 class="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
               <span class="w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold">🏢</span>
               {{ $t('bureaucracy.nie.process.company.title') }}
-            </h4>
-            <ul class="text-sm text-gray-600 space-y-1">
+            </h3>
+            <ul class="!text-sm text-gray-600 space-y-1">
               <li>• {{ $t('bureaucracy.nie.process.company.step1') }}</li>
               <li>• {{ $t('bureaucracy.nie.process.company.step2') }}</li>
               <li>• {{ $t('bureaucracy.nie.process.company.step3') }}</li>

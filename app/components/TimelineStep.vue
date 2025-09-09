@@ -55,7 +55,7 @@
     
     <!-- Date Badge -->
     <div class="bg-white px-4 py-2 rounded-full shadow-md mb-6 text-center">
-      <span class="text-sm font-semibold text-spain-gray-dark">{{ date }}</span>
+      <span class="!text-sm font-semibold text-spain-gray-dark">{{ date }}</span>
     </div>
     
     <!-- Content Slot -->

@@ -5,16 +5,16 @@
       <div class="w-14 h-14 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center shadow-lg">
         <span class="text-white font-bold text-2xl">5</span>
       </div>
-      <h3 class="!text-4xl font-bold text-gray-900">
+      <h2 class="!text-4xl font-bold text-gray-900">
         {{ $t('story.timeline.step2.sections.glutenFree.title') }}
-      </h3>
+      </h2>
     </div>
     
     <div class="space-y-8 text-gray-700 leading-relaxed">
       <!-- Introduction -->
       <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-6 border border-yellow-200">
-        <h4 class="font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.glutenFree.intro.title') }}</h4>
-        <p class="text-lg leading-relaxed">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.glutenFree.intro.title') }}</h3>
+        <p class="!text-lg leading-relaxed">
           {{ $t('story.timeline.step2.sections.glutenFree.intro.description') }}
         </p>
       </div>
@@ -24,10 +24,10 @@
         <!-- Left Column: Text Content -->
         <div class="flex flex-col h-full">
           <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 flex-1">
-            <h4 class="font-semibold text-gray-900 mb-4 text-lg flex items-center gap-2">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-lg flex items-center gap-2">
               <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
               {{ displayPositiveSurprise.title }}
-            </h4>
+            </h3>
             <div class="space-y-4 text-gray-700">
               <p>
                 {{ displayPositiveSurprise.description1 }}
@@ -42,37 +42,37 @@
         <!-- Right Column: Supermarket Info -->
         <div class="flex flex-col h-full">
           <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-200 shadow-lg flex-1">
-            <h4 class="font-semibold text-gray-900 mb-5 text-lg flex items-center gap-2">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-5 text-lg flex items-center gap-2">
               <div class="w-2.5 h-2.5 bg-green-500 rounded-full flex-shrink-0"></div>
               {{ displaySupermarkets.title }}
-            </h4>
+            </h3>
             <div class="space-y-3">
               <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-green-100">
                 <div class="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
                 <div>
-                  <span class="text-sm font-semibold text-gray-900">{{ displaySupermarkets.mercadona.split(' – ')[0] }}</span>
-                  <p class="text-xs text-gray-600 mt-1">({{ displaySupermarkets.mercadona.split(' – ')[1] }})</p>
+                  <span class="!text-sm font-semibold text-gray-900">{{ displaySupermarkets.mercadona.split(' – ')[0] }}</span>
+                  <p class="!text-xs text-gray-600 mt-1">({{ displaySupermarkets.mercadona.split(' – ')[1] }})</p>
                 </div>
               </div>
               <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-green-100">
                 <div class="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
                 <div>
-                  <span class="text-sm font-semibold text-gray-900">{{ displaySupermarkets.carrefour.split(' – ')[0] }}</span>
-                  <p class="text-xs text-gray-600 mt-1">({{ displaySupermarkets.carrefour.split(' – ')[1] }})</p>
+                  <span class="!text-sm font-semibold text-gray-900">{{ displaySupermarkets.carrefour.split(' – ')[0] }}</span>
+                  <p class="!text-xs text-gray-600 mt-1">({{ displaySupermarkets.carrefour.split(' – ')[1] }})</p>
                 </div>
               </div>
               <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-green-100">
                 <div class="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
                 <div>
-                  <span class="text-sm font-semibold text-gray-900">{{ displaySupermarkets.alcampo.split(' – ')[0] }}</span>
-                  <p class="text-xs text-gray-600 mt-1">({{ displaySupermarkets.alcampo.split(' – ')[1] }})</p>
+                  <span class="!text-sm font-semibold text-gray-900">{{ displaySupermarkets.alcampo.split(' – ')[0] }}</span>
+                  <p class="!text-xs text-gray-600 mt-1">({{ displaySupermarkets.alcampo.split(' – ')[1] }})</p>
                 </div>
               </div>
               <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-green-100">
                 <div class="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
                 <div>
-                  <span class="text-sm font-semibold text-gray-900">{{ displaySupermarkets.lidl.split(' – ')[0] }}</span>
-                  <p class="text-xs text-gray-600 mt-1">({{ displaySupermarkets.lidl.split(' – ')[1] }})</p>
+                  <span class="!text-sm font-semibold text-gray-900">{{ displaySupermarkets.lidl.split(' – ')[0] }}</span>
+                  <p class="!text-xs text-gray-600 mt-1">({{ displaySupermarkets.lidl.split(' – ')[1] }})</p>
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
             </svg>
           </div>
-          <h4 class="font-bold text-gray-900 text-lg">{{ $t('story.timeline.step2.sections.glutenFree.conclusion.title') }}</h4>
+          <h3 class="!text-lg font-bold text-gray-900 text-lg">{{ $t('story.timeline.step2.sections.glutenFree.conclusion.title') }}</h3>
         </div>
         <p class="text-green-800 font-medium leading-relaxed">
           {{ $t('story.timeline.step2.sections.glutenFree.conclusion.description') }}

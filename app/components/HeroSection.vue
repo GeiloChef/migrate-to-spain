@@ -23,7 +23,7 @@
         <span class="block animate-slide-in-right text-white">{{ $t('hero.title.line2') }}</span>
       </h1>
       
-      <p class="text-xl md:text-2xl !mb-16 animate-fade-in-up-delay max-w-4xl mx-auto leading-relaxed text-spain-cream">
+      <p class="!text-xl md:text-2xl !mb-16 animate-fade-in-up-delay max-w-4xl mx-auto leading-relaxed text-spain-cream">
         {{ $t('hero.subtitle') }}
       </p>
       

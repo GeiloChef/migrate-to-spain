@@ -13,9 +13,9 @@
     </div>
     
     <div class="mt-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
-      <h4 class="font-semibold text-gray-900 mb-4 text-xl">
+      <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-xl">
         {{ $t('discoveringSpain.conclusion.nextStep.title') }}
-      </h4>
+      </h3>
       <p class="text-gray-700 text-lg">
         {{ $t('discoveringSpain.conclusion.nextStep.description') }}
       </p>
@@ -26,9 +26,9 @@
         <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-green-600" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
           {{ $t('discoveringSpain.conclusion.glutenFree.title') }}
-        </h4>
+        </h3>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.conclusion.glutenFree.description') }}
         </p>
@@ -38,9 +38,9 @@
         <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-blue-600" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
           {{ $t('discoveringSpain.conclusion.spanish.title') }}
-        </h4>
+        </h3>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.conclusion.spanish.description') }}
         </p>
@@ -50,9 +50,9 @@
         <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
           <Icon name="heroicons:check-circle" class="w-6 h-6 text-purple-600" />
         </div>
-        <h4 class="font-semibold text-gray-900 mb-3 text-lg">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
           {{ $t('discoveringSpain.conclusion.people.title') }}
-        </h4>
+        </h3>
         <p class="text-gray-700">
           {{ $t('discoveringSpain.conclusion.people.description') }}
         </p>

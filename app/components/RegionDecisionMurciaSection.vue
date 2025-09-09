@@ -29,8 +29,8 @@
             <Icon name="heroicons:building-office" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.murcia.city.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.murcia.city.population') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.murcia.city.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.murcia.city.population') }}</p>
           </div>
         </div>
         <p class="text-gray-700 mb-3">{{ $t('regionDecision.murcia.city.location') }}</p>
@@ -45,8 +45,8 @@
             <Icon name="heroicons:map" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.murcia.region.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.murcia.region.subtitle') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.murcia.region.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.murcia.region.subtitle') }}</p>
           </div>
         </div>
         <p class="text-gray-700 mb-3">{{ $t('regionDecision.murcia.region.landscape') }}</p>

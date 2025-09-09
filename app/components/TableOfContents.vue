@@ -4,14 +4,14 @@
       <!-- Header -->
       <div class="flex items-center gap-2 mb-3 pb-2 border-b border-yellow-100">
         <Icon name="heroicons:list-bullet" class="w-4 h-4 text-yellow-600" />
-        <h4 class="font-medium text-gray-800 !text-xs">
+        <h3 class="font-medium text-gray-800 !text-xs">
           {{ $t('ui.tableOfContents.title') }}
-        </h4>
+        </h3>
       </div>
 
       <!-- Navigation Links -->
       <nav class="space-y-0.5 max-h-80 overflow-y-auto">
-        <div v-if="headings.length === 0" class="text-xs text-gray-500 px-2 py-1">
+        <div v-if="headings.length === 0" class="!text-xs text-gray-500 px-2 py-1">
           {{ $t('ui.tableOfContents.noHeadings') }}
         </div>
                <button
@@ -22,12 +22,12 @@
                  :class="[
                    'block w-full text-left px-2 py-1.5 rounded text-xs transition-all duration-200 cursor-pointer',
                    activeHeading === heading.id
-                     ? heading.level <= 3 
-                       ? 'bg-yellow-200 text-yellow-900 border-l-2 border-yellow-500' // Extra highlight for main headings
+                     ? heading.level === 2
+                       ? 'bg-yellow-200 text-yellow-900 border-l-2 border-yellow-500' // Extra highlight for h2 headings
                        : 'bg-yellow-100 text-yellow-800'
                      : 'text-gray-600 hover:bg-gray-50 hover:text-gray-800',
-                   // Highlight main headings (H1, H2, H3)
-                   heading.level <= 3 ? 'font-semibold' : 'font-normal'
+                   // Only h2 headings are bold
+                   heading.level === 2 ? 'font-semibold' : 'font-normal'
                  ]"
                >
                  <span 
@@ -63,12 +63,12 @@ const readingProgress = ref(0)
 // Determine indentation based on heading level (simple tag-based)
 const getHeadingIndent = (level) => {
   switch (level) {
-    case 1: return '' // h1 - no indent
-    case 2: return '' // h2 - no indent  
-    case 3: return '' // h3 - no indent (main sections)
-    case 4: return 'ml-4' // h4 - medium indent (sub-sections)
-    case 5: return 'ml-5' // h5 - large indent
-    case 6: return 'ml-6' // h6 - extra large indent
+    case 1: return '' // h1 - no indent (page title)
+    case 2: return 'ml-3' // h2 - small indent (main sections)
+    case 3: return 'ml-6' // h3 - medium indent (sub-sections)
+    case 4: return 'ml-9' // h4 - large indent (sub-sub-sections)
+    case 5: return 'ml-12' // h5 - extra large indent
+    case 6: return 'ml-15' // h6 - maximum indent
     default: return ''
   }
 }

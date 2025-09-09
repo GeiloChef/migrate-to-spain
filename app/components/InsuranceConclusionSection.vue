@@ -9,7 +9,7 @@
       </div>
       
       <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
-        <p class="text-xl mb-6">
+        <p class="!text-xl mb-6">
           {{ $t('insurance.conclusion.content') }}
         </p>
       </div>

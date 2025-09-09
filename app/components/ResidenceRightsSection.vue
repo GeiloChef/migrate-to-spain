@@ -5,19 +5,19 @@
       <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
         <span class="text-white font-bold text-2xl">1</span>
       </div>
-      <h3 class="!text-4xl font-bold text-gray-900">
+      <h2 class="!text-4xl font-bold text-gray-900">
         {{ $t('story.timeline.step2.sections.residenceRights.title') }}
-      </h3>
+      </h2>
     </div>
 
     <!-- Full Width Introduction Section -->
     <div class="bg-gradient-to-br from-white to-blue-50/30 rounded-2xl border border-blue-100 overflow-hidden shadow-lg mb-10">
       <div class="grid lg:grid-cols-2 gap-0 items-center">
         <div class="p-8">
-          <h4 class="font-bold text-gray-900 mb-4 text-xl text-blue-600">
-            {{ $t('story.timeline.step2.sections.residenceRights.intro.title') }}
-          </h4>
-          <p class="text-lg mb-4 text-gray-700">
+            <h3 class="!text-xl font-bold text-gray-900 mb-4 text-blue-600">
+              {{ $t('story.timeline.step2.sections.residenceRights.intro.title') }}
+            </h3>
+          <p class="!text-lg mb-4 text-gray-700">
             {{ $t('story.timeline.step2.sections.residenceRights.intro.question') }}
           </p>
           <p class="mb-4 text-gray-700 leading-relaxed">
@@ -45,7 +45,7 @@
           <div class="w-10 h-10 bg-blue-500 rounded-xl flex items-center justify-center">
             <span class="text-white font-bold text-lg">3</span>
           </div>
-          <h4 class="font-bold text-gray-900 text-xl">{{ $t('story.timeline.step2.sections.residenceRights.registration.title') }}</h4>
+          <h3 class="!text-lg font-bold text-gray-900 text-xl">{{ $t('story.timeline.step2.sections.residenceRights.registration.title') }}</h3>
         </div>
         <ul class="space-y-3 text-gray-700">
           <li class="flex items-start gap-3">
@@ -69,7 +69,7 @@
           <div class="w-10 h-10 bg-green-500 rounded-xl flex items-center justify-center">
             <span class="text-white font-bold text-lg">183</span>
           </div>
-          <h4 class="font-bold text-gray-900 text-xl">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.title') }}</h4>
+          <h3 class="!text-lg font-bold text-gray-900 text-xl">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.title') }}</h3>
         </div>
         
         <div class="space-y-4 mb-4">
@@ -78,7 +78,7 @@
               <div class="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
               <div>
                 <p class="font-semibold text-gray-900">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.over183.title') }}</p>
-                <p class="text-sm text-gray-600">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.over183.description') }}</p>
+                <p class="!text-sm text-gray-600">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.over183.description') }}</p>
               </div>
             </div>
           </div>
@@ -87,14 +87,14 @@
               <div class="w-3 h-3 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
               <div>
                 <p class="font-semibold text-gray-900">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.under183.title') }}</p>
-                <p class="text-sm text-gray-600">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.under183.description') }}</p>
+                <p class="!text-sm text-gray-600">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.under183.description') }}</p>
               </div>
             </div>
           </div>
         </div>
         
         <div class="p-3 bg-gradient-to-r from-green-100 to-emerald-100 rounded-xl border border-green-200">
-          <p class="text-sm text-green-900 leading-relaxed">
+          <p class="!text-sm text-green-900 leading-relaxed">
             <strong class="text-green-800">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.conclusion') }}</strong>
           </p>
         </div>

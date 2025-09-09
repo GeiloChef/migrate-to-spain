@@ -29,8 +29,8 @@
             <Icon name="heroicons:exclamation-triangle" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.cityCountry.parking.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.cityCountry.parking.subtitle') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.cityCountry.parking.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.cityCountry.parking.subtitle') }}</p>
           </div>
         </div>
         <p class="text-gray-700">{{ $t('regionDecision.cityCountry.parking.description') }}</p>
@@ -43,8 +43,8 @@
             <Icon name="heroicons:currency-euro" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h4 class="font-semibold text-gray-900 text-lg">{{ $t('regionDecision.cityCountry.prices.title') }}</h4>
-            <p class="text-sm text-gray-600">{{ $t('regionDecision.cityCountry.prices.subtitle') }}</p>
+            <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('regionDecision.cityCountry.prices.title') }}</h3>
+            <p class="!text-sm text-gray-600">{{ $t('regionDecision.cityCountry.prices.subtitle') }}</p>
           </div>
         </div>
         <p class="text-gray-700">{{ $t('regionDecision.cityCountry.prices.description') }}</p>

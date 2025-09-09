@@ -9,7 +9,7 @@
       </div>
       
       <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
-        <p class="text-xl mb-6">
+        <p class="!text-xl mb-6">
           {{ $t('insurance.practices.content') }}
         </p>
       </div>
@@ -18,7 +18,7 @@
         <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
           <div class="flex items-center mb-4">
             <UIcon name="i-heroicons-heart" class="w-6 h-6 text-red-500 mr-3" />
-            <h4 class="!text-lg font-semibold text-gray-900">Lebensversicherung</h4>
+            <h3 class="!text-lg font-semibold text-gray-900">Lebensversicherung</h3>
           </div>
           <p class="text-gray-700 text-sm">
             Bei Finanzierung fast automatisch dabei - Banken sichern sich so ab.
@@ -28,7 +28,7 @@
         <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
           <div class="flex items-center mb-4">
             <UIcon name="i-heroicons-tag" class="w-6 h-6 text-green-500 mr-3" />
-            <h4 class="!text-lg font-semibold text-gray-900">Rabatte</h4>
+            <h3 class="!text-lg font-semibold text-gray-900">Rabatte</h3>
           </div>
           <p class="text-gray-700 text-sm">
             Viele Eigentümer nutzen denselben Anbieter für mehrere Policen.

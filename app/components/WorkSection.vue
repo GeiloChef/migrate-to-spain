@@ -5,9 +5,9 @@
       <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center shadow-lg">
         <span class="text-white font-bold text-2xl">2</span>
       </div>
-      <h3 class="!text-4xl font-bold text-gray-900">
+      <h2 class="!text-4xl font-bold text-gray-900">
         {{ $t('story.timeline.step2.sections.work.title') }}
-      </h3>
+      </h2>
     </div>
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
@@ -29,27 +29,27 @@
         <div class="grid md:grid-cols-2 gap-0 relative">
           <!-- Option 1: Remote Work -->
           <div class="p-6">
-            <h4 class="font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.work.options.remote.title') }}</h4>
+            <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.work.options.remote.title') }}</h3>
             <div class="space-y-3 mb-4">
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point1') }}</span>
+                <span class="!text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point1') }}</span>
               </div>
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point2') }}</span>
+                <span class="!text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point2') }}</span>
               </div>
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point3') }}</span>
+                <span class="!text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point3') }}</span>
               </div>
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point4') }}</span>
+                <span class="!text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.remote.point4') }}</span>
               </div>
             </div>
             <div class="p-3 bg-amber-50 rounded-lg border border-amber-200">
-              <p class="text-sm text-amber-800">
+              <p class="!text-sm text-amber-800">
                 <strong>Achtung:</strong> {{ $t('story.timeline.step2.sections.work.options.remote.warning') }}
               </p>
             </div>
@@ -60,23 +60,23 @@
           
           <!-- Option 2: Work in Spain -->
           <div class="p-6">
-            <h4 class="font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.work.options.spain.title') }}</h4>
+            <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.work.options.spain.title') }}</h3>
             <div class="space-y-3 mb-4">
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point1') }}</span>
+                <span class="!text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point1') }}</span>
               </div>
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point2') }}</span>
+                <span class="!text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point2') }}</span>
               </div>
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point3') }}</span>
+                <span class="!text-sm text-gray-700">{{ $t('story.timeline.step2.sections.work.options.spain.point3') }}</span>
               </div>
             </div>
             <div class="p-3 bg-red-50 rounded-lg border border-red-200">
-              <p class="text-sm text-red-800">
+              <p class="!text-sm text-red-800">
                 <strong>Nachteil:</strong> {{ $t('story.timeline.step2.sections.work.options.spain.disadvantage') }}
               </p>
             </div>
@@ -102,7 +102,7 @@
             </svg>
             Meine Entscheidung
           </div>
-          <h4 class="font-bold text-gray-900 mb-3 text-xl">{{ $t('story.timeline.step2.sections.work.decision.title') }}</h4>
+          <h3 class="!text-lg font-bold text-gray-900 mb-3 text-xl">{{ $t('story.timeline.step2.sections.work.decision.title') }}</h3>
           <p class="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
             {{ $t('story.timeline.step2.sections.work.decision.description') }}
           </p>

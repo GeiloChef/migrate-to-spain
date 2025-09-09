@@ -7,10 +7,10 @@
     <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 rounded-3xl p-8 mb-8">
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <div class="space-y-6 text-gray-700 leading-relaxed">
-          <p class="text-lg">
+          <p class="!text-lg">
             {{ $t('apartmentSearch.onSite.paragraph1') }}
           </p>
-          <p class="text-lg">
+          <p class="!text-lg">
             {{ $t('apartmentSearch.onSite.paragraph2') }}
           </p>
         </div>
@@ -36,10 +36,10 @@
         </div>
         
         <div class="space-y-6 text-gray-700 leading-relaxed">
-          <h4 class="font-semibold text-gray-900 mb-4 text-xl">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-xl">
             {{ $t('apartmentSearch.onSite.viewingProcess.title') }}
-          </h4>
-          <p class="text-lg">
+          </h3>
+          <p class="!text-lg">
             {{ $t('apartmentSearch.onSite.viewingProcess.description') }}
           </p>
         </div>
@@ -53,9 +53,9 @@
           <Icon name="heroicons:exclamation-triangle" class="w-6 h-6 text-white" />
         </div>
         <div class="flex-1">
-          <h4 class="font-semibold text-gray-900 mb-3 text-xl">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-xl">
             Wichtiger Hinweis
-          </h4>
+          </h3>
           <p class="text-gray-700 leading-relaxed text-lg">
             Von Privatkäufen würde ich übrigens eher abraten – das spanische Immobilienrecht ist nicht ohne, und ein Makler sorgt zumindest für etwas Sicherheit im Prozess.
           </p>

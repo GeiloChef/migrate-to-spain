@@ -30,9 +30,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
             </svg>
           </div>
-          <h4 class="!text-xl font-semibold text-gray-900">
+          <h3 class="!text-xl font-semibold text-gray-900">
             {{ $t('propertyPurchase.houseVsApartment.title') }}
-          </h4>
+          </h3>
         </div>
         
         <p class="text-gray-700 mb-4">
@@ -40,13 +40,13 @@
         </p>
         
         <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
-          <h5 class="text-sm font-semibold text-gray-800 mb-3 flex items-center gap-2">
+          <h4 class="!text-sm font-semibold text-gray-800 mb-3 flex items-center gap-2">
             <svg class="h-4 w-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
             </svg>
             {{ $t('propertyPurchase.houseVsApartment.consTitle') }}
-          </h5>
-          <ul class="text-sm text-gray-700 space-y-2">
+          </h4>
+          <ul class="!text-sm text-gray-700 space-y-2">
             <li class="flex items-start gap-2">
               <span class="text-orange-500 mt-1">•</span>
               <span>{{ $t('propertyPurchase.houseVsApartment.cons1') }}</span>
@@ -80,7 +80,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
           </div>
-          <h4 class="!text-xl font-semibold text-gray-900">
+          <h3 class="!text-xl font-semibold text-gray-900">
             {{ $t('propertyPurchase.neighborhood.title') }}
           </h4>
         </div>
@@ -108,7 +108,7 @@
               </svg>
             </div>
             <div class="ml-3">
-              <p class="text-sm text-blue-700 font-medium">
+              <p class="!text-sm text-blue-700 font-medium">
                 {{ $t('propertyPurchase.neighborhood.tip') }}
               </p>
             </div>
@@ -125,9 +125,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z" />
             </svg>
           </div>
-          <h4 class="!text-xl font-semibold text-gray-900">
+          <h3 class="!text-xl font-semibold text-gray-900">
             {{ $t('propertyPurchase.buildingAndApartment.title') }}
-          </h4>
+          </h3>
         </div>
         
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -139,9 +139,9 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h5 class="!text-lg font-semibold text-green-800">
+              <h4 class="!text-lg font-semibold text-green-800">
                 {{ $t('propertyPurchase.buildingAndApartment.subtitle1') }}
-              </h5>
+              </h4>
             </div>
             <ul class="space-y-3">
               <li class="flex items-start gap-3">
@@ -172,9 +172,9 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z" />
                 </svg>
               </div>
-              <h5 class="!text-lg font-semibold text-blue-800">
+              <h4 class="!text-lg font-semibold text-blue-800">
                 {{ $t('propertyPurchase.buildingAndApartment.subtitle2') }}
-              </h5>
+              </h4>
             </div>
             <ul class="space-y-3">
               <li class="flex items-start gap-3">
@@ -206,7 +206,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
             </svg>
           </div>
-          <h4 class="!text-xl font-semibold text-gray-900">
+          <h3 class="!text-xl font-semibold text-gray-900">
             {{ $t('propertyPurchase.priceAndRunningCosts.title') }}
           </h4>
         </div>
@@ -234,7 +234,7 @@
               </svg>
             </div>
             <div class="ml-3">
-              <p class="text-sm text-yellow-700 font-medium">
+              <p class="!text-sm text-yellow-700 font-medium">
                 {{ $t('propertyPurchase.priceAndRunningCosts.warning') }}
               </p>
             </div>
@@ -250,9 +250,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
             </svg>
           </div>
-          <h4 class="!text-xl font-semibold text-gray-900">
+          <h3 class="!text-xl font-semibold text-gray-900">
             {{ $t('propertyPurchase.legalAndOrganization.title') }}
-          </h4>
+          </h3>
         </div>
         
         <!-- Legal & Organization Image -->
@@ -267,9 +267,9 @@
         </div>
         
         <div class="space-y-4">
-          <h5 class="!text-lg font-medium text-gray-800">
+          <h4 class="!text-lg font-medium text-gray-800">
             {{ $t('propertyPurchase.legalAndOrganization.subtitle1') }}
-          </h5>
+          </h4>
           <ul class="space-y-3 text-gray-700">
             <li class="flex items-start gap-3">
               <svg class="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -300,7 +300,7 @@
                 </svg>
               </div>
               <div class="ml-3">
-                <p class="text-sm text-green-700 font-medium">
+                <p class="!text-sm text-green-700 font-medium">
                   {{ $t('propertyPurchase.legalAndOrganization.tip') }}
                 </p>
               </div>
@@ -317,9 +317,9 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
             </svg>
           </div>
-          <h4 class="!text-xl font-semibold text-gray-900">
+          <h3 class="!text-xl font-semibold text-gray-900">
             {{ $t('propertyPurchase.personalCriteria.title') }}
-          </h4>
+          </h3>
         </div>
         
         <p class="text-gray-700 mb-6">
@@ -336,9 +336,9 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z" />
                 </svg>
               </div>
-              <h5 class="!text-lg font-semibold text-purple-800">
+              <h4 class="!text-lg font-semibold text-purple-800">
                 {{ $t('propertyPurchase.personalCriteria.subtitle1') }}
-              </h5>
+              </h4>
             </div>
             <ul class="space-y-3">
               <li class="flex items-start gap-3">
@@ -364,9 +364,9 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h5 class="!text-lg font-semibold text-pink-800">
+              <h4 class="!text-lg font-semibold text-pink-800">
                 {{ $t('propertyPurchase.personalCriteria.subtitle2') }}
-              </h5>
+              </h4>
             </div>
             <ul class="space-y-3">
               <li class="flex items-start gap-3">

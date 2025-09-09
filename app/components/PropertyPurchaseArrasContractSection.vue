@@ -49,7 +49,7 @@
             </div>
           </div>
           <div>
-            <h4 class="text-lg font-semibold text-yellow-800 mb-2">Wichtiger Hinweis</h4>
+            <h3 class="!text-lg font-semibold text-yellow-800 mb-2">Wichtiger Hinweis</h3>
             <p class="text-yellow-700 leading-relaxed">
               {{ $t('propertyPurchase.arrasContract.warning') }}
             </p>
