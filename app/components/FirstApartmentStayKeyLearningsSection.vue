@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+    <h2 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('firstApartmentStay.keyLearnings.title') }}
-    </h3>
+    </h2>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-700 leading-relaxed">
       <div class="bg-white/50 p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
         <h3 class="!text-lg font-semibold text-gray-900 mb-3">

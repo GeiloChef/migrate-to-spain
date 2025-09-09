@@ -2,9 +2,9 @@
   <section>
     <div>
       <div class="text-center mb-16">
-        <h2 class="!text-4xl font-bold text-spain-navy mb-4">
+        <h3 class="!text-4xl font-bold text-spain-navy mb-4">
           {{ $t('story.title') }}
-        </h2>
+        </h3>
         <p class="!text-xl text-spain-gray-dark max-w-3xl mx-auto">
           {{ $t('story.subtitle') }}
         </p>

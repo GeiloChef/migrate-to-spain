@@ -3,9 +3,9 @@
     <div class="px-6 py-16">
       <!-- Header -->
       <div class="text-left mb-12">
-        <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+        <h2 class="!text-2xl font-bold text-gray-900 mb-6">
           {{ $t('story.timeline.step3.sections.flashcards.title') }}
-        </h3>
+        </h2>
       </div>
         
       <!-- Intro Text -->

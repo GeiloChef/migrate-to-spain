@@ -4,9 +4,9 @@
       <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full mb-6">
         <Icon name="heroicons:check" class="w-10 h-10 text-white" />
       </div>
-      <h3 class="!text-2xl font-bold text-gray-900 mb-4">
+      <h2 class="!text-2xl font-bold text-gray-900 mb-4">
         {{ $t('apartmentSearch.success.title') }}
-      </h3>
+      </h2>
       <p class="text-gray-700 text-lg leading-relaxed max-w-2xl mx-auto">
         {{ $t('apartmentSearch.success.description') }}
       </p>

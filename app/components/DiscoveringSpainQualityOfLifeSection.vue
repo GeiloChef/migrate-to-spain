@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+    <h2 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('discoveringSpain.qualityOfLife.title') }}
-    </h3>
+    </h2>
     
     <!-- Hero Image -->
     <div class="mb-8 h-64 rounded-xl overflow-hidden shadow-md">

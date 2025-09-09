@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+    <h2 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('discoveringSpain.conclusion.title') }}
-    </h3>
+    </h2>
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
         {{ $t('discoveringSpain.conclusion.paragraph1') }}
@@ -13,9 +13,9 @@
     </div>
     
     <div class="mt-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
-      <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-xl">
+      <h2 class="!text-lg font-semibold text-gray-900 mb-4 text-xl">
         {{ $t('discoveringSpain.conclusion.nextStep.title') }}
-      </h3>
+      </h2>
       <p class="text-gray-700 text-lg">
         {{ $t('discoveringSpain.conclusion.nextStep.description') }}
       </p>

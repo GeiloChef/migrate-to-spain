@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+    <h2 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('regionDecision.conclusion.title') }}
-    </h3>
+    </h2>
     <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
       <div class="space-y-4 text-gray-700 leading-relaxed">
         <p class="mb-4">

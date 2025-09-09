@@ -7,9 +7,9 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </div>
-      <h3 class="!text-2xl font-bold text-gray-900">
+      <h2 class="!text-2xl font-bold text-gray-900">
         {{ $t('propertyPurchase.whatToLookFor.title') }}
-      </h3>
+      </h2>
     </div>
     
     <!-- Introduction -->
@@ -82,7 +82,8 @@
           </div>
           <h3 class="!text-xl font-semibold text-gray-900">
             {{ $t('propertyPurchase.neighborhood.title') }}
-          </h4>
+
+          </h3>
         </div>
         
         <!-- Neighborhood Image -->
@@ -208,7 +209,7 @@
           </div>
           <h3 class="!text-xl font-semibold text-gray-900">
             {{ $t('propertyPurchase.priceAndRunningCosts.title') }}
-          </h4>
+          </h3>
         </div>
         
         <!-- Price & Costs Image -->

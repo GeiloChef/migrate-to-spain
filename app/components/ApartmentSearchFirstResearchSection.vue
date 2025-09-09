@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+    <h2 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('apartmentSearch.firstResearch.title') }}
-    </h3>
+    </h2>
     
     <p class="text-gray-700 mb-8 text-lg">
       {{ $t('apartmentSearch.firstResearch.intro') }}

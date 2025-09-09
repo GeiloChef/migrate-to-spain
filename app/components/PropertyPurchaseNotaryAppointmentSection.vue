@@ -8,9 +8,9 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
-        <h3 class="!text-2xl font-bold text-gray-900">
+        <h2 class="!text-2xl font-bold text-gray-900">
           {{ $t('propertyPurchase.notaryAppointment.title') }}
-        </h3>
+        </h2>
       </div>
       
       <div class="space-y-4 text-gray-700 leading-relaxed">

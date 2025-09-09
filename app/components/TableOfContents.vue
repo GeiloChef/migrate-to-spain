@@ -20,14 +20,10 @@
                  :data-heading-id="heading.id"
                  @click="scrollToHeading(heading.id)"
                  :class="[
-                   'block w-full text-left px-2 py-1.5 rounded text-xs transition-all duration-200 cursor-pointer',
+                   'block w-full text-left px-2 py-1.5 rounded text-xs transition-all duration-200 cursor-pointer font-semibold',
                    activeHeading === heading.id
-                     ? heading.level === 2
-                       ? 'bg-yellow-200 text-yellow-900 border-l-2 border-yellow-500' // Extra highlight for h2 headings
-                       : 'bg-yellow-100 text-yellow-800'
-                     : 'text-gray-600 hover:bg-gray-50 hover:text-gray-800',
-                   // Only h2 headings are bold
-                   heading.level === 2 ? 'font-semibold' : 'font-normal'
+                     ? 'bg-yellow-200 text-yellow-900 border-l-2 border-yellow-500' // Highlight for active h2 heading
+                     : 'text-gray-600 hover:bg-gray-50 hover:text-gray-800'
                  ]"
                >
                  <span 
@@ -60,23 +56,16 @@ const headings = ref([])
 const activeHeading = ref('')
 const readingProgress = ref(0)
 
-// Determine indentation based on heading level (simple tag-based)
+// Determine indentation based on heading level (only h2 now)
 const getHeadingIndent = (level) => {
-  switch (level) {
-    case 1: return '' // h1 - no indent (page title)
-    case 2: return 'ml-3' // h2 - small indent (main sections)
-    case 3: return 'ml-6' // h3 - medium indent (sub-sections)
-    case 4: return 'ml-9' // h4 - large indent (sub-sub-sections)
-    case 5: return 'ml-12' // h5 - extra large indent
-    case 6: return 'ml-15' // h6 - maximum indent
-    default: return ''
-  }
+  // Since we only show h2 headings, no indentation needed
+  return ''
 }
 
 // Generate unique IDs for headings and extract them
 const generateHeadingIds = () => {
-  // Get all headings on the page
-  const headingElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
+  // Get only h2 headings on the page
+  const headingElements = document.querySelectorAll('h2')
   
   headingElements.forEach((element, index) => {
     // Skip headings that are in hero sections, navigation, header, or table of contents
@@ -130,7 +119,7 @@ const scrollToHeading = (headingId) => {
   
   if (!element) {
     // Try to find by text content as fallback
-    const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
+    const headings = document.querySelectorAll('h2')
     const targetHeading = Array.from(headings).find(h => {
       const text = h.textContent?.trim().toLowerCase()
       const targetText = headingId.replace(/-/g, ' ').toLowerCase()
@@ -247,7 +236,7 @@ onMounted(() => {
     console.log('TableOfContents: Found', headings.value.length, 'headings')
     if (headings.value.length === 0) {
       console.log('TableOfContents: No headings found - checking DOM...')
-      const allHeadings = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
+      const allHeadings = document.querySelectorAll('h2')
       console.log('TableOfContents: Total headings in DOM:', allHeadings.length)
     }
     

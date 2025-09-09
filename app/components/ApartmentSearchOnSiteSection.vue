@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-4 px-8">
+    <h2 class="!text-2xl font-bold text-gray-900 mb-4 px-8">
       {{ $t('apartmentSearch.onSite.title') }}
-    </h3>
+    </h2>
     
     <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 rounded-3xl p-8 mb-8">
       <div class="grid md:grid-cols-2 gap-8 items-center">

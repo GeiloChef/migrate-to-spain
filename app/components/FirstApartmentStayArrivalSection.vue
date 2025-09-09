@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+    <h2 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('firstApartmentStay.arrival.title') }}
-    </h3>
+    </h2>
     <div class="relative">
       <!-- Floating image on the left -->
       <div class="float-left mr-6 mb-4 w-80 h-64 rounded-xl overflow-hidden shadow-md">

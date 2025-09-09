@@ -1,9 +1,9 @@
 <template>
   <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
     <div class="px-6 py-16">
-      <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+      <h2 class="!text-2xl font-bold text-gray-900 mb-6">
         {{ $t('story.timeline.step3.sections.currentStatus.title') }}
-      </h3>
+      </h2>
       <div class="space-y-6 text-gray-700 leading-relaxed mb-8">
         <p class="!text-lg">{{ $t('story.timeline.step3.sections.currentStatus.paragraph1') }}</p>
         <p class="!text-lg">{{ $t('story.timeline.step3.sections.currentStatus.paragraph2') }}</p>

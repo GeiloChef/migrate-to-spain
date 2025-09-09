@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="!text-2xl font-bold text-gray-900 mb-6">
+    <h2 class="!text-2xl font-bold text-gray-900 mb-6">
       {{ $t('regionDecision.onSite.title') }}
-    </h3>
+    </h2>
     <!-- Bildercarousel für Murcia -->
     <div class="w-full mb-8 flex flex-col justify-center">
       <div class="pb-4">
