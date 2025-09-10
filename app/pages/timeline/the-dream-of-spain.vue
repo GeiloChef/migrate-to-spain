@@ -23,7 +23,7 @@
             {{ $t('story.timeline.step1.hero.badge') }}
           </div>
           <h1 class="!text-5xl md:!text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
-            {{ $t('story.timeline.step1.hero.title') }}
+            {{ $t('story.timeline.step1.title') }}
           </h1>
           <p class="!text-xl md:!text-2xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
             {{ $t('story.timeline.step1.hero.subtitle') }}
@@ -47,8 +47,8 @@
             </div>
             <div class="h-64 rounded-xl overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                alt="Mediterranean lifestyle and culture"
+                src="/images/timeline/beginning-dream-office.png" 
+                alt="Mann im Büro träumt von Spanien - Regen draußen, Strand im Gedanken"
                 class="w-full h-full object-cover"
               />
             </div>
@@ -85,8 +85,8 @@
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div class="h-64 rounded-xl overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                alt="Spanish supermarket with gluten-free products"
+                src="/images/timeline/comida-sin-gluten.png" 
+                alt="Spanischer Supermarkt mit glutenfreien Produkten - Tortillas, Brot, Kekse und Kuchen"
                 class="w-full h-full object-cover"
               />
             </div>
