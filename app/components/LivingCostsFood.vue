@@ -3,8 +3,8 @@
     <!-- Hero Image mit Text -->
     <div class="relative h-32 overflow-hidden">
       <img 
-        src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-        alt="Fresh fruits and vegetables market"
+        src="/images/timeline/groceries-cost.png" 
+        alt="Lebensmittel und Einkaufskosten in Spanien"
         class="w-full h-full object-cover"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>

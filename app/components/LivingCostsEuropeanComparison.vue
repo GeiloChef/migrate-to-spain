@@ -3,9 +3,9 @@
     <!-- Hero Image mit Text -->
     <div class="relative h-32 overflow-hidden">
       <img 
-        src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-        alt="European map and comparison"
-        class="w-full h-full object-cover"
+        src="/images/timeline/european-comparision.png" 
+        alt="Europäische Karte - Lebenshaltungskosten Vergleich"
+        class="w-full h-full object-cover object-[center_bottom]"
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
       <div class="absolute bottom-3 left-3">

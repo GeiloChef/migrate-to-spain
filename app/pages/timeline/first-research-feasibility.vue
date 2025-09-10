@@ -10,8 +10,8 @@
       <!-- Background Image -->
       <div class="w-full h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
-          src="/images/timeline/research-planning.svg" 
-          alt="Research and planning - documents and laptop"
+          src="/images/timeline/first-research-hero.png" 
+          alt="Recherche und Planung - Computer, Dokumente und Notizen"
           class="w-full h-full object-cover"
         />
         <!-- Dark Overlay for Better Text Readability -->
