@@ -25,10 +25,10 @@
             {{ $t('discoveringSpain.contacts.emely.paragraph3') }}
           </p>
         </div>
-        <div class="h-64 rounded-xl overflow-hidden shadow-md">
+        <div class="h-[400px] rounded-xl overflow-hidden shadow-md">
           <img 
-            src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-            alt="Two people enjoying coffee together in a café"
+            src="/images/timeline/section-emely.png" 
+            alt="Begegnung mit Emely - Schatten von Menschen auf dem Gehweg"
             class="w-full h-full object-cover"
           />
         </div>

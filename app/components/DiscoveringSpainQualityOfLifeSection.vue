@@ -5,10 +5,10 @@
     </h2>
     
     <!-- Hero Image -->
-    <div class="mb-8 h-64 rounded-xl overflow-hidden shadow-md">
+    <div class="mb-8 h-[400px] rounded-xl overflow-hidden shadow-md">
       <img 
-        src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-        alt="Mediterranean lifestyle and quality of life in Spain"
+        src="/images/timeline/plaza-en-espana.png" 
+        alt="Spanischer Stadtplatz bei Sonnenuntergang - Lebensqualität in Spanien"
         class="w-full h-full object-cover"
       />
     </div>

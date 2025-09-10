@@ -12,10 +12,10 @@
           {{ $t('discoveringSpain.glutenFree.paragraph2') }}
         </p>
       </div>
-      <div class="h-64 rounded-xl overflow-hidden shadow-md">
+      <div class="h-[400px] rounded-xl overflow-hidden shadow-md">
         <img 
-          src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Spanish supermarket with gluten-free products"
+          src="/images/timeline/comida-sin-gluten-2.png" 
+          alt="Glutenfreie Produkte im Supermarkt - Tortillas, Brot, Kekse"
           class="w-full h-full object-cover"
         />
       </div>

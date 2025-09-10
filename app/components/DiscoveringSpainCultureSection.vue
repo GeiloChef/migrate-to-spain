@@ -12,11 +12,11 @@
           {{ $t('discoveringSpain.culture.paragraph2') }}
         </p>
       </div>
-      <div class="h-64 rounded-xl overflow-hidden shadow-md">
+      <div class="h-[400px] rounded-xl overflow-hidden shadow-md">
         <img 
-          src="https://images.unsplash.com/photo-1557930335-abd211a9cd43?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Spanish nightlife and outdoor dining"
-          class="w-full h-full object-cover"
+          src="/images/timeline/la-vida-espanola.png" 
+          alt="Spanisches Straßenleben bei Sonnenuntergang - Kultur und Menschen"
+          class="w-full h-full object-cover object-left"
         />
       </div>
     </div>
