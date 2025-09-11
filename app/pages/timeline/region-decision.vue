@@ -10,8 +10,8 @@
       <!-- Background Image -->
       <div class="w-full h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
-          src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Spanish landscape with mountains and Mediterranean coast"
+          src="/images/timeline/region-decision.png" 
+          alt="Lupe auf Karte der Iberischen Halbinsel - Regionenauswahl"
           class="w-full h-full object-cover"
         />
         <!-- Dark Overlay for Better Text Readability -->
