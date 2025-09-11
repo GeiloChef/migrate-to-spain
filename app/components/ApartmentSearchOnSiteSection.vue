@@ -16,8 +16,8 @@
         </div>
         <div class="h-full rounded-2xl overflow-hidden shadow-xl">
           <img 
-            src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-            alt="Murcia cityscape with Mediterranean architecture"
+            src="/images/timeline/murcia-painted.png" 
+            alt="Murcia Aquarellmalerei - Stadtansicht mit Fluss und Kirchturm"
             class="w-full h-full object-cover"
           />
         </div>
@@ -29,8 +29,8 @@
       <div class="grid md:grid-cols-2 gap-8 items-start">
         <div class="h-full rounded-2xl overflow-hidden shadow-xl">
           <img 
-            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-            alt="Property viewing process"
+            src="/images/timeline/couple-visiting-property.png" 
+            alt="Paar bei Wohnungsbesichtigung mit Maklerin - Besichtigungsprozess"
             class="w-full h-full object-cover"
           />
         </div>

@@ -12,7 +12,7 @@
           {{ $t('regionDecision.cityCountry.paragraph2') }}
         </p>
       </div>
-      <div class="h-[400px] rounded-xl overflow-hidden shadow-md">
+      <div class="h-[300px] rounded-xl overflow-hidden shadow-md">
         <img 
           src="https://images.unsplash.com/photo-1683585940613-3f77b9147325?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Zwischen Stadt und Land - Spanische Landschaft mit Bergen und Tälern"

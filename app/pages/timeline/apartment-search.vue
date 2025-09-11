@@ -2,16 +2,16 @@
   <TimelineLayout 
     :previous-step="'/timeline/region-decision'"
     :previous-step-name="$t('story.timeline.step5.title')"
-    :next-step="'/timeline/property-purchase'"
-    :next-step-name="$t('propertyPurchase.title')"
+    :next-step="'/timeline/bureaucracy-prerequisites'"
+    :next-step-name="$t('bureaucracy.title')"
   >
     <!-- Hero Section -->
     <div class="relative">
       <!-- Background Image -->
       <div class="w-full h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
-          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Modern apartment building in Spain with Mediterranean architecture"
+          src="/images/timeline/visiting-a-property.png" 
+          alt="Wohnungsbesichtigung - Paar mit Makler in leerer Wohnung"
           class="w-full h-full object-cover"
         />
         <!-- Dark Overlay for Better Text Readability -->
