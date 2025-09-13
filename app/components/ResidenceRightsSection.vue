@@ -73,18 +73,22 @@
         </div>
         
         <div class="space-y-4 mb-4">
-          <div class="p-3 bg-blue-50 rounded-xl border border-blue-100">
+          <div class="p-3 bg-transparent rounded-xl border border-gray-300">
             <div class="flex items-start gap-3">
-              <div class="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+              <div class="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
+                <Icon name="heroicons:arrow-trending-up" class="w-4 h-4 text-white" />
+              </div>
               <div>
                 <p class="font-semibold text-gray-900">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.over183.title') }}</p>
                 <p class="!text-sm text-gray-600">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.over183.description') }}</p>
               </div>
             </div>
           </div>
-          <div class="p-3 bg-green-50 rounded-xl border border-green-100">
+          <div class="p-3 bg-transparent rounded-xl border border-gray-300">
             <div class="flex items-start gap-3">
-              <div class="w-3 h-3 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+              <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
+                <Icon name="heroicons:arrow-trending-down" class="w-4 h-4 text-white" />
+              </div>
               <div>
                 <p class="font-semibold text-gray-900">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.under183.title') }}</p>
                 <p class="!text-sm text-gray-600">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.under183.description') }}</p>
@@ -93,10 +97,17 @@
           </div>
         </div>
         
-        <div class="p-3 bg-gradient-to-r from-green-100 to-emerald-100 rounded-xl border border-green-200">
-          <p class="!text-sm text-green-900 leading-relaxed">
-            <strong class="text-green-800">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.conclusion') }}</strong>
-          </p>
+        <div class="p-3 bg-transparent rounded-xl border border-gray-300">
+          <div class="flex items-start gap-3">
+            <div class="w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
+              <Icon name="heroicons:exclamation-triangle" class="w-4 h-4 text-white" />
+            </div>
+            <div>
+              <p class="!text-sm text-gray-700 leading-relaxed">
+                <strong class="text-gray-900">{{ $t('story.timeline.step2.sections.residenceRights.taxRule.conclusion') }}</strong>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
