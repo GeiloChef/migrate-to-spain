@@ -73,6 +73,36 @@
     "title": "Meine Geschichte",
     "subtitle": "Der Weg von der ersten Idee bis zur Umsetzung - Schritt für Schritt",
     "timeline": {
+      "step1": {
+        "title": "Der Traum von Spanien",
+        "date": "Anfang 2022",
+        "description": "Woher kam die Idee? Warum Spanien? Erste Vorstellungen, Wünsche, Ängste.",
+        "preview": {
+          "point1": "Die ersten Gedanken an Spanien",
+          "point2": "Warum gerade dieses Land?",
+          "point3": "Ängste und Zweifel"
+        }
+      },
+      "step2": {
+        "title": "Erste Recherchen & Machbarkeit",
+        "date": "Frühjahr 2022",
+        "description": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten. Notizen & grober Plan: \"Was müsste ich tun, um wirklich auszuwandern?\"",
+        "preview": {
+          "point1": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten",
+          "point2": "Notizen & grober Plan: \"Was müsste ich tun, um wirklich auszuwandern?\"",
+          "point3": "Erste Recherchen zur Machbarkeit"
+        }
+      },
+      "step3": {
+        "title": "Erste Schritte: Spanisch lernen",
+        "date": "Sommer 2022",
+        "description": "Warum Spanisch lernen so wichtig ist und wie ich es angegangen bin - von Duolingo bis zu Büchern und Karteikarten.",
+        "preview": {
+          "point1": "Warum Spanisch lernen so wichtig ist",
+          "point2": "Meine Erfahrungen mit Duolingo und Büchern",
+          "point3": "Mein Karteikarten-System und Online-Lernen"
+        }
+      },
       "step4": {
         "title": "Spanien entdecken",
         "date": "Februar 2024",

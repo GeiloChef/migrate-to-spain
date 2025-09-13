@@ -73,6 +73,36 @@
     "title": "Mi Historia",
     "subtitle": "El camino desde la primera idea hasta la implementación - paso a paso",
     "timeline": {
+      "step1": {
+        "title": "El Sueño de España",
+        "date": "Principios de 2022",
+        "description": "¿De dónde vino la idea? ¿Por qué España? Primeras ideas, deseos, miedos.",
+        "preview": {
+          "point1": "Primeros pensamientos sobre España",
+          "point2": "¿Por qué este país en particular?",
+          "point3": "Miedos y dudas"
+        }
+      },
+      "step2": {
+        "title": "Primeras Investigaciones y Viabilidad",
+        "date": "Primavera 2022",
+        "description": "Recopilando primeras informaciones: derechos de residencia, impuestos, costo de vida. Notas y plan aproximado: \"¿Qué tendría que hacer para emigrar realmente?\"",
+        "preview": {
+          "point1": "Recopilando primeras informaciones: derechos de residencia, impuestos, costo de vida",
+          "point2": "Notas y plan aproximado: \"¿Qué tendría que hacer para emigrar realmente?\"",
+          "point3": "Primeras investigaciones sobre viabilidad"
+        }
+      },
+      "step3": {
+        "title": "Primeros Pasos: Aprender Español",
+        "date": "Verano 2022",
+        "description": "Por qué aprender español es tan importante y cómo lo abordé - desde Duolingo hasta libros y tarjetas de memoria.",
+        "preview": {
+          "point1": "Por qué aprender español es tan importante",
+          "point2": "Mis experiencias con Duolingo y libros",
+          "point3": "Mi sistema de tarjetas de memoria y aprendizaje en línea"
+        }
+      },
       "step4": {
         "title": "Descubriendo España",
         "date": "Verano de 2022",

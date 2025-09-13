@@ -73,6 +73,36 @@
     "title": "My Story",
     "subtitle": "The path from the first idea to implementation - step by step",
     "timeline": {
+      "step1": {
+        "title": "The Dream of Spain",
+        "date": "Early 2022",
+        "description": "Where did the idea come from? Why Spain? First thoughts, wishes, fears.",
+        "preview": {
+          "point1": "First thoughts about Spain",
+          "point2": "Why this particular country?",
+          "point3": "Fears and doubts"
+        }
+      },
+      "step2": {
+        "title": "First Research & Feasibility",
+        "date": "Spring 2022",
+        "description": "Gathering first information: residence rights, taxes, cost of living. Notes & rough plan: \"What would I need to do to actually emigrate?\"",
+        "preview": {
+          "point1": "Gathering first information: residence rights, taxes, cost of living",
+          "point2": "Notes & rough plan: \"What would I need to do to actually emigrate?\"",
+          "point3": "First research on feasibility"
+        }
+      },
+      "step3": {
+        "title": "First Steps: Learning Spanish",
+        "date": "Summer 2022",
+        "description": "Why learning Spanish is so important and how I approached it - from Duolingo to books and flashcards.",
+        "preview": {
+          "point1": "Why learning Spanish is so important",
+          "point2": "My experiences with Duolingo and books",
+          "point3": "My flashcard system and online learning"
+        }
+      },
       "step4": {
         "title": "Discovering Spain",
         "date": "Summer 2022",
