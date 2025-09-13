@@ -1,9 +1,9 @@
 <template>
   <TimelineLayout 
-    :previous-step="'/timeline/gestoria'"
-    :previous-step-name="$t('gestoria.title')"
-    :next-step="null"
-    :next-step-name="null"
+    :previous-step="'/timeline/apartment-search'"
+    :previous-step-name="$t('apartmentSearch.title')"
+    :next-step="'/timeline/property-purchase'"
+    :next-step-name="$t('propertyPurchase.title')"
   >
     <!-- Hero Section -->
     <div class="relative">

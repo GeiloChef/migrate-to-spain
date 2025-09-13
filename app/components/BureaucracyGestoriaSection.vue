@@ -25,10 +25,10 @@
         </p>
       </div>
       <div class="space-y-4">
-        <div class="h-48 rounded-xl overflow-hidden shadow-md">
+        <div class="h-64 rounded-xl overflow-hidden shadow-md">
           <img 
-            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-            alt="Professional office and legal consultation"
+            src="/images/timeline/gestoria-symbolical.png" 
+            alt="Gestoría-Symbolik mit Dokumenten und Stempeln - Bürokratie und Verwaltung"
             class="w-full h-full object-cover"
           />
         </div>

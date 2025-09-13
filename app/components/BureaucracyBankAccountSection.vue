@@ -22,10 +22,10 @@
         </p>
       </div>
       <div class="space-y-4">
-        <div class="h-48 rounded-xl overflow-hidden shadow-md">
+        <div class="h-64 rounded-xl overflow-hidden shadow-md">
           <img 
-            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-            alt="Spanish bank building and banking services"
+            src="/images/timeline/opening-bank-account.png" 
+            alt="Handshake bei Bankkonto-Eröffnung - Geschäftsmann und Bankberater"
             class="w-full h-full object-cover"
           />
         </div>
