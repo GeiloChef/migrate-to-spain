@@ -61,7 +61,7 @@
             <StoryCard 
               :step-number="3"
               :title="$t('story.timeline.step3.title')"
-              :description="$t('story.timeline.step4.description')"
+              :description="$t('story.timeline.step3.description')"
               :preview-points="[
                 $t('story.timeline.step3.preview.point1'),
                 $t('story.timeline.step3.preview.point2'),

@@ -161,23 +161,43 @@
         }
       },
       "step9": {
-        "title": "The Move",
+        "title": "Gestoría – Help in the Bureaucracy Jungle",
         "date": "Fall 2023",
-        "description": "How you organized the move. What you took with you, what you sold. First days in the new apartment.",
+        "description": "Why I decided on a Gestoría and how they helped me with the property purchase. All details about costs, tasks and my experiences.",
         "preview": {
-          "point1": "Move planning and organization",
-          "point2": "What to take, what to sell",
-          "point3": "First days in the new home"
+          "point1": "Why Gestoría and not lawyer",
+          "point2": "What the Gestoría did",
+          "point3": "Costs and experiences"
         }
       },
       "step10": {
-        "title": "The New Life",
+        "title": "Security & Insurance",
         "date": "Winter 2023/24",
-        "description": "How life has changed. New routines, new friends, new challenges. What you would do differently.",
+        "description": "Which insurance you need in Spain and how to get it. Home contents, liability, health insurance and more.",
         "preview": {
-          "point1": "New routines and habits",
-          "point2": "Friendships and social life",
-          "point3": "Looking back and learnings"
+          "point1": "Which insurance is necessary",
+          "point2": "Home contents and liability",
+          "point3": "Health insurance in Spain"
+        }
+      },
+      "step11": {
+        "title": "The First Stay in My Own Apartment",
+        "date": "Spring 2024",
+        "description": "My first stay in my own apartment in Spain - from anticipation to water damage and the learnings from it.",
+        "preview": {
+          "point1": "Arrival and first day",
+          "point2": "First impressions and problems",
+          "point3": "Learnings and positive aspects"
+        }
+      },
+      "step12": {
+        "title": "Outlook: The Final Migration",
+        "date": "Summer 2024",
+        "description": "My plan for the final migration to Spain. What still needs to be done and how I envision life in Spain.",
+        "preview": {
+          "point1": "What still needs to be done",
+          "point2": "Planning the final migration",
+          "point3": "Outlook on life in Spain"
         }
       }
     }

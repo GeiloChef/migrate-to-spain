@@ -161,23 +161,43 @@
         }
       },
       "step9": {
-        "title": "La Mudanza",
+        "title": "Gestoría – Ayuda en la Jungla Burocrática",
         "date": "Otoño 2023",
-        "description": "Cómo organizaste la mudanza. Qué llevaste contigo, qué vendiste. Primeros días en el nuevo apartamento.",
+        "description": "Por qué decidí por una Gestoría y cómo me ayudó con la compra de la propiedad. Todos los detalles sobre costos, tareas y mis experiencias.",
         "preview": {
-          "point1": "Planificación y organización de la mudanza",
-          "point2": "Qué llevar, qué vender",
-          "point3": "Primeros días en el nuevo hogar"
+          "point1": "Por qué Gestoría y no abogado",
+          "point2": "Qué hizo la Gestoría",
+          "point3": "Costos y experiencias"
         }
       },
       "step10": {
-        "title": "La Nueva Vida",
+        "title": "Seguridad y Seguros",
         "date": "Invierno 2023/24",
-        "description": "Cómo ha cambiado la vida. Nuevas rutinas, nuevos amigos, nuevos desafíos. Qué harías diferente.",
+        "description": "Qué seguros necesitas en España y cómo conseguirlos. Contenido del hogar, responsabilidad civil, seguro de salud y más.",
         "preview": {
-          "point1": "Nuevas rutinas y hábitos",
-          "point2": "Amistades y vida social",
-          "point3": "Mirando hacia atrás y aprendizajes"
+          "point1": "Qué seguros son necesarios",
+          "point2": "Contenido del hogar y responsabilidad civil",
+          "point3": "Seguro de salud en España"
+        }
+      },
+      "step11": {
+        "title": "La Primera Estancia en Mi Propio Apartamento",
+        "date": "Primavera 2024",
+        "description": "Mi primera estancia en mi propio apartamento en España - desde la anticipación hasta el daño por agua y los aprendizajes de ello.",
+        "preview": {
+          "point1": "Llegada y primer día",
+          "point2": "Primeras impresiones y problemas",
+          "point3": "Aprendizajes y aspectos positivos"
+        }
+      },
+      "step12": {
+        "title": "Perspectiva: La Migración Final",
+        "date": "Verano 2024",
+        "description": "Mi plan para la migración final a España. Qué queda por hacer y cómo me imagino la vida en España.",
+        "preview": {
+          "point1": "Qué queda por hacer",
+          "point2": "Planificación de la migración final",
+          "point3": "Perspectiva de la vida en España"
         }
       }
     }
