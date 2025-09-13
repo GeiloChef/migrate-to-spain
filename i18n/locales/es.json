@@ -72,6 +72,13 @@
   "story": {
     "title": "Mi Historia",
     "subtitle": "El camino desde la primera idea hasta la implementación - paso a paso",
+    "navigation": {
+      "previousStep": "Paso Anterior",
+      "nextStep": "Siguiente Paso"
+    },
+    "card": {
+      "readMore": "Leer más"
+    },
     "timeline": {
       "step1": {
         "title": "El Sueño de España",
@@ -180,6 +187,21 @@
     "timeline": "Timeline",
     "about": "Acerca de",
     "contact": "Contacto"
+  },
+  "ui": {
+    "tableOfContents": {
+      "title": "Tabla de Contenidos",
+      "noHeadings": "No se encontraron encabezados"
+    },
+    "sidebar": {
+      "toggleMenu": "Abrir menú",
+      "closeMenu": "Cerrar menú",
+      "home": "Inicio",
+      "language": "Idioma"
+    },
+    "backToTop": {
+      "ariaLabel": "Subir arriba"
+    }
   },
   "footer": {
     "description": "Un viaje personal hacia emigrar a España",

@@ -1,7 +1,7 @@
 <template>
   <TimelineLayout 
-    :previous-step="'/timeline/apartment-search'"
-    :previous-step-name="$t('story.timeline.step6.title')"
+    :previous-step="'/timeline/bureaucracy-prerequisites'"
+    :previous-step-name="$t('story.timeline.step7.title')"
     :next-step="'/timeline/gestoria'"
     :next-step-name="$t('gestoria.title')"
   >

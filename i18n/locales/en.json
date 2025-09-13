@@ -72,6 +72,13 @@
   "story": {
     "title": "My Story",
     "subtitle": "The path from the first idea to implementation - step by step",
+    "navigation": {
+      "previousStep": "Previous Step",
+      "nextStep": "Next Step"
+    },
+    "card": {
+      "readMore": "Read more"
+    },
     "timeline": {
       "step1": {
         "title": "The Dream of Spain",
@@ -180,6 +187,21 @@
     "timeline": "Timeline",
     "about": "About",
     "contact": "Contact"
+  },
+  "ui": {
+    "tableOfContents": {
+      "title": "Table of Contents",
+      "noHeadings": "No headings found"
+    },
+    "sidebar": {
+      "toggleMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "home": "Home",
+      "language": "Language"
+    },
+    "backToTop": {
+      "ariaLabel": "Scroll to top"
+    }
   },
   "footer": {
     "description": "A personal journey to emigrating to Spain",

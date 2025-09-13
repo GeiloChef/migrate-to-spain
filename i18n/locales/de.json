@@ -72,6 +72,13 @@
   "story": {
     "title": "Meine Geschichte",
     "subtitle": "Der Weg von der ersten Idee bis zur Umsetzung - Schritt für Schritt",
+    "navigation": {
+      "previousStep": "Vorheriger Schritt",
+      "nextStep": "Nächster Schritt"
+    },
+    "card": {
+      "readMore": "Mehr erfahren"
+    },
     "timeline": {
       "step1": {
         "title": "Der Traum von Spanien",
@@ -180,6 +187,21 @@
     "timeline": "Timeline",
     "about": "Über mich",
     "contact": "Kontakt"
+  },
+  "ui": {
+    "tableOfContents": {
+      "title": "Inhaltsverzeichnis",
+      "noHeadings": "Keine Überschriften gefunden"
+    },
+    "sidebar": {
+      "toggleMenu": "Menü öffnen",
+      "closeMenu": "Menü schließen",
+      "home": "Start",
+      "language": "Sprache"
+    },
+    "backToTop": {
+      "ariaLabel": "Nach oben scrollen"
+    }
   },
   "footer": {
     "description": "Eine persönliche Reise zur Auswanderung nach Spanien",
