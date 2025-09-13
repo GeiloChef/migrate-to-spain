@@ -204,8 +204,8 @@
           <p>
             <strong>Wichtiger Hinweis:</strong> {{ $t('story.timeline.step2.sections.taxes.summary.importantNote') }}
           </p>
-          <p class="!text-xs text-gray-600">
-            <strong>Hinweis:</strong> {{ $t('story.timeline.step2.sections.taxes.summary.disclaimer') }}
+          <p class="!text-xs text-gray-600 italic">
+            {{ $t('story.timeline.step2.sections.taxes.summary.disclaimer') }}
           </p>
         </div>
       </div>
