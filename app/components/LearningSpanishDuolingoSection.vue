@@ -14,7 +14,7 @@
       <!-- Simple Title Section -->
       <div class="text-left mb-6">
         <h2 class="!text-2xl font-bold text-gray-900 mb-6">
-          {{ $t('story.timeline.step3.sections.duolingo.title') }}
+          {{ $t('learning-spanish.sections.duolingo.title') }}
         </h2>
       </div>
 
@@ -22,9 +22,9 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
         <!-- Left Side: Text Content -->
         <div class="text-gray-700 leading-relaxed text-base space-y-4">
-          <p>{{ $t('story.timeline.step3.sections.duolingo.paragraph1') }}</p>
-          <p>{{ $t('story.timeline.step3.sections.duolingo.paragraph2') }}</p>
-          <p>{{ $t('story.timeline.step3.sections.duolingo.paragraph3') }}</p>
+          <p>{{ $t('learning-spanish.sections.duolingo.paragraph1') }}</p>
+          <p>{{ $t('learning-spanish.sections.duolingo.paragraph2') }}</p>
+          <p>{{ $t('learning-spanish.sections.duolingo.paragraph3') }}</p>
         </div>
 
         <!-- Right Side: Interactive Phone Experience -->

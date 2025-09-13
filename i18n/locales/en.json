@@ -1,29 +1,29 @@
 {
   "header": {
-    "title": "Migrate to Spain - My Story",
-    "subtitle": "A Personal Journey to Emigration"
+    "title": "Emigrating to Spain - My Story",
+    "subtitle": "A personal journey to emigration"
   },
   "hero": {
     "title": {
-      "line1": "Migrate",
-      "line2": "to Spain"
+      "line1": "To",
+      "line2": "Spain"
     },
-    "subtitle": "Your complete guide to making Spain your new home. From visas and residency to finding the perfect city, discover everything you need to know about starting your Spanish adventure.",
+    "subtitle": "Your complete guide to making Spain your new home. From visas and residence permits to the perfect city - discover everything you need to know about starting your Spanish adventure.",
     "buttons": {
-      "primary": "Start Your Journey",
-      "secondary": "Learn More"
+      "primary": "Start your journey",
+      "secondary": "Learn more"
     },
     "researchPhase": {
       "badge": "Research Phase",
       "title": "First Research & Feasibility",
-      "subtitle": "After I had grasped the basic idea – Spain could really become my new home – it was time to make a real plan. The dream alone is not enough."
+      "subtitle": "After I had the basic idea - Spain could really become my new home - it was time to make a real plan. Dreams alone aren't enough."
     }
   },
   "introduction": {
     "title": "The Path to Implementation",
-    "paragraph1": "So after I had grasped the basic idea – Spain could really become my new home – and the advantages I saw in it outweighed my initial fears, it was time to make a real plan. The dream alone is not enough. I wanted to understand: Is this whole thing even feasible? What requirements do I have to meet? And what could a realistic timeline look like?",
-    "paragraph2": "Fortunately, the internet is full of information – and of course, I'm not the first German to consider emigrating to Spain. A real constant companion of my research became Idealista. For those who don't know: Idealista is not only the largest real estate platform in Spain (comparable to Immoscout24 in Germany), but also a real treasure trove of information.",
-    "paragraph3": "Right at the beginning, four main topics crystallized for me:",
+    "paragraph1": "After I had the basic idea - Spain could really become my new home - and the advantages I saw in it outweighed my initial fears, it was time to make a real plan. Dreams alone aren't enough. I wanted to understand: Is this even feasible? What requirements do I need to meet? And what could a realistic timeline look like?",
+    "paragraph2": "Luckily, the internet is full of information - and of course, I'm not the first German to consider emigrating to Spain. Idealista became a real constant companion of my research. For those who don't know: Idealista is not only the largest real estate platform in Spain (comparable to Immoscout24 in Germany), but also a real treasure trove of information.",
+    "paragraph3": "Right from the start, four main topics crystallized for me:",
     "topics": {
       "residenceRights": {
         "title": "1. Residence Rights",
@@ -31,7 +31,7 @@
       },
       "work": {
         "title": "2. Work",
-        "description": "Work opportunities and remote work"
+        "description": "Job opportunities and remote work"
       },
       "taxes": {
         "title": "3. Taxes",
@@ -44,12 +44,12 @@
     }
   },
   "conclusion": {
-    "title": "Conclusion of My Research",
-    "intro": "At the end of my research, I was wiser – and honestly more motivated too. I knew:",
+    "title": "Conclusion of my research",
+    "intro": "At the end of my research, I was wiser - and honestly more motivated too. I knew:",
     "topics": {
       "residenceRights": {
         "title": "✅ Residence Rights",
-        "description": "As a German, relatively uncomplicated, but with obligations from 3 months or 183 days respectively."
+        "description": "As a German, relatively uncomplicated, but with obligations after 3 months or 183 days."
       },
       "work": {
         "title": "✅ Work",
@@ -71,342 +71,8 @@
   },
   "story": {
     "title": "My Story",
-    "subtitle": "The journey from the first idea to implementation - step by step",
+    "subtitle": "The path from the first idea to implementation - step by step",
     "timeline": {
-      "step1": {
-        "title": "The Dream of Spain",
-        "date": "Early 2022",
-        "description": "Where did the idea come from? Why Spain? First thoughts, wishes, fears.",
-        "intro": {
-          "title": "The Beginning of a Dream",
-          "description": "Every journey begins with a single thought. For me, it was the idea of living in Spain - a country that had always fascinated me with its culture, climate, and way of life."
-        },
-        "preview": {
-          "point1": "First thoughts about Spain",
-          "point2": "Why this country specifically?",
-          "point3": "Fears and doubts"
-        },
-        "hero": {
-          "badge": "The Beginning",
-          "title": "Where Did the Idea Come From?",
-          "subtitle": "If you've landed here, you probably know this impulse: You're sitting on vacation in Spain, looking at the sea, and thinking: 'Why don't I just stay here?'",
-          "imagePlaceholder": "Sunset at the beach / typical Spain feeling"
-        },
-        "sections": {
-          "beginning": {
-            "title": "The Beginning",
-            "paragraph1": "That's exactly how it started for me. Spain has always appealed to me – many warm days a year, an open and warm culture, endless sandy beaches, but also mountainous landscapes for hiking. Everything I longed for while sitting in a cold office in Germany or looking out the window on gray weekends.",
-            "paragraph2": "The contrast between my current life and the potential future became clear, and I began to think about what a different life could look like.",
-            "imagePlaceholder": "Sunset at the beach / typical Spain feeling"
-          },
-          "turningPoint": {
-            "title": "A Personal Turning Point",
-            "paragraph1": "In April 2022, I was diagnosed with celiac disease. Suddenly I couldn't eat normal bread anymore, couldn't have conventional oatmeal for breakfast, and even eating out became a challenge. Especially in the countryside in Germany, it was almost impossible to find something suitable spontaneously.",
-            "paragraph2": "Supermarkets offered hardly any selection, restaurants had no gluten-free options – my everyday life felt severely restricted.",
-            "question": "This situation led to the question: Can't this be done better somewhere else?",
-            "answer": "And that's exactly what brought me back to Spain.",
-            "imagePlaceholder": "A set table with gluten-free bread / food symbol image"
-          },
-          "research": {
-            "title": "First Research",
-            "paragraph1": "To my surprise, I quickly came across positive reports: Spanish supermarkets had a significantly larger selection of gluten-free products – from tortillas to bread to cookies and cakes. Restaurants were also often set up to safely serve people with celiac disease.",
-            "paragraph2": "And at this point my decision was firm: I wanted to find a way to live in Spain. Not just because of sun and prices – but because I saw the chance to live more simply and carefree there.",
-            "imagePlaceholder": "Spanish supermarket with gluten-free products"
-          },
-          "fears": {
-            "title": "First Ideas – and Fears",
-            "subtitle": "At first I thought it was simple: Find a property, move there, done. But I quickly realized it was about much more. Such a step is not a move 'to the next town' – it's a fresh start in a foreign country.",
-            "fear1": {
-              "title": "Will I be able to do this all alone?",
-              "description": "The biggest question was whether I could handle all the bureaucracy, language barriers, and cultural differences on my own."
-            },
-            "fear2": {
-              "title": "Leaving family and friends behind",
-              "description": "How would it feel to leave family and friends behind? Would I be able to maintain these important relationships from afar?"
-            },
-            "fear3": {
-              "title": "Language barriers",
-              "description": "How would I get by without language skills? Would I be able to communicate effectively in everyday situations?"
-            },
-            "conclusion": "Many nights I lay awake and went through these questions in my head."
-          },
-          "firstStep": {
-            "title": "The Most Important First Step",
-            "description": "Alongside all the bureaucratic things I still had to clarify, there was one task I could start immediately – and which turned out to be absolutely crucial in hindsight: Learning Spanish.",
-            "option1": {
-              "title": "Traditional Learning",
-              "description": "Using textbooks and language courses to build a solid foundation in Spanish grammar and vocabulary."
-            },
-            "option2": {
-              "title": "Digital Learning",
-              "description": "Using language apps and online resources for flexible, mobile learning that fits into any schedule."
-            }
-          }
-        }
-      },
-      "step2": {
-        "title": "First Research & Feasibility",
-        "date": "Spring 2022",
-        "description": "First info gathering: residence rights, taxes, cost of living. Notes & rough plan: \"What would I need to do to actually emigrate?\"",
-        "preview": {
-          "point1": "First info gathering: residence rights, taxes, cost of living",
-          "point2": "Notes & rough plan: \"What would I need to do to actually emigrate?\"",
-          "point3": "First research on feasibility"
-        },
-        "sections": {
-          "residenceRights": {
-            "title": "Residence Rights",
-            "intro": {
-              "title": "The Most Important Thing First",
-              "question": "Can I as a German really live in Spain so easily?",
-              "answer": "The short answer: Yes. As an EU citizen, I have the right to settle, live and work in any EU member state – without any visa or residence permit. This right is called freedom of movement and is regulated in EU regulations.",
-              "note": "Sounds easy at first. But in practice there are naturally details:"
-            },
-            "registration": {
-              "title": "Registration Requirement from 3 Months",
-              "point1": "Anyone staying longer than 3 months must register with the immigration office (Extranjería)",
-              "point2": "You receive the so-called \"Certificado de registro como residente comunitario\"",
-              "point3": "For this you need income, employment contract or proof of sufficient financial means"
-            },
-            "taxRule": {
-              "title": "The 183-Day Rule",
-              "over183": {
-                "title": "Over 183 days in Spain:",
-                "description": "Automatically tax resident in Spain"
-              },
-              "under183": {
-                "title": "Under 183 days in Spain:",
-                "description": "Remain tax resident in Germany"
-              },
-              "conclusion": "From 183 days onwards, tax residency in Spain applies."
-            }
-          },
-          "work": {
-            "title": "Work",
-            "intro": "Of course, work was a central topic for me. After all, like most people, I depend on my income. My research quickly showed me: In principle, there are two options for me.",
-            "options": {
-              "remote": {
-                "title": "Option 1: Remote Work from Germany",
-                "point1": "Higher German salary level",
-                "point2": "Security because you stay with the German employer",
-                "point3": "Social security system remains the same",
-                "point4": "Flexibility: you can travel without immediately changing all systems in Spain",
-                "warning": "183-day rule → as soon as I stay too long in Spain, it becomes tax complicated"
-              },
-              "spain": {
-                "title": "Option 2: Working directly in Spain",
-                "point1": "Easier to integrate on site",
-                "point2": "Tax-wise simpler (one country, one system)",
-                "point3": "Local networks and job opportunities",
-                "disadvantage": "Salaries in Spain are on average significantly lower than German ones. 2025: Spain ~28,000€ vs. Germany ~46,000€"
-              }
-            },
-            "decision": {
-              "title": "Remote Work as a Transition Solution",
-              "description": "As a transition, I'm starting with remote work. This helped me immensely – I could arrange everything on site (bank account, Gestoría, apartment, etc.) without having to take vacation each time. And yes, it saved me a lot of money for flights.",
-              "reminder": "Anyone working remotely from Spain should keep an eye on the 183-day rule"
-            }
-          },
-          "taxes": {
-            "title": "Taxes & Salary Calculation",
-            "intro": "Taxes were the next big topic – after all, you don't want to fall into a trap. Here I show you a detailed salary calculation for €2,500 gross comparing Germany vs. Spain.",
-            "comparison": {
-              "germany": {
-                "title": "Germany",
-                "year": "2025",
-                "gross": "2,500.00€",
-                "grossLabel": "Gross Salary",
-                "deductions": {
-                  "title": "Deductions:",
-                  "incomeTax": "Income Tax (approx. 15%)",
-                  "churchTax": "Church Tax (9% of IT)",
-                  "healthInsurance": "Health Insurance (7.3%)",
-                  "nursingInsurance": "Nursing Care Insurance (1.525%)",
-                  "pensionInsurance": "Pension Insurance (9.6%)",
-                  "unemploymentInsurance": "Unemployment Insurance (1.2%)",
-                  "solidarityTax": "Solidarity Surcharge (5.5%)"
-                },
-                "totalDeductions": "Total Deductions:",
-                "netIncome": "1,580.99€",
-                "netLabel": "Net Salary",
-                "deductionPercentage": "Deductions: 36.8% of gross"
-              },
-              "spain": {
-                "title": "Spain",
-                "year": "2025",
-                "gross": "2,500.00€",
-                "grossLabel": "Gross Salary",
-                "deductions": {
-                  "title": "Deductions:",
-                  "irpf": "IRPF (approx. 12%)",
-                  "healthInsurance": "Health Insurance (6.35%)",
-                  "pensionInsurance": "Pension Insurance (6.35%)",
-                  "unemploymentInsurance": "Unemployment Insurance (1.55%)",
-                  "vocationalTraining": "Vocational Training (0.6%)",
-                  "accidentInsurance": "Accident Insurance (0.2%)",
-                  "solidarityTax": "Solidarity Surcharge"
-                },
-                "totalDeductions": "Total Deductions:",
-                "netIncome": "1,823.75€",
-                "netLabel": "Net Salary",
-                "deductionPercentage": "Deductions: 27.1% of gross"
-              }
-            },
-            "summary": {
-              "title": "Summary",
-              "germanyNet": "Germany Net",
-              "spainNet": "Spain Net",
-              "difference": "Difference (Spain)",
-              "conclusion": "With €2,500 gross, about 15% more net remains in Spain than in Germany. Deductions are significantly higher in Germany (36.8% vs. 27.1% of gross).",
-              "importantNote": "In Spain, it is significantly more difficult to achieve a salary of €2,500 gross. The average salary is around €1,800 gross, while in Germany it's around €3,200.",
-              "disclaimer": "This calculation is an example. Actual deductions depend on many factors. Consultation with a tax advisor is recommended."
-            }
-          },
-          "livingCosts": {
-            "title": "Cost of Living",
-            "intro": "Everyone who goes on vacation in Spain says at first: \"Wow, everything here is so cheap!\" But that's only half the truth. Yes, a tapa for €2.50 and a café con leche for €1.20 seem ridiculously cheap to us Germans. But the feeling arises mainly because we have German salaries in mind.",
-            "comparison": "Cost of Living Comparison (2025):"
-          },
-          "glutenFree": {
-            "title": "Gluten-Free Food",
-            "intro": {
-              "title": "An Unexpected Advantage",
-              "description": "As someone with celiac disease, this was a real game-changer for me. I hadn't expected Spain to be so much better equipped in this area than Germany."
-            },
-            "positiveSurprise": {
-              "title": "Positive Surprise in Spain",
-              "description1": "In Spain, I was honestly positively surprised. Even during my first stays, I noticed that awareness of gluten-free nutrition (\"sin gluten\") is much more pronounced here. Almost every larger supermarket has entire shelves with gluten-free products.",
-              "description2": "Even when eating out, it often looks more relaxed in Spain. Many restaurants and cafés clearly mark their menus with \"sin gluten\" symbols, and there are chains like 100 Montaditos or VIPS that explicitly offer gluten-free options."
-            },
-            "supermarkets": {
-              "title": "Supermarket chains with large gluten-free selection:",
-              "mercadona": "Mercadona – probably the best first point of contact",
-              "carrefour": "Carrefour – wide selection of brand products",
-              "alcampo": "Alcampo – large hypermarkets with good coverage",
-              "lidl": "Lidl Spain – some gluten-free own-brand products"
-            },
-            "conclusion": {
-              "title": "My Conclusion",
-              "description": "Spain is a really good country for people with celiac disease. The combination of large product selection in supermarkets, diverse natural cuisine, and growing awareness in gastronomy makes everyday life here much easier for me."
-            }
-          }
-        }
-      },
-      "step3": {
-        "title": "First Steps: Learning Spanish",
-        "date": "Summer 2022",
-        "description": "Why learning Spanish is so important and how I approached it - from Duolingo to books and flashcards.",
-        "preview": {
-          "point1": "Why learning Spanish is so important",
-          "point2": "My experiences with Duolingo and books",
-          "point3": "My flashcard system and online learning"
-        },
-        "hero": {
-          "badge": "Language Learning",
-          "title": "Without Spanish it doesn't work",
-          "subtitle": "Through the research in the previous step, I learned a lot – for example, that it can be interesting from a tax perspective to work in Spain, or that there is a much greater variety of gluten-free alternatives there than I would have thought. But one insight was even more important: Without Spanish it doesn't work."
-        },
-        "sections": {
-          "introduction": {
-            "title": "Why learning Spanish is so important",
-            "paragraph1": "Of course, you can get by with English or even German in Spain in some places. In classic tourist regions like the Costa Blanca or Mallorca, there are often even German supermarkets or restaurants, and in big cities like Madrid or Barcelona, many speak at least a little English.",
-            "paragraph2": "But as soon as you get to know the \"real Spain\" – smaller cities, offices, doctor visits, neighborhood conversations – you quickly realize that you're lost without Spanish. I didn't want to be one of those \"emigrants\" who have been living in Spain for years but still can barely put together a sentence in Spanish. So it was clear to me: I have to learn Spanish."
-          },
-          "duolingo": {
-            "title": "My start with Duolingo",
-            "paragraph1": "First, I turned to Duolingo back then. I liked the idea of \"learning while playing\": One lesson during coffee break, another one just before falling asleep – that was perfect to integrate into my everyday life. I even took the premium version because I hoped to achieve results faster with it.",
-            "paragraph2": "And yes, at the beginning it worked: I could practice as much as I wanted and saw quick progress. But over time, I noticed that something was missing. The lessons are entertaining, but they remain very superficial. It's more like rote memorization than real understanding.",
-            "paragraph3": "I had no overview of grammar, no clear structure for verb conjugations, and pronouns were only treated in passing. After 2-3 months, I lost interest – and switched to the classic method: books, notes, flashcards."
-          },
-          "books": {
-            "title": "My book recommendations",
-            "intro": "After my experience with Duolingo, I found that traditional learning with books was easiest for me. The structured explanations of grammar helped me internalize the rules better and build a solid foundation. Especially the visual elements in books – whether through tables, diagrams, or colored markings – helped me remember the rules more easily. Based on my learning experience, I can therefore recommend the following books:",
-            "book1": {
-              "title": "Spanish – Grammar Concise & Clear",
-              "author": "by Daniela Wakonigg",
-              "isbn": "ISBN 978-3949604104",
-              "description": "A clearly structured beginner's book that starts from zero and teaches the basics step by step. Each chapter first covers the theory (e.g., tenses, pronouns, sentence structure) and then offers exercises and vocabulary lists. Additionally, there is online material for listening comprehension tasks.",
-              "review": "Super helpful for the initial start in Spanish. The book brings you closer to your first own sentences step by step. I particularly liked the combination of theory, exercises, and vocabulary – it strongly reminds me of school lessons, just more compact. With the online listening comprehension tasks, I could also directly train speaking and understanding. All in all, exactly what you need to be able to communicate a little in everyday life."
-            },
-            "book2": {
-              "title": "Spanish Stories for Beginners: 100 Simple Stories for Learning Spanish – with Vocabulary and Exercises",
-              "author": "by Christian Stahl",
-              "isbn": "ISBN 978-3949604715",
-              "description": "This book consists of short, clearly written stories that are specifically designed for beginners. Each story is simple enough to be understood without much effort, and yet you constantly learn new words and sentence structures.",
-              "review": "Every now and then I wanted to check how my Spanish skills were doing – and for that, the book is great. You quickly notice that you're having small successes, and through the audio files you can additionally train your listening comprehension."
-            },
-            "book3": {
-              "title": "Spanish – 5-Minute Stories A1/A2 with Audio",
-              "author": "PONS",
-              "isbn": "ISBN 978-3125621756",
-              "description": "This book offers short, simple stories that are tailored to beginner level (A1-A2). Each story can be read in just a few minutes and is perfect for small learning units in between.",
-              "review": "For me, it was a great way to make small learning progress even in everyday life. The marked vocabulary made reading easy, the mind maps helped me remember words faster, and with the audio I could additionally train my listening comprehension. This made it feel like a \"mini language course\" in the form of stories – light, motivating, and effective."
-            }
-          },
-          "flashcards": {
-            "title": "My flashcard system",
-            "intro": "For vocabulary learning, I built myself a 6-stage box using the Leitner system. Writing the vocabulary words on flashcards helped me tremendously in memorizing them better. Through the physical act of writing them down, the words become much more deeply ingrained than through mere reading. Additionally, the system helped me stay on track – I always had a clear structure and knew exactly which vocabulary I had to repeat on which day. This helped me stay continuously engaged and track my learning progress. In short:",
-            "systemTitle": "The flashcard box system works like this:",
-            "systemDescription": "You have a box with 6 compartments. New vocabulary always starts in the first compartment. When you know a vocabulary word during testing, it moves one compartment further back. If you don't know it, it goes back to the very front in the first compartment. The further back the vocabulary is, the less often it gets tested. This way you repeat difficult vocabulary often and easy vocabulary only rarely – until they finally land in the last compartment and are considered \"almost learned\".",
-            "sixStageSystem": "The 6-Stage System",
-            "howItWorks": "How does it work?",
-            "whyItWorks": "Why does it work?",
-            "stage1": {
-              "label": "Stage 1",
-              "frequency": "Daily",
-              "description": "New vocabulary is repeated daily"
-            },
-            "stage2": {
-              "label": "Stage 2",
-              "frequency": "Every 2 days",
-              "description": "First successes come up less often"
-            },
-            "stage3": {
-              "label": "Stage 3",
-              "frequency": "Weekly",
-              "description": "Consolidation through weekly repetition"
-            },
-            "stage4": {
-              "label": "Stage 4",
-              "frequency": "Every 2 weeks",
-              "description": "Deepening through rare repetition"
-            },
-            "stage5": {
-              "label": "Stage 5",
-              "frequency": "Monthly",
-              "description": "Repetition through monthly control"
-            },
-            "stage6": {
-              "label": "Stage 6",
-              "frequency": "Every 2-3 months",
-              "description": "Rare control - the word is firmly established!"
-            },
-            "step1": "New vocabulary starts in compartment 1 and is repeated daily.",
-            "step2": "Every time you get them right, they move one level back – and come up less often.",
-            "step3": "Incorrect vocabulary goes back to the very front.",
-            "step4": "After a few weeks, the words land in compartment 6 – and are considered \"learned\".",
-            "conclusion": "The system sounds simple, but it's incredibly effective because you don't waste your time with vocabulary you already know anyway."
-          },
-          "lingolia": {
-            "title": "Online learning with Lingolia",
-            "paragraph1": "After my books, I wanted something interactive as well. Like back in school during English lessons, just for Spanish. After a longer search, I came across Lingolia.",
-            "paragraph2": "There you'll find comprehensive theory texts, many exercises (some free, others behind a small paywall), and no annoying subscriptions. For me, the perfect complement to consolidate grammar and theory."
-          },
-          "speaking": {
-            "title": "What helps most: Speaking",
-            "paragraph1": "I learned a lot of theory and vocabulary before I dared to use a Spanish sentence in the \"real world\" for the first time. It takes courage to really start speaking – especially with native speakers. You're afraid of making mistakes, forgetting words, or simply not being understood.",
-            "paragraph2": "But that's exactly what helped me most: simply speaking.",
-            "paragraph3": "It works best with someone you're comfortable with and talk to a lot. I was very lucky to meet Emely during my first planning trip to Spain. With her, I could speak and write a lot from the beginning – first with many mistakes, then getting better and better. She took away my fear, and to this day she accompanies me not only in my Spanish adventure but also in my life – now as my girlfriend.",
-            "paragraph4": "Looking back, that was the crucial step: Theory and vocabulary are the foundation, but you really learn when you start speaking. Every conversation, no matter how bumpy, moves you forward – and the success experience of being understood is enormously motivating."
-          },
-          "currentStatus": {
-            "title": "My current status",
-            "paragraph1": "Realistically speaking: I'm still learning Spanish. Even now, mid/late 2025, I practice daily – just in everyday life now. While shopping, in conversation with my girlfriend, with neighbors, or simply through Spanish TV.",
-            "paragraph2": "You don't learn a language in a few weeks, but piece by piece. But Spanish is relatively easy, and you quickly have success experiences.",
-            "tip": "My tip for anyone thinking about moving to Spain: Find the way that's fun for you. Whether app, books, flashcards, or series with subtitles – the important thing is just that you stick with it. Because with every vocabulary word and every sentence, you feel a bit more at home in Spain."
-          }
-        }
-      },
       "step4": {
         "title": "Discovering Spain",
         "date": "Summer 2022",
@@ -424,17 +90,17 @@
         "preview": {
           "point1": "Multiple vacations in the favorite area",
           "point2": "Weighing: does climate, city size, prices, everyday life fit?",
-          "point3": "Decision for the perfect region"
+          "point3": "Final decision for a specific region"
         }
       },
       "step6": {
-        "title": "The Concrete Plan: Buying an Apartment",
+        "title": "The Concrete Plan: Buying Property",
         "date": "Winter 2022/23",
-        "description": "What information you need (NIE, bank account, taxes). First research on real estate sites and with agents. Scheduling appointments with dealers, checking neighborhoods.",
+        "description": "What information you need (NIE, bank account, taxes). First research on real estate sites and with agents. Making appointments with dealers, checking neighborhoods.",
         "preview": {
           "point1": "What information you need (NIE, bank account, taxes)",
           "point2": "First research on real estate sites and with agents",
-          "point3": "Scheduling appointments with dealers, checking neighborhoods"
+          "point3": "Making appointments with dealers, checking neighborhoods"
         }
       },
       "step7": {
@@ -448,208 +114,48 @@
         }
       },
       "step8": {
-        "title": "The Real Estate Purchase",
+        "title": "The Property Purchase",
         "date": "Summer 2023",
-        "description": "Your personal experience with viewings, Arras contract, notary. What you paid attention to (neighborhood, construction quality, price, etc.). Difficulties and learnings.",
+        "description": "Your personal experience with viewings, Arras contract, notary. What you paid attention to (neighborhood, build quality, price, etc.). Difficulties and learnings.",
         "preview": {
-          "point1": "Your personal experience with viewings, Arras contract, notary",
-          "point2": "What you paid attention to (neighborhood, construction quality, price, etc.)",
-          "point3": "Difficulties and learnings"
+          "point1": "Viewings and property search",
+          "point2": "Arras contract and negotiations",
+          "point3": "Notary appointment and handover"
         }
       },
       "step9": {
-        "title": "Gestoría – Help in the Bureaucratic Jungle",
+        "title": "The Move",
         "date": "Fall 2023",
-        "description": "Why you decided to do this. What they took care of for you (taxes, registration, utilities).",
+        "description": "How you organized the move. What you took with you, what you sold. First days in the new apartment.",
         "preview": {
-          "point1": "Why you decided to do this",
-          "point2": "What they took care of for you (taxes, registration, utilities)",
-          "point3": "Experiences with Spanish bureaucracy"
+          "point1": "Move planning and organization",
+          "point2": "What to take, what to sell",
+          "point3": "First days in the new home"
         }
       },
       "step10": {
-        "title": "Security & Insurance",
+        "title": "The New Life",
         "date": "Winter 2023/24",
-        "description": "Taking out Seguro de Hogar. Your considerations on why which insurance made sense.",
+        "description": "How life has changed. New routines, new friends, new challenges. What you would do differently.",
         "preview": {
-          "point1": "Taking out Seguro de Hogar",
-          "point2": "Your considerations on why which insurance made sense",
-          "point3": "Complete insurance coverage for your new home"
-        }
-      },
-      "step11": {
-        "title": "The First Stay in My Own Apartment",
-        "date": "Spring 2024",
-        "description": "From anticipation to water damage - my first experiences in my own apartment.",
-        "preview": {
-          "point1": "Arrival and first day in my own apartment",
-          "point2": "The water damage and repairs",
-          "point3": "Important learnings for life in Spain"
-        }
-      },
-      "step12": {
-        "title": "Outlook: The Final Migration",
-        "date": "Summer 2024",
-        "description": "What steps are still missing (Residencia, social insurance, taxes). Your goals for the future in Spain.",
-        "preview": {
-          "point1": "What steps are still missing (Residencia, social insurance, taxes)",
-          "point2": "Your goals for the future in Spain",
-          "point3": "Complete integration and long-term perspectives"
+          "point1": "New routines and habits",
+          "point2": "Friendships and social life",
+          "point3": "Looking back and learnings"
         }
       }
-    },
-    "card": {
-      "readMore": "Read more"
-    },
-    "cta": {
-      "title": "Follow My Journey",
-      "description": "Learn more about each step and get inspired",
-      "button": "View All Steps"
-    },
-    "placeholder": {
-      "title": "Next Step",
-      "description": "Will be added soon"
-    },
-    "navigation": {
-      "nextStep": "Next Step",
-      "previousStep": "Previous Step"
-    },
-    "steps": {
-      "step1": "The Dream of Spain",
-      "step2": "First Research & Feasibility",
-      "step3": "Learning Spanish"
     }
   },
-  "guide": {
-    "title": "Your Complete Guide",
-    "subtitle": "Everything you need to know to successfully migrate to Spain. From legal requirements to practical tips for daily life.",
-    "visa": {
-      "title": "Visa & Legal",
-      "description": "Navigate the complex world of Spanish immigration with our comprehensive visa guides and legal requirements.",
-      "checklist1": "Visa type selection",
-      "checklist2": "Document preparation"
-    },
-    "housing": {
-      "title": "Housing & Accommodation",
-      "description": "Find your perfect home in Spain with tips on neighborhoods, rental processes, and housing costs.",
-      "checklist1": "Neighborhood research",
-      "checklist2": "Rental process guide"
-    },
-    "daily": {
-      "title": "Daily Life",
-      "description": "Get practical advice on banking, healthcare, transportation, and integrating into Spanish culture.",
-      "checklist1": "Banking setup",
-      "checklist2": "Healthcare registration"
-    },
-    "cta": {
-      "title": "Ready to Start Your Journey?",
-      "description": "Join thousands of others who have successfully made Spain their new home with our proven guidance.",
-      "button": "Get Started Today"
-    }
+  "navigation": {
+    "home": "Home",
+    "timeline": "Timeline",
+    "about": "About",
+    "contact": "Contact"
   },
-  "ui": {
-    "backToTop": {
-      "ariaLabel": "Scroll to top"
-    },
-    "tableOfContents": {
-      "title": "Table of Contents",
-      "progress": "Progress",
-      "noHeadings": "No headings found"
-    },
-    "sidebar": {
-      "title": "Navigation",
-      "toggleMenu": "Toggle navigation menu",
-      "closeMenu": "Close navigation menu",
-      "home": "Home",
-      "storySteps": "Story Steps",
-      "language": "Language",
-      "menu": "Menu",
-      "navigation": "Navigation"
-    }
-  },
-  "gestoria": {
-    "title": "Gestoría – Help in the Bureaucratic Jungle",
-    "subtitle": "How a Gestoría helped me with my property purchase and why it was the better choice than a lawyer.",
-    "introduction": {
-      "title": "Gestoría – Help in the Bureaucratic Jungle",
-      "content": "As you've already read, the Gestoría took care of a lot of the organization and bureaucracy for me. I want to give you a brief overview of why I ultimately decided on a Gestoría – and not on a real estate lawyer – and exactly what they handled for me."
-    },
-    "whyGestoria": {
-      "title": "Why a Gestoría and not a lawyer?",
-      "intro": "Or why not both, some might ask. In fact, the tasks of both parties only partially overlap.",
-      "gestoria": {
-        "title": "Gestoría",
-        "description": "A Gestoría is basically an office for administration and processing. They take care of applications to authorities, taxes, registrations and all organizational processes related to property purchase. You can think of them as a mix of tax advisor and administrative assistant who work very close to practice."
-      },
-      "lawyer": {
-        "title": "Real Estate Lawyer",
-        "description": "A lawyer primarily examines the legal side of the purchase – e.g. whether everything in the land register is correct, whether the contract contains clauses that could disadvantage you, or whether there are any environmental liabilities. In case of doubt, they are also liable for incorrect advice."
-      },
-      "costs": {
-        "title": "💶 Costs",
-        "content": "While a Gestoría usually costs around 500–1,500 € for the complete processing, a specialized lawyer often charges 150–250 € per hour or a flat fee of 2,000–3,000 €. Both together is of course the safest option, but quickly exceeds the budget."
-      },
-      "conclusion": "I had never heard of a Gestoría before my purchase and initially only kept a lawyer in reserve. But it wasn't until I was about to sink into chaos after signing the Contrato de Arras (down payment and preliminary contract) that I came across Gestoría Carrasco through Google. And they helped me so well that I didn't need the lawyer anymore. The risks we discussed together were manageable, and for me the price-performance ratio clearly outweighed everything else."
-    },
-    "whatTheyDid": {
-      "title": "What did the Gestoría do for me?",
-      "intro": "Chronologically it went like this:"
-    },
-    "chronologicalProcess": {
-      "title": "Chronological Process",
-      "intro": "Here is a detailed overview of all the steps the Gestoría performed for me:",
-      "steps": {
-        "step1": {
-          "title": "Review of the Contrato de Arras",
-          "description": "I had already signed when the Gestoría came on board. Fortunately, it was a standard contract from Redpiso that complied with all legal requirements and didn't harm me."
-        },
-        "step2": {
-          "title": "Cost Overview",
-          "description": "Before it really started, I received an estimate of the additional costs (taxes, notary, land register, etc.) so I knew how much money I needed to have ready."
-        },
-        "step3": {
-          "title": "Review of the Purchase Contract",
-          "description": "The actual purchase contract was checked for correctness and explained to me in German. I also got the tip to demand an official transfer receipt for every payment – very valuable!"
-        },
-        "step4": {
-          "title": "Power of Attorney at the Notary",
-          "description": "On the recommendation of the Gestoría, I gave them power of attorney. This way they could carry out all further steps in my name without me having to constantly fly to Spain. That was worth its weight in gold."
-        },
-        "step5": {
-          "title": "Bank Account Opening",
-          "description": "Since transfers from Germany are often not accepted, the Gestoría opened a Spanish account for me. The purchase price, taxes and ongoing ancillary costs all went through this account."
-        },
-        "step6": {
-          "title": "Document Collection",
-          "description": "They requested all necessary documents from the seller: property tax statement, ongoing electricity and water bills, energy certificate, proof of mortgage, etc. – without which there would be no notary appointment."
-        },
-        "step7": {
-          "title": "Preparation and Review of the Escritura",
-          "description": "The Escritura is the final purchase deed that is signed at the notary. The Gestoría reviewed the document in detail, sent me a translation and asked for my consent. Even when the originally planned notary dropped out at short notice, they found a replacement within a day."
-        },
-        "step8": {
-          "title": "Representation at the Notary",
-          "description": "On the day of signing, the Gestoría sat for me at the notary, completed the purchase cleanly, received the keys and kept them in their office until I could pick them up personally."
-        }
-      }
-    },
-    "afterPurchase": {
-      "title": "After the Purchase",
-      "intro": "Their work didn't stop with the handover of keys:",
-      "ongoingServices": {
-        "title": "Ongoing Services",
-        "contracts": "Electricity and water contracts were transferred to my name",
-        "tax": "The property transfer tax (ITP) was transferred",
-        "taxReturn": "And to this day, the Gestoría handles the annual tax return for non-residents (Impuesto sobre la Renta de no Residentes)."
-      }
-    },
-    "conclusion": {
-      "title": "My Conclusion",
-      "content": "A Gestoría is not a luxury, but rather a lifeline. Especially when you can't accompany the purchase on site, it's worth its weight in gold – and in relation to the sums that are moved in property purchases anyway, it's also financially well invested.",
-      "keyTakeaway": {
-        "title": "💡 The Most Important Thing",
-        "content": "For me, it was the best decision to leave the entire processing to a Gestoría. They literally had my back, so I could focus on what's essential: the anticipation of my apartment in Spain."
-      }
+  "footer": {
+    "description": "A personal journey to emigrating to Spain",
+    "links": {
+      "privacy": "Privacy",
+      "imprint": "Imprint"
     }
   }
 }

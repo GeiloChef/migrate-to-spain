@@ -14,18 +14,18 @@
         <!-- Header -->
         <div class="text-left mb-12">
           <h2 class="!text-2xl font-bold text-gray-900 mb-6">
-            {{ $t('story.timeline.step3.sections.speaking.title') }}
+            {{ $t('learning-spanish.sections.speaking.title') }}
           </h2>
         </div>
 
         <!-- Content -->
         <div class="space-y-6 text-gray-700 leading-relaxed">
-          <p class="!text-lg">{{ $t('story.timeline.step3.sections.speaking.paragraph1') }}</p>
+          <p class="!text-lg">{{ $t('learning-spanish.sections.speaking.paragraph1') }}</p>
           
-          <p class="!text-lg">{{ $t('story.timeline.step3.sections.speaking.paragraph2') }}</p>
+          <p class="!text-lg">{{ $t('learning-spanish.sections.speaking.paragraph2') }}</p>
           
-          <p class="!text-lg">{{ $t('story.timeline.step3.sections.speaking.paragraph3') }}</p>
-          <p class="!text-lg">{{ $t('story.timeline.step3.sections.speaking.paragraph4') }}</p>
+          <p class="!text-lg">{{ $t('learning-spanish.sections.speaking.paragraph3') }}</p>
+          <p class="!text-lg">{{ $t('learning-spanish.sections.speaking.paragraph4') }}</p>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
       "line1": "Nach",
       "line2": "Spanien"
     },
-    "subtitle": "Dein vollständiger Leitfaden, um Spanien zu deinem neuen Zuhause zu machen. Von Visa und Aufenthaltserlaubnis bis hin zur perfekten Stadt - entdecke alles, was du über den Start deines spanischen Abenteuers wissen musst.",
+    "subtitle": "Dein vollständiger Leitfaden, um Spanien zu deinem neuen Zuhause zu machen. Von Visa und Aufenthaltserlaubnis bis hin zur perfekten Stadt - entdecke alles, was du über den Start deines spanischen Abenteuers weißt musst.",
     "buttons": {
       "primary": "Starte deine Reise",
       "secondary": "Mehr erfahren"
@@ -73,336 +73,6 @@
     "title": "Meine Geschichte",
     "subtitle": "Der Weg von der ersten Idee bis zur Umsetzung - Schritt für Schritt",
     "timeline": {
-      "step1": {
-        "title": "Der Traum von Spanien",
-        "date": "Anfang 2022",
-        "description": "Woher kam die Idee? Warum Spanien? Erste Vorstellungen, Wünsche, Ängste.",
-        "preview": {
-          "point1": "Die ersten Gedanken an Spanien",
-          "point2": "Warum gerade dieses Land?",
-          "point3": "Ängste und Zweifel"
-        },
-        "hero": {
-          "badge": "Der Beginn",
-          "title": "Woher kam die Idee?",
-          "subtitle": "Wenn du schon hier gelandet bist, kennst du bestimmt diesen Impuls: Man sitzt im Urlaub in Spanien, blickt aufs Meer und denkt sich: \"Warum bleibe ich eigentlich nicht hier?\"",
-          "imagePlaceholder": "Sonnenuntergang am Strand / typisches Spanien-Feeling"
-        },
-        "sections": {
-          "beginning": {
-            "title": "Der Beginn",
-            "paragraph1": "Genau so fing es bei mir an. Spanien hat mich schon immer gereizt – viele warme Tage im Jahr, eine offene und herzliche Kultur, endlose Sandstrände, aber auch bergige Landschaften zum Wandern. Alles, wonach ich mich sehnte, während ich in Deutschland im kalten Büro saß oder an grauen Wochenenden aus dem Fenster blickte.",
-            "paragraph2": "Der Kontrast zwischen meinem aktuellen Leben und der möglichen Zukunft wurde klar, und ich begann darüber nachzudenken, wie ein anderes Leben aussehen könnte.",
-            "imagePlaceholder": "Sonnenuntergang am Strand / typisches Spanien-Feeling"
-          },
-          "turningPoint": {
-            "title": "Ein persönlicher Wendepunkt",
-            "paragraph1": "Im April 2022 wurde bei mir Zöliakie festgestellt. Auf einmal durfte ich kein normales Brot mehr essen, keine herkömmlichen Haferflocken frühstücken, und selbst Essen gehen wurde zur Herausforderung. Besonders auf dem Dorf in Deutschland war es fast unmöglich, spontan etwas Passendes zu finden.",
-            "paragraph2": "Supermärkte boten kaum Auswahl, Restaurants hatten keine glutenfreien Optionen – mein Alltag fühlte sich stark eingeschränkt an.",
-            "question": "Diese Situation führte zu der Frage: Geht das nicht irgendwo besser?",
-            "answer": "Und genau das brachte mich wieder zu Spanien zurück.",
-            "imagePlaceholder": "Ein gedeckter Tisch mit glutenfreiem Brot / Symbolbild \"Essen\""
-          },
-          "research": {
-            "title": "Erste Recherchen",
-            "paragraph1": "Zu meiner Überraschung stieß ich schnell auf positive Berichte: Spanische Supermärkte hatten eine deutlich größere Auswahl an glutenfreien Produkten – von Tortillas über Brot bis hin zu Keksen und Kuchen. Auch Restaurants waren oft darauf eingestellt, Menschen mit Zöliakie sicher zu bedienen.",
-            "paragraph2": "Und an diesem Punkt stand mein Entschluss fest: Ich wollte einen Weg finden, in Spanien zu leben. Nicht nur wegen Sonne und Preisen – sondern weil ich dort die Chance sah, wieder einfacher und unbeschwerter leben zu können.",
-            "imagePlaceholder": "Spanischer Supermarkt mit glutenfreien Produkten"
-          },
-          "fears": {
-            "title": "Erste Vorstellungen – und Ängste",
-            "subtitle": "Anfangs dachte ich, es sei simpel: Eine Immobilie finden, hinziehen, fertig. Doch schnell wurde mir klar, dass es um viel mehr ging. So ein Schritt ist kein Umzug \"in den nächsten Ort\" – es ist ein Neuanfang in einem fremden Land.",
-            "fear1": {
-              "title": "Werde ich das alles alleine schaffen?",
-              "description": "Die größte Frage war, ob ich alle Bürokratie, Sprachbarrieren und kulturellen Unterschiede alleine bewältigen könnte."
-            },
-            "fear2": {
-              "title": "Familie und Freunde zurücklassen",
-              "description": "Wie würde es sich anfühlen, Familie und Freunde zurückzulassen? Würde ich diese wichtigen Beziehungen aus der Ferne aufrechterhalten können?"
-            },
-            "fear3": {
-              "title": "Sprachbarrieren",
-              "description": "Wie sollte ich ohne Sprachkenntnisse zurechtkommen? Würde ich in Alltagssituationen effektiv kommunizieren können?"
-            },
-            "conclusion": "Viele Nächte lag ich wach und spielte diese Fragen im Kopf durch."
-          },
-          "firstStep": {
-            "title": "Der wichtigste erste Schritt",
-            "description": "Neben all den bürokratischen Dingen, die ich noch klären musste, gab es eine Aufgabe, die ich sofort beginnen konnte – und die sich im Nachhinein als absolut entscheidend herausstellte: Spanisch lernen.",
-            "option1": {
-              "title": "Traditionelles Lernen",
-              "description": "Mit Lehrbüchern und Sprachkursen eine solide Grundlage in spanischer Grammatik und Vokabular aufbauen."
-            },
-            "option2": {
-              "title": "Digitales Lernen",
-              "description": "Sprach-Apps und Online-Ressourcen für flexibles, mobiles Lernen nutzen, das in jeden Zeitplan passt."
-            }
-          }
-        }
-      },
-      "step2": {
-        "title": "Erste Recherchen & Machbarkeit",
-        "date": "Frühjahr 2022",
-        "description": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten. Notizen & grober Plan: \"Was müsste ich tun, um wirklich auszuwandern?\"",
-        "preview": {
-          "point1": "Erste Infos sammeln: Aufenthaltsrecht, Steuern, Lebenshaltungskosten",
-          "point2": "Notizen & grober Plan: \"Was müsste ich tun, um wirklich auszuwandern?\"",
-          "point3": "Erste Recherchen zur Machbarkeit"
-        },
-        "sections": {
-          "residenceRights": {
-            "title": "Aufenthaltsrecht",
-            "intro": {
-              "title": "Das Wichtigste zuerst",
-              "question": "Darf ich als Deutscher überhaupt so einfach in Spanien leben?",
-              "answer": "Die kurze Antwort: Ja. Als EU-Bürger habe ich das Recht, mich in jedem EU-Mitgliedsstaat niederzulassen, dort zu wohnen und zu arbeiten – ganz ohne Visum oder Aufenthaltstitel. Dieses Recht nennt sich Freizügigkeit und ist in der EU-Verordnung geregelt.",
-              "note": "Klingt erstmal easy. Aber in der Praxis gibt es natürlich Details:"
-            },
-            "registration": {
-              "title": "Registrierungspflicht ab 3 Monaten",
-              "point1": "Wer länger als 3 Monate bleibt, muss sich bei der Ausländerbehörde (Extranjería) registrieren",
-              "point2": "Man erhält das sogenannte \"Certificado de registro como residente comunitario\"",
-              "point3": "Dazu braucht man Einkommen, Arbeitsvertrag oder Nachweis über ausreichende finanzielle Mittel"
-            },
-            "taxRule": {
-              "title": "Die 183-Tage-Regel",
-              "over183": {
-                "title": "Über 183 Tage in Spanien:",
-                "description": "Automatisch steuerlich ansässig in Spanien"
-              },
-              "under183": {
-                "title": "Unter 183 Tage in Spanien:",
-                "description": "Bleibst in Deutschland steuerlich ansässig"
-              },
-              "conclusion": "Ab 183 Tagen greift die steuerliche Ansässigkeit in Spanien."
-            }
-          },
-          "work": {
-            "title": "Arbeit",
-            "intro": "Natürlich war Arbeit für mich ein zentrales Thema. Schließlich bin ich wie die meisten von meinem Einkommen abhängig. Meine Recherche zeigte mir schnell: Im Prinzip gibt es für mich zwei Optionen.",
-            "options": {
-              "remote": {
-                "title": "Option 1: Remote Work aus Deutschland",
-                "point1": "Höheres deutsches Gehaltsniveau",
-                "point2": "Sicherheit, weil man beim deutschen Arbeitgeber bleibt",
-                "point3": "Sozialversicherungssystem bleibt gleich",
-                "point4": "Flexibilität: man kann reisen, ohne sofort in Spanien alle Systeme umzustellen",
-                "warning": "183-Tage-Regel → sobald ich zu lange in Spanien bleibe, wird es steuerlich kompliziert"
-              },
-              "spain": {
-                "title": "Option 2: Arbeiten direkt in Spanien",
-                "point1": "Leichter, sich vor Ort zu integrieren",
-                "point2": "Steuerlich einfacher (ein Land, ein System)",
-                "point3": "Lokale Netzwerke und Jobmöglichkeiten",
-                "disadvantage": "Gehälter in Spanien liegen im Schnitt deutlich unter deutschen. 2025: Spanien ~28.000€ vs. Deutschland ~46.000€"
-              }
-            },
-            "decision": {
-              "title": "Remote-Work als Übergangslösung",
-              "description": "Als Übergang starte ich mit Remote-Work. Das half mir ungemein – ich konnte vor Ort alles regeln (Bankkonto, Gestoría, Wohnung etc.), ohne jedes Mal Urlaub nehmen zu müssen. Und ja, es sparte mir eine Menge Geld für Flüge.",
-              "reminder": "Wer Remote aus Spanien arbeitet, sollte die 183-Tage-Regel im Auge behalten"
-            }
-          },
-          "taxes": {
-            "title": "Steuern & Gehaltsabrechnung",
-            "intro": "Steuern waren das nächste dicke Thema – immerhin will man ja nicht in eine Falle tappen. Hier zeige ich dir eine detaillierte Gehaltsabrechnung für 2.500€ Brutto im Vergleich Deutschland vs. Spanien.",
-            "comparison": {
-              "germany": {
-                "title": "Deutschland",
-                "year": "2025",
-                "gross": "2.500,00€",
-                "grossLabel": "Bruttogehalt",
-                "deductions": {
-                  "title": "Abzüge:",
-                  "incomeTax": "Lohnsteuer (ca. 15%)",
-                  "churchTax": "Kirchensteuer (9% von LSt)",
-                  "healthInsurance": "Krankenversicherung (7,3%)",
-                  "nursingInsurance": "Pflegeversicherung (1,525%)",
-                  "pensionInsurance": "Rentenversicherung (9,6%)",
-                  "unemploymentInsurance": "Arbeitslosenversicherung (1,2%)",
-                  "solidarityTax": "Solidaritätszuschlag (5,5%)"
-                },
-                "totalDeductions": "Gesamte Abzüge:",
-                "netIncome": "1.580,99€",
-                "netLabel": "Nettogehalt",
-                "deductionPercentage": "Abzüge: 36,8% vom Brutto"
-              },
-              "spain": {
-                "title": "Spanien",
-                "year": "2025",
-                "gross": "2.500,00€",
-                "grossLabel": "Bruttogehalt",
-                "deductions": {
-                  "title": "Abzüge:",
-                  "irpf": "IRPF (ca. 12%)",
-                  "healthInsurance": "Krankenversicherung (6,35%)",
-                  "pensionInsurance": "Rentenversicherung (6,35%)",
-                  "unemploymentInsurance": "Arbeitslosenversicherung (1,55%)",
-                  "vocationalTraining": "Berufsausbildung (0,6%)",
-                  "accidentInsurance": "Unfallversicherung (0,2%)",
-                  "solidarityTax": "Solidaritätszuschlag"
-                },
-                "totalDeductions": "Gesamte Abzüge:",
-                "netIncome": "1.823,75€",
-                "netLabel": "Nettogehalt",
-                "deductionPercentage": "Abzüge: 27,1% vom Brutto"
-              }
-            },
-            "summary": {
-              "title": "Zusammenfassung",
-              "germanyNet": "Deutschland Netto",
-              "spainNet": "Spanien Netto",
-              "difference": "Differenz (Spanien)",
-              "conclusion": "Bei 2.500€ Brutto bleibt in Spanien etwa 15% mehr Netto übrig als in Deutschland. Die Abzüge sind in Deutschland deutlich höher (36,8% vs. 27,1% vom Brutto).",
-              "importantNote": "In Spanien ist es deutlich schwieriger, ein Gehalt von 2.500€ Brutto zu erreichen. Das Durchschnittsgehalt liegt bei etwa 1.800€ Brutto, während es in Deutschland bei etwa 3.200€ liegt.",
-              "disclaimer": "Diese Berechnung ist ein Beispiel. Die tatsächlichen Abzüge hängen von vielen Faktoren ab. Beratung durch einen Steuerberater ist empfehlenswert."
-            }
-          },
-          "livingCosts": {
-            "title": "Lebenshaltungskosten",
-            "intro": "Jeder, der in Spanien Urlaub macht, sagt erstmal: \"Wow, hier ist ja alles so günstig!\" Aber das ist nur die halbe Wahrheit. Ja, eine Tapa für 2,50 € und ein Café con leche für 1,20 € wirken auf uns Deutsche spottbillig. Aber das Gefühl entsteht vor allem, weil wir deutsche Gehälter im Kopf haben.",
-            "comparison": "Vergleich Lebenshaltungskosten (2025):"
-          },
-          "glutenFree": {
-            "title": "Glutenfreies Essen",
-            "intro": {
-              "title": "Ein unerwarteter Vorteil",
-              "description": "Als jemand mit Zöliakie war das für mich ein echter Gamechanger. Ich hatte nicht damit gerechnet, dass Spanien in diesem Bereich so viel besser aufgestellt ist als Deutschland."
-            },
-            "positiveSurprise": {
-              "title": "Positive Überraschung in Spanien",
-              "description1": "In Spanien war ich ehrlich gesagt positiv überrascht. Schon bei meinen ersten Aufenthalten habe ich gemerkt, dass das Bewusstsein für glutenfreie Ernährung ('sin gluten') hier viel stärker ausgeprägt ist. In fast jedem größeren Supermarkt gibt es ganze Regale mit glutenfreien Produkten.",
-              "description2": "Auch beim Essengehen sieht es in Spanien oft entspannter aus. Viele Restaurants und Cafés kennzeichnen ihre Speisekarten klar mit 'sin gluten'-Symbolen, und es gibt Ketten wie 100 Montaditos oder VIPS, die explizit glutenfreie Optionen anbieten."
-            },
-            "supermarkets": {
-              "title": "Supermarktketten mit großer glutenfreier Auswahl:",
-              "mercadona": "Mercadona – wahrscheinlich die beste Anlaufstelle",
-              "carrefour": "Carrefour – breite Auswahl an Markenprodukten",
-              "alcampo": "Alcampo – große Hypermärkte mit guter Abdeckung",
-              "lidl": "Lidl Spanien – einige glutenfreie Eigenmarkenprodukte"
-            },
-            "conclusion": {
-              "title": "Mein Fazit",
-              "description": "Spanien ist ein wirklich gutes Land für Menschen mit Zöliakie. Die Kombination aus großer Produktauswahl im Supermarkt, einer vielfältigen naturnahen Küche und einem steigenden Bewusstsein in der Gastronomie macht mir den Alltag hier wesentlich leichter."
-            }
-          }
-        }
-      },
-      "step3": {
-        "title": "Erste Schritte: Spanisch lernen",
-        "date": "Sommer 2022",
-        "description": "Warum Spanisch lernen so wichtig ist und wie ich es angegangen bin - von Duolingo bis zu Büchern und Karteikarten.",
-        "preview": {
-          "point1": "Warum Spanisch lernen so wichtig ist",
-          "point2": "Meine Erfahrungen mit Duolingo und Büchern",
-          "point3": "Mein Karteikarten-System und Online-Lernen"
-        },
-        "hero": {
-          "badge": "Sprachlernen",
-          "title": "Ohne Spanisch geht es nicht",
-          "subtitle": "Durch die Recherche im vorherigen Schritt habe ich viel gelernt – etwa, dass es steuerlich interessant sein kann, in Spanien zu arbeiten, oder dass es dort eine deutlich größere Vielfalt an glutenfreien Alternativen gibt als ich gedacht hätte. Aber eine Erkenntnis war noch wichtiger: Ohne Spanisch geht es nicht."
-        },
-        "sections": {
-          "introduction": {
-            "title": "Warum Spanisch lernen so wichtig ist",
-            "paragraph1": "Natürlich kommt man mit Englisch oder sogar Deutsch in Spanien stellenweise durch. In klassischen Touristenregionen wie an der Costa Blanca oder auf Mallorca gibt es oft sogar deutsche Supermärkte oder Restaurants, und in großen Städten wie Madrid oder Barcelona sprechen viele zumindest ein wenig Englisch.",
-            "paragraph2": "Aber sobald man das \"echte Spanien\" kennenlernt – kleinere Städte, Ämter, Arztbesuche, Nachbarschaftsgespräche – merkt man schnell, dass man ohne Spanisch verloren ist. Ich wollte nicht zu den \"Auswanderern\" gehören, die seit Jahren in Spanien leben, aber noch immer kaum einen Satz Spanisch zustande bringen. Also stand für mich fest: Ich muss Spanisch lernen."
-          },
-          "duolingo": {
-            "title": "Mein Start mit Duolingo",
-            "paragraph1": "Als erstes habe ich damals zu Duolingo gegriffen. Mir gefiel die Idee, \"spielend zu lernen\": Eine Lektion in der Kaffeepause, eine weitere kurz vorm Einschlafen – das war perfekt in meinen Alltag einzubauen. Ich habe sogar die Premium-Version genommen, weil ich hoffte, damit schneller Ergebnisse zu erzielen.",
-            "paragraph2": "Und ja, am Anfang funktionierte das auch: ich konnte üben, so viel ich wollte, und sah schnelle Fortschritte. Doch mit der Zeit merkte ich, dass mir etwas fehlte. Die Lektionen sind zwar unterhaltsam, aber sie bleiben sehr oberflächlich. Es ist eher stupides Auswendiglernen als wirkliches Verstehen.",
-            "paragraph3": "Ich hatte keine Übersicht über die Grammatik, keine klare Struktur für die Verbkonjugationen, und auch die Pronomen wurden nur beiläufig behandelt. Nach 2–3 Monaten verlor ich die Lust – und wechselte auf die klassische Methode: Bücher, Notizen, Karteikarten."
-          },
-          "books": {
-            "title": "Meine Bücher-Empfehlungen",
-            "intro": "Nach meiner Erfahrung mit Duolingo habe ich festgestellt, dass traditionelles Lernen mit Büchern für mich am einfachsten war. Die strukturierten Erklärungen zur Grammatik haben mir geholfen, die Regeln besser zu verinnerlichen und ein solides Fundament aufzubauen. Besonders das Visuelle in den Büchern – sei es durch Tabellen, Diagramme oder farbige Markierungen – hat mir geholfen, mir die Regeln einfacher merken zu können. Aus meiner Lernerfahrung kann ich daher folgende Bücher empfehlen:",
-            "book1": {
-              "title": "Spanisch – Grammatik kurz & bündig",
-              "author": "von Daniela Wakonigg",
-              "isbn": "ISBN 978-3949604104",
-              "description": "Ein klar strukturiertes Einsteigerbuch, das bei null anfängt und Schritt für Schritt die Grundlagen vermittelt. Jedes Kapitel behandelt zunächst die Theorie (z. B. Zeiten, Pronomen, Satzbau) und bietet anschließend Übungen sowie Vokabellisten. Zusätzlich gibt es Online-Material für Hörverständnis-Aufgaben.",
-              "review": "Super hilfreich für den initialen Start in die spanische Sprache. Das Buch bringt einen Stück für Stück näher zu den ersten eigenen Sätzen. Besonders positiv fand ich die Kombination aus Theorie, Übungen und Vokabeln – es erinnert stark an den Unterricht in der Schule, nur eben kompakter. Mit den Online-Hörverstehensaufgaben konnte ich außerdem direkt das Sprechen und Verstehen trainieren. Alles in allem genau das, was man braucht, um sich im Alltag schon mal ein wenig verständigen zu können."
-            },
-            "book2": {
-              "title": "Spanische Geschichten für Anfänger: 100 einfache Geschichten zum Spanisch Lernen – mit Vokabeln und Übungen",
-              "author": "von Christian Stahl",
-              "isbn": "ISBN 978-3949604715",
-              "description": "Dieses Buch besteht aus kurzen, klar geschriebenen Geschichten, die speziell für Anfänger gedacht sind. Jede Geschichte ist einfach genug, um ohne große Mühe verstanden zu werden, und trotzdem lernt man ständig neue Wörter und Satzstrukturen.",
-              "review": "Hin und wieder wollte ich überprüfen, wie es denn um meine Spanischkenntnisse steht – und dafür ist das Buch klasse. Man merkt schnell, dass man kleine Erfolge hat, und durch die Audiodateien kann man zusätzlich das Hörverstehen trainieren."
-            },
-            "book3": {
-              "title": "Spanisch – 5-Minuten-Geschichten A1/A2 mit Audios",
-              "author": "PONS",
-              "isbn": "ISBN 978-3125621756",
-              "description": "Dieses Buch bietet kurze, einfache Geschichten, die auf Anfänger-Niveau (A1–A2) zugeschnitten sind. Jede Geschichte lässt sich in nur wenigen Minuten lesen und eignet sich perfekt für kleine Lerneinheiten zwischendurch.",
-              "review": "Für mich war es eine tolle Möglichkeit, auch im Alltag kleine Lernfortschritte zu machen. Die markierten Vokabeln machten das Lesen einfach, die Mindmaps halfen mir, Wörter schneller im Gedächtnis zu behalten, und mit den Audios konnte ich zusätzlich mein Hörverstehen trainieren. Dadurch fühlte es sich an wie ein \"Mini-Sprachkurs\" in Form von Geschichten – leicht, motivierend und effektiv."
-            }
-          },
-          "flashcards": {
-            "title": "Mein Karteikarten-System",
-            "intro": "Für das Vokabellernen habe ich mir selbst eine 6-stufige Box nach dem Leitner-System gebaut. Das Schreiben der Vokabeln auf Karteikarten hat mir dabei enorm geholfen, sie besser zu memorieren. Durch den physischen Akt des Aufschreibens prägen sich die Wörter viel tiefer ein als beim reinen Lesen. Außerdem hat mich das System dabei unterstützt, am Ball zu bleiben – ich hatte immer eine klare Struktur und wusste genau, welche Vokabeln ich an welchem Tag wiederholen musste. Das hat mir geholfen, kontinuierlich dranzubleiben und meinen Lernfortschritt zu verfolgen. Kurz gesagt:",
-            "systemTitle": "Das Karteikasten-System funktioniert so:",
-            "systemDescription": "Man hat eine Box mit 6 Fächern. Neue Vokabeln beginnen immer im ersten Fach. Wenn man eine Vokabel beim Abfragen richtig weiß, rückt sie ein Fach weiter nach hinten. Weiß man sie nicht, kommt sie wieder ganz nach vorne ins erste Fach. Je weiter hinten die Vokabel liegt, desto seltener wird sie abgefragt. Auf diese Weise wiederholt man schwierige Vokabeln oft und leichte Vokabeln nur noch selten – bis sie schließlich im letzten Fach landen und als \"fast gelernt\" gelten.",
-            "sixStageSystem": "Das 6-Stufen-System",
-            "howItWorks": "Wie funktioniert es?",
-            "whyItWorks": "Warum funktioniert es?",
-            "stage1": {
-              "label": "Stufe 1",
-              "frequency": "Täglich",
-              "description": "Neue Vokabeln werden täglich wiederholt"
-            },
-            "stage2": {
-              "label": "Stufe 2",
-              "frequency": "Alle 2 Tage",
-              "description": "Erste Erfolge kommen seltener dran"
-            },
-            "stage3": {
-              "label": "Stufe 3",
-              "frequency": "Wöchentlich",
-              "description": "Festigung durch wöchentliche Wiederholung"
-            },
-            "stage4": {
-              "label": "Stufe 4",
-              "frequency": "Alle 2 Wochen",
-              "description": "Vertiefung durch seltene Wiederholung"
-            },
-            "stage5": {
-              "label": "Stufe 5",
-              "frequency": "Monatlich",
-              "description": "Wiederholung durch monatliche Kontrolle"
-            },
-            "stage6": {
-              "label": "Stufe 6",
-              "frequency": "Alle 2-3 Monate",
-              "description": "Seltene Kontrolle - das Wort sitzt fest!"
-            },
-            "step1": "Neue Vokabeln starten in Fach 1 und werden täglich wiederholt.",
-            "step2": "Jedes Mal, wenn man sie richtig kann, wandern sie eine Stufe nach hinten – und kommen seltener dran.",
-            "step3": "Fehlerhafte Vokabeln gehen wieder ganz nach vorne.",
-            "step4": "Nach einigen Wochen landen die Wörter in Fach 6 – und gelten als \"gelernt\".",
-            "conclusion": "Das System klingt simpel, ist aber unglaublich effektiv, weil man seine Zeit nicht mit Vokabeln verschwendet, die man ohnehin schon kann."
-          },
-          "lingolia": {
-            "title": "Online-Lernen mit Lingolia",
-            "paragraph1": "Nach meinen Büchern wollte ich zusätzlich etwas Interaktives. So wie früher in der Schule beim Englischunterricht, nur eben für Spanisch. Nach längerer Suche bin ich auf Lingolia gestoßen.",
-            "paragraph2": "Dort gibt es ausführliche Theorietexte, viele Übungen (einige gratis, andere hinter einer kleinen Bezahlschranke), und keine nervigen Abos. Für mich die perfekte Ergänzung, um Grammatik und Theorie zu festigen."
-          },
-          "speaking": {
-            "title": "Am meisten hilft: Sprechen",
-            "paragraph1": "Ich habe eine ganze Menge Theorie und Vokabeln gelernt, bevor ich mich das erste Mal traute, einen spanischen Satz in der \"realen Welt\" zu benutzen. Es kostet Überwindung, wirklich anzufangen zu sprechen – besonders mit Muttersprachlern. Man hat Angst, Fehler zu machen, Wörter zu vergessen oder einfach nicht verstanden zu werden.",
-            "paragraph2": "Aber genau das hat mir am meisten geholfen: einfach zu sprechen.",
-            "paragraph3": "Am besten funktioniert das mit jemandem, mit dem man vertraut ist und mit dem man viel redet. Ich hatte das große Glück, dass ich während meiner ersten Planungsreise nach Spanien Emely kennengelernt habe. Mit ihr konnte ich von Anfang an viel sprechen und schreiben – erst noch mit vielen Fehlern, dann immer besser. Sie hat mir die Angst genommen, und bis heute begleitet sie mich nicht nur bei meinem Spanisch-Abenteuer, sondern auch in meinem Leben – mittlerweile als meine Freundin.",
-            "paragraph4": "Rückblickend war das der entscheidende Schritt: Theorie und Vokabeln sind die Basis, aber wirklich lernen tut man, wenn man anfängt zu sprechen. Jedes Gespräch, egal wie holprig, bringt dich weiter – und das Erfolgserlebnis, verstanden zu werden, motiviert enorm."
-          },
-          "currentStatus": {
-            "title": "Mein heutiger Stand",
-            "paragraph1": "Realistisch betrachtet: Ich lerne immer noch Spanisch. Auch jetzt, Mitte/Ende 2025, übe ich täglich – nur inzwischen eben im Alltag. Beim Einkaufen, im Gespräch mit meiner Freundin, mit Nachbarn oder einfach durch spanisches Fernsehen.",
-            "paragraph2": "Eine Sprache lernt man nicht in ein paar Wochen, sondern Stück für Stück. Aber Spanisch ist vergleichsweise einfach, und man hat schnell Erfolgserlebnisse.",
-            "tip": "Mein Tipp für jeden, der mit dem Gedanken spielt, nach Spanien zu ziehen: Finde den Weg, der dir Spaß macht. Ob App, Bücher, Karteikarten oder Serien mit Untertiteln – wichtig ist nur, dass du dranbleibst. Denn mit jeder Vokabel und jedem Satz fühlt man sich ein Stück mehr zuhause in Spanien."
-          }
-        }
-      },
       "step4": {
         "title": "Spanien entdecken",
         "date": "Februar 2024",
@@ -448,123 +118,44 @@
         "date": "Sommer 2025",
         "description": "Deine persönliche Erfahrung mit Besichtigungen, Arras-Vertrag, Notar. Worauf du geachtet hast (Nachbarschaft, Bauqualität, Preis, etc.). Schwierigkeiten und Learnings.",
         "preview": {
-          "point1": "Deine persönliche Erfahrung mit Besichtigungen, Arras-Vertrag, Notar",
-          "point2": "Worauf du geachtet hast (Nachbarschaft, Bauqualität, Preis, etc.)",
-          "point3": "Schwierigkeiten und Learnings"
+          "point1": "Besichtigungen und Immobiliensuche",
+          "point2": "Arras-Vertrag und Verhandlungen",
+          "point3": "Notartermin und Übergabe"
         }
       },
       "step9": {
-        "title": "Gestoría – Hilfe im Behördendschungel",
+        "title": "Der Umzug",
         "date": "Herbst 2025",
-        "description": "Warum du dich dafür entschieden hast. Was sie dir abgenommen haben (Steuern, Anmeldung, Utilities).",
+        "description": "Wie du den Umzug organisiert hast. Was du mitgenommen hast, was du verkauft hast. Erste Tage in der neuen Wohnung.",
         "preview": {
-          "point1": "Warum du dich dafür entschieden hast",
-          "point2": "Was sie dir abgenommen haben (Steuern, Anmeldung, Utilities)",
-          "point3": "Erfahrungen mit der spanischen Bürokratie"
+          "point1": "Umzugsplanung und Organisation",
+          "point2": "Was mitnehmen, was verkaufen",
+          "point3": "Erste Tage im neuen Zuhause"
         }
       },
       "step10": {
-        "title": "Sicherheiten & Versicherungen",
+        "title": "Das neue Leben",
         "date": "Winter 2025/26",
-        "description": "Abschluss von Seguro de Hogar. Deine Überlegung, warum welche Versicherung sinnvoll war.",
+        "description": "Wie sich das Leben verändert hat. Neue Routinen, neue Freunde, neue Herausforderungen. Was du anders machen würdest.",
         "preview": {
-          "point1": "Abschluss von Seguro de Hogar",
-          "point2": "Deine Überlegung, warum welche Versicherung sinnvoll war",
-          "point3": "Vollständiger Versicherungsschutz für dein neues Zuhause"
-        }
-      },
-      "step11": {
-        "title": "Der erste Aufenthalt in der eigenen Wohnung",
-        "date": "Frühjahr 2026",
-        "description": "Von der Vorfreude bis zum Wasserschaden - meine ersten Erfahrungen in der eigenen Wohnung.",
-        "preview": {
-          "point1": "Ankunft und erster Tag in der eigenen Wohnung",
-          "point2": "Der Wasserschaden und die Reparaturen",
-          "point3": "Wichtige Learnings für das Leben in Spanien"
-        }
-      },
-      "step12": {
-        "title": "Ausblick: Die endgültige Migration",
-        "date": "Sommer 2026",
-        "description": "Welche Schritte noch fehlen (Residencia, Sozialversicherung, Steuern). Deine Ziele für die Zukunft in Spanien.",
-        "preview": {
-          "point1": "Welche Schritte noch fehlen (Residencia, Sozialversicherung, Steuern)",
-          "point2": "Deine Ziele für die Zukunft in Spanien",
-          "point3": "Vollständige Integration und langfristige Perspektiven"
+          "point1": "Neue Routinen und Gewohnheiten",
+          "point2": "Freundschaften und soziales Leben",
+          "point3": "Rückblick und Learnings"
         }
       }
-    },
-    "card": {
-      "readMore": "Mehr lesen"
-    },
-    "cta": {
-      "title": "Folge meiner Reise",
-      "description": "Erfahre mehr über jeden Schritt und lass dich inspirieren",
-      "button": "Alle Schritte anzeigen"
-    },
-    "placeholder": {
-      "title": "Nächster Schritt",
-      "description": "Wird bald hinzugefügt"
-    },
-    "navigation": {
-      "nextStep": "Nächster Schritt",
-      "previousStep": "Vorheriger Schritt"
-    },
-    "steps": {
-      "step1": "Der Traum von Spanien",
-      "step2": "Erste Recherchen & Machbarkeit",
-      "step3": "Spanisch lernen",
-      "step4": "Spanien entdecken",
-      "step5": "Die Entscheidung für eine Region",
-    "step6": "Wohnung finden",
-    "step7": "Bürokratie & Voraussetzungen"
     }
   },
-  "guide": {
-    "title": "Dein vollständiger Leitfaden",
-    "subtitle": "Alles, was du wissen musst, um erfolgreich nach Spanien zu migrieren. Von rechtlichen Anforderungen bis hin zu praktischen Tipps für den Alltag.",
-    "visa": {
-      "title": "Visa & Rechtliches",
-      "description": "Navigiere durch die komplexe Welt der spanischen Einwanderung mit unseren umfassenden Visum-Leitfäden und rechtlichen Anforderungen.",
-      "checklist1": "Visum-Typ Auswahl",
-      "checklist2": "Dokumenten-Vorbereitung"
-    },
-    "housing": {
-      "title": "Wohnen & Unterkunft",
-      "description": "Finde dein perfektes Zuhause in Spanien mit Tipps zu Stadtteilen, Mietprozessen und Wohnkosten.",
-      "checklist1": "Stadtteil-Recherche",
-      "checklist2": "Mietprozess-Anleitung"
-    },
-    "daily": {
-      "title": "Alltag",
-      "description": "Erhalte praktische Ratschläge zu Bankwesen, Gesundheitsversorgung, Transport und der Integration in die spanischen Kultur.",
-      "checklist1": "Bankkonto einrichten",
-      "checklist2": "Gesundheitsversorgung registrieren"
-    },
-    "cta": {
-      "title": "Bereit für deine Reise?",
-      "description": "Schließe dich Tausenden anderen an, die Spanien mit unserer bewährten Anleitung erfolgreich zu ihrem neuen Zuhause gemacht haben.",
-      "button": "Heute starten"
-    }
+  "navigation": {
+    "home": "Start",
+    "timeline": "Timeline",
+    "about": "Über mich",
+    "contact": "Kontakt"
   },
-  "ui": {
-    "backToTop": {
-      "ariaLabel": "Nach oben scrollen"
-    },
-    "tableOfContents": {
-      "title": "Inhaltsverzeichnis",
-      "progress": "Fortschritt",
-      "noHeadings": "Keine Überschriften gefunden"
-    },
-    "sidebar": {
-      "title": "Navigation",
-      "toggleMenu": "Navigationsmenü umschalten",
-      "closeMenu": "Navigationsmenü schließen",
-      "home": "Startseite",
-      "storySteps": "Geschichtsschritte",
-      "language": "Sprache",
-      "menu": "Menü",
-      "navigation": "Navigation"
+  "footer": {
+    "description": "Eine persönliche Reise zur Auswanderung nach Spanien",
+    "links": {
+      "privacy": "Datenschutz",
+      "imprint": "Impressum"
     }
   }
 }

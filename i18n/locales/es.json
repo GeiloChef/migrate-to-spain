@@ -1,358 +1,78 @@
 {
   "header": {
     "title": "Emigrar a España - Mi Historia",
-    "subtitle": "Un Viaje Personal a la Emigración"
+    "subtitle": "Un viaje personal hacia la emigración"
   },
   "hero": {
     "title": {
-      "line1": "Migrar",
-      "line2": "a España"
+      "line1": "A",
+      "line2": "España"
     },
-    "subtitle": "Tu guía completa para hacer de España tu nuevo hogar. Desde visas y residencia hasta encontrar la ciudad perfecta, descubre todo lo que necesitas saber para comenzar tu aventura española.",
+    "subtitle": "Tu guía completa para hacer de España tu nuevo hogar. Desde visas y permisos de residencia hasta la ciudad perfecta - descubre todo lo que necesitas saber para comenzar tu aventura española.",
     "buttons": {
-      "primary": "Comienza tu Viaje",
-      "secondary": "Saber Más"
+      "primary": "Comienza tu viaje",
+      "secondary": "Saber más"
     },
     "researchPhase": {
       "badge": "Fase de Investigación",
       "title": "Primeras Investigaciones y Viabilidad",
-      "subtitle": "Después de que tuve la idea básica – España realmente podría convertirse en mi nuevo hogar – era hora de hacer un plan real. El sueño solo no es suficiente."
+      "subtitle": "Después de tener la idea básica - España realmente podría convertirse en mi nuevo hogar - era hora de hacer un plan real. Los sueños solos no bastan."
+    }
+  },
+  "introduction": {
+    "title": "El Camino hacia la Implementación",
+    "paragraph1": "Después de tener la idea básica - España realmente podría convertirse en mi nuevo hogar - y las ventajas que veía en ello superaron mis miedos iniciales, era hora de hacer un plan real. Los sueños solos no bastan. Quería entender: ¿Es esto siquiera factible? ¿Qué requisitos necesito cumplir? ¿Y cómo podría verse una línea de tiempo realista?",
+    "paragraph2": "Afortunadamente, internet está lleno de información - y claro, no soy el primer alemán que considera emigrar a España. Idealista se convirtió en un verdadero compañero constante de mi investigación. Para los que no lo conocen: Idealista no es solo la plataforma inmobiliaria más grande de España (comparable a Immoscout24 en Alemania), sino también un verdadero tesoro de información.",
+    "paragraph3": "Desde el principio, se cristalizaron cuatro temas principales para mí:",
+    "topics": {
+      "residenceRights": {
+        "title": "1. Derechos de Residencia",
+        "description": "Fundamentos legales para la mudanza"
+      },
+      "work": {
+        "title": "2. Trabajo",
+        "description": "Oportunidades laborales y trabajo remoto"
+      },
+      "taxes": {
+        "title": "3. Impuestos",
+        "description": "Aspectos fiscales y asesoramiento"
+      },
+      "livingCosts": {
+        "title": "4. Costo de Vida",
+        "description": "Comparación de costos y planificación presupuestaria"
+      }
+    }
+  },
+  "conclusion": {
+    "title": "Conclusión de mis investigaciones",
+    "intro": "Al final de mis investigaciones, era más sabio - y honestamente más motivado también. Sabía:",
+    "topics": {
+      "residenceRights": {
+        "title": "✅ Derechos de Residencia",
+        "description": "Como alemán, relativamente sin complicaciones, pero con obligaciones después de 3 meses o 183 días."
+      },
+      "work": {
+        "title": "✅ Trabajo",
+        "description": "Remoto desde Alemania = financieramente más atractivo, pero con trampas fiscales."
+      },
+      "taxes": {
+        "title": "✅ Impuestos",
+        "description": "Complejo, regionalmente diferente, necesitas buen asesoramiento."
+      },
+      "livingCosts": {
+        "title": "✅ Costo de Vida",
+        "description": "A primera vista barato, pero realistamente solo en relación a los salarios españoles."
+      }
+    },
+    "bonus": {
+      "title": "Bonus: Comida Sin Gluten",
+      "description": "Obviamente más fácil y variada que en Alemania, tanto en supermercados como en restaurantes."
     }
   },
   "story": {
     "title": "Mi Historia",
     "subtitle": "El camino desde la primera idea hasta la implementación - paso a paso",
     "timeline": {
-      "step1": {
-        "title": "El Sueño de España",
-        "date": "Principios de 2022",
-        "description": "¿De dónde vino la idea? ¿Por qué España? Primeras ideas, deseos, miedos.",
-        "preview": {
-          "point1": "Los primeros pensamientos sobre España",
-          "point2": "¿Por qué este país específicamente?",
-          "point3": "Miedos y dudas"
-        },
-        "hero": {
-          "badge": "El Comienzo",
-          "title": "¿De Dónde Vino la Idea?",
-          "subtitle": "Si has aterrizado aquí, probablemente conoces este impulso: Estás sentado de vacaciones en España, mirando el mar, y pensando: '¿Por qué no me quedo aquí?'",
-          "imagePlaceholder": "Atardecer en la playa / sensación típica de España"
-        },
-        "sections": {
-          "beginning": {
-            "title": "El Comienzo",
-            "paragraph1": "Así es exactamente como comenzó para mí. España siempre me ha atraído – muchos días cálidos al año, una cultura abierta y cálida, playas de arena interminables, pero también paisajes montañosos para hacer senderismo. Todo lo que anhelaba mientras estaba sentado en una oficina fría en Alemania o mirando por la ventana los fines de semana grises.",
-            "paragraph2": "El contraste entre mi vida actual y el futuro potencial se hizo claro, y comencé a pensar en cómo podría ser una vida diferente.",
-            "imagePlaceholder": "Atardecer en la playa / sensación típica de España"
-          },
-          "turningPoint": {
-            "title": "Un Punto de Inflexión Personal",
-            "paragraph1": "En abril de 2022, me diagnosticaron enfermedad celíaca. De repente ya no podía comer pan normal, no podía desayunar avena convencional, e incluso salir a comer se convirtió en un desafío. Especialmente en el campo en Alemania, era casi imposible encontrar algo adecuado espontáneamente.",
-            "paragraph2": "Los supermercados ofrecían poca selección, los restaurantes no tenían opciones sin gluten – mi vida cotidiana se sentía severamente restringida.",
-            "question": "Esta situación llevó a la pregunta: ¿No se puede hacer esto mejor en algún otro lugar?",
-            "answer": "Y eso es exactamente lo que me trajo de vuelta a España.",
-            "imagePlaceholder": "Una mesa puesta con pan sin gluten / imagen simbólica de comida"
-          },
-          "research": {
-            "title": "Primeras Investigaciones",
-            "paragraph1": "Para mi sorpresa, rápidamente encontré reportes positivos: Los supermercados españoles tenían una selección significativamente mayor de productos sin gluten – desde tortillas hasta pan, galletas y pasteles. Los restaurantes también estaban a menudo preparados para servir de manera segura a personas con enfermedad celíaca.",
-            "paragraph2": "Y en este punto mi decisión estaba firme: Quería encontrar una manera de vivir en España. No solo por el sol y los precios – sino porque vi la oportunidad de vivir más simple y despreocupadamente allí.",
-            "imagePlaceholder": "Supermercado español con productos sin gluten"
-          },
-          "fears": {
-            "title": "Primeras Ideas – y Miedos",
-            "subtitle": "Al principio pensé que era simple: Encontrar una propiedad, mudarme allí, listo. Pero rápidamente me di cuenta de que se trataba de mucho más. Tal paso no es una mudanza 'a la próxima ciudad' – es un nuevo comienzo en un país extranjero.",
-            "fear1": {
-              "title": "¿Puedo hacer esto solo?",
-              "description": "La pregunta más grande era si podría manejar toda la burocracia, barreras del idioma y diferencias culturales por mi cuenta."
-            },
-            "fear2": {
-              "title": "Dejar atrás a seres queridos",
-              "description": "¿Cómo se sentiría dejar atrás a familia y amigos? ¿Podría mantener estas relaciones importantes desde lejos?"
-            },
-            "fear3": {
-              "title": "Barreras del idioma",
-              "description": "¿Cómo me las arreglaría sin habilidades lingüísticas? ¿Podría comunicarme efectivamente en situaciones cotidianas?"
-            },
-            "conclusion": "Muchas noches me quedaba despierto y repasaba estas preguntas en mi cabeza."
-          },
-          "firstStep": {
-            "title": "El Paso Más Importante",
-            "description": "Junto con todas las cosas burocráticas que aún tenía que aclarar, había una tarea que podía comenzar inmediatamente – y que resultó ser absolutamente crucial en retrospectiva: Aprender español.",
-            "option1": {
-              "title": "Aprendizaje Tradicional",
-              "description": "Usar libros de texto y cursos de idiomas para construir una base sólida en gramática y vocabulario español."
-            },
-            "option2": {
-              "title": "Aprendizaje Digital",
-              "description": "Usar aplicaciones de idiomas y recursos en línea para un aprendizaje flexible y móvil que se adapte a cualquier horario."
-            }
-          }
-        }
-      },
-      "step2": {
-        "title": "Primeras Investigaciones y Viabilidad",
-        "date": "Primavera de 2022",
-        "description": "Primera recopilación de información: derechos de residencia, impuestos, costos de vida. Notas y plan aproximado: \"¿Qué tendría que hacer para emigrar realmente?\"",
-        "preview": {
-          "point1": "Primera recopilación de información: derechos de residencia, impuestos, costos de vida",
-          "point2": "Notas y plan aproximado: \"¿Qué tendría que hacer para emigrar realmente?\"",
-          "point3": "Primeras investigaciones sobre viabilidad"
-        },
-        "sections": {
-          "residenceRights": {
-            "title": "Derechos de Residencia",
-            "intro": {
-              "title": "Lo Más Importante Primero",
-              "question": "¿Puedo como alemán realmente vivir en España tan fácilmente?",
-              "answer": "La respuesta corta: Sí. Como ciudadano de la UE, tengo el derecho de establecerme, vivir y trabajar en cualquier estado miembro de la UE – sin ningún visado o permiso de residencia. Este derecho se llama libertad de circulación y está regulado en las regulaciones de la UE.",
-              "note": "Suena fácil al principio. Pero en la práctica hay naturalmente detalles:"
-            },
-            "registration": {
-              "title": "Requisito de Registro desde 3 Meses",
-              "point1": "Cualquiera que se quede más de 3 meses debe registrarse en la oficina de inmigración (Extranjería)",
-              "point2": "Recibes el llamado \"Certificado de registro como residente comunitario\"",
-              "point3": "Para esto necesitas ingresos, contrato de empleo o prueba de medios financieros suficientes"
-            },
-            "taxRule": {
-              "title": "La Regla de 183 Días",
-              "over183": {
-                "title": "Más de 183 días en España:",
-                "description": "Automáticamente residente fiscal en España"
-              },
-              "under183": {
-                "title": "Menos de 183 días en España:",
-                "description": "Permaneces residente fiscal en Alemania"
-              },
-              "conclusion": "A partir de 183 días se aplica la residencia fiscal en España."
-            }
-          },
-          "work": {
-            "title": "Trabajo",
-            "intro": "Por supuesto, el trabajo era un tema central para mí. Después de todo, como la mayoría de las personas, dependo de mis ingresos. Mi investigación me mostró rápidamente: En principio, hay dos opciones para mí.",
-            "options": {
-              "remote": {
-                "title": "Opción 1: Trabajo Remoto desde Alemania",
-                "point1": "Nivel salarial alemán más alto",
-                "point2": "Seguridad porque te quedas con el empleador alemán",
-                "point3": "El sistema de seguridad social permanece igual",
-                "point4": "Flexibilidad: puedes viajar sin cambiar inmediatamente todos los sistemas en España",
-                "warning": "Regla de 183 días → tan pronto como me quede demasiado tiempo en España, se vuelve fiscalmente complicado"
-              },
-              "spain": {
-                "title": "Opción 2: Trabajar directamente en España",
-                "point1": "Más fácil integrarse en el lugar",
-                "point2": "Fiscalmente más simple (un país, un sistema)",
-                "point3": "Redes locales y oportunidades de trabajo",
-                "disadvantage": "Los salarios en España están en promedio significativamente más bajos que los alemanes. 2025: España ~28.000€ vs. Alemania ~46.000€"
-              }
-            },
-            "decision": {
-              "title": "Trabajo Remoto como Solución de Transición",
-              "description": "Como transición, estoy comenzando con trabajo remoto. Esto me ayudó inmensamente – pude arreglar todo en el lugar (cuenta bancaria, Gestoría, apartamento, etc.) sin tener que tomar vacaciones cada vez. Y sí, me ahorró mucho dinero para vuelos.",
-              "reminder": "Cualquiera que trabaje remotamente desde España debe mantener un ojo en la regla de 183 días"
-            }
-          },
-          "taxes": {
-            "title": "Impuestos y Cálculo Salarial",
-            "intro": "Los impuestos eran el siguiente tema grueso – después de todo, no quieres caer en una trampa. Aquí te muestro un cálculo salarial detallado para 2.500€ brutos comparando Alemania vs. España.",
-            "comparison": {
-              "germany": {
-                "title": "Alemania",
-                "year": "2025",
-                "gross": "2.500,00€",
-                "grossLabel": "Salario Bruto",
-                "deductions": {
-                  "title": "Deducciones:",
-                  "incomeTax": "Impuesto sobre la Renta (aprox. 15%)",
-                  "churchTax": "Impuesto Eclesiástico (9% del IR)",
-                  "healthInsurance": "Seguro de Salud (7,3%)",
-                  "nursingInsurance": "Seguro de Cuidado (1,525%)",
-                  "pensionInsurance": "Seguro de Pensión (9,6%)",
-                  "unemploymentInsurance": "Seguro de Desempleo (1,2%)",
-                  "solidarityTax": "Recargo de Solidaridad (5,5%)"
-                },
-                "totalDeductions": "Deducciones Totales:",
-                "netIncome": "1.580,99€",
-                "netLabel": "Salario Neto",
-                "deductionPercentage": "Deducciones: 36,8% del bruto"
-              },
-              "spain": {
-                "title": "España",
-                "year": "2025",
-                "gross": "2.500,00€",
-                "grossLabel": "Salario Bruto",
-                "deductions": {
-                  "title": "Deducciones:",
-                  "irpf": "IRPF (aprox. 12%)",
-                  "healthInsurance": "Seguro de Salud (6,35%)",
-                  "pensionInsurance": "Seguro de Pensión (6,35%)",
-                  "unemploymentInsurance": "Seguro de Desempleo (1,55%)",
-                  "vocationalTraining": "Formación Profesional (0,6%)",
-                  "accidentInsurance": "Seguro de Accidentes (0,2%)",
-                  "solidarityTax": "Recargo de Solidaridad"
-                },
-                "totalDeductions": "Deducciones Totales:",
-                "netIncome": "1.823,75€",
-                "netLabel": "Salario Neto",
-                "deductionPercentage": "Deducciones: 27,1% del bruto"
-              }
-            },
-            "summary": {
-              "title": "Resumen",
-              "germanyNet": "Alemania Neto",
-              "spainNet": "España Neto",
-              "difference": "Diferencia (España)",
-              "conclusion": "Con 2.500€ brutos, aproximadamente 15% más neto permanece en España que en Alemania. Las deducciones son significativamente más altas en Alemania (36,8% vs. 27,1% del bruto).",
-              "importantNote": "En España, es significativamente más difícil lograr un salario de 2.500€ brutos. El salario promedio está alrededor de 1.800€ brutos, mientras que en Alemania está alrededor de 3.200€.",
-              "disclaimer": "Este cálculo es un ejemplo. Las deducciones reales dependen de muchos factores. La consulta con un asesor fiscal es recomendable."
-            }
-          },
-          "livingCosts": {
-            "title": "Costos de Vida",
-            "intro": "Todos los que van de vacaciones a España dicen al principio: \"¡Vaya, aquí todo es tan barato!\" Pero eso es solo la mitad de la verdad. Sí, una tapa por 2,50€ y un café con leche por 1,20€ nos parecen ridículamente baratos a nosotros los alemanes. Pero la sensación surge principalmente porque tenemos salarios alemanes en mente.",
-            "comparison": "Comparación de Costos de Vida (2025):"
-          },
-          "glutenFree": {
-            "title": "Comida Sin Gluten",
-            "intro": {
-              "title": "Una Ventaja Inesperada",
-              "description": "Como alguien con enfermedad celíaca, esto fue un verdadero cambio de juego para mí. No había esperado que España estuviera tan bien equipada en esta área que Alemania."
-            },
-            "positiveSurprise": {
-              "title": "Sorpresa Positiva en España",
-              "description1": "En España, honestamente fui positivamente sorprendido. Ya durante mis primeras estancias, noté que la conciencia sobre la nutrición sin gluten (\"sin gluten\") es mucho más pronunciada aquí. Casi cada supermercado más grande tiene estantes enteros con productos sin gluten.",
-              "description2": "Incluso al comer fuera, a menudo se ve más relajado en España. Muchos restaurantes y cafés marcan claramente sus menús con símbolos \"sin gluten\", y hay cadenas como 100 Montaditos o VIPS que explícitamente ofrecen opciones sin gluten."
-            },
-            "supermarkets": {
-              "title": "Cadenas de supermercados con gran selección sin gluten:",
-              "mercadona": "Mercadona – probablemente el mejor primer punto de contacto",
-              "carrefour": "Carrefour – amplia selección de productos de marca",
-              "alcampo": "Alcampo – grandes hipermercados con buena cobertura",
-              "lidl": "Lidl España – algunos productos de marca propia sin gluten"
-            },
-            "conclusion": {
-              "title": "Mi Conclusión",
-              "description": "España es un país realmente bueno para personas con enfermedad celíaca. La combinación de gran selección de productos en supermercados, cocina natural diversa y creciente conciencia en gastronomía hace que la vida cotidiana aquí sea mucho más fácil para mí."
-            }
-          }
-        }
-      },
-      "step3": {
-        "title": "Primeros Pasos: Aprender Español",
-        "date": "Verano de 2022",
-        "description": "Por qué aprender español es tan importante y cómo lo abordé - desde Duolingo hasta libros y tarjetas de memoria.",
-        "preview": {
-          "point1": "Por qué aprender español es tan importante",
-          "point2": "Mis experiencias con Duolingo y libros",
-          "point3": "Mi sistema de tarjetas de memoria y aprendizaje en línea"
-        },
-        "hero": {
-          "badge": "Aprendizaje de Idiomas",
-          "title": "Sin español no funciona",
-          "subtitle": "A través de la investigación en el paso anterior, aprendí mucho – por ejemplo, que puede ser interesante desde una perspectiva fiscal trabajar en España, o que hay una variedad mucho mayor de alternativas sin gluten allí de lo que habría pensado. Pero una idea era aún más importante: Sin español no funciona."
-        },
-        "sections": {
-          "introduction": {
-            "title": "Por qué aprender español es tan importante",
-            "paragraph1": "Por supuesto, puedes arreglártelas con inglés o incluso alemán en España en algunos lugares. En regiones turísticas clásicas como la Costa Blanca o Mallorca, a menudo hay incluso supermercados o restaurantes alemanes, y en ciudades grandes como Madrid o Barcelona, muchos hablan al menos un poco de inglés.",
-            "paragraph2": "Pero tan pronto como conoces la \"España real\" – ciudades más pequeñas, oficinas, visitas al médico, conversaciones de vecindario – te das cuenta rápidamente de que estás perdido sin español. No quería ser uno de esos \"emigrantes\" que han estado viviendo en España durante años pero aún apenas pueden formar una oración en español. Así que estaba claro para mí: Tengo que aprender español."
-          },
-          "duolingo": {
-            "title": "Mi comienzo con Duolingo",
-            "paragraph1": "Primero, recurrí a Duolingo en ese entonces. Me gustó la idea de \"aprender jugando\": Una lección durante la pausa del café, otra justo antes de dormir – eso era perfecto para integrar en mi vida cotidiana. Incluso tomé la versión premium porque esperaba lograr resultados más rápido con ella.",
-            "paragraph2": "Y sí, al principio funcionó: Podía practicar tanto como quisiera y veía progreso rápido. Pero con el tiempo, noté que algo faltaba. Las lecciones son entretenidas, pero permanecen muy superficiales. Es más como memorización mecánica que comprensión real.",
-            "paragraph3": "No tenía visión general de la gramática, ninguna estructura clara para las conjugaciones verbales, y los pronombres solo se trataban de pasada. Después de 2-3 meses, perdí el interés – y cambié al método clásico: libros, notas, tarjetas de memoria."
-          },
-          "books": {
-            "title": "Mis recomendaciones de libros",
-            "intro": "Después de mi experiencia con Duolingo, descubrí que el aprendizaje tradicional con libros era más fácil para mí. Las explicaciones estructuradas de la gramática me ayudaron a internalizar mejor las reglas y construir una base sólida. Especialmente los elementos visuales en los libros – ya sea a través de tablas, diagramas o marcaciones de colores – me ayudaron a recordar las reglas más fácilmente. Basándome en mi experiencia de aprendizaje, puedo por tanto recomendar los siguientes libros:",
-            "book1": {
-              "title": "Español – Gramática Conciso y Claro",
-              "author": "por Daniela Wakonigg",
-              "isbn": "ISBN 978-3949604104",
-              "description": "Un libro de principiantes claramente estructurado que comienza desde cero y enseña los conceptos básicos paso a paso. Cada capítulo primero cubre la teoría (por ejemplo, tiempos, pronombres, estructura de oraciones) y luego ofrece ejercicios y listas de vocabulario. Además, hay material en línea para tareas de comprensión auditiva.",
-              "review": "Súper útil para el comienzo inicial en español. El libro te acerca paso a paso a tus primeras oraciones propias. Me gustó particularmente la combinación de teoría, ejercicios y vocabulario – me recuerda mucho a las lecciones de la escuela, solo que más compacto. Con las tareas de comprensión auditiva en línea, también podía entrenar directamente el habla y la comprensión. En general, exactamente lo que necesitas para poder comunicarte un poco en la vida cotidiana."
-            },
-            "book2": {
-              "title": "Historias Españolas para Principiantes: 100 Historias Simples para Aprender Español – con Vocabulario y Ejercicios",
-              "author": "por Christian Stahl",
-              "isbn": "ISBN 978-3949604715",
-              "description": "Este libro consiste en historias cortas y claramente escritas que están específicamente diseñadas para principiantes. Cada historia es lo suficientemente simple para ser entendida sin mucho esfuerzo, y sin embargo constantemente aprendes nuevas palabras y estructuras de oraciones.",
-              "review": "De vez en cuando quería verificar cómo estaban mis habilidades en español – y para eso, el libro es genial. Rápidamente notas que tienes pequeños éxitos, y a través de los archivos de audio puedes entrenar adicionalmente tu comprensión auditiva."
-            },
-            "book3": {
-              "title": "Español – Historias de 5 Minutos A1/A2 con Audio",
-              "author": "PONS",
-              "isbn": "ISBN 978-3125621756",
-              "description": "Este libro ofrece historias cortas y simples que están adaptadas al nivel principiante (A1-A2). Cada historia se puede leer en solo unos minutos y es perfecta para pequeñas unidades de aprendizaje en el medio.",
-              "review": "Para mí, fue una gran manera de hacer pequeños progresos de aprendizaje incluso en la vida cotidiana. El vocabulario marcado hacía la lectura fácil, los mapas mentales me ayudaban a recordar palabras más rápido, y con el audio podía entrenar adicionalmente mi comprensión auditiva. Esto hacía que se sintiera como un \"mini curso de idiomas\" en forma de historias – ligero, motivador y efectivo."
-            }
-          },
-          "flashcards": {
-            "title": "Mi sistema de tarjetas de memoria",
-            "intro": "Para el aprendizaje de vocabulario, me construí una caja de 6 etapas usando el sistema Leitner. Escribir las palabras de vocabulario en tarjetas de memoria me ayudó tremendamente a memorizarlas mejor. A través del acto físico de escribirlas, las palabras se graban mucho más profundamente que solo leyendo. Además, el sistema me ayudó a mantenerme en el camino – siempre tenía una estructura clara y sabía exactamente qué vocabulario tenía que repetir en qué día. Esto me ayudó a mantenerme continuamente comprometido y rastrear mi progreso de aprendizaje. En resumen:",
-            "systemTitle": "El sistema de caja de tarjetas funciona así:",
-            "systemDescription": "Tienes una caja con 6 compartimentos. El nuevo vocabulario siempre comienza en el primer compartimento. Cuando sabes una palabra de vocabulario durante la prueba, se mueve un compartimento más hacia atrás. Si no la sabes, vuelve al frente en el primer compartimento. Cuanto más atrás esté el vocabulario, menos veces se prueba. De esta manera repites vocabulario difícil a menudo y vocabulario fácil solo raramente – hasta que finalmente aterrizan en el último compartimento y se consideran \"casi aprendidas\".",
-            "sixStageSystem": "El Sistema de 6 Etapas",
-            "howItWorks": "¿Cómo funciona?",
-            "whyItWorks": "¿Por qué funciona?",
-            "stage1": {
-              "label": "Etapa 1",
-              "frequency": "Diariamente",
-              "description": "El nuevo vocabulario se repite diariamente"
-            },
-            "stage2": {
-              "label": "Etapa 2",
-              "frequency": "Cada 2 días",
-              "description": "Los primeros éxitos aparecen con menos frecuencia"
-            },
-            "stage3": {
-              "label": "Etapa 3",
-              "frequency": "Semanalmente",
-              "description": "Consolidación a través de repetición semanal"
-            },
-            "stage4": {
-              "label": "Etapa 4",
-              "frequency": "Cada 2 semanas",
-              "description": "Profundización a través de repetición rara"
-            },
-            "stage5": {
-              "label": "Etapa 5",
-              "frequency": "Mensualmente",
-              "description": "Repetición a través de control mensual"
-            },
-            "stage6": {
-              "label": "Etapa 6",
-              "frequency": "Cada 2-3 meses",
-              "description": "Control raro - ¡la palabra está firmemente establecida!"
-            },
-            "step1": "El nuevo vocabulario comienza en el compartimento 1 y se repite diariamente.",
-            "step2": "Cada vez que las tienes correctas, se mueven un nivel hacia atrás – y aparecen con menos frecuencia.",
-            "step3": "El vocabulario incorrecto va de vuelta al frente.",
-            "step4": "Después de algunas semanas, las palabras aterrizan en el compartimento 6 – y se consideran \"aprendidas\".",
-            "conclusion": "El sistema suena simple, pero es increíblemente efectivo porque no desperdicias tu tiempo con vocabulario que ya conoces de todos modos."
-          },
-          "lingolia": {
-            "title": "Aprendizaje en línea con Lingolia",
-            "paragraph1": "Después de mis libros, también quería algo interactivo. Como antes en la escuela durante las lecciones de inglés, solo que para español. Después de una búsqueda más larga, me encontré con Lingolia.",
-            "paragraph2": "Allí encontrarás textos de teoría completos, muchos ejercicios (algunos gratis, otros detrás de un pequeño muro de pago), y no hay suscripciones molestas. Para mí, el complemento perfecto para consolidar gramática y teoría."
-          },
-          "speaking": {
-            "title": "Lo que más ayuda: Hablar",
-            "paragraph1": "Aprendí mucha teoría y vocabulario antes de atreverme a usar una oración en español en el \"mundo real\" por primera vez. Se necesita coraje para realmente empezar a hablar – especialmente con hablantes nativos. Tienes miedo de cometer errores, olvidar palabras, o simplemente no ser entendido.",
-            "paragraph2": "Pero eso es exactamente lo que más me ayudó: simplemente hablar.",
-            "paragraph3": "Funciona mejor con alguien con quien te sientes cómodo y hablas mucho. Tuve mucha suerte de conocer a Emely durante mi primer viaje de planificación a España. Con ella, pude hablar y escribir mucho desde el principio – primero con muchos errores, luego cada vez mejor. Ella me quitó el miedo, y hasta hoy me acompaña no solo en mi aventura española sino también en mi vida – ahora como mi novia.",
-            "paragraph4": "Mirando hacia atrás, ese fue el paso crucial: La teoría y el vocabulario son la base, pero realmente aprendes cuando empiezas a hablar. Cada conversación, sin importar qué torpe sea, te hace avanzar – y la experiencia de éxito de ser entendido es enormemente motivadora."
-          },
-          "currentStatus": {
-            "title": "Mi estado actual",
-            "paragraph1": "Realísticamente hablando: Todavía estoy aprendiendo español. Incluso ahora, a mediados/finales de 2025, practico diariamente – solo que ahora en la vida cotidiana. Mientras compro, en conversación con mi novia, con vecinos, o simplemente a través de la televisión española.",
-            "paragraph2": "No aprendes un idioma en unas pocas semanas, sino pieza por pieza. Pero el español es relativamente fácil, y rápidamente tienes experiencias de éxito.",
-            "tip": "Mi consejo para cualquiera que esté pensando en mudarse a España: Encuentra el camino que sea divertido para ti. Ya sea aplicación, libros, tarjetas de memoria o series con subtítulos – lo importante es solo que te mantengas firme. Porque con cada palabra de vocabulario y cada oración, te sientes un poco más en casa en España."
-          }
-        }
-      },
       "step4": {
         "title": "Descubriendo España",
         "date": "Verano de 2022",
@@ -370,282 +90,72 @@
         "preview": {
           "point1": "Múltiples vacaciones en el área favorita",
           "point2": "Evaluar: ¿encaja el clima, tamaño de ciudad, precios, vida cotidiana?",
-          "point3": "Decisión para la región perfecta"
+          "point3": "Decisión final por una región específica"
         }
       },
       "step6": {
-        "title": "El Plan Concreto: Comprar un Apartamento",
+        "title": "El Plan Concreto: Comprar Propiedad",
         "date": "Invierno 2022/23",
-        "description": "Qué información necesitas (NIE, cuenta bancaria, impuestos). Primeras investigaciones en sitios inmobiliarios y con agentes. Programar citas con vendedores, revisar vecindarios.",
+        "description": "Qué información necesitas (NIE, cuenta bancaria, impuestos). Primeras investigaciones en sitios inmobiliarios y con agentes. Hacer citas con vendedores, revisar vecindarios.",
         "preview": {
           "point1": "Qué información necesitas (NIE, cuenta bancaria, impuestos)",
           "point2": "Primeras investigaciones en sitios inmobiliarios y con agentes",
-          "point3": "Programar citas con vendedores, revisar vecindarios"
+          "point3": "Hacer citas con vendedores, revisar vecindarios"
         }
       },
       "step7": {
         "title": "Burocracia y Formalidades",
-        "date": "Primavera de 2023",
-        "description": "Solicitud de NIE. Abrir cuenta bancaria española. Verificar opciones de financiamiento (bancos alemanes vs. españoles).",
+        "date": "Primavera 2023",
+        "description": "Solicitar NIE. Abrir cuenta bancaria española. Revisar opciones de financiamiento (bancos alemanes vs. españoles).",
         "preview": {
-          "point1": "Solicitud de NIE",
+          "point1": "Solicitar NIE",
           "point2": "Abrir cuenta bancaria española",
-          "point3": "Verificar opciones de financiamiento (bancos alemanes vs. españoles)"
+          "point3": "Revisar opciones de financiamiento (bancos alemanes vs. españoles)"
         }
       },
       "step8": {
-        "title": "La Compra Inmobiliaria",
-        "date": "Verano de 2023",
+        "title": "La Compra de la Propiedad",
+        "date": "Verano 2023",
         "description": "Tu experiencia personal con visitas, contrato de Arras, notario. A qué prestaste atención (vecindario, calidad de construcción, precio, etc.). Dificultades y aprendizajes.",
         "preview": {
-          "point1": "Tu experiencia personal con visitas, contrato de Arras, notario",
-          "point2": "A qué prestaste atención (vecindario, calidad de construcción, precio, etc.)",
-          "point3": "Dificultades y aprendizajes"
+          "point1": "Visitas y búsqueda de propiedades",
+          "point2": "Contrato de Arras y negociaciones",
+          "point3": "Cita notarial y entrega"
         }
       },
       "step9": {
-        "title": "Gestoría – Ayuda en la Jungla Burocrática",
-        "date": "Otoño de 2023",
-        "description": "Por qué decidiste hacerlo. Qué se encargaron por ti (impuestos, registro, servicios públicos).",
+        "title": "La Mudanza",
+        "date": "Otoño 2023",
+        "description": "Cómo organizaste la mudanza. Qué llevaste contigo, qué vendiste. Primeros días en el nuevo apartamento.",
         "preview": {
-          "point1": "Por qué decidiste hacerlo",
-          "point2": "Qué se encargaron por ti (impuestos, registro, servicios públicos)",
-          "point3": "Experiencias con la burocracia española"
+          "point1": "Planificación y organización de la mudanza",
+          "point2": "Qué llevar, qué vender",
+          "point3": "Primeros días en el nuevo hogar"
         }
       },
       "step10": {
-        "title": "Seguridad y Seguros",
+        "title": "La Nueva Vida",
         "date": "Invierno 2023/24",
-        "description": "Contratar Seguro de Hogar. Tus consideraciones sobre por qué qué seguro tenía sentido.",
+        "description": "Cómo ha cambiado la vida. Nuevas rutinas, nuevos amigos, nuevos desafíos. Qué harías diferente.",
         "preview": {
-          "point1": "Contratar Seguro de Hogar",
-          "point2": "Tus consideraciones sobre por qué qué seguro tenía sentido",
-          "point3": "Cobertura de seguro completa para tu nuevo hogar"
-        }
-      },
-      "step11": {
-        "title": "La Primera Estancia en Mi Propio Apartamento",
-        "date": "Primavera de 2024",
-        "description": "De la anticipación al daño por agua - mis primeras experiencias en mi propio apartamento.",
-        "preview": {
-          "point1": "Llegada y primer día en mi propio apartamento",
-          "point2": "El daño por agua y las reparaciones",
-          "point3": "Aprendizajes importantes para la vida en España"
-        }
-      },
-      "step12": {
-        "title": "Perspectiva: La Migración Final",
-        "date": "Verano de 2024",
-        "description": "Qué pasos aún faltan (Residencia, seguro social, impuestos). Tus objetivos para el futuro en España.",
-        "preview": {
-          "point1": "Qué pasos aún faltan (Residencia, seguro social, impuestos)",
-          "point2": "Tus objetivos para el futuro en España",
-          "point3": "Integración completa y perspectivas a largo plazo"
+          "point1": "Nuevas rutinas y hábitos",
+          "point2": "Amistades y vida social",
+          "point3": "Mirando hacia atrás y aprendizajes"
         }
       }
-    },
-    "card": {
-      "readMore": "Leer más"
-    },
-    "cta": {
-      "title": "Sigue Mi Viaje",
-      "description": "Aprende más sobre cada paso e inspírate",
-      "button": "Ver Todos los Pasos"
-    },
-    "placeholder": {
-      "title": "Siguiente Paso",
-      "description": "Se agregará pronto"
-    },
-    "navigation": {
-      "nextStep": "Siguiente Paso",
-      "previousStep": "Paso Anterior"
-    },
-    "steps": {
-      "step1": "El Sueño de España",
-      "step2": "Primeras Investigaciones y Viabilidad",
-      "step3": "Aprender Español"
     }
   },
-  "guide": {
-    "title": "Tu Guía Completa",
-    "subtitle": "Todo lo que necesitas saber para migrar exitosamente a España. Desde requisitos legales hasta consejos prácticos para la vida diaria.",
-    "visa": {
-      "title": "Visa y Legal",
-      "description": "Navega por el complejo mundo de la inmigración española con nuestras guías completas de visa y requisitos legales.",
-      "checklist1": "Selección de tipo de visa",
-      "checklist2": "Preparación de documentos"
-    },
-    "housing": {
-      "title": "Vivienda y Alojamiento",
-      "description": "Encuentra tu hogar perfecto en España con consejos sobre barrios, procesos de alquiler y costos de vivienda.",
-      "checklist1": "Investigación de barrios",
-      "checklist2": "Guía del proceso de alquiler"
-    },
-    "daily": {
-      "title": "Vida Diaria",
-      "description": "Obtén consejos prácticos sobre banca, atención médica, transporte e integración en la cultura española.",
-      "checklist1": "Configuración bancaria",
-      "checklist2": "Registro de atención médica"
-    },
-    "cta": {
-      "title": "¿Listo para Comenzar tu Viaje?",
-      "description": "Únete a miles de otros que han hecho de España su nuevo hogar con nuestra guía probada.",
-      "button": "Comenzar Hoy"
-    }
+  "navigation": {
+    "home": "Inicio",
+    "timeline": "Timeline",
+    "about": "Acerca de",
+    "contact": "Contacto"
   },
-  "ui": {
-    "backToTop": {
-      "ariaLabel": "Desplazarse hacia arriba"
-    },
-    "tableOfContents": {
-      "title": "Tabla de Contenidos",
-      "progress": "Progreso",
-      "noHeadings": "No se encontraron encabezados"
-    },
-    "sidebar": {
-      "title": "Navegación",
-      "toggleMenu": "Alternar menú de navegación",
-      "closeMenu": "Cerrar menú de navegación",
-      "home": "Inicio",
-      "storySteps": "Pasos de la Historia",
-      "language": "Idioma",
-      "menu": "Menú",
-      "navigation": "Navegación"
-    }
-  },
-  "introduction": {
-    "title": "El Camino hacia la Implementación",
-    "paragraph1": "Así que después de que tuve la idea básica – España realmente podría convertirse en mi nuevo hogar – y las ventajas que vi en ello superaron mis miedos iniciales, era hora de hacer un plan real. El sueño solo no es suficiente. Quería entender: ¿Es todo esto incluso factible? ¿Qué requisitos debo cumplir? ¿Y cómo podría verse una línea de tiempo realista?",
-    "paragraph2": "Afortunadamente, internet está lleno de información – y por supuesto, no soy el primer alemán que considera emigrar a España. Un verdadero compañero constante de mi investigación se convirtió en Idealista. Para los que no lo conocen: Idealista no es solo la plataforma inmobiliaria más grande de España (comparable a Immoscout24 en Alemania), sino también un verdadero tesoro de información.",
-    "paragraph3": "Justo al principio, se cristalizaron para mí cuatro temas principales:",
-    "topics": {
-      "residenceRights": {
-        "title": "1. Derechos de Residencia",
-        "description": "Fundamentos legales para la mudanza"
-      },
-      "work": {
-        "title": "2. Trabajo",
-        "description": "Oportunidades de trabajo y trabajo remoto"
-      },
-      "taxes": {
-        "title": "3. Impuestos",
-        "description": "Aspectos fiscales y asesoramiento"
-      },
-      "livingCosts": {
-        "title": "4. Costo de Vida",
-        "description": "Comparación de costos y planificación presupuestaria"
-      }
-    }
-  },
-  "conclusion": {
-    "title": "Conclusión de Mi Investigación",
-    "intro": "Al final de mi investigación, era más sabio – y honestamente más motivado también. Sabía:",
-    "topics": {
-      "residenceRights": {
-        "title": "✅ Derechos de Residencia",
-        "description": "Como alemán, relativamente sin complicaciones, pero con obligaciones desde 3 meses o 183 días respectivamente."
-      },
-      "work": {
-        "title": "✅ Trabajo",
-        "description": "Remoto desde Alemania = financieramente más atractivo, pero con trampas fiscales."
-      },
-      "taxes": {
-        "title": "✅ Impuestos",
-        "description": "Complejo, regionalmente diferente, necesitas buen asesoramiento."
-      },
-      "livingCosts": {
-        "title": "✅ Costo de Vida",
-        "description": "A primera vista barato, pero realistamente solo en relación a salarios españoles."
-      }
-    },
-    "bonus": {
-      "title": "Bonus: Comida Sin Gluten",
-      "description": "Obviamente más fácil y variada que en Alemania, tanto en supermercados como en restaurantes."
-    }
-  },
-  "gestoria": {
-    "title": "Gestoría – Ayuda en la Jungla Burocrática",
-    "subtitle": "Cómo una Gestoría me ayudó con la compra de mi propiedad y por qué fue la mejor opción que un abogado.",
-    "introduction": {
-      "title": "Gestoría – Ayuda en la Jungla Burocrática",
-      "content": "Como ya has leído, la Gestoría se encargó de mucha organización y burocracia por mí. Quiero darte un breve resumen de por qué al final opté por una Gestoría – y no por un abogado especializado en derecho inmobiliario – y exactamente qué hicieron por mí."
-    },
-    "whyGestoria": {
-      "title": "¿Por qué una Gestoría y no un abogado?",
-      "intro": "O por qué no ambos, se preguntarán algunos. De hecho, las tareas de ambas partes solo se superponen parcialmente.",
-      "gestoria": {
-        "title": "Gestoría",
-        "description": "Una Gestoría es básicamente una oficina de administración y tramitación. Se encargan de solicitudes a organismos, impuestos, registros y todos los procesos organizativos relacionados con la compra de una propiedad. Se puede pensar en ellos como una mezcla de asesor fiscal y asistente administrativo que trabajan muy cerca de la práctica."
-      },
-      "lawyer": {
-        "title": "Abogado Especializado en Derecho Inmobiliario",
-        "description": "Un abogado examina principalmente el aspecto legal de la compra – por ejemplo, si todo en el registro de la propiedad está correcto, si el contrato contiene cláusulas que podrían perjudicarte, o si existen pasivos ambientales. En caso de duda, también es responsable de un asesoramiento incorrecto."
-      },
-      "costs": {
-        "title": "💶 Costos",
-        "content": "Mientras que una Gestoría suele costar entre 500–1.500 € por el procesamiento completo, un abogado especializado a menudo cobra 150–250 € por hora o una tarifa fija de 2.000–3.000 €. Ambos juntos es por supuesto la opción más segura, pero rápidamente excede el presupuesto."
-      },
-      "conclusion": "Yo mismo nunca había oído hablar de una Gestoría antes de mi compra y inicialmente solo mantuve un abogado en reserva. Pero no fue hasta que estaba a punto de hundirme en el caos después de firmar el Contrato de Arras (contrato de arras y precontrato) que me topé con la Gestoría Carrasco a través de Google. Y me ayudaron tan bien que ya no necesité al abogado. Los riesgos que discutimos juntos eran manejables, y para mí la relación precio-rendimiento claramente superó todo lo demás."
-    },
-    "whatTheyDid": {
-      "title": "¿Qué hizo la Gestoría por mí?",
-      "intro": "Cronológicamente fue así:"
-    },
-    "chronologicalProcess": {
-      "title": "Proceso Cronológico",
-      "intro": "Aquí tienes un resumen detallado de todos los pasos que la Gestoría realizó por mí:",
-      "steps": {
-        "step1": {
-          "title": "Revisión del Contrato de Arras",
-          "description": "Ya había firmado cuando la Gestoría se incorporó. Afortunadamente, era un contrato estándar de Redpiso que cumplía con todos los requisitos legales y no me perjudicaba."
-        },
-        "step2": {
-          "title": "Resumen de Costos",
-          "description": "Antes de que realmente comenzara, recibí un presupuesto de los costos adicionales (impuestos, notario, registro de la propiedad, etc.) para saber cuánto dinero necesitaba tener listo."
-        },
-        "step3": {
-          "title": "Revisión del Contrato de Compra",
-          "description": "El contrato de compra real fue verificado por corrección y me fue explicado en alemán. También recibí el consejo de exigir un recibo oficial de transferencia por cada pago – ¡muy valioso!"
-        },
-        "step4": {
-          "title": "Poder Notarial General",
-          "description": "Por recomendación de la Gestoría, les otorgué un poder. Así pudieron realizar todos los pasos posteriores en mi nombre sin que yo tuviera que volar constantemente a España. Eso valió su peso en oro."
-        },
-        "step5": {
-          "title": "Apertura de Cuenta Bancaria",
-          "description": "Como las transferencias desde Alemania a menudo no son aceptadas, la Gestoría abrió una cuenta española para mí. El precio de compra, impuestos y costos adicionales corrientes pasaron por esta cuenta."
-        },
-        "step6": {
-          "title": "Recopilación de Documentos",
-          "description": "Solicitaron todos los documentos necesarios al vendedor: declaración de impuestos sobre la propiedad, facturas corrientes de electricidad y agua, certificado energético, comprobante de hipoteca, etc. – sin los cuales no habría cita notarial."
-        },
-        "step7": {
-          "title": "Preparación y Revisión de la Escritura",
-          "description": "La Escritura es la escritura de compra final que se firma en el notario. La Gestoría revisó el documento en detalle, me envió una traducción y pidió mi consentimiento. Incluso cuando el notario originalmente planificado se retiró a corto plazo, encontraron un reemplazo en un día."
-        },
-        "step8": {
-          "title": "Representación en el Notario",
-          "description": "El día de la firma, la Gestoría se sentó por mí en el notario, completó la compra limpiamente, recibió las llaves y las guardó en su oficina hasta que pude recogerlas personalmente."
-        }
-      }
-    },
-    "afterPurchase": {
-      "title": "Después de la Compra",
-      "intro": "Su trabajo no terminó con la entrega de llaves:",
-      "ongoingServices": {
-        "title": "Servicios Continuos",
-        "contracts": "Los contratos de electricidad y agua fueron transferidos a mi nombre",
-        "tax": "El impuesto de transmisiones patrimoniales (ITP) fue transferido",
-        "taxReturn": "Y hasta hoy, la Gestoría maneja la declaración de impuestos anual para no residentes (Impuesto sobre la Renta de no Residentes)."
-      }
-    },
-    "conclusion": {
-      "title": "Mi Conclusión",
-      "content": "Una Gestoría no es un lujo, sino más bien un salvavidas. Especialmente cuando no puedes acompañar la compra en el lugar, vale su peso en oro – y en relación con las sumas que se mueven en las compras de propiedades de todos modos, también está bien invertido financieramente.",
-      "keyTakeaway": {
-        "title": "💡 Lo Más Importante",
-        "content": "Para mí, fue la mejor decisión dejar todo el procesamiento a una Gestoría. Literalmente me respaldaron, así que pude concentrarme en lo esencial: la anticipación de mi apartamento en España."
-      }
+  "footer": {
+    "description": "Un viaje personal hacia emigrar a España",
+    "links": {
+      "privacy": "Privacidad",
+      "imprint": "Aviso Legal"
     }
   }
 }

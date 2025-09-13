@@ -1,0 +1,117 @@
+{
+  "learning-spanish": {
+    "title": "First Steps: Learning Spanish",
+    "date": "Summer 2022",
+    "description": "Why learning Spanish is so important and how I approached it - from Duolingo to books and flashcards.",
+    "preview": {
+      "point1": "Why learning Spanish is so important",
+      "point2": "My experiences with Duolingo and books",
+      "point3": "My flashcard system and online learning"
+    },
+    "hero": {
+      "badge": "Language Learning",
+      "title": "Without Spanish it doesn't work",
+      "subtitle": "Through the research in the previous step, I learned a lot – for example, that it can be interesting from a tax perspective to work in Spain, or that there is a much greater variety of gluten-free alternatives there than I would have thought. But one insight was even more important: Without Spanish it doesn't work."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Why learning Spanish is so important",
+        "paragraph1": "Of course, you can get by with English or even German in Spain in some places. In classic tourist regions like the Costa Blanca or Mallorca, there are often even German supermarkets or restaurants, and in big cities like Madrid or Barcelona, many speak at least a little English.",
+        "paragraph2": "But as soon as you get to know the \"real Spain\" – smaller cities, offices, doctor visits, neighborhood conversations – you quickly realize that you're lost without Spanish. I didn't want to be one of those \"emigrants\" who have been living in Spain for years but still can barely put together a sentence in Spanish. So it was clear to me: I have to learn Spanish."
+      },
+      "duolingo": {
+        "title": "My start with Duolingo",
+        "paragraph1": "First, I turned to Duolingo back then. I liked the idea of \"learning while playing\": One lesson during coffee break, another one just before falling asleep – that was perfect to integrate into my everyday life. I even took the premium version because I hoped to achieve results faster with it.",
+        "paragraph2": "And yes, at the beginning it worked: I could practice as much as I wanted and saw quick progress. But over time, I noticed that something was missing. The lessons are entertaining, but they remain very superficial. It's more like rote memorization than real understanding.",
+        "paragraph3": "I had no overview of grammar, no clear structure for verb conjugations, and pronouns were only treated in passing. After 2-3 months, I lost interest – and switched to the classic method: books, notes, flashcards."
+      },
+      "books": {
+        "title": "My book recommendations",
+        "intro": "After my experience with Duolingo, I found that traditional learning with books was easiest for me. The structured explanations of grammar helped me internalize the rules better and build a solid foundation. Especially the visual elements in books – whether through tables, diagrams, or colored markings – helped me remember the rules more easily. Based on my learning experience, I can therefore recommend the following books:",
+        "book1": {
+          "title": "Spanish – Grammar Concise & Clear",
+          "author": "by Daniela Wakonigg",
+          "isbn": "ISBN 978-3949604104",
+          "description": "A clearly structured beginner's book that starts from zero and teaches the basics step by step. Each chapter first covers the theory (e.g., tenses, pronouns, sentence structure) and then offers exercises and vocabulary lists. Additionally, there is online material for listening comprehension tasks.",
+          "review": "Super helpful for the initial start in Spanish. The book brings you closer to your first own sentences step by step. I particularly liked the combination of theory, exercises, and vocabulary – it strongly reminds me of school lessons, just more compact. With the online listening comprehension tasks, I could also directly train speaking and understanding. All in all, exactly what you need to be able to communicate a little in everyday life."
+        },
+        "book2": {
+          "title": "Spanish Stories for Beginners: 100 Simple Stories for Learning Spanish – with Vocabulary and Exercises",
+          "author": "by Christian Stahl",
+          "isbn": "ISBN 978-3949604715",
+          "description": "This book consists of short, clearly written stories that are specifically designed for beginners. Each story is simple enough to be understood without much effort, and yet you constantly learn new words and sentence structures.",
+          "review": "Every now and then I wanted to check how my Spanish skills were doing – and for that, the book is great. You quickly notice that you're having small successes, and through the audio files you can additionally train your listening comprehension."
+        },
+        "book3": {
+          "title": "Spanish – 5-Minute Stories A1/A2 with Audio",
+          "author": "PONS",
+          "isbn": "ISBN 978-3125621756",
+          "description": "This book offers short, simple stories that are tailored to beginner level (A1-A2). Each story can be read in just a few minutes and is perfect for small learning units in between.",
+          "review": "For me, it was a great way to make small learning progress even in everyday life. The marked vocabulary made reading easy, the mind maps helped me remember words faster, and with the audio I could additionally train my listening comprehension. This made it feel like a \"mini language course\" in the form of stories – light, motivating, and effective."
+        }
+      },
+      "flashcards": {
+        "title": "My flashcard system",
+        "intro": "For vocabulary learning, I built myself a 6-stage box using the Leitner system. Writing the vocabulary words on flashcards helped me tremendously in memorizing them better. Through the physical act of writing them down, the words become much more deeply ingrained than through mere reading. Additionally, the system helped me stay on track – I always had a clear structure and knew exactly which vocabulary I had to repeat on which day. This helped me stay continuously engaged and track my learning progress. In short:",
+        "systemTitle": "The flashcard box system works like this:",
+        "systemDescription": "You have a box with 6 compartments. New vocabulary always starts in the first compartment. When you know a vocabulary word during testing, it moves one compartment further back. If you don't know it, it goes back to the very front in the first compartment. The further back the vocabulary is, the less often it gets tested. This way you repeat difficult vocabulary often and easy vocabulary only rarely – until they finally land in the last compartment and are considered \"almost learned\".",
+        "sixStageSystem": "The 6-Stage System",
+        "howItWorks": "How does it work?",
+        "whyItWorks": "Why does it work?",
+        "stage1": {
+          "label": "Stage 1",
+          "frequency": "Daily",
+          "description": "New vocabulary is repeated daily"
+        },
+        "stage2": {
+          "label": "Stage 2",
+          "frequency": "Every 2 days",
+          "description": "First successes come up less often"
+        },
+        "stage3": {
+          "label": "Stage 3",
+          "frequency": "Weekly",
+          "description": "Consolidation through weekly repetition"
+        },
+        "stage4": {
+          "label": "Stage 4",
+          "frequency": "Every 2 weeks",
+          "description": "Deepening through rare repetition"
+        },
+        "stage5": {
+          "label": "Stage 5",
+          "frequency": "Monthly",
+          "description": "Repetition through monthly control"
+        },
+        "stage6": {
+          "label": "Stage 6",
+          "frequency": "Every 2-3 months",
+          "description": "Rare control - the word is firmly established!"
+        },
+        "step1": "New vocabulary starts in compartment 1 and is repeated daily.",
+        "step2": "Every time you get them right, they move one level back – and come up less often.",
+        "step3": "Incorrect vocabulary goes back to the very front.",
+        "step4": "After a few weeks, the words land in compartment 6 – and are considered \"learned\".",
+        "conclusion": "The system sounds simple, but it's incredibly effective because you don't waste your time with vocabulary you already know anyway."
+      },
+      "lingolia": {
+        "title": "Online learning with Lingolia",
+        "paragraph1": "After my books, I wanted something interactive as well. Like back in school during English lessons, just for Spanish. After a longer search, I came across Lingolia.",
+        "paragraph2": "There you'll find comprehensive theory texts, many exercises (some free, others behind a small paywall), and no annoying subscriptions. For me, the perfect complement to consolidate grammar and theory."
+      },
+      "speaking": {
+        "title": "What helps most: Speaking",
+        "paragraph1": "I learned a lot of theory and vocabulary before I dared to use a Spanish sentence in the \"real world\" for the first time. It takes courage to really start speaking – especially with native speakers. You're afraid of making mistakes, forgetting words, or simply not being understood.",
+        "paragraph2": "But that's exactly what helped me most: simply speaking.",
+        "paragraph3": "It works best with someone you're comfortable with and talk to a lot. I was very lucky to meet Emely during my first planning trip to Spain. With her, I could speak and write a lot from the beginning – first with many mistakes, then getting better and better. She took away my fear, and to this day she accompanies me not only in my Spanish adventure but also in my life – now as my girlfriend.",
+        "paragraph4": "Looking back, that was the crucial step: Theory and vocabulary are the foundation, but you really learn when you start speaking. Every conversation, no matter how bumpy, moves you forward – and the success experience of being understood is enormously motivating."
+      },
+      "currentStatus": {
+        "title": "My current status",
+        "paragraph1": "Realistically speaking: I'm still learning Spanish. Even now, mid/late 2025, I practice daily – just in everyday life now. While shopping, in conversation with my girlfriend, with neighbors, or simply through Spanish TV.",
+        "paragraph2": "You don't learn a language in a few weeks, but piece by piece. But Spanish is relatively easy, and you quickly have success experiences.",
+        "tip": "My tip for anyone thinking about moving to Spain: Find the way that's fun for you. Whether app, books, flashcards, or series with subtitles – the important thing is just that you stick with it. Because with every vocabulary word and every sentence, you feel a bit more at home in Spain."
+      }
+    }
+  }
+}

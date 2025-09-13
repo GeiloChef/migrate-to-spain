@@ -1,0 +1,117 @@
+{
+  "learning-spanish": {
+    "title": "Erste Schritte: Spanisch lernen",
+    "date": "Sommer 2022",
+    "description": "Warum Spanisch lernen so wichtig ist und wie ich es angegangen bin - von Duolingo bis zu Büchern und Karteikarten.",
+    "preview": {
+      "point1": "Warum Spanisch lernen so wichtig ist",
+      "point2": "Meine Erfahrungen mit Duolingo und Büchern",
+      "point3": "Mein Karteikarten-System und Online-Lernen"
+    },
+    "hero": {
+      "badge": "Sprachlernen",
+      "title": "Ohne Spanisch geht es nicht",
+      "subtitle": "Durch die Recherche im vorherigen Schritt habe ich viel gelernt – etwa, dass es steuerlich interessant sein kann, in Spanien zu arbeiten, oder dass es dort eine deutlich größere Vielfalt an glutenfreien Alternativen gibt als ich gedacht hätte. Aber eine Erkenntnis war noch wichtiger: Ohne Spanisch geht es nicht."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Warum Spanisch lernen so wichtig ist",
+        "paragraph1": "Natürlich kommt man mit Englisch oder sogar Deutsch in Spanien stellenweise durch. In klassischen Touristenregionen wie an der Costa Blanca oder auf Mallorca gibt es oft sogar deutsche Supermärkte oder Restaurants, und in großen Städten wie Madrid oder Barcelona sprechen viele zumindest ein wenig Englisch.",
+        "paragraph2": "Aber sobald man das \"echte Spanien\" kennenlernt – kleinere Städte, Ämter, Arztbesuche, Nachbarschaftsgespräche – merkt man schnell, dass man ohne Spanisch verloren ist. Ich wollte nicht zu den \"Auswanderern\" gehören, die seit Jahren in Spanien leben, aber noch immer kaum einen Satz Spanisch zustande bringen. Also stand für mich fest: Ich muss Spanisch lernen."
+      },
+      "duolingo": {
+        "title": "Mein Start mit Duolingo",
+        "paragraph1": "Als erstes habe ich damals zu Duolingo gegriffen. Mir gefiel die Idee, \"spielend zu lernen\": Eine Lektion in der Kaffeepause, eine weitere kurz vorm Einschlafen – das war perfekt in meinen Alltag einzubauen. Ich habe sogar die Premium-Version genommen, weil ich hoffte, damit schneller Ergebnisse zu erzielen.",
+        "paragraph2": "Und ja, am Anfang funktionierte das auch: ich konnte üben, so viel ich wollte, und sah schnelle Fortschritte. Doch mit der Zeit merkte ich, dass mir etwas fehlte. Die Lektionen sind zwar unterhaltsam, aber sie bleiben sehr oberflächlich. Es ist eher stupides Auswendiglernen als wirkliches Verstehen.",
+        "paragraph3": "Ich hatte keine Übersicht über die Grammatik, keine klare Struktur für die Verbkonjugationen, und auch die Pronomen wurden nur beiläufig behandelt. Nach 2–3 Monaten verlor ich die Lust – und wechselte auf die klassische Methode: Bücher, Notizen, Karteikarten."
+      },
+      "books": {
+        "title": "Meine Bücher-Empfehlungen",
+        "intro": "Nach meiner Erfahrung mit Duolingo habe ich festgestellt, dass traditionelles Lernen mit Büchern für mich am einfachsten war. Die strukturierten Erklärungen zur Grammatik haben mir geholfen, die Regeln besser zu verinnerlichen und ein solides Fundament aufzubauen. Besonders das Visuelle in den Büchern – sei es durch Tabellen, Diagramme oder farbige Markierungen – hat mir geholfen, mir die Regeln einfacher merken zu können. Aus meiner Lernerfahrung kann ich daher folgende Bücher empfehlen:",
+        "book1": {
+          "title": "Spanisch – Grammatik kurz & bündig",
+          "author": "von Daniela Wakonigg",
+          "isbn": "ISBN 978-3949604104",
+          "description": "Ein klar strukturiertes Einsteigerbuch, das bei null anfängt und Schritt für Schritt die Grundlagen vermittelt. Jedes Kapitel behandelt zunächst die Theorie (z. B. Zeiten, Pronomen, Satzbau) und bietet anschließend Übungen sowie Vokabellisten. Zusätzlich gibt es Online-Material für Hörverständnis-Aufgaben.",
+          "review": "Super hilfreich für den initialen Start in die spanische Sprache. Das Buch bringt einen Stück für Stück näher zu den ersten eigenen Sätzen. Besonders positiv fand ich die Kombination aus Theorie, Übungen und Vokabeln – es erinnert stark an den Unterricht in der Schule, nur eben kompakter. Mit den Online-Hörverstehensaufgaben konnte ich außerdem direkt das Sprechen und Verstehen trainieren. Alles in allem genau das, was man braucht, um sich im Alltag schon mal ein wenig verständigen zu können."
+        },
+        "book2": {
+          "title": "Spanische Geschichten für Anfänger: 100 einfache Geschichten zum Spanisch Lernen – mit Vokabeln und Übungen",
+          "author": "von Christian Stahl",
+          "isbn": "ISBN 978-3949604715",
+          "description": "Dieses Buch besteht aus kurzen, klar geschriebenen Geschichten, die speziell für Anfänger gedacht sind. Jede Geschichte ist einfach genug, um ohne große Mühe verstanden zu werden, und trotzdem lernt man ständig neue Wörter und Satzstrukturen.",
+          "review": "Hin und wieder wollte ich überprüfen, wie es denn um meine Spanischkenntnisse steht – und dafür ist das Buch klasse. Man merkt schnell, dass man kleine Erfolge hat, und durch die Audiodateien kann man zusätzlich das Hörverstehen trainieren."
+        },
+        "book3": {
+          "title": "Spanisch – 5-Minuten-Geschichten A1/A2 mit Audios",
+          "author": "PONS",
+          "isbn": "ISBN 978-3125621756",
+          "description": "Dieses Buch bietet kurze, einfache Geschichten, die auf Anfänger-Niveau (A1–A2) zugeschnitten sind. Jede Geschichte lässt sich in nur wenigen Minuten lesen und eignet sich perfekt für kleine Lerneinheiten zwischendurch.",
+          "review": "Für mich war es eine tolle Möglichkeit, auch im Alltag kleine Lernfortschritte zu machen. Die markierten Vokabeln machten das Lesen einfach, die Mindmaps halfen mir, Wörter schneller im Gedächtnis zu behalten, und mit den Audios konnte ich zusätzlich mein Hörverstehen trainieren. Dadurch fühlte es sich an wie ein \"Mini-Sprachkurs\" in Form von Geschichten – leicht, motivierend und effektiv."
+        }
+      },
+      "flashcards": {
+        "title": "Mein Karteikarten-System",
+        "intro": "Für das Vokabellernen habe ich mir selbst eine 6-stufige Box nach dem Leitner-System gebaut. Das Schreiben der Vokabeln auf Karteikarten hat mir dabei enorm geholfen, sie besser zu memorieren. Durch den physischen Akt des Aufschreibens prägen sich die Wörter viel tiefer ein als beim reinen Lesen. Außerdem hat mich das System dabei unterstützt, am Ball zu bleiben – ich hatte immer eine klare Struktur und wusste genau, welche Vokabeln ich an welchem Tag wiederholen musste. Das hat mir geholfen, kontinuierlich dranzubleiben und meinen Lernfortschritt zu verfolgen. Kurz gesagt:",
+        "systemTitle": "Das Karteikasten-System funktioniert so:",
+        "systemDescription": "Man hat eine Box mit 6 Fächern. Neue Vokabeln beginnen immer im ersten Fach. Wenn man eine Vokabel beim Abfragen richtig weiß, rückt sie ein Fach weiter nach hinten. Weiß man sie nicht, kommt sie wieder ganz nach vorne ins erste Fach. Je weiter hinten die Vokabel liegt, desto seltener wird sie abgefragt. Auf diese Weise wiederholt man schwierige Vokabeln oft und leichte Vokabeln nur noch selten – bis sie schließlich im letzten Fach landen und als \"fast gelernt\" gelten.",
+        "sixStageSystem": "Das 6-Stufen-System",
+        "howItWorks": "Wie funktioniert es?",
+        "whyItWorks": "Warum funktioniert es?",
+        "stage1": {
+          "label": "Stufe 1",
+          "frequency": "Täglich",
+          "description": "Neue Vokabeln werden täglich wiederholt"
+        },
+        "stage2": {
+          "label": "Stufe 2",
+          "frequency": "Alle 2 Tage",
+          "description": "Erste Erfolge kommen seltener dran"
+        },
+        "stage3": {
+          "label": "Stufe 3",
+          "frequency": "Wöchentlich",
+          "description": "Festigung durch wöchentliche Wiederholung"
+        },
+        "stage4": {
+          "label": "Stufe 4",
+          "frequency": "Alle 2 Wochen",
+          "description": "Vertiefung durch seltene Wiederholung"
+        },
+        "stage5": {
+          "label": "Stufe 5",
+          "frequency": "Monatlich",
+          "description": "Wiederholung durch monatliche Kontrolle"
+        },
+        "stage6": {
+          "label": "Stufe 6",
+          "frequency": "Alle 2-3 Monate",
+          "description": "Seltene Kontrolle - das Wort sitzt fest!"
+        },
+        "step1": "Neue Vokabeln starten in Fach 1 und werden täglich wiederholt.",
+        "step2": "Jedes Mal, wenn man sie richtig kann, wandern sie eine Stufe nach hinten – und kommen seltener dran.",
+        "step3": "Fehlerhafte Vokabeln gehen wieder ganz nach vorne.",
+        "step4": "Nach einigen Wochen landen die Wörter in Fach 6 – und gelten als \"gelernt\".",
+        "conclusion": "Das System klingt simpel, ist aber unglaublich effektiv, weil man seine Zeit nicht mit Vokabeln verschwendet, die man ohnehin schon kann."
+      },
+      "lingolia": {
+        "title": "Online-Lernen mit Lingolia",
+        "paragraph1": "Nach meinen Büchern wollte ich zusätzlich etwas Interaktives. So wie früher in der Schule beim Englischunterricht, nur eben für Spanisch. Nach längerer Suche bin ich auf Lingolia gestoßen.",
+        "paragraph2": "Dort gibt es ausführliche Theorietexte, viele Übungen (einige gratis, andere hinter einer kleinen Bezahlschranke), und keine nervigen Abos. Für mich die perfekte Ergänzung, um Grammatik und Theorie zu festigen."
+      },
+      "speaking": {
+        "title": "Am meisten hilft: Sprechen",
+        "paragraph1": "Ich habe eine ganze Menge Theorie und Vokabeln gelernt, bevor ich mich das erste Mal traute, einen spanischen Satz in der \"realen Welt\" zu benutzen. Es kostet Überwindung, wirklich anzufangen zu sprechen – besonders mit Muttersprachlern. Man hat Angst, Fehler zu machen, Wörter zu vergessen oder einfach nicht verstanden zu werden.",
+        "paragraph2": "Aber genau das hat mir am meisten geholfen: einfach zu sprechen.",
+        "paragraph3": "Am besten funktioniert das mit jemandem, mit dem man vertraut ist und mit dem man viel redet. Ich hatte das große Glück, dass ich während meiner ersten Planungsreise nach Spanien Emely kennengelernt habe. Mit ihr konnte ich von Anfang an viel sprechen und schreiben – erst noch mit vielen Fehlern, dann immer besser. Sie hat mir die Angst genommen, und bis heute begleitet sie mich nicht nur bei meinem Spanisch-Abenteuer, sondern auch in meinem Leben – mittlerweile als meine Freundin.",
+        "paragraph4": "Rückblickend war das der entscheidende Schritt: Theorie und Vokabeln sind die Basis, aber wirklich lernen tut man, wenn man anfängt zu sprechen. Jedes Gespräch, egal wie holprig, bringt dich weiter – und das Erfolgserlebnis, verstanden zu werden, motiviert enorm."
+      },
+      "currentStatus": {
+        "title": "Mein heutiger Stand",
+        "paragraph1": "Realistisch betrachtet: Ich lerne immer noch Spanisch. Auch jetzt, Mitte/Ende 2025, übe ich täglich – nur inzwischen eben im Alltag. Beim Einkaufen, im Gespräch mit meiner Freundin, mit Nachbarn oder einfach durch spanisches Fernsehen.",
+        "paragraph2": "Eine Sprache lernt man nicht in ein paar Wochen, sondern Stück für Stück. Aber Spanisch ist vergleichsweise einfach, und man hat schnell Erfolgserlebnisse.",
+        "tip": "Mein Tipp für jeden, der mit dem Gedanken spielt, nach Spanien zu ziehen: Finde den Weg, der dir Spaß macht. Ob App, Bücher, Karteikarten oder Serien mit Untertiteln – wichtig ist nur, dass du dranbleibst. Denn mit jeder Vokabel und jedem Satz fühlt man sich ein Stück mehr zuhause in Spanien."
+      }
+    }
+  }
+}

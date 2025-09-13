@@ -3,7 +3,7 @@
     <div class="px-6 py-16">
       <!-- Header outside grid -->
       <h2 class="!text-2xl font-bold text-gray-900 mb-6">
-        {{ $t('story.timeline.step3.sections.introduction.title') }}
+        {{ $t('learning-spanish.sections.introduction.title') }}
       </h2>
       
       <!-- Content and image side by side -->
@@ -11,11 +11,11 @@
         <!-- Content -->
         <div class="space-y-4 text-gray-700 leading-relaxed">
           <p class="mb-4">
-            {{ $t('story.timeline.step3.sections.introduction.paragraph1') }}
+            {{ $t('learning-spanish.sections.introduction.paragraph1') }}
           </p>
           
           <p>
-            {{ $t('story.timeline.step3.sections.introduction.paragraph2') }}
+            {{ $t('learning-spanish.sections.introduction.paragraph2') }}
           </p>
         </div>
 

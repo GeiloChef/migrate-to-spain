@@ -2,8 +2,8 @@
   <TimelineLayout
     :previous-step="'/timeline/first-research-feasibility'"
     :next-step="'/timeline/discovering-spain'"
-    :previous-step-name="$t('story.timeline.step2.title')"
-    :next-step-name="$t('story.timeline.step4.title')"
+    :previous-step-name="$t('first-research-feasibility.title')"
+    :next-step-name="$t('discovering-spain.title')"
   >
     <!-- Hero Section -->
     <LearningSpanishHeroSection />
@@ -36,9 +36,9 @@
 
 <script setup>
 useHead({
-  title: 'Erste Schritte: Spanisch lernen - Timeline Step 3',
+  title: () => $t('learning-spanish.title') + ' - Timeline Step 3',
   meta: [
-    { name: 'description', content: 'Warum Spanisch lernen so wichtig ist und wie ich es angegangen bin - von Duolingo bis zu Büchern und Karteikarten.' }
+    { name: 'description', content: () => $t('learning-spanish.description') }
   ]
 })
 </script>
