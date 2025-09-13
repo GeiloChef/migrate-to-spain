@@ -1,0 +1,69 @@
+{
+  "the-dream-of-spain": {
+    "title": "The Dream of Spain",
+    "date": "Early 2022",
+    "description": "Where did the idea come from? Why Spain? First thoughts, wishes, fears.",
+    "preview": {
+      "point1": "First thoughts about Spain",
+      "point2": "Why this country specifically?",
+      "point3": "Fears and doubts"
+    },
+    "hero": {
+      "badge": "The Beginning",
+      "title": "Where Did the Idea Come From?",
+      "subtitle": "If you've landed here, you probably know this impulse: You're sitting on vacation in Spain, looking at the sea, and thinking: 'Why don't I just stay here?'",
+      "imagePlaceholder": "Sunset at the beach / typical Spain feeling"
+    },
+    "sections": {
+      "beginning": {
+        "title": "The Beginning",
+        "paragraph1": "That's exactly how it started for me. Spain has always appealed to me – many warm days a year, an open and warm culture, endless sandy beaches, but also mountainous landscapes for hiking. Everything I longed for while sitting in a cold office in Germany or looking out the window on gray weekends.",
+        "paragraph2": "The contrast between my current life and the potential future became clear, and I began to think about what a different life could look like.",
+        "imagePlaceholder": "Sunset at the beach / typical Spain feeling"
+      },
+      "turningPoint": {
+        "title": "A Personal Turning Point",
+        "paragraph1": "In April 2022, I was diagnosed with celiac disease. Suddenly I couldn't eat normal bread anymore, couldn't have conventional oatmeal for breakfast, and even eating out became a challenge. Especially in the countryside in Germany, it was almost impossible to find something suitable spontaneously.",
+        "paragraph2": "Supermarkets offered hardly any selection, restaurants had no gluten-free options – my everyday life felt severely restricted.",
+        "question": "This situation led to the question: Can't this be done better somewhere else?",
+        "answer": "And that's exactly what brought me back to Spain.",
+        "imagePlaceholder": "A set table with gluten-free bread / food symbol image"
+      },
+      "research": {
+        "title": "First Research",
+        "paragraph1": "To my surprise, I quickly came across positive reports: Spanish supermarkets had a significantly larger selection of gluten-free products – from tortillas to bread to cookies and cakes. Restaurants were also often set up to safely serve people with celiac disease.",
+        "paragraph2": "And at this point my decision was firm: I wanted to find a way to live in Spain. Not just because of sun and prices – but because I saw the chance to live more simply and carefree there.",
+        "imagePlaceholder": "Spanish supermarket with gluten-free products"
+      },
+      "fears": {
+        "title": "First Ideas – and Fears",
+        "subtitle": "At first I thought it was simple: Find a property, move there, done. But I quickly realized it was about much more. Such a step is not a move 'to the next town' – it's a fresh start in a foreign country.",
+        "fear1": {
+          "title": "Will I be able to do this all alone?",
+          "description": "The biggest question was whether I could handle all the bureaucracy, language barriers, and cultural differences on my own."
+        },
+        "fear2": {
+          "title": "Leaving family and friends behind",
+          "description": "How would it feel to leave family and friends behind? Would I be able to maintain these important relationships from afar?"
+        },
+        "fear3": {
+          "title": "Language barriers",
+          "description": "How would I get by without language skills? Would I be able to communicate effectively in everyday situations?"
+        },
+        "conclusion": "Many nights I lay awake and went through these questions in my head."
+      },
+      "firstStep": {
+        "title": "The Most Important First Step",
+        "description": "Alongside all the bureaucratic things I still had to clarify, there was one task I could start immediately – and which turned out to be absolutely crucial in hindsight: Learning Spanish.",
+        "option1": {
+          "title": "Traditional Learning",
+          "description": "Using textbooks and language courses to build a solid foundation in Spanish grammar and vocabulary."
+        },
+        "option2": {
+          "title": "Digital Learning",
+          "description": "Using language apps and online resources for flexible, mobile learning that fits into any schedule."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "the-dream-of-spain": {
+    "title": "Der Traum von Spanien",
+    "date": "Anfang 2022",
+    "description": "Woher kam die Idee? Warum Spanien? Erste Vorstellungen, Wünsche, Ängste.",
+    "preview": {
+      "point1": "Die ersten Gedanken an Spanien",
+      "point2": "Warum gerade dieses Land?",
+      "point3": "Ängste und Zweifel"
+    },
+    "hero": {
+      "badge": "Der Beginn",
+      "title": "Woher kam die Idee?",
+      "subtitle": "Wenn du schon hier gelandet bist, kennst du bestimmt diesen Impuls: Man sitzt im Urlaub in Spanien, blickt aufs Meer und denkt sich: \"Warum bleibe ich eigentlich nicht hier?\"",
+      "imagePlaceholder": "Sonnenuntergang am Strand / typisches Spanien-Feeling"
+    },
+    "sections": {
+      "beginning": {
+        "title": "Der Beginn",
+        "paragraph1": "Genau so fing es bei mir an. Spanien hat mich schon immer gereizt – viele warme Tage im Jahr, eine offene und herzliche Kultur, endlose Sandstrände, aber auch bergige Landschaften zum Wandern. Alles, wonach ich mich sehnte, während ich in Deutschland im kalten Büro saß oder an grauen Wochenenden aus dem Fenster blickte.",
+        "paragraph2": "Der Kontrast zwischen meinem aktuellen Leben und der möglichen Zukunft wurde klar, und ich begann darüber nachzudenken, wie ein anderes Leben aussehen könnte.",
+        "imagePlaceholder": "Sonnenuntergang am Strand / typisches Spanien-Feeling"
+      },
+      "turningPoint": {
+        "title": "Ein persönlicher Wendepunkt",
+        "paragraph1": "Im April 2022 wurde bei mir Zöliakie festgestellt. Auf einmal durfte ich kein normales Brot mehr essen, keine herkömmlichen Haferflocken frühstücken, und selbst Essen gehen wurde zur Herausforderung. Besonders auf dem Dorf in Deutschland war es fast unmöglich, spontan etwas Passendes zu finden.",
+        "paragraph2": "Supermärkte boten kaum Auswahl, Restaurants hatten keine glutenfreien Optionen – mein Alltag fühlte sich stark eingeschränkt an.",
+        "question": "Diese Situation führte zu der Frage: Geht das nicht irgendwo besser?",
+        "answer": "Und genau das brachte mich wieder zu Spanien zurück.",
+        "imagePlaceholder": "Ein gedeckter Tisch mit glutenfreiem Brot / Symbolbild \"Essen\""
+      },
+      "research": {
+        "title": "Erste Recherchen",
+        "paragraph1": "Zu meiner Überraschung stieß ich schnell auf positive Berichte: Spanische Supermärkte hatten eine deutlich größere Auswahl an glutenfreien Produkten – von Tortillas über Brot bis hin zu Keksen und Kuchen. Auch Restaurants waren oft darauf eingestellt, Menschen mit Zöliakie sicher zu bedienen.",
+        "paragraph2": "Und an diesem Punkt stand mein Entschluss fest: Ich wollte einen Weg finden, in Spanien zu leben. Nicht nur wegen Sonne und Preisen – sondern weil ich dort die Chance sah, wieder einfacher und unbeschwerter leben zu können.",
+        "imagePlaceholder": "Spanischer Supermarkt mit glutenfreien Produkten"
+      },
+      "fears": {
+        "title": "Erste Vorstellungen – und Ängste",
+        "subtitle": "Anfangs dachte ich, es sei simpel: Eine Immobilie finden, hinziehen, fertig. Doch schnell wurde mir klar, dass es um viel mehr ging. So ein Schritt ist kein Umzug \"in den nächsten Ort\" – es ist ein Neuanfang in einem fremden Land.",
+        "fear1": {
+          "title": "Werde ich das alles alleine schaffen?",
+          "description": "Die größte Frage war, ob ich alle Bürokratie, Sprachbarrieren und kulturellen Unterschiede alleine bewältigen könnte."
+        },
+        "fear2": {
+          "title": "Familie und Freunde zurücklassen",
+          "description": "Wie würde es sich anfühlen, Familie und Freunde zurückzulassen? Würde ich diese wichtigen Beziehungen aus der Ferne aufrechterhalten können?"
+        },
+        "fear3": {
+          "title": "Sprachbarrieren",
+          "description": "Wie sollte ich ohne Sprachkenntnisse zurechtkommen? Würde ich in Alltagssituationen effektiv kommunizieren können?"
+        },
+        "conclusion": "Viele Nächte lag ich wach und spielte diese Fragen im Kopf durch."
+      },
+      "firstStep": {
+        "title": "Der wichtigste erste Schritt",
+        "description": "Neben all den bürokratischen Dingen, die ich noch klären musste, gab es eine Aufgabe, die ich sofort beginnen konnte – und die sich im Nachhinein als absolut entscheidend herausstellte: Spanisch lernen.",
+        "option1": {
+          "title": "Traditionelles Lernen",
+          "description": "Mit Lehrbüchern und Sprachkursen eine solide Grundlage in spanischer Grammatik und Vokabular aufbauen."
+        },
+        "option2": {
+          "title": "Digitales Lernen",
+          "description": "Sprach-Apps und Online-Ressourcen für flexibles, mobiles Lernen nutzen, das in jeden Zeitplan passt."
+        }
+      }
+    }
+  }
+}

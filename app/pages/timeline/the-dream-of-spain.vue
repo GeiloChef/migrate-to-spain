@@ -20,13 +20,13 @@
       <div class="absolute inset-0 flex items-end p-8 md:p-12">
         <div class="text-white max-w-4xl">
           <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-sm font-medium mb-6 border border-white/30">
-            {{ $t('story.timeline.step1.hero.badge') }}
+            {{ $t('the-dream-of-spain.hero.badge') }}
           </div>
           <h1 class="!text-5xl md:!text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
-            {{ $t('story.timeline.step1.title') }}
+            {{ $t('the-dream-of-spain.title') }}
           </h1>
           <p class="!text-xl md:!text-2xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
-            {{ $t('story.timeline.step1.hero.subtitle') }}
+            {{ $t('the-dream-of-spain.hero.subtitle') }}
           </p>
         </div>
       </div>
@@ -38,12 +38,12 @@
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
           <h2 class="!text-2xl font-bold text-gray-900 mb-6">
-            {{ $t('story.timeline.step1.sections.beginning.title') }}
+            {{ $t('the-dream-of-spain.sections.beginning.title') }}
           </h2>
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div class="space-y-4 text-gray-700 leading-relaxed">
-              <p class="mb-4">{{ $t('story.timeline.step1.sections.beginning.paragraph1') }}</p>
-              <p>{{ $t('story.timeline.step1.sections.beginning.paragraph2') }}</p>
+              <p class="mb-4">{{ $t('the-dream-of-spain.sections.beginning.paragraph1') }}</p>
+              <p>{{ $t('the-dream-of-spain.sections.beginning.paragraph2') }}</p>
             </div>
             <div class="h-64 rounded-xl overflow-hidden shadow-md">
               <img 
@@ -60,18 +60,18 @@
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
           <h2 class="!text-2xl font-bold text-gray-900 mb-6">
-            {{ $t('story.timeline.step1.sections.turningPoint.title') }}
+            {{ $t('the-dream-of-spain.sections.turningPoint.title') }}
           </h2>
           <div class="grid gap-8 items-center mb-6">
             <div class="space-y-4 text-gray-700 leading-relaxed">
-              <p class="mb-4">{{ $t('story.timeline.step1.sections.turningPoint.paragraph1') }}</p>
-              <p>{{ $t('story.timeline.step1.sections.turningPoint.paragraph2') }}</p>
+              <p class="mb-4">{{ $t('the-dream-of-spain.sections.turningPoint.paragraph1') }}</p>
+              <p>{{ $t('the-dream-of-spain.sections.turningPoint.paragraph2') }}</p>
             </div>
           </div>
           
           <div class="bg-orange-50 border-l-4 border-orange-400 p-6 my-8 rounded-r-lg">
-            <p class="font-medium text-gray-900 mb-2 text-lg">{{ $t('story.timeline.step1.sections.turningPoint.question') }}</p>
-            <p class="text-orange-700 font-medium text-lg">{{ $t('story.timeline.step1.sections.turningPoint.answer') }}</p>
+            <p class="font-medium text-gray-900 mb-2 text-lg">{{ $t('the-dream-of-spain.sections.turningPoint.question') }}</p>
+            <p class="text-orange-700 font-medium text-lg">{{ $t('the-dream-of-spain.sections.turningPoint.answer') }}</p>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
           <h2 class="!text-2xl font-bold text-gray-900 mb-6">
-            {{ $t('story.timeline.step1.sections.research.title') }}
+            {{ $t('the-dream-of-spain.sections.research.title') }}
           </h2>
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div class="h-64 rounded-xl overflow-hidden shadow-md">
@@ -91,8 +91,8 @@
               />
             </div>
             <div class="space-y-4 text-gray-700 leading-relaxed">
-              <p class="mb-4">{{ $t('story.timeline.step1.sections.research.paragraph1') }}</p>
-              <p>{{ $t('story.timeline.step1.sections.research.paragraph2') }}</p>
+              <p class="mb-4">{{ $t('the-dream-of-spain.sections.research.paragraph1') }}</p>
+              <p>{{ $t('the-dream-of-spain.sections.research.paragraph2') }}</p>
             </div>
           </div>
         </div>
@@ -102,12 +102,12 @@
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-16">
           <h2 class="!text-2xl font-bold text-gray-900 mb-6">
-            {{ $t('story.timeline.step1.sections.fears.title') }}
+            {{ $t('the-dream-of-spain.sections.fears.title') }}
           </h2>
           <div class="grid gap-8 items-center mb-8">
             <div class="space-y-4 text-gray-700 leading-relaxed">
               <p class="text-lg text-gray-700">
-                {{ $t('story.timeline.step1.sections.fears.subtitle') }}
+                {{ $t('the-dream-of-spain.sections.fears.subtitle') }}
               </p>
             </div>
           </div>
@@ -118,9 +118,9 @@
                 <Icon name="heroicons:question-mark-circle" class="w-6 h-6 text-red-600" />
               </div>
               <h3 class="!text-lg font-semibold text-gray-900 mb-3">
-                {{ $t('story.timeline.step1.sections.fears.fear1.title') }}
+                {{ $t('the-dream-of-spain.sections.fears.fear1.title') }}
               </h3>
-              <p class="text-gray-700 leading-relaxed">{{ $t('story.timeline.step1.sections.fears.fear1.description') }}</p>
+              <p class="text-gray-700 leading-relaxed">{{ $t('the-dream-of-spain.sections.fears.fear1.description') }}</p>
             </div>
             
             <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-6 border border-yellow-100 hover:shadow-md transition-all duration-300">
@@ -128,9 +128,9 @@
                 <Icon name="heroicons:language" class="w-6 h-6 text-yellow-600" />
               </div>
               <h3 class="!text-lg font-semibold text-gray-900 mb-3">
-                {{ $t('story.timeline.step1.sections.fears.fear2.title') }}
+                {{ $t('the-dream-of-spain.sections.fears.fear2.title') }}
               </h3>
-              <p class="text-gray-700 leading-relaxed">{{ $t('story.timeline.step1.sections.fears.fear2.description') }}</p>
+              <p class="text-gray-700 leading-relaxed">{{ $t('the-dream-of-spain.sections.fears.fear2.description') }}</p>
             </div>
             
             <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100 hover:shadow-md transition-all duration-300">
@@ -138,14 +138,14 @@
                 <Icon name="heroicons:language" class="w-6 h-6 text-blue-600" />
               </div>
               <h3 class="!text-lg font-semibold text-gray-900 mb-3">
-                {{ $t('story.timeline.step1.sections.fears.fear3.title') }}
+                {{ $t('the-dream-of-spain.sections.fears.fear3.title') }}
               </h3>
-              <p class="text-gray-700 leading-relaxed">{{ $t('story.timeline.step1.sections.fears.fear3.description') }}</p>
+              <p class="text-gray-700 leading-relaxed">{{ $t('the-dream-of-spain.sections.fears.fear3.description') }}</p>
               </div>
             </div>
           
           <p class="text-gray-600 italic text-center text-lg">
-            {{ $t('story.timeline.step1.sections.fears.conclusion') }}
+            {{ $t('the-dream-of-spain.sections.fears.conclusion') }}
           </p>
         </div>
       </div>

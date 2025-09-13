@@ -1,0 +1,69 @@
+{
+  "the-dream-of-spain": {
+    "title": "El Sueño de España",
+    "date": "Principios de 2022",
+    "description": "¿De dónde vino la idea? ¿Por qué España? Primeras ideas, deseos, miedos.",
+    "preview": {
+      "point1": "Los primeros pensamientos sobre España",
+      "point2": "¿Por qué este país específicamente?",
+      "point3": "Miedos y dudas"
+    },
+    "hero": {
+      "badge": "El Comienzo",
+      "title": "¿De Dónde Vino la Idea?",
+      "subtitle": "Si has aterrizado aquí, probablemente conoces este impulso: Estás sentado de vacaciones en España, mirando el mar, y pensando: '¿Por qué no me quedo aquí?'",
+      "imagePlaceholder": "Atardecer en la playa / sensación típica de España"
+    },
+    "sections": {
+      "beginning": {
+        "title": "El Comienzo",
+        "paragraph1": "Así es exactamente como comenzó para mí. España siempre me ha atraído – muchos días cálidos al año, una cultura abierta y cálida, playas de arena interminables, pero también paisajes montañosos para hacer senderismo. Todo lo que anhelaba mientras estaba sentado en una oficina fría en Alemania o mirando por la ventana los fines de semana grises.",
+        "paragraph2": "El contraste entre mi vida actual y el futuro potencial se hizo claro, y comencé a pensar en cómo podría ser una vida diferente.",
+        "imagePlaceholder": "Atardecer en la playa / sensación típica de España"
+      },
+      "turningPoint": {
+        "title": "Un Punto de Inflexión Personal",
+        "paragraph1": "En abril de 2022, me diagnosticaron enfermedad celíaca. De repente ya no podía comer pan normal, no podía desayunar avena convencional, e incluso salir a comer se convirtió en un desafío. Especialmente en el campo en Alemania, era casi imposible encontrar algo adecuado espontáneamente.",
+        "paragraph2": "Los supermercados ofrecían poca selección, los restaurantes no tenían opciones sin gluten – mi vida cotidiana se sentía severamente restringida.",
+        "question": "Esta situación llevó a la pregunta: ¿No se puede hacer esto mejor en algún otro lugar?",
+        "answer": "Y eso es exactamente lo que me trajo de vuelta a España.",
+        "imagePlaceholder": "Una mesa puesta con pan sin gluten / imagen simbólica de comida"
+      },
+      "research": {
+        "title": "Primeras Investigaciones",
+        "paragraph1": "Para mi sorpresa, rápidamente encontré reportes positivos: Los supermercados españoles tenían una selección significativamente mayor de productos sin gluten – desde tortillas hasta pan, galletas y pasteles. Los restaurantes también estaban a menudo preparados para servir de manera segura a personas con enfermedad celíaca.",
+        "paragraph2": "Y en este punto mi decisión estaba firme: Quería encontrar una manera de vivir en España. No solo por el sol y los precios – sino porque vi la oportunidad de vivir más simple y despreocupadamente allí.",
+        "imagePlaceholder": "Supermercado español con productos sin gluten"
+      },
+      "fears": {
+        "title": "Primeras Ideas – y Miedos",
+        "subtitle": "Al principio pensé que era simple: Encontrar una propiedad, mudarme allí, listo. Pero rápidamente me di cuenta de que se trataba de mucho más. Tal paso no es una mudanza 'a la próxima ciudad' – es un nuevo comienzo en un país extranjero.",
+        "fear1": {
+          "title": "¿Puedo hacer esto solo?",
+          "description": "La pregunta más grande era si podría manejar toda la burocracia, barreras del idioma y diferencias culturales por mi cuenta."
+        },
+        "fear2": {
+          "title": "Dejar atrás a seres queridos",
+          "description": "¿Cómo se sentiría dejar atrás a familia y amigos? ¿Podría mantener estas relaciones importantes desde lejos?"
+        },
+        "fear3": {
+          "title": "Barreras del idioma",
+          "description": "¿Cómo me las arreglaría sin habilidades lingüísticas? ¿Podría comunicarme efectivamente en situaciones cotidianas?"
+        },
+        "conclusion": "Muchas noches me quedaba despierto y repasaba estas preguntas en mi cabeza."
+      },
+      "firstStep": {
+        "title": "El Paso Más Importante",
+        "description": "Junto con todas las cosas burocráticas que aún tenía que aclarar, había una tarea que podía comenzar inmediatamente – y que resultó ser absolutamente crucial en retrospectiva: Aprender español.",
+        "option1": {
+          "title": "Aprendizaje Tradicional",
+          "description": "Usar libros de texto y cursos de idiomas para construir una base sólida en gramática y vocabulario español."
+        },
+        "option2": {
+          "title": "Aprendizaje Digital",
+          "description": "Usar aplicaciones de idiomas y recursos en línea para un aprendizaje flexible y móvil que se adapte a cualquier horario."
+        }
+      }
+    }
+  }
+}
