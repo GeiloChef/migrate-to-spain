@@ -93,47 +93,6 @@
           "imagePlaceholder": "Sunset at the beach / typical Spain feeling"
         },
         "sections": {
-          "dream": {
-            "title": "The Dream",
-            "description": "The dream of Spain started with simple thoughts during vacations - watching the sunset, feeling the warm breeze, and wondering what it would be like to call this place home.",
-            "point1": "Warm climate and endless sunshine",
-            "point2": "Rich culture and welcoming people",
-            "point3": "Beautiful landscapes from beaches to mountains",
-            "point4": "Slower, more relaxed pace of life"
-          },
-          "whySpain": {
-            "title": "Why Spain?",
-            "description": "Spain offered everything I was looking for in a new home - from practical benefits to emotional connections that made the decision feel right.",
-            "point1": "Excellent healthcare system",
-            "point2": "Affordable cost of living compared to other European countries",
-            "point3": "Strong infrastructure and modern cities",
-            "point4": "Rich history and diverse regions to explore"
-          },
-          "fears": {
-            "title": "Fears and Doubts",
-            "description": "Despite the excitement, there were real concerns that needed to be addressed before taking such a life-changing step.",
-            "point1": "Language barriers and communication challenges",
-            "point2": "Leaving family and friends behind",
-            "point3": "Navigating bureaucracy in a foreign country",
-            "point4": "Financial uncertainty and starting over"
-          },
-          "conclusion": {
-            "title": "The Decision",
-            "description": "After weighing all the pros and cons, the dream of Spain felt worth pursuing. The fears were real, but the potential rewards seemed even greater."
-          }
-        },
-        "preview": {
-          "point1": "First thoughts about Spain",
-          "point2": "Why this country specifically?",
-          "point3": "Fears and doubts"
-        },
-        "hero": {
-          "badge": "The Beginning",
-          "title": "Where Did the Idea Come From?",
-          "subtitle": "If you've landed here, you probably know this impulse: You're sitting on vacation in Spain, looking at the sea, and thinking: 'Why don't I just stay here?'",
-          "imagePlaceholder": "Sunset at the beach / typical Spain feeling"
-        },
-        "sections": {
           "beginning": {
             "title": "The Beginning",
             "paragraph1": "That's exactly how it started for me. Spain has always appealed to me – many warm days a year, an open and warm culture, endless sandy beaches, but also mountainous landscapes for hiking. Everything I longed for while sitting in a cold office in Germany or looking out the window on gray weekends.",
@@ -158,11 +117,11 @@
             "title": "First Ideas – and Fears",
             "subtitle": "At first I thought it was simple: Find a property, move there, done. But I quickly realized it was about much more. Such a step is not a move 'to the next town' – it's a fresh start in a foreign country.",
             "fear1": {
-              "title": "Can I do this alone?",
+              "title": "Will I be able to do this all alone?",
               "description": "The biggest question was whether I could handle all the bureaucracy, language barriers, and cultural differences on my own."
             },
             "fear2": {
-              "title": "Leaving loved ones behind",
+              "title": "Leaving family and friends behind",
               "description": "How would it feel to leave family and friends behind? Would I be able to maintain these important relationships from afar?"
             },
             "fear3": {
@@ -182,18 +141,6 @@
               "title": "Digital Learning",
               "description": "Using language apps and online resources for flexible, mobile learning that fits into any schedule."
             }
-          },
-          "fears": {
-            "title": "Fears and Doubts",
-            "description": "Despite the excitement, there were real concerns that needed to be addressed before taking such a life-changing step.",
-            "point1": "Language barriers and communication challenges",
-            "point2": "Leaving family and friends behind",
-            "point3": "Navigating bureaucracy in a foreign country",
-            "point4": "Financial uncertainty and starting over"
-          },
-          "conclusion": {
-            "title": "The Decision",
-            "description": "After weighing all the pros and cons, the dream of Spain felt worth pursuing. The fears were real, but the potential rewards seemed even greater."
           }
         }
       },
