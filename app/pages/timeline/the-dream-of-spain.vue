@@ -150,33 +150,6 @@
         </div>
       </div>
 
-      <!-- Section 5: The First Step -->
-      <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
-          <h2 class="!text-2xl font-bold text-gray-900 mb-6">
-            {{ $t('story.timeline.step1.sections.firstStep.title') }}
-          </h2>
-          <p class="text-lg mb-8 text-gray-700">
-            {{ $t('story.timeline.step1.sections.firstStep.description') }}
-          </p>
-          
-          <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-orange-50 rounded-xl p-6 border border-orange-200">
-              <h3 class="!text-lg font-semibold text-gray-900 mb-3">
-                {{ $t('story.timeline.step1.sections.firstStep.option1.title') }}
-              </h3>
-              <p class="text-gray-700">{{ $t('story.timeline.step1.sections.firstStep.option1.description') }}</p>
-            </div>
-            
-            <div class="bg-red-50 rounded-xl p-6 border border-red-200">
-              <h3 class="!text-lg font-semibold text-gray-900 mb-3">
-                {{ $t('story.timeline.step1.sections.firstStep.option2.title') }}
-              </h3>
-              <p class="text-gray-700">{{ $t('story.timeline.step1.sections.firstStep.option2.description') }}</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </TimelineLayout>
 </template>
