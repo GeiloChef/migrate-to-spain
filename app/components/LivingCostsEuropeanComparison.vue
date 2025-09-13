@@ -9,7 +9,7 @@
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
       <div class="absolute bottom-3 left-3">
-        <h3 class="text-white font-bold text-lg">Europäischer Vergleich</h3>
+        <h3 class="text-white font-bold text-lg">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.title') }}</h3>
       </div>
     </div>
     
@@ -19,8 +19,8 @@
       <div class="relative mb-8">
         <!-- Linie mit Labels -->
         <div class="flex items-center justify-between mb-4">
-          <span class="!text-sm font-medium text-green-600">Günstig</span>
-          <span class="!text-sm font-medium text-red-600">Teuer</span>
+          <span class="!text-sm font-medium text-green-600">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.cheap') }}</span>
+          <span class="!text-sm font-medium text-red-600">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.expensive') }}</span>
         </div>
         
         <!-- Horizontale Linie -->
@@ -33,7 +33,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇷🇴</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Rumänien<br><span class="text-green-300">~450€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.romania') }}<br><span class="text-green-300">~450€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -43,7 +43,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇵🇱</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Polen<br><span class="text-green-300">~550€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.poland') }}<br><span class="text-green-300">~550€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -53,7 +53,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇭🇺</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Ungarn<br><span class="text-green-300">~650€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.hungary') }}<br><span class="text-green-300">~650€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -63,7 +63,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇵🇹</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Portugal<br><span class="text-yellow-300">~750€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.portugal') }}<br><span class="text-yellow-300">~750€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -73,7 +73,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇪🇸</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Spanien<br><span class="text-yellow-300">~850€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.spain') }}<br><span class="text-yellow-300">~850€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -83,7 +83,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇮🇹</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Italien<br><span class="text-yellow-300">~950€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.italy') }}<br><span class="text-yellow-300">~950€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -93,7 +93,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇩🇪</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Deutschland<br><span class="text-red-300">~1300€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.germany') }}<br><span class="text-red-300">~1300€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -103,7 +103,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇦🇹</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Österreich<br><span class="text-red-300">~1400€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.austria') }}<br><span class="text-red-300">~1400€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -113,7 +113,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇳🇴</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Norwegen<br><span class="text-red-300">~1800€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.norway') }}<br><span class="text-red-300">~1800€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
             
@@ -123,7 +123,7 @@
                 <span class="!text-xs font-bold text-gray-700">🇨🇭</span>
               </div>
               <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-                Schweiz<br><span class="text-red-300">~2000€/Monat</span>
+                {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.switzerland') }}<br><span class="text-red-300">~2000€{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</span>
               </div>
             </div>
           </div>
@@ -133,8 +133,7 @@
       <!-- Fazit -->
       <div class="p-4 bg-white/60 rounded-lg border border-gray-200/50">
         <p class="!text-sm text-gray-700 text-center">
-          <strong>Fazit:</strong> Spanien liegt bei Lebenshaltungskosten etwa 20-30% unter dem deutschen Niveau und 
-          positioniert sich im mittleren Bereich Europas
+          <strong>{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.conclusion') }}</strong> {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.conclusionText') }}
         </p>
       </div>
     </div>
