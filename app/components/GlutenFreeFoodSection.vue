@@ -6,16 +6,16 @@
         <span class="text-white font-bold text-2xl">5</span>
       </div>
       <h2 class="!text-4xl font-bold text-gray-900">
-        {{ $t('story.timeline.step2.sections.glutenFree.title') }}
+        {{ $t('first-research-feasibility.sections.glutenFree.title') }}
       </h2>
     </div>
     
     <div class="space-y-8 text-gray-700 leading-relaxed">
       <!-- Introduction -->
       <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-6 border border-yellow-200">
-        <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-lg">{{ $t('story.timeline.step2.sections.glutenFree.intro.title') }}</h3>
+        <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-lg">{{ $t('first-research-feasibility.sections.glutenFree.intro.title') }}</h3>
         <p class="!text-lg leading-relaxed">
-          {{ $t('story.timeline.step2.sections.glutenFree.intro.description') }}
+          {{ $t('first-research-feasibility.sections.glutenFree.intro.description') }}
         </p>
       </div>
       
@@ -88,10 +88,10 @@
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
             </svg>
           </div>
-          <h3 class="!text-lg font-bold text-gray-900 text-lg">{{ $t('story.timeline.step2.sections.glutenFree.conclusion.title') }}</h3>
+          <h3 class="!text-lg font-bold text-gray-900 text-lg">{{ $t('first-research-feasibility.sections.glutenFree.conclusion.title') }}</h3>
         </div>
         <p class="text-green-800 font-medium leading-relaxed">
-          {{ $t('story.timeline.step2.sections.glutenFree.conclusion.description') }}
+          {{ $t('first-research-feasibility.sections.glutenFree.conclusion.description') }}
         </p>
       </div>
     </div>
@@ -107,9 +107,9 @@ const { t, locale } = useI18n()
 // Positive surprise info with fallback
 const positiveSurpriseInfo = computed(() => {
   try {
-    const title = t('story.timeline.step2.sections.glutenFree.positiveSurprise.title')
-    const description1 = t('story.timeline.step2.sections.glutenFree.positiveSurprise.description1')
-    const description2 = t('story.timeline.step2.sections.glutenFree.positiveSurprise.description2')
+    const title = t('first-research-feasibility.sections.glutenFree.positiveSurprise.title')
+    const description1 = t('first-research-feasibility.sections.glutenFree.positiveSurprise.description1')
+    const description2 = t('first-research-feasibility.sections.glutenFree.positiveSurprise.description2')
     console.log('Positive surprise info from i18n:', { title, description1, description2 })
     return { title, description1, description2 }
   } catch (error) {
@@ -121,11 +121,11 @@ const positiveSurpriseInfo = computed(() => {
 // Supermarkets info with fallback
 const supermarketsInfo = computed(() => {
   try {
-    const title = t('story.timeline.step2.sections.glutenFree.supermarkets.title')
-    const mercadona = t('story.timeline.step2.sections.glutenFree.supermarkets.mercadona')
-    const carrefour = t('story.timeline.step2.sections.glutenFree.supermarkets.carrefour')
-    const alcampo = t('story.timeline.step2.sections.glutenFree.supermarkets.alcampo')
-    const lidl = t('story.timeline.step2.sections.glutenFree.supermarkets.lidl')
+    const title = t('first-research-feasibility.sections.glutenFree.supermarkets.title')
+    const mercadona = t('first-research-feasibility.sections.glutenFree.supermarkets.mercadona')
+    const carrefour = t('first-research-feasibility.sections.glutenFree.supermarkets.carrefour')
+    const alcampo = t('first-research-feasibility.sections.glutenFree.supermarkets.alcampo')
+    const lidl = t('first-research-feasibility.sections.glutenFree.supermarkets.lidl')
     console.log('Supermarkets info from i18n:', { title, mercadona, carrefour, alcampo, lidl })
     return { title, mercadona, carrefour, alcampo, lidl }
   } catch (error) {

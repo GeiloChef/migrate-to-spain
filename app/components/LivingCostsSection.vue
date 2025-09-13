@@ -6,17 +6,17 @@
         <span class="text-white font-bold text-2xl">4</span>
       </div>
       <h2 class="!text-4xl font-bold text-gray-900">
-        {{ $t('story.timeline.step2.sections.livingCosts.title') }}
+        {{ $t('first-research-feasibility.sections.livingCosts.title') }}
       </h2>
     </div>
     
     <div class="space-y-6 text-gray-700 leading-relaxed">
       <p>
-        {{ $t('story.timeline.step2.sections.livingCosts.intro') }}
+        {{ $t('first-research-feasibility.sections.livingCosts.intro') }}
       </p>
       
       <div class="space-y-6">
-        <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-6">{{ $t('story.timeline.step2.sections.livingCosts.comparison') }}</h3>
+        <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-6">{{ $t('first-research-feasibility.sections.livingCosts.comparison') }}</h3>
         
         <div class="space-y-6">
           <!-- Wohnkosten -->
