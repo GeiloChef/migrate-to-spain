@@ -16,7 +16,7 @@
         <div class="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-spain-red via-spain-yellow to-spain-red transform -translate-y-1/2 z-0"></div>
         
         <!-- Timeline Steps with Horizontal Scroll - No y-axis padding, only horizontal -->
-        <div class="relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto px-8 scrollbar-hide">
+        <div class="relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto px-8 pb-12 scrollbar-hide">
           
           <!-- Step 1: Der Traum von Spanien -->
           <TimelineStep 
