@@ -24,12 +24,5 @@
 </template>
 
 <script setup>
-// Navigation function
-const navigateBack = () => {
-  // For now, just go back to home
-  // Later we can make this more sophisticated
-  if (process.client) {
-    navigateTo('/')
-  }
-}
+// Timeline header component
 </script>
