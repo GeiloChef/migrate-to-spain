@@ -50,6 +50,7 @@
                 $t('story.timeline.step2.preview.point2'),
                 $t('story.timeline.step2.preview.point3')
               ]"
+              background-image="/images/timeline/first-research-hero.png"
             />
           </TimelineStep>
           
@@ -67,6 +68,7 @@
                 $t('story.timeline.step3.preview.point2'),
                 $t('story.timeline.step3.preview.point3')
               ]"
+              background-image="/images/timeline/learning-spanish.png"
             />
           </TimelineStep>
           
@@ -84,6 +86,7 @@
                 $t('story.timeline.step4.preview.point2'),
                 $t('story.timeline.step4.preview.point3')
               ]"
+              background-image="https://images.unsplash.com/photo-1549643276-fdf2fab574f5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </TimelineStep>
           
@@ -101,6 +104,7 @@
                 $t('story.timeline.step5.preview.point2'),
                 $t('story.timeline.step5.preview.point3')
               ]"
+              background-image="/images/timeline/region-decision.png"
             />
           </TimelineStep>
           
@@ -118,6 +122,7 @@
                 $t('story.timeline.step6.preview.point2'),
                 $t('story.timeline.step6.preview.point3')
               ]"
+              background-image="/images/timeline/visiting-a-property.png"
             />
           </TimelineStep>
           
@@ -135,6 +140,7 @@
                 $t('story.timeline.step7.preview.point2'),
                 $t('story.timeline.step7.preview.point3')
               ]"
+              background-image="/images/timeline/bureaucracy-laptop.png"
             />
           </TimelineStep>
           
@@ -152,6 +158,7 @@
                 $t('story.timeline.step8.preview.point2'),
                 $t('story.timeline.step8.preview.point3')
               ]"
+              background-image="/images/timeline/couple-visiting-property.png"
             />
           </TimelineStep>
           
@@ -169,6 +176,7 @@
                 $t('story.timeline.step9.preview.point2'),
                 $t('story.timeline.step9.preview.point3')
               ]"
+              background-image="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </TimelineStep>
           
@@ -186,6 +194,7 @@
                 $t('story.timeline.step10.preview.point2'),
                 $t('story.timeline.step10.preview.point3')
               ]"
+              background-image="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </TimelineStep>
           
@@ -203,6 +212,7 @@
                 $t('story.timeline.step11.preview.point2'),
                 $t('story.timeline.step11.preview.point3')
               ]"
+              background-image="https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </TimelineStep>
           
@@ -220,6 +230,7 @@
                 $t('story.timeline.step12.preview.point2'),
                 $t('story.timeline.step12.preview.point3')
               ]"
+              background-image="https://images.unsplash.com/photo-1741795854922-87217b375e79?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </TimelineStep>
         </div>
