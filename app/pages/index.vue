@@ -1,5 +1,6 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+  <!-- Desktop Layout -->
+  <div class="hidden md:block min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
     <!-- Hero Section -->
     <HeroSection />
 
@@ -17,8 +18,44 @@
       </div>
     </div>
   </div>
+
+  <!-- Mobile Layout with Scroll Snap -->
+  <div class="block md:hidden h-screen overflow-y-auto snap-y snap-mandatory scrollbar-hide">
+    <!-- Hero Section -->
+    <div class="h-screen snap-start">
+      <HeroSection />
+    </div>
+
+    <!-- My Story Section -->
+    <div class="h-screen snap-start bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <MobileTimelineSection />
+    </div>
+
+    <!-- The Guide Section -->
+    <div class="h-screen snap-start bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+      <div class="h-full flex items-center justify-center px-6">
+        <GuideSection />
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
-/* Component-specific styles can be added here if needed */
+/* Mobile Scroll Snap Styles */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.snap-y {
+  scroll-snap-type: y mandatory;
+}
+
+.snap-start {
+  scroll-snap-align: start;
+}
 </style>

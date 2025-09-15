@@ -1,7 +1,9 @@
 {
   "header": {
     "title": "Emigrar a España - Mi Historia",
-    "subtitle": "Un viaje personal hacia la emigración"
+    "subtitle": "Un viaje personal hacia la emigración",
+    "mobileTitle": "Mi Historia",
+    "mobileSubtitle": "Mudarse a España"
   },
   "hero": {
     "title": {
@@ -72,6 +74,9 @@
   "story": {
     "title": "Mi Historia",
     "subtitle": "El camino desde la primera idea hasta la implementación - paso a paso",
+    "mobileIntro": {
+      "subtitle": "Vive mi viaje completo desde la primera idea hasta la implementación exitosa – una historia auténtica sobre la migración a España."
+    },
     "navigation": {
       "previousStep": "Paso Anterior",
       "nextStep": "Siguiente Paso"

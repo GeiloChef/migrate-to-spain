@@ -9,10 +9,14 @@
           
           <!-- Title -->
           <div>
-            <h1 class="!text-2xl font-bold text-gray-900">
+            <h1 class="!text-2xl font-bold text-gray-900 hidden md:block">
               {{ $t('header.title') }}
             </h1>
-            <p class="text-gray-600 text-sm">{{ $t('header.subtitle') }}</p>
+            <h1 class="!text-xl font-bold text-gray-900 block md:hidden">
+              {{ $t('header.mobileTitle') }}
+            </h1>
+            <p class="text-gray-600 text-sm hidden md:block">{{ $t('header.subtitle') }}</p>
+            <p class="text-gray-600 text-sm block md:hidden">{{ $t('header.mobileSubtitle') }}</p>
           </div>
         </div>
 

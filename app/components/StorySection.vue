@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="hidden md:block">
     <div>
       <div class="text-center mb-16">
         <h3 class="!text-4xl font-bold text-spain-navy mb-4">

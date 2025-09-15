@@ -1,7 +1,9 @@
 {
   "header": {
     "title": "Emigrating to Spain - My Story",
-    "subtitle": "A personal journey to emigration"
+    "subtitle": "A personal journey to emigration",
+    "mobileTitle": "My Story",
+    "mobileSubtitle": "Moving to Spain"
   },
   "hero": {
     "title": {
@@ -72,6 +74,9 @@
   "story": {
     "title": "My Story",
     "subtitle": "The path from the first idea to implementation - step by step",
+    "mobileIntro": {
+      "subtitle": "Experience my complete journey from the first idea to successful implementation – an authentic story about migrating to Spain."
+    },
     "navigation": {
       "previousStep": "Previous Step",
       "nextStep": "Next Step"

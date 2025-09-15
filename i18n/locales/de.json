@@ -1,7 +1,9 @@
 {
   "header": {
     "title": "Nach Spanien Auswandern - Meine Geschichte",
-    "subtitle": "Eine persönliche Reise zur Auswanderung"
+    "subtitle": "Eine persönliche Reise zur Auswanderung",
+    "mobileTitle": "Meine Geschichte",
+    "mobileSubtitle": "Auswanderung nach Spanien"
   },
   "hero": {
     "title": {
@@ -72,6 +74,9 @@
   "story": {
     "title": "Meine Geschichte",
     "subtitle": "Der Weg von der ersten Idee bis zur Umsetzung - Schritt für Schritt",
+    "mobileIntro": {
+      "subtitle": "Erlebe meine komplette Reise von der ersten Idee bis zur erfolgreichen Umsetzung – eine authentische Geschichte über die Auswanderung nach Spanien."
+    },
     "navigation": {
       "previousStep": "Vorheriger Schritt",
       "nextStep": "Nächster Schritt"
