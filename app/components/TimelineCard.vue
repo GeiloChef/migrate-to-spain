@@ -12,7 +12,7 @@
             :style="{ backgroundImage: `url(${backgroundImage})` }"
           ></div>
           <!-- Dark Overlay for Better Text Readability -->
-          <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-black/10"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-black/5"></div>
         </div>
         
         <!-- Content -->
@@ -52,7 +52,7 @@
           <!-- Footer with CTA -->
           <div class="mt-8">
             <div class="inline-flex items-center gap-2 px-6 py-3 bg-spain-red rounded-full text-white font-semibold shadow-lg hover:bg-spain-red/90 transition-colors duration-300">
-              <span>Mehr erfahren</span>
+              <span>{{ ctaText }}</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
               </svg>
@@ -94,6 +94,10 @@ const props = defineProps({
   timelineUrl: {
     type: String,
     required: true
+  },
+  ctaText: {
+    type: String,
+    default: 'Mehr erfahren'
   }
 })
 </script>

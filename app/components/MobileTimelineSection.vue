@@ -19,7 +19,7 @@
                 style="background-image: url('https://plus.unsplash.com/premium_photo-1754558564572-cbd1a5efe62a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
               ></div>
               <!-- Dark Overlay for Better Text Readability -->
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-black/10"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-black/5"></div>
             </div>
             
             <!-- Content -->
@@ -38,207 +38,21 @@
           </div>
         </div>
         
-        <!-- Step 1: Der Traum von Spanien -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="1"
-            :title="$t('story.timeline.step1.title')"
-            :description="$t('story.timeline.step1.description')"
-            :preview-points="[
-              $t('story.timeline.step1.preview.point1'),
-              $t('story.timeline.step1.preview.point2'),
-              $t('story.timeline.step1.preview.point3')
-            ]"
-            :date="$t('story.timeline.step1.date')"
-            background-image="/images/timeline/dream-of-spain.png"
-            :timeline-url="'/timeline/the-dream-of-spain'"
-          />
-        </div>
-        
-        <!-- Step 2: Erste Recherchen & Machbarkeit -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="2"
-            :title="$t('story.timeline.step2.title')"
-            :description="$t('story.timeline.step2.description')"
-            :preview-points="[
-              $t('story.timeline.step2.preview.point1'),
-              $t('story.timeline.step2.preview.point2'),
-              $t('story.timeline.step2.preview.point3')
-            ]"
-            :date="$t('story.timeline.step2.date')"
-            background-image="/images/timeline/first-research-hero.png"
-            :timeline-url="'/timeline/first-research-feasibility'"
-          />
-        </div>
-        
-        <!-- Step 3: Erste Schritte - Spanisch lernen -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="3"
-            :title="$t('story.timeline.step3.title')"
-            :description="$t('story.timeline.step3.description')"
-            :preview-points="[
-              $t('story.timeline.step3.preview.point1'),
-              $t('story.timeline.step3.preview.point2'),
-              $t('story.timeline.step3.preview.point3')
-            ]"
-            :date="$t('story.timeline.step3.date')"
-            background-image="/images/timeline/learning-spanish.png"
-            :timeline-url="'/timeline/learning-spanish'"
-          />
-        </div>
-        
-        <!-- Step 4: Spanien entdecken -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="4"
-            :title="$t('story.timeline.step4.title')"
-            :description="$t('story.timeline.step4.description')"
-            :preview-points="[
-              $t('story.timeline.step4.preview.point1'),
-              $t('story.timeline.step4.preview.point2'),
-              $t('story.timeline.step4.preview.point3')
-            ]"
-            :date="$t('story.timeline.step4.date')"
-            background-image="https://images.unsplash.com/photo-1549643276-fdf2fab574f5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            :timeline-url="'/timeline/discovering-spain'"
-          />
-        </div>
-        
-        <!-- Step 5: Die Entscheidung für eine Region -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="5"
-            :title="$t('story.timeline.step5.title')"
-            :description="$t('story.timeline.step5.description')"
-            :preview-points="[
-              $t('story.timeline.step5.preview.point1'),
-              $t('story.timeline.step5.preview.point2'),
-              $t('story.timeline.step5.preview.point3')
-            ]"
-            :date="$t('story.timeline.step5.date')"
-            background-image="/images/timeline/region-decision.png"
-            :timeline-url="'/timeline/region-decision'"
-          />
-        </div>
-        
-        <!-- Step 6: Der konkrete Plan: Wohnung kaufen -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="6"
-            :title="$t('story.timeline.step6.title')"
-            :description="$t('story.timeline.step6.description')"
-            :preview-points="[
-              $t('story.timeline.step6.preview.point1'),
-              $t('story.timeline.step6.preview.point2'),
-              $t('story.timeline.step6.preview.point3')
-            ]"
-            :date="$t('story.timeline.step6.date')"
-            background-image="/images/timeline/visiting-a-property.png"
-            :timeline-url="'/timeline/apartment-search'"
-          />
-        </div>
-        
-        <!-- Step 7: Bürokratie & Formalitäten -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="7"
-            :title="$t('story.timeline.step7.title')"
-            :description="$t('story.timeline.step7.description')"
-            :preview-points="[
-              $t('story.timeline.step7.preview.point1'),
-              $t('story.timeline.step7.preview.point2'),
-              $t('story.timeline.step7.preview.point3')
-            ]"
-            :date="$t('story.timeline.step7.date')"
-            background-image="/images/timeline/bureaucracy-laptop.png"
-            :timeline-url="'/timeline/bureaucracy-prerequisites'"
-          />
-        </div>
-        
-        <!-- Step 8: Der Immobilienkauf -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="8"
-            :title="$t('story.timeline.step8.title')"
-            :description="$t('story.timeline.step8.description')"
-            :preview-points="[
-              $t('story.timeline.step8.preview.point1'),
-              $t('story.timeline.step8.preview.point2'),
-              $t('story.timeline.step8.preview.point3')
-            ]"
-            :date="$t('story.timeline.step8.date')"
-            background-image="/images/timeline/couple-visiting-property.png"
-            :timeline-url="'/timeline/property-purchase'"
-          />
-        </div>
-        
-        <!-- Step 9: Gestoría – Hilfe im Behördendschungel -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="9"
-            :title="$t('story.timeline.step9.title')"
-            :description="$t('story.timeline.step9.description')"
-            :preview-points="[
-              $t('story.timeline.step9.preview.point1'),
-              $t('story.timeline.step9.preview.point2'),
-              $t('story.timeline.step9.preview.point3')
-            ]"
-            :date="$t('story.timeline.step9.date')"
-            background-image="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            :timeline-url="'/timeline/gestoria'"
-          />
-        </div>
-        
-        <!-- Step 10: Sicherheiten & Versicherungen -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="10"
-            :title="$t('story.timeline.step10.title')"
-            :description="$t('story.timeline.step10.description')"
-            :preview-points="[
-              $t('story.timeline.step10.preview.point1'),
-              $t('story.timeline.step10.preview.point2'),
-              $t('story.timeline.step10.preview.point3')
-            ]"
-            :date="$t('story.timeline.step10.date')"
-            background-image="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            :timeline-url="'/timeline/insurance'"
-          />
-        </div>
-        
-        <!-- Step 11: Der erste Aufenthalt in der eigenen Wohnung -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="11"
-            :title="$t('story.timeline.step11.title')"
-            :description="$t('story.timeline.step11.description')"
-            :preview-points="[
-              $t('story.timeline.step11.preview.point1'),
-              $t('story.timeline.step11.preview.point2'),
-              $t('story.timeline.step11.preview.point3')
-            ]"
-            :date="$t('story.timeline.step11.date')"
-            background-image="https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            :timeline-url="'/timeline/first-apartment-stay'"
-          />
-        </div>
-        
-        <!-- Step 12: Ausblick: Die endgültige Migration -->
-        <div class="w-full h-full flex-shrink-0 snap-start">
-          <MobileTimelineCard
-            :step-number="12"
-            :title="$t('story.timeline.step12.title')"
-            :description="$t('story.timeline.step12.description')"
-            :preview-points="[
-              $t('story.timeline.step12.preview.point1'),
-              $t('story.timeline.step12.preview.point2'),
-              $t('story.timeline.step12.preview.point3')
-            ]"
-            :date="$t('story.timeline.step12.date')"
-            background-image="https://images.unsplash.com/photo-1741795854922-87217b375e79?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            :timeline-url="'/timeline/final-migration'"
+        <!-- Timeline Steps -->
+        <div 
+          v-for="step in timelineSteps" 
+          :key="step.stepNumber"
+          class="w-full h-full flex-shrink-0 snap-start"
+        >
+          <TimelineCard
+            :step-number="step.stepNumber"
+            :title="$t(step.titleKey)"
+            :description="$t(step.descriptionKey)"
+            :preview-points="step.previewPointsKeys.map(key => $t(key))"
+            :date="$t(step.dateKey)"
+            :background-image="step.backgroundImage"
+            :timeline-url="step.timelineUrl"
+            :cta-text="$t('common.readMore')"
           />
         </div>
       </div>
@@ -246,7 +60,7 @@
       <!-- Mobile Navigation Indicators -->
       <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
         <button
-          v-for="step in 13"
+          v-for="step in timelineSteps.length + 1"
           :key="step"
           :class="[
             'w-2 h-2 rounded-full transition-all duration-300',
@@ -265,6 +79,8 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
+const {timelineSteps} = useTimelineSteps();
+
 const timelineContainer = ref(null)
 const currentStep = ref(1)
 
@@ -277,7 +93,7 @@ const handleScroll = () => {
   const cardWidth = container.clientWidth
   const step = Math.round(scrollLeft / cardWidth) + 1
   
-  currentStep.value = Math.min(Math.max(step, 1), 13)
+  currentStep.value = Math.min(Math.max(step, 1), timelineSteps.length + 1)
 }
 
 // Navigate to specific step
@@ -319,7 +135,7 @@ const handleTouchEnd = (e) => {
   const threshold = 50
   
   if (Math.abs(deltaX) > threshold) {
-    if (deltaX > 0 && currentStep.value < 13) {
+    if (deltaX > 0 && currentStep.value < timelineSteps.length + 1) {
       // Swipe left - next step
       goToStep(currentStep.value + 1)
     } else if (deltaX < 0 && currentStep.value > 1) {
@@ -335,6 +151,8 @@ onMounted(() => {
     timelineContainer.value.addEventListener('touchmove', handleTouchMove, { passive: true })
     timelineContainer.value.addEventListener('touchend', handleTouchEnd, { passive: true })
   }
+
+  console.log(timelineSteps)
 })
 
 onUnmounted(() => {

@@ -213,6 +213,9 @@
     "about": "About",
     "contact": "Contact"
   },
+  "common": {
+    "readMore": "Read more"
+  },
   "ui": {
     "tableOfContents": {
       "title": "Table of Contents",

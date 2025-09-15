@@ -213,6 +213,9 @@
     "about": "Acerca de",
     "contact": "Contacto"
   },
+  "common": {
+    "readMore": "Leer más"
+  },
   "ui": {
     "tableOfContents": {
       "title": "Tabla de Contenidos",

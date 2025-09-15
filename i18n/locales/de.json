@@ -213,6 +213,9 @@
     "about": "Über mich",
     "contact": "Kontakt"
   },
+  "common": {
+    "readMore": "Mehr erfahren"
+  },
   "ui": {
     "tableOfContents": {
       "title": "Inhaltsverzeichnis",
