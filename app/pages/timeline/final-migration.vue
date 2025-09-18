@@ -4,7 +4,7 @@
     :previous-step-name="$t('story.timeline.step11.title')"
   >
     <!-- Hero Section -->
-    <div class="relative">
+    <div class="relative -mt-6 md:mt-0">
       <!-- Background Image -->
       <div class="w-full h-[300px] md:h-[400px] md:rounded-t-3xl overflow-hidden shadow-2xl">
         <img 

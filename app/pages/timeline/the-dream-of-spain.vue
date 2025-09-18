@@ -4,7 +4,7 @@
     :next-step-name="$t('story.timeline.step2.title')"
   >
     <!-- Hero Section with Full-Size Image -->
-    <div class="relative">
+    <div class="relative -mt-6 md:mt-0">
       <!-- Full-Size Background Image -->
       <div class="w-full h-[300px] md:h-[500px] md:rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
