@@ -12,7 +12,7 @@
             :style="{ backgroundImage: `url(${backgroundImage})` }"
           ></div>
           <!-- Dark Overlay for Better Text Readability -->
-          <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-black/5"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/20 via-black/5 to-transparent"></div>
         </div>
         
         <!-- Content -->
@@ -23,16 +23,16 @@
               <span class="text-white font-bold text-lg">{{ stepNumber }}</span>
             </div>
             <div class="text-right">
-              <div class="text-lg font-semibold">{{ date }}</div>
+              <div class="text-lg font-semibold text-white" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.8), 0 0 4px rgba(0,0,0,0.3);">{{ date }}</div>
             </div>
           </div>
           
           <!-- Main Content -->
           <div class="flex-1 flex flex-col justify-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight drop-shadow-lg">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-tight text-white" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8), 0 0 8px rgba(0,0,0,0.5);">
               {{ title }}
             </h2>
-            <p class="text-lg md:text-xl text-white/90 mb-8 leading-relaxed drop-shadow-md">
+            <p class="text-lg md:text-xl text-white mb-8 leading-relaxed" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8), 0 0 6px rgba(0,0,0,0.4);">
               {{ description }}
             </p>
             
@@ -43,14 +43,14 @@
                 :key="index"
                 class="flex items-center gap-3"
               >
-                <div class="w-2 h-2 bg-spain-red rounded-full flex-shrink-0"></div>
-                <span class="text-white/90 text-base drop-shadow-sm">{{ point }}</span>
+                <div class="w-2 h-2 bg-spain-red rounded-full flex-shrink-0 shadow-lg"></div>
+                <span class="text-white text-base" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.8), 0 0 4px rgba(0,0,0,0.3);">{{ point }}</span>
               </div>
             </div>
           </div>
           
           <!-- Footer with CTA -->
-          <div class="mt-8">
+          <div class="mt-12 mb-16">
             <div class="inline-flex items-center gap-2 px-6 py-3 bg-spain-red rounded-full text-white font-semibold shadow-lg hover:bg-spain-red/90 transition-colors duration-300">
               <span>{{ ctaText }}</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
