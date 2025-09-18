@@ -14,8 +14,51 @@
     </div>
     
     <!-- Content -->
-    <div class="p-6">
-      <div class="grid md:grid-cols-2 gap-6">
+    <div class="p-4 md:p-6">
+      <!-- Mobile Tabs / Desktop Grid -->
+      <div class="block md:hidden">
+        <!-- Tab Navigation -->
+        <div class="flex bg-gray-100 rounded-lg p-1 mb-6">
+          <button
+            @click="activeTab = 'rental'"
+            :class="[
+              'flex-1 py-2 px-4 text-sm font-medium rounded-md transition-all duration-200',
+              activeTab === 'rental'
+                ? 'bg-white text-blue-600 shadow-sm'
+                : 'text-gray-600 hover:text-gray-900'
+            ]"
+          >
+            {{ $t('first-research-feasibility.sections.livingCosts.housing.rentalPrices') }}
+          </button>
+          <button
+            @click="activeTab = 'purchase'"
+            :class="[
+              'flex-1 py-2 px-4 text-sm font-medium rounded-md transition-all duration-200',
+              activeTab === 'purchase'
+                ? 'bg-white text-green-600 shadow-sm'
+                : 'text-gray-600 hover:text-gray-900'
+            ]"
+          >
+            {{ $t('first-research-feasibility.sections.livingCosts.housing.purchasePrices') }}
+          </button>
+        </div>
+        
+        <!-- Tab Content -->
+        <div class="space-y-4">
+          <!-- Mietpreise Tab -->
+          <div v-if="activeTab === 'rental'" class="animate-fadeIn">
+            <HousingCard :type="'rental'" />
+          </div>
+          
+          <!-- Kaufpreise Tab -->
+          <div v-if="activeTab === 'purchase'" class="animate-fadeIn">
+            <HousingCard :type="'purchase'" />
+          </div>
+        </div>
+      </div>
+      
+      <!-- Desktop Grid -->
+      <div class="hidden md:grid md:grid-cols-2 gap-6">
         <!-- Mietpreise -->
         <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
           <h3 class="!text-lg font-semibold text-gray-800 mb-4 text-lg border-b border-gray-200 pb-2">{{ $t('first-research-feasibility.sections.livingCosts.housing.rentalPrices') }}</h3>
@@ -139,5 +182,25 @@
 </template>
 
 <script setup lang="ts">
-// Component logic can be added here if needed
+import { ref } from 'vue'
+import HousingCard from './HousingCard.vue'
+
+const activeTab = ref('rental')
 </script>
+
+<style scoped>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+</style>

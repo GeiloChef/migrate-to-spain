@@ -14,9 +14,74 @@
     </div>
     
     <!-- Content -->
-    <div class="p-6">
-      <!-- Hauptlinie -->
-      <div class="relative mb-8">
+    <div class="p-4 md:p-6">
+      <!-- Mobile: Vertikale Liste (nur 5 Länder) -->
+      <div class="block md:hidden">
+        <div class="space-y-3">
+          <!-- Rumänien - günstigstes -->
+          <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-green-200 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🇷🇴</span>
+              <div>
+                <div class="!text-sm font-medium text-gray-900">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.romania') }}</div>
+                <div class="!text-xs text-gray-500">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</div>
+              </div>
+            </div>
+            <div class="!text-lg font-bold text-green-600">~450€</div>
+          </div>
+          
+          <!-- Spanien - Ziel -->
+          <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-yellow-200 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🇪🇸</span>
+              <div>
+                <div class="!text-sm font-medium text-gray-900">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.spain') }}</div>
+                <div class="!text-xs text-gray-500">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</div>
+              </div>
+            </div>
+            <div class="!text-lg font-bold text-yellow-600">~850€</div>
+          </div>
+          
+          <!-- Italien - ähnlich -->
+          <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-yellow-200 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🇮🇹</span>
+              <div>
+                <div class="!text-sm font-medium text-gray-900">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.italy') }}</div>
+                <div class="!text-xs text-gray-500">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</div>
+              </div>
+            </div>
+            <div class="!text-lg font-bold text-yellow-600">~950€</div>
+          </div>
+          
+          <!-- Deutschland - Vergleich -->
+          <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-red-200 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🇩🇪</span>
+              <div>
+                <div class="!text-sm font-medium text-gray-900">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.germany') }}</div>
+                <div class="!text-xs text-gray-500">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</div>
+              </div>
+            </div>
+            <div class="!text-lg font-bold text-red-600">~1300€</div>
+          </div>
+          
+          <!-- Schweiz - teuerstes -->
+          <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-red-200 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🇨🇭</span>
+              <div>
+                <div class="!text-sm font-medium text-gray-900">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.switzerland') }}</div>
+                <div class="!text-xs text-gray-500">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.monthly') }}</div>
+              </div>
+            </div>
+            <div class="!text-lg font-bold text-red-600">~2000€</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Desktop: Horizontale Linie -->
+      <div class="hidden md:block relative mb-8">
         <!-- Linie mit Labels -->
         <div class="flex items-center justify-between mb-4">
           <span class="!text-sm font-medium text-green-600">{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.cheap') }}</span>
@@ -131,8 +196,8 @@
       </div>
       
       <!-- Fazit -->
-      <div class="p-4 bg-white/60 rounded-lg border border-gray-200/50">
-        <p class="!text-sm text-gray-700 text-center">
+      <div class="mt-4 md:mt-6 p-3 md:p-4 bg-white/60 rounded-lg border border-gray-200/50">
+        <p class="!text-xs md:!text-sm text-gray-700 text-center">
           <strong>{{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.conclusion') }}</strong> {{ $t('first-research-feasibility.sections.livingCosts.europeanComparison.conclusionText') }}
         </p>
       </div>

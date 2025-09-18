@@ -14,8 +14,51 @@
     </div>
     
     <!-- Content -->
-    <div class="p-6">
-      <div class="grid md:grid-cols-2 gap-8">
+    <div class="p-4 md:p-6">
+      <!-- Mobile Tabs / Desktop Grid -->
+      <div class="block md:hidden">
+        <!-- Tab Navigation -->
+        <div class="flex bg-gray-100 rounded-lg p-1 mb-6">
+          <button
+            @click="activeTab = 'germany'"
+            :class="[
+              'flex-1 py-2 px-4 text-sm font-medium rounded-md transition-all duration-200',
+              activeTab === 'germany'
+                ? 'bg-white text-red-600 shadow-sm'
+                : 'text-gray-600 hover:text-gray-900'
+            ]"
+          >
+            {{ $t('first-research-feasibility.sections.livingCosts.energy.germanyTitle') }}
+          </button>
+          <button
+            @click="activeTab = 'spain'"
+            :class="[
+              'flex-1 py-2 px-4 text-sm font-medium rounded-md transition-all duration-200',
+              activeTab === 'spain'
+                ? 'bg-white text-blue-600 shadow-sm'
+                : 'text-gray-600 hover:text-gray-900'
+            ]"
+          >
+            {{ $t('first-research-feasibility.sections.livingCosts.energy.spainTitle') }}
+          </button>
+        </div>
+        
+        <!-- Tab Content -->
+        <div class="space-y-4">
+          <!-- Deutschland Tab -->
+          <div v-if="activeTab === 'germany'" class="animate-fadeIn">
+            <EnergyCard :country="'germany'" />
+          </div>
+          
+          <!-- Spanien Tab -->
+          <div v-if="activeTab === 'spain'" class="animate-fadeIn">
+            <EnergyCard :country="'spain'" />
+          </div>
+        </div>
+      </div>
+      
+      <!-- Desktop Grid -->
+      <div class="hidden md:grid md:grid-cols-2 gap-8">
         <!-- Deutschland Berechnung -->
         <div class="flex flex-col h-full">
           <h3 class="!text-lg font-semibold text-gray-800 mb-4 text-lg border-b border-gray-200 pb-2">{{ $t('first-research-feasibility.sections.livingCosts.energy.germanyTitle') }}</h3>
@@ -109,5 +152,25 @@
 </template>
 
 <script setup lang="ts">
-// Component logic can be added here if needed
+import { ref } from 'vue'
+import EnergyCard from './EnergyCard.vue'
+
+const activeTab = ref('germany')
 </script>
+
+<style scoped>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+</style>
