@@ -4,7 +4,7 @@
     <button 
       @click="setLanguage('de')" 
       :class="[
-        'relative w-9 h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer',
+        'relative w-10 h-6 md:w-9 md:h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer touch-manipulation',
         currentLocale === 'de' 
           ? 'ring-2 ring-spain-yellow/50 shadow-lg scale-105' 
           : 'hover:scale-105'
@@ -39,7 +39,7 @@
     <button 
       @click="setLanguage('en')" 
       :class="[
-        'relative w-9 h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer',
+        'relative w-10 h-6 md:w-9 md:h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer touch-manipulation',
         currentLocale === 'en' 
           ? 'ring-2 ring-spain-yellow/50 shadow-lg scale-105' 
           : 'hover:scale-105'
@@ -74,7 +74,7 @@
     <button 
       @click="setLanguage('es')" 
       :class="[
-        'relative w-9 h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer',
+        'relative w-10 h-6 md:w-9 md:h-6 rounded-md transition-all duration-300 overflow-hidden group cursor-pointer touch-manipulation',
         currentLocale === 'es' 
           ? 'ring-2 ring-spain-yellow/50 shadow-lg scale-105' 
           : 'hover:scale-105'

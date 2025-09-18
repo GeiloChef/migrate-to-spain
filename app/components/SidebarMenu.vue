@@ -3,10 +3,10 @@
     <!-- Hamburger Button -->
     <button
       @click="toggleSidebar"
-      class="w-8 h-8 flex items-center justify-center rounded-xl hover:bg-spain-yellow/20 transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
+      class="w-8 h-8 md:w-9 md:h-9 flex items-center justify-center rounded-xl hover:bg-spain-yellow/20 transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer touch-manipulation"
       :aria-label="t('ui.sidebar.toggleMenu')"
     >
-      <Icon name="heroicons:bars-3" class="w-4 h-4 text-spain-navy hover:text-spain-navy/70 transition-colors" />
+      <Icon name="heroicons:bars-3" class="w-4 h-4 md:w-5 md:h-5 text-spain-navy hover:text-spain-navy/70 transition-colors" />
     </button>
 
     <!-- Sidebar Overlay and Drawer -->
@@ -38,33 +38,33 @@
       >
         <div
           v-if="isOpen"
-          class="fixed top-0 left-0 h-screen w-[25%] bg-gradient-to-br from-spain-cream via-white to-spain-cream shadow-2xl z-50 flex flex-col border-r border-spain-yellow/30"
+          class="fixed top-0 left-0 h-screen w-[85%] sm:w-[70%] md:w-[50%] lg:w-[35%] xl:w-[25%] bg-gradient-to-br from-spain-cream via-white to-spain-cream shadow-2xl z-50 flex flex-col border-r border-spain-yellow/30"
         >
           <!-- Sidebar Header - Fixed Top -->
-          <div class="flex-shrink-0 p-6 border-b border-spain-yellow/30 bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10">
+          <div class="flex-shrink-0 p-4 md:p-6 border-b border-spain-yellow/30 bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10">
             <div class="flex items-center justify-between">
-              <div class="flex items-center gap-3">
-                <h2 class="!text-xl font-bold text-spain-navy">
+              <div class="flex items-center gap-2 md:gap-3">
+                <h2 class="!text-lg md:!text-xl font-bold text-spain-navy">
                   Menü
                 </h2>
               </div>
               <button
                 @click="closeSidebar"
-                class="w-8 h-8 flex items-center justify-center rounded-xl hover:bg-spain-yellow/20 transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer"
+                class="w-8 h-8 md:w-9 md:h-9 flex items-center justify-center rounded-xl hover:bg-spain-yellow/20 transition-all duration-200 hover:scale-105 hover:shadow-lg cursor-pointer touch-manipulation"
                 :aria-label="t('ui.sidebar.closeMenu')"
               >
-                <Icon name="heroicons:x-mark" class="w-4 h-4 text-spain-navy hover:text-spain-navy/70 transition-colors" />
+                <Icon name="heroicons:x-mark" class="w-4 h-4 md:w-5 md:h-5 text-spain-navy hover:text-spain-navy/70 transition-colors" />
               </button>
             </div>
           </div>
 
           <!-- Navigation Content - Scrollable Middle -->
-          <div class="flex-1 overflow-y-auto p-4 space-y-2">
+          <div class="flex-1 overflow-y-auto p-3 md:p-4 space-y-1 md:space-y-2">
             <!-- Home -->
             <NuxtLink
               to="/"
               @click="closeSidebar"
-              class="flex items-center p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40"
+              class="flex items-center p-2.5 md:p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40 touch-manipulation"
               :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50': $route.path === '/' }"
             >
               <span class="!text-sm font-semibold text-spain-navy group-hover:text-spain-navy transition-colors">{{ t('ui.sidebar.home') }}</span>
@@ -74,13 +74,13 @@
             <div class="space-y-1">
               <button
                 @click="toggleStorySection"
-                class="flex items-center justify-between p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40 w-full text-left cursor-pointer"
+                class="flex items-center justify-between p-2.5 md:p-3 rounded-xl hover:bg-gradient-to-r hover:from-spain-yellow/20 hover:to-spain-yellow/10 transition-all duration-300 group hover:shadow-lg hover:scale-[1.02] border border-transparent hover:border-spain-yellow/40 w-full text-left cursor-pointer touch-manipulation"
                 :class="{ 'bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10 text-spain-navy font-semibold shadow-md border-spain-yellow/50': isStorySectionOpen }"
               >
                 <span class="!text-sm font-semibold text-spain-navy group-hover:text-spain-navy transition-colors">Meine Geschichte</span>
                 <Icon 
                   name="heroicons:chevron-right" 
-                  class="w-4 h-4 text-spain-navy/70 group-hover:text-spain-navy transition-all duration-300"
+                  class="w-4 h-4 text-spain-navy/70 group-hover:text-spain-navy transition-all duration-300 flex-shrink-0"
                   :class="{ 'rotate-90': isStorySectionOpen }"
                 />
               </button>
@@ -94,13 +94,13 @@
                 leave-from-class="opacity-100 max-h-none"
                 leave-to-class="opacity-0 max-h-0"
               >
-                <div v-if="isStorySectionOpen" class="space-y-1 ml-6 pl-4 border-l-2 border-spain-yellow/50">
+                <div v-if="isStorySectionOpen" class="space-y-1 ml-4 md:ml-6 pl-3 md:pl-4 border-l-2 border-spain-yellow/50">
                   <NuxtLink
                     v-for="step in storySteps"
                     :key="step.key"
                     :to="`/timeline/${step.key}`"
                     @click="closeSidebar"
-                    class="flex items-center p-3 transition-all duration-300 group"
+                    class="flex items-center p-2 md:p-3 transition-all duration-300 group touch-manipulation"
                   >
                     <div class="flex-1 min-w-0">
                       <div 
@@ -118,10 +118,10 @@
           </div>
 
           <!-- Language Switcher - Fixed Bottom -->
-          <div class="flex-shrink-0 p-4 border-t border-spain-yellow/30 bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10">
+          <div class="flex-shrink-0 p-3 md:p-4 border-t border-spain-yellow/30 bg-gradient-to-r from-spain-yellow/20 to-spain-yellow/10">
             <div class="flex items-center justify-between">
-              <div class="flex items-center gap-3">
-                <div class="w-1 h-6 bg-gradient-to-b from-spain-yellow to-spain-yellow/80 rounded-full"></div>
+              <div class="flex items-center gap-2 md:gap-3">
+                <div class="w-1 h-4 md:h-6 bg-gradient-to-b from-spain-yellow to-spain-yellow/80 rounded-full"></div>
                 <h3 class="!text-sm font-bold text-spain-navy uppercase tracking-wider">
                   {{ t('ui.sidebar.language') }}
                 </h3>
