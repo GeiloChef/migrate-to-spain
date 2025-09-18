@@ -5,11 +5,12 @@
         {{ $t('learning-spanish.sections.lingolia.title') }}
       </h2>
       <div class="grid md:grid-cols-2 gap-8 items-center">
-        <div class="space-y-4 text-gray-700 leading-relaxed">
+        <!-- Mobile: Image first, Desktop: Text first -->
+        <div class="order-2 md:order-1 space-y-4 text-gray-700 leading-relaxed">
           <p class="!text-lg">{{ $t('learning-spanish.sections.lingolia.paragraph1') }}</p>
           <p class="!text-lg">{{ $t('learning-spanish.sections.lingolia.paragraph2') }}</p>
         </div>
-        <div class="h-64 rounded-xl overflow-hidden shadow-md">
+        <div class="order-1 md:order-2 h-64 rounded-xl overflow-hidden shadow-md">
           <img
             src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Online learning and study"
