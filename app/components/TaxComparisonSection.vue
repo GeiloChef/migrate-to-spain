@@ -14,8 +14,50 @@
         {{ $t('first-research-feasibility.sections.taxes.intro') }}
       </p>
       
-      <!-- Gehaltsabrechnung Vergleich -->
-      <div class="grid md:grid-cols-2 gap-8">
+      <!-- Mobile Tabs / Desktop Grid -->
+      <div class="block md:hidden">
+        <!-- Tab Navigation -->
+        <div class="flex bg-gray-100 rounded-lg p-1 mb-6">
+          <button
+            @click="activeTab = 'germany'"
+            :class="[
+              'flex-1 py-2 px-4 text-sm font-medium rounded-md transition-all duration-200',
+              activeTab === 'germany'
+                ? 'bg-white text-blue-600 shadow-sm'
+                : 'text-gray-600 hover:text-gray-900'
+            ]"
+          >
+            {{ $t('first-research-feasibility.sections.taxes.comparison.germany.title') }}
+          </button>
+          <button
+            @click="activeTab = 'spain'"
+            :class="[
+              'flex-1 py-2 px-4 text-sm font-medium rounded-md transition-all duration-200',
+              activeTab === 'spain'
+                ? 'bg-white text-purple-600 shadow-sm'
+                : 'text-gray-600 hover:text-gray-900'
+            ]"
+          >
+            {{ $t('first-research-feasibility.sections.taxes.comparison.spain.title') }}
+          </button>
+        </div>
+        
+        <!-- Tab Content -->
+        <div class="space-y-4">
+          <!-- Deutschland Tab -->
+          <div v-if="activeTab === 'germany'" class="animate-fadeIn">
+            <TaxCard :country="'germany'" />
+          </div>
+          
+          <!-- Spanien Tab -->
+          <div v-if="activeTab === 'spain'" class="animate-fadeIn">
+            <TaxCard :country="'spain'" />
+          </div>
+        </div>
+      </div>
+      
+      <!-- Desktop Grid -->
+      <div class="hidden md:grid md:grid-cols-2 gap-8">
         <!-- Deutschland -->
         <div class="bg-white rounded-xl p-6 border border-blue-200 shadow-sm flex flex-col">
           <div class="flex items-center justify-between mb-4">
@@ -170,34 +212,39 @@
       </div>
       
       <!-- Zusammenfassung -->
-      <div class="mt-6 p-4 bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg border border-amber-200">
-        <div class="flex items-center gap-3 mb-4">
-          <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center">
-            <svg class="w-4 h-4 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
+      <div class="mt-4 md:mt-6 p-4 md:p-6 bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg border border-amber-200">
+        <div class="flex items-center gap-2 md:gap-3 mb-3 md:mb-4">
+          <div class="w-6 h-6 md:w-8 md:h-8 bg-amber-100 rounded-full flex items-center justify-center">
+            <svg class="w-3 h-3 md:w-4 md:h-4 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
             </svg>
           </div>
-          <h3 class="!text-lg font-semibold text-gray-900 text-lg">{{ $t('first-research-feasibility.sections.taxes.summary.title') }}</h3>
+          <h3 class="!text-base md:!text-lg font-semibold text-gray-900">{{ $t('first-research-feasibility.sections.taxes.summary.title') }}</h3>
         </div>
         
         <!-- Vergleichszahlen -->
-        <div class="grid md:grid-cols-3 gap-4 text-sm mb-4">
-          <div class="text-center">
-            <div class="!text-lg font-bold text-blue-600">1.580,99€</div>
-            <div class="text-gray-600">{{ $t('first-research-feasibility.sections.taxes.summary.germanyNet') }}</div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 text-xs md:text-sm mb-4">
+          <!-- Deutschland -->
+          <div class="bg-white rounded-lg p-3 border border-blue-200 text-center">
+            <div class="!text-base md:!text-lg font-bold text-blue-600">1.580,99€</div>
+            <div class="text-gray-600 text-xs">{{ $t('first-research-feasibility.sections.taxes.summary.germanyNet') }}</div>
           </div>
-          <div class="text-center">
-            <div class="!text-lg font-bold text-purple-600">1.823,75€</div>
-            <div class="text-gray-600">{{ $t('first-research-feasibility.sections.taxes.summary.spainNet') }}</div>
+          
+          <!-- Spanien -->
+          <div class="bg-white rounded-lg p-3 border border-purple-200 text-center">
+            <div class="!text-base md:!text-lg font-bold text-purple-600">1.823,75€</div>
+            <div class="text-gray-600 text-xs">{{ $t('first-research-feasibility.sections.taxes.summary.spainNet') }}</div>
           </div>
-          <div class="text-center">
-            <div class="!text-lg font-bold text-green-600">+242,76€</div>
-            <div class="text-gray-600">{{ $t('first-research-feasibility.sections.taxes.summary.difference') }}</div>
+          
+          <!-- Differenz -->
+          <div class="bg-white rounded-lg p-3 border border-green-200 text-center">
+            <div class="!text-base md:!text-lg font-bold text-green-600">+242,76€</div>
+            <div class="text-gray-600 text-xs">{{ $t('first-research-feasibility.sections.taxes.summary.difference') }}</div>
           </div>
         </div>
         
         <!-- Kurze Erklärung -->
-        <div class="text-gray-700 text-sm space-y-2">
+        <div class="text-gray-700 text-xs md:text-sm space-y-2">
           <p>
             <strong>{{ $t('first-research-feasibility.sections.taxes.summary.fazit') }}:</strong> {{ $t('first-research-feasibility.sections.taxes.summary.conclusion') }}
           </p>
@@ -214,5 +261,25 @@
 </template>
 
 <script setup>
-// Keine zusätzliche Logik benötigt
+import { ref } from 'vue'
+import TaxCard from './TaxCard.vue'
+
+const activeTab = ref('germany')
 </script>
+
+<style scoped>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+</style>

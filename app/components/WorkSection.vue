@@ -98,7 +98,7 @@
       </div>
       
       <!-- Verbesserte Entscheidungsbox -->
-      <div class="mt-8 relative rounded-xl overflow-hidden shadow-lg">
+      <div class="mt-6 md:mt-8 relative rounded-xl overflow-hidden shadow-lg">
         <!-- Hintergrundbild mit Opacity -->
         <div class="absolute inset-0">
           <img 
@@ -108,19 +108,19 @@
           />
         </div>
         <!-- Content mit semi-transparentem Hintergrund -->
-        <div class="relative p-8 bg-white/95 backdrop-blur-sm text-center">
-          <div class="inline-flex items-center gap-3 px-4 py-2 bg-blue-100/80 rounded-full text-blue-800 text-sm font-medium mb-4 border border-blue-200/50">
-            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+        <div class="relative p-4 md:p-8 bg-white/95 backdrop-blur-sm text-center">
+          <div class="inline-flex items-center gap-2 md:gap-3 px-3 py-1.5 md:px-4 md:py-2 bg-blue-100/80 rounded-full text-blue-800 text-xs md:text-sm font-medium mb-3 md:mb-4 border border-blue-200/50">
+            <svg class="w-3 h-3 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
             </svg>
             Meine Entscheidung
           </div>
-          <h3 class="!text-lg font-bold text-gray-900 mb-3 text-xl">{{ $t('first-research-feasibility.sections.work.decision.title') }}</h3>
-          <p class="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
+          <h3 class="!text-lg md:!text-xl font-bold text-gray-900 mb-2 md:mb-3">{{ $t('first-research-feasibility.sections.work.decision.title') }}</h3>
+          <p class="text-gray-700 text-sm md:text-lg leading-relaxed max-w-3xl mx-auto">
             {{ $t('first-research-feasibility.sections.work.decision.description') }}
           </p>
-          <div class="mt-4 inline-flex items-center gap-3 px-6 py-3 bg-blue-50/80 rounded-lg text-blue-700 text-sm">
-            <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <div class="mt-3 md:mt-4 inline-flex items-center gap-2 md:gap-3 px-4 py-2 md:px-6 md:py-3 bg-blue-50/80 rounded-lg text-blue-700 text-xs md:text-sm">
+            <svg class="w-4 h-4 md:w-5 md:h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" clip-rule="evenodd" />
             </svg>
             <span>{{ $t('first-research-feasibility.sections.work.decision.reminder') }}</span>
