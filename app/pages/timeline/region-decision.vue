@@ -8,7 +8,7 @@
     <!-- Hero Section -->
     <div class="relative">
       <!-- Background Image -->
-      <div class="w-full h-[300px] md:h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
+      <div class="w-full h-[300px] md:h-[400px] md:rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
           src="/images/timeline/region-decision.png" 
           alt="Lupe auf Karte der Iberischen Halbinsel - Regionenauswahl"

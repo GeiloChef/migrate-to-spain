@@ -8,7 +8,7 @@
     <!-- Hero Section -->
     <div class="relative">
       <!-- Background Image -->
-      <div class="w-full h-[300px] md:h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
+      <div class="w-full h-[300px] md:h-[400px] md:rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
           src="/images/timeline/first-research-hero.png" 
           alt="Recherche und Planung - Computer, Dokumente und Notizen"

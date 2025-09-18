@@ -8,7 +8,7 @@
     <!-- Hero Section -->
     <div class="relative">
       <!-- Background Image -->
-      <div class="w-full h-[300px] md:h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
+      <div class="w-full h-[300px] md:h-[400px] md:rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
           src="/images/timeline/visiting-a-property.png" 
           alt="Wohnungsbesichtigung - Paar mit Makler in leerer Wohnung"

@@ -8,7 +8,7 @@
     <!-- Hero Section -->
     <div class="relative">
       <!-- Background Image -->
-      <div class="w-full h-[300px] md:h-[400px] rounded-t-3xl overflow-hidden shadow-2xl">
+      <div class="w-full h-[300px] md:h-[400px] md:rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
           src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Spanish government building with official documents and bureaucracy"

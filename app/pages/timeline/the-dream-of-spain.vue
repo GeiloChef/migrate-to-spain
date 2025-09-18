@@ -6,7 +6,7 @@
     <!-- Hero Section with Full-Size Image -->
     <div class="relative -mt-6 md:-mt-12">
       <!-- Full-Size Background Image -->
-      <div class="w-full h-[300px] md:h-[500px] rounded-t-3xl overflow-hidden shadow-2xl">
+      <div class="w-full h-[300px] md:h-[500px] md:rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
           src="https://images.unsplash.com/photo-1557930335-abd211a9cd43?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Sunset at the beach - typical Spain feeling"
