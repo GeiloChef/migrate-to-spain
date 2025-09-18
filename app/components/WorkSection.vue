@@ -26,10 +26,15 @@
         </div>
         
         <!-- Two Options Below -->
-        <div class="grid md:grid-cols-2 gap-0 relative">
+        <div class="bg-white md:grid md:grid-cols-2 md:gap-0 relative">
           <!-- Option 1: Remote Work -->
-          <div class="p-6">
-            <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-lg">{{ $t('first-research-feasibility.sections.work.options.remote.title') }}</h3>
+          <div class="p-6 md:p-6">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center shadow-sm">
+                <span class="text-white font-bold text-sm leading-none px-1">1</span>
+              </div>
+              <h3 class="!text-xl font-bold text-gray-900">{{ $t('first-research-feasibility.sections.work.options.remote.title') }}</h3>
+            </div>
             <div class="space-y-3 mb-4">
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
@@ -55,12 +60,20 @@
             </div>
           </div>
           
-          <!-- Divider -->
-          <div class="absolute left-1/2 top-[15%] bottom-[15%] w-px bg-gray-200 transform -translate-x-1/2"></div>
+          <!-- Mobile Divider -->
+          <div class="block md:hidden border-t border-gray-200"></div>
+          
+          <!-- Desktop Divider -->
+          <div class="hidden md:block absolute left-1/2 top-[15%] bottom-[15%] w-px bg-gray-200 transform -translate-x-1/2"></div>
           
           <!-- Option 2: Work in Spain -->
-          <div class="p-6">
-            <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-lg">{{ $t('first-research-feasibility.sections.work.options.spain.title') }}</h3>
+          <div class="p-6 md:p-6">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center shadow-sm">
+                <span class="text-white font-bold text-sm leading-none px-1">2</span>
+              </div>
+              <h3 class="!text-xl font-bold text-gray-900">{{ $t('first-research-feasibility.sections.work.options.spain.title') }}</h3>
+            </div>
             <div class="space-y-3 mb-4">
               <div class="flex items-start gap-3">
                 <div class="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
