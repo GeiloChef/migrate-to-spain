@@ -9,7 +9,7 @@
     <LearningSpanishHeroSection />
 
     <!-- Main Content -->
-    <div class="prose prose-lg max-w-none text-gray-800 leading-relaxed">
+    <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Introduction Section -->
       <LearningSpanishIntroductionSection />
 

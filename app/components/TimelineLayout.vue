@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen bg-spain-cream pb-12">
+  <div class="min-h-screen bg-spain-cream pb-6 md:pb-12">
     <!-- Header Section -->
-    <TimelineHeader class="mb-12" />
+    <TimelineHeader class="mb-6 md:mb-12" />
 
     <!-- Table of Contents -->
     <TableOfContents />

@@ -35,7 +35,7 @@
     </div>
 
     <!-- Main Content -->
-    <div class="prose prose-lg max-w-none text-gray-800 leading-relaxed">
+    <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-16">
