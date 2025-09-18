@@ -11,11 +11,12 @@
 
       <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-8">
         <div class="flex items-start gap-4">
-          <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
+          <!-- Icon only visible on desktop -->
+          <div class="hidden md:flex w-12 h-12 bg-blue-500 rounded-full items-center justify-center flex-shrink-0">
             <Icon name="heroicons:light-bulb" class="w-6 h-6 text-white" />
           </div>
           <div>
-            <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">💡 Mein Tipp:</h3>
+            <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">{{ $t('learning-spanish.sections.currentStatus.tipTitle') }}</h3>
             <p class="text-blue-800 font-medium text-lg">{{ $t('learning-spanish.sections.currentStatus.tip') }}</p>
           </div>
         </div>
