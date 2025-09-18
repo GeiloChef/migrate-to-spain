@@ -1,11 +1,11 @@
 <template>
   <div id="lebenshaltungskosten">
     <!-- Header Section -->
-    <div class="flex items-center gap-4 mb-10">
-      <div class="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg">
-        <span class="text-white font-bold text-2xl">4</span>
+    <div class="flex items-center gap-3 md:gap-4 mb-6 md:mb-10">
+      <div class="w-10 h-10 md:w-14 md:h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl md:rounded-2xl flex items-center justify-center shadow-lg">
+        <span class="text-white font-bold text-lg md:text-2xl">4</span>
       </div>
-      <h2 class="!text-4xl font-bold text-gray-900">
+      <h2 class="!text-2xl md:!text-4xl font-bold text-gray-900">
         {{ $t('first-research-feasibility.sections.livingCosts.title') }}
       </h2>
     </div>

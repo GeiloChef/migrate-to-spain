@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="flex items-center gap-4 mb-8">
-      <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
-        <span class="text-indigo-600 font-bold text-xl">✓</span>
+    <div class="flex items-center gap-3 md:gap-4 mb-6 md:mb-8">
+      <div class="w-10 h-10 md:w-12 md:h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+        <span class="text-indigo-600 font-bold text-lg md:text-xl">✓</span>
       </div>
-      <h2 class="!text-3xl font-bold text-gray-900">
+      <h2 class="!text-2xl md:!text-3xl font-bold text-gray-900">
         {{ $t('first-research-feasibility.conclusion.title') }}
       </h2>
     </div>
