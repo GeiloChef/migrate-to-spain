@@ -139,6 +139,44 @@
 const isOpen = ref(false)
 const isStorySectionOpen = ref(false)
 
+// Block body scroll when sidebar is open
+watch(isOpen, (newValue) => {
+  if (newValue) {
+    // Block body scroll
+    document.body.style.overflow = 'hidden'
+    document.body.style.position = 'fixed'
+    document.body.style.width = '100%'
+  } else {
+    // Restore body scroll
+    document.body.style.overflow = ''
+    document.body.style.position = ''
+    document.body.style.width = ''
+  }
+})
+
+// Handle escape key to close sidebar
+const handleKeydown = (event) => {
+  if (event.key === 'Escape' && isOpen.value) {
+    closeSidebar()
+  }
+}
+
+// Add event listeners
+onMounted(() => {
+  document.addEventListener('keydown', handleKeydown)
+})
+
+// Cleanup on unmount
+onUnmounted(() => {
+  // Remove event listeners
+  document.removeEventListener('keydown', handleKeydown)
+  
+  // Restore body scroll when component is unmounted
+  document.body.style.overflow = ''
+  document.body.style.position = ''
+  document.body.style.width = ''
+})
+
 // Check if we're on a timeline page and auto-open story section
 const route = useRoute()
 
