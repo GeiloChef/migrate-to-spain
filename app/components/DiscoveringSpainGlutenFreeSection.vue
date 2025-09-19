@@ -22,32 +22,36 @@
     </div>
     
     <div class="mt-8 grid md:grid-cols-2 gap-6">
-      <div class="bg-green-50 rounded-xl p-6 border border-green-200">
-        <div class="flex items-center gap-3 mb-3">
-          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
-            <Icon name="heroicons:building-storefront" class="w-5 h-5 text-white" />
-          </div>
-          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
+      <div class="bg-green-50 rounded-xl p-6 border border-green-200 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center opacity-20">
+          <Icon name="heroicons:building-storefront" class="w-8 h-8 text-white" />
+        </div>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-3">
             {{ $t('discoveringSpain.glutenFree.restaurants.title') }}
           </h3>
+          <p class="text-gray-700">
+            {{ $t('discoveringSpain.glutenFree.restaurants.description') }}
+          </p>
         </div>
-        <p class="text-gray-700">
-          {{ $t('discoveringSpain.glutenFree.restaurants.description') }}
-        </p>
       </div>
       
-      <div class="bg-blue-50 rounded-xl p-6 border border-blue-200">
-        <div class="flex items-center gap-3 mb-3">
-          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center">
-            <Icon name="heroicons:shopping-cart" class="w-5 h-5 text-white" />
-          </div>
-          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
+      <div class="bg-blue-50 rounded-xl p-6 border border-blue-200 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center opacity-20">
+          <Icon name="heroicons:shopping-cart" class="w-8 h-8 text-white" />
+        </div>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-3">
             {{ $t('discoveringSpain.glutenFree.supermarkets.title') }}
           </h3>
+          <p class="text-gray-700">
+            {{ $t('discoveringSpain.glutenFree.supermarkets.description') }}
+          </p>
         </div>
-        <p class="text-gray-700">
-          {{ $t('discoveringSpain.glutenFree.supermarkets.description') }}
-        </p>
       </div>
     </div>
   </div>

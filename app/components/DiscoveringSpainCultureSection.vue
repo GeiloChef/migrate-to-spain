@@ -22,32 +22,36 @@
     </div>
     
     <div class="mt-8 grid md:grid-cols-2 gap-6">
-      <div class="bg-purple-50 rounded-xl p-6 border border-purple-200">
-        <div class="flex items-center gap-3 mb-3">
-          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-purple-500 to-violet-600 rounded-full flex items-center justify-center">
-            <Icon name="heroicons:moon" class="w-5 h-5 text-white" />
-          </div>
-          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
+      <div class="bg-purple-50 rounded-xl p-6 border border-purple-200 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-purple-500 to-violet-600 rounded-full flex items-center justify-center opacity-20">
+          <Icon name="heroicons:moon" class="w-8 h-8 text-white" />
+        </div>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-3">
             {{ $t('discoveringSpain.culture.nightlife.title') }}
           </h3>
+          <p class="text-gray-700">
+            {{ $t('discoveringSpain.culture.nightlife.description') }}
+          </p>
         </div>
-        <p class="text-gray-700">
-          {{ $t('discoveringSpain.culture.nightlife.description') }}
-        </p>
       </div>
       
-      <div class="bg-pink-50 rounded-xl p-6 border border-pink-200">
-        <div class="flex items-center gap-3 mb-3">
-          <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-pink-500 to-rose-600 rounded-full flex items-center justify-center">
-            <Icon name="heroicons:heart" class="w-5 h-5 text-white" />
-          </div>
-          <h3 class="!text-lg font-semibold text-gray-900 text-lg">
+      <div class="bg-pink-50 rounded-xl p-6 border border-pink-200 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-pink-500 to-rose-600 rounded-full flex items-center justify-center opacity-20">
+          <Icon name="heroicons:user-group" class="w-8 h-8 text-white" />
+        </div>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 text-lg mb-3">
             {{ $t('discoveringSpain.culture.openness.title') }}
           </h3>
+          <p class="text-gray-700">
+            {{ $t('discoveringSpain.culture.openness.description') }}
+          </p>
         </div>
-        <p class="text-gray-700">
-          {{ $t('discoveringSpain.culture.openness.description') }}
-        </p>
       </div>
     </div>
   </div>

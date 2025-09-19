@@ -18,40 +18,52 @@
     </p>
     
     <div class="grid md:grid-cols-3 gap-6 mb-8">
-      <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-6 border border-yellow-100 hover:shadow-md transition-all duration-300">
-        <div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
-          <Icon name="heroicons:clock" class="w-6 h-6 text-yellow-600" />
+      <div class="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-6 border border-yellow-100 hover:shadow-md transition-all duration-300 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-white rounded-full flex items-center justify-center opacity-30">
+          <Icon name="heroicons:clock" class="w-8 h-8 text-yellow-600" />
         </div>
-        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('discoveringSpain.qualityOfLife.everyday.title') }}
-        </h3>
-        <p class="text-gray-700 leading-relaxed">
-          {{ $t('discoveringSpain.qualityOfLife.everyday.description') }}
-        </p>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
+            {{ $t('discoveringSpain.qualityOfLife.everyday.title') }}
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            {{ $t('discoveringSpain.qualityOfLife.everyday.description') }}
+          </p>
+        </div>
       </div>
       
-      <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100 hover:shadow-md transition-all duration-300">
-        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-          <Icon name="heroicons:sun" class="w-6 h-6 text-blue-600" />
+      <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100 hover:shadow-md transition-all duration-300 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-white rounded-full flex items-center justify-center opacity-30">
+          <Icon name="heroicons:sun" class="w-8 h-8 text-blue-600" />
         </div>
-        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('discoveringSpain.qualityOfLife.climate.title') }}
-        </h3>
-        <p class="text-gray-700 leading-relaxed">
-          {{ $t('discoveringSpain.qualityOfLife.climate.description') }}
-        </p>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
+            {{ $t('discoveringSpain.qualityOfLife.climate.title') }}
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            {{ $t('discoveringSpain.qualityOfLife.climate.description') }}
+          </p>
+        </div>
       </div>
       
-      <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border border-green-100 hover:shadow-md transition-all duration-300">
-        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
-          <Icon name="heroicons:currency-euro" class="w-6 h-6 text-green-600" />
+      <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border border-green-100 hover:shadow-md transition-all duration-300 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-white rounded-full flex items-center justify-center opacity-30">
+          <Icon name="heroicons:currency-euro" class="w-8 h-8 text-green-600" />
         </div>
-        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
-          {{ $t('discoveringSpain.qualityOfLife.costs.title') }}
-        </h3>
-        <p class="text-gray-700 leading-relaxed">
-          {{ $t('discoveringSpain.qualityOfLife.costs.description') }}
-        </p>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
+            {{ $t('discoveringSpain.qualityOfLife.costs.title') }}
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            {{ $t('discoveringSpain.qualityOfLife.costs.description') }}
+          </p>
+        </div>
       </div>
     </div>
     
