@@ -9,16 +9,15 @@
         <p class="!text-lg">{{ $t('learning-spanish.sections.currentStatus.paragraph2') }}</p>
       </div>
 
-      <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-8">
-        <div class="flex items-start gap-4">
-          <!-- Icon only visible on desktop -->
-          <div class="hidden md:flex w-12 h-12 bg-blue-500 rounded-full items-center justify-center flex-shrink-0">
-            <Icon name="heroicons:light-bulb" class="w-6 h-6 text-white" />
-          </div>
-          <div>
-            <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">{{ $t('learning-spanish.sections.currentStatus.tipTitle') }}</h3>
-            <p class="text-blue-800 font-medium text-lg">{{ $t('learning-spanish.sections.currentStatus.tip') }}</p>
-          </div>
+      <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-8 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center opacity-20">
+          <Icon name="heroicons:light-bulb" class="w-10 h-10 text-white" />
+        </div>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">{{ $t('learning-spanish.sections.currentStatus.tipTitle') }}</h3>
+          <p class="text-blue-800 font-medium text-lg">{{ $t('learning-spanish.sections.currentStatus.tip') }}</p>
         </div>
       </div>
     </div>

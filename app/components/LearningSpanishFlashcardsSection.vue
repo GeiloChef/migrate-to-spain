@@ -140,14 +140,14 @@
               <!-- Why It Works Section -->
               <div class="mt-8 pt-6 border-t border-gray-200">
                 <h3 class="!text-lg font-semibold text-gray-800 text-center mb-4">{{ $t('learning-spanish.sections.flashcards.whyItWorks') }}</h3>
-                <div class="bg-green-50 rounded-lg p-4 border border-green-100">
-                  <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white text-sm flex-shrink-0">
-                      <Icon name="heroicons:light-bulb" class="w-4 h-4" />
-                    </div>
-                    <div class="flex-1">
-                      <p class="text-green-700 leading-relaxed text-sm">{{ $t('learning-spanish.sections.flashcards.conclusion') }}</p>
-                    </div>
+                <div class="bg-green-50 rounded-lg p-4 border border-green-100 relative overflow-hidden">
+                  <!-- Background icon -->
+                  <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center opacity-20">
+                    <Icon name="heroicons:light-bulb" class="w-8 h-8 text-white" />
+                  </div>
+                  <!-- Content -->
+                  <div class="relative z-10">
+                    <p class="text-green-700 leading-relaxed text-sm">{{ $t('learning-spanish.sections.flashcards.conclusion') }}</p>
                   </div>
                 </div>
               </div>
