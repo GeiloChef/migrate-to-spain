@@ -40,69 +40,73 @@
     <!-- Two Rules Side by Side -->
     <div class="grid lg:grid-cols-2 gap-8">
       <!-- 3 Months Rule -->
-      <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200 shadow-lg">
-        <div class="flex items-center gap-3 mb-4">
-          <div class="w-10 h-10 bg-blue-500 rounded-xl flex items-center justify-center">
-            <span class="text-white font-bold text-lg">3</span>
-          </div>
-          <h3 class="!text-lg font-bold text-gray-900 text-xl">{{ $t('first-research-feasibility.sections.residenceRights.registration.title') }}</h3>
+      <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200 shadow-lg relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center opacity-20">
+          <span class="text-white font-bold text-2xl">3</span>
         </div>
-        <ul class="space-y-3 text-gray-700">
-          <li class="flex items-start gap-3">
-            <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-            <span>{{ $t('first-research-feasibility.sections.residenceRights.registration.point1') }}</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-            <span>{{ $t('first-research-feasibility.sections.residenceRights.registration.point2') }}</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-            <span>{{ $t('first-research-feasibility.sections.residenceRights.registration.point3') }}</span>
-          </li>
-        </ul>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-bold text-gray-900 text-xl mb-4">{{ $t('first-research-feasibility.sections.residenceRights.registration.title') }}</h3>
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex items-start gap-3">
+              <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+              <span>{{ $t('first-research-feasibility.sections.residenceRights.registration.point1') }}</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+              <span>{{ $t('first-research-feasibility.sections.residenceRights.registration.point2') }}</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+              <span>{{ $t('first-research-feasibility.sections.residenceRights.registration.point3') }}</span>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <!-- 183 Days Rule -->
-      <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-200 shadow-lg">
-        <div class="flex items-center gap-3 mb-4">
-          <div class="w-10 h-10 bg-green-500 rounded-xl flex items-center justify-center">
-            <span class="text-white font-bold text-lg">183</span>
-          </div>
-          <h3 class="!text-lg font-bold text-gray-900 text-xl">{{ $t('first-research-feasibility.sections.residenceRights.taxRule.title') }}</h3>
+      <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-200 shadow-lg relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center opacity-20">
+          <span class="text-white font-bold text-lg">183</span>
         </div>
-        
-        <div class="space-y-4 mb-4">
-          <div class="p-3 bg-transparent rounded-xl border border-gray-300">
-            <div class="flex items-start gap-3">
-              <div class="w-6 h-6 bg-red-500 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
-                <Icon name="heroicons:arrow-trending-up" class="w-4 h-4 text-white" />
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-bold text-gray-900 text-xl mb-4">{{ $t('first-research-feasibility.sections.residenceRights.taxRule.title') }}</h3>
+          
+          <div class="space-y-4 mb-4">
+            <div class="p-3 bg-transparent rounded-xl border border-gray-300 relative overflow-hidden">
+              <!-- Background icon -->
+              <div class="absolute -top-2 -right-2 w-12 h-12 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center opacity-20">
+                <Icon name="heroicons:arrow-trending-up" class="w-6 h-6 text-white" />
               </div>
-              <div>
+              <!-- Content -->
+              <div class="relative z-10">
                 <p class="font-semibold text-gray-900">{{ $t('first-research-feasibility.sections.residenceRights.taxRule.over183.title') }}</p>
                 <p class="!text-sm text-gray-600">{{ $t('first-research-feasibility.sections.residenceRights.taxRule.over183.description') }}</p>
               </div>
             </div>
-          </div>
-          <div class="p-3 bg-transparent rounded-xl border border-gray-300">
-            <div class="flex items-start gap-3">
-              <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
-                <Icon name="heroicons:arrow-trending-down" class="w-4 h-4 text-white" />
+            <div class="p-3 bg-transparent rounded-xl border border-gray-300 relative overflow-hidden">
+              <!-- Background icon -->
+              <div class="absolute -top-2 -right-2 w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center opacity-20">
+                <Icon name="heroicons:arrow-trending-down" class="w-6 h-6 text-white" />
               </div>
-              <div>
+              <!-- Content -->
+              <div class="relative z-10">
                 <p class="font-semibold text-gray-900">{{ $t('first-research-feasibility.sections.residenceRights.taxRule.under183.title') }}</p>
                 <p class="!text-sm text-gray-600">{{ $t('first-research-feasibility.sections.residenceRights.taxRule.under183.description') }}</p>
               </div>
             </div>
           </div>
-        </div>
-        
-        <div class="p-3 bg-transparent rounded-xl border border-gray-300">
-          <div class="flex items-start gap-3">
-            <div class="w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center mt-1 flex-shrink-0">
-              <Icon name="heroicons:exclamation-triangle" class="w-4 h-4 text-white" />
+          
+          <div class="p-3 bg-transparent rounded-xl border border-gray-300 relative overflow-hidden">
+            <!-- Background icon -->
+            <div class="absolute -top-2 -right-2 w-12 h-12 bg-gradient-to-br from-yellow-500 to-amber-600 rounded-full flex items-center justify-center opacity-20">
+              <Icon name="heroicons:exclamation-triangle" class="w-6 h-6 text-white" />
             </div>
-            <div>
+            <!-- Content -->
+            <div class="relative z-10">
               <p class="!text-sm text-gray-700 leading-relaxed">
                 <strong class="text-gray-900">{{ $t('first-research-feasibility.sections.residenceRights.taxRule.conclusion') }}</strong>
               </p>

@@ -37,11 +37,18 @@
         </div>
       </div>
       
-      <div class="bg-green-50 rounded-xl p-6 border border-green-200">
-        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">{{ $t('first-research-feasibility.conclusion.bonus.title') }}</h3>
-        <p class="text-green-700">
-          {{ $t('first-research-feasibility.conclusion.bonus.description') }}
-        </p>
+      <div class="bg-green-50 rounded-xl p-6 border border-green-200 relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center opacity-20">
+          <Icon name="heroicons:check-circle" class="w-8 h-8 text-white" />
+        </div>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">{{ $t('first-research-feasibility.conclusion.bonus.title') }}</h3>
+          <p class="text-green-700">
+            {{ $t('first-research-feasibility.conclusion.bonus.description') }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
