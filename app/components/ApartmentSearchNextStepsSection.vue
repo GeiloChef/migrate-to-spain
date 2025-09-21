@@ -23,16 +23,16 @@
     </div>
 
     <!-- Next Steps Box -->
-    <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-2xl p-8 border border-purple-200/50 shadow-lg">
-      <div class="flex items-start gap-4">
-        <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center">
-          <Icon name="heroicons:arrow-right" class="w-6 h-6 text-white" />
-        </div>
-        <div class="flex-1">
-          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
-            {{ $t('apartmentSearch.nextSteps.highlight') }}
-          </h3>
-        </div>
+    <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-2xl p-8 border border-purple-200/50 shadow-lg relative overflow-hidden">
+      <!-- Background icon -->
+      <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center opacity-20">
+        <Icon name="heroicons:arrow-right" class="w-10 h-10 text-white" />
+      </div>
+      <!-- Content -->
+      <div class="relative z-10">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
+          {{ $t('apartmentSearch.nextSteps.highlight') }}
+        </h3>
       </div>
     </div>
 

@@ -6,7 +6,8 @@
     
     <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 rounded-3xl p-0 mb-8">
       <div class="grid md:grid-cols-2 gap-8 items-center p-4 md:p-8">
-        <div class="space-y-6 text-gray-700 leading-relaxed">
+        <!-- Mobile: Image first, Desktop: Text first -->
+        <div class="order-2 md:order-1 space-y-6 text-gray-700 leading-relaxed">
           <p class="!text-lg">
             {{ $t('apartmentSearch.onSite.paragraph1') }}
           </p>
@@ -14,7 +15,7 @@
             {{ $t('apartmentSearch.onSite.paragraph2') }}
           </p>
         </div>
-        <div class="h-full rounded-2xl overflow-hidden shadow-xl">
+        <div class="order-1 md:order-2 h-full rounded-2xl overflow-hidden shadow-xl">
           <img 
             src="/images/timeline/murcia-painted.png" 
             alt="Murcia Aquarellmalerei - Stadtansicht mit Fluss und Kirchturm"
@@ -47,19 +48,19 @@
     </div>
 
     <!-- Warning Box -->
-    <div class="bg-gradient-to-r from-red-50 to-pink-50 rounded-3xl p-0 border border-red-200/50 shadow-xl">
-      <div class="flex items-start gap-6 p-4 md:p-8">
-        <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-full flex items-center justify-center">
-          <Icon name="heroicons:exclamation-triangle" class="w-6 h-6 text-white" />
-        </div>
-        <div class="flex-1">
-          <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-xl">
-            Wichtiger Hinweis
-          </h3>
-          <p class="text-gray-700 leading-relaxed text-lg">
-            Von Privatkäufen würde ich übrigens eher abraten – das spanische Immobilienrecht ist nicht ohne, und ein Makler sorgt zumindest für etwas Sicherheit im Prozess.
-          </p>
-        </div>
+    <div class="bg-gradient-to-r from-red-50 to-pink-50 rounded-3xl p-0 border border-red-200/50 shadow-xl relative overflow-hidden">
+      <!-- Background icon -->
+      <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br from-red-500 to-pink-600 rounded-full flex items-center justify-center opacity-20">
+        <Icon name="heroicons:exclamation-triangle" class="w-10 h-10 text-white" />
+      </div>
+      <!-- Content -->
+      <div class="relative z-10 p-4 md:p-8">
+        <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-xl">
+          Wichtiger Hinweis
+        </h3>
+        <p class="text-gray-700 leading-relaxed text-lg">
+          Von Privatkäufen würde ich übrigens eher abraten – das spanische Immobilienrecht ist nicht ohne, und ein Makler sorgt zumindest für etwas Sicherheit im Prozess.
+        </p>
       </div>
     </div>
 
