@@ -4,8 +4,8 @@
       {{ $t('apartmentSearch.onSite.title') }}
     </h2>
     
-    <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 rounded-3xl p-8 mb-8">
-      <div class="grid md:grid-cols-2 gap-8 items-center">
+    <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 rounded-3xl p-0 mb-8">
+      <div class="grid md:grid-cols-2 gap-8 items-center p-4 md:p-8">
         <div class="space-y-6 text-gray-700 leading-relaxed">
           <p class="!text-lg">
             {{ $t('apartmentSearch.onSite.paragraph1') }}
@@ -25,8 +25,8 @@
     </div>
 
     <!-- Additional Information -->
-    <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20 rounded-3xl p-8 mb-8">
-      <div class="grid md:grid-cols-2 gap-8 items-start">
+    <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20 rounded-3xl p-0 mb-8">
+      <div class="grid md:grid-cols-2 gap-8 items-start p-4 md:p-8">
         <div class="h-full rounded-2xl overflow-hidden shadow-xl">
           <img 
             src="/images/timeline/couple-visiting-property.png" 
@@ -47,8 +47,8 @@
     </div>
 
     <!-- Warning Box -->
-    <div class="bg-gradient-to-r from-red-50 to-pink-50 rounded-3xl p-8 border border-red-200/50 shadow-xl">
-      <div class="flex items-start gap-6">
+    <div class="bg-gradient-to-r from-red-50 to-pink-50 rounded-3xl p-0 border border-red-200/50 shadow-xl">
+      <div class="flex items-start gap-6 p-4 md:p-8">
         <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-full flex items-center justify-center">
           <Icon name="heroicons:exclamation-triangle" class="w-6 h-6 text-white" />
         </div>
