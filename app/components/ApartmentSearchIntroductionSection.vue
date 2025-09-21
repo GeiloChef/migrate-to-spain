@@ -12,7 +12,7 @@
           {{ $t('apartmentSearch.introduction.paragraph2') }}
         </p>
       </div>
-      <div class="h-[400px] rounded-xl overflow-hidden shadow-md">
+      <div class="hidden md:block h-[400px] rounded-xl overflow-hidden shadow-md">
         <img 
           src="/images/timeline/desk-with-papers.png" 
           alt="Arbeitsplatz mit Dokumenten und Laptop - Von der Entscheidung zur Tat"
