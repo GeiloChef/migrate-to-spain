@@ -5,7 +5,31 @@
     </h2>
     <!-- Bildercarousel für Murcia -->
     <div class="w-full mb-8 flex flex-col justify-center">
-      <div class="pb-4">
+      <!-- Mobile Carousel - Ein Bild zur Zeit -->
+      <div class="block md:hidden pb-4">
+        <UCarousel
+          :items="murciaImages"
+          loop
+          dots
+          :ui="{ 
+            dot: 'bg-spain-yellow data-[state=active]:bg-spain-red',
+          }"
+          class="w-full"
+        >
+          <template #default="{ item }">
+            <div class="h-80 rounded-xl overflow-hidden shadow-lg">
+              <img 
+                :src="item.src" 
+                :alt="item.alt"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </template>
+        </UCarousel>
+      </div>
+
+      <!-- Desktop Carousel - Zwei Bilder zur Zeit -->
+      <div class="hidden md:block pb-4">
         <UCarousel
           :items="murciaImages"
           loop
@@ -19,7 +43,6 @@
               wrapper: 'absolute inset-y-0 left-0 right-0 flex items-center justify-between pointer-events-none',
               base: 'pointer-events-auto'
             }
-            
           }"
           class="w-full"
           :dots="false"
