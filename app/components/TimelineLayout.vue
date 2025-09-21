@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-spain-cream pb-6 md:pb-12">
+  <div class="min-h-screen bg-spain-cream pb-0 md:pb-12">
     <!-- Header Section -->
     <TimelineHeader class="mb-6 md:mb-12" />
 

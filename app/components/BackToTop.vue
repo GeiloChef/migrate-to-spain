@@ -10,8 +10,11 @@
     <button
       v-show="isVisible"
       @click="scrollToTop"
-      class="fixed bottom-8 z-50 bg-white/95 backdrop-blur-sm border-2 border-yellow-400 hover:border-yellow-500 text-gray-800 hover:text-gray-900 rounded-full w-12 h-12 flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 group cursor-pointer"
-      :class="buttonPosition"
+      class="fixed z-50 bg-white/95 backdrop-blur-sm border-2 border-yellow-400 hover:border-yellow-500 text-gray-800 hover:text-gray-900 rounded-full w-12 h-12 flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+      :class="[
+        buttonPosition,
+        isAtBottom ? 'bottom-20 md:bottom-8' : 'bottom-8'
+      ]"
       :aria-label="$t('ui.backToTop.ariaLabel')"
     >
       <Icon 
@@ -24,6 +27,7 @@
 
 <script setup>
 const isVisible = ref(false)
+const isAtBottom = ref(false)
 
 // Calculate button position to align with story content
 const buttonPosition = computed(() => {
@@ -32,9 +36,20 @@ const buttonPosition = computed(() => {
   return 'right-8 lg:right-[calc(50vw-32rem+2rem)]'
 })
 
+// Calculate if user is at bottom of page
+const checkIfAtBottom = () => {
+  const scrollTop = window.scrollY
+  const windowHeight = window.innerHeight
+  const documentHeight = document.documentElement.scrollHeight
+  
+  // Consider "at bottom" when within 100px of the actual bottom
+  isAtBottom.value = scrollTop + windowHeight >= documentHeight - 100
+}
+
 // Show button when user scrolls down more than 300px
 const handleScroll = () => {
   isVisible.value = window.scrollY > 300
+  checkIfAtBottom()
 }
 
 // Scroll to top with smooth behavior
@@ -48,6 +63,7 @@ const scrollToTop = () => {
 // Add scroll event listener
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
+  checkIfAtBottom() // Check initial state
 })
 
 // Clean up event listener
