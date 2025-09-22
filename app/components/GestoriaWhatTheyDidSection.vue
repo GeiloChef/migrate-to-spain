@@ -11,19 +11,19 @@
       <div class="space-y-4">
         <!-- Process Steps -->
         <div v-for="(step, index) in processSteps" :key="index" 
-             class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm">
-          <div class="flex items-start gap-4">
-            <div class="flex-shrink-0 w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-semibold text-sm">
-              {{ index + 1 }}
-            </div>
-            <div class="flex-1">
-              <h3 class="!text-lg font-semibold text-gray-900 mb-2">
-                {{ $t(`gestoria.chronologicalProcess.steps.step${index + 1}.title`) }}
-              </h3>
-              <p class="text-gray-700">
-                {{ $t(`gestoria.chronologicalProcess.steps.step${index + 1}.description`) }}
-              </p>
-            </div>
+             class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm relative overflow-hidden">
+          <!-- Background number -->
+          <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center opacity-20">
+            <span class="text-white font-bold text-xl">{{ index + 1 }}</span>
+          </div>
+          <!-- Content -->
+          <div class="relative z-10">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-2">
+              {{ $t(`gestoria.chronologicalProcess.steps.step${index + 1}.title`) }}
+            </h3>
+            <p class="text-gray-700">
+              {{ $t(`gestoria.chronologicalProcess.steps.step${index + 1}.description`) }}
+            </p>
           </div>
         </div>
       </div>

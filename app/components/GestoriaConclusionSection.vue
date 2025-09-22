@@ -9,7 +9,7 @@
       </p>
     </div>
 
-    <div class="grid grid-cols-2 gap-8 mb-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
       <!-- Pros -->
       <div class="bg-white rounded-2xl p-8 shadow-lg border border-green-200">
         <div class="flex items-center mb-6">

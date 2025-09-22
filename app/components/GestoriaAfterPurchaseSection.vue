@@ -8,9 +8,18 @@
         {{ $t('gestoria.afterPurchase.intro') }}
       </p>
       
+      <!-- Mobile: Image first -->
+      <div class="block lg:hidden mb-6">
+        <img 
+          src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=400&fit=crop&crop=center" 
+          alt="Office work and documents" 
+          class="w-full h-64 object-cover rounded-xl shadow-lg"
+        />
+      </div>
+
       <div class="grid lg:grid-cols-2 gap-8 items-stretch">
-        <!-- Left side: Image -->
-        <div class="order-2 lg:order-1">
+        <!-- Desktop: Left side: Image -->
+        <div class="hidden lg:block">
           <img 
             src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=400&fit=crop&crop=center" 
             alt="Office work and documents" 
@@ -18,54 +27,54 @@
           />
         </div>
 
-        <!-- Right side: Services -->
-        <div class="order-1 lg:order-2">
+        <!-- Services -->
+        <div>
           <div class="space-y-4">
-            <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm">
-              <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-8 h-8 bg-yellow-500 text-white rounded-full flex items-center justify-center font-semibold text-sm">
-                  ⚡
-                </div>
-                <div class="flex-1">
-                  <h4 class="!text-base font-semibold text-gray-900 mb-2">
-                    Verträge
-                  </h4>
-                  <p class="text-gray-700">
-                    {{ $t('gestoria.afterPurchase.ongoingServices.contracts') }}
-                  </p>
-                </div>
+            <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm relative overflow-hidden">
+              <!-- Background icon -->
+              <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center opacity-20">
+                <span class="text-white font-bold text-xl">⚡</span>
+              </div>
+              <!-- Content -->
+              <div class="relative z-10">
+                <h4 class="!text-base font-semibold text-gray-900 mb-2">
+                  Verträge
+                </h4>
+                <p class="text-gray-700">
+                  {{ $t('gestoria.afterPurchase.ongoingServices.contracts') }}
+                </p>
               </div>
             </div>
 
-            <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm">
-              <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-semibold text-sm">
-                  📋
-                </div>
-                <div class="flex-1">
-                  <h4 class="!text-base font-semibold text-gray-900 mb-2">
-                    Steuern
-                  </h4>
-                  <p class="text-gray-700">
-                    {{ $t('gestoria.afterPurchase.ongoingServices.tax') }}
-                  </p>
-                </div>
+            <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm relative overflow-hidden">
+              <!-- Background icon -->
+              <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-red-500 to-pink-600 rounded-full flex items-center justify-center opacity-20">
+                <span class="text-white font-bold text-xl">📋</span>
+              </div>
+              <!-- Content -->
+              <div class="relative z-10">
+                <h4 class="!text-base font-semibold text-gray-900 mb-2">
+                  Steuern
+                </h4>
+                <p class="text-gray-700">
+                  {{ $t('gestoria.afterPurchase.ongoingServices.tax') }}
+                </p>
               </div>
             </div>
 
-            <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm">
-              <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-semibold text-sm">
-                  📊
-                </div>
-                <div class="flex-1">
-                  <h4 class="!text-base font-semibold text-gray-900 mb-2">
-                    Steuererklärung
-                  </h4>
-                  <p class="text-gray-700">
-                    {{ $t('gestoria.afterPurchase.ongoingServices.taxReturn') }}
-                  </p>
-                </div>
+            <div class="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-gray-200 shadow-sm relative overflow-hidden">
+              <!-- Background icon -->
+              <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center opacity-20">
+                <span class="text-white font-bold text-xl">📊</span>
+              </div>
+              <!-- Content -->
+              <div class="relative z-10">
+                <h4 class="!text-base font-semibold text-gray-900 mb-2">
+                  Steuererklärung
+                </h4>
+                <p class="text-gray-700">
+                  {{ $t('gestoria.afterPurchase.ongoingServices.taxReturn') }}
+                </p>
               </div>
             </div>
           </div>
