@@ -11,8 +11,8 @@
       </h2>
     </div>
 
-    <!-- Floating Image -->
-    <div class="float-right ml-8 mb-6 w-80 max-w-sm">
+    <!-- Floating Image - Mobile: Centered, Desktop: Float Right -->
+    <div class="block md:float-right md:ml-8 mb-6 w-full md:w-80 md:max-w-sm">
       <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
         <img 
           src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
@@ -37,23 +37,19 @@
       </p>
     </div>
 
-    <!-- Warning Card - Inline -->
+    <!-- Warning Card - Background Icon -->
     <div class="mt-8">
-      <div class="bg-gradient-to-br from-yellow-50 to-orange-50 border border-yellow-200 rounded-2xl p-6 shadow-lg">
-        <div class="flex items-start gap-4">
-          <div class="flex-shrink-0">
-            <div class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-xl flex items-center justify-center">
-              <svg class="w-6 h-6 text-white" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
-              </svg>
-            </div>
-          </div>
-          <div>
-            <h3 class="!text-lg font-semibold text-yellow-800 mb-2">Wichtiger Hinweis</h3>
-            <p class="text-yellow-700 leading-relaxed">
-              {{ $t('propertyPurchase.arrasContract.warning') }}
-            </p>
-          </div>
+      <div class="bg-gradient-to-br from-yellow-50 to-orange-50 border border-yellow-200 rounded-2xl p-6 shadow-lg relative overflow-hidden">
+        <!-- Background icon -->
+        <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center opacity-20">
+          <Icon name="heroicons:exclamation-triangle" class="w-10 h-10 text-white" />
+        </div>
+        <!-- Content -->
+        <div class="relative z-10">
+          <h3 class="!text-lg font-semibold text-yellow-800 mb-2 text-lg">Wichtiger Hinweis</h3>
+          <p class="text-yellow-700 leading-relaxed text-lg">
+            {{ $t('propertyPurchase.arrasContract.warning') }}
+          </p>
         </div>
       </div>
     </div>

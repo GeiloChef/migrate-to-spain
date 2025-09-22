@@ -3,9 +3,7 @@
     <!-- Header -->
     <div class="flex items-center gap-3 mb-8">
       <div class="w-12 h-12 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-xl flex items-center justify-center">
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
+        <Icon name="heroicons:check-circle" class="w-6 h-6 text-white" />
       </div>
       <h2 class="!text-2xl font-bold text-gray-900">
         {{ $t('propertyPurchase.whatToLookFor.title') }}
@@ -13,8 +11,8 @@
     </div>
     
     <!-- Introduction -->
-    <div class="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-2xl p-6 mb-8 border border-indigo-100">
-      <p class="text-indigo-800 text-lg leading-relaxed">
+    <div class="mb-8">
+      <p class="text-gray-700 text-lg leading-relaxed">
         {{ $t('propertyPurchase.whatToLookFor.content') }}
       </p>
     </div>
@@ -101,18 +99,16 @@
           {{ $t('propertyPurchase.neighborhood.content1') }}
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg">
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-              </svg>
-            </div>
-            <div class="ml-3">
-              <p class="!text-sm text-blue-700 font-medium">
-                {{ $t('propertyPurchase.neighborhood.tip') }}
-              </p>
-            </div>
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200 shadow-lg relative overflow-hidden">
+          <!-- Background icon -->
+          <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center opacity-20">
+            <Icon name="heroicons:information-circle" class="w-10 h-10 text-white" />
+          </div>
+          <!-- Content -->
+          <div class="relative z-10">
+            <p class="text-blue-800 font-medium text-lg leading-relaxed">
+              {{ $t('propertyPurchase.neighborhood.tip') }}
+            </p>
           </div>
         </div>
       </div>
@@ -134,12 +130,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <!-- Gebäude & Substanz -->
           <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-5 border border-green-200">
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-8 h-8 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
-                <svg class="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
-              </div>
+            <div class="mb-4">
               <h4 class="!text-lg font-semibold text-green-800">
                 {{ $t('propertyPurchase.buildingAndApartment.subtitle1') }}
               </h4>
@@ -166,13 +157,7 @@
           
           <!-- Wohnung & Ausstattung -->
           <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-5 border border-blue-200">
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <svg class="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z" />
-                </svg>
-              </div>
+            <div class="mb-4">
               <h4 class="!text-lg font-semibold text-blue-800">
                 {{ $t('propertyPurchase.buildingAndApartment.subtitle2') }}
               </h4>
@@ -227,18 +212,16 @@
           {{ $t('propertyPurchase.priceAndRunningCosts.content1') }}
         </p>
         
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
-              </svg>
-            </div>
-            <div class="ml-3">
-              <p class="!text-sm text-yellow-700 font-medium">
-                {{ $t('propertyPurchase.priceAndRunningCosts.warning') }}
-              </p>
-            </div>
+        <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-6 border border-yellow-200 shadow-lg relative overflow-hidden">
+          <!-- Background icon -->
+          <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center opacity-20">
+            <Icon name="heroicons:exclamation-triangle" class="w-10 h-10 text-white" />
+          </div>
+          <!-- Content -->
+          <div class="relative z-10">
+            <p class="text-yellow-800 font-medium text-lg leading-relaxed">
+              {{ $t('propertyPurchase.priceAndRunningCosts.warning') }}
+            </p>
           </div>
         </div>
       </div>
@@ -330,13 +313,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <!-- Wohnqualität & Ausstattung -->
           <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-5 border border-purple-200">
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
-                <svg class="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z" />
-                </svg>
-              </div>
+            <div class="mb-4">
               <h4 class="!text-lg font-semibold text-purple-800">
                 {{ $t('propertyPurchase.personalCriteria.subtitle1') }}
               </h4>
@@ -359,12 +336,7 @@
           
           <!-- Lifestyle & Komfort -->
           <div class="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-5 border border-pink-200">
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-8 h-8 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center">
-                <svg class="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                </svg>
-              </div>
+            <div class="mb-4">
               <h4 class="!text-lg font-semibold text-pink-800">
                 {{ $t('propertyPurchase.personalCriteria.subtitle2') }}
               </h4>

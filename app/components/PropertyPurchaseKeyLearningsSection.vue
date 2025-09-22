@@ -99,8 +99,8 @@
         </p>
       </div>
       
-      <!-- Bild-Kachel in der Mitte -->
-      <div class="bg-white border border-blue-200 rounded-2xl p-6 shadow-lg flex items-center justify-center">
+      <!-- Bild-Kachel in der Mitte - Hidden on mobile -->
+      <div class="hidden md:block bg-white border border-blue-200 rounded-2xl p-6 shadow-lg flex items-center justify-center">
         <img 
           src="https://images.unsplash.com/photo-1560518883-ce09059eeffa" 
           alt="Spanische Immobilie" 
