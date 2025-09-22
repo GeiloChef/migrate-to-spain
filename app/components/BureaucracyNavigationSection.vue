@@ -1,9 +1,9 @@
 <template>
   <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 rounded-2xl p-8 shadow-lg border border-gray-100">
     <div class="text-center mb-8">
-      <h3 class="!text-2xl font-bold text-gray-900 mb-3">
+      <h2 class="!text-2xl font-bold text-gray-900 mb-3">
         {{ $t('bureaucracy.navigation.title') }}
-      </h3>
+      </h2>
       <p class="text-gray-600 max-w-2xl mx-auto">
         {{ $t('bureaucracy.navigation.subtitle') }}
       </p>

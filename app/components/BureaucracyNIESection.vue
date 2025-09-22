@@ -13,9 +13,9 @@
       <div class="w-6 h-6 md:w-8 md:h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-xs md:text-sm flex-shrink-0">
         1
       </div>
-      <h3 class="!text-xl md:!text-2xl font-bold text-gray-900">
+      <h2 class="!text-xl md:!text-2xl font-bold text-gray-900">
         {{ $t('bureaucracy.nie.title') }}
-      </h3>
+      </h2>
     </div>
     
     <div class="grid md:grid-cols-2 gap-8 items-start">
