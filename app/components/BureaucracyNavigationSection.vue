@@ -9,7 +9,101 @@
       </p>
     </div>
     
-    <div class="grid md:grid-cols-5 gap-4">
+    <!-- Mobile: List Layout -->
+    <div class="block md:hidden space-y-4">
+      <!-- NIE -->
+      <a 
+        href="#nie" 
+        class="group flex items-center gap-4 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-red-300"
+      >
+        <div class="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg group-hover:bg-red-600 transition-colors flex-shrink-0">
+          1
+        </div>
+        <div class="flex-1">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
+            {{ $t('bureaucracy.navigation.nie.title') }}
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
+            {{ $t('bureaucracy.navigation.nie.description') }}
+          </p>
+        </div>
+      </a>
+      
+      <!-- Bankkonto -->
+      <a 
+        href="#bankAccount" 
+        class="group flex items-center gap-4 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-red-300"
+      >
+        <div class="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg group-hover:bg-red-600 transition-colors flex-shrink-0">
+          2
+        </div>
+        <div class="flex-1">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
+            {{ $t('bureaucracy.navigation.bankAccount.title') }}
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
+            {{ $t('bureaucracy.navigation.bankAccount.description') }}
+          </p>
+        </div>
+      </a>
+      
+      <!-- Finanzierung -->
+      <a 
+        href="#financing" 
+        class="group flex items-center gap-4 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-red-300"
+      >
+        <div class="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg group-hover:bg-red-600 transition-colors flex-shrink-0">
+          3
+        </div>
+        <div class="flex-1">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
+            {{ $t('bureaucracy.navigation.financing.title') }}
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
+            {{ $t('bureaucracy.navigation.financing.description') }}
+          </p>
+        </div>
+      </a>
+      
+      <!-- Gestoría -->
+      <a 
+        href="#gestoria" 
+        class="group flex items-center gap-4 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-red-300"
+      >
+        <div class="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg group-hover:bg-red-600 transition-colors flex-shrink-0">
+          4
+        </div>
+        <div class="flex-1">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
+            {{ $t('bureaucracy.navigation.gestoria.title') }}
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
+            {{ $t('bureaucracy.navigation.gestoria.description') }}
+          </p>
+        </div>
+      </a>
+      
+      <!-- Weitere Formalitäten -->
+      <a 
+        href="#additionalFormalities" 
+        class="group flex items-center gap-4 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-red-300"
+      >
+        <div class="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg group-hover:bg-red-600 transition-colors flex-shrink-0">
+          5
+        </div>
+        <div class="flex-1">
+          <h3 class="!text-lg font-semibold text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
+            {{ $t('bureaucracy.navigation.additionalFormalities.title') }}
+          </h3>
+          <p class="!text-sm text-gray-600 leading-relaxed">
+            {{ $t('bureaucracy.navigation.additionalFormalities.description') }}
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Desktop: Grid Layout -->
+    <div class="hidden md:grid md:grid-cols-5 gap-4">
       <!-- NIE -->
       <a 
         href="#nie" 

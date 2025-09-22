@@ -10,10 +10,10 @@
     </div>
 
     <div class="flex items-center gap-3 mb-6">
-      <div class="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-sm">
+      <div class="w-6 h-6 md:w-8 md:h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-xs md:text-sm flex-shrink-0">
         1
       </div>
-      <h3 class="!text-2xl font-bold text-gray-900">
+      <h3 class="!text-xl md:!text-2xl font-bold text-gray-900">
         {{ $t('bureaucracy.nie.title') }}
       </h3>
     </div>
@@ -61,10 +61,20 @@
         </div>
         
         <!-- Tipp-Box ganz unten -->
-        <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-r-lg">
-          <p class="text-red-800 font-medium">
-            {{ $t('bureaucracy.nie.tip') }}
-          </p>
+        <div class="bg-gradient-to-r from-red-50 to-pink-50 rounded-2xl p-8 border border-red-200/50 shadow-lg relative overflow-hidden">
+          <!-- Background icon -->
+          <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br from-red-500 to-pink-600 rounded-full flex items-center justify-center opacity-20">
+            <Icon name="heroicons:light-bulb" class="w-10 h-10 text-white" />
+          </div>
+          <!-- Content -->
+          <div class="relative z-10">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-lg">
+              Mein Tipp:
+            </h3>
+            <p class="text-red-800 font-medium text-lg">
+              {{ $t('bureaucracy.nie.tip') }}
+            </p>
+          </div>
         </div>
       </div>
     </div>

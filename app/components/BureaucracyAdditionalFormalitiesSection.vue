@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="flex items-center gap-3 mb-6">
-      <div class="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-sm">
+      <div class="w-6 h-6 md:w-8 md:h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-xs md:text-sm flex-shrink-0">
         5
       </div>
-      <h3 class="!text-2xl font-bold text-gray-900">
+      <h3 class="!text-xl md:!text-2xl font-bold text-gray-900">
         {{ $t('bureaucracy.additionalFormalities.title') }}
       </h3>
     </div>

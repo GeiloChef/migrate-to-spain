@@ -14,11 +14,18 @@
       </div>
     </div>
     
-    <!-- Tip Box - Full Width -->
-    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
-      <p class="text-yellow-800 font-medium">
-        {{ $t('bureaucracy.introduction.tip') }}
-      </p>
+    <!-- Tip Box - Card Style -->
+    <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-8 border border-yellow-200/50 shadow-lg relative overflow-hidden">
+      <!-- Background icon -->
+      <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center opacity-20">
+        <Icon name="heroicons:exclamation-triangle" class="w-10 h-10 text-white" />
+      </div>
+      <!-- Content -->
+      <div class="relative z-10">
+        <p class="text-yellow-800 font-medium text-lg">
+          {{ $t('bureaucracy.introduction.tip') }}
+        </p>
+      </div>
     </div>
   </div>
 </template>
