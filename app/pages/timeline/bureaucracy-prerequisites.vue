@@ -38,49 +38,49 @@
     <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <BureaucracyIntroductionSection />
         </div>
       </div>
 
       <!-- Navigation Section -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <BureaucracyNavigationSection />
         </div>
       </div>
 
       <!-- Section 2: NIE-Nummer -->
       <div id="nie" class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <BureaucracyNIESection />
         </div>
       </div>
 
       <!-- Section 3: Bankkonto -->
       <div id="bankAccount" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <BureaucracyBankAccountSection />
         </div>
       </div>
 
       <!-- Section 4: Finanzierung -->
       <div id="financing" class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <BureaucracyFinancingSection />
         </div>
       </div>
 
       <!-- Section 5: Gestoría -->
       <div id="gestoria" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <BureaucracyGestoriaSection />
         </div>
       </div>
 
       <!-- Section 6: Weitere Formalitäten -->
       <div id="additionalFormalities" class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <BureaucracyAdditionalFormalitiesSection />
         </div>
       </div>

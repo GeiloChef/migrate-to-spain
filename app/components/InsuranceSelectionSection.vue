@@ -21,7 +21,7 @@
             <div class="flex items-center justify-center">
               <UIcon name="i-heroicons-banknotes" class="w-6 h-6 text-green-600 mr-3" />
               <span class="!text-lg font-semibold text-gray-900">Jährliche Kosten: </span>
-              <span class="!text-2xl font-bold text-green-600">~300 €</span>
+              <span class="!text-2xl font-bold text-green-600">~300&nbsp;€</span>
             </div>
           </div>
         </div>
@@ -36,12 +36,16 @@
           <div 
             v-for="(item, key) in criteriaItems" 
             :key="key"
-            class="flex items-center bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200"
+            class="bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200 relative overflow-hidden"
           >
-            <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-              <UIcon name="i-heroicons-check" class="w-4 h-4 text-white" />
+            <!-- Background icon -->
+            <div class="absolute -top-2 -right-2 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center opacity-20">
+              <UIcon name="i-heroicons-check" class="w-8 h-8 text-white" />
             </div>
-            <span class="text-gray-800 font-medium">{{ item }}</span>
+            <!-- Content -->
+            <div class="relative z-10">
+              <span class="text-gray-800 font-medium">{{ item }}</span>
+            </div>
           </div>
         </div>
       </div>

@@ -38,49 +38,49 @@
     <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FirstApartmentStayIntroductionSection />
         </div>
       </div>
 
       <!-- Section 2: Ankunft und erster Tag -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FirstApartmentStayArrivalSection />
         </div>
       </div>
 
       <!-- Section 3: Erste Eindrücke -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FirstApartmentStayFirstImpressionsSection />
         </div>
       </div>
 
       <!-- Section 4: Der Wasserschaden -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FirstApartmentStayWaterDamageSection />
         </div>
       </div>
 
       <!-- Section 5: Die Reparaturen -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FirstApartmentStayRepairsSection />
         </div>
       </div>
 
       <!-- Section 6: Learnings -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FirstApartmentStayKeyLearningsSection />
         </div>
       </div>
 
       <!-- Section 7: Positive Aspekte -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FirstApartmentStayPositiveAspectsSection />
         </div>
       </div>

@@ -15,50 +15,56 @@
         <div 
           v-for="(item, key) in coverageItems" 
           :key="key"
-          class="bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300"
+          class="bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 relative overflow-hidden"
         >
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 rounded-full flex items-center justify-center mr-3"
-                 :class="getIconBgClass(key)">
-              <UIcon :name="getIconName(key)" class="w-5 h-5 text-white" />
-            </div>
-            <h3 class="!text-lg font-semibold text-gray-900">
+          <!-- Background icon -->
+          <div class="absolute -top-2 -right-2 w-16 h-16 rounded-full flex items-center justify-center opacity-20"
+               :class="getIconBgClass(key)">
+            <UIcon :name="getIconName(key)" class="w-8 h-8 text-white" />
+          </div>
+          <!-- Content -->
+          <div class="relative z-10">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-3">
               {{ getItemTitle(key) }}
             </h3>
+            <p class="text-gray-700 text-sm leading-relaxed">
+              {{ item }}
+            </p>
           </div>
-          <p class="text-gray-700 text-sm leading-relaxed">
-            {{ item }}
-          </p>
         </div>
         
         <!-- Abwesenheit Card -->
-        <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 rounded-full flex items-center justify-center mr-3 bg-blue-500">
-              <UIcon name="i-heroicons-clock" class="w-5 h-5 text-white" />
-            </div>
-            <h3 class="!text-lg font-semibold text-gray-900">
+        <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 relative overflow-hidden">
+          <!-- Background icon -->
+          <div class="absolute -top-2 -right-2 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center opacity-20">
+            <UIcon name="i-heroicons-clock" class="w-8 h-8 text-white" />
+          </div>
+          <!-- Content -->
+          <div class="relative z-10">
+            <h3 class="!text-lg font-semibold text-gray-900 mb-3">
               {{ $t('insurance.coverage.absence_card.title') }}
             </h3>
+            <p class="text-gray-700 text-sm leading-relaxed">
+              {{ $t('insurance.coverage.absence_card.content') }}
+            </p>
           </div>
-          <p class="text-gray-700 text-sm leading-relaxed">
-            {{ $t('insurance.coverage.absence_card.content') }}
-          </p>
         </div>
         
         <!-- Weitere Absicherungen Card -->
-        <div class="bg-gradient-to-br from-green-50 to-emerald-100 rounded-xl p-6 shadow-lg border-2 border-green-200 hover:shadow-xl transition-shadow duration-300">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 rounded-full flex items-center justify-center mr-3 bg-green-500">
-              <UIcon name="i-heroicons-plus-circle" class="w-5 h-5 text-white" />
-            </div>
-            <h3 class="!text-lg font-semibold text-green-900">
+        <div class="bg-gradient-to-br from-green-50 to-emerald-100 rounded-xl p-6 shadow-lg border-2 border-green-200 hover:shadow-xl transition-shadow duration-300 relative overflow-hidden">
+          <!-- Background icon -->
+          <div class="absolute -top-2 -right-2 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center opacity-20">
+            <UIcon name="i-heroicons-plus-circle" class="w-8 h-8 text-white" />
+          </div>
+          <!-- Content -->
+          <div class="relative z-10">
+            <h3 class="!text-lg font-semibold text-green-900 mb-3">
               {{ $t('insurance.coverage.additional.title') }}
             </h3>
+            <p class="text-gray-700 text-sm leading-relaxed">
+              {{ $t('insurance.coverage.additional.content') }}
+            </p>
           </div>
-          <p class="text-gray-700 text-sm leading-relaxed">
-            {{ $t('insurance.coverage.additional.content') }}
-          </p>
         </div>
       </div>
 

@@ -38,35 +38,35 @@
     <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-8 md:py-16">
+        <div class="px-6 py-6 md:py-12">
           <GestoriaIntroductionSection />
         </div>
       </div>
 
       <!-- Section 2: Warum Gestoría und nicht Anwalt -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-8 md:py-16">
+        <div class="px-6 py-6 md:py-12">
           <GestoriaWhyGestoriaSection />
         </div>
       </div>
 
       <!-- Section 3: Was hat die Gestoría gemacht -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-8 md:py-16">
+        <div class="px-6 py-6 md:py-12">
           <GestoriaWhatTheyDidSection />
         </div>
       </div>
 
       <!-- Section 4: Nach dem Kauf -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-8 md:py-16">
+        <div class="px-6 py-6 md:py-12">
           <GestoriaAfterPurchaseSection />
         </div>
       </div>
 
       <!-- Section 5: Fazit -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-8 md:py-16">
+        <div class="px-6 py-6 md:py-12">
           <GestoriaConclusionSection />
         </div>
       </div>

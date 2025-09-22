@@ -36,28 +36,28 @@
     <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FinalMigrationIntro />
         </div>
       </div>
 
       <!-- Section 2: Arbeit -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FinalMigrationWork />
         </div>
       </div>
 
       <!-- Section 3: Ziele -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FinalMigrationGoals />
         </div>
       </div>
 
       <!-- Section 4: Zukunft -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <FinalMigrationFuture />
         </div>
       </div>

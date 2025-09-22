@@ -12,35 +12,98 @@
       </div>
 
       <!-- Vergleich Deutschland vs. Spanien -->
-      <div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-200 mb-12 relative">
-        <div class="grid md:grid-cols-2 gap-8">
-          <!-- Deutschland -->
-          <div class="text-center">
-            <div class="mb-6">
-              <h3 class="!text-2xl font-bold text-gray-900">
-                {{ $t('insurance.comparison.germany.title') }}
-              </h3>
-            </div>
-            <p class="text-gray-700 leading-relaxed text-center">
-              {{ $t('insurance.comparison.germany.description') }}
-            </p>
+      <div class="mb-12">
+        <!-- Mobile: Tabs -->
+        <div class="block md:hidden">
+          <!-- Tab Navigation -->
+          <div class="flex mb-6 bg-gray-100 rounded-lg p-1">
+            <button
+              @click="activeTab = 'germany'"
+              :class="[
+                'flex-1 py-3 px-4 text-sm font-medium rounded-md transition-all duration-200',
+                activeTab === 'germany'
+                  ? 'bg-white text-gray-900 shadow-sm'
+                  : 'text-gray-600 hover:text-gray-900'
+              ]"
+            >
+              Deutschland
+            </button>
+            <button
+              @click="activeTab = 'spain'"
+              :class="[
+                'flex-1 py-3 px-4 text-sm font-medium rounded-md transition-all duration-200',
+                activeTab === 'spain'
+                  ? 'bg-white text-gray-900 shadow-sm'
+                  : 'text-gray-600 hover:text-gray-900'
+              ]"
+            >
+              Spanien
+            </button>
           </div>
 
-          <!-- Spanien -->
-          <div class="text-center">
-            <div class="mb-6">
-              <h3 class="!text-2xl font-bold text-gray-900">
-                {{ $t('insurance.comparison.spain.title') }}
-              </h3>
+          <!-- Tab Content -->
+          <div class="space-y-4">
+            <!-- Deutschland Tab -->
+            <div v-if="activeTab === 'germany'" class="bg-white rounded-2xl p-6 shadow-xl border border-gray-200 animate-fadeIn">
+              <div class="text-center">
+                <div class="mb-6">
+                  <h3 class="!text-2xl font-bold text-gray-900">
+                    {{ $t('insurance.comparison.germany.title') }}
+                  </h3>
+                </div>
+                <p class="text-gray-700 leading-relaxed text-center">
+                  {{ $t('insurance.comparison.germany.description') }}
+                </p>
+              </div>
             </div>
-            <p class="text-gray-700 leading-relaxed text-center">
-              {{ $t('insurance.comparison.spain.description') }}
-            </p>
+
+            <!-- Spanien Tab -->
+            <div v-if="activeTab === 'spain'" class="bg-white rounded-2xl p-6 shadow-xl border border-gray-200 animate-fadeIn">
+              <div class="text-center">
+                <div class="mb-6">
+                  <h3 class="!text-2xl font-bold text-gray-900">
+                    {{ $t('insurance.comparison.spain.title') }}
+                  </h3>
+                </div>
+                <p class="text-gray-700 leading-relaxed text-center">
+                  {{ $t('insurance.comparison.spain.description') }}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        
-        <!-- Trennlinie -->
-        <div class="hidden md:block absolute left-1/2 top-8 bottom-8 w-px bg-gradient-to-b from-transparent via-gray-300 to-transparent transform -translate-x-1/2"></div>
+
+        <!-- Desktop: Grid -->
+        <div class="hidden md:block bg-white rounded-2xl p-8 shadow-xl border border-gray-200 relative">
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Deutschland -->
+            <div class="text-center">
+              <div class="mb-6">
+                <h3 class="!text-2xl font-bold text-gray-900">
+                  {{ $t('insurance.comparison.germany.title') }}
+                </h3>
+              </div>
+              <p class="text-gray-700 leading-relaxed text-center">
+                {{ $t('insurance.comparison.germany.description') }}
+              </p>
+            </div>
+
+            <!-- Spanien -->
+            <div class="text-center">
+              <div class="mb-6">
+                <h3 class="!text-2xl font-bold text-gray-900">
+                  {{ $t('insurance.comparison.spain.title') }}
+                </h3>
+              </div>
+              <p class="text-gray-700 leading-relaxed text-center">
+                {{ $t('insurance.comparison.spain.description') }}
+              </p>
+            </div>
+          </div>
+          
+          <!-- Trennlinie -->
+          <div class="hidden md:block absolute left-1/2 top-8 bottom-8 w-px bg-gradient-to-b from-transparent via-gray-300 to-transparent transform -translate-x-1/2"></div>
+        </div>
       </div>
 
       <!-- Besonderheiten -->
@@ -78,5 +141,24 @@
 </template>
 
 <script setup lang="ts">
-// Component logic here
+import { ref } from 'vue'
+
+const activeTab = ref('germany')
 </script>
+
+<style scoped>
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>

@@ -38,49 +38,49 @@
     <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <DiscoveringSpainIntroductionSection />
         </div>
       </div>
 
       <!-- Section 2: Madrid als erster Stopp -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <DiscoveringSpainMadridSection />
         </div>
       </div>
 
       <!-- Section 3: Glutenfreies Leben -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <DiscoveringSpainGlutenFreeSection />
         </div>
       </div>
 
       <!-- Section 4: Lebensqualität -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <DiscoveringSpainQualityOfLifeSection />
         </div>
       </div>
 
       <!-- Section 5: Kultur & Menschen -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <DiscoveringSpainCultureSection />
         </div>
       </div>
 
       <!-- Section 6: Erste Kontakte -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <DiscoveringSpainContactsSection />
         </div>
       </div>
 
       <!-- Section 7: Fazit -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
-        <div class="px-6 py-16">
+        <div class="px-6 py-6 md:py-12">
           <DiscoveringSpainConclusionSection />
         </div>
       </div>
