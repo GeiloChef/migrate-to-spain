@@ -115,6 +115,50 @@
                 </div>
               </Transition>
             </div>
+
+            <!-- Rechtliches Section -->
+            <div class="space-y-1">
+              <div class="flex items-center gap-2 md:gap-3 mb-2">
+                <div class="w-1 h-4 md:h-6 bg-gradient-to-b from-spain-yellow to-spain-yellow/80 rounded-full"></div>
+                <h3 class="!text-sm font-bold text-spain-navy uppercase tracking-wider">
+                  Rechtliches
+                </h3>
+              </div>
+              
+              <div class="space-y-1 ml-4 md:ml-6 pl-3 md:pl-4 border-l-2 border-spain-yellow/50">
+                <NuxtLink
+                  to="/privacy"
+                  @click="closeSidebar"
+                  class="flex items-center p-2 md:p-3 transition-all duration-300 group touch-manipulation"
+                >
+                  <div class="flex-1 min-w-0">
+                    <div 
+                      class="!text-sm font-medium truncate group-hover:font-bold transition-all duration-300"
+                      :class="{
+                        'text-spain-red font-semibold': $route.path === '/privacy',
+                        'text-spain-navy/60 group-hover:text-spain-navy': $route.path !== '/privacy'
+                      }"
+                    >{{ t('footer.links.privacy') }}</div>
+                  </div>
+                </NuxtLink>
+                
+                <NuxtLink
+                  to="/imprint"
+                  @click="closeSidebar"
+                  class="flex items-center p-2 md:p-3 transition-all duration-300 group touch-manipulation"
+                >
+                  <div class="flex-1 min-w-0">
+                    <div 
+                      class="!text-sm font-medium truncate group-hover:font-bold transition-all duration-300"
+                      :class="{
+                        'text-spain-red font-semibold': $route.path === '/imprint',
+                        'text-spain-navy/60 group-hover:text-spain-navy': $route.path !== '/imprint'
+                      }"
+                    >{{ t('footer.links.imprint') }}</div>
+                  </div>
+                </NuxtLink>
+              </div>
+            </div>
           </div>
 
           <!-- Language Switcher - Fixed Bottom -->
