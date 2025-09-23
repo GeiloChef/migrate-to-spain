@@ -1,0 +1,55 @@
+name: Deploy Nuxt3 to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      clean:
+        description: "Deploy-Branch vor dem Commit säubern (empfohlen)"
+        required: true
+        type: boolean
+        default: true
+      buildCommand:
+        description: "Build-Befehl (z.B. npm run generate)"
+        required: false
+        type: string
+        default: "npm run generate"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build (Nuxt generate)
+        run: ${{ inputs.buildCommand || 'npm run generate' }}
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: .output/public
+          clean: ${{ inputs.clean != '' && inputs.clean || 'true' }}
+          clean-exclude: |
+            CNAME
+            .gitattributes
+          single-commit: true
