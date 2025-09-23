@@ -4,6 +4,13 @@ import { fileURLToPath } from 'node:url'
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  app: {
+     baseURL: '/migrate-to-spain/',
+     buildAssetsDir: '_nuxt/'
+  },
+  nitro: {
+    preset: 'github_pages'
+  },
   alias: {
     '@': fileURLToPath(new URL('./', import.meta.url)),
     '~': fileURLToPath(new URL('./', import.meta.url)),
