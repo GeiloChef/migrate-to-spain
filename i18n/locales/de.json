@@ -236,6 +236,63 @@
     "links": {
       "privacy": "Datenschutz",
       "imprint": "Impressum"
+    },
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "subtitle": "Rechtliche Hinweise und Kontaktinformationen",
+    "responsible": {
+      "title": "Verantwortlich für den Inhalt",
+      "content": "Diese Website wird von einem Privatperson betrieben, der seine persönliche Auswanderungsgeschichte nach Spanien teilt. Alle Inhalte basieren auf persönlichen Erfahrungen und sind nicht als rechtliche oder steuerliche Beratung zu verstehen."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "Bei Fragen oder Anregungen können Sie uns gerne kontaktieren. Bitte beachten Sie, dass dies eine private Website ist und keine kommerziellen Dienstleistungen angeboten werden."
+    },
+    "disclaimer": {
+      "title": "Haftungsausschluss",
+      "content": "Die auf dieser Website bereitgestellten Informationen dienen ausschließlich der allgemeinen Information. Sie ersetzen keine professionelle Beratung. Der Betreiber übernimmt keine Gewähr für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität der bereitgestellten Informationen."
+    },
+    "liability": {
+      "title": "Haftung für Links",
+      "content": "Diese Website enthält Links zu externen Websites. Der Betreiber hat keinen Einfluss auf den Inhalt dieser Websites und übernimmt keine Verantwortung für deren Inhalt."
+    },
+    "copyright": {
+      "title": "Urheberrecht",
+      "content": "Alle Inhalte dieser Website, einschließlich Texte, Bilder und Grafiken, sind urheberrechtlich geschützt. Eine Verwendung ohne ausdrückliche Genehmigung ist nicht gestattet."
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "subtitle": "Informationen zum Datenschutz und zur Verarbeitung Ihrer Daten",
+    "introduction": {
+      "title": "Einleitung",
+      "content": "Der Schutz Ihrer persönlichen Daten ist uns wichtig. Diese Datenschutzerklärung informiert Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten auf dieser Website."
+    },
+    "dataCollection": {
+      "title": "Datenerhebung und -verwendung",
+      "content": "Diese Website erhebt keine personenbezogenen Daten, es sei denn, Sie teilen diese freiwillig mit uns (z.B. über Kontaktformulare). Technische Daten wie IP-Adressen werden nur für die ordnungsgemäße Bereitstellung der Website verwendet."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Diese Website verwendet möglicherweise Cookies, um die Benutzererfahrung zu verbessern. Sie können Cookies in Ihren Browsereinstellungen deaktivieren."
+    },
+    "thirdParty": {
+      "title": "Drittanbieter",
+      "content": "Diese Website kann Dienste von Drittanbietern verwenden (z.B. für Analytics). Diese Dienste haben ihre eigenen Datenschutzrichtlinien."
+    },
+    "rights": {
+      "title": "Ihre Rechte",
+      "content": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten. Bei Fragen wenden Sie sich bitte an uns."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "Bei Fragen zum Datenschutz können Sie uns gerne kontaktieren."
+    },
+    "changes": {
+      "title": "Änderungen",
+      "content": "Diese Datenschutzerklärung kann von Zeit zu Zeit aktualisiert werden. Die aktuelle Version finden Sie immer auf dieser Seite."
     }
   }
 }

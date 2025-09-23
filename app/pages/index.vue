@@ -11,12 +11,15 @@
       </div>
     </div>
 
-    <!-- The Guide Section -->
-    <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+    <!-- The Guide Section - Temporarily hidden -->
+    <!-- <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
       <div class="px-6 py-20">
         <GuideSection />
       </div>
-    </div>
+    </div> -->
+
+    <!-- Footer -->
+    <Footer />
   </div>
 
   <!-- Mobile Layout with Scroll Snap -->
@@ -31,11 +34,16 @@
       <MobileTimelineSection />
     </div>
 
-    <!-- The Guide Section -->
-    <div class="h-screen snap-start bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+    <!-- The Guide Section - Temporarily hidden -->
+    <!-- <div class="h-screen snap-start bg-gradient-to-br from-spain-cream to-spain-yellow/20">
       <div class="h-full flex items-center justify-center px-6">
         <GuideSection />
       </div>
+    </div> -->
+
+    <!-- Footer -->
+    <div class="snap-start">
+      <Footer />
     </div>
   </div>
 </template>

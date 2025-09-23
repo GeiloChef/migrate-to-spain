@@ -236,6 +236,63 @@
     "links": {
       "privacy": "Privacidad",
       "imprint": "Aviso Legal"
+    },
+    "allRightsReserved": "Todos los derechos reservados."
+  },
+  "imprint": {
+    "title": "Aviso Legal",
+    "subtitle": "Información legal y datos de contacto",
+    "responsible": {
+      "title": "Responsable del contenido",
+      "content": "Esta página web es operada por una persona privada que comparte su historia personal de emigración a España. Todo el contenido se basa en experiencias personales y no debe entenderse como asesoramiento legal o fiscal."
+    },
+    "contact": {
+      "title": "Contacto",
+      "content": "Si tiene preguntas o sugerencias, no dude en contactarnos. Tenga en cuenta que esta es una página web privada y no se ofrecen servicios comerciales."
+    },
+    "disclaimer": {
+      "title": "Descargo de responsabilidad",
+      "content": "La información proporcionada en esta página web es solo para fines informativos generales. No reemplaza el asesoramiento profesional. El operador no asume responsabilidad por la exactitud, integridad o calidad de la información proporcionada."
+    },
+    "liability": {
+      "title": "Responsabilidad por enlaces",
+      "content": "Esta página web contiene enlaces a sitios web externos. El operador no tiene influencia sobre el contenido de estos sitios web y no asume responsabilidad por su contenido."
+    },
+    "copyright": {
+      "title": "Derechos de autor",
+      "content": "Todo el contenido de esta página web, incluyendo textos, imágenes y gráficos, está protegido por derechos de autor. El uso sin permiso expreso no está permitido."
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "subtitle": "Información sobre protección de datos y procesamiento de sus datos",
+    "introduction": {
+      "title": "Introducción",
+      "content": "La protección de sus datos personales es importante para nosotros. Esta política de privacidad le informa sobre el tipo, alcance y propósito del procesamiento de datos personales en esta página web."
+    },
+    "dataCollection": {
+      "title": "Recopilación y uso de datos",
+      "content": "Esta página web no recopila datos personales a menos que los comparta voluntariamente con nosotros (por ejemplo, a través de formularios de contacto). Los datos técnicos como las direcciones IP solo se utilizan para el correcto funcionamiento de la página web."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Esta página web puede usar cookies para mejorar la experiencia del usuario. Puede desactivar las cookies en la configuración de su navegador."
+    },
+    "thirdParty": {
+      "title": "Terceros",
+      "content": "Esta página web puede usar servicios de terceros (por ejemplo, para análisis). Estos servicios tienen sus propias políticas de privacidad."
+    },
+    "rights": {
+      "title": "Sus derechos",
+      "content": "Tiene derecho a información, corrección, eliminación y restricción del procesamiento de sus datos personales. Si tiene preguntas, póngase en contacto con nosotros."
+    },
+    "contact": {
+      "title": "Contacto",
+      "content": "Si tiene preguntas sobre protección de datos, no dude en contactarnos."
+    },
+    "changes": {
+      "title": "Cambios",
+      "content": "Esta política de privacidad puede actualizarse de vez en cuando. Siempre puede encontrar la versión actual en esta página."
     }
   }
 }

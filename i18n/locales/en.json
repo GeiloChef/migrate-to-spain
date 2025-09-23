@@ -236,6 +236,63 @@
     "links": {
       "privacy": "Privacy",
       "imprint": "Imprint"
+    },
+    "allRightsReserved": "All rights reserved."
+  },
+  "imprint": {
+    "title": "Imprint",
+    "subtitle": "Legal information and contact details",
+    "responsible": {
+      "title": "Responsible for content",
+      "content": "This website is operated by a private individual who shares his personal emigration story to Spain. All content is based on personal experiences and should not be understood as legal or tax advice."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "If you have questions or suggestions, please feel free to contact us. Please note that this is a private website and no commercial services are offered."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "The information provided on this website is for general information purposes only. It does not replace professional advice. The operator assumes no responsibility for the accuracy, completeness or quality of the information provided."
+    },
+    "liability": {
+      "title": "Liability for links",
+      "content": "This website contains links to external websites. The operator has no influence on the content of these websites and assumes no responsibility for their content."
+    },
+    "copyright": {
+      "title": "Copyright",
+      "content": "All content of this website, including texts, images and graphics, is protected by copyright. Use without express permission is not permitted."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Information about data protection and processing of your data",
+    "introduction": {
+      "title": "Introduction",
+      "content": "The protection of your personal data is important to us. This privacy policy informs you about the type, scope and purpose of processing personal data on this website."
+    },
+    "dataCollection": {
+      "title": "Data collection and use",
+      "content": "This website does not collect personal data unless you voluntarily share it with us (e.g. via contact forms). Technical data such as IP addresses are only used for the proper provision of the website."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "This website may use cookies to improve the user experience. You can disable cookies in your browser settings."
+    },
+    "thirdParty": {
+      "title": "Third parties",
+      "content": "This website may use third-party services (e.g. for analytics). These services have their own privacy policies."
+    },
+    "rights": {
+      "title": "Your rights",
+      "content": "You have the right to information, correction, deletion and restriction of processing of your personal data. If you have questions, please contact us."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "If you have questions about data protection, please feel free to contact us."
+    },
+    "changes": {
+      "title": "Changes",
+      "content": "This privacy policy may be updated from time to time. You can always find the current version on this page."
     }
   }
 }
