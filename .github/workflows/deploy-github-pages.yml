@@ -51,9 +51,6 @@ jobs:
             echo "primary=fallback" >> $GITHUB_OUTPUT
           fi
 
-      - name: Show install mode
-        run: echo "Install mode: ${{ steps.install.outputs.primary }}"
-
       - name: Build (Nuxt generate)
         run: ${{ inputs.buildCommand || 'npm run generate' }}
 
