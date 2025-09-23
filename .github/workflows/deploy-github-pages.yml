@@ -2,17 +2,16 @@ name: Deploy Nuxt3 to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
     inputs:
       clean:
-        description: "Deploy-Branch vor dem Commit säubern (empfohlen)"
+        description: "Deploy-Branch aufräumen"
         required: true
         type: boolean
         default: true
       buildCommand:
-        description: "Build-Befehl (z.B. npm run generate)"
+        description: "Build-Befehl"
         required: false
         type: string
         default: "npm run generate"
@@ -31,14 +30,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Use Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: 'npm'
 
-      - name: Install deps
-        run: npm ci
+      - name: Install deps (with fallback for npm optional deps bug)
+        id: install
+        shell: bash
+        run: |
+          set -e
+          echo "Primary install: npm ci"
+          if npm ci; then
+            echo "primary=success" >> $GITHUB_OUTPUT
+          else
+            echo "Primary install failed. Applying fallback (remove lockfile + node_modules) ..."
+            rm -rf node_modules package-lock.json
+            npm install
+            echo "primary=fallback" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Show install mode
+        run: echo "Install mode: ${{ steps.install.outputs.primary }}"
 
       - name: Build (Nuxt generate)
         run: ${{ inputs.buildCommand || 'npm run generate' }}
