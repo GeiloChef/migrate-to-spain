@@ -1,7 +1,7 @@
 <template>
   <section class="block md:hidden">
     <!-- Mobile Timeline Container with Full Screen Cards -->
-    <div class="relative h-screen overflow-hidden">
+    <div class="relative h-screen-mobile overflow-hidden">
       <!-- Timeline Steps Container with Scroll Snap -->
       <div 
         ref="timelineContainer"
@@ -58,7 +58,7 @@
       </div>
       
       <!-- Mobile Navigation Indicators -->
-      <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+      <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20 safe-area-inset-bottom">
         <button
           v-for="step in timelineSteps.length + 1"
           :key="step"
@@ -145,12 +145,27 @@ const handleTouchEnd = (e) => {
   }
 }
 
+// Handle mobile viewport height for browsers that don't support dvh
+const setMobileViewportHeight = () => {
+  if (typeof window !== 'undefined') {
+    const vh = window.innerHeight * 0.01
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
+  }
+}
+
 onMounted(() => {
   if (timelineContainer.value) {
     timelineContainer.value.addEventListener('touchstart', handleTouchStart, { passive: true })
     timelineContainer.value.addEventListener('touchmove', handleTouchMove, { passive: true })
     timelineContainer.value.addEventListener('touchend', handleTouchEnd, { passive: true })
   }
+
+  // Set mobile viewport height
+  setMobileViewportHeight()
+  
+  // Update on resize and orientation change
+  window.addEventListener('resize', setMobileViewportHeight)
+  window.addEventListener('orientationchange', setMobileViewportHeight)
 
   console.log(timelineSteps)
 })
@@ -160,6 +175,12 @@ onUnmounted(() => {
     timelineContainer.value.removeEventListener('touchstart', handleTouchStart)
     timelineContainer.value.removeEventListener('touchmove', handleTouchMove)
     timelineContainer.value.removeEventListener('touchend', handleTouchEnd)
+  }
+  
+  // Clean up viewport height listeners
+  if (typeof window !== 'undefined') {
+    window.removeEventListener('resize', setMobileViewportHeight)
+    window.removeEventListener('orientationchange', setMobileViewportHeight)
   }
 })
 </script>
