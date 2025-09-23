@@ -1,0 +1,26 @@
+{
+  "privacy": {
+    "title": "Política de Privacidad",
+    "subtitle": "Información sobre protección de datos y procesamiento de sus datos",
+    "sections": {
+      "general": {
+        "title": "General",
+        "content": "Esta página web sirve exclusivamente con fines informativos. No se recopilan, almacenan o procesan datos personales de los visitantes."
+      },
+      "serverLogs": {
+        "title": "Registros del Servidor",
+        "content": "La página web se proporciona a través de GitHub Pages. Al acceder a la página, se procesan automáticamente datos de conexión (por ejemplo, dirección IP, tipo de navegador, fecha y hora de acceso) por razones técnicas. Estos datos son recopilados exclusivamente por GitHub y están fuera de nuestra esfera de influencia. Puede encontrar más información en la política de privacidad de GitHub.",
+        "githubPagesLink": "GitHub Pages",
+        "githubPrivacyLink": "política de privacidad de GitHub"
+      },
+      "noCookies": {
+        "title": "Sin Cookies, Sin Herramientas de Análisis",
+        "content": "No se establecen cookies en esta página web y no se utilizan herramientas de seguimiento o análisis."
+      },
+      "contact": {
+        "title": "Contacto",
+        "content": "Si tiene preguntas sobre la protección de datos en relación con esta página web, puede contactarnos por correo electrónico en la dirección mencionada en el aviso legal."
+      }
+    }
+  }
+}

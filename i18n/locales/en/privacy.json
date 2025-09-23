@@ -1,0 +1,26 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Information about data protection and processing of your data",
+    "sections": {
+      "general": {
+        "title": "General",
+        "content": "This website serves exclusively for informational purposes. No personal data of visitors is collected, stored or processed."
+      },
+      "serverLogs": {
+        "title": "Server Logs",
+        "content": "The website is provided via GitHub Pages. When accessing the page, connection data (e.g. IP address, browser type, date and time of access) is automatically processed for technical reasons. This data is collected exclusively by GitHub and is outside our sphere of influence. Further information can be found in GitHub's privacy policy.",
+        "githubPagesLink": "GitHub Pages",
+        "githubPrivacyLink": "GitHub's privacy policy"
+      },
+      "noCookies": {
+        "title": "No Cookies, No Analytics Tools",
+        "content": "No cookies are set on this website and no tracking or analytics tools are used."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "If you have questions about data protection in connection with this website, you can contact us by email at the address mentioned in the imprint."
+      }
+    }
+  }
+}

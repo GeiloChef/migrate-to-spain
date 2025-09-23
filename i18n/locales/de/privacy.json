@@ -1,0 +1,26 @@
+{
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "subtitle": "Informationen zum Datenschutz und zur Verarbeitung Ihrer Daten",
+    "sections": {
+      "general": {
+        "title": "Allgemeines",
+        "content": "Diese Website dient ausschließlich zu Informationszwecken. Es werden keinerlei personenbezogene Daten der Besucherinnen und Besucher erhoben, gespeichert oder verarbeitet."
+      },
+      "serverLogs": {
+        "title": "Server-Logs",
+        "content": "Die Website wird über GitHub Pages bereitgestellt. Beim Aufruf der Seite werden aus technischen Gründen automatisch Verbindungsdaten (z. B. IP-Adresse, Browsertyp, Datum und Uhrzeit des Zugriffs) verarbeitet. Diese Daten werden ausschließlich durch GitHub erhoben und liegen außerhalb unseres Einflussbereichs. Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub.",
+        "githubPagesLink": "GitHub Pages",
+        "githubPrivacyLink": "Datenschutzerklärung von GitHub"
+      },
+      "noCookies": {
+        "title": "Keine Cookies, keine Analyse-Tools",
+        "content": "Auf dieser Website werden keine Cookies gesetzt und keine Tracking- oder Analysetools eingesetzt."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Bei Fragen zum Datenschutz im Zusammenhang mit dieser Website können Sie sich per E-Mail an die im Impressum genannte Adresse wenden."
+      }
+    }
+  }
+}
