@@ -5,12 +5,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   app: {
-     baseURL: '/migrate-to-spain/',
+     baseURL: process.env.NODE_ENV === 'production' ? '/migrate-to-spain/' : '/',
      buildAssetsDir: '_nuxt/'
   },
   nitro: {
-    preset: 'github_pages'
+    preset: process.env.NODE_ENV === 'production' ? 'github_pages' : 'node-server'
   },
+  ssr: process.env.NODE_ENV !== 'production',
   alias: {
     '@': fileURLToPath(new URL('./', import.meta.url)),
     '~': fileURLToPath(new URL('./', import.meta.url)),
