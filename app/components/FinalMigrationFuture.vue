@@ -1,18 +1,20 @@
 <template>
-  <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-    <div class="flex items-center mb-8">
-      <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center mr-4">
-        <UIcon name="i-heroicons-sparkles" class="w-6 h-6 text-white" />
-      </div>
-      <h2 class="!text-3xl font-bold text-gray-900">
+  <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 relative overflow-hidden">
+    <!-- Background icon -->
+    <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center opacity-20">
+      <UIcon name="i-heroicons-sparkles" class="w-10 h-10 text-white" />
+    </div>
+    <!-- Content -->
+    <div class="relative z-10">
+      <h2 class="!text-3xl font-bold text-gray-900 mb-8">
         {{ $t('final-migration.future.title') }}
       </h2>
-    </div>
-    
-    <div class="prose prose-lg max-w-none">
-      <p class="text-gray-700 leading-relaxed">
-        {{ $t('final-migration.future.content') }}
-      </p>
+      
+      <div class="prose prose-lg max-w-none">
+        <p class="text-gray-700 leading-relaxed">
+          {{ $t('final-migration.future.content') }}
+        </p>
+      </div>
     </div>
   </div>
 </template>
