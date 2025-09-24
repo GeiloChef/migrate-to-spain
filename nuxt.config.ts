@@ -5,6 +5,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   ssr: process.env.NODE_ENV !== 'production',
+  devServer: {
+    host: '0.0.0.0',
+    port: 3000
+  },
   alias: {
     '@': fileURLToPath(new URL('./', import.meta.url)),
     '~': fileURLToPath(new URL('./', import.meta.url)),

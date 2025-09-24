@@ -145,27 +145,12 @@ const handleTouchEnd = (e) => {
   }
 }
 
-// Handle mobile viewport height for browsers that don't support dvh
-const setMobileViewportHeight = () => {
-  if (typeof window !== 'undefined') {
-    const vh = window.innerHeight * 0.01
-    document.documentElement.style.setProperty('--vh', `${vh}px`)
-  }
-}
-
 onMounted(() => {
   if (timelineContainer.value) {
     timelineContainer.value.addEventListener('touchstart', handleTouchStart, { passive: true })
     timelineContainer.value.addEventListener('touchmove', handleTouchMove, { passive: true })
     timelineContainer.value.addEventListener('touchend', handleTouchEnd, { passive: true })
   }
-
-  // Set mobile viewport height
-  setMobileViewportHeight()
-  
-  // Update on resize and orientation change
-  window.addEventListener('resize', setMobileViewportHeight)
-  window.addEventListener('orientationchange', setMobileViewportHeight)
 
   console.log(timelineSteps)
 })
@@ -175,12 +160,6 @@ onUnmounted(() => {
     timelineContainer.value.removeEventListener('touchstart', handleTouchStart)
     timelineContainer.value.removeEventListener('touchmove', handleTouchMove)
     timelineContainer.value.removeEventListener('touchend', handleTouchEnd)
-  }
-  
-  // Clean up viewport height listeners
-  if (typeof window !== 'undefined') {
-    window.removeEventListener('resize', setMobileViewportHeight)
-    window.removeEventListener('orientationchange', setMobileViewportHeight)
   }
 })
 </script>

@@ -23,14 +23,14 @@
   </div>
 
   <!-- Mobile Layout with Scroll Snap -->
-  <div class="block md:hidden h-screen overflow-y-auto snap-y snap-mandatory scrollbar-hide">
+  <div class="block md:hidden h-screen-mobile overflow-y-auto snap-y snap-mandatory scrollbar-hide">
     <!-- Hero Section -->
-    <div class="h-screen snap-start">
+    <div class="h-screen-mobile snap-start">
       <HeroSection />
     </div>
 
     <!-- My Story Section -->
-    <div class="h-screen snap-start bg-gradient-to-br from-gray-50 to-blue-50/30">
+    <div class="h-screen-mobile snap-start bg-gradient-to-br from-gray-50 to-blue-50/30">
       <MobileTimelineSection />
     </div>
 
