@@ -260,7 +260,7 @@
           
           <!-- Center instruction -->
           <div class="text-center text-spain-gray-dark">
-            <p class="!text-sm font-medium">← Navigiere durch die Timeline →</p>
+            <p class="!text-sm font-medium">{{ $t('story.navigation.instruction') }}</p>
           </div>
           
           <!-- Right Arrow -->

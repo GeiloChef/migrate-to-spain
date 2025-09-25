@@ -7,7 +7,7 @@
   },
   "hero": {
     "title": {
-      "line1": "To",
+      "line1": "Emigrate to",
       "line2": "Spain"
     },
     "subtitle": "Your complete guide to making Spain your new home. From visas and residence permits to the perfect city - discover everything you need to know about starting your Spanish adventure.",
@@ -83,6 +83,9 @@
     },
     "card": {
       "readMore": "Read more"
+    },
+    "navigation": {
+      "instruction": "← Navigate through the Timeline →"
     },
     "timeline": {
       "step1": {

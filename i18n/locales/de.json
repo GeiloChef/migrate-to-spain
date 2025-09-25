@@ -7,8 +7,8 @@
   },
   "hero": {
     "title": {
-      "line1": "Nach",
-      "line2": "Spanien"
+      "line1": "Nach Spanien",
+      "line2": "auswandern"
     },
     "subtitle": "Dein vollständiger Leitfaden, um Spanien zu deinem neuen Zuhause zu machen. Von Visa und Aufenthaltserlaubnis bis hin zur perfekten Stadt - entdecke alles, was du über den Start deines spanischen Abenteuers wissen musst.",
     "buttons": {
@@ -83,6 +83,9 @@
     },
     "card": {
       "readMore": "Mehr erfahren"
+    },
+    "navigation": {
+      "instruction": "← Navigiere durch die Timeline →"
     },
     "timeline": {
       "step1": {

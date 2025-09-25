@@ -27,7 +27,8 @@
         {{ $t('hero.subtitle') }}
       </p>
       
-      <div class="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay-2">
+      <!-- Buttons temporarily hidden - will be used later -->
+      <!-- <div class="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up-delay-2">
       <UButton 
           size="lg" 
           variant="outline" 
@@ -43,7 +44,7 @@
         >
           {{ $t('hero.buttons.primary') }}
         </UButton>
-      </div>
+      </div> -->
     </div>
     
     <!-- Scroll Indicator -->
