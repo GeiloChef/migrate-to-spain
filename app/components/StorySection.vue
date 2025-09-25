@@ -16,7 +16,17 @@
         <div class="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-spain-red via-spain-yellow to-spain-red transform -translate-y-1/2 z-0"></div>
         
         <!-- Timeline Steps with Horizontal Scroll - No y-axis padding, only horizontal -->
-        <div class="relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto px-8 pb-12 scrollbar-hide">
+        <div 
+          ref="timelineContainer"
+          :class="[
+            'timeline-container relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto px-8 pb-12 scrollbar-hide',
+            { 'dragging': isDragging }
+          ]"
+          @mousedown="handleMouseDown"
+          @touchstart="handleTouchStart"
+          @touchmove="handleTouchMove"
+          @touchend="handleTouchEnd"
+        >
           
           <!-- Step 1: Der Traum von Spanien -->
           <TimelineStep 
@@ -235,9 +245,34 @@
           </TimelineStep>
         </div>
         
-        <!-- Scroll Indicator -->
-        <div class="text-center mt-8 text-spain-gray-dark">
-          <p class="!text-sm">← Scroll horizontal um alle Schritte zu sehen →</p>
+        <!-- Navigation Arrows -->
+        <div class="flex justify-between items-center mt-8">
+          <!-- Left Arrow -->
+          <button 
+            @click="scrollLeft"
+            :disabled="!canScrollLeft"
+            class="flex items-center justify-center w-12 h-12 rounded-full bg-spain-red text-white hover:bg-spain-red-dark disabled:bg-gray-300 disabled:cursor-not-allowed transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+          </button>
+          
+          <!-- Center instruction -->
+          <div class="text-center text-spain-gray-dark">
+            <p class="!text-sm font-medium">← Navigiere durch die Timeline →</p>
+          </div>
+          
+          <!-- Right Arrow -->
+          <button 
+            @click="scrollRight"
+            :disabled="!canScrollRight"
+            class="flex items-center justify-center w-12 h-12 rounded-full bg-spain-red text-white hover:bg-spain-red-dark disabled:bg-gray-300 disabled:cursor-not-allowed transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
         </div>
       </div>
       
@@ -247,10 +282,155 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
 // Import components
 import StoryCard from './StoryCard.vue'
 import TimelineStep from './TimelineStep.vue'
 import TimelinePlaceholder from './TimelinePlaceholder.vue'
+
+const timelineContainer = ref(null)
+const canScrollLeft = ref(false)
+const canScrollRight = ref(true)
+
+// Drag and drop state
+const isDragging = ref(false)
+const startX = ref(0)
+const startScrollLeft = ref(0)
+
+// Check scroll position to enable/disable arrows
+const updateScrollButtons = () => {
+  if (!timelineContainer.value) return
+  
+  const { scrollLeft, scrollWidth, clientWidth } = timelineContainer.value
+  
+  canScrollLeft.value = scrollLeft > 0
+  canScrollRight.value = scrollLeft < scrollWidth - clientWidth - 1
+}
+
+// Scroll functions
+const scrollLeft = () => {
+  if (!timelineContainer.value) return
+  
+  const scrollAmount = 400 // Pixels to scroll
+  timelineContainer.value.scrollBy({
+    left: -scrollAmount,
+    behavior: 'smooth'
+  })
+}
+
+const scrollRight = () => {
+  if (!timelineContainer.value) return
+  
+  const scrollAmount = 400 // Pixels to scroll
+  timelineContainer.value.scrollBy({
+    left: scrollAmount,
+    behavior: 'smooth'
+  })
+}
+
+// Drag and drop functions
+const handleMouseDown = (e) => {
+  if (!timelineContainer.value) return
+  
+  // Only start dragging if it's a left mouse button click
+  if (e.button !== 0) return
+  
+  isDragging.value = true
+  startX.value = e.clientX
+  startScrollLeft.value = timelineContainer.value.scrollLeft
+  
+  // Prevent text selection while dragging
+  e.preventDefault()
+  e.stopPropagation()
+  
+  // Add global event listeners for better tracking
+  document.addEventListener('mousemove', handleMouseMove, { passive: false })
+  document.addEventListener('mouseup', handleMouseUp, { passive: false })
+}
+
+const handleMouseMove = (e) => {
+  if (!isDragging.value || !timelineContainer.value) return
+  
+  e.preventDefault()
+  e.stopPropagation()
+  
+  const currentX = e.clientX
+  const deltaX = currentX - startX.value
+  
+  // Direct mapping: mouse movement = scroll movement
+  timelineContainer.value.scrollLeft = startScrollLeft.value - deltaX
+  
+  // Update scroll buttons during drag
+  updateScrollButtons()
+}
+
+const handleMouseUp = (e) => {
+  if (!isDragging.value) return
+  
+  isDragging.value = false
+  
+  // Remove global event listeners
+  document.removeEventListener('mousemove', handleMouseMove)
+  document.removeEventListener('mouseup', handleMouseUp)
+  
+  // Update scroll buttons after drag
+  updateScrollButtons()
+}
+
+// Touch event handlers for mobile support
+const handleTouchStart = (e) => {
+  if (!timelineContainer.value || e.touches.length !== 1) return
+  
+  isDragging.value = true
+  startX.value = e.touches[0].clientX
+  startScrollLeft.value = timelineContainer.value.scrollLeft
+  
+  e.preventDefault()
+}
+
+const handleTouchMove = (e) => {
+  if (!isDragging.value || !timelineContainer.value || e.touches.length !== 1) return
+  
+  e.preventDefault()
+  
+  const currentX = e.touches[0].clientX
+  const deltaX = currentX - startX.value
+  
+  timelineContainer.value.scrollLeft = startScrollLeft.value - deltaX
+  updateScrollButtons()
+}
+
+const handleTouchEnd = (e) => {
+  if (!isDragging.value) return
+  
+  isDragging.value = false
+  updateScrollButtons()
+}
+
+onMounted(() => {
+  if (timelineContainer.value) {
+    // Initial check
+    updateScrollButtons()
+    
+    // Listen for scroll events
+    timelineContainer.value.addEventListener('scroll', updateScrollButtons)
+    
+    // Listen for resize events
+    window.addEventListener('resize', updateScrollButtons)
+  }
+})
+
+onUnmounted(() => {
+  if (timelineContainer.value) {
+    timelineContainer.value.removeEventListener('scroll', updateScrollButtons)
+  }
+  window.removeEventListener('resize', updateScrollButtons)
+  
+  // Clean up global drag listeners
+  document.removeEventListener('mousemove', handleMouseMove)
+  document.removeEventListener('mouseup', handleMouseUp)
+})
 </script>
 
 <style scoped>
@@ -267,5 +447,29 @@ import TimelinePlaceholder from './TimelinePlaceholder.vue'
 /* Smooth scrolling */
 .overflow-x-auto {
   scroll-behavior: smooth;
+}
+
+/* Drag and drop styles */
+.timeline-container {
+  cursor: grab;
+  user-select: none; /* Prevent text selection while dragging */
+  scroll-behavior: auto; /* Disable smooth scroll for direct control */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+}
+
+.timeline-container:active {
+  cursor: grabbing;
+}
+
+.timeline-container.dragging {
+  cursor: grabbing !important;
+  scroll-behavior: auto !important;
+}
+
+/* Only disable pointer events during dragging to prevent interference */
+.timeline-container.dragging * {
+  pointer-events: none;
 }
 </style>
