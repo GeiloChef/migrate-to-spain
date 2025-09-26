@@ -79,13 +79,11 @@
     },
     "navigation": {
       "previousStep": "Previous Step",
-      "nextStep": "Next Step"
+      "nextStep": "Next Step",
+      "instruction": "← Navigate through the Timeline →"
     },
     "card": {
       "readMore": "Read more"
-    },
-    "navigation": {
-      "instruction": "← Navigate through the Timeline →"
     },
     "timeline": {
       "step1": {
