@@ -110,10 +110,8 @@ const positiveSurpriseInfo = computed(() => {
     const title = t('first-research-feasibility.sections.glutenFree.positiveSurprise.title')
     const description1 = t('first-research-feasibility.sections.glutenFree.positiveSurprise.description1')
     const description2 = t('first-research-feasibility.sections.glutenFree.positiveSurprise.description2')
-    console.log('Positive surprise info from i18n:', { title, description1, description2 })
     return { title, description1, description2 }
   } catch (error) {
-    console.error('Error getting positive surprise info:', error)
     return { title: '', description1: '', description2: '' }
   }
 })
@@ -126,10 +124,8 @@ const supermarketsInfo = computed(() => {
     const carrefour = t('first-research-feasibility.sections.glutenFree.supermarkets.carrefour')
     const alcampo = t('first-research-feasibility.sections.glutenFree.supermarkets.alcampo')
     const lidl = t('first-research-feasibility.sections.glutenFree.supermarkets.lidl')
-    console.log('Supermarkets info from i18n:', { title, mercadona, carrefour, alcampo, lidl })
     return { title, mercadona, carrefour, alcampo, lidl }
   } catch (error) {
-    console.error('Error getting supermarkets info:', error)
     return { title: '', mercadona: '', carrefour: '', alcampo: '', lidl: '' }
   }
 })

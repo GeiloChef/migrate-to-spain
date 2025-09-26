@@ -152,7 +152,6 @@ onMounted(() => {
     timelineContainer.value.addEventListener('touchend', handleTouchEnd, { passive: true })
   }
 
-  console.log(timelineSteps)
 })
 
 onUnmounted(() => {

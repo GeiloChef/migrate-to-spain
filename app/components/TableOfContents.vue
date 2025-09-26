@@ -185,7 +185,6 @@ const updateActiveHeading = () => {
   
   if (currentHeading) {
     activeHeading.value = currentHeading
-    console.log(`Active heading: ${currentHeading}`)
     
     // Scroll the active heading into view in the TOC
     scrollActiveHeadingIntoView(currentHeading)
@@ -240,13 +239,6 @@ onMounted(() => {
     updateActiveHeading()
     updateReadingProgress()
     
-    // Debug: Check if headings were found
-    console.log('TableOfContents: Found', headings.value.length, 'headings')
-    if (headings.value.length === 0) {
-      console.log('TableOfContents: No headings found - checking DOM...')
-      const allHeadings = document.querySelectorAll('h2')
-      console.log('TableOfContents: Total headings in DOM:', allHeadings.length)
-    }
     
     window.addEventListener('scroll', handleScroll)
   })
