@@ -15,17 +15,10 @@
         <!-- Timeline Line -->
         <div class="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-spain-red via-spain-yellow to-spain-red transform -translate-y-1/2 z-0"></div>
         
-        <!-- Timeline Steps with Horizontal Scroll - No y-axis padding, only horizontal -->
+        <!-- Timeline Steps with Horizontal Scroll -->
         <div 
           ref="timelineContainer"
-          :class="[
-            'timeline-container relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto px-8 pb-12 scrollbar-hide',
-            { 'dragging': isDragging }
-          ]"
-          @mousedown="handleMouseDown"
-          @touchstart="handleTouchStart"
-          @touchmove="handleTouchMove"
-          @touchend="handleTouchEnd"
+          class="timeline-container relative z-10 flex gap-8 lg:gap-12 items-start overflow-x-auto px-8 pb-12"
         >
           
           <!-- Step 1: Der Traum von Spanien -->
@@ -293,10 +286,6 @@ const timelineContainer = ref(null)
 const canScrollLeft = ref(false)
 const canScrollRight = ref(true)
 
-// Drag and drop state
-const isDragging = ref(false)
-const startX = ref(0)
-const startScrollLeft = ref(0)
 
 // Check scroll position to enable/disable arrows
 const updateScrollButtons = () => {
@@ -329,84 +318,6 @@ const scrollRight = () => {
   })
 }
 
-// Drag and drop functions
-const handleMouseDown = (e) => {
-  if (!timelineContainer.value) return
-  
-  // Only start dragging if it's a left mouse button click
-  if (e.button !== 0) return
-  
-  isDragging.value = true
-  startX.value = e.clientX
-  startScrollLeft.value = timelineContainer.value.scrollLeft
-  
-  // Prevent text selection while dragging
-  e.preventDefault()
-  e.stopPropagation()
-  
-  // Add global event listeners for better tracking
-  document.addEventListener('mousemove', handleMouseMove, { passive: false })
-  document.addEventListener('mouseup', handleMouseUp, { passive: false })
-}
-
-const handleMouseMove = (e) => {
-  if (!isDragging.value || !timelineContainer.value) return
-  
-  e.preventDefault()
-  e.stopPropagation()
-  
-  const currentX = e.clientX
-  const deltaX = currentX - startX.value
-  
-  // Direct mapping: mouse movement = scroll movement
-  timelineContainer.value.scrollLeft = startScrollLeft.value - deltaX
-  
-  // Update scroll buttons during drag
-  updateScrollButtons()
-}
-
-const handleMouseUp = (e) => {
-  if (!isDragging.value) return
-  
-  isDragging.value = false
-  
-  // Remove global event listeners
-  document.removeEventListener('mousemove', handleMouseMove)
-  document.removeEventListener('mouseup', handleMouseUp)
-  
-  // Update scroll buttons after drag
-  updateScrollButtons()
-}
-
-// Touch event handlers for mobile support
-const handleTouchStart = (e) => {
-  if (!timelineContainer.value || e.touches.length !== 1) return
-  
-  isDragging.value = true
-  startX.value = e.touches[0].clientX
-  startScrollLeft.value = timelineContainer.value.scrollLeft
-  
-  e.preventDefault()
-}
-
-const handleTouchMove = (e) => {
-  if (!isDragging.value || !timelineContainer.value || e.touches.length !== 1) return
-  
-  e.preventDefault()
-  
-  const currentX = e.touches[0].clientX
-  const deltaX = currentX - startX.value
-  
-  timelineContainer.value.scrollLeft = startScrollLeft.value - deltaX
-  updateScrollButtons()
-}
-
-const handleTouchEnd = (e) => {
-  if (!isDragging.value) return
-  
-  isDragging.value = false
-  updateScrollButtons()
-}
 
 onMounted(() => {
   if (timelineContainer.value) {
@@ -426,22 +337,34 @@ onUnmounted(() => {
     timelineContainer.value.removeEventListener('scroll', updateScrollButtons)
   }
   window.removeEventListener('resize', updateScrollButtons)
-  
-  // Clean up global drag listeners
-  document.removeEventListener('mousemove', handleMouseMove)
-  document.removeEventListener('mouseup', handleMouseUp)
 })
 </script>
 
 <style scoped>
-/* Hide scrollbar but keep functionality */
-.scrollbar-hide {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+/* Custom scrollbar styling */
+.timeline-container::-webkit-scrollbar {
+  height: 8px;
 }
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;  /* Safari and Chrome */
+.timeline-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timeline-container::-webkit-scrollbar-thumb {
+  background: #dc2626; /* spain-red */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timeline-container::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c; /* spain-red-dark */
+  cursor: grab;
+}
+
+.timeline-container::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
 }
 
 /* Smooth scrolling */
@@ -449,27 +372,8 @@ onUnmounted(() => {
   scroll-behavior: smooth;
 }
 
-/* Drag and drop styles */
+/* Timeline container styles */
 .timeline-container {
-  cursor: grab;
-  user-select: none; /* Prevent text selection while dragging */
-  scroll-behavior: auto; /* Disable smooth scroll for direct control */
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE/Edge */
-}
-
-.timeline-container:active {
-  cursor: grabbing;
-}
-
-.timeline-container.dragging {
-  cursor: grabbing !important;
-  scroll-behavior: auto !important;
-}
-
-/* Only disable pointer events during dragging to prevent interference */
-.timeline-container.dragging * {
-  pointer-events: none;
+  scroll-behavior: smooth;
 }
 </style>
