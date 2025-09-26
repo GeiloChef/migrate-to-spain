@@ -1,10 +1,10 @@
 <template>
-  <div class="hidden lg:block fixed left-6 z-40" style="position: fixed !important; left: 1.5rem !important; top: 200px !important;">
-    <div class="bg-white/95 backdrop-blur-sm border border-yellow-200 rounded-lg shadow-lg p-3 max-w-64">
+  <div class="hidden 2xl:block fixed z-40" :style="tocStyle">
+    <div class="bg-white/95 backdrop-blur-sm border border-yellow-200 rounded-lg shadow-lg p-4 max-w-64">
       <!-- Header -->
       <div class="flex items-center gap-2 mb-3 pb-2 border-b border-yellow-100">
         <Icon name="heroicons:list-bullet" class="w-4 h-4 text-yellow-600" />
-        <h3 class="font-medium text-gray-800 !text-xs">
+        <h3 class="font-medium text-gray-800 text-xs">
           {{ $t('ui.tableOfContents.title') }}
         </h3>
       </div>
@@ -55,6 +55,14 @@
 const headings = ref([])
 const activeHeading = ref('')
 const readingProgress = ref(0)
+
+// Simple TOC positioning
+const tocStyle = computed(() => {
+  return {
+    left: '1.5rem',
+    top: '200px'
+  }
+})
 
 // Determine indentation based on heading level (only h2 now)
 const getHeadingIndent = (level) => {
