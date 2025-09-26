@@ -18,19 +18,19 @@
                 class="w-full h-full bg-cover bg-center bg-no-repeat"
                 style="background-image: url('https://plus.unsplash.com/premium_photo-1754558564572-cbd1a5efe62a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
               ></div>
-              <!-- Dark Overlay for Better Text Readability -->
-              <div class="absolute inset-0 bg-gradient-to-t from-black/20 via-black/5 to-transparent"></div>
+              <!-- Light black overlay to soften the background image -->
+              <div class="absolute inset-0 bg-black/50"></div>
             </div>
             
             <!-- Content -->
             <div class="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-8">
               <!-- Main Title -->
-              <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8), 0 0 8px rgba(0,0,0,0.5);">
+              <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white">
                 {{ $t('story.title') }}
               </h1>
               
               <!-- Subtitle -->
-              <p class="text-lg md:text-xl text-white mb-12 max-w-2xl leading-relaxed" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8), 0 0 6px rgba(0,0,0,0.4);">
+              <p class="text-lg md:text-xl text-white mb-12 max-w-2xl leading-relaxed">
                 {{ $t('story.mobileIntro.subtitle') }}
               </p>
               
