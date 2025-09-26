@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Preview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .preview {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        .favicon-display {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .size-label {
+            font-weight: bold;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview">
+        <h1>Favicon Preview</h1>
+        <p>This page shows your favicon in different sizes. You can right-click and save these images to convert them to ICO format.</p>
+        
+        <div class="favicon-display">
+            <div>
+                <div class="size-label">16x16</div>
+                <img src="/favicon.svg" width="16" height="16" alt="16x16 favicon">
+            </div>
+            <div>
+                <div class="size-label">32x32</div>
+                <img src="/favicon.svg" width="32" height="32" alt="32x32 favicon">
+            </div>
+            <div>
+                <div class="size-label">48x48</div>
+                <img src="/favicon.svg" width="48" height="48" alt="48x48 favicon">
+            </div>
+        </div>
+        
+        <p><strong>Instructions:</strong></p>
+        <ol>
+            <li>Start your Nuxt dev server: <code>npm run dev</code></li>
+            <li>Open this file in your browser: <code>file:///path/to/favicon-preview.html</code></li>
+            <li>Right-click on the 32x32 image and save it</li>
+            <li>Use an online converter to convert the saved image to ICO format</li>
+            <li>Replace the existing <code>public/favicon.ico</code> with the converted file</li>
+        </ol>
+    </div>
+</body>
+</html>

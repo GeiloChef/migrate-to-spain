@@ -1,0 +1,33 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .sky { fill: #FFD700; }
+      .ground { fill: #DC143C; }
+      .house { fill: #FFFFFF; }
+      .roof { fill: #DC143C; }
+      .door { fill: #DC143C; }
+      .sun { fill: #FF8C00; }
+    </style>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="32" height="32" rx="6" ry="6" class="sky"/>
+  
+  <!-- Ground section (bottom third) -->
+  <rect x="0" y="21" width="32" height="11" rx="0" ry="0" class="ground"/>
+  
+  <!-- Sun (orange circle in top right) -->
+  <circle cx="26" cy="8" r="6" class="sun"/>
+  
+  <!-- House body (white) -->
+  <rect x="10" y="18" width="12" height="8" class="house"/>
+  
+  <!-- House roof (red, gable style) -->
+  <polygon points="8,18 16,10 24,18" class="roof"/>
+  
+  <!-- Chimney (white, on left side of roof) -->
+  <rect x="9" y="12" width="2" height="6" class="house"/>
+  
+  <!-- Door (red rectangle in center of house) -->
+  <rect x="14" y="22" width="4" height="4" class="door"/>
+</svg>
