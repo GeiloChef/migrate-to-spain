@@ -39,42 +39,42 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <InsuranceIntroductionSection />
+          <TimelineInsuranceIntroductionSection />
         </div>
       </div>
 
       <!-- Section 2: Vergleich -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <InsuranceComparisonSection />
+          <TimelineInsuranceComparisonSection />
         </div>
       </div>
 
       <!-- Section 3: Abdeckung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <InsuranceCoverageSection />
+          <TimelineInsuranceCoverageSection />
         </div>
       </div>
 
       <!-- Section 4: Übliche Praktiken -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <InsuranceCommonPracticesSection />
+          <TimelineInsuranceCommonPracticesSection />
         </div>
       </div>
 
       <!-- Section 5: Auswahl -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <InsuranceSelectionSection />
+          <TimelineInsuranceSelectionSection />
         </div>
       </div>
 
       <!-- Section 6: Fazit -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <InsuranceConclusionSection />
+          <TimelineInsuranceConclusionSection />
         </div>
       </div>
     </div>

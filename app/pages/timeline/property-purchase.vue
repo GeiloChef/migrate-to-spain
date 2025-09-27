@@ -39,63 +39,63 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchaseIntroductionSection />
+          <TimelinePropertyPurchaseIntroductionSection />
         </div>
       </div>
 
       <!-- Section 2: Besichtigung -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchaseViewingSection />
+          <TimelinePropertyPurchaseViewingSection />
         </div>
       </div>
 
       <!-- Section 3: Arras Vertrag -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchaseArrasContractSection />
+          <TimelinePropertyPurchaseArrasContractSection />
         </div>
       </div>
 
       <!-- Section 4: Kaufvertrag -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchasePurchaseContractSection />
+          <TimelinePropertyPurchasePurchaseContractSection />
         </div>
       </div>
 
       <!-- Section 5: Zwischen Kaufvertrag und Notartermin -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchaseBetweenContractAndNotarySection />
+          <TimelinePropertyPurchaseBetweenContractAndNotarySection />
         </div>
       </div>
 
       <!-- Section 6: Notartermin -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchaseNotaryAppointmentSection />
+          <TimelinePropertyPurchaseNotaryAppointmentSection />
         </div>
       </div>
 
       <!-- Section 7: Worauf achten -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchaseWhatToLookForSection />
+          <TimelinePropertyPurchaseWhatToLookForSection />
         </div>
       </div>
 
       <!-- Section 8: Schwierigkeiten -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchaseDifficultiesSection />
+          <TimelinePropertyPurchaseDifficultiesSection />
         </div>
       </div>
 
       <!-- Section 9: Learnings -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <PropertyPurchaseKeyLearningsSection />
+          <TimelinePropertyPurchaseKeyLearningsSection />
         </div>
       </div>
     </div>

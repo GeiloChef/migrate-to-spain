@@ -37,28 +37,28 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <FinalMigrationIntro />
+          <TimelineFinalMigrationIntro />
         </div>
       </div>
 
       <!-- Section 2: Arbeit -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <FinalMigrationWork />
+          <TimelineFinalMigrationWork />
         </div>
       </div>
 
       <!-- Section 3: Ziele -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <FinalMigrationGoals />
+          <TimelineFinalMigrationGoals />
         </div>
       </div>
 
       <!-- Section 4: Zukunft -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <FinalMigrationFuture />
+          <TimelineFinalMigrationFuture />
         </div>
       </div>
     </div>

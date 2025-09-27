@@ -46,12 +46,12 @@
         <div class="space-y-4">
           <!-- Deutschland Tab -->
           <div v-if="activeTab === 'germany'" class="animate-fadeIn">
-            <FirstResearchFeasibilityTaxCard :country="'germany'" />
+            <TimelineFirstResearchFeasibilityTaxCard :country="'germany'" />
           </div>
           
           <!-- Spanien Tab -->
           <div v-if="activeTab === 'spain'" class="animate-fadeIn">
-            <FirstResearchFeasibilityTaxCard :country="'spain'" />
+            <TimelineFirstResearchFeasibilityTaxCard :country="'spain'" />
           </div>
         </div>
       </div>

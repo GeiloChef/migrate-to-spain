@@ -20,16 +20,16 @@
         
         <div class="space-y-6">
           <!-- Wohnkosten -->
-          <LivingCostsHousing />
+          <TimelineLivingCostsHousing />
           
           <!-- Lebensmittel -->
-          <LivingCostsFood />
+          <TimelineLivingCostsFood />
           
           <!-- Energie -->
-          <LivingCostsEnergy />
+          <TimelineLivingCostsEnergy />
           
           <!-- Europäischer Vergleich -->
-          <LivingCostsEuropeanComparison />
+          <TimelineLivingCostsEuropeanComparison />
         </div>
       </div>
     </div>
@@ -38,8 +38,4 @@
 
 <script setup lang="ts">
 // Import der einzelnen Komponenten
-import LivingCostsHousing from './LivingCostsHousing.vue'
-import LivingCostsFood from './LivingCostsFood.vue'
-import LivingCostsEnergy from './LivingCostsEnergy.vue'
-import LivingCostsEuropeanComparison from './LivingCostsEuropeanComparison.vue'
 </script>

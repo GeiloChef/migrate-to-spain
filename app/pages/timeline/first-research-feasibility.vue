@@ -39,49 +39,49 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <FirstResearchFeasibilityIntroductionSection />
+          <TimelineFirstResearchFeasibilityIntroductionSection />
         </div>
       </div>
 
       <!-- Section 2: Aufenthaltsrecht -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <FirstResearchFeasibilityResidenceRightsSection />
+          <TimelineFirstResearchFeasibilityResidenceRightsSection />
         </div>
       </div>
 
       <!-- Section 3: Arbeit -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <FirstResearchFeasibilityWorkSection />
+          <TimelineFirstResearchFeasibilityWorkSection />
         </div>
       </div>
 
       <!-- Section 4: Steuern -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <FirstResearchFeasibilityTaxComparisonSection />
+          <TimelineFirstResearchFeasibilityTaxComparisonSection />
         </div>
       </div>
 
       <!-- Section 6: Lebenshaltungskosten -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <LivingCostsSection />
+          <TimelineLivingCostsSection />
         </div>
       </div>
 
       <!-- Section 5: Glutenfreies Essen -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <FirstResearchFeasibilityGlutenFreeFoodSection />
+          <TimelineFirstResearchFeasibilityGlutenFreeFoodSection />
         </div>
       </div>
 
       <!-- Section 7: Fazit -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <FirstResearchFeasibilityConclusionSection />
+          <TimelineFirstResearchFeasibilityConclusionSection />
         </div>
       </div>
     </div>

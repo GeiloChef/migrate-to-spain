@@ -6,30 +6,30 @@
     :next-step-name="$t('discovering-spain.title')"
   >
     <!-- Hero Section -->
-    <LearningSpanishHeroSection />
+    <TimelineLearningSpanishHeroSection />
 
     <!-- Main Content -->
     <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
       <!-- Introduction Section -->
-      <LearningSpanishIntroductionSection />
+      <TimelineLearningSpanishIntroductionSection />
 
       <!-- Duolingo Section -->
-      <LearningSpanishDuolingoSection />
+      <TimelineLearningSpanishDuolingoSection />
 
       <!-- Books Section -->
-      <LearningSpanishBooksSection />
+      <TimelineLearningSpanishBooksSection />
 
       <!-- Flashcards Section -->
-      <LearningSpanishFlashcardsSection />
+      <TimelineLearningSpanishFlashcardsSection />
 
       <!-- Lingolia Section -->
-      <LearningSpanishLingoliaSection />
+      <TimelineLearningSpanishLingoliaSection />
 
       <!-- Speaking Section -->
-      <LearningSpanishSpeakingSection />
+      <TimelineLearningSpanishSpeakingSection />
 
       <!-- Current Status Section -->
-      <LearningSpanishCurrentStatusSection />
+      <TimelineLearningSpanishCurrentStatusSection />
     </div>
   </TimelineLayout>
 </template>

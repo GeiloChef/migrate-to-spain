@@ -47,12 +47,12 @@
         <div class="space-y-4">
           <!-- Mietpreise Tab -->
           <div v-if="activeTab === 'rental'" class="animate-fadeIn">
-            <LivingCostsHousingCard :type="'rental'" />
+            <TimelineLivingCostsHousingCard :type="'rental'" />
           </div>
           
           <!-- Kaufpreise Tab -->
           <div v-if="activeTab === 'purchase'" class="animate-fadeIn">
-            <LivingCostsHousingCard :type="'purchase'" />
+            <TimelineLivingCostsHousingCard :type="'purchase'" />
           </div>
         </div>
       </div>
