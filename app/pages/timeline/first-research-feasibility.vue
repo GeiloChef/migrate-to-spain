@@ -39,28 +39,28 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <IntroductionSection />
+          <FirstResearchFeasibilityIntroductionSection />
         </div>
       </div>
 
       <!-- Section 2: Aufenthaltsrecht -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <ResidenceRightsSection />
+          <FirstResearchFeasibilityResidenceRightsSection />
         </div>
       </div>
 
       <!-- Section 3: Arbeit -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <WorkSection />
+          <FirstResearchFeasibilityWorkSection />
         </div>
       </div>
 
       <!-- Section 4: Steuern -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <TaxComparisonSection />
+          <FirstResearchFeasibilityTaxComparisonSection />
         </div>
       </div>
 
@@ -74,14 +74,14 @@
       <!-- Section 5: Glutenfreies Essen -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <GlutenFreeFoodSection />
+          <FirstResearchFeasibilityGlutenFreeFoodSection />
         </div>
       </div>
 
       <!-- Section 7: Fazit -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-4 py-8 md:px-6 md:py-16">
-          <ConclusionSection />
+          <FirstResearchFeasibilityConclusionSection />
         </div>
       </div>
     </div>

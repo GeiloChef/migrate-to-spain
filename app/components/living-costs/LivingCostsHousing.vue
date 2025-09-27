@@ -47,12 +47,12 @@
         <div class="space-y-4">
           <!-- Mietpreise Tab -->
           <div v-if="activeTab === 'rental'" class="animate-fadeIn">
-            <HousingCard :type="'rental'" />
+            <LivingCostsHousingCard :type="'rental'" />
           </div>
           
           <!-- Kaufpreise Tab -->
           <div v-if="activeTab === 'purchase'" class="animate-fadeIn">
-            <HousingCard :type="'purchase'" />
+            <LivingCostsHousingCard :type="'purchase'" />
           </div>
         </div>
       </div>
@@ -183,7 +183,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import HousingCard from './HousingCard.vue'
 
 const activeTab = ref('rental')
 </script>

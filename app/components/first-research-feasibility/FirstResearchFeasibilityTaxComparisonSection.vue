@@ -46,12 +46,12 @@
         <div class="space-y-4">
           <!-- Deutschland Tab -->
           <div v-if="activeTab === 'germany'" class="animate-fadeIn">
-            <TaxCard :country="'germany'" />
+            <FirstResearchFeasibilityTaxCard :country="'germany'" />
           </div>
           
           <!-- Spanien Tab -->
           <div v-if="activeTab === 'spain'" class="animate-fadeIn">
-            <TaxCard :country="'spain'" />
+            <FirstResearchFeasibilityTaxCard :country="'spain'" />
           </div>
         </div>
       </div>
@@ -262,7 +262,6 @@
 
 <script setup>
 import { ref } from 'vue'
-import TaxCard from './TaxCard.vue'
 
 const activeTab = ref('germany')
 </script>

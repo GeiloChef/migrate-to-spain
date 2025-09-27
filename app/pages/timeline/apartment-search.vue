@@ -39,21 +39,21 @@
       <!-- Section 1: Einführung -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <ApartmentSearchIntroductionSection />
+          <TimelineApartmentSearchIntroductionSection />
         </div>
       </div>
 
       <!-- Section 2: Erste Recherchen -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <ApartmentSearchFirstResearchSection />
+          <TimelineApartmentSearchFirstResearchSection />
         </div>
       </div>
 
       <!-- Section 3: Vor Ort in Murcia -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <ApartmentSearchOnSiteSection />
+          <TimelineApartmentSearchOnSiteSection />
         </div>
       </div>
 
@@ -62,14 +62,14 @@
       <!-- Section 4: Mein Rat -->
       <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
         <div class="px-6 py-6 md:py-12">
-          <ApartmentSearchAdviceSection />
+          <TimelineApartmentSearchAdviceSection />
         </div>
       </div>
 
       <!-- Section 6: Nächste Schritte -->
       <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div class="px-6 py-6 md:py-12">
-          <ApartmentSearchNextStepsSection />
+          <TimelineApartmentSearchNextStepsSection />
         </div>
       </div>
     </div>

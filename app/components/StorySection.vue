@@ -279,8 +279,6 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 // Import components
 import StoryCard from './StoryCard.vue'
-import TimelineStep from './TimelineStep.vue'
-import TimelinePlaceholder from './TimelinePlaceholder.vue'
 
 const timelineContainer = ref(null)
 const canScrollLeft = ref(false)
