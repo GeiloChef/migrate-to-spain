@@ -307,5 +307,8 @@
   "guide_banking": {
     "title": "Banking",
     "description": "Bankkonto eröffnen, Online-Banking einrichten und finanzielle Angelegenheiten in Spanien regeln."
+  },
+  "disclaimer": {
+    "text": "Hinweis/Disclaimer: Dieser Text ist ein allgemeiner Info-Guide und keine Rechts- oder Steuerberatung. Angaben ohne Gewähr; Verfahren, Formulare und Kosten können sich je nach Region/Behörde ändern. Für verbindliche Auskünfte wende dich an die zuständigen Stellen oder zugelassene Fachleute (z. B. Anwälte, Steuerberater)."
   }
 }

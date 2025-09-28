@@ -1,0 +1,169 @@
+{
+  "guide_gestoria": {
+    "title": "Gestoría in Spanien: Was sie macht, wann sie sich lohnt & wie du eine gute findest",
+    "description": "Eine Gestoría ist ein Büro, das dich durch den spanischen Behörden-Dschungel lotst: Formulare, Fristen, „Modelos\", Termine, Zahlungen von Gebühren – sie erledigen das für dich (oder mit dir). Sie sind keine Anwälte, aber praktische Admin-Profis mit reichlich Alltagserfahrung.",
+    "content": {
+      "what_is": {
+        "title": "Was ist eine Gestoría?",
+        "description": "Eine Gestoría ist ein Büro, das dich durch den spanischen Behörden-Dschungel lotst: Formulare, Fristen, „Modelos\", Termine, Zahlungen von Gebühren – sie erledigen das für dich (oder mit dir). Sie sind keine Anwälte, aber praktische Admin-Profis mit reichlich Alltagserfahrung.",
+        "note": "Gestoría = Dienstleister für Verwaltungs- & Behördenkram: Anträge vorbereiten/abgeben, Fristen im Blick behalten, Zahlungen (tasas) koordinieren, Nachweise einsammeln, Termine (cita previa) organisieren."
+      },
+      "what_is_not": {
+        "title": "Was ist eine Gestoría (und was nicht)?",
+        "description": "Gestor/a administrativo/a („zertifizierter Verwaltungsfachmann/-frau\") = eine berufsständisch organisierte Fachperson mit offizieller Zulassung. Viele Gestorías beschäftigen solche zertifizierten Fachkräfte; frag ruhig nach „¿Hay gestor administrativo colegiado?\" („Gibt es einen zertifizierten Verwaltungsfachmann?\").",
+        "items": {
+          "lawyer": {
+            "title": "Nicht zu verwechseln mit: Abogado/a (Anwalt)",
+            "description": "rechtliche Vertretung, Gutachten, komplexe Rechtsfragen"
+          },
+          "asesoria": {
+            "title": "Asesoría",
+            "description": "eher Steuer- & Buchhaltungsberatung (Überschneidungen sind häufig; viele Gestorías sind zugleich Asesorías)"
+          },
+          "notary": {
+            "title": "Notaría/Notario",
+            "description": "beurkundet (z. B. Immobilienkauf), aber „macht\" keine Anträge für dich"
+          }
+        },
+        "rule": "Faustregel: Brauchst du „Hands-on-Verwaltung\" (Anträge, Fristen, Gänge) → Gestoría. Hast du streitige/komplexe Rechtsfragen → Anwalt."
+      },
+      "services": {
+        "title": "Was übernimmt eine Gestoría konkret? (Typische Leistungen)",
+        "foreigners": {
+          "title": "Ausländer & Alltag",
+          "items": {
+            "nie": "NIE-Beantragung (inkl. Termin, Formulare EX-15, Gebühren 790/012)",
+            "empadronamiento": "Empadronamiento (Meldung bei der Gemeinde)",
+            "certificado_digital": "Certificado Digital (FNMT): Unterstützung bei Beantragung/Installation, damit du vieles später online selbst erledigen kannst",
+            "bank_insurance": "Bank-, Versicherungs- & Versorger-Themen: Unterstützung beim Konto, Strom/Wasser/Internet-Verträgen"
+          }
+        },
+        "work": {
+          "title": "Arbeit, Steuern & Sozialversicherung",
+          "items": {
+            "autonomo": "Autónomo (Selbstständige) anmelden/abmelden (Hacienda/Seguridad Social)",
+            "tax_forms": "Steuerformulare/„Modelos\" (z. B. 036/037, 303/390, 130/131, 210 für Nicht-Residenten)",
+            "irpf": "IRPF/Jahressteuererklärung, IVA/Mehrwertsteuer, Vorauszahlungen",
+            "social_security": "Sozialversicherung (RETA, Änderungen, u. ä.)"
+          }
+        },
+        "real_estate": {
+          "title": "Immobilien & Fahrzeuge",
+          "items": {
+            "property_purchase": "Immobilienkauf: Koordination Notar, Steuern (ITP/AJD/IVA), Registro de la Propiedad (Grundbuch), Catastro (Lagedaten), Plusvalía (Gemeindesteuer), Suministros (Versorger ummelden)",
+            "vehicle": "Fahrzeug: Kauf/Verkauf/Anmeldung (DGT), Import/„Matriculación\", ITV-TÜV-Termine"
+          },
+          "tip": "Tipp: Frag nach Spezialisierung. Eine Gestoría mit Immobilien-Fokus arbeitet schneller/fehlerärmer bei Kauf & Grundbuch als eine, die hauptsächlich Autónomos betreut – und umgekehrt."
+        }
+      },
+      "when_worth_it": {
+        "title": "Wann lohnt sich eine Gestoría?",
+        "reasons": {
+          "time_short": "Zeit ist knapp: Du willst nicht Wochen in Terminportalen hängen",
+          "language_barrier": "Sprachbarriere: Du sprichst wenig Spanisch, willst aber sicher durchkommen",
+          "expensive_mistakes": "Fehler würden teuer: Falsches Formular/versäumte Frist → Nachzahlungen, Bußgelder",
+          "not_present": "Du bist nicht vor Ort: Vollmacht erteilen und erledigen lassen",
+          "complex_interfaces": "Komplexe Schnittstellen: Immobilie + Steuern + Registro + Catastro + Gemeinde + Versorger → lieber Profis koordinieren lassen"
+        },
+        "when_not": "Wenn du gut Spanisch kannst, Geduld für Ämter hast, Spaß an Formularen und ein digitales Zertifikat (FNMT) besitzt, kannst du viele Dinge selbst erledigen."
+      },
+      "costs": {
+        "title": "Was kostet eine Gestoría? (grobe Hausnummern)",
+        "items": {
+          "nie_organization": {
+            "title": "NIE-Organisation",
+            "price": "ca. 80–250 € (inkl. Termin/Unterlagen; exkl. staatlicher Gebühr)"
+          },
+          "empadronamiento": {
+            "title": "Empadronamiento/Behördengänge",
+            "price": "30–120 € je nach Aufwand"
+          },
+          "autonomo_care": {
+            "title": "Autónomo-Betreuung (monatlich)",
+            "price": "25–60 € Basis (Buchhaltung, Modelle), komplexer deutlich mehr"
+          },
+          "real_estate_pack": {
+            "title": "Immobilien-„Pack\" (Steuern, Registro, Catastro, Umschreibungen)",
+            "price": "200–800 €+ je nach Umfang"
+          },
+          "vehicle_registration": {
+            "title": "Fahrzeug-Ummeldung/Import",
+            "price": "häufig 150–400 € plus Gebühren/Steuern"
+          }
+        },
+        "important": "Wichtig: Lass dir genau aufschlüsseln, was Honorar ist und was amtliche Gebühren (tasas/impuestos) sind. Verlang eine Factura (Rechnung)."
+      },
+      "how_to_work": {
+        "title": "So arbeitest du smart mit einer Gestoría (Ablauf & Checkliste)",
+        "description": "Preise variieren stark nach Region, Dringlichkeit, Komplexität und ob Pauschal vs. laufend:",
+        "steps": {
+          "preparation": {
+            "title": "A) Vorbereitung – deine Unterlagen",
+            "description": "Ausweis/Reisepass (+ Kopien), NIE (falls vorhanden), Wohnsitz-/Adressnachweise (Mietvertrag, Empadronamiento – falls vorhanden), Begründung/Zweck (z. B. Immobilienkaufvorvertrag, Jobangebot, Selbstständigkeit), Steuer-/Bankdaten (IBAN in Spanien, ggf. ausländische Steuer-ID), Kontaktinfo (E-Mail, Tel.), Vollmacht (falls benötigt, „poder notarial\"; aus dem Ausland mit Apostille)"
+          },
+          "power_of_attorney": {
+            "title": "B) Vollmacht („Poder\")",
+            "description": "In Spanien beim Notar schnell erledigt. Im Ausland: Notar + Apostille; oft auch über das spanische Konsulat möglich. Achte auf klare Befugnisse: „Vertretung vor Hacienda/Seguridad Social/DGT/Registro…\""
+          },
+          "cooperation": {
+            "title": "C) Zusammenarbeit",
+            "description": "Bitte um schriftliches Angebot mit Leistungsumfang, Zeitplan, benötigten Unterlagen. Kläre Kommunikation: Wer ist dein fester Ansprechpartner? Antwortzeiten? Verlange Kopien/Belege („justificantes\") für Einreichungen und Zahlungen. Frage nach digitalem Zugang (z. B. spätere Einsicht via Certificado Digital)"
+          }
+        }
+      },
+      "quality": {
+        "title": "Gute Gestoría erkennen: Qualitätsmerkmale & Red Flags",
+        "good": {
+          "title": "Gut:",
+          "items": {
+            "transparent_offers": "Transparente Angebote, klare Trennung Honorar vs. Steuern/Gebühren",
+            "specialization": "Spezialisierung passend zu deinem Fall (Immobilie, Autónomo, Extranjería)",
+            "certification": "Nachweis: „gestor administrativo colegiado\", Mitgliedsnummer",
+            "documented_processes": "Dokumentierte Prozesse, Checklisten, realistische Zeitangaben",
+            "proactive_communication": "Proaktiver Hinweis auf Fristen & Risiken, nicht nur „wir machen schon\""
+          }
+        },
+        "red_flags": {
+          "title": "Red Flags:",
+          "items": {
+            "nie_online_guarantee": "„NIE online in 48 h garantiert\" (ohne Vollmacht/Termin) – skeptisch sein",
+            "full_prepayment": "100 % Vorkasse ohne Vertrag/Leistungsbeschreibung",
+            "keep_originals": "Sie wollen Original-Dokumente behalten (ohne Notwendigkeit)",
+            "blank_signatures": "Blanko-Unterschriften – niemals",
+            "no_invoice": "Keine Factura möglich → Finger weg"
+          }
+        }
+      },
+      "faq": {
+        "title": "Mini-FAQ",
+        "items": {
+          "nie_without_me": {
+            "question": "Kann eine Gestoría die NIE ohne mich besorgen?",
+            "answer": "Ja, mit Vollmacht (poder notarial). Die Gestoría kann dann alle Schritte für dich erledigen: Termin buchen, Formulare ausfüllen, Gebühren bezahlen und die NIE abholen. Ohne Vollmacht musst du persönlich erscheinen. Die Vollmacht muss beim Notar oder über Apostille beglaubigt werden."
+          },
+          "need_lawyer": {
+            "question": "Brauche ich für alles einen Anwalt?",
+            "answer": "Nein, für die meisten Verwaltungsprozesse reicht eine Gestoría völlig aus. Sie sind spezialisiert auf Anträge, Fristen und Behördenkram. Einen Anwalt brauchst du nur bei rechtlichen Streitfragen, Vertragsverhandlungen oder komplexen juristischen Problemen. Für NIE, Empadronamiento, Steuerformulare etc. ist die Gestoría die richtige Wahl."
+          },
+          "how_long": {
+            "question": "Wie lange dauert es?",
+            "answer": "Das hängt stark von der Region und der Behörde ab. Eine gute Gestoría kommuniziert dir realistische Zeitfenster und Abhängigkeiten. Beispiel Immobilienkauf: Notartermin (1-2 Wochen) → Steuerzahlung (sofort) → Registro-Eintragung (2-4 Wochen) → Catastro-Update (1-2 Wochen). Für NIE: oft 1-2 Wochen, manchmal sofort. Eine professionelle Gestoría hält dich über alle Schritte auf dem Laufenden."
+          },
+          "language": {
+            "question": "Sprechen Gestorías auch Deutsch oder Englisch?",
+            "answer": "Viele sprechen nur Spanisch, aber es gibt auch Gestorías mit Deutsch- oder Englischkenntnissen. Frag direkt nach: \"¿Habla alemán/inglés?\" Wenn nicht, bring einen Übersetzer mit oder arbeite schriftlich per E-Mail - das ist oft klarer und besser dokumentiert. Manche Gestorías arbeiten auch mit Übersetzungsdiensten zusammen."
+          },
+          "online_later": {
+            "question": "Kann ich vieles später selbst online machen?",
+            "answer": "Ja, mit dem Certificado Digital (FNMT) kannst du viele Behördengänge online erledigen: Steuererklärungen, Anträge, Terminbuchungen. Viele Gestorías helfen bei der Einrichtung des digitalen Zertifikats. Einmal eingerichtet, sparst du Zeit und Geld bei zukünftigen Angelegenheiten. Die Gestoría kann dir auch zeigen, wie du bestimmte Prozesse selbst online abwickelst."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Fazit",
+        "description": "Eine gute Gestoría spart Zeit, Nerven und oft Geld, weil sie Fehler und Fristversäumnisse verhindert. Wähle spezialisiert, transparent und erreichbar – und arbeite strukturiert mit: Unterlagen komplett liefern, Nachfragen schnell beantworten, Belege anfordern und aufbewahren.",
+        "disclaimer": "Hinweis/Disclaimer: Dieser Text ist ein allgemeiner Info-Guide und keine Rechts- oder Steuerberatung. Angaben ohne Gewähr; Verfahren, Formulare und Kosten können sich je nach Region/Behörde ändern. Für verbindliche Auskünfte wende dich an die zuständigen Stellen oder zugelassene Fachleute (z. B. Anwälte, Steuerberater)."
+      }
+    }
+  }
+}

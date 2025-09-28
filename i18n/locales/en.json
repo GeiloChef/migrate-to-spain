@@ -307,5 +307,8 @@
   "guide_banking": {
     "title": "Banking",
     "description": "Open a bank account, set up online banking and handle financial matters in Spain."
+  },
+  "disclaimer": {
+    "text": "Note/Disclaimer: This text is a general info guide and not legal or tax advice. Information without guarantee; procedures, forms and costs can change depending on region/authority. For binding information, contact the responsible offices or licensed professionals (e.g. lawyers, tax advisors)."
   }
 }

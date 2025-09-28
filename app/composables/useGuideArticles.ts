@@ -44,7 +44,7 @@ export const guideArticles: GuideArticle[] = [
     route: '/guide/gestoria',
     icon: 'green',
     priority: 2,
-    available: false
+    available: true
   },
   {
     id: 'apartment-search',

@@ -307,5 +307,8 @@
   "guide_banking": {
     "title": "Banca",
     "description": "Abrir una cuenta bancaria, configurar la banca online y manejar asuntos financieros en España."
+  },
+  "disclaimer": {
+    "text": "Nota/Descargo: Este texto es una guía informativa general y no asesoramiento legal o fiscal. Información sin garantía; procedimientos, formularios y costos pueden cambiar según región/autoridad. Para información vinculante, contacta a las oficinas responsables o profesionales licenciados (ej. abogados, asesores fiscales)."
   }
 }
