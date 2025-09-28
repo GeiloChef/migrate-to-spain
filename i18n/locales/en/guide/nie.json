@@ -2,6 +2,10 @@
   "guide_nie": {
     "title": "The NIE Number in Spain",
     "description": "Everything you need to know",
+    "card": {
+      "title": "Apply for NIE Number",
+      "description": "Your identification number for Spain: application, documents, appointments and all important steps"
+    },
     "hero": {
       "title": "The NIE Number in Spain: Everything You Need to Know",
       "description": "Complete guide to the NIE number - from application to usage"

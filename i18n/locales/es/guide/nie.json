@@ -2,6 +2,10 @@
   "guide_nie": {
     "title": "El Número NIE en España",
     "description": "Todo lo que necesitas saber",
+    "card": {
+      "title": "Solicitar Número NIE",
+      "description": "Tu número de identificación para España: solicitud, documentos, citas y todos los pasos importantes"
+    },
     "hero": {
       "title": "El Número NIE en España: Todo lo que necesitas saber",
       "description": "Guía completa del número NIE - desde la solicitud hasta el uso"

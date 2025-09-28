@@ -22,8 +22,8 @@ export interface TranslatableGuideArticle extends GuideArticle {
 export const guideArticles: GuideArticle[] = [
   {
     id: 'nie-number',
-    titleKey: 'guide_nie.title',
-    descriptionKey: 'guide_nie.description',
+    titleKey: 'guide_nie.card.title',
+    descriptionKey: 'guide_nie.card.description',
     category: 'bureaucracy',
     tags: ['nie', 'bureaucracy', 'documents', 'identification', 'ausweis', 'nummer', 'beantragung', 'polizei', 'spanien'],
     difficulty: 'medium',
@@ -35,8 +35,8 @@ export const guideArticles: GuideArticle[] = [
   },
   {
     id: 'gestoria',
-    titleKey: 'guide_gestoria.title',
-    descriptionKey: 'guide_gestoria.description',
+    titleKey: 'guide_gestoria.card.title',
+    descriptionKey: 'guide_gestoria.card.description',
     category: 'bureaucracy',
     tags: ['gestoria', 'bureaucracy', 'help', 'lawyer', 'anwalt', 'hilfe', 'behörden', 'bürokratie', 'unterstützung'],
     difficulty: 'easy',
