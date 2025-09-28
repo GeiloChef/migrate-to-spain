@@ -1,7 +1,11 @@
 {
   "guide_nie": {
-    "title": "El Número NIE en España: Todo lo que necesitas saber",
-    "description": "Guía completa del número NIE - desde la solicitud hasta el uso",
+    "title": "El Número NIE en España",
+    "description": "Todo lo que necesitas saber",
+    "hero": {
+      "title": "El Número NIE en España: Todo lo que necesitas saber",
+      "description": "Guía completa del número NIE - desde la solicitud hasta el uso"
+    },
     "content": {
       "what_is": {
         "title": "¿Qué es el NIE?",

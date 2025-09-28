@@ -1,7 +1,11 @@
 {
   "guide_gestoria": {
-    "title": "Gestoría in Spain: What they do, when they're worth it & how to find a good one",
-    "description": "A Gestoría is an office that guides you through the Spanish bureaucratic jungle: forms, deadlines, \"Modelos\", appointments, fee payments – they handle this for you (or with you). They are not lawyers, but practical admin professionals with plenty of everyday experience.",
+    "title": "Gestoría",
+    "description": "What they do, when they're worth it & how to find a good one",
+    "hero": {
+      "title": "Gestoría in Spain: What they do, when they're worth it & how to find a good one",
+      "description": "A Gestoría is an office that guides you through the Spanish bureaucratic jungle: forms, deadlines, \"Modelos\", appointments, fee payments – they handle this for you (or with you). They are not lawyers, but practical admin professionals with plenty of everyday experience."
+    },
     "content": {
       "what_is": {
         "title": "What is a Gestoría?",

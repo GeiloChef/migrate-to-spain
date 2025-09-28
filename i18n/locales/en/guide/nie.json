@@ -1,7 +1,11 @@
 {
   "guide_nie": {
-    "title": "The NIE Number in Spain: Everything You Need to Know",
-    "description": "Complete guide to the NIE number - from application to usage",
+    "title": "The NIE Number in Spain",
+    "description": "Everything you need to know",
+    "hero": {
+      "title": "The NIE Number in Spain: Everything You Need to Know",
+      "description": "Complete guide to the NIE number - from application to usage"
+    },
     "content": {
       "what_is": {
         "title": "What is the NIE?",

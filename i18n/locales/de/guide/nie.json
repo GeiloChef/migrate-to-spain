@@ -1,7 +1,11 @@
 {
   "guide_nie": {
-    "title": "Die NIE-Nummer in Spanien: Alles, was du wissen musst",
-    "description": "Kompletter Guide zur NIE-Nummer - von der Beantragung bis zur Nutzung",
+    "title": "Die NIE-Nummer in Spanien",
+    "description": "Alles, was du wissen musst",
+    "hero": {
+      "title": "Die NIE-Nummer in Spanien: Alles, was du wissen musst",
+      "description": "Kompletter Guide zur NIE-Nummer - von der Beantragung bis zur Nutzung"
+    },
     "content": {
       "what_is": {
         "title": "Was ist die NIE?",
