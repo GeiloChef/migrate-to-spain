@@ -295,5 +295,17 @@
       "title": "Änderungen",
       "content": "Diese Datenschutzerklärung kann von Zeit zu Zeit aktualisiert werden. Die aktuelle Version finden Sie immer auf dieser Seite."
     }
+  },
+  "guide_gestoria": {
+    "title": "Gestoría",
+    "description": "Bürokratische Unterstützung für deine Auswanderung. Wie du die richtige Gestoría findest und was sie für dich erledigen kann."
+  },
+  "guide_apartment": {
+    "title": "Wohnungssuche",
+    "description": "Tipps und Tricks für die Wohnungssuche in Spanien. Von der Recherche bis zum Mietvertrag - alles was du wissen musst."
+  },
+  "guide_banking": {
+    "title": "Banking",
+    "description": "Bankkonto eröffnen, Online-Banking einrichten und finanzielle Angelegenheiten in Spanien regeln."
   }
 }

@@ -295,5 +295,17 @@
       "title": "Changes",
       "content": "This privacy policy may be updated from time to time. You can always find the current version on this page."
     }
+  },
+  "guide_gestoria": {
+    "title": "Gestoría",
+    "description": "Bureaucratic support for your emigration. How to find the right Gestoría and what they can do for you."
+  },
+  "guide_apartment": {
+    "title": "Apartment Search",
+    "description": "Tips and tricks for finding an apartment in Spain. From research to rental contract - everything you need to know."
+  },
+  "guide_banking": {
+    "title": "Banking",
+    "description": "Open a bank account, set up online banking and handle financial matters in Spain."
   }
 }

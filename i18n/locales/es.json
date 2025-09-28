@@ -295,5 +295,17 @@
       "title": "Cambios",
       "content": "Esta política de privacidad puede actualizarse de vez en cuando. Siempre puede encontrar la versión actual en esta página."
     }
+  },
+  "guide_gestoria": {
+    "title": "Gestoría",
+    "description": "Apoyo burocrático para tu emigración. Cómo encontrar la Gestoría adecuada y qué pueden hacer por ti."
+  },
+  "guide_apartment": {
+    "title": "Búsqueda de Apartamento",
+    "description": "Consejos y trucos para buscar apartamento en España. Desde la investigación hasta el contrato de alquiler - todo lo que necesitas saber."
+  },
+  "guide_banking": {
+    "title": "Banca",
+    "description": "Abrir una cuenta bancaria, configurar la banca online y manejar asuntos financieros en España."
   }
 }

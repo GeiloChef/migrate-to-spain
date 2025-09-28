@@ -1,99 +1,105 @@
 <template>
   <section>
     <div class="max-w-6xl mx-auto">
-      <div class="text-center mb-16">
+      <!-- Header -->
+      <div class="text-center mb-12">
         <h2 class="!text-4xl font-bold text-spain-navy mb-4">
-          {{ $t('guide.title') }}
+          Dein Guide zur Auswanderung
         </h2>
-        <p class="!text-xl text-spain-gray-dark max-w-3xl mx-auto">
-          {{ $t('guide.subtitle') }}
+        <p class="!text-xl text-spain-gray-dark max-w-3xl mx-auto mb-8">
+          Praktische Anleitungen und Tipps für deine Auswanderung nach Spanien
         </p>
+        
+        <!-- Search Input -->
+        <div class="max-w-md mx-auto">
+          <div class="relative">
+            <input 
+              type="text" 
+              placeholder="Suche nach Themen..." 
+              class="w-full px-4 py-3 pl-12 pr-4 bg-white border border-spain-yellow/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-spain-yellow/50 focus:border-spain-yellow/50 transition-all duration-300 shadow-sm"
+              v-model="searchQuery"
+            />
+            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <svg class="h-5 w-5 text-spain-gray-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+            </div>
+            <!-- Clear search button -->
+            <button 
+              v-if="searchQuery" 
+              @click="searchQuery = ''"
+              class="absolute inset-y-0 right-0 pr-4 flex items-center text-spain-gray-dark hover:text-spain-red transition-colors"
+            >
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <!-- Search results count -->
+          <div v-if="searchQuery" class="text-center mt-2">
+            <p class="text-sm text-spain-gray-dark">
+              {{ filteredArticles.length }} {{ filteredArticles.length === 1 ? 'Ergebnis' : 'Ergebnisse' }} für "{{ searchQuery }}"
+            </p>
+          </div>
+        </div>
       </div>
       
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Visa & Legal -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-spain-red transition-all duration-300 border border-spain-yellow/30 hover:border-spain-red/50">
-          <div class="w-16 h-16 bg-spain-red/10 rounded-2xl flex items-center justify-center mb-6">
-            <svg class="w-8 h-8 text-spain-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-            </svg>
-          </div>
-          <h3 class="!text-xl font-semibold text-spain-navy mb-3">{{ $t('guide.visa.title') }}</h3>
-          <p class="text-spain-gray-dark mb-4">{{ $t('guide.visa.description') }}</p>
-          <ul class="space-y-2 text-sm text-spain-gray-dark">
-            <li class="flex items-center">
-              <svg class="w-4 h-4 text-spain-yellow-dark mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              {{ $t('guide.visa.checklist1') }}
-            </li>
-            <li class="flex items-center">
-              <svg class="w-4 h-4 text-spain-yellow-dark mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              {{ $t('guide.visa.checklist2') }}
-            </li>
-          </ul>
-        </div>
+      <!-- Guide Cards -->
+      <div v-if="filteredArticles.length > 0" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <template v-for="article in filteredArticles" :key="article.id">
+          <!-- Available Article -->
+          <NuxtLink v-if="article.available" :to="article.route" class="group">
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-spain-yellow/30 hover:border-spain-red/50 group-hover:scale-105">
+              <div :class="`w-16 h-16 ${getIconBgClass(article.icon)} rounded-2xl flex items-center justify-center mb-6`">
+                <svg :class="`w-8 h-8 ${getIconColorClass(article.icon)}`" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getIconPath(article.id)"></path>
+                </svg>
+              </div>
+              <h3 class="!text-xl font-semibold text-spain-navy mb-3">{{ article.title }}</h3>
+              <p class="text-spain-gray-dark mb-4">{{ article.description }}</p>
+              <div :class="`flex items-center ${getIconColorClass(article.icon)} font-medium group-hover:opacity-80`">
+                <span>Mehr erfahren</span>
+                <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </div>
+            </div>
+          </NuxtLink>
 
-        <!-- Housing -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-spain-yellow transition-all duration-300 border border-spain-yellow/30 hover:border-spain-yellow/70">
-          <div class="w-16 h-16 bg-spain-yellow/10 rounded-2xl flex items-center justify-center mb-6">
-            <svg class="w-8 h-8 text-spain-yellow-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
-            </svg>
+          <!-- Coming Soon Article -->
+          <div v-else class="bg-white rounded-2xl p-8 shadow-lg border border-spain-yellow/30 opacity-75">
+            <div :class="`w-16 h-16 ${getIconBgClass(article.icon)} rounded-2xl flex items-center justify-center mb-6`">
+              <svg :class="`w-8 h-8 ${getIconColorClass(article.icon)}`" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getIconPath(article.id)"></path>
+              </svg>
+            </div>
+            <h3 class="!text-xl font-semibold text-spain-navy mb-3">{{ article.title }}</h3>
+            <p class="text-spain-gray-dark mb-4">{{ article.description }}</p>
+            <div class="flex items-center text-gray-400">
+              <span>Bald verfügbar</span>
+              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
           </div>
-          <h3 class="!text-xl font-semibold text-spain-navy mb-3">{{ $t('guide.housing.title') }}</h3>
-          <p class="text-spain-gray-dark mb-4">{{ $t('guide.housing.description') }}</p>
-          <ul class="space-y-2 text-sm text-spain-gray-dark">
-            <li class="flex items-center">
-              <svg class="w-4 h-4 text-spain-yellow-dark mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              {{ $t('guide.housing.checklist1') }}
-            </li>
-            <li class="flex items-center">
-              <svg class="w-4 h-4 text-spain-yellow-dark mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              {{ $t('guide.housing.checklist2') }}
-            </li>
-          </ul>
-        </div>
-
-        <!-- Daily Life -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-spain-red transition-all duration-300 border border-spain-yellow/30 hover:border-spain-red/50">
-          <div class="w-16 h-16 bg-spain-orange/10 rounded-2xl flex items-center justify-center mb-6">
-            <svg class="w-8 h-8 text-spain-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
-          </div>
-          <h3 class="!text-xl font-semibold text-spain-navy mb-3">{{ $t('guide.daily.title') }}</h3>
-          <p class="text-spain-gray-dark mb-4">{{ $t('guide.daily.description') }}</p>
-          <ul class="space-y-2 text-sm text-spain-gray-dark">
-            <li class="flex items-center">
-              <svg class="w-4 h-4 text-spain-yellow-dark mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              {{ $t('guide.daily.checklist1') }}
-            </li>
-            <li class="flex items-center">
-              <svg class="w-4 h-4 text-spain-yellow-dark mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-              </svg>
-              {{ $t('guide.daily.checklist2') }}
-            </li>
-          </ul>
-        </div>
+        </template>
       </div>
 
-      <!-- Call to Action -->
-      <div class="text-center mt-16">
-        <div class="bg-gradient-spain rounded-2xl p-8 shadow-spain-red border border-spain-yellow/50 max-w-2xl mx-auto">
-          <h3 class="!text-2xl font-bold text-white mb-4">{{ $t('guide.cta.title') }}</h3>
-          <p class="text-spain-cream mb-6">{{ $t('guide.cta.description') }}</p>
-          <button class="bg-white hover:bg-spain-cream text-spain-red font-semibold py-3 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
-            {{ $t('guide.cta.button') }}
+      <!-- No Results -->
+      <div v-else-if="searchQuery" class="text-center py-12">
+        <div class="max-w-md mx-auto">
+          <svg class="w-16 h-16 text-spain-gray-dark mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+          <h3 class="text-xl font-semibold text-spain-navy mb-2">Keine Ergebnisse gefunden</h3>
+          <p class="text-spain-gray-dark mb-4">
+            Für "{{ searchQuery }}" konnten keine passenden Artikel gefunden werden.
+          </p>
+          <button 
+            @click="searchQuery = ''"
+            class="text-spain-red hover:text-spain-red/80 font-medium transition-colors"
+          >
+            Suche zurücksetzen
           </button>
         </div>
       </div>
@@ -102,7 +108,49 @@
 </template>
 
 <script setup>
-// Component logic can be added here if needed
+import { ref } from 'vue'
+
+// Use the guide articles composable
+const { guideArticles, searchArticles } = useGuideArticles()
+
+// Search functionality
+const searchQuery = ref('')
+
+// Filter articles based on search query
+const filteredArticles = computed(() => {
+  return searchArticles(searchQuery.value)
+})
+
+// Helper functions for styling
+const getIconBgClass = (icon) => {
+  const classes = {
+    blue: 'bg-blue-100',
+    green: 'bg-green-100',
+    orange: 'bg-orange-100',
+    purple: 'bg-purple-100'
+  }
+  return classes[icon] || 'bg-gray-100'
+}
+
+const getIconColorClass = (icon) => {
+  const classes = {
+    blue: 'text-blue-600',
+    green: 'text-green-600',
+    orange: 'text-orange-600',
+    purple: 'text-purple-600'
+  }
+  return classes[icon] || 'text-gray-600'
+}
+
+const getIconPath = (id) => {
+  const paths = {
+    'nie-number': 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
+    'gestoria': 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4',
+    'apartment-search': 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6',
+    'banking': 'M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z'
+  }
+  return paths[id] || 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z'
+}
 </script>
 
 <style scoped>
