@@ -1,0 +1,82 @@
+{
+  "guide_nie": {
+    "title": "The NIE Number in Spain: Everything You Need to Know",
+    "description": "Complete guide to the NIE number - from application to usage",
+    "content": {
+      "what_is": {
+        "title": "What is the NIE?",
+        "description": "The NIE (Número de Identidad de Extranjero) is the identification number for foreigners in Spain. It is issued by the Spanish police and is unique – you keep it for life, even if you later no longer live in Spain.",
+        "note": "The NIE is not just an 'ID card', but the key to almost all official procedures in Spain."
+      },
+      "why_needed": {
+        "title": "Why do I need the NIE?",
+        "intro": "Without NIE, almost nothing works in Spain. The NIE is your personal key to all important areas of life in Spain. Whether you want to rent an apartment, open a bank account, or simply handle everyday matters - without this number, you won't get far. Here are the most important areas for which you need the NIE:",
+        "examples": {
+          "immobilien": "Real estate: Buying or renting an apartment, signing at the notary",
+          "finanzen": "Finance: Opening a bank account, applying for a mortgage, tax matters",
+          "arbeit": "Work: Signing employment contracts, registering as self-employed (\"autónomo\")",
+          "alltag": "Daily life: Buying or registering a car, signing electricity and water contracts, insurance",
+          "studium": "Study/Education: Enrolling at a university or technical school"
+        },
+        "conclusion": "In short: The NIE is your personal 'tax number' and identification in Spain."
+      },
+      "where_to_apply": {
+        "title": "Where do I apply for the NIE?",
+        "in_spain": {
+          "title": "1. In Spain on site",
+          "description": "You can apply for the NIE at the Policía Nacional – where there are immigration offices (Oficinas de Extranjería).",
+          "appointment": "Appointment necessary: In almost all regions you must book an appointment online (\"cita previa\"). Without an appointment you are rarely accepted.",
+          "documents": {
+            "title": "Documents:",
+            "items": {
+              "form": "Application form EX-15 (filled out and signed)",
+              "passport": "Valid passport or ID card (+ copy)",
+              "purpose": "Proof of why you need the NIE (e.g. purchase contract, job offer, rental contract)",
+              "payment": "Payment proof of the fee (Form Modelo 790, Código 012, approx. 9–12 €)"
+            }
+          },
+          "processing_time": "Processing time: Depending on the region, you can get the NIE immediately or have to wait a few days."
+        },
+        "consulate": {
+          "title": "2. At Spanish consulates abroad",
+          "description": "If you are not yet in Spain, you can also apply for the NIE at the Spanish consulate in your home country.",
+          "pros": "Advantage: You don't have to travel to Spain specifically.",
+          "cons": "Disadvantage: Processing time often longer (several weeks).",
+          "note": "Here too: EX-15 application + proof of the purpose of the NIE."
+        },
+        "power_of_attorney": {
+          "title": "3. Through a power of attorney (Gestoría or lawyer)",
+          "description": "Especially when buying real estate, it is common for a Gestoría or lawyer to apply for the NIE for you.",
+          "process": "You issue a power of attorney (poder notarial) that must be certified by a Spanish notary or through apostille.",
+          "pros": "Advantage: Saves you waiting time and visits to authorities.",
+          "cons": "Disadvantage: Costs (depending on the service provider between 100 € and 300 €)."
+        },
+        "online": {
+          "title": "4. Online application?",
+          "description": "Officially, there is no fully digital application for the NIE for foreigners outside Spain.",
+          "in_spain": "Within Spain, much runs through the portal for \"cita previa\", but the submission of documents is usually personal or through an authorized person.",
+          "warning": "Be careful with websites that promise \"NIE online in 48h\" → these are often paid service agencies."
+        }
+      },
+      "validity": {
+        "title": "Validity of the NIE",
+        "description": "The NIE itself does not expire – it remains valid for life.",
+        "note": "What often causes confusion: The paper document on which the NIE is written can be limited (e.g. 3 or 6 months). This does not mean that your number is gone – you can always get a new certificate with the same number."
+      },
+      "tips": {
+        "title": "Practical Tips",
+        "items": {
+          "early": "Apply early: If you know you need to arrange something in Spain (e.g. buy an apartment), take care of the NIE as early as possible.",
+          "appointments": "Appointments are rare: Especially in big cities like Madrid or Barcelona there are long waiting times. Also look in smaller places in the region – there you often get an appointment faster.",
+          "copies": "Copy documents multiple times: In Spain, authorities almost always want copies. Best to prepare 2–3 sets directly.",
+          "language": "Language: Many officials only speak Spanish. If you don't speak Spanish, take someone with you or use a Gestoría."
+        }
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "description": "The NIE is your key to Spanish life – without it, hardly anything works.",
+        "final_note": "Whether you want to buy, work or just do everyday things: get it as early as possible, preferably with support if you don't want to handle the bureaucracy alone."
+      }
+    }
+  }
+}
