@@ -48,7 +48,7 @@
       <div v-if="filteredArticles.length > 0" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <template v-for="article in filteredArticles" :key="article.id">
           <!-- Available Article -->
-          <NuxtLink v-if="article.available" :to="article.route" class="group">
+          <NuxtLink :to="article.route" class="group">
             <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-spain-yellow/30 hover:border-spain-red/50 group-hover:scale-105">
               <div :class="`w-16 h-16 ${getIconBgClass(article.icon)} rounded-2xl flex items-center justify-center mb-6`">
                 <svg :class="`w-8 h-8 ${getIconColorClass(article.icon)}`" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -65,23 +65,6 @@
               </div>
             </div>
           </NuxtLink>
-
-          <!-- Coming Soon Article -->
-          <div v-else class="bg-white rounded-2xl p-8 shadow-lg border border-spain-yellow/30 opacity-75">
-            <div :class="`w-16 h-16 ${getIconBgClass(article.icon)} rounded-2xl flex items-center justify-center mb-6`">
-              <svg :class="`w-8 h-8 ${getIconColorClass(article.icon)}`" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getIconPath(article.id)"></path>
-              </svg>
-            </div>
-            <h3 class="!text-xl font-semibold text-spain-navy mb-3">{{ article.title }}</h3>
-            <p class="text-spain-gray-dark mb-4">{{ article.description }}</p>
-            <div class="flex items-center text-gray-400">
-              <span>Bald verfügbar</span>
-              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-            </div>
-          </div>
         </template>
       </div>
 
@@ -111,14 +94,16 @@
 import { ref } from 'vue'
 
 // Use the guide articles composable
-const { guideArticles, searchArticles } = useGuideArticles()
+const { guideArticles, searchArticles, availableArticles } = useGuideArticles()
 
 // Search functionality
 const searchQuery = ref('')
 
-// Filter articles based on search query
+// Filter articles based on search query - only show available articles
 const filteredArticles = computed(() => {
-  return searchArticles(searchQuery.value)
+  const results = searchArticles(searchQuery.value)
+  // Only show available articles and limit to 3 on desktop
+  return results.filter(article => article.available).slice(0, 3)
 })
 
 // Helper functions for styling
