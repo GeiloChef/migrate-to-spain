@@ -17,6 +17,10 @@ export interface GuideArticle {
 export interface TranslatableGuideArticle extends GuideArticle {
   title: string
   description: string
+  translatedCategory: string
+  translatedDifficulty: string
+  translatedEstimatedTime: string
+  translatedTags: string[]
 }
 
 export const guideArticles: GuideArticle[] = [
@@ -25,9 +29,9 @@ export const guideArticles: GuideArticle[] = [
     titleKey: 'guide_nie.card.title',
     descriptionKey: 'guide_nie.card.description',
     category: 'bureaucracy',
-    tags: ['nie', 'bureaucracy', 'documents', 'identification', 'ausweis', 'nummer', 'beantragung', 'polizei', 'spanien'],
+    tags: ['nie', 'bureaucracy', 'documents', 'identification', 'id-card', 'number', 'application', 'police', 'spain'],
     difficulty: 'medium',
-    estimatedTime: '2-4 weeks',
+    estimatedTime: '2-4-weeks',
     route: '/guide/nie-number',
     icon: 'blue',
     priority: 1,
@@ -38,9 +42,9 @@ export const guideArticles: GuideArticle[] = [
     titleKey: 'guide_gestoria.card.title',
     descriptionKey: 'guide_gestoria.card.description',
     category: 'bureaucracy',
-    tags: ['gestoria', 'bureaucracy', 'help', 'lawyer', 'anwalt', 'hilfe', 'behörden', 'bürokratie', 'unterstützung'],
+    tags: ['gestoria', 'bureaucracy', 'help', 'lawyer', 'authorities', 'support'],
     difficulty: 'easy',
-    estimatedTime: '1-2 weeks',
+    estimatedTime: '1-2-weeks',
     route: '/guide/gestoria',
     icon: 'green',
     priority: 2,
@@ -51,9 +55,9 @@ export const guideArticles: GuideArticle[] = [
     titleKey: 'guide_apartment.title',
     descriptionKey: 'guide_apartment.description',
     category: 'housing',
-    tags: ['apartment', 'rent', 'housing', 'search', 'wohnung', 'miete', 'immobilien', 'suchen', 'idealista', 'makler'],
+    tags: ['apartment', 'rent', 'housing', 'search', 'real-estate', 'idealista', 'agent'],
     difficulty: 'medium',
-    estimatedTime: '1-3 months',
+    estimatedTime: '1-3-months',
     route: '/guide/apartment-search',
     icon: 'orange',
     priority: 3,
@@ -64,9 +68,9 @@ export const guideArticles: GuideArticle[] = [
     titleKey: 'guide_banking.title',
     descriptionKey: 'guide_banking.description',
     category: 'finance',
-    tags: ['bank', 'account', 'finance', 'money', 'konto', 'banking', 'geld', 'finanzen', 'online-banking', 'kreditkarte'],
+    tags: ['bank', 'account', 'finance', 'money', 'banking', 'online-banking', 'credit-card'],
     difficulty: 'easy',
-    estimatedTime: '1-2 weeks',
+    estimatedTime: '1-2-weeks',
     route: '/guide/banking',
     icon: 'purple',
     priority: 4,
@@ -77,11 +81,43 @@ export const guideArticles: GuideArticle[] = [
 export const useGuideArticles = () => {
   const { t } = useI18n()
 
+  // Helper function to translate estimated time dynamically
+  const translateEstimatedTime = (estimatedTime: string): string => {
+    // Parse the estimated time format (e.g., "2-4-weeks", "1-3-months", "6-plus-months")
+    const parts = estimatedTime.split('-')
+    
+    if (parts.length === 3) {
+      // Format: "2-4-weeks" or "1-3-months"
+      const [min, max, unit] = parts
+      const unitKey = unit === 'weeks' ? 'weeks' : 'months'
+      return t('guide_common.estimated-time.range', {
+        min,
+        max,
+        unit: t(`guide_common.estimated-time.${unitKey}`)
+      })
+    } else if (parts.length === 2 && parts[1] === 'plus') {
+      // Format: "6-plus-months"
+      const [min, , unit] = parts
+      const unitKey = unit === 'weeks' ? 'weeks' : 'months'
+      return t('guide_common.estimated-time.range-plus', {
+        min,
+        unit: t(`guide_common.estimated-time.${unitKey}`)
+      })
+    }
+    
+    // Fallback to original value if format doesn't match
+    return estimatedTime
+  }
+
   const getTranslatedArticles = computed((): TranslatableGuideArticle[] => {
     return guideArticles.map(article => ({
       ...article,
       title: t(article.titleKey),
-      description: t(article.descriptionKey)
+      description: t(article.descriptionKey),
+      translatedCategory: t(`guide_common.categories.${article.category}`),
+      translatedDifficulty: t(`guide_common.difficulty.${article.difficulty}`),
+      translatedEstimatedTime: translateEstimatedTime(article.estimatedTime),
+      translatedTags: article.tags.map(tag => t(`guide_common.tags.${tag}`))
     }))
   })
 
@@ -91,8 +127,8 @@ export const useGuideArticles = () => {
       keys: [
         { name: 'title', weight: 0.4 },
         { name: 'description', weight: 0.3 },
-        { name: 'tags', weight: 0.2 },
-        { name: 'category', weight: 0.1 }
+        { name: 'translatedTags', weight: 0.2 },
+        { name: 'translatedCategory', weight: 0.1 }
       ],
       threshold: 0.4, // 0.0 = perfect match, 1.0 = match anything
       includeScore: true,
@@ -108,6 +144,10 @@ export const useGuideArticles = () => {
 
   const getArticlesByCategory = (category: string) => {
     return getTranslatedArticles.value.filter(article => article.category === category)
+  }
+
+  const getArticlesByTranslatedCategory = (translatedCategory: string) => {
+    return getTranslatedArticles.value.filter(article => article.translatedCategory === translatedCategory)
   }
 
   const searchArticles = (query: string): TranslatableGuideArticle[] => {
@@ -150,6 +190,7 @@ export const useGuideArticles = () => {
     guideArticles: getTranslatedArticles,
     availableArticles: getAvailableArticles,
     getArticlesByCategory,
+    getArticlesByTranslatedCategory,
     searchArticles,
     searchArticlesAdvanced,
     getArticleById

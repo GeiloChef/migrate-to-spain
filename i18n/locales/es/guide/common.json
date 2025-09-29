@@ -1,0 +1,54 @@
+{
+  "categories": {
+    "bureaucracy": "Burocracia",
+    "housing": "Vivienda",
+    "finance": "Finanzas",
+    "legal": "Legal",
+    "healthcare": "Salud",
+    "education": "Educación",
+    "transport": "Transporte",
+    "lifestyle": "Estilo de vida"
+  },
+  "difficulty": {
+    "easy": "Fácil",
+    "medium": "Medio",
+    "hard": "Difícil"
+  },
+  "estimated-time": {
+    "weeks": "semanas",
+    "months": "meses",
+    "plus": "+",
+    "range": "{min}-{max} {unit}",
+    "range-plus": "{min}+ {unit}"
+  },
+  "tags": {
+    "nie": "NIE",
+    "bureaucracy": "Burocracia",
+    "documents": "Documentos",
+    "identification": "Identificación",
+    "id-card": "Carné de identidad",
+    "number": "Número",
+    "application": "Solicitud",
+    "police": "Policía",
+    "spain": "España",
+    "gestoria": "Gestoría",
+    "help": "Ayuda",
+    "lawyer": "Abogado",
+    "authorities": "Autoridades",
+    "support": "Apoyo",
+    "apartment": "Apartamento",
+    "rent": "Alquiler",
+    "housing": "Vivienda",
+    "search": "Búsqueda",
+    "real-estate": "Inmobiliaria",
+    "idealista": "Idealista",
+    "agent": "Agente",
+    "bank": "Banco",
+    "account": "Cuenta",
+    "finance": "Finanzas",
+    "money": "Dinero",
+    "banking": "Banca",
+    "online-banking": "Banca online",
+    "credit-card": "Tarjeta de crédito"
+  }
+}
