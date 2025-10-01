@@ -52,11 +52,12 @@
         </div>
         <div class="grid md:grid-cols-2 gap-4">
           <div v-for="(item, index) in tableOfContents" :key="index" 
-               class="flex items-center space-x-3 p-3 bg-white rounded-lg hover:bg-gray-50 transition-colors">
-            <span class="flex-shrink-0 w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold">
+               @click="() => scrollToSection(item)"
+               class="flex items-center space-x-3 p-3 bg-white rounded-lg hover:bg-gray-50 transition-colors cursor-pointer hover:shadow-md group">
+            <span class="flex-shrink-0 w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold group-hover:bg-blue-600 transition-colors">
               {{ index + 1 }}
             </span>
-            <span class="text-gray-700 font-medium">{{ $t(`guide_apartment.content.table_of_contents.items.${item}`) }}</span>
+            <span class="text-gray-700 font-medium group-hover:text-blue-600 transition-colors">{{ $t('guide_apartment.content.table_of_contents.items.' + item) }}</span>
           </div>
         </div>
       </div>
@@ -64,7 +65,7 @@
       <!-- Main Content -->
       <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
         <!-- Overview -->
-        <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div id="overview" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-6">
               <div class="flex-shrink-0 w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center">
@@ -91,16 +92,24 @@
                 <p class="text-gray-700 leading-relaxed">{{ $t(`guide_apartment.content.overview.approaches.${approach}.description`) }}</p>
               </div>
             </div>
-            <div class="mt-6 p-4 bg-amber-50 rounded-lg border-l-4 border-amber-400">
-              <p class="text-amber-800 font-semibold">
-                {{ $t('guide_apartment.content.overview.tip') }}
-              </p>
+            <div class="mt-6 p-6 bg-gradient-to-r from-amber-50 to-yellow-50 rounded-xl border border-amber-200 shadow-sm relative">
+              <div class="absolute top-4 right-4 w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                </svg>
+              </div>
+              <div class="pr-12">
+                <h4 class="text-lg font-bold text-amber-800 mb-2">Pro-Tipp</h4>
+                <p class="text-amber-700 leading-relaxed">
+                  {{ $t('guide_apartment.content.overview.tip') }}
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <!-- Regional Differences -->
-        <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div id="regional_differences" class="bg-gradient-to-br from-gray-50 to-blue-50/30">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center">
@@ -148,7 +157,7 @@
         </div>
 
         <!-- Online Platforms -->
-        <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div id="online_platforms" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-indigo-500 rounded-xl flex items-center justify-center">
@@ -183,7 +192,7 @@
                     <div v-for="(keyword, index) in keywords" :key="index" 
                          class="flex items-center space-x-2">
                       <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
-                      <span class="text-gray-700">{{ $t(`guide_apartment.content.online_platforms.filter_tips.keywords.items.${keyword}`) }}</span>
+                      <span class="text-gray-700">{{ $t('guide_apartment.content.online_platforms.filter_tips.keywords.items.' + keyword) }}</span>
                     </div>
                   </div>
                 </div>
@@ -200,7 +209,7 @@
         </div>
 
         <!-- Local Methods -->
-        <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div id="local_methods" class="bg-gradient-to-br from-gray-50 to-blue-50/30">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center">
@@ -227,7 +236,7 @@
                   <h4 class="font-semibold text-gray-800 mb-2">{{ $t('guide_apartment.content.local_methods.methods.real_estate_agents.tips.title') }}</h4>
                   <ul class="list-disc list-inside space-y-1 text-gray-700 text-sm">
                     <li v-for="(tip, tipIndex) in realEstateTips" :key="tipIndex">
-                      {{ $t(`guide_apartment.content.local_methods.methods.real_estate_agents.tips.items.${tip}`) }}
+                      {{ $t('guide_apartment.content.local_methods.methods.real_estate_agents.tips.items.' + tip) }}
                     </li>
                   </ul>
                 </div>
@@ -237,7 +246,7 @@
         </div>
 
         <!-- Reading Listings -->
-        <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div id="reading_listings" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-amber-500 rounded-xl flex items-center justify-center">
@@ -259,7 +268,7 @@
                     <div class="flex-shrink-0 w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold">
                       {{ index + 1 }}
                     </div>
-                    <span class="text-gray-700">{{ $t(`guide_apartment.content.reading_listings.checklist.items.${item}`) }}</span>
+                    <span class="text-gray-700">{{ $t('guide_apartment.content.reading_listings.checklist.items.' + item) }}</span>
                   </div>
                 </div>
               </div>
@@ -270,7 +279,7 @@
                 <div class="space-y-2">
                   <div v-for="(criteria, index) in scoringCriteria" :key="index" 
                        class="flex items-center justify-between p-2 bg-gray-50 rounded">
-                    <span class="text-gray-700">{{ $t(`guide_apartment.content.reading_listings.scoring.criteria.${criteria}`) }}</span>
+                    <span class="text-gray-700">{{ $t('guide_apartment.content.reading_listings.scoring.criteria.' + criteria) }}</span>
                     <div class="flex space-x-1">
                       <div v-for="i in 5" :key="i" 
                            class="w-4 h-4 rounded-full border-2 border-gray-300"></div>
@@ -283,7 +292,7 @@
         </div>
 
         <!-- Viewing Checklist -->
-        <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div id="viewing_checklist" class="bg-gradient-to-br from-gray-50 to-blue-50/30">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-red-500 rounded-xl flex items-center justify-center">
@@ -308,7 +317,7 @@
                   <div v-for="(item, itemIndex) in viewingChecklist[phase]" :key="itemIndex" 
                        class="flex items-start space-x-2">
                     <div class="flex-shrink-0 w-2 h-2 bg-red-500 rounded-full mt-2"></div>
-                    <span class="text-gray-700 text-sm">{{ $t(`guide_apartment.content.viewing_checklist.phases.${phase}.items.${item}`) }}</span>
+                    <span class="text-gray-700 text-sm">{{ $t('guide_apartment.content.viewing_checklist.phases.' + phase + '.items.' + item) }}</span>
                   </div>
                 </div>
               </div>
@@ -317,7 +326,7 @@
         </div>
 
         <!-- Search Dossier -->
-        <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div id="search_dossier" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-indigo-500 rounded-xl flex items-center justify-center">
@@ -339,7 +348,7 @@
                     <div class="flex-shrink-0 w-6 h-6 bg-indigo-500 text-white rounded-full flex items-center justify-center text-xs font-bold">
                       {{ index + 1 }}
                     </div>
-                    <span class="text-gray-700">{{ $t(`guide_apartment.content.search_dossier.documents.items.${doc}`) }}</span>
+                    <span class="text-gray-700">{{ $t('guide_apartment.content.search_dossier.documents.items.' + doc) }}</span>
                   </div>
                 </div>
               </div>
@@ -355,7 +364,7 @@
         </div>
 
         <!-- Red Flags -->
-        <div class="bg-gradient-to-br from-gray-50 to-red-50/30">
+        <div id="red_flags" class="bg-gradient-to-br from-gray-50 to-red-50/30">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-red-500 rounded-xl flex items-center justify-center">
@@ -392,7 +401,7 @@
         </div>
 
         <!-- Budget Planning -->
-        <div class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
+        <div id="budget_planning" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center">
@@ -411,7 +420,7 @@
                 <div class="space-y-3">
                   <div v-for="(cost, index) in costCategories" :key="index" 
                        class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200">
-                    <span class="text-gray-700">{{ $t(`guide_apartment.content.budget_planning.costs.items.${cost}`) }}</span>
+                    <span class="text-gray-700">{{ $t('guide_apartment.content.budget_planning.costs.items.' + cost) }}</span>
                     <div class="w-2 h-2 bg-green-500 rounded-full"></div>
                   </div>
                 </div>
@@ -424,7 +433,7 @@
                   <div class="grid grid-cols-2 gap-2 text-xs">
                     <div v-for="(field, index) in spreadsheetFields" :key="index" 
                          class="p-2 bg-white rounded border border-gray-200 text-center">
-                      {{ $t(`guide_apartment.content.budget_planning.spreadsheet.fields.${field}`) }}
+                      {{ $t('guide_apartment.content.budget_planning.spreadsheet.fields.' + field) }}
                     </div>
                   </div>
                 </div>
@@ -434,7 +443,7 @@
         </div>
 
         <!-- Glossary -->
-        <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
+        <div id="glossary" class="bg-gradient-to-br from-gray-50 to-blue-50/30">
           <div class="px-4 py-8 md:px-6 md:py-16">
             <div class="flex items-start space-x-4 mb-8">
               <div class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
@@ -488,7 +497,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 // Arrays for v-for loops
 const tableOfContents = [
   'overview',
@@ -671,6 +680,25 @@ const glossaryTerms = [
   'community',
   'energy_certificate'
 ]
+
+// Scroll to section function
+const scrollToSection = (sectionId: string) => {
+  console.log('Scrolling to section:', sectionId) // Debug log
+  const element = document.getElementById(sectionId)
+  console.log('Element found:', element) // Debug log
+  if (element) {
+    // Add a small offset to account for any fixed headers
+    const offset = 80
+    const elementPosition = element.offsetTop - offset
+    
+    window.scrollTo({
+      top: elementPosition,
+      behavior: 'smooth'
+    })
+  } else {
+    console.error('Element not found:', sectionId)
+  }
+}
 
 // SEO
 useHead({

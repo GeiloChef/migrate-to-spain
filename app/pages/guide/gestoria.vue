@@ -130,11 +130,13 @@
                 <span class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">1</span>
                 {{ $t('guide_gestoria.content.services.foreigners.title') }}
               </h3>
-              <ul class="list-disc list-inside space-y-2 mb-4 text-lg text-gray-700">
-                <li v-for="(service, index) in foreignerServices" :key="index">
-                  {{ $t(`guide_gestoria.content.services.foreigners.items.${service}`) }}
-                </li>
-              </ul>
+              <div class="grid gap-3 mb-4">
+                <div v-for="(service, index) in foreignerServices" :key="index" 
+                     class="flex items-start space-x-3 p-3 bg-white rounded-lg border border-blue-100 hover:shadow-sm transition-shadow">
+                  <div class="flex-shrink-0 w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                  <span class="text-gray-700">{{ $t(`guide_gestoria.content.services.foreigners.items.${service}`) }}</span>
+                </div>
+              </div>
             </div>
 
             <!-- Work, Taxes & Social Security -->
@@ -143,11 +145,13 @@
                 <span class="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">2</span>
                 {{ $t('guide_gestoria.content.services.work.title') }}
               </h3>
-              <ul class="list-disc list-inside space-y-2 mb-4 text-lg text-gray-700">
-                <li v-for="(service, index) in workServices" :key="index">
-                  {{ $t(`guide_gestoria.content.services.work.items.${service}`) }}
-                </li>
-              </ul>
+              <div class="grid gap-3 mb-4">
+                <div v-for="(service, index) in workServices" :key="index" 
+                     class="flex items-start space-x-3 p-3 bg-white rounded-lg border border-green-100 hover:shadow-sm transition-shadow">
+                  <div class="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span class="text-gray-700">{{ $t(`guide_gestoria.content.services.work.items.${service}`) }}</span>
+                </div>
+              </div>
             </div>
 
             <!-- Real Estate & Vehicles -->
@@ -156,11 +160,13 @@
                 <span class="w-8 h-8 bg-purple-500 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">3</span>
                 {{ $t('guide_gestoria.content.services.real_estate.title') }}
               </h3>
-              <ul class="list-disc list-inside space-y-2 mb-4 text-lg text-gray-700">
-                <li v-for="(service, index) in realEstateServices" :key="index">
-                  {{ $t(`guide_gestoria.content.services.real_estate.items.${service}`) }}
-                </li>
-              </ul>
+              <div class="grid gap-3 mb-4">
+                <div v-for="(service, index) in realEstateServices" :key="index" 
+                     class="flex items-start space-x-3 p-3 bg-white rounded-lg border border-purple-100 hover:shadow-sm transition-shadow">
+                  <div class="flex-shrink-0 w-2 h-2 bg-purple-500 rounded-full mt-2"></div>
+                  <span class="text-gray-700">{{ $t(`guide_gestoria.content.services.real_estate.items.${service}`) }}</span>
+                </div>
+              </div>
               <p class="text-lg text-gray-700 leading-relaxed">
                 <strong>{{ $t('guide_gestoria.content.services.real_estate.tip') }}</strong>
               </p>
@@ -293,11 +299,13 @@
               <h3 class="text-xl font-bold text-gray-800 mb-4">
                 {{ $t('guide_gestoria.content.quality.good.title') }}
               </h3>
-              <ul class="list-disc list-inside space-y-2 mb-4 text-lg text-gray-700">
-                <li v-for="(indicator, index) in goodIndicators" :key="index">
-                  {{ $t(`guide_gestoria.content.quality.good.items.${indicator}`) }}
-                </li>
-              </ul>
+              <div class="grid gap-3 mb-4">
+                <div v-for="(indicator, index) in goodIndicators" :key="index" 
+                     class="flex items-start space-x-3 p-3 bg-white rounded-lg border border-green-100 hover:shadow-sm transition-shadow">
+                  <div class="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span class="text-gray-700">{{ $t(`guide_gestoria.content.quality.good.items.${indicator}`) }}</span>
+                </div>
+              </div>
             </div>
 
             <!-- Red flags -->
@@ -305,11 +313,13 @@
               <h3 class="text-xl font-bold text-gray-800 mb-4">
                 {{ $t('guide_gestoria.content.quality.red_flags.title') }}
               </h3>
-              <ul class="list-disc list-inside space-y-2 mb-4 text-lg text-gray-700">
-                <li v-for="(flag, index) in redFlags" :key="index">
-                  {{ $t(`guide_gestoria.content.quality.red_flags.items.${flag}`) }}
-                </li>
-              </ul>
+              <div class="grid gap-3 mb-4">
+                <div v-for="(flag, index) in redFlags" :key="index" 
+                     class="flex items-start space-x-3 p-3 bg-white rounded-lg border border-red-100 hover:shadow-sm transition-shadow">
+                  <div class="flex-shrink-0 w-2 h-2 bg-red-500 rounded-full mt-2"></div>
+                  <span class="text-gray-700">{{ $t(`guide_gestoria.content.quality.red_flags.items.${flag}`) }}</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
