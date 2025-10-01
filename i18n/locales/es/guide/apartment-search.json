@@ -1,0 +1,390 @@
+{
+  "guide_apartment": {
+    "title": "Encontrar Inmueble en España",
+    "description": "Dónde y cómo buscar mejor – online, offline, con sistema. Más muchos consejos prácticos, listas de verificación y banderas rojas.",
+    "card": {
+      "title": "Encontrar Inmueble en España",
+      "description": "Guía completa para buscar inmuebles: portales online, métodos locales, consejos de visita y banderas rojas"
+    },
+    "hero": {
+      "title": "Encontrar Inmueble en España (Guía General)",
+      "description": "Dónde y cómo buscar mejor – online, offline, con sistema. Más muchos consejos prácticos, listas de verificación y banderas rojas."
+    },
+    "content": {
+      "table_of_contents": {
+        "title": "Tabla de Contenidos",
+        "items": {
+          "overview": "Resumen: ¿Dónde y cómo buscar?",
+          "regional_differences": "Ciudad, Campo, Costa, Isla – Diferencias",
+          "online_platforms": "Plataformas Online – Usar Efectivamente",
+          "local_methods": "Métodos Locales – A Menudo Subestimados",
+          "reading_listings": "Leer Anuncios Correctamente",
+          "viewing_checklist": "Visita: Qué Verificar",
+          "search_dossier": "Tu Dossier de Búsqueda",
+          "red_flags": "Banderas Rojas y Estafas",
+          "budget_planning": "Planificación de Presupuesto y Costos Adicionales",
+          "glossary": "Mini Glosario"
+        }
+      },
+      "overview": {
+        "title": "Resumen: ¿Dónde y cómo buscar?",
+        "description": "Tres enfoques que debes combinar",
+        "approaches": {
+          "online_portals": {
+            "title": "Portales Online",
+            "description": "Rápido, filtrable, alertas posibles"
+          },
+          "real_estate_agents": {
+            "title": "Agentes Inmobiliarios (Inmobiliarias)",
+            "description": "Conocen el mercado local, a menudo obtienen propiedades antes de que aparezcan online"
+          },
+          "private_networks": {
+            "title": "Redes Privadas y Locales",
+            "description": "Tablones de anuncios, bares, vecindario, Facebook/WhatsApp. Aquí aparecen perlas que nunca van online"
+          }
+        },
+        "tip": "Consejo profesional: Trata la búsqueda como un proyecto: Crea una lista/hoja, configura notificaciones y reserva horarios fijos por día."
+      },
+      "regional_differences": {
+        "title": "Ciudad, Campo, Costa, Isla – Diferencias y Lógica de Precios",
+        "regions": {
+          "big_cities": {
+            "title": "Grandes Ciudades (Madrid, Barcelona, Valencia, Málaga)",
+            "description": "Caro y rotación rápida. Las buenas propiedades se van en horas → Llama inmediatamente, no solo escribas.",
+            "pros": "A menudo apartamentos más pequeños, pero infraestructura top (metro, escuelas, médicos)",
+            "cons": "Caro y rotación rápida. Las buenas propiedades se van en horas"
+          },
+          "medium_cities": {
+            "title": "Ciudades Medianas/Pequeñas (ej. Murcia, Zaragoza, Valladolid)",
+            "description": "Precio/rendimiento a menudo significativamente mejor. Apartamentos más grandes, menos presión, margen de negociación más amigable.",
+            "pros": "Apartamentos más grandes, menos presión, margen de negociación más amigable",
+            "cons": "El coche más útil que en las metrópolis"
+          },
+          "coast": {
+            "title": "Costa (Costa del Sol, Costa Blanca, Costa Brava, etc.)",
+            "description": "Influenciado estacionalmente: Verano = turístico y más caro, Invierno = más ofertas a largo plazo.",
+            "pros": "En ubicaciones top muchos apartamentos amueblados (orientados a expatriados/vacaciones)",
+            "cons": "Cuidado con la contaminación acústica (paseo marítimo, bares) y humedad/aire salino"
+          },
+          "islands": {
+            "title": "Islas (Baleares, Canarias)",
+            "description": "Mayor demanda con oferta limitada; alquileres anuales difíciles en puntos calientes turísticos.",
+            "pros": "Mayor demanda con oferta limitada",
+            "cons": "Alquileres anuales difíciles en puntos calientes turísticos. Verifica transporte/logística y conexión IT"
+          }
+        },
+        "pros": "Ventajas",
+        "cons": "Desventajas",
+        "note": "Recuerda: Precio ≠ solo ubicación. Estado, calefacción/aire acondicionado, aislamiento, ascensor, garaje, costos de comunidad e infraestructura son factores de precio reales."
+      },
+      "online_platforms": {
+        "title": "Plataformas Online – Usar Efectivamente",
+        "major_portals": {
+          "title": "Portales Principales (Empezar con 2–3)",
+          "portals": {
+            "idealista": {
+              "name": "Idealista",
+              "description": "El líder del mercado, filtros muy buenos, muchas fotos/planos"
+            },
+            "fotocasa": {
+              "name": "Fotocasa",
+              "description": "Similarmente grande; a veces ofertas diferentes"
+            },
+            "habitaclia": {
+              "name": "Habitaclia",
+              "description": "Fuerte en Cataluña/Levante"
+            },
+            "pisos": {
+              "name": "Pisos.com",
+              "description": "Verificar como suplemento"
+            },
+            "yaencontre": {
+              "name": "Yaencontre",
+              "description": "Verificar como suplemento"
+            },
+            "tucasa": {
+              "name": "Tucasa",
+              "description": "Verificar como suplemento"
+            },
+            "milanuncios": {
+              "name": "Milanuncios",
+              "description": "Estilo de anuncios clasificados, más privado"
+            },
+            "badi": {
+              "name": "Badi",
+              "description": "Habitaciones/pisos compartidos"
+            },
+            "spotahome": {
+              "name": "Spotahome",
+              "description": "Alquiler a medio plazo (3–12 meses), a menudo más caro, pero rápido"
+            },
+            "housing_anywhere": {
+              "name": "HousingAnywhere",
+              "description": "Alquiler a medio plazo (3–12 meses), a menudo más caro, pero rápido"
+            }
+          }
+        },
+        "filter_tips": {
+          "title": "Filtros y Trucos de Palabras Clave",
+          "keywords": {
+            "title": "Palabras Clave (Español):",
+            "items": {
+              "long_term": "\"larga temporada\" / \"alquiler de larga duración\" (largo plazo)",
+              "utilities_included": "\"gastos incluidos\" (gastos incluidos)",
+              "no_commission": "\"sin comisión\" (sin comisión de agente – raro, pero oro)",
+              "furnished": "\"amueblado\" / \"sin amueblar\" (amueblado / sin amueblar)",
+              "unfurnished": "\"aire acondicionado\", \"calefacción\", \"plaza de garaje\", \"trastero\"",
+              "air_conditioning": "Calefacción/Refrigeración: En el sur de España a menudo no hay calefacción central → ¡el invierno puede ser frío!",
+              "heating": "\"Gastos incluidos\": ¿Cuáles exactamente? (agua/internet/comunidad/basura?) La electricidad suele ser extra.",
+              "garage": "Estado de muebles/electrodomésticos (lavadora, horno, nevera – edad, marca, clase energética).",
+              "storage": "Fotos vs. realidad: Gran angular, filtros, \"planta baja\" (planta baja) = a menudo oscuro/nivel de calle."
+            }
+          },
+          "notifications": {
+            "title": "Notificaciones",
+            "description": "Configura notificaciones con rango de precio/ubicación ajustado y otro con rango más amplio (para gangas).",
+            "tip": "Ordena anuncios nuevos primero; sigue objetos favoritos inmediatamente por teléfono."
+          }
+        }
+      },
+      "local_methods": {
+        "title": "Métodos Locales – A Menudo Subestimados, A Menudo Más Efectivos",
+        "methods": {
+          "real_estate_agents": {
+            "title": "Oficinas Inmobiliarias Locales (Inmobiliarias)",
+            "description": "Ve físicamente, preséntate brevemente, da una descripción de búsqueda de 1 página.",
+            "tips": {
+              "title": "Consejos:",
+              "items": {
+                "visit_offices": "Pregunta por propiedades internas que aún no están online",
+                "search_description": "Hazte añadir a listas de WhatsApp (muchos agentes envían nuevas propiedades allí primero)",
+                "internal_listings": "Pregunta por propiedades internas que aún no están online",
+                "whatsapp_lists": "Hazte añadir a listas de WhatsApp (muchos agentes envían nuevas propiedades allí primero)"
+              }
+            }
+          },
+          "neighborhood_bars": {
+            "title": "Vecindario y Bares",
+            "description": "El boca a boca es fuerte en España. Pregunta amablemente en el barrio, con porteros, en cafés."
+          },
+          "facebook_whatsapp": {
+            "title": "Grupos de Facebook y WhatsApp",
+            "description": "Busca \"alquiler [ciudad/distrito]\", \"expats [ciudad]\", \"alquiler larga temporada\". Cuidado con el fraude, pero genial para tiros rápidos."
+          }
+        }
+      },
+      "reading_listings": {
+        "title": "Leer Anuncios Correctamente: ¿Qué es Importante?",
+        "checklist": {
+          "title": "Lista de Verificación para el Anuncio",
+          "items": {
+            "address_location": "¿Dirección/ubicación específica? (no solo \"céntrico\") → Verificar Google Maps",
+            "floor_plan_sqm": "¿Plano y m² realistas? (fotos vs. m² vs. número de habitaciones)",
+            "orientation": "Orientación (orientación): Sur/Oeste = brillante/caliente; Norte = más fresco (¡en Andalucía a menudo agradable!)",
+            "floor_elevator": "Planta y ascensor (ascensor)",
+            "heating_cooling": "Calefacción/Refrigeración: En el sur de España a menudo no hay calefacción central → ¡el invierno puede ser frío!",
+            "utilities_included": "\"Gastos incluidos\": ¿Cuáles exactamente? (agua/internet/comunidad/basura?) La electricidad suele ser extra.",
+            "furniture_condition": "Estado de muebles/electrodomésticos (lavadora, horno, nevera – edad, marca, clase energética)",
+            "photos_vs_reality": "Fotos vs. realidad: Gran angular, filtros, \"planta baja\" (planta baja) = a menudo oscuro/nivel de calle",
+            "energy_certificate": "Certificado energético (CEE): ¿Letra presente? Valores extremadamente malos = facturas de electricidad altas",
+            "duration_notes": "Duración/notas: \"Temporada escolar\", \"septiembre–junio\" (estudiante), \"no mascotas\" (sin mascotas), \"nómina\" (prueba de salario)"
+          }
+        },
+        "scoring": {
+          "title": "Mini-Puntuación (para tu hoja)",
+          "description": "Califica cada uno 1–5:",
+          "criteria": {
+            "location": "Ubicación",
+            "noise": "Ruido",
+            "light": "Luz",
+            "condition": "Estado",
+            "costs": "Estructura de costos",
+            "home_office": "Adecuación futura (oficina en casa/escuelas/estacionamiento)"
+          }
+        }
+      },
+      "viewing_checklist": {
+        "title": "Visita: Lo que Siempre Debes Verificar",
+        "phases": {
+          "before_visit": {
+            "title": "Antes de la Cita",
+            "items": {
+              "qualify_phone": "Pre-calificación por teléfono: duración, depósito, \"gastos\", documentos, fecha de mudanza",
+              "test_commute": "Probar desplazamiento en tu hora típica (hora pico/ruido)",
+              "prepare_questions": "Preparar preguntas"
+            }
+          },
+          "during_visit": {
+            "title": "En el Lugar – Verificación Rápida",
+            "items": {
+              "smell_humidity": "Olor y humedad (rastros de moho en esquinas exteriores/techo, detrás de armarios)",
+              "windows_insulation": "Ventanas y aislamiento (¿doble acristalamiento? ¿Filtraciones? ¿Persianas?)",
+              "water_pressure": "Agua (presión, preparación de agua caliente – calentador de gas/eléctrico, edad)",
+              "electricity_outlets": "Electricidad (número de enchufes; ¿caja de fusibles moderna?)",
+              "kitchen_bathroom": "Cocina/baño (juntas de silicona, olores de desagüe, ventilación)",
+              "air_conditioning": "Aire acondicionado (función fría/caliente, estado de mantenimiento, sonidos de goteo)",
+              "noise_level": "Nivel de ruido (ventanas abiertas/cerradas, cambiar hora del día, ¿vecinos/bar/escuela?)",
+              "community": "Comunidad: escalera/buzones/gestión → el estado de mantenimiento dice mucho",
+              "mobile_internet": "Móvil/Internet: probar recepción 4G/5G; verificar cobertura de proveedor (importante para oficina en casa)",
+              "sunlight": "Exposición solar: brevemente durante el día + tarde (calor de verano/luz de invierno)"
+            }
+          },
+          "after_visit": {
+            "title": "Después de la Cita",
+            "items": {
+              "clarify_questions": "Aclarar preguntas: ¿reparaciones antes de mudarse? ¿Quién paga qué? Crear protocolo/fotos",
+              "request_documents": "Solicitar documentos: borrador de contrato, resumen de costos, posiblemente costos de comunidad",
+              "make_decision": "Tomar decisión rápidamente si encaja – los buenos apartamentos no esperan"
+            }
+          }
+        }
+      },
+      "search_dossier": {
+        "title": "Tu Dossier de Búsqueda (te hace creíble y rápido)",
+        "documents": {
+          "title": "Tener listo (PDF/escaneo, limpiamente nombrado):",
+          "items": {
+            "id_passport": "DNI/pasaporte, NIE (si disponible)",
+            "nie": "Prueba de ingresos (nóminas/contrato de trabajo, autónomos: declaraciones de impuestos/estados de cuenta bancarios)",
+            "income_proof": "Carta de presentación breve (quién eres, duración, no fumador/mascotas, ¿trabajador remoto?)",
+            "cover_letter": "Referencias (opcional, ej. del arrendador anterior)",
+            "references": "Prueba de liquidez (si nuevo en el país: estado de cuenta bancario ahorra discusiones sobre avalistas/depósito adicional)",
+            "liquidity_proof": "Mini-plantilla española (mensaje a agente/arrendador)"
+          }
+        },
+        "spanish_template": {
+          "title": "Mini-Plantilla Española (mensaje a agente/arrendador):",
+          "text": "Hola, somos [Nombres], buscamos alquiler de larga temporada a partir de [Fecha]. Presupuesto [€], mínimo [m²]/[habitaciones]. Tenemos ingresos estables y podemos enviar documentación. ¿Se puede visitar [fecha/hora]? Muchas gracias."
+        }
+      },
+      "red_flags": {
+        "title": "Banderas Rojas y Estafas (por favor toma en serio)",
+        "flags": {
+          "owner_abroad": {
+            "title": "\"Propietario en el extranjero, llaves por correo\"",
+            "description": "Estafa clásica"
+          },
+          "advance_payment": {
+            "title": "Pago anticipado sin contrato/recibo",
+            "description": "Nunca pagues"
+          },
+          "unclear_costs": {
+            "title": "Costos poco claros",
+            "description": "\"gastos incluidos\" sin listado – pregunta"
+          },
+          "pressure_hurry": {
+            "title": "Presión y prisa",
+            "description": "\"Decide hoy, si no se va\" – normal en puntos calientes, pero: sin pago sin documentos"
+          },
+          "no_personal_meeting": {
+            "title": "No es posible cita personal",
+            "description": "→ Mantente alejado"
+          },
+          "no_receipt": {
+            "title": "Sin recibo (Factura) de agentes",
+            "description": "→ poco confiable"
+          },
+          "images_address_dont_match": {
+            "title": "Imágenes/dirección no coinciden",
+            "description": "→ Búsqueda de imágenes/Verificación de mapa"
+          }
+        },
+        "warning": "Ten cuidado con sitios web que prometen \"NIE online en 48h\" → estos son a menudo agencias de servicio pagadas."
+      },
+      "budget_planning": {
+        "title": "Presupuesto y Costos Adicionales Planificar Realistamente",
+        "costs": {
+          "title": "Alquiler + Costos Adicionales:",
+          "items": {
+            "rent": "Alquiler",
+            "electricity": "Electricidad",
+            "water": "Agua",
+            "gas": "posiblemente gas",
+            "internet": "Internet",
+            "waste": "Basura",
+            "community": "Costos de comunidad (a menudo deber del arrendador con alquiler)",
+            "air_conditioning": "El aire acondicionado puede costar notablemente en verano",
+            "commuting": "Costos de desplazamiento (coche/transporte público)",
+            "parking": "Estacionamiento (¿garaje?)",
+            "furniture": "Muebles (amueblado vs. vacío)",
+            "repairs": "Reserva para reparaciones"
+          }
+        },
+        "spreadsheet": {
+          "title": "Organización: tu hoja de cálculo de búsqueda (campos)",
+          "description": "De esta manera comparas objetos objetivamente a pesar de fotos bonitas:",
+          "fields": {
+            "link": "Enlace",
+            "address": "Dirección/Distrito",
+            "price": "Precio",
+            "sqm_rooms": "m² / Habitaciones",
+            "floor_elevator": "Planta/Ascensor",
+            "orientation": "Orientación",
+            "heating_cooling": "Calefacción/Refrigeración",
+            "furnished": "Amueblado",
+            "energy_certificate": "Certificado Energético",
+            "utilities_included": "¿Gastos incl.? (¿cuáles?)",
+            "contact": "Contacto (Nombre/Número)",
+            "status": "Estado (Solicitado/Visto/Aceptado/Rechazado)",
+            "score": "Puntuación (1–5) Ubicación/Ruido/Luz/Estado/Costos/OficinaEnCasa",
+            "notes": "Notas (defectos, reparaciones prometidas, plazos)"
+          }
+        }
+      },
+      "glossary": {
+        "title": "Mini Glosario (para anuncios y conversaciones)",
+        "terms": {
+          "long_term_rental": {
+            "term": "alquiler larga temporada",
+            "definition": "Alquiler a largo plazo"
+          },
+          "utilities_included": {
+            "term": "gastos incluidos",
+            "definition": "Gastos incluidos (¡pregunta exactamente!)"
+          },
+          "furnished": {
+            "term": "amueblado / sin amueblar",
+            "definition": "amueblado / sin amueblar"
+          },
+          "unfurnished": {
+            "term": "ascensor",
+            "definition": "Ascensor"
+          },
+          "air_conditioning": {
+            "term": "plaza de garaje / trastero",
+            "definition": "Plaza de garaje / trastero"
+          },
+          "heating": {
+            "term": "fianza / depósito",
+            "definition": "Fianza / seguridad adicional"
+          },
+          "garage": {
+            "term": "nómina / aval",
+            "definition": "Prueba de salario / avalista"
+          },
+          "storage": {
+            "term": "comunidad",
+            "definition": "Comunidad de vecinos (costos de comunidad)"
+          },
+          "deposit": {
+            "term": "CEE (certificado energético)",
+            "definition": "Certificado energético"
+          },
+          "guarantee": {
+            "term": "orientación",
+            "definition": "Orientación (Sur/Oeste/Norte/Este)"
+          },
+          "community": {
+            "term": "planta baja",
+            "definition": "Planta baja (a menudo oscuro/nivel de calle)"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Conclusión",
+        "description": "Empieza amplio, reacciona rápido, haz red local. Lee anuncios críticamente, ve a visitas con lista de verificación y ten tu dossier de búsqueda listo. De esta manera te destacas positivamente, encuentras mejores propiedades y evitas errores costosos."
+      }
+    }
+  }
+}
+

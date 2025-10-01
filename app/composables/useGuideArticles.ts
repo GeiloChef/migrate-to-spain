@@ -52,16 +52,16 @@ export const guideArticles: GuideArticle[] = [
   },
   {
     id: 'apartment-search',
-    titleKey: 'guide_apartment.title',
-    descriptionKey: 'guide_apartment.description',
+    titleKey: 'guide_apartment.card.title',
+    descriptionKey: 'guide_apartment.card.description',
     category: 'housing',
-    tags: ['apartment', 'rent', 'housing', 'search', 'real-estate', 'idealista', 'agent'],
+    tags: ['apartment', 'rent', 'housing', 'search', 'real-estate', 'idealista', 'agent', 'property', 'spain', 'finding'],
     difficulty: 'medium',
     estimatedTime: '1-3-months',
     route: '/guide/apartment-search',
     icon: 'orange',
     priority: 3,
-    available: false
+    available: true
   },
   {
     id: 'banking',
