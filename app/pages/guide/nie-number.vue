@@ -1,45 +1,14 @@
 <template>
-  <div class="min-h-screen bg-spain-cream pb-0 md:pb-12">
-    <GuideHeader 
-      title-key="guide_nie.title"
-      description-key="guide_nie.description"
-      mobile-title="NIE Number Guide"
-      mobile-description="Complete NIE application guide"
-    />
-
-    <!-- Content Section -->
-    <div class="max-w-4xl mx-auto rounded-b-3xl shadow-2xl mt-8">
-      <!-- Hero Section -->
-      <div class="relative -mt-6 md:mt-0">
-        <!-- Background Image -->
-        <div class="w-full h-[300px] md:h-[400px] md:rounded-t-3xl overflow-hidden shadow-2xl">
-          <img 
-            src="/images/timeline/bureaucracy-laptop.png" 
-            alt="NIE Application - Documents and laptop"
-            class="w-full h-full object-cover"
-          />
-          <!-- Dark Overlay for Better Text Readability -->
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-        </div>
-        
-        <!-- Content Overlay -->
-        <div class="absolute inset-0 flex items-end p-4 md:p-8 lg:p-12">
-          <div class="text-white max-w-4xl">
-            <div class="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-xs md:text-sm font-medium mb-4 md:mb-6 border border-white/30">
-              Guide
-            </div>
-            <h1 class="!text-3xl md:!text-4xl lg:!text-5xl font-bold mb-4 md:mb-6 leading-tight drop-shadow-lg">
-              {{ $t('guide_nie.hero.title') }}
-            </h1>
-            <p class="!text-base md:!text-lg lg:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
-              {{ $t('guide_nie.hero.description') }}
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Main Content -->
-      <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
+  <GuideLayout
+    title-key="guide_nie.title"
+    description-key="guide_nie.description"
+    mobile-title="NIE Number Guide"
+    mobile-description="Complete NIE application guide"
+    hero-image="/images/timeline/bureaucracy-laptop.png"
+    hero-image-alt="NIE Application - Documents and laptop"
+    hero-title-key="guide_nie.hero.title"
+    hero-description-key="guide_nie.hero.description"
+  >
         <!-- What is NIE -->
         <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
           <div class="px-4 py-8 md:px-6 md:py-16">
@@ -272,9 +241,7 @@
             <Disclaimer />
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+  </GuideLayout>
 </template>
 
 <script setup>

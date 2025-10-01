@@ -1,69 +1,37 @@
 <template>
-  <div class="min-h-screen bg-spain-cream pb-0 md:pb-12">
-    <GuideHeader 
-      title-key="guide_apartment.title"
-      description-key="guide_apartment.description"
-      mobile-title="Apartment Search Guide"
-      mobile-description="Complete guide to finding apartments in Spain"
-    />
-
-    <!-- Content Section -->
-    <div class="max-w-4xl mx-auto rounded-b-3xl shadow-2xl mt-8">
-      <!-- Hero Section -->
-      <div class="relative -mt-6 md:mt-0">
-        <!-- Background Image -->
-        <div class="w-full h-[300px] md:h-[400px] md:rounded-t-3xl overflow-hidden shadow-2xl">
-          <img 
-            src="/images/timeline/couple-visiting-property.png" 
-            alt="Apartment Search in Spain"
-            class="w-full h-full object-cover"
-          />
-          <!-- Dark Overlay for Better Text Readability -->
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+  <GuideLayout
+    title-key="guide_apartment.title"
+    description-key="guide_apartment.description"
+    mobile-title="Apartment Search Guide"
+    mobile-description="Complete guide to finding apartments in Spain"
+    hero-image="/images/timeline/couple-visiting-property.png"
+    hero-image-alt="Apartment Search in Spain"
+    hero-title-key="guide_apartment.hero.title"
+    hero-description-key="guide_apartment.hero.description"
+  >
+    <!-- Table of Contents -->
+    <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 px-4 py-6 md:px-6 md:py-8">
+      <div class="flex items-start space-x-4 mb-6">
+        <div class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
+          </svg>
         </div>
-        
-        <!-- Content Overlay -->
-        <div class="absolute inset-0 flex items-end p-4 md:p-8 lg:p-12">
-          <div class="text-white max-w-4xl">
-            <div class="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-white/20 backdrop-blur-sm text-white rounded-full text-xs md:text-sm font-medium mb-4 md:mb-6 border border-white/30">
-              Guide
-            </div>
-            <h1 class="!text-3xl md:!text-4xl lg:!text-5xl font-bold mb-4 md:mb-6 leading-tight drop-shadow-lg">
-              {{ $t('guide_apartment.hero.title') }}
-            </h1>
-            <p class="!text-base md:!text-lg lg:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
-              {{ $t('guide_apartment.hero.description') }}
-            </p>
-          </div>
+        <h2 class="text-2xl font-bold text-gray-900">
+          {{ $t('guide_apartment.content.table_of_contents.title') }}
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div v-for="(item, index) in tableOfContents" :key="index" 
+             @click="() => scrollToSection(item)"
+             class="flex items-center space-x-3 p-3 bg-white rounded-lg hover:bg-gray-50 transition-colors cursor-pointer hover:shadow-md group">
+          <span class="flex-shrink-0 w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold group-hover:bg-blue-600 transition-colors">
+            {{ index + 1 }}
+          </span>
+          <span class="text-gray-700 font-medium group-hover:text-blue-600 transition-colors">{{ $t('guide_apartment.content.table_of_contents.items.' + item) }}</span>
         </div>
       </div>
-
-      <!-- Table of Contents -->
-      <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 px-4 py-6 md:px-6 md:py-8">
-        <div class="flex items-start space-x-4 mb-6">
-          <div class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
-            </svg>
-          </div>
-          <h2 class="text-2xl font-bold text-gray-900">
-            {{ $t('guide_apartment.content.table_of_contents.title') }}
-          </h2>
-        </div>
-        <div class="grid md:grid-cols-2 gap-4">
-          <div v-for="(item, index) in tableOfContents" :key="index" 
-               @click="() => scrollToSection(item)"
-               class="flex items-center space-x-3 p-3 bg-white rounded-lg hover:bg-gray-50 transition-colors cursor-pointer hover:shadow-md group">
-            <span class="flex-shrink-0 w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold group-hover:bg-blue-600 transition-colors">
-              {{ index + 1 }}
-            </span>
-            <span class="text-gray-700 font-medium group-hover:text-blue-600 transition-colors">{{ $t('guide_apartment.content.table_of_contents.items.' + item) }}</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Main Content -->
-      <div class="prose prose-base md:prose-lg max-w-none text-gray-800 leading-relaxed">
+    </div>
         <!-- Overview -->
         <div id="overview" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
           <div class="px-4 py-8 md:px-6 md:py-16">
@@ -494,7 +462,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </GuideLayout>
 </template>
 
 <script lang="ts" setup>
