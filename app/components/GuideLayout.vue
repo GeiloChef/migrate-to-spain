@@ -31,7 +31,7 @@
             <h1 class="!text-3xl md:!text-4xl lg:!text-5xl font-bold mb-4 md:mb-6 leading-tight drop-shadow-lg">
               {{ $t(heroTitleKey) }}
             </h1>
-            <p class="!text-base md:!text-lg lg:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
+            <p v-if="showDescription !== false" class="!text-base md:!text-lg lg:!text-xl text-white/90 max-w-3xl leading-relaxed drop-shadow-md">
               {{ $t(heroDescriptionKey) }}
             </p>
           </div>
@@ -59,6 +59,7 @@ interface Props {
   heroImageAlt: string
   heroTitleKey: string
   heroDescriptionKey: string
+  showDescription?: boolean
 }
 
 defineProps<Props>()

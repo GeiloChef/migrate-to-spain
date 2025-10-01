@@ -8,6 +8,7 @@
     hero-image-alt="Gestoría - Administrative support and bureaucracy"
     hero-title-key="guide_gestoria.hero.title"
     hero-description-key="guide_gestoria.hero.description"
+    :show-description="false"
   >
         <!-- What is Gestoría -->
         <div class="bg-gradient-to-br from-gray-50 to-blue-50/30">
