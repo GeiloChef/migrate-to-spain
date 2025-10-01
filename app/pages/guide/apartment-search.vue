@@ -460,8 +460,6 @@
             <Disclaimer />
           </div>
         </div>
-      </div>
-    </div>
   </GuideLayout>
 </template>
 
