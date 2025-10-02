@@ -40,7 +40,7 @@
           },
           "private_networks": {
             "title": "Redes Privadas y Locales",
-            "description": "Tablones de anuncios, bares, vecindario, Facebook/WhatsApp. Aquí aparecen perlas que nunca van online"
+            "description": "Tablones de anuncios, bares, vecindario, Facebook / WhatsApp. Aquí aparecen perlas que nunca van online"
           }
         },
         "tip": "Consejo profesional: Trata la búsqueda como un proyecto: Crea una lista/hoja, configura notificaciones y reserva horarios fijos por día."
@@ -129,15 +129,42 @@
           "keywords": {
             "title": "Palabras Clave (Español):",
             "items": {
-              "long_term": "\"larga temporada\" / \"alquiler de larga duración\" (largo plazo)",
-              "utilities_included": "\"gastos incluidos\" (gastos incluidos)",
-              "no_commission": "\"sin comisión\" (sin comisión de agente – raro, pero oro)",
-              "furnished": "\"amueblado\" / \"sin amueblar\" (amueblado / sin amueblar)",
-              "unfurnished": "\"aire acondicionado\", \"calefacción\", \"plaza de garaje\", \"trastero\"",
-              "air_conditioning": "Calefacción/Refrigeración: En el sur de España a menudo no hay calefacción central → ¡el invierno puede ser frío!",
-              "heating": "\"Gastos incluidos\": ¿Cuáles exactamente? (agua/internet/comunidad/basura?) La electricidad suele ser extra.",
-              "garage": "Estado de muebles/electrodomésticos (lavadora, horno, nevera – edad, marca, clase energética).",
-              "storage": "Fotos vs. realidad: Gran angular, filtros, \"planta baja\" (planta baja) = a menudo oscuro/nivel de calle."
+              "long_term": {
+                "spanish": "\"larga temporada\" / \"alquiler de larga duración\"",
+                "german": "largo plazo"
+              },
+              "utilities_included": {
+                "spanish": "\"gastos incluidos\"",
+                "german": "gastos incluidos"
+              },
+              "no_commission": {
+                "spanish": "\"sin comisión\"",
+                "german": "sin comisión de agente – raro, pero oro"
+              },
+              "furnished": {
+                "spanish": "\"amueblado\" / \"sin amueblar\"",
+                "german": "amueblado / sin amueblar"
+              },
+              "unfurnished": {
+                "spanish": "\"aire acondicionado\", \"calefacción\"",
+                "german": "aire acondicionado, calefacción"
+              },
+              "air_conditioning": {
+                "spanish": "\"plaza de garaje\", \"trastero\"",
+                "german": "garaje, trastero"
+              },
+              "heating": {
+                "spanish": "\"orientación\"",
+                "german": "orientación"
+              },
+              "garage": {
+                "spanish": "\"planta baja\"",
+                "german": "planta baja"
+              },
+              "storage": {
+                "spanish": "\"nómina\"",
+                "german": "prueba de salario"
+              }
             }
           },
           "notifications": {
@@ -254,7 +281,10 @@
         },
         "spanish_template": {
           "title": "Mini-Plantilla Española (mensaje a agente/arrendador):",
-          "text": "Hola, somos [Nombres], buscamos alquiler de larga temporada a partir de [Fecha]. Presupuesto [€], mínimo [m²]/[habitaciones]. Tenemos ingresos estables y podemos enviar documentación. ¿Se puede visitar [fecha/hora]? Muchas gracias."
+          "spanish_label": "Español (Original)",
+          "translation_label": "Español (Original)",
+          "text": "Hola, somos [Nombres], buscamos alquiler de larga temporada a partir de [Fecha]. Presupuesto [€], mínimo [m²]/[habitaciones]. Tenemos ingresos estables y podemos enviar documentación. ¿Se puede visitar [fecha/hora]? Muchas gracias.",
+          "translation_text": "Hola, somos [Nombres], buscamos alquiler de larga temporada a partir de [Fecha]. Presupuesto [€], mínimo [m²]/[habitaciones]. Tenemos ingresos estables y podemos enviar documentación. ¿Se puede visitar [fecha/hora]? Muchas gracias."
         }
       },
       "red_flags": {
@@ -347,36 +377,40 @@
             "definition": "amueblado / sin amueblar"
           },
           "unfurnished": {
+            "term": "sin amueblar",
+            "definition": "sin amueblar"
+          },
+          "elevator": {
             "term": "ascensor",
             "definition": "Ascensor"
           },
-          "air_conditioning": {
+          "parking_storage": {
             "term": "plaza de garaje / trastero",
             "definition": "Plaza de garaje / trastero"
           },
-          "heating": {
+          "deposit": {
             "term": "fianza / depósito",
             "definition": "Fianza / seguridad adicional"
           },
-          "garage": {
+          "salary_guarantee": {
             "term": "nómina / aval",
             "definition": "Prueba de salario / avalista"
           },
-          "storage": {
+          "community": {
             "term": "comunidad",
             "definition": "Comunidad de vecinos (costos de comunidad)"
           },
-          "deposit": {
+          "energy_certificate": {
             "term": "CEE (certificado energético)",
             "definition": "Certificado energético"
           },
-          "guarantee": {
+          "orientation": {
             "term": "orientación",
-            "definition": "Orientación (Sur/Oeste/Norte/Este)"
+            "definition": "Orientación (Sur / Oeste / Norte / Este)"
           },
-          "community": {
+          "ground_floor": {
             "term": "planta baja",
-            "definition": "Planta baja (a menudo oscuro/nivel de calle)"
+            "definition": "Planta baja (a menudo oscuro / nivel de calle)"
           }
         }
       },

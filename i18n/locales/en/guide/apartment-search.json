@@ -40,10 +40,10 @@
           },
           "private_networks": {
             "title": "Private & Local Networks",
-            "description": "Bulletin boards, bars, neighborhood, Facebook/WhatsApp. Pearls appear here that never go online"
+            "description": "Bulletin boards, bars, neighborhood, Facebook / WhatsApp. Pearls appear here that never go online"
           }
         },
-        "tip": "Pro tip: Treat the search like a project: Create a list/sheet, set up notifications, and reserve fixed time slots per day."
+        "tip": "Pro tip: Treat the search like a project: Create a list / sheet, set up notifications, and reserve fixed time slots per day."
       },
       "regional_differences": {
         "title": "City, Country, Coast, Island – Differences & Price Logic",
@@ -55,27 +55,27 @@
             "cons": "Expensive & fast turnover. Good properties are gone in hours"
           },
           "medium_cities": {
-            "title": "Medium/Small Cities (e.g. Murcia, Zaragoza, Valladolid)",
-            "description": "Price/performance often significantly better. Larger apartments, less pressure, friendlier negotiation room.",
+            "title": "Medium / Small Cities (e.g. Murcia, Zaragoza, Valladolid)",
+            "description": "Price / performance often significantly better. Larger apartments, less pressure, friendlier negotiation room.",
             "pros": "Larger apartments, less pressure, friendlier negotiation room",
             "cons": "Car more helpful than in metropolises"
           },
           "coast": {
             "title": "Coast (Costa del Sol, Costa Blanca, Costa Brava, etc.)",
             "description": "Seasonally influenced: Summer = touristy & more expensive, Winter = more long-term offers.",
-            "pros": "In top locations many furnished apartments (expat/vacation oriented)",
-            "cons": "Watch out for noise pollution (beach promenade, bars) and humidity/salt air"
+            "pros": "In top locations many furnished apartments (expat / vacation oriented)",
+            "cons": "Watch out for noise pollution (beach promenade, bars) and humidity / salt air"
           },
           "islands": {
             "title": "Islands (Balearics, Canaries)",
             "description": "Higher demand with limited supply; annual rentals difficult in tourist hotspots.",
             "pros": "Higher demand with limited supply",
-            "cons": "Annual rentals difficult in tourist hotspots. Check transport/logistics and IT connection"
+            "cons": "Annual rentals difficult in tourist hotspots. Check transport / logistics and IT connection"
           }
         },
         "pros": "Advantages",
         "cons": "Disadvantages",
-        "note": "Remember: Price ≠ just location. Condition, heating/air conditioning, insulation, elevator, garage, community costs and infrastructure are real price factors."
+        "note": "Remember: Price ≠ just location. Condition, heating / air conditioning, insulation, elevator, garage, community costs and infrastructure are real price factors."
       },
       "online_platforms": {
         "title": "Online Platforms – Use Effectively",
@@ -84,7 +84,7 @@
           "portals": {
             "idealista": {
               "name": "Idealista",
-              "description": "The market leader, very good filters, many photos/floor plans"
+              "description": "The market leader, very good filters, many photos / floor plans"
             },
             "fotocasa": {
               "name": "Fotocasa",
@@ -92,7 +92,7 @@
             },
             "habitaclia": {
               "name": "Habitaclia",
-              "description": "Strong in Catalonia/Levante"
+              "description": "Strong in Catalonia / Levante"
             },
             "pisos": {
               "name": "Pisos.com",
@@ -129,15 +129,42 @@
           "keywords": {
             "title": "Keywords (Spanish):",
             "items": {
-              "long_term": "\"larga temporada\" / \"alquiler de larga duración\" (long-term)",
-              "utilities_included": "\"gastos incluidos\" (utilities included)",
-              "no_commission": "\"sin comisión\" (no agent commission – rare, but gold)",
-              "furnished": "\"amueblado\" / \"sin amueblar\" (furnished / unfurnished)",
-              "unfurnished": "\"aire acondicionado\", \"calefacción\", \"plaza de garaje\", \"trastero\"",
-              "air_conditioning": "Heating/Cooling: In southern Spain often no central heating → winter can be cold!",
-              "heating": "\"Gastos incluidos\": Which exactly? (water/internet/community/waste?) Electricity is usually extra.",
-              "garage": "Furniture condition/appliances (washing machine, oven, refrigerator – age, brand, energy class).",
-              "storage": "Photos vs. reality: Wide angle, filters, \"planta baja\" (ground floor) = often dark/street level."
+              "long_term": {
+                "spanish": "\"larga temporada\" / \"alquiler de larga duración\"",
+                "german": "long-term"
+              },
+              "utilities_included": {
+                "spanish": "\"gastos incluidos\"",
+                "german": "utilities included"
+              },
+              "no_commission": {
+                "spanish": "\"sin comisión\"",
+                "german": "no agent commission – rare, but gold"
+              },
+              "furnished": {
+                "spanish": "\"amueblado\" / \"sin amueblar\"",
+                "german": "furnished / unfurnished"
+              },
+              "unfurnished": {
+                "spanish": "\"aire acondicionado\", \"calefacción\"",
+                "german": "air conditioning, heating"
+              },
+              "air_conditioning": {
+                "spanish": "\"plaza de garaje\", \"trastero\"",
+                "german": "garage, storage room"
+              },
+              "heating": {
+                "spanish": "\"orientación\"",
+                "german": "orientation"
+              },
+              "garage": {
+                "spanish": "\"planta baja\"",
+                "german": "ground floor"
+              },
+              "storage": {
+                "spanish": "\"nómina\"",
+                "german": "salary proof"
+              }
             }
           },
           "notifications": {
@@ -254,7 +281,10 @@
         },
         "spanish_template": {
           "title": "Spanish Mini-Template (message to agent/landlord):",
-          "text": "Hola, somos [Names], buscamos alquiler de larga temporada a partir de [Date]. Presupuesto [€], mínimo [m²]/[habitaciones]. Tenemos ingresos estables y podemos enviar documentación. ¿Se puede visitar [fecha/hora]? Muchas gracias."
+          "spanish_label": "Spanish (Original)",
+          "translation_label": "English (Translation)",
+          "text": "Hola, somos [Names], buscamos alquiler de larga temporada a partir de [Date]. Presupuesto [€], mínimo [m²]/[habitaciones]. Tenemos ingresos estables y podemos enviar documentación. ¿Se puede visitar [fecha/hora]? Muchas gracias.",
+          "translation_text": "Hello, we are [Names], we are looking for a long-term rental from [Date]. Budget [€], minimum [m²]/[rooms]. We have stable income and can send documentation. Can we visit on [date/time]? Thank you very much."
         }
       },
       "red_flags": {
@@ -347,36 +377,40 @@
             "definition": "furnished / unfurnished"
           },
           "unfurnished": {
+            "term": "sin amueblar",
+            "definition": "unfurnished"
+          },
+          "elevator": {
             "term": "ascensor",
             "definition": "Elevator"
           },
-          "air_conditioning": {
+          "parking_storage": {
             "term": "plaza de garaje / trastero",
             "definition": "Parking space / storage room"
           },
-          "heating": {
+          "deposit": {
             "term": "fianza / depósito",
             "definition": "Deposit / additional security"
           },
-          "garage": {
+          "salary_guarantee": {
             "term": "nómina / aval",
             "definition": "Salary proof / guarantor"
           },
-          "storage": {
+          "community": {
             "term": "comunidad",
             "definition": "Building community (community costs)"
           },
-          "deposit": {
+          "energy_certificate": {
             "term": "CEE (certificado energético)",
             "definition": "Energy certificate"
           },
-          "guarantee": {
+          "orientation": {
             "term": "orientación",
-            "definition": "Orientation (South/West/North/East)"
+            "definition": "Orientation (South / West / North / East)"
           },
-          "community": {
+          "ground_floor": {
             "term": "planta baja",
-            "definition": "Ground floor (often dark/street level)"
+            "definition": "Ground floor (often dark / street level)"
           }
         }
       },
