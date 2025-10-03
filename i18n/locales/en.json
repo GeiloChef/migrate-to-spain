@@ -220,7 +220,11 @@
   "ui": {
     "tableOfContents": {
       "title": "Table of Contents",
-      "noHeadings": "No headings found"
+      "noHeadings": "No headings found",
+      "read": "read"
+    },
+    "readingProgress": {
+      "title": "Reading Progress"
     },
     "sidebar": {
       "toggleMenu": "Open menu",

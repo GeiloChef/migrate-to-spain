@@ -3,7 +3,7 @@
     <!-- Header Section -->
     <TimelineHeader class="mb-6 md:mb-12" />
 
-    <!-- Table of Contents -->
+    <!-- Table of Contents (Desktop only) -->
     <TableOfContents />
 
     <!-- Content Section -->

@@ -220,7 +220,11 @@
   "ui": {
     "tableOfContents": {
       "title": "Inhaltsverzeichnis",
-      "noHeadings": "Keine Überschriften gefunden"
+      "noHeadings": "Keine Überschriften gefunden",
+      "read": "gelesen"
+    },
+    "readingProgress": {
+      "title": "Lesefortschritt"
     },
     "sidebar": {
       "toggleMenu": "Menü öffnen",

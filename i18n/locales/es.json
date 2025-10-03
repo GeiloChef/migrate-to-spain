@@ -220,7 +220,11 @@
   "ui": {
     "tableOfContents": {
       "title": "Tabla de Contenidos",
-      "noHeadings": "No se encontraron encabezados"
+      "noHeadings": "No se encontraron encabezados",
+      "read": "leído"
+    },
+    "readingProgress": {
+      "title": "Progreso de Lectura"
     },
     "sidebar": {
       "toggleMenu": "Abrir menú",
