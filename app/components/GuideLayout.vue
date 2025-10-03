@@ -8,7 +8,7 @@
     />
 
     <!-- Content Section -->
-    <div class="max-w-4xl mx-auto lg:ml-80 lg:mr-8 rounded-b-3xl shadow-2xl mt-8">
+    <div class="max-w-4xl mx-auto lg:ml-80 lg:mr-8 2xl:ml-auto 2xl:mr-auto rounded-b-3xl shadow-2xl mt-8">
       <!-- Hero Section -->
       <div class="relative -mt-6 md:mt-0">
         <!-- Background Image -->
