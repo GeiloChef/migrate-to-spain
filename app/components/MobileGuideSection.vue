@@ -14,22 +14,22 @@
     <!-- Content -->
     <div class="relative z-10 h-full flex flex-col">
       <!-- Header -->
-      <div class="text-center px-6 pt-8 pb-6">
-        <h2 class="!text-4xl font-bold text-white mb-3 drop-shadow-lg">
+      <div class="text-center px-6 pt-6 pb-4">
+        <h2 class="!text-3xl font-bold text-white mb-2 drop-shadow-lg">
           Dein Guide zur Auswanderung
         </h2>
-        <p class="!text-lg text-white/90 max-w-sm mx-auto leading-relaxed drop-shadow-md">
+        <p class="!text-base text-white/90 max-w-sm mx-auto leading-relaxed drop-shadow-md">
           Praktische Anleitungen und Tipps für deine Auswanderung nach Spanien
         </p>
       </div>
 
     <!-- Search Input -->
-    <div class="px-6 mb-6">
+    <div class="px-6 mb-4">
       <div class="relative">
         <input 
           type="text" 
           placeholder="Suche nach Themen..." 
-          class="w-full px-4 py-3 pl-12 pr-4 bg-white/95 border border-spain-yellow/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-spain-yellow/50 focus:border-spain-yellow/50 transition-all duration-300 shadow-sm text-base text-gray-900 placeholder-gray-500"
+          class="w-full px-4 py-2.5 pl-12 pr-4 bg-white/95 border border-spain-yellow/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-spain-yellow/50 focus:border-spain-yellow/50 transition-all duration-300 shadow-sm text-sm text-gray-900 placeholder-gray-500"
           v-model="searchQuery"
         />
         <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
@@ -57,7 +57,7 @@
     </div>
 
     <!-- Guide Cards - Carousel -->
-    <div class="flex-1 px-6 pb-6">
+    <div class="flex-1 px-6 pb-4">
       <div v-if="filteredArticles.length > 0">
         <UCarousel
           :items="filteredArticles"
@@ -70,45 +70,45 @@
         >
           <template #default="{ item }">
             <NuxtLink :to="item.route" class="block h-full">
-              <div :class="`bg-gradient-to-br ${getCardBgClass(item.icon)} rounded-xl p-8 border ${getCardBorderClass(item.icon)} relative overflow-hidden h-full`">
+              <div :class="`bg-gradient-to-br ${getCardBgClass(item.icon)} rounded-xl p-6 border ${getCardBorderClass(item.icon)} relative overflow-hidden h-full`">
                 <!-- Background icon -->
-                <div class="absolute -top-2 -right-2 w-20 h-20 bg-gradient-to-br rounded-full flex items-center justify-center opacity-50" :class="getIconGradientClass(item.icon)">
-                  <svg :class="`w-10 h-10 ${getIconColorClass(item.icon)} font-bold`" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="absolute -top-1 -right-1 w-16 h-16 bg-gradient-to-br rounded-full flex items-center justify-center opacity-50" :class="getIconGradientClass(item.icon)">
+                  <svg :class="`w-8 h-8 ${getIconColorClass(item.icon)} font-bold`" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getIconPath(item.id)"></path>
                   </svg>
                 </div>
                 <!-- Content -->
                 <div class="relative z-10 h-full flex flex-col">
-                  <div>
-                    <h3 class="!text-lg font-semibold text-gray-900 mb-4 text-xl">
+                  <div class="mb-4">
+                    <h3 class="!text-lg font-semibold text-gray-900 mb-3 text-xl">
                       {{ item.title }}
                     </h3>
-                    <p class="text-gray-700 mb-4">
+                    <p class="text-gray-700 text-sm leading-relaxed line-clamp-2">
                       {{ item.description }}
                     </p>
                   </div>
                   
-                  <!-- Meta Info -->
-                  <div class="space-y-3 mb-6">
-                    <div class="flex items-center gap-2 text-base text-gray-600">
-                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                      </svg>
-                      <span class="bg-gray-100 px-3 py-2 rounded-full">{{ item.translatedEstimatedTime }}</span>
-                    </div>
-                    <div class="flex items-center gap-2 text-base text-gray-600">
-                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                      </svg>
-                      <span class="bg-gray-100 px-3 py-2 rounded-full">{{ item.translatedDifficulty }}</span>
-                    </div>
-                  </div>
-                  
-                  <!-- Button -->
+                  <!-- Meta Info - Rows but closer together -->
                   <div class="mt-auto">
-                    <div :class="`inline-flex items-center gap-2 ${getIconColorClass(item.icon)} bg-gray-100 hover:bg-gray-200 px-4 py-3 rounded-full font-medium transition-colors`">
+                    <div class="space-y-2 mb-4">
+                      <div class="flex items-center gap-2 text-sm text-gray-600">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="bg-gray-100 px-2 py-1 rounded-full text-xs">{{ item.translatedEstimatedTime }}</span>
+                      </div>
+                      <div class="flex items-center gap-2 text-sm text-gray-600">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="bg-gray-100 px-2 py-1 rounded-full text-xs">{{ item.translatedDifficulty }}</span>
+                      </div>
+                    </div>
+                    
+                    <!-- Button -->
+                    <div :class="`inline-flex items-center gap-1 ${getIconColorClass(item.icon)} bg-gray-100 hover:bg-gray-200 px-3 py-2 rounded-full font-medium transition-colors text-sm`">
                       <span>Mehr erfahren</span>
-                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                       </svg>
                     </div>
@@ -237,6 +237,7 @@ const getIconPath = (id) => {
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
