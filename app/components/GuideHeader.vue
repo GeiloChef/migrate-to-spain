@@ -9,7 +9,7 @@
           <div class="flex-shrink-0">
             <button 
               @click="$router.back()" 
-              class="flex items-center justify-center w-10 h-10 rounded-full bg-spain-yellow/20 hover:bg-spain-yellow/30 transition-colors duration-300"
+              class="flex items-center justify-center w-10 h-10 rounded-full bg-spain-yellow/20 hover:bg-spain-yellow/30 transition-colors duration-300 cursor-pointer"
             >
               <Icon name="heroicons:arrow-left" class="w-5 h-5 text-spain-yellow/80" />
             </button>
