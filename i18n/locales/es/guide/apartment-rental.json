@@ -1,0 +1,127 @@
+{
+  "guide_apartment_rental": {
+    "title": "Alquilar inmuebles en España",
+    "description": "Tu guía práctica para alquilar apartamentos en España – desde documentos hasta protocolo de entrega.",
+    "card": {
+      "title": "Alquilar inmuebles en España",
+      "description": "Guía práctica para alquilar: documentos, contratos, gastos adicionales y protocolo de entrega"
+    },
+    "hero": {
+      "title": "Alquilar inmuebles en España – tu guía práctica",
+      "description": "Alquilar un apartamento en España suena simple al principio – pero rápidamente te das cuenta de que aquí las cosas funcionan diferente que en Alemania. Los buenos apartamentos a menudo se van en pocos días, los contratos difieren, y no es raro que los propietarios exijan garantías adicionales. Con un poco de preparación, sin embargo, puedes ahorrarte mucho estrés."
+    },
+    "content": {
+      "table_of_contents": {
+        "title": "Índice de contenidos",
+        "items": {
+          "preparation": "Preparación: tus documentos son la clave",
+          "rental_types": "¿Qué tipos de alquiler existen?",
+          "deposit_security": "Fianza y garantías adicionales",
+          "rental_contract": "El contrato de alquiler – ¡léelo bien!",
+          "additional_costs": "Gastos adicionales y trampas",
+          "move_in_protocol": "Entrada y protocolo de entrega",
+          "repairs": "Reparaciones: ¿quién paga qué?",
+          "termination": "Rescisión y salida",
+          "special_conditions": "Mascotas, fumar y más",
+          "practical_tips": "Consejos prácticos de la experiencia",
+          "common_mistakes": "Errores comunes y cómo evitarlos"
+        }
+      },
+      "preparation": {
+        "title": "Preparación: tus documentos son la clave",
+        "description": "La primera impresión cuenta – especialmente en ciudades como Madrid, Barcelona o en las regiones costeras donde la demanda es alta. Es mejor preparar un pequeño 'dossier de alquiler': DNI o pasaporte, tu número NIE (si ya lo tienes), comprobantes de ingresos, un CV corto o una carta de presentación amable. Si has alquilado antes, las referencias de tu anterior propietario son una gran ventaja.",
+        "why_important": "¿Por qué todo esto? Muy simple: Muchos propietarios tienen la opción entre varios candidatos. Quienes parecen preparados y serios tienen mejores cartas."
+      },
+      "rental_types": {
+        "title": "¿Qué tipos de alquiler existen?",
+        "description": "En España hay aproximadamente tres variantes:",
+        "types": {
+          "long_term": {
+            "title": "Alquiler de larga temporada (alquiler de larga temporada)",
+            "description": "El clásico, generalmente a partir de 12 meses y regulado por la ley de arrendamientos española (LAU)."
+          },
+          "short_term": {
+            "title": "Alquiler a corto o medio plazo",
+            "description": "Típico para estudiantes o expatriados, a menudo de 3 a 11 meses. Popular especialmente en la costa, pero más caro."
+          },
+          "room_rental": {
+            "title": "Habitación (habitación)",
+            "description": "Principalmente común en grandes ciudades. Aquí rigen reglas propias – presta atención a lo que dice en las normas de la casa."
+          }
+        }
+      },
+      "deposit_security": {
+        "title": "Fianza y garantías adicionales",
+        "description": "Un tema importante es la fianza (fianza). Legalmente, generalmente se requiere un mes de alquiler. En la práctica, sin embargo, muchos propietarios exigen más – dos o incluso tres meses de alquiler, especialmente si eres nuevo en el país o no tienes comprobantes sólidos de ingresos.",
+        "guarantor": "A veces también se requiere un avalista ('avalista') o garantía bancaria. Solo deberías pagar alquiler por adelantado de varios meses si tienes un contrato firmado y un recibo oficial. Todo lo demás es una bandera roja."
+      },
+      "rental_contract": {
+        "title": "El contrato de alquiler – ¡léelo bien!",
+        "description": "El contrato siempre debe regular claramente los siguientes puntos: Quiénes son las partes contratantes, cuál es el alquiler y la fianza, cuánto dura el contrato, qué gastos adicionales están incluidos y quién paga qué reparaciones.",
+        "utilities_important": "Muy importante: los gastos adicionales ('gastos'). A menudo dice 'gastos incluidos', pero esto puede significar todo o casi nada. La electricidad y el agua suelen ser extra, mientras que las tasas de basura o los costos de la comunidad a veces están incluidos. Pide una lista detallada.",
+        "inventory": "Si el apartamento está amueblado, debe haber una lista de inventario. Es mejor revisar esto punto por punto durante la entrega de llaves."
+      },
+      "additional_costs": {
+        "title": "Gastos adicionales y trampas",
+        "description": "Espera que se añada bastante al alquiler: electricidad, agua, posiblemente gas, internet y a veces costos de comunidad (escalera, ascensor). También deberías revisar la calefacción – muchos apartamentos no tienen calefacción central, y entonces las facturas de electricidad pueden dispararse en invierno debido a calentadores eléctricos.",
+        "conclusion": "En resumen: Pregunta exactamente qué costos están incluidos en el precio y cuáles no."
+      },
+      "move_in_protocol": {
+        "title": "Entrada y protocolo de entrega",
+        "description": "La entrada es el momento en que mejor debes documentar todo. Escribe un protocolo de entrega: lecturas de contadores, estado de las habitaciones, muebles existentes, número de llaves. Haz fotos de manchas de moho, electrodomésticos viejos, ventanas o paredes y guárdalas con fecha.",
+        "documentation": "Es mejor enviar el protocolo con fotos directamente al propietario por WhatsApp o email. Esto te protege si hay disputas posteriores sobre daños."
+      },
+      "repairs": {
+        "title": "Reparaciones: ¿quién paga qué?",
+        "description": "Muchos contratos establecen que tú como inquilino te encargas de pequeñas reparaciones – por ejemplo, si hay que cambiar una bombilla o una puerta se atasca. Todo lo que sea más grande, como un aire acondicionado roto o un techo con goteras, es responsabilidad del propietario. Es importante que reportes los defectos inmediatamente – preferiblemente por escrito."
+      },
+      "termination": {
+        "title": "Rescisión y salida",
+        "description": "Los plazos de preaviso dependen del contrato, generalmente el plazo de preaviso es de al menos un mes. Al salir, debes devolver el apartamento en el mismo estado que cuando entraste – el desgaste normal está permitido, por supuesto. Para recuperar tu fianza, deberías hacer otro protocolo al salir y documentar las lecturas de contadores."
+      },
+      "special_conditions": {
+        "title": "Mascotas, fumar y más",
+        "description": "Algunos propietarios excluyen las mascotas desde el principio, otros las permiten si está establecido en el contrato. Así que presta mucha atención. Similarmente con fumar: A menudo está permitido en apartamentos, pero prohibido en áreas comunes. También deberías aclarar invitados y subarrendamiento de antemano – mucho no está permitido, especialmente debido a reglas estrictas contra alquileres vacacionales ilegales."
+      },
+      "practical_tips": {
+        "title": "Consejos prácticos de la experiencia",
+        "tips": {
+          "be_quick": "Sé rápido – llama inmediatamente si un apartamento te interesa.",
+          "have_documents": "Ten tus documentos listos para poder actuar directamente.",
+          "never_pay_without_contract": "Nunca pagues nada sin contrato y recibo oficial.",
+          "negotiate": "Siéntete libre de negociar el alquiler – a menudo hay un pequeño descuento por períodos de alquiler más largos.",
+          "use_whatsapp": "Usa WhatsApp: En España, casi toda la comunicación se hace por este canal."
+        }
+      },
+      "common_mistakes": {
+        "title": "Errores comunes y cómo evitarlos",
+        "mistakes": {
+          "cash_deposit": {
+            "mistake": "Dar fianza en efectivo sin recibo",
+            "avoid": "solo con recibo"
+          },
+          "no_protocol": {
+            "mistake": "Sin protocolo de entrega",
+            "avoid": "Fotos + protocolo escrito"
+          },
+          "not_reading_contract": {
+            "mistake": "No leer/traducir contrato",
+            "avoid": "Revisión de traducción / Gestoría"
+          },
+          "assuming_utilities": {
+            "mistake": "Asumir que 'gastos incluidos' significa todo",
+            "avoid": "preguntar específicamente (qué costos están exactamente incluidos)"
+          },
+          "only_online": {
+            "mistake": "Solo confiar online (sin cita personal)",
+            "avoid": "siempre ver en persona"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Conclusión",
+        "description": "Alquilar un apartamento en España no es ciencia espacial – pero deberías estar preparado. Con un dossier adecuado, una mirada clara para gastos adicionales y un buen protocolo de entrega, ya estás en el lado seguro. Y si tienes dudas: Mejor pregunta una vez más o involucra una Gestoría antes de firmar algo. Así entras a tu nuevo hogar relajado – y puedes concentrarte en lo que realmente viniste a España: disfrutar la vida."
+      }
+    }
+  }
+}

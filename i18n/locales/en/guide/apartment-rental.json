@@ -1,0 +1,127 @@
+{
+  "guide_apartment_rental": {
+    "title": "Renting Property in Spain",
+    "description": "Your practical guide to renting apartments in Spain – from documents to handover protocol.",
+    "card": {
+      "title": "Renting Property in Spain",
+      "description": "Practical guide to renting: documents, contracts, additional costs and handover protocol"
+    },
+    "hero": {
+      "title": "Renting Property in Spain – Your Practical Guide",
+      "description": "Renting an apartment in Spain sounds simple at first – but you quickly realize that things work differently here than in Germany. Good apartments are often gone within a few days, contracts differ, and landlords often demand additional security. With a bit of preparation, however, you can save yourself a lot of stress."
+    },
+    "content": {
+      "table_of_contents": {
+        "title": "Table of Contents",
+        "items": {
+          "preparation": "Preparation: Your Documents Are the Key",
+          "rental_types": "What Types of Rentals Are There?",
+          "deposit_security": "Deposit and Additional Security",
+          "rental_contract": "The Rental Contract – Read It Carefully!",
+          "additional_costs": "Additional Costs and Pitfalls",
+          "move_in_protocol": "Move-in and Handover Protocol",
+          "repairs": "Repairs: Who Pays What?",
+          "termination": "Termination and Move-out",
+          "special_conditions": "Pets, Smoking and More",
+          "practical_tips": "Practical Tips from Experience",
+          "common_mistakes": "Common Mistakes & How to Avoid Them"
+        }
+      },
+      "preparation": {
+        "title": "Preparation: Your Documents Are the Key",
+        "description": "First impressions count – especially in cities like Madrid, Barcelona or in coastal regions where demand is high. It's best to prepare a small 'rental dossier': ID or passport, your NIE number (if you already have it), proof of income, a short CV or a friendly cover letter introducing yourself. If you've rented before, references from your previous landlord are a big plus.",
+        "why_important": "Why all this? Simply put: Many landlords have the choice between several applicants. Those who appear prepared and serious have better chances."
+      },
+      "rental_types": {
+        "title": "What Types of Rentals Are There?",
+        "description": "In Spain there are roughly three variants:",
+        "types": {
+          "long_term": {
+            "title": "Long-term rental (alquiler de larga temporada)",
+            "description": "The classic, usually from 12 months and regulated by Spanish rental law (LAU)."
+          },
+          "short_term": {
+            "title": "Short or medium-term rental",
+            "description": "Typical for students or expats, often 3 to 11 months. Popular especially on the coast, but more expensive."
+          },
+          "room_rental": {
+            "title": "Room rental (habitación)",
+            "description": "Mainly common in big cities. Here different rules apply – pay attention to what's in the house rules."
+          }
+        }
+      },
+      "deposit_security": {
+        "title": "Deposit and Additional Security",
+        "description": "An important topic is the deposit (fianza). Legally, usually one month's rent is required. In practice, however, many landlords demand more – two or even three months' rent, especially if you're new to the country or don't have solid proof of income.",
+        "guarantor": "Sometimes a guarantor ('avalista') or bank guarantee is also required. You should only pay advance rent for several months if you have a signed contract and an official receipt. Everything else is a red flag."
+      },
+      "rental_contract": {
+        "title": "The Rental Contract – Read It Carefully!",
+        "description": "The contract should always clearly regulate the following points: Who are the contracting parties, how high is the rent and deposit, how long does the contract run, which additional costs are included and who pays for which repairs.",
+        "utilities_important": "Very important: the additional costs ('gastos'). Often it says 'gastos incluidos', but this can mean everything or almost nothing. Electricity and water are usually extra, while waste fees or community costs are sometimes included. Ask for a detailed list.",
+        "inventory": "If the apartment is furnished, there must be an inventory list. It's best to go through this point by point during the key handover."
+      },
+      "additional_costs": {
+        "title": "Additional Costs and Pitfalls",
+        "description": "Expect that quite a bit will be added to the rent: electricity, water, possibly gas, internet and sometimes community costs (stairwell, elevator). You should also check the heating – many apartments don't have central heating, and then electricity bills can skyrocket in winter due to electric heaters.",
+        "conclusion": "In short: Ask exactly which costs are included in the price and which are not."
+      },
+      "move_in_protocol": {
+        "title": "Move-in and Handover Protocol",
+        "description": "Move-in is the moment when you should document everything best. Write a handover protocol: meter readings, condition of rooms, existing furniture, number of keys. Take photos of mold spots, old appliances, windows or walls and save them with date.",
+        "documentation": "It's best to send the protocol with photos directly to the landlord via WhatsApp or email. This protects you if there are later disputes about damages."
+      },
+      "repairs": {
+        "title": "Repairs: Who Pays What?",
+        "description": "Many contracts state that you as a tenant take care of small repairs yourself – for example, if a light bulb needs to be replaced or a door is stuck. Everything that's bigger, like a broken air conditioner or a leaky roof, is the landlord's responsibility. It's important that you report defects immediately – preferably in writing."
+      },
+      "termination": {
+        "title": "Termination and Move-out",
+        "description": "Notice periods depend on the contract, usually the notice period is at least one month. When moving out, you must return the apartment in the same condition as when you moved in – normal wear and tear is of course allowed. To get your deposit back, you should make another protocol when moving out and document the meter readings."
+      },
+      "special_conditions": {
+        "title": "Pets, Smoking and More",
+        "description": "Some landlords exclude pets from the start, others allow them if it's stated in the contract. So pay close attention. Similarly with smoking: Often it's allowed in apartments, but forbidden in common areas. You should also clarify guests and subletting beforehand – much is not allowed, especially due to strict rules against illegal vacation rentals."
+      },
+      "practical_tips": {
+        "title": "Practical Tips from Experience",
+        "tips": {
+          "be_quick": "Be quick – call immediately if an apartment interests you.",
+          "have_documents": "Have your documents ready so you can strike directly.",
+          "never_pay_without_contract": "Never pay anything without a contract and official receipt.",
+          "negotiate": "Feel free to negotiate the rent – often there's a small discount for longer rental periods.",
+          "use_whatsapp": "Use WhatsApp: In Spain, almost all communication runs through this channel."
+        }
+      },
+      "common_mistakes": {
+        "title": "Common Mistakes & How to Avoid Them",
+        "mistakes": {
+          "cash_deposit": {
+            "mistake": "Giving deposit in cash without receipt",
+            "avoid": "only with receipt"
+          },
+          "no_protocol": {
+            "mistake": "No handover protocol",
+            "avoid": "Photos + written protocol"
+          },
+          "not_reading_contract": {
+            "mistake": "Not reading/translating contract",
+            "avoid": "Translation check / Gestoría"
+          },
+          "assuming_utilities": {
+            "mistake": "Assuming that 'gastos incluidos' means everything",
+            "avoid": "ask specifically (which costs are exactly included)"
+          },
+          "only_online": {
+            "mistake": "Only trusting online (no personal appointment)",
+            "avoid": "always view in person"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "description": "Renting an apartment in Spain is not rocket science – but you should be prepared. With a proper dossier, a clear eye for additional costs and a good handover protocol, you're already on the safe side. And if you're unsure: Better ask once more or involve a Gestoría before signing anything. This way you move into your new home relaxed – and can focus on what you actually came to Spain for: enjoying life."
+      }
+    }
+  }
+}

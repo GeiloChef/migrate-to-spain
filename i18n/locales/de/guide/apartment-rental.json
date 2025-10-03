@@ -1,0 +1,127 @@
+{
+  "guide_apartment_rental": {
+    "title": "Immobilie mieten in Spanien",
+    "description": "Dein praktischer Guide zum Mieten von Wohnungen in Spanien – von Dokumenten bis zum Übergabeprotokoll.",
+    "card": {
+      "title": "Immobilie mieten in Spanien",
+      "description": "Praktischer Guide zum Mieten: Dokumente, Verträge, Nebenkosten und Übergabeprotokoll"
+    },
+    "hero": {
+      "title": "Immobilie mieten in Spanien – dein praktischer Guide",
+      "description": "Eine Wohnung in Spanien zu mieten klingt erstmal einfach – doch schnell merkt man, dass hier einiges anders läuft als in Deutschland. Gute Wohnungen sind oft innerhalb weniger Tage weg, Verträge unterscheiden sich, und nicht selten fordern Vermieter zusätzliche Sicherheiten. Mit ein bisschen Vorbereitung kannst du dir jedoch viel Stress sparen."
+    },
+    "content": {
+      "table_of_contents": {
+        "title": "Inhaltsverzeichnis",
+        "items": {
+          "preparation": "Vorbereitung: deine Unterlagen sind der Schlüssel",
+          "rental_types": "Welche Mietarten gibt es?",
+          "deposit_security": "Kaution und zusätzliche Sicherheiten",
+          "rental_contract": "Der Mietvertrag – lies ihn genau!",
+          "additional_costs": "Nebenkosten und Fallen",
+          "move_in_protocol": "Einzug und Übergabeprotokoll",
+          "repairs": "Reparaturen: Wer zahlt was?",
+          "termination": "Kündigung und Auszug",
+          "special_conditions": "Haustiere, Rauchen und Co.",
+          "practical_tips": "Praktische Tipps aus der Praxis",
+          "common_mistakes": "Häufige Fehler & wie du sie vermeidest"
+        }
+      },
+      "preparation": {
+        "title": "Vorbereitung: deine Unterlagen sind der Schlüssel",
+        "description": "Der erste Eindruck zählt – vor allem in Städten wie Madrid, Barcelona oder an den Küstenregionen, wo die Nachfrage hoch ist. Am besten legst du dir ein kleines „Miet-Dossier\" an: Ausweis oder Pass, deine NIE-Nummer (falls du sie schon hast), Einkommensnachweise, ein kurzer Lebenslauf oder ein freundliches Anschreiben, in dem du dich vorstellst. Wenn du vorher schon gemietet hast, sind Referenzen von deinem alten Vermieter ein großes Plus.",
+        "why_important": "Warum das Ganze? Ganz einfach: Viele Vermieter haben die Wahl zwischen mehreren Bewerbern. Wer vorbereitet und seriös wirkt, hat die besseren Karten."
+      },
+      "rental_types": {
+        "title": "Welche Mietarten gibt es?",
+        "description": "In Spanien gibt es grob drei Varianten:",
+        "types": {
+          "long_term": {
+            "title": "Langzeitmiete (alquiler de larga temporada)",
+            "description": "Der Klassiker, meist ab 12 Monaten und nach dem spanischen Mietgesetz (LAU) geregelt."
+          },
+          "short_term": {
+            "title": "Kurz- oder mittelfristige Miete",
+            "description": "Typisch für Studenten oder Expats, oft 3 bis 11 Monate. Gerade an der Küste beliebt, aber teurer."
+          },
+          "room_rental": {
+            "title": "WG-Zimmer (habitación)",
+            "description": "Vor allem in Großstädten verbreitet. Hier gelten eigene Regeln – achte darauf, was in den Hausordnungen steht."
+          }
+        }
+      },
+      "deposit_security": {
+        "title": "Kaution und zusätzliche Sicherheiten",
+        "description": "Ein wichtiges Thema ist die Kaution (fianza). Gesetzlich ist meist eine Monatsmiete vorgeschrieben. In der Praxis verlangen viele Vermieter jedoch mehr – zwei oder sogar drei Monatsmieten, gerade wenn du neu im Land bist oder keine festen Einkommensnachweise hast.",
+        "guarantor": "Manchmal wird auch ein Bürge („avalista\") oder eine Bankbürgschaft verlangt. Vorkasse für mehrere Monate solltest du nur dann leisten, wenn du einen unterschriebenen Vertrag und eine offizielle Quittung hast. Alles andere ist ein rotes Tuch."
+      },
+      "rental_contract": {
+        "title": "Der Mietvertrag – lies ihn genau!",
+        "description": "Der Vertrag sollte immer folgende Punkte klar regeln: Wer sind die Vertragsparteien, wie hoch ist die Miete und die Kaution, wie lange läuft der Vertrag, welche Nebenkosten sind enthalten und wer trägt welche Reparaturen.",
+        "utilities_important": "Ganz wichtig: die Nebenkosten („gastos\"). Oft heißt es „gastos incluidos\", aber das kann alles oder auch fast nichts heißen. Strom und Wasser sind in der Regel extra, während Müllgebühren oder die Kosten der Hausgemeinschaft manchmal enthalten sind. Frag nach einer genauen Auflistung.",
+        "inventory": "Wenn die Wohnung möbliert ist, muss eine Inventarliste dabei sein. Am besten gehst du diese bei der Schlüsselübergabe Punkt für Punkt durch."
+      },
+      "additional_costs": {
+        "title": "Nebenkosten und Fallen",
+        "description": "Rechne damit, dass zur Miete noch einiges dazukommt: Strom, Wasser, eventuell Gas, Internet und manchmal die Kosten der Hausgemeinschaft (Treppenhaus, Aufzug). Auch die Heizung solltest du prüfen – in vielen Wohnungen gibt es gar keine Zentralheizung, und dann können im Winter die Stromrechnungen durch elektrische Heizgeräte in die Höhe schießen.",
+        "conclusion": "Kurz gesagt: Frag genau nach, welche Kosten im Preis enthalten sind und welche nicht."
+      },
+      "move_in_protocol": {
+        "title": "Einzug und Übergabeprotokoll",
+        "description": "Der Einzug ist der Moment, in dem du am besten alles dokumentierst. Schreibe ein Übergabeprotokoll: Zählerstände, Zustand der Räume, vorhandene Möbel, Schlüsselanzahl. Mach Fotos von Schimmelstellen, alten Geräten, Fenstern oder Wänden und speichere sie mit Datum.",
+        "documentation": "Schicke das Protokoll samt Fotos am besten direkt an den Vermieter per WhatsApp oder E-Mail. Damit bist du abgesichert, falls es später Streit um Schäden gibt."
+      },
+      "repairs": {
+        "title": "Reparaturen: Wer zahlt was?",
+        "description": "In vielen Verträgen steht, dass du als Mieter kleine Reparaturen selbst übernimmst – zum Beispiel wenn eine Glühbirne ausgetauscht werden muss oder eine Tür klemmt. Alles, was größer ist, etwa eine defekte Klimaanlage oder ein undichtes Dach, ist Sache des Vermieters. Wichtig ist, dass du Mängel sofort meldest – am besten schriftlich."
+      },
+      "termination": {
+        "title": "Kündigung und Auszug",
+        "description": "Die Kündigungsfristen hängen vom Vertrag ab, in der Regel beträgt die Ankündigungsfrist mindestens einen Monat. Bei Auszug musst du die Wohnung im gleichen Zustand zurückgeben wie beim Einzug – normale Abnutzung ist natürlich erlaubt. Damit du deine Kaution zurückbekommst, solltest du beim Auszug erneut ein Protokoll machen und die Zählerstände dokumentieren."
+      },
+      "special_conditions": {
+        "title": "Haustiere, Rauchen und Co.",
+        "description": "Einige Vermieter schließen Haustiere von vornherein aus, andere erlauben sie, wenn es im Vertrag steht. Achte also genau darauf. Ähnlich beim Rauchen: Oft ist es in den Wohnungen erlaubt, in den Gemeinschaftsbereichen aber verboten. Gäste und Untervermietung solltest du ebenfalls vorher klären – vieles ist nicht erlaubt, vor allem wegen der strengen Regeln gegen illegale Ferienvermietung."
+      },
+      "practical_tips": {
+        "title": "Praktische Tipps aus der Praxis",
+        "tips": {
+          "be_quick": "Sei schnell – ruf sofort an, wenn dich eine Wohnung interessiert.",
+          "have_documents": "Hab deine Unterlagen griffbereit, damit du direkt zuschlagen kannst.",
+          "never_pay_without_contract": "Bezahle niemals etwas ohne Vertrag und offizielle Quittung.",
+          "negotiate": "Verhandle ruhig über die Miete – oft ist bei längerer Mietdauer ein kleiner Rabatt drin.",
+          "use_whatsapp": "Nutze WhatsApp: In Spanien läuft fast die gesamte Kommunikation über diesen Weg."
+        }
+      },
+      "common_mistakes": {
+        "title": "Häufige Fehler & wie du sie vermeidest",
+        "mistakes": {
+          "cash_deposit": {
+            "mistake": "Kaution bar geben ohne Quittung",
+            "avoid": "nur mit Beleg"
+          },
+          "no_protocol": {
+            "mistake": "Kein Übergabeprotokoll",
+            "avoid": "Fotos + schriftliches Protokoll"
+          },
+          "not_reading_contract": {
+            "mistake": "Vertrag nicht lesen/übersetzen",
+            "avoid": "Übersetzungs-Check / Gestoría"
+          },
+          "assuming_utilities": {
+            "mistake": "Annahme, dass „gastos incluidos\" alles heißt",
+            "avoid": "nachzählen (welche Kosten genau enthalten sind)"
+          },
+          "only_online": {
+            "mistake": "Nur online vertrauen (kein persönlicher Termin)",
+            "avoid": "immer persönlich ansehen"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Fazit",
+        "description": "Eine Wohnung in Spanien zu mieten ist kein Hexenwerk – aber du solltest vorbereitet sein. Mit einem ordentlichen Dossier, einem klaren Blick für Nebenkosten und einem guten Übergabeprotokoll bist du schon auf der sicheren Seite. Und wenn du unsicher bist: Lieber einmal mehr nachfragen oder eine Gestoría einschalten, bevor du etwas unterschreibst. So gehst du entspannt in dein neues Zuhause – und kannst dich auf das konzentrieren, wofür du eigentlich nach Spanien gekommen bist: das Leben genießen."
+      }
+    }
+  }
+}

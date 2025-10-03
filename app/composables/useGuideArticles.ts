@@ -64,6 +64,19 @@ export const guideArticles: GuideArticle[] = [
     available: true
   },
   {
+    id: 'apartment-rental',
+    titleKey: 'guide_apartment_rental.card.title',
+    descriptionKey: 'guide_apartment_rental.card.description',
+    category: 'housing',
+    tags: ['apartment', 'rental', 'contract', 'deposit', 'utilities', 'handover', 'protocol', 'spain', 'renting'],
+    difficulty: 'medium',
+    estimatedTime: '1-2-weeks',
+    route: '/guide/apartment-rental',
+    icon: 'blue',
+    priority: 4,
+    available: true
+  },
+  {
     id: 'banking',
     titleKey: 'guide_banking.title',
     descriptionKey: 'guide_banking.description',
@@ -73,7 +86,7 @@ export const guideArticles: GuideArticle[] = [
     estimatedTime: '1-2-weeks',
     route: '/guide/banking',
     icon: 'purple',
-    priority: 4,
+    priority: 5,
     available: false
   }
 ]
