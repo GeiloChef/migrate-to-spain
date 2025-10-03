@@ -1,10 +1,10 @@
 <template>
-  <div class="hidden 2xl:block fixed z-40" :style="tocStyle">
-    <div class="bg-white/95 backdrop-blur-sm border border-yellow-200 rounded-lg shadow-lg p-4 max-w-64">
+  <div class="hidden lg:block fixed z-40 left-4 top-36" :style="tocStyle">
+    <div class="bg-white/95 backdrop-blur-sm border border-yellow-200 rounded-lg shadow-lg p-3 max-w-56 2xl:max-w-64 2xl:p-4">
       <!-- Header -->
       <div class="flex items-center gap-2 mb-3 pb-2 border-b border-yellow-100">
         <Icon name="heroicons:list-bullet" class="w-4 h-4 text-yellow-600" />
-        <h3 class="font-medium text-gray-800 text-xs">
+        <h3 class="font-medium text-gray-800 text-xs 2xl:text-sm">
           {{ $t('ui.tableOfContents.title') }}
         </h3>
       </div>
@@ -20,7 +20,7 @@
                  :data-heading-id="heading.id"
                  @click="scrollToHeading(heading.id)"
                  :class="[
-                   'block w-full text-left px-2 py-1.5 rounded text-xs transition-all duration-200 cursor-pointer font-semibold',
+                   'block w-full text-left px-2 py-1.5 rounded text-xs 2xl:text-sm transition-all duration-200 cursor-pointer font-semibold',
                    activeHeading === heading.id
                      ? 'bg-yellow-200 text-yellow-900 border-l-2 border-yellow-500' // Highlight for active h2 heading
                      : 'text-gray-600 hover:bg-gray-50 hover:text-gray-800'
@@ -56,12 +56,9 @@ const headings = ref([])
 const activeHeading = ref('')
 const readingProgress = ref(0)
 
-// Simple TOC positioning
+// Simple TOC positioning - now handled by CSS classes
 const tocStyle = computed(() => {
-  return {
-    left: '1.5rem',
-    top: '200px'
-  }
+  return {}
 })
 
 // Determine indentation based on heading level (only h2 now)

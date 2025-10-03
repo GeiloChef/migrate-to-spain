@@ -9,29 +9,6 @@
     hero-title-key="guide_apartment.hero.title"
     hero-description-key="guide_apartment.hero.description"
   >
-    <!-- Table of Contents -->
-    <div class="bg-gradient-to-br from-gray-50 to-blue-50/30 px-4 py-6 md:px-6 md:py-8">
-      <div class="flex items-start space-x-4 mb-6">
-        <div class="flex-shrink-0 w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
-          </svg>
-        </div>
-        <h2 class="text-2xl font-bold text-gray-900">
-          {{ $t('guide_apartment.content.table_of_contents.title') }}
-        </h2>
-      </div>
-      <div class="grid md:grid-cols-2 gap-4">
-        <div v-for="(item, index) in tableOfContents" :key="index" 
-             @click="() => scrollToSection(item)"
-             class="flex items-center space-x-3 p-3 bg-white rounded-lg hover:bg-gray-50 transition-colors cursor-pointer hover:shadow-md group">
-          <span class="flex-shrink-0 w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold group-hover:bg-blue-600 transition-colors">
-            {{ index + 1 }}
-          </span>
-          <span class="text-gray-700 font-medium group-hover:text-blue-600 transition-colors">{{ $t('guide_apartment.content.table_of_contents.items.' + item) }}</span>
-        </div>
-      </div>
-    </div>
         <!-- Overview -->
         <div id="overview" class="bg-gradient-to-br from-spain-cream to-spain-yellow/20">
           <div class="px-4 py-8 md:px-6 md:py-16">
@@ -597,18 +574,6 @@
 
 <script lang="ts" setup>
 // Arrays for v-for loops
-const tableOfContents = [
-  'overview',
-  'regional_differences',
-  'online_platforms',
-  'local_methods',
-  'reading_listings',
-  'viewing_checklist',
-  'search_dossier',
-  'red_flags',
-  'budget_planning',
-  'glossary'
-]
 
 const searchApproaches = [
   'online_portals',
@@ -779,24 +744,6 @@ const glossaryTerms = [
   'ground_floor'
 ]
 
-// Scroll to section function
-const scrollToSection = (sectionId: string) => {
-  console.log('Scrolling to section:', sectionId) // Debug log
-  const element = document.getElementById(sectionId)
-  console.log('Element found:', element) // Debug log
-  if (element) {
-    // Add a small offset to account for any fixed headers
-    const offset = 80
-    const elementPosition = element.offsetTop - offset
-    
-    window.scrollTo({
-      top: elementPosition,
-      behavior: 'smooth'
-    })
-  } else {
-    console.error('Element not found:', sectionId)
-  }
-}
 
 // SEO
 useHead({
