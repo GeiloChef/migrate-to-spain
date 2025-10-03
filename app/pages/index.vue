@@ -36,9 +36,7 @@
 
     <!-- The Guide Section -->
     <div class="h-screen snap-start bg-gradient-to-br from-spain-cream to-spain-yellow/20">
-      <div class="h-full flex items-center justify-center px-6">
-        <GuideSection />
-      </div>
+      <MobileGuideSection />
     </div>
 
     <!-- Footer -->

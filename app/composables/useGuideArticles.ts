@@ -103,19 +103,19 @@ export const useGuideArticles = () => {
       // Format: "2-4-weeks" or "1-3-months"
       const [min, max, unit] = parts
       const unitKey = unit === 'weeks' ? 'weeks' : 'months'
-      return t('guide_common.estimated-time.range', {
+      return t('guide.estimated-time.range', {
         min,
         max,
-        unit: t(`guide_common.estimated-time.${unitKey}`)
-      })
+        unit: t(`guide.estimated-time.${unitKey}`)
+      }).replace('{min}', min).replace('{max}', max).replace('{unit}', t(`guide.estimated-time.${unitKey}`))
     } else if (parts.length === 2 && parts[1] === 'plus') {
       // Format: "6-plus-months"
       const [min, , unit] = parts
       const unitKey = unit === 'weeks' ? 'weeks' : 'months'
-      return t('guide_common.estimated-time.range-plus', {
+      return t('guide.estimated-time.range-plus', {
         min,
-        unit: t(`guide_common.estimated-time.${unitKey}`)
-      })
+        unit: t(`guide.estimated-time.${unitKey}`)
+      }).replace('{min}', min).replace('{unit}', t(`guide.estimated-time.${unitKey}`))
     }
     
     // Fallback to original value if format doesn't match
@@ -127,10 +127,10 @@ export const useGuideArticles = () => {
       ...article,
       title: t(article.titleKey),
       description: t(article.descriptionKey),
-      translatedCategory: t(`guide_common.categories.${article.category}`),
-      translatedDifficulty: t(`guide_common.difficulty.${article.difficulty}`),
+      translatedCategory: t(`guide.categories.${article.category}`),
+      translatedDifficulty: t(`guide.difficulty.${article.difficulty}`),
       translatedEstimatedTime: translateEstimatedTime(article.estimatedTime),
-      translatedTags: article.tags.map(tag => t(`guide_common.tags.${tag}`))
+      translatedTags: article.tags.map(tag => t(`guide.tags.${tag}`))
     }))
   })
 

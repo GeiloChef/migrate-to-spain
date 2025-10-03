@@ -1,54 +1,56 @@
 {
-  "categories": {
-    "bureaucracy": "Bureaucracy",
-    "housing": "Housing",
-    "finance": "Finance",
-    "legal": "Legal",
-    "healthcare": "Healthcare",
-    "education": "Education",
-    "transport": "Transport",
-    "lifestyle": "Lifestyle"
-  },
-  "difficulty": {
-    "easy": "Easy",
-    "medium": "Medium",
-    "hard": "Hard"
-  },
-  "estimated-time": {
-    "weeks": "weeks",
-    "months": "months",
-    "plus": "+",
-    "range": "{min}-{max} {unit}",
-    "range-plus": "{min}+ {unit}"
-  },
-  "tags": {
-    "nie": "NIE",
-    "bureaucracy": "Bureaucracy",
-    "documents": "Documents",
-    "identification": "Identification",
-    "id-card": "ID Card",
-    "number": "Number",
-    "application": "Application",
-    "police": "Police",
-    "spain": "Spain",
-    "gestoria": "Gestoría",
-    "help": "Help",
-    "lawyer": "Lawyer",
-    "authorities": "Authorities",
-    "support": "Support",
-    "apartment": "Apartment",
-    "rent": "Rent",
-    "housing": "Housing",
-    "search": "Search",
-    "real-estate": "Real Estate",
-    "idealista": "Idealista",
-    "agent": "Agent",
-    "bank": "Bank",
-    "account": "Account",
-    "finance": "Finance",
-    "money": "Money",
-    "banking": "Banking",
-    "online-banking": "Online Banking",
-    "credit-card": "Credit Card"
+  "guide": {
+    "categories": {
+      "bureaucracy": "Bureaucracy",
+      "housing": "Housing",
+      "finance": "Finance",
+      "legal": "Legal",
+      "healthcare": "Healthcare",
+      "education": "Education",
+      "transport": "Transport",
+      "lifestyle": "Lifestyle"
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "estimated-time": {
+      "weeks": "weeks",
+      "months": "months",
+      "plus": "+",
+      "range": "{min}-{max} {unit}",
+      "range-plus": "{min}+ {unit}"
+    },
+    "tags": {
+      "nie": "NIE",
+      "bureaucracy": "Bureaucracy",
+      "documents": "Documents",
+      "identification": "Identification",
+      "id-card": "ID Card",
+      "number": "Number",
+      "application": "Application",
+      "police": "Police",
+      "spain": "Spain",
+      "gestoria": "Gestoría",
+      "help": "Help",
+      "lawyer": "Lawyer",
+      "authorities": "Authorities",
+      "support": "Support",
+      "apartment": "Apartment",
+      "rent": "Rent",
+      "housing": "Housing",
+      "search": "Search",
+      "real-estate": "Real Estate",
+      "idealista": "Idealista",
+      "agent": "Agent",
+      "bank": "Bank",
+      "account": "Account",
+      "finance": "Finance",
+      "money": "Money",
+      "banking": "Banking",
+      "online-banking": "Online Banking",
+      "credit-card": "Credit Card"
+    }
   }
 }
