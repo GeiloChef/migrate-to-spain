@@ -56,6 +56,9 @@ const headings = ref([])
 const activeHeading = ref('')
 const readingProgress = ref(0)
 
+// Get current locale for reactivity
+const { locale } = useI18n()
+
 // Simple TOC positioning - now handled by CSS classes
 const tocStyle = computed(() => {
   return {}
@@ -69,6 +72,9 @@ const getHeadingIndent = (level) => {
 
 // Generate unique IDs for headings and extract them
 const generateHeadingIds = () => {
+  // Clear existing headings array
+  headings.value = []
+  
   // Get only h2 headings on the page
   const headingElements = document.querySelectorAll('h2')
   
@@ -227,6 +233,20 @@ const handleScroll = () => {
   updateActiveHeading()
   updateReadingProgress()
 }
+
+// Watch for locale changes and regenerate headings
+watch(locale, () => {
+  // Clear existing headings
+  headings.value = []
+  activeHeading.value = ''
+  
+  // Wait for DOM to update with new language content
+  nextTick(() => {
+    generateHeadingIds()
+    updateActiveHeading()
+    updateReadingProgress()
+  })
+}, { immediate: false })
 
 // Initialize on mount
 onMounted(() => {
