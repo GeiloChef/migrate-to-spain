@@ -7,7 +7,7 @@
     <TableOfContents />
 
     <!-- Content Section -->
-    <div class="max-w-4xl mx-auto rounded-b-3xl shadow-2xl">
+    <div class="max-w-4xl mx-auto lg:ml-80 lg:mr-8 rounded-b-3xl shadow-2xl">
       <slot />
       
       <!-- Navigation -->
