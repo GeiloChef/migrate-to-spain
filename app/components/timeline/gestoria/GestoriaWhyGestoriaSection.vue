@@ -41,9 +41,10 @@
           <!-- Gestoría Card -->
           <div v-if="activeTab === 'gestoria'" class="bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200 shadow-sm overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=200&fit=crop&crop=center" 
-              alt="Gestoría Office" 
+              src="/images/timeline/gestoria-consulting.png" 
+              alt="Gestoría consultation and administrative services" 
               class="w-full h-32 object-cover"
+              style="object-position: center bottom;"
             />
             <div class="p-6">
               <h3 class="!text-lg font-semibold text-gray-900 mb-3">
@@ -58,8 +59,8 @@
           <!-- Fachanwalt Card -->
           <div v-if="activeTab === 'lawyer'" class="bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200 shadow-sm overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=200&fit=crop&crop=center" 
-              alt="Lawyer Office" 
+              src="/images/timeline/property-lawyer.png" 
+              alt="Real estate lawyer consultation" 
               class="w-full h-32 object-cover"
             />
             <div class="p-6">
@@ -79,9 +80,10 @@
         <!-- Gestoría Card -->
         <div class="bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200 shadow-sm overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=200&fit=crop&crop=center" 
-            alt="Gestoría Office" 
+            src="/images/timeline/gestoria-consulting.png" 
+            alt="Gestoría consultation and administrative services" 
             class="w-full h-32 object-cover"
+            style="object-position: center bottom;"
           />
           <div class="p-6">
             <h3 class="!text-lg font-semibold text-gray-900 mb-3">
@@ -96,8 +98,8 @@
         <!-- Fachanwalt Card -->
         <div class="bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200 shadow-sm overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=200&fit=crop&crop=center" 
-            alt="Lawyer Office" 
+            src="/images/timeline/property-lawyer.png" 
+            alt="Real estate lawyer consultation" 
             class="w-full h-32 object-cover"
           />
           <div class="p-6">

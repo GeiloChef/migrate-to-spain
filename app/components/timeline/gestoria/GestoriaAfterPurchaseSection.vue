@@ -11,8 +11,8 @@
       <!-- Mobile: Image first -->
       <div class="block lg:hidden mb-6">
         <img 
-          src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=400&fit=crop&crop=center" 
-          alt="Office work and documents" 
+          src="/images/timeline/get-keys-of-own-property.png" 
+          alt="Handover of house keys after purchase" 
           class="w-full h-64 object-cover rounded-xl shadow-lg"
         />
       </div>
@@ -21,8 +21,8 @@
         <!-- Desktop: Left side: Image -->
         <div class="hidden lg:block">
           <img 
-            src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=400&fit=crop&crop=center" 
-            alt="Office work and documents" 
+            src="/images/timeline/get-keys-of-own-property.png" 
+            alt="Handover of house keys after purchase" 
             class="w-full h-full object-cover rounded-xl shadow-lg"
           />
         </div>

@@ -10,7 +10,7 @@
       <!-- Background Image -->
       <div class="w-full h-[300px] md:h-[400px] md:rounded-t-3xl overflow-hidden shadow-2xl">
         <img 
-          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          src="/images/timeline/move-into-new-home.png" 
           alt="First stay in my own apartment in Spain"
           class="w-full h-full object-cover"
         />

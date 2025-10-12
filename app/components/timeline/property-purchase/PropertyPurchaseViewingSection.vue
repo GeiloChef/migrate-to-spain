@@ -16,7 +16,7 @@
     <div class="block md:float-right md:ml-8 mb-6 w-full md:w-80 md:max-w-sm">
       <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
         <img 
-          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          src="/images/timeline/couple-visiting-property.png" 
           alt="Apartment viewing in Spain"
           class="w-full h-full object-cover"
         />

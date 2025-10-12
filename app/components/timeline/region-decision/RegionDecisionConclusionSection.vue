@@ -14,8 +14,8 @@
       </div>
       <div class="h-[300px] rounded-xl overflow-hidden shadow-md">
         <img 
-          src="https://images.unsplash.com/photo-1669630127462-831f4883e672?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="Die Entscheidung ist gefallen - Spanische Landschaft"
+          src="/images/timeline/murcia-region.png" 
+          alt="Die Entscheidung ist gefallen - Murcia Region"
           class="w-full h-full object-cover"
         />
       </div>

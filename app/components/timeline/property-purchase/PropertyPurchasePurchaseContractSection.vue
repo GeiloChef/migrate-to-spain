@@ -14,7 +14,7 @@
 
     <!-- Image at the beginning -->
     <div class="mb-8">
-      <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+      <div class="aspect-[8/3] rounded-2xl overflow-hidden shadow-xl">
         <img 
           src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Signing contract documents"
