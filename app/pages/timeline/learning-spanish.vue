@@ -3,7 +3,7 @@
     :previous-step="'/timeline/first-research-feasibility'"
     :next-step="'/timeline/discovering-spain'"
     :previous-step-name="$t('first-research-feasibility.title')"
-    :next-step-name="$t('discovering-spain.title')"
+    :next-step-name="$t('learning-spanish.title')"
   >
     <!-- Hero Section -->
     <TimelineLearningSpanishHeroSection />
