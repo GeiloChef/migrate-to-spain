@@ -59,6 +59,145 @@
             </div>
           </div>
         </div>
+
+        <!-- Property Calculator -->
+        <div class="mt-12 bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+          <div class="flex items-center mb-6">
+            <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mr-4">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">Immobilienrechner</h3>
+          </div>
+          
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Input Section -->
+            <div class="space-y-6">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">
+                  {{ $t('guide_property_purchase.content.preparation_financing.calculator.property_value') }}
+                </label>
+                <div class="relative">
+                  <input 
+                    v-model="formattedPropertyValue"
+                    @input="updatePropertyValue"
+                    type="text"
+                    class="w-full px-4 py-3 pl-12 pr-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors text-lg font-medium"
+                    placeholder="300.000"
+                  />
+                  <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                    <span class="text-gray-500 font-medium">€</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">
+                  {{ $t('guide_property_purchase.content.preparation_financing.calculator.equity_percentage') }}
+                </label>
+                <div class="space-y-3">
+                  <!-- Slider -->
+                  <div class="relative">
+                    <input 
+                      v-model.number="equityPercentage"
+                      type="range"
+                      min="10"
+                      max="50"
+                      step="5"
+                      class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+                    />
+                  </div>
+                  
+                  <!-- Percentage display -->
+                  <div class="flex items-center justify-between text-sm">
+                    <span class="text-gray-600">10%</span>
+                    <div class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full font-medium">
+                      {{ equityPercentage }}%
+                    </div>
+                    <span class="text-gray-600">50%</span>
+                  </div>
+                  
+                  <!-- Financing info -->
+                  <div class="text-xs text-gray-500 text-center">
+                    {{ $t('guide_property_purchase.content.preparation_financing.calculator.financing_info', { equity: equityPercentage, financing: 100 - equityPercentage }) }}
+                  </div>
+                </div>
+              </div>
+              
+              <div class="p-4 bg-blue-50 rounded-xl border border-blue-200">
+                <h4 class="text-sm font-medium text-blue-800 mb-2">{{ $t('guide_property_purchase.content.preparation_financing.calculator.assumptions') }}</h4>
+                <ul class="text-sm text-blue-700 space-y-1">
+                  <li>• {{ $t('guide_property_purchase.content.preparation_financing.calculator.assumption_1') }}</li>
+                  <li>• {{ $t('guide_property_purchase.content.preparation_financing.calculator.assumption_2') }}</li>
+                  <li>• {{ $t('guide_property_purchase.content.preparation_financing.calculator.assumption_3') }}</li>
+                </ul>
+              </div>
+            </div>
+            
+            <!-- Results Section -->
+            <div class="space-y-3">
+              <!-- Equity Required -->
+              <div class="p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border border-green-200">
+                <div class="flex items-center justify-between mb-2">
+                  <h4 class="text-sm font-semibold text-green-800">{{ $t('guide_property_purchase.content.preparation_financing.calculator.equity_required') }}</h4>
+                  <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="text-xl font-bold text-green-700">{{ formatCurrency(equityRequired) }}</div>
+                <div class="text-xs text-green-600 mt-1">{{ equityPercentage }}% {{ $t('guide_property_purchase.content.preparation_financing.calculator.of_property_value') }}</div>
+              </div>
+              
+              <!-- Additional Costs -->
+              <div class="p-4 bg-gradient-to-r from-amber-50 to-yellow-50 rounded-xl border border-amber-200">
+                <div class="flex items-center justify-between mb-2">
+                  <h4 class="text-sm font-semibold text-amber-800">{{ $t('guide_property_purchase.content.preparation_financing.calculator.additional_costs') }}</h4>
+                  <div class="w-6 h-6 bg-amber-500 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="text-xl font-bold text-amber-700">{{ formatCurrency(additionalCosts) }}</div>
+                <div class="text-xs text-amber-600 mt-1">{{ additionalCostsPercentage }}% {{ $t('guide_property_purchase.content.preparation_financing.calculator.of_property_value') }}</div>
+              </div>
+              
+              <!-- Total Required -->
+              <div class="p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-200">
+                <div class="flex items-center justify-between mb-2">
+                  <h4 class="text-sm font-semibold text-blue-800">{{ $t('guide_property_purchase.content.preparation_financing.calculator.total_required') }}</h4>
+                  <div class="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h6m0 0v6m0-6l-6 6m6-6l-6 6"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="text-xl font-bold text-blue-700">{{ formatCurrency(totalRequired) }}</div>
+                <div class="text-xs text-blue-600 mt-1">{{ $t('guide_property_purchase.content.preparation_financing.calculator.equity_plus_costs') }}</div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Calculator Disclaimer -->
+          <div class="mt-6 p-4 bg-gray-50 rounded-xl border border-gray-200">
+            <div class="flex items-start space-x-3">
+              <div class="flex-shrink-0 w-5 h-5 mt-0.5">
+                <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-sm font-medium text-gray-800 mb-1">{{ $t('guide_property_purchase.content.preparation_financing.calculator.disclaimer.title') }}</h4>
+                <p class="text-xs text-gray-600 leading-relaxed">
+                  {{ $t('guide_property_purchase.content.preparation_financing.calculator.disclaimer.text') }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -399,6 +538,54 @@ const financingItems = [
   'requirements'
 ]
 
+// Property Calculator
+const propertyValue = ref(300000)
+const equityPercentage = ref(25) // Default 25%
+
+// Formatted property value for display
+const formattedPropertyValue = ref('300.000')
+
+// Update property value from formatted input
+const updatePropertyValue = (event: Event) => {
+  const target = event.target as HTMLInputElement
+  const value = target.value.replace(/\./g, '') // Remove dots
+  const numericValue = parseInt(value) || 0
+  propertyValue.value = numericValue
+  formattedPropertyValue.value = formatNumber(numericValue)
+}
+
+// Format number with thousand separators
+const formatNumber = (num: number) => {
+  return new Intl.NumberFormat('de-DE').format(num)
+}
+
+// Computed values for calculator
+const equityRequired = computed(() => {
+  return Math.round(propertyValue.value * (equityPercentage.value / 100))
+})
+
+const additionalCosts = computed(() => {
+  return Math.round(propertyValue.value * 0.125) // 12.5% additional costs
+})
+
+const additionalCostsPercentage = computed(() => {
+  return Math.round((additionalCosts.value / propertyValue.value) * 100)
+})
+
+const totalRequired = computed(() => {
+  return equityRequired.value + additionalCosts.value
+})
+
+// Format currency function
+const formatCurrency = (amount: number) => {
+  return new Intl.NumberFormat('de-DE', {
+    style: 'currency',
+    currency: 'EUR',
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
+  }).format(amount)
+}
+
 const purchaseSteps = [
   'reservation',
   'pre_contract',
@@ -505,5 +692,27 @@ useHead({
 
 .animate-bounce-slow {
   animation: bounceSlow 2s infinite;
+}
+
+/* Slider styling */
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #3B82F6;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.slider::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #3B82F6;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 </style>

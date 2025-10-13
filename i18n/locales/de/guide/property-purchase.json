@@ -47,6 +47,24 @@
         "requirements": {
           "title": "Voraussetzungen",
           "description": "Banken verlangen Gehaltsnachweise oder Einkommensbelege. Als Ausländer ohne Einkommen in Spanien wird oft eine höhere Eigenkapitalquote verlangt."
+        },
+        "calculator": {
+          "property_value": "Immobilienwert",
+          "equity_percentage": "Eigenkapitalquote",
+          "financing_info": "{equity}% Eigenkapital, {financing}% Finanzierung",
+          "assumptions": "Berechnungsgrundlagen",
+          "assumption_1": "Variable Eigenkapitalquote (10-50%)",
+          "assumption_2": "12,5% Nebenkosten (Steuern, Notar, etc.)",
+          "assumption_3": "Durchschnittswerte für Spanien",
+          "equity_required": "Benötigtes Eigenkapital",
+          "additional_costs": "Nebenkosten",
+          "total_required": "Gesamtbedarf",
+          "of_property_value": "vom Immobilienwert",
+          "equity_plus_costs": "Eigenkapital + Nebenkosten",
+          "disclaimer": {
+            "title": "Hinweis",
+            "text": "Dieser Rechner dient nur zur groben Orientierung und stellt keine Finanzberatung dar. Die tatsächlichen Kosten können je nach Region, Bank und individueller Situation abweichen. Für eine genaue Finanzierungsplanung wende dich an eine Bank oder einen Finanzberater."
+          }
         }
       },
       "purchase_process": {

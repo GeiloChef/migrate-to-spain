@@ -47,6 +47,24 @@
         "requirements": {
           "title": "Requisitos",
           "description": "Los bancos requieren certificados de salario o comprobantes de ingresos. Como extranjero sin ingresos en España, a menudo se requiere una mayor proporción de capital propio."
+        },
+        "calculator": {
+          "property_value": "Valor de la Propiedad",
+          "equity_percentage": "Porcentaje de Capital Propio",
+          "financing_info": "{equity}% capital propio, {financing}% financiación",
+          "assumptions": "Base de Cálculo",
+          "assumption_1": "Porcentaje variable de capital propio (10-50%)",
+          "assumption_2": "12,5% costos adicionales (impuestos, notario, etc.)",
+          "assumption_3": "Valores promedio para España",
+          "equity_required": "Capital Propio Requerido",
+          "additional_costs": "Costos Adicionales",
+          "total_required": "Total Requerido",
+          "of_property_value": "del valor de la propiedad",
+          "equity_plus_costs": "Capital Propio + Costos Adicionales",
+          "disclaimer": {
+            "title": "Aviso",
+            "text": "Esta calculadora es solo para orientación general y no constituye asesoramiento financiero. Los costos reales pueden variar según la región, banco y situación individual. Para una planificación financiera precisa, consulta con un banco o asesor financiero."
+          }
         }
       },
       "purchase_process": {

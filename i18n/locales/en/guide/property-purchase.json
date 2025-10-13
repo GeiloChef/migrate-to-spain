@@ -47,6 +47,24 @@
         "requirements": {
           "title": "Requirements",
           "description": "Banks require salary certificates or proof of income. As a foreigner without income in Spain, a higher equity ratio is often required."
+        },
+        "calculator": {
+          "property_value": "Property Value",
+          "equity_percentage": "Equity Percentage",
+          "financing_info": "{equity}% equity, {financing}% financing",
+          "assumptions": "Calculation Basis",
+          "assumption_1": "Variable equity percentage (10-50%)",
+          "assumption_2": "12.5% additional costs (taxes, notary, etc.)",
+          "assumption_3": "Average values for Spain",
+          "equity_required": "Required Equity",
+          "additional_costs": "Additional Costs",
+          "total_required": "Total Required",
+          "of_property_value": "of property value",
+          "equity_plus_costs": "Equity + Additional Costs",
+          "disclaimer": {
+            "title": "Disclaimer",
+            "text": "This calculator is for rough orientation only and does not constitute financial advice. Actual costs may vary depending on region, bank, and individual situation. For accurate financing planning, consult a bank or financial advisor."
+          }
         }
       },
       "purchase_process": {
