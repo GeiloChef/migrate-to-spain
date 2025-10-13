@@ -151,6 +151,11 @@
           "utilities": "Wasser, Strom, Gas und Internet ummelden",
           "non_resident_tax": "ggf. die Nicht-Residentensteuer (Modelo 210) zahlen, falls du nicht dauerhaft in Spanien lebst"
         },
+        "priority": {
+          "high": "Hoch",
+          "medium": "Mittel",
+          "low": "Niedrig"
+        },
         "gestoria_recommendation": "Eine Gestoría kümmert sich gegen Gebühr um all diese Schritte – sehr empfehlenswert, wenn du nicht vor Ort bist oder dir Zeit sparen willst."
       },
       "practical_tips": {

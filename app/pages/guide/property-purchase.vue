@@ -217,18 +217,54 @@
             {{ $t('guide_property_purchase.content.after_purchase.title') }}
           </h2>
         </div>
-        <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+        <p class="text-lg text-gray-700 mb-8 leading-relaxed">
           {{ $t('guide_property_purchase.content.after_purchase.description') }}
         </p>
-        <div class="space-y-4 mb-6">
-          <div v-for="(step, index) in afterPurchaseSteps" :key="index" 
-               class="flex items-start space-x-4 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-200">
-            <div class="flex-shrink-0 w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
-              {{ index + 1 }}
+        
+        <!-- Todo List -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-200 mb-6">
+          <div class="flex items-center mb-6">
+            <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
+              <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+              </svg>
             </div>
-            <p class="text-gray-700 leading-relaxed">{{ $t(`guide_property_purchase.content.after_purchase.steps.${step}`) }}</p>
+            <h3 class="text-xl font-bold text-gray-900">Deine To-Do Liste</h3>
+          </div>
+          
+          <div class="space-y-4">
+            <div v-for="(step, index) in afterPurchaseSteps" :key="index" 
+                 class="flex items-start space-x-4 p-4 bg-gray-50 rounded-xl border border-gray-200 hover:bg-blue-50 hover:border-blue-200 transition-all duration-300 group cursor-pointer">
+              <!-- Checkbox -->
+              <div class="flex-shrink-0 mt-1">
+                <div class="w-6 h-6 border-2 border-gray-300 rounded-full flex items-center justify-center group-hover:border-green-500 group-hover:bg-green-500 transition-all duration-300">
+                  <!-- Checkmark that appears on hover -->
+                  <svg class="w-4 h-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+              </div>
+              <!-- Content -->
+              <div class="flex-1">
+                <p class="text-gray-700 leading-relaxed font-medium group-hover:text-gray-900 transition-colors duration-300">{{ $t(`guide_property_purchase.content.after_purchase.steps.${step}`) }}</p>
+              </div>
+              <!-- Priority indicator -->
+              <div class="flex-shrink-0">
+                <span v-if="index < 2" class="px-2 py-1 bg-red-100 text-red-700 text-xs font-medium rounded-full group-hover:bg-red-200 transition-colors duration-300">
+                  {{ $t('guide_property_purchase.content.after_purchase.priority.high') }}
+                </span>
+                <span v-else-if="index < 4" class="px-2 py-1 bg-yellow-100 text-yellow-700 text-xs font-medium rounded-full group-hover:bg-yellow-200 transition-colors duration-300">
+                  {{ $t('guide_property_purchase.content.after_purchase.priority.medium') }}
+                </span>
+                <span v-else class="px-2 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full group-hover:bg-green-200 transition-colors duration-300">
+                  {{ $t('guide_property_purchase.content.after_purchase.priority.low') }}
+                </span>
+              </div>
+            </div>
           </div>
         </div>
+
+        <!-- Gestoría Recommendation -->
         <div class="p-6 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border border-green-200 relative overflow-hidden">
           <!-- Background icon -->
           <div class="absolute -top-2 -right-2 w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center opacity-20">
@@ -238,9 +274,19 @@
           </div>
           <!-- Content -->
           <div class="relative z-10">
-            <p class="text-green-800 font-semibold leading-relaxed">
-              {{ $t('guide_property_purchase.content.after_purchase.gestoria_recommendation') }}
-            </p>
+            <div class="flex items-start space-x-3">
+              <div class="flex-shrink-0 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-lg font-bold text-green-800 mb-2">💡 Pro-Tipp</h4>
+                <p class="text-green-700 leading-relaxed">
+                  {{ $t('guide_property_purchase.content.after_purchase.gestoria_recommendation') }}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -259,13 +305,45 @@
             {{ $t('guide_property_purchase.content.practical_tips.title') }}
           </h2>
         </div>
-        <div class="grid gap-4">
+        
+        <!-- Tips Grid -->
+        <div class="grid gap-6 md:grid-cols-2">
           <div v-for="(tip, index) in practicalTips" :key="index" 
-               class="flex items-start space-x-4 p-6 bg-gradient-to-r from-amber-50 to-yellow-50 rounded-xl border border-amber-200 hover:shadow-md transition-shadow">
-            <div class="flex-shrink-0 w-8 h-8 bg-amber-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
-              {{ index + 1 }}
+               class="group relative bg-white rounded-2xl p-6 border border-gray-200 hover:border-amber-300 hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden">
+            <!-- Background gradient on hover -->
+            <div class="absolute inset-0 bg-gradient-to-br from-amber-50 to-yellow-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            
+            <!-- Content -->
+            <div class="relative z-10">
+              <!-- Icon and number -->
+              <div class="flex items-center mb-4">
+                <div class="w-10 h-10 bg-gradient-to-br from-amber-500 to-orange-500 rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300">
+                  <span class="text-white font-bold text-lg">{{ index + 1 }}</span>
+                </div>
+                <div class="flex-1">
+                  <div class="h-1 bg-gray-200 rounded-full overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-amber-500 to-orange-500 rounded-full transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500" 
+                         :style="`transition-delay: ${index * 100}ms`"></div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Tip content -->
+              <p class="text-gray-700 leading-relaxed group-hover:text-gray-900 transition-colors duration-300">
+                {{ $t(`guide_property_purchase.content.practical_tips.tips.${tip}`) }}
+              </p>
+              
+              <!-- Hover indicator -->
+              <div class="mt-4 flex items-center text-amber-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                </svg>
+                <span class="text-sm font-medium">Wichtiger Tipp</span>
+              </div>
             </div>
-            <p class="text-gray-700 leading-relaxed">{{ $t(`guide_property_purchase.content.practical_tips.tips.${tip}`) }}</p>
+            
+            <!-- Decorative corner -->
+            <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-amber-100 to-orange-100 rounded-bl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
         </div>
       </div>
@@ -301,7 +379,11 @@
             </p>
           </div>
         </div>
-        <Disclaimer />
+        
+        <!-- Top spacing for disclaimer -->
+        <div class="mt-16">
+          <Disclaimer />
+        </div>
       </div>
     </div>
   </GuideLayout>

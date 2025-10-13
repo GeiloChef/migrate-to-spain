@@ -151,6 +151,11 @@
           "utilities": "transferir agua, electricidad, gas e internet",
           "non_resident_tax": "posiblemente pagar el impuesto de no residente (Modelo 210), si no vives permanentemente en España"
         },
+        "priority": {
+          "high": "Alta",
+          "medium": "Media",
+          "low": "Baja"
+        },
         "gestoria_recommendation": "Una Gestoría se encarga de todos estos pasos por una tarifa – muy recomendable si no estás en el lugar o quieres ahorrar tiempo."
       },
       "practical_tips": {

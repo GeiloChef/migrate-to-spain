@@ -151,6 +151,11 @@
           "utilities": "transfer water, electricity, gas, and internet",
           "non_resident_tax": "possibly pay the non-resident tax (Modelo 210), if you don't live permanently in Spain"
         },
+        "priority": {
+          "high": "High",
+          "medium": "Medium",
+          "low": "Low"
+        },
         "gestoria_recommendation": "A Gestoría takes care of all these steps for a fee – highly recommended if you're not on site or want to save time."
       },
       "practical_tips": {
