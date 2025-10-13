@@ -16,7 +16,7 @@
             <input 
               type="text" 
               placeholder="Suche nach Themen..." 
-              class="w-full px-4 py-3 pl-12 pr-4 bg-white border border-spain-yellow/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-spain-yellow/50 focus:border-spain-yellow/50 transition-all duration-300 shadow-sm"
+              class="w-full px-4 py-3 pl-12 pr-4 bg-white border border-spain-yellow/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-spain-yellow/50 focus:border-spain-yellow/50 transition-all duration-300 shadow-sm text-gray-900 placeholder-gray-500"
               v-model="searchQuery"
             />
             <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
