@@ -77,6 +77,19 @@ export const guideArticles: GuideArticle[] = [
     available: true
   },
   {
+    id: 'property-purchase',
+    titleKey: 'guide_property_purchase.card.title',
+    descriptionKey: 'guide_property_purchase.card.description',
+    category: 'housing',
+    tags: ['property', 'purchase', 'buy', 'house', 'apartment', 'financing', 'mortgage', 'notary', 'taxes', 'spain', 'real-estate'],
+    difficulty: 'hard',
+    estimatedTime: '3-6-months',
+    route: '/guide/property-purchase',
+    icon: 'green',
+    priority: 5,
+    available: true
+  },
+  {
     id: 'banking',
     titleKey: 'guide_banking.title',
     descriptionKey: 'guide_banking.description',
@@ -86,7 +99,7 @@ export const guideArticles: GuideArticle[] = [
     estimatedTime: '1-2-weeks',
     route: '/guide/banking',
     icon: 'purple',
-    priority: 5,
+    priority: 6,
     available: false
   }
 ]

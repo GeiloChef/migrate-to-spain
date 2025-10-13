@@ -1,0 +1,174 @@
+{
+  "guide_property_purchase": {
+    "title": "Buying Property in Spain",
+    "description": "The comprehensive guide to buying property in Spain – from financing to getting the keys.",
+    "card": {
+      "title": "Buying Property in Spain",
+      "description": "Comprehensive guide to property purchase: financing, purchase process, taxes and key players"
+    },
+    "hero": {
+      "title": "Buying Property in Spain – The Comprehensive Guide",
+      "description": "Buying a property in Spain is a dream for many. Sun, beach, your own home – whether as a vacation home, retirement investment, or permanent residence. But those who only know the purchase process from Germany will quickly realize: In Spain, many things work differently."
+    },
+    "content": {
+      "table_of_contents": {
+        "title": "Table of Contents",
+        "items": {
+          "introduction": "Introduction: Differences from Germany",
+          "preparation_financing": "Preparation & Financing",
+          "purchase_process": "Purchase Process",
+          "key_players": "Key Players",
+          "taxes_costs": "Taxes & Purchase Costs",
+          "risks_pitfalls": "Risks & Typical Pitfalls",
+          "after_purchase": "After Purchase",
+          "practical_tips": "Practical Tips",
+          "conclusion": "Conclusion"
+        }
+      },
+      "introduction": {
+        "title": "Introduction: Differences from Germany, what to expect",
+        "description": "While the notary in Germany handles almost the entire legal review, their role in Spain is much more limited. Pre-contracts, down payments, and certain taxes are common here and can seem unfamiliar to German buyers. Those who are prepared and adjust to these differences can save themselves a lot of stress and ultimately receive the keys to their new apartment or house with peace of mind."
+      },
+      "preparation_financing": {
+        "title": "Preparation & Financing",
+        "description": "Before things get concrete, you should realistically assess your finances.",
+        "equity": {
+          "title": "Equity",
+          "description": "Spanish banks typically finance only about 60–70% of the purchase price. You should therefore bring at least 30% yourself."
+        },
+        "additional_costs": {
+          "title": "Additional Costs",
+          "description": "Plan for an additional 10–15% of the purchase price. This includes taxes, notary and registry costs, as well as Gestoría fees."
+        },
+        "mortgage": {
+          "title": "Mortgage",
+          "description": "Financing through German banks is difficult, as they usually don't register mortgages on Spanish properties. The usual route is therefore through a Spanish bank. There you get loans with fixed, variable, or mixed interest rates, often with terms up to 30 years."
+        },
+        "requirements": {
+          "title": "Requirements",
+          "description": "Banks require salary certificates or proof of income. As a foreigner without income in Spain, a higher equity ratio is often required."
+        }
+      },
+      "purchase_process": {
+        "title": "Purchase Process",
+        "reservation": {
+          "title": "Reservation (\"reserva\")",
+          "description": "Often the process begins with a reservation: With a small sum (e.g., 1–2% of the purchase price), the property is taken off the market for you. This agreement is more informal but already binding."
+        },
+        "pre_contract": {
+          "title": "Pre-contract (\"contrato de arras\")",
+          "description": "The heart of the Spanish purchase process is the pre-contract. Here you typically pay 10% of the purchase price.",
+          "buyer_withdrawal": "If the buyer withdraws, the down payment is forfeited.",
+          "seller_withdrawal": "If the seller withdraws, they must pay back double the amount.",
+          "security": "This gives you strong security that the property is really reserved for you."
+        },
+        "main_contract": {
+          "title": "Main Contract at the Notary",
+          "description": "The final purchase contract (\"escritura de compraventa\") is signed at the notary. You bring the remaining amount – usually by bank check. The notary checks identity, basic documents, and notarizes the purchase. Unlike in Germany, however, they don't provide comprehensive legal advice."
+        },
+        "registration": {
+          "title": "Registration in the Land Registry",
+          "description": "After signing at the notary, the property is registered in the land registry (\"Registro de la Propiedad\"). Only with this registration are you officially the owner. At the same time, the cadastre (\"Catastro\") is updated, which records area and building data."
+        }
+      },
+      "key_players": {
+        "title": "Key Players",
+        "notary": {
+          "title": "Notary",
+          "description": "Notarizes the purchase, checks formalities, but no deep legal review."
+        },
+        "gestoria": {
+          "title": "Gestoría",
+          "description": "Highly recommended. They handle administrative procedures, tax payments, land registry entries, and utility registrations."
+        },
+        "registro": {
+          "title": "Registro de la Propiedad",
+          "description": "The land registry office, where you are registered as the owner."
+        },
+        "catastro": {
+          "title": "Catastro",
+          "description": "Maintains location data, living area, property boundaries – important, as there are sometimes discrepancies with the land registry."
+        },
+        "bank": {
+          "title": "Bank",
+          "description": "Essential for mortgage, payment processing, and bank checks."
+        }
+      },
+      "taxes_costs": {
+        "title": "Taxes & Purchase Costs",
+        "description": "In addition to the purchase price, several costs come your way in Spain:",
+        "itp": {
+          "title": "ITP (Impuesto de Transmisiones Patrimoniales)",
+          "description": "Property transfer tax for used properties, 6–10% depending on the region."
+        },
+        "iva": {
+          "title": "IVA (Value Added Tax)",
+          "description": "For new builds instead of ITP, currently 10%."
+        },
+        "ajd": {
+          "title": "AJD (Actos Jurídicos Documentados)",
+          "description": "Stamp tax on notarial documents, usually about 1%."
+        },
+        "notary_register": {
+          "title": "Notary and Registry Costs",
+          "description": "Vary according to purchase price, together roughly 0.5–1.5%."
+        },
+        "gestoria_costs": {
+          "title": "Gestoría Costs",
+          "description": "ca. €300–600, depending on effort."
+        },
+        "plusvalia": {
+          "title": "Plusvalía Municipal",
+          "description": "Municipal tax on land value increase, normally paid by the seller – but clearly regulate this in the contract!"
+        }
+      },
+      "risks_pitfalls": {
+        "title": "Risks & Typical Pitfalls",
+        "illegal_buildings": {
+          "title": "Illegal Buildings",
+          "description": "Some extensions, pools, or roof terraces are not approved. Without a building permit (Licencia de Obra), high back payments or even demolitions can threaten."
+        },
+        "outstanding_debts": {
+          "title": "Outstanding Debts",
+          "description": "In Spain, community costs (Comunidad), property tax (IBI), or utility bills \"attach\" to the property. Always demand proof before purchase that no outstanding debts exist."
+        },
+        "habitability_certificate": {
+          "title": "Missing Habitability Certificate",
+          "description": "Without this certificate (\"cédula de habitabilidad\"), there can be problems with utilities."
+        },
+        "mortgages_registry": {
+          "title": "Mortgages in the Land Registry",
+          "description": "Make sure no old mortgage is still registered, or that it is deleted upon purchase."
+        }
+      },
+      "after_purchase": {
+        "title": "After Purchase",
+        "description": "The purchase is not yet complete with the signature at the notary. After that you must:",
+        "steps": {
+          "registry": "have the property registered in the land registry",
+          "catastro": "adjust the cadastre",
+          "ibi": "register the annual property tax (IBI)",
+          "utilities": "transfer water, electricity, gas, and internet",
+          "non_resident_tax": "possibly pay the non-resident tax (Modelo 210), if you don't live permanently in Spain"
+        },
+        "gestoria_recommendation": "A Gestoría takes care of all these steps for a fee – highly recommended if you're not on site or want to save time."
+      },
+      "practical_tips": {
+        "title": "Practical Tips",
+        "tips": {
+          "nie_number": "Get NIE number: Nothing works without it. Take care of this early.",
+          "bank_account": "Open Spanish bank account: Essential for purchase price, taxes, and additional costs.",
+          "debt_certificates": "Request debt-free certificates: Both from the land registry and the homeowners' association.",
+          "read_contracts": "Read Reserva & Arras carefully: These contracts are legally binding – much is decided here.",
+          "plan_buffer": "Plan enough buffer: Not only financially, but also time-wise. Some registrations or administrative procedures take weeks.",
+          "use_professionals": "Involve professionals: A good real estate agent, a reliable Gestoría, and possibly a lawyer will save you many problems."
+        }
+      },
+      "conclusion": {
+        "title": "Conclusion",
+        "description": "Buying a property in Spain is an exciting project – but not a walk in the park. With good preparation, sufficient equity, and the right professionals by your side, however, the process runs smoothly. It's important to know the differences from Germany: down payments, different contract forms, and additional taxes.",
+        "final_thought": "If you keep these things in mind and don't let yourself be rushed, you can safely realize your dream of your own house or apartment in Spain. And then only the best remains: moving in, enjoying the terrace, and beginning your new life in Spain."
+      }
+    }
+  }
+}

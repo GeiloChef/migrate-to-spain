@@ -1,0 +1,174 @@
+{
+  "guide_property_purchase": {
+    "title": "Comprar inmuebles en España",
+    "description": "La guía completa para comprar inmuebles en España – desde financiación hasta recibir las llaves.",
+    "card": {
+      "title": "Comprar inmuebles en España",
+      "description": "Guía completa para la compra de inmuebles: financiación, proceso de compra, impuestos y actores clave"
+    },
+    "hero": {
+      "title": "Comprar inmuebles en España – la guía completa",
+      "description": "Comprar una inmueble en España es un sueño para muchos. Sol, playa, tu propio hogar – ya sea como casa de vacaciones, inversión para la jubilación o residencia permanente. Pero quienes solo conocen el proceso de compra desde Alemania se darán cuenta rápidamente: En España, muchas cosas funcionan diferente."
+    },
+    "content": {
+      "table_of_contents": {
+        "title": "Índice de contenidos",
+        "items": {
+          "introduction": "Introducción: Diferencias con Alemania",
+          "preparation_financing": "Preparación y financiación",
+          "purchase_process": "Proceso de compra",
+          "key_players": "Actores clave",
+          "taxes_costs": "Impuestos y costos de compra",
+          "risks_pitfalls": "Riesgos y trampas típicas",
+          "after_purchase": "Después de la compra",
+          "practical_tips": "Consejos prácticos",
+          "conclusion": "Conclusión"
+        }
+      },
+      "introduction": {
+        "title": "Introducción: Diferencias con Alemania, qué esperar",
+        "description": "Mientras que el notario en Alemania maneja casi toda la revisión legal, su papel en España es mucho más limitado. Los precontratos, pagos iniciales y ciertos impuestos son comunes aquí y pueden parecer desconocidos para los compradores alemanes. Quienes estén preparados y se adapten a estas diferencias pueden ahorrarse mucho estrés y finalmente recibir las llaves de su nuevo apartamento o casa con tranquilidad."
+      },
+      "preparation_financing": {
+        "title": "Preparación y financiación",
+        "description": "Antes de que las cosas se pongan concretas, debes evaluar realísticamente tus finanzas.",
+        "equity": {
+          "title": "Capital propio",
+          "description": "Los bancos españoles típicamente financian solo alrededor del 60–70% del precio de compra. Por lo tanto, debes aportar al menos el 30% tú mismo."
+        },
+        "additional_costs": {
+          "title": "Costos adicionales",
+          "description": "Planifica un adicional del 10–15% del precio de compra. Esto incluye impuestos, costos de notario y registro, así como honorarios de Gestoría."
+        },
+        "mortgage": {
+          "title": "Hipoteca",
+          "description": "La financiación a través de bancos alemanes es difícil, ya que generalmente no registran hipotecas sobre propiedades españolas. La ruta usual es por tanto a través de un banco español. Allí obtienes préstamos con tasas de interés fijas, variables o mixtas, a menudo con plazos de hasta 30 años."
+        },
+        "requirements": {
+          "title": "Requisitos",
+          "description": "Los bancos requieren certificados de salario o comprobantes de ingresos. Como extranjero sin ingresos en España, a menudo se requiere una mayor proporción de capital propio."
+        }
+      },
+      "purchase_process": {
+        "title": "Proceso de compra",
+        "reservation": {
+          "title": "Reserva (\"reserva\")",
+          "description": "A menudo el proceso comienza con una reserva: Con una pequeña suma (ej., 1–2% del precio de compra), la propiedad se retira del mercado para ti. Este acuerdo es más informal pero ya vinculante."
+        },
+        "pre_contract": {
+          "title": "Precontrato (\"contrato de arras\")",
+          "description": "El corazón del proceso de compra español es el precontrato. Aquí típicamente pagas el 10% del precio de compra.",
+          "buyer_withdrawal": "Si el comprador se retira, se pierde el pago inicial.",
+          "seller_withdrawal": "Si el vendedor se retira, debe devolver el doble del monto.",
+          "security": "Esto te da una fuerte seguridad de que la propiedad está realmente reservada para ti."
+        },
+        "main_contract": {
+          "title": "Contrato principal en el notario",
+          "description": "El contrato de compraventa final (\"escritura de compraventa\") se firma en el notario. Traes el monto restante – usualmente por cheque bancario. El notario verifica la identidad, documentos básicos y notariza la compra. A diferencia de Alemania, sin embargo, no proporciona asesoramiento legal integral."
+        },
+        "registration": {
+          "title": "Registro en el catastro",
+          "description": "Después de firmar en el notario, la propiedad se registra en el catastro (\"Registro de la Propiedad\"). Solo con este registro eres oficialmente el propietario. Al mismo tiempo, se actualiza el catastro (\"Catastro\"), que registra datos de área y edificio."
+        }
+      },
+      "key_players": {
+        "title": "Actores clave",
+        "notary": {
+          "title": "Notario",
+          "description": "Notariza la compra, verifica formalidades, pero no hay revisión legal profunda."
+        },
+        "gestoria": {
+          "title": "Gestoría",
+          "description": "Muy recomendable. Se encargan de procedimientos administrativos, pagos de impuestos, entradas en el catastro y registros de servicios públicos."
+        },
+        "registro": {
+          "title": "Registro de la Propiedad",
+          "description": "La oficina del catastro, donde estás registrado como propietario."
+        },
+        "catastro": {
+          "title": "Catastro",
+          "description": "Mantiene datos de ubicación, área habitable, límites de propiedad – importante, ya que a veces hay discrepancias con el catastro."
+        },
+        "bank": {
+          "title": "Banco",
+          "description": "Esencial para hipoteca, procesamiento de pagos y cheques bancarios."
+        }
+      },
+      "taxes_costs": {
+        "title": "Impuestos y costos de compra",
+        "description": "Además del precio de compra, varios costos te llegan en España:",
+        "itp": {
+          "title": "ITP (Impuesto de Transmisiones Patrimoniales)",
+          "description": "Impuesto de transmisión de propiedades para inmuebles usados, 6–10% dependiendo de la región."
+        },
+        "iva": {
+          "title": "IVA (Impuesto sobre el Valor Añadido)",
+          "description": "Para construcciones nuevas en lugar de ITP, actualmente 10%."
+        },
+        "ajd": {
+          "title": "AJD (Actos Jurídicos Documentados)",
+          "description": "Impuesto de timbre sobre documentos notariales, usualmente alrededor del 1%."
+        },
+        "notary_register": {
+          "title": "Costos de notario y registro",
+          "description": "Varían según el precio de compra, juntos aproximadamente 0.5–1.5%."
+        },
+        "gestoria_costs": {
+          "title": "Costos de Gestoría",
+          "description": "aprox. €300–600, dependiendo del esfuerzo."
+        },
+        "plusvalia": {
+          "title": "Plusvalía Municipal",
+          "description": "Impuesto municipal sobre el aumento del valor del suelo, normalmente pagado por el vendedor – ¡pero regula esto claramente en el contrato!"
+        }
+      },
+      "risks_pitfalls": {
+        "title": "Riesgos y trampas típicas",
+        "illegal_buildings": {
+          "title": "Construcciones ilegales",
+          "description": "Algunas extensiones, piscinas o terrazas en el techo no están aprobadas. Sin un permiso de construcción (Licencia de Obra), pueden amenazar altos pagos retroactivos o incluso demoliciones."
+        },
+        "outstanding_debts": {
+          "title": "Deudas pendientes",
+          "description": "En España, los costos de comunidad (Comunidad), impuesto sobre la propiedad (IBI) o facturas de servicios públicos se \"adhieren\" a la propiedad. Siempre exige prueba antes de la compra de que no existen deudas pendientes."
+        },
+        "habitability_certificate": {
+          "title": "Certificado de habitabilidad faltante",
+          "description": "Sin este certificado (\"cédula de habitabilidad\"), puede haber problemas con los servicios públicos."
+        },
+        "mortgages_registry": {
+          "title": "Hipotecas en el catastro",
+          "description": "Asegúrate de que no haya hipoteca antigua aún registrada, o que se elimine al comprar."
+        }
+      },
+      "after_purchase": {
+        "title": "Después de la compra",
+        "description": "La compra aún no está completa con la firma en el notario. Después de eso debes:",
+        "steps": {
+          "registry": "hacer registrar la propiedad en el catastro",
+          "catastro": "ajustar el catastro",
+          "ibi": "registrar el impuesto anual sobre la propiedad (IBI)",
+          "utilities": "transferir agua, electricidad, gas e internet",
+          "non_resident_tax": "posiblemente pagar el impuesto de no residente (Modelo 210), si no vives permanentemente en España"
+        },
+        "gestoria_recommendation": "Una Gestoría se encarga de todos estos pasos por una tarifa – muy recomendable si no estás en el lugar o quieres ahorrar tiempo."
+      },
+      "practical_tips": {
+        "title": "Consejos prácticos",
+        "tips": {
+          "nie_number": "Obtener número NIE: Nada funciona sin él. Cuida esto temprano.",
+          "bank_account": "Abrir cuenta bancaria española: Esencial para precio de compra, impuestos y costos adicionales.",
+          "debt_certificates": "Solicitar certificados libres de deudas: Tanto del catastro como de la asociación de propietarios.",
+          "read_contracts": "Leer Reserva y Arras cuidadosamente: Estos contratos son legalmente vinculantes – aquí se decide mucho.",
+          "plan_buffer": "Planificar suficiente margen: No solo financieramente, sino también en tiempo. Algunos registros o procedimientos administrativos toman semanas.",
+          "use_professionals": "Involucrar profesionales: Un buen agente inmobiliario, una Gestoría confiable y posiblemente un abogado te ahorrarán muchos problemas."
+        }
+      },
+      "conclusion": {
+        "title": "Conclusión",
+        "description": "Comprar una propiedad en España es un proyecto emocionante – pero no es un paseo. Con buena preparación, capital propio suficiente y los profesionales correctos a tu lado, sin embargo, el proceso transcurre sin problemas. Es importante conocer las diferencias con Alemania: pagos iniciales, diferentes formas de contrato e impuestos adicionales.",
+        "final_thought": "Si mantienes estas cosas en mente y no te dejas apresurar, puedes realizar con seguridad tu sueño de tu propia casa o apartamento en España. Y entonces solo queda lo mejor: mudarse, disfrutar la terraza, y comenzar tu nueva vida en España."
+      }
+    }
+  }
+}

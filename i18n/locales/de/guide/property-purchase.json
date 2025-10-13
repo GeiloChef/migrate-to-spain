@@ -1,0 +1,174 @@
+{
+  "guide_property_purchase": {
+    "title": "Immobilie kaufen in Spanien",
+    "description": "Der umfassende Guide zum Immobilienkauf in Spanien – von Finanzierung bis zum Schlüssel.",
+    "card": {
+      "title": "Immobilie kaufen in Spanien",
+      "description": "Umfassender Guide zum Immobilienkauf: Finanzierung, Kaufprozess, Steuern und wichtige Akteure"
+    },
+    "hero": {
+      "title": "Immobilie kaufen in Spanien – der umfassende Guide",
+      "description": "Eine Immobilie in Spanien zu kaufen ist für viele ein Traum. Sonne, Strand, ein eigenes Zuhause – ob als Ferienwohnung, Altersvorsorge oder dauerhaftes Zuhause. Doch wer den Kaufprozess nur aus Deutschland kennt, wird schnell merken: In Spanien läuft vieles anders."
+    },
+    "content": {
+      "table_of_contents": {
+        "title": "Inhaltsverzeichnis",
+        "items": {
+          "introduction": "Einleitung: Unterschiede zu Deutschland",
+          "preparation_financing": "Vorbereitung & Finanzierung",
+          "purchase_process": "Ablauf des Kaufs",
+          "key_players": "Wichtige Akteure",
+          "taxes_costs": "Steuern & Kaufnebenkosten",
+          "risks_pitfalls": "Risiken & typische Fallstricke",
+          "after_purchase": "Nach dem Kauf",
+          "practical_tips": "Praxis-Tipps",
+          "conclusion": "Fazit"
+        }
+      },
+      "introduction": {
+        "title": "Einleitung: Unterschiede zu Deutschland, worauf man sich einstellen sollte",
+        "description": "Während der Notar in Deutschland fast die gesamte rechtliche Prüfung übernimmt, ist seine Rolle in Spanien viel eingeschränkter. Auch Vorverträge, Anzahlungen und bestimmte Steuern sind hier üblich und können für deutsche Käufer ungewohnt wirken. Wer vorbereitet ist und sich auf diese Unterschiede einstellt, kann sich viel Stress ersparen und am Ende entspannt die Schlüssel zu seiner neuen Wohnung oder seinem Haus entgegennehmen."
+      },
+      "preparation_financing": {
+        "title": "Vorbereitung & Finanzierung",
+        "description": "Bevor es konkret wird, solltest du deine Finanzen realistisch einschätzen.",
+        "equity": {
+          "title": "Eigenkapital",
+          "description": "Spanische Banken finanzieren in der Regel nur etwa 60–70 % des Kaufpreises. Mindestens 30 % solltest du also selbst mitbringen."
+        },
+        "additional_costs": {
+          "title": "Nebenkosten",
+          "description": "Plane zusätzlich 10–15 % des Kaufpreises ein. Dazu gehören Steuern, Notar- und Registerkosten sowie die Gebühren einer Gestoría."
+        },
+        "mortgage": {
+          "title": "Hypothek",
+          "description": "Eine Finanzierung über deutsche Banken ist schwierig, da diese meist keine Hypotheken auf spanische Immobilien eintragen. Der übliche Weg führt also über eine spanische Bank. Dort bekommst du Darlehen mit festen, variablen oder gemischten Zinssätzen, oft mit Laufzeiten bis 30 Jahre."
+        },
+        "requirements": {
+          "title": "Voraussetzungen",
+          "description": "Banken verlangen Gehaltsnachweise oder Einkommensbelege. Als Ausländer ohne Einkommen in Spanien wird oft eine höhere Eigenkapitalquote verlangt."
+        }
+      },
+      "purchase_process": {
+        "title": "Ablauf des Kaufs",
+        "reservation": {
+          "title": "Reservierung („reserva\")",
+          "description": "Oft beginnt der Prozess mit einer Reservierung: Mit einer kleinen Summe (z. B. 1–2 % des Kaufpreises) wird das Objekt für dich vom Markt genommen. Diese Vereinbarung ist formloser, aber bereits bindend."
+        },
+        "pre_contract": {
+          "title": "Vorvertrag („contrato de arras\")",
+          "description": "Das Herzstück des spanischen Kaufprozesses ist der Vorvertrag. Hier zahlst du in der Regel 10 % des Kaufpreises an.",
+          "buyer_withdrawal": "Tritt der Käufer zurück, verfällt die Anzahlung.",
+          "seller_withdrawal": "Tritt der Verkäufer zurück, muss er die doppelte Summe zurückzahlen.",
+          "security": "Damit hast du eine starke Sicherheit, dass die Immobilie wirklich für dich reserviert bleibt."
+        },
+        "main_contract": {
+          "title": "Hauptvertrag beim Notar",
+          "description": "Der endgültige Kaufvertrag („escritura de compraventa\") wird beim Notar unterzeichnet. Dabei bringst du den Restbetrag mit – meist per Bankscheck. Der Notar prüft die Identität, die grundlegenden Unterlagen und beurkundet den Kauf. Anders als in Deutschland berät er dich aber nicht umfassend juristisch."
+        },
+        "registration": {
+          "title": "Eintragung im Grundbuch",
+          "description": "Nach der Unterzeichnung beim Notar wird die Immobilie ins Grundbuch („Registro de la Propiedad\") eingetragen. Erst mit dieser Eintragung bist du offiziell Eigentümer. Parallel dazu wird das Kataster („Catastro\") aktualisiert, in dem die Flächen- und Gebäudedaten vermerkt sind."
+        }
+      },
+      "key_players": {
+        "title": "Wichtige Akteure",
+        "notary": {
+          "title": "Notar",
+          "description": "Beurkundet den Kauf, überprüft Formalien, aber keine tiefe Rechtsprüfung."
+        },
+        "gestoria": {
+          "title": "Gestoría",
+          "description": "Sehr empfehlenswert. Sie übernimmt Behördengänge, Steuerzahlungen, Grundbuch-Eintragungen und die Anmeldung von Versorgern."
+        },
+        "registro": {
+          "title": "Registro de la Propiedad",
+          "description": "Das Grundbuchamt, dort wirst du als Eigentümer eingetragen."
+        },
+        "catastro": {
+          "title": "Catastro",
+          "description": "Führt Lagedaten, Wohnfläche, Grundstücksgrenzen – wichtig, da es hier manchmal Abweichungen zum Grundbuch gibt."
+        },
+        "bank": {
+          "title": "Bank",
+          "description": "Für Hypothek, Zahlungsabwicklung und Bankschecks unverzichtbar."
+        }
+      },
+      "taxes_costs": {
+        "title": "Steuern & Kaufnebenkosten",
+        "description": "Neben dem Kaufpreis kommen in Spanien noch einige Kosten auf dich zu:",
+        "itp": {
+          "title": "ITP (Impuesto de Transmisiones Patrimoniales)",
+          "description": "Grunderwerbsteuer für gebrauchte Immobilien, je nach Region 6–10 %."
+        },
+        "iva": {
+          "title": "IVA (Mehrwertsteuer)",
+          "description": "Bei Neubauten statt ITP, aktuell 10 %."
+        },
+        "ajd": {
+          "title": "AJD (Actos Jurídicos Documentados)",
+          "description": "Stempelsteuer auf notarielle Urkunden, meist ca. 1 %."
+        },
+        "notary_register": {
+          "title": "Notar- und Registerkosten",
+          "description": "Variieren je nach Kaufpreis, zusammen grob 0,5–1,5 %."
+        },
+        "gestoria_costs": {
+          "title": "Gestoría-Kosten",
+          "description": "ca. 300–600 €, je nach Aufwand."
+        },
+        "plusvalia": {
+          "title": "Plusvalía Municipal",
+          "description": "Gemeindesteuer auf den Bodenwertzuwachs, normalerweise vom Verkäufer zu zahlen – im Vertrag aber klar regeln!"
+        }
+      },
+      "risks_pitfalls": {
+        "title": "Risiken & typische Fallstricke",
+        "illegal_buildings": {
+          "title": "Illegale Bauten",
+          "description": "Manche Anbauten, Pools oder Dachterrassen sind nicht genehmigt. Ohne Baugenehmigung (Licencia de Obra) können hohe Nachzahlungen oder sogar Abrisse drohen."
+        },
+        "outstanding_debts": {
+          "title": "Offene Schulden",
+          "description": "In Spanien „haften\" Gemeinschaftskosten (Comunidad), Grundsteuer (IBI) oder Nebenkostenrechnungen an der Immobilie. Fordere vor dem Kauf immer Nachweise, dass keine offenen Schulden bestehen."
+        },
+        "habitability_certificate": {
+          "title": "Fehlende Bewohnbarkeitsbescheinigung",
+          "description": "Ohne diese Bescheinigung („cédula de habitabilidad\") kann es Probleme mit Versorgern geben."
+        },
+        "mortgages_registry": {
+          "title": "Hypotheken im Grundbuch",
+          "description": "Stelle sicher, dass keine alte Hypothek mehr eingetragen ist, oder dass sie beim Kauf gelöscht wird."
+        }
+      },
+      "after_purchase": {
+        "title": "Nach dem Kauf",
+        "description": "Mit der Unterschrift beim Notar ist der Kauf noch nicht abgeschlossen. Danach musst du:",
+        "steps": {
+          "registry": "die Immobilie im Grundbuch eintragen lassen",
+          "catastro": "das Kataster anpassen",
+          "ibi": "die jährliche Grundsteuer (IBI) anmelden",
+          "utilities": "Wasser, Strom, Gas und Internet ummelden",
+          "non_resident_tax": "ggf. die Nicht-Residentensteuer (Modelo 210) zahlen, falls du nicht dauerhaft in Spanien lebst"
+        },
+        "gestoria_recommendation": "Eine Gestoría kümmert sich gegen Gebühr um all diese Schritte – sehr empfehlenswert, wenn du nicht vor Ort bist oder dir Zeit sparen willst."
+      },
+      "practical_tips": {
+        "title": "Praxis-Tipps",
+        "tips": {
+          "nie_number": "NIE-Nummer besorgen: Ohne sie geht nichts. Kümmere dich frühzeitig darum.",
+          "bank_account": "Spanisches Bankkonto eröffnen: Für Kaufpreis, Steuern und Nebenkosten unerlässlich.",
+          "debt_certificates": "Schuldenfreiheitsbescheinigungen verlangen: Sowohl vom Grundbuch als auch von der Eigentümergemeinschaft.",
+          "read_contracts": "Reserva & Arras genau lesen: Diese Verträge sind rechtlich bindend – hier entscheidet sich viel.",
+          "plan_buffer": "Genug Puffer einplanen: Nicht nur finanziell, sondern auch zeitlich. Manche Eintragungen oder Behördengänge dauern Wochen.",
+          "use_professionals": "Profis einbinden: Ein guter Makler, eine zuverlässige Gestoría und ggf. ein Anwalt ersparen dir viele Probleme."
+        }
+      },
+      "conclusion": {
+        "title": "Fazit",
+        "description": "Der Kauf einer Immobilie in Spanien ist ein spannendes Projekt – aber kein Selbstläufer. Mit guter Vorbereitung, ausreichend Eigenkapital und den richtigen Fachleuten an deiner Seite läuft der Prozess jedoch reibungslos. Wichtig ist, die Unterschiede zu Deutschland zu kennen: Anzahlungen, andere Vertragsformen und zusätzliche Steuern.",
+        "final_thought": "Wenn du diese Dinge im Blick behältst und dich nicht hetzen lässt, kannst du deinen Traum vom eigenen Haus oder Apartment in Spanien sicher verwirklichen. Und dann bleibt nur noch das Beste: Einzug, Terrasse genießen, und das neue Leben in Spanien beginnen."
+      }
+    }
+  }
+}
