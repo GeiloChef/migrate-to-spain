@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#FEF3C7" stroke="#F59E0B" stroke-width="4"/>
+  
+  <!-- Shield -->
+  <path d="M100 30 L130 45 L130 85 C130 120 100 150 100 150 C100 150 70 120 70 85 L70 45 Z" fill="#3B82F6" stroke="#1E40AF" stroke-width="3"/>
+  
+  <!-- Checkmark -->
+  <path d="M85 85 L95 95 L115 75" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- House icon -->
+  <path d="M100 160 L120 145 L120 175 L80 175 L80 145 Z" fill="#EF4444" stroke="#DC2626" stroke-width="2"/>
+  <rect x="95" y="170" width="10" height="5" fill="#FFFFFF"/>
+  
+  <!-- Euro symbol -->
+  <text x="100" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#059669">€</text>
+</svg>
