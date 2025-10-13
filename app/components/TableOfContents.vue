@@ -42,7 +42,7 @@
         </div>
         <div class="w-full bg-gray-200 rounded-full h-1">
           <div 
-            class="bg-yellow-400 h-1 rounded-full transition-all duration-300"
+            class="bg-yellow-400 h-1 rounded-full transition-all duration-500 ease-out"
             :style="{ width: `${readingProgress}%` }"
           ></div>
         </div>
